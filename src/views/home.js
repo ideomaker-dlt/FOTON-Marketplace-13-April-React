@@ -96,6 +96,7 @@ const Home = (props) => {
         <div className="home-collections">
           <TrendingCarousel1 rootClassName="trending-carousel1-root-class-name"></TrendingCarousel1>
           <TrendingCarousel1 rootClassName="trending-carousel1-root-class-name2"></TrendingCarousel1>
+          <TrendingCarousel1 rootClassName="trending-carousel1-root-class-name1"></TrendingCarousel1>
         </div>
       </LayoutWithSidebar>
     </div>

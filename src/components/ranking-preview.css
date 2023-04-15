@@ -2042,6 +2042,9 @@
   .ranking-preview-text10 {
     font-size: 13px;
   }
+  .ranking-preview-categories1 {
+    padding-left: 0px;
+  }
   .ranking-preview-text11 {
     padding-top: 10px;
     border-radius: var(--dl-radius-radius-radius8);
