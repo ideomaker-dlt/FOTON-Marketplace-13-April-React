@@ -309,48 +309,24 @@ const AddCollection = (props) => {
                   </h1>
                   <span className="add-collection-text45">
                     <span>
-                      A Project is the first type of content every user has to
-                      create before adding any NFTs on the platform. Projects
-                      will nest Collections and Collections will nest individual
-                      NFTs.
-                    </span>
-                    <br className="Content"></br>
-                    <br></br>
-                    <span>
-                      Think of a Project as a recognisable Brand, Organisation
-                      or Identity for the other users to find you easier.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      Collections on FOTON are similar to folders on your PC.
+                      Until you add items inside them they are just an empty box
+                      with a name and a size limit. 
                     </span>
                     <br></br>
                     <br></br>
                     <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      After you finish defining your collection you will be able
+                      to fill it up with items in one go, or add them every now
+                      and then as it suits you best.
                     </span>
+                    <br></br>
+                    <br></br>
                     <span>
-                      Later you will be able to invite team members to
-                      collaborate or even trade the project or pass it over to
-                      someone else, if you want to work on new things.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
+                      Once you&apos;ve minted items inside the collection, its
+                      settings can&apos;t be altered anymore.
                     </span>
-                    <span>
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
+                    <br></br>
                   </span>
                 </div>
               </div>
