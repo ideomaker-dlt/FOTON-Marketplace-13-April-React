@@ -2214,6 +2214,9 @@
 
 
 @media(max-width: 991px) {
+  .ranking-list-categories {
+    padding-left: 0px;
+  }
   .ranking-list-header-table {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
