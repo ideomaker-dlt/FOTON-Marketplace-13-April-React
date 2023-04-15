@@ -10,6 +10,7 @@ import CreatorStudio from './views/creator-studio'
 import AddProject from './views/add-project'
 import Home from './views/home'
 import CreatorStudioProject from './views/creator-studio-project'
+import AddItem from './views/add-item'
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
           exact
           path="/creator-studio-project"
         />
+        <Route component={AddItem} exact path="/add-item" />
       </div>
     </Router>
   )

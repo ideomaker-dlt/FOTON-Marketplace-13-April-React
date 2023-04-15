@@ -1055,7 +1055,7 @@
   width: auto;
   height: 46px;
   display: flex;
-  transition: 0.3s;
+  transition: 0.05s;
   align-items: center;
   border-color: var(--dl-color-dark-white);
   border-style: solid;
@@ -1199,6 +1199,7 @@
   flex-direction: column;
   background-color: var(--dl-color-dark-gray-200);
 }
+
 
 
 

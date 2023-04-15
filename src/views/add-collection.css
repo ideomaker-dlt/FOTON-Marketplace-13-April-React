@@ -896,6 +896,9 @@
   .add-collection-mask-overlay {
     height: 100%;
   }
+  .add-collection-tabs-row {
+    top: 70px;
+  }
   .add-collection-navlink {
     font-size: 13px;
     font-weight: 600;
