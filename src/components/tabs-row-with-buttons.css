@@ -276,12 +276,12 @@
 }
 .tabs-row-with-buttons-dropdown-list {
   right: 0%;
-  width: max-content;
+  width: 240px;
   display: none;
   z-index: 100;
   position: absolute;
   min-width: 100%;
-  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
   transition: 0.3s;
   align-items: stretch;
   padding-top: var(--dl-space-space-halfunit);
@@ -354,12 +354,6 @@
   font-style: normal;
   font-weight: 600;
 }
-.tabs-row-with-buttons-dropdown1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: 2px;
-}
 .tabs-row-with-buttons-dropdown-toggle3 {
   fill: #595959;
   color: var(--dl-color-dark-white);
@@ -414,12 +408,6 @@
   font-style: normal;
   font-weight: 600;
 }
-.tabs-row-with-buttons-dropdown2 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: 2px;
-}
 .tabs-row-with-buttons-dropdown-toggle5 {
   fill: #595959;
   color: var(--dl-color-dark-white);
@@ -430,6 +418,7 @@
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-unit);
 }
@@ -439,6 +428,60 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .tabs-row-with-buttons-text21 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.tabs-row-with-buttons-dropdown-toggle6 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.tabs-row-with-buttons-dropdown-toggle6:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.tabs-row-with-buttons-text22 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.tabs-row-with-buttons-dropdown-toggle7 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.tabs-row-with-buttons-dropdown-toggle7:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.tabs-row-with-buttons-text23 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -478,7 +521,7 @@
   width: 24px;
   height: 24px;
 }
-.tabs-row-with-buttons-text22 {
+.tabs-row-with-buttons-text24 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -501,7 +544,10 @@
   .tabs-row-with-buttons-dropdown-list {
     right: 0%;
   }
-  .tabs-row-with-buttons-text22 {
+  .tabs-row-with-buttons-dropdown-toggle2 {
+    width: 100%;
+  }
+  .tabs-row-with-buttons-text24 {
     display: none;
   }
 }
@@ -598,6 +644,7 @@
     font-size: 13px;
   }
   .tabs-row-with-buttons-dropdown-list {
+    width: 200px;
     display: none;
   }
   .tabs-row-with-buttons-dropdown-toggle1 {
@@ -645,6 +692,24 @@
   .tabs-row-with-buttons-text21 {
     font-size: 13px;
   }
+  .tabs-row-with-buttons-dropdown-toggle6 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .tabs-row-with-buttons-text22 {
+    font-size: 13px;
+  }
+  .tabs-row-with-buttons-dropdown-toggle7 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .tabs-row-with-buttons-text23 {
+    font-size: 13px;
+  }
   .tabs-row-with-buttons-button5 {
     height: 39px;
     padding-top: 0px;
@@ -657,7 +722,7 @@
     width: 20px;
     height: 20px;
   }
-  .tabs-row-with-buttons-text22 {
+  .tabs-row-with-buttons-text24 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;

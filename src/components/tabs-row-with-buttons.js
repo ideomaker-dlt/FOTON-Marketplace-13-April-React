@@ -89,41 +89,49 @@ const TabsRowWithButtons = (props) => {
                 data-thq="thq-dropdown-toggle"
                 className="tabs-row-with-buttons-dropdown-toggle1"
               >
-                <span className="tabs-row-with-buttons-text17">Price</span>
+                <span className="tabs-row-with-buttons-text17">Name</span>
               </div>
               <div
                 data-thq="thq-dropdown-toggle"
                 className="tabs-row-with-buttons-dropdown-toggle2"
               >
-                <span className="tabs-row-with-buttons-text18">Status</span>
+                <span className="tabs-row-with-buttons-text18">
+                  Price Low to High
+                </span>
               </div>
-            </li>
-            <li
-              data-thq="thq-dropdown"
-              className="tabs-row-with-buttons-dropdown1 list-item"
-            >
               <div
                 data-thq="thq-dropdown-toggle"
                 className="tabs-row-with-buttons-dropdown-toggle3"
               >
-                <span className="tabs-row-with-buttons-text19">A to Z</span>
+                <span className="tabs-row-with-buttons-text19">
+                  Price High to Low
+                </span>
               </div>
               <div
                 data-thq="thq-dropdown-toggle"
                 className="tabs-row-with-buttons-dropdown-toggle4"
               >
-                <span className="tabs-row-with-buttons-text20">Ascending</span>
+                <span className="tabs-row-with-buttons-text20">Status</span>
               </div>
-            </li>
-            <li
-              data-thq="thq-dropdown"
-              className="tabs-row-with-buttons-dropdown2 list-item"
-            >
               <div
                 data-thq="thq-dropdown-toggle"
                 className="tabs-row-with-buttons-dropdown-toggle5"
               >
-                <span className="tabs-row-with-buttons-text21">Descending</span>
+                <span className="tabs-row-with-buttons-text21">Most Rare</span>
+              </div>
+              <div
+                data-thq="thq-dropdown-toggle"
+                className="tabs-row-with-buttons-dropdown-toggle6"
+              >
+                <span className="tabs-row-with-buttons-text22">
+                  Newest Listed
+                </span>
+              </div>
+              <div
+                data-thq="thq-dropdown-toggle"
+                className="tabs-row-with-buttons-dropdown-toggle7"
+              >
+                <span className="tabs-row-with-buttons-text23">Oldest</span>
               </div>
             </li>
           </ul>
@@ -132,7 +140,7 @@ const TabsRowWithButtons = (props) => {
           <svg viewBox="0 0 1024 1024" className="tabs-row-with-buttons-icon6">
             <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
           </svg>
-          <span className="tabs-row-with-buttons-text22">
+          <span className="tabs-row-with-buttons-text24">
             <span>Select All</span>
             <br></br>
           </span>
