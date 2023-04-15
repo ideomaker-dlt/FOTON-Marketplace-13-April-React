@@ -1,0 +1,8 @@
+.trending-carousel11-trending-carousel1 {
+  width: 100%;
+  display: flex;
+  z-index: 500;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
