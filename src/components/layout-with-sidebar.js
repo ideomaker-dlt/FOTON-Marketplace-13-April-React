@@ -195,21 +195,25 @@ input[type="search"]::-webkit-search-results-decoration {
                       </span>
                       <span className="layout-with-sidebar-text07">Drops</span>
                     </div>
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle02"
-                    >
-                      <span className="layout-with-sidebar-text08 material-symbols-outlined">
-                        insights
-                      </span>
-                      <span className="layout-with-sidebar-text09">Stats</span>
-                    </div>
+                    <Link to="/stats" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-dropdown-toggle02"
+                      >
+                        <span className="layout-with-sidebar-text08 material-symbols-outlined">
+                          insights
+                        </span>
+                        <span className="layout-with-sidebar-text09">
+                          Stats
+                        </span>
+                      </div>
+                    </Link>
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="layout-with-sidebar-dropdown-toggle03"
                     >
                       <span className="layout-with-sidebar-text10 material-symbols-outlined">
-                        manage_accounts
+                        grid_view
                       </span>
                       <span className="layout-with-sidebar-text11">More</span>
                     </div>
