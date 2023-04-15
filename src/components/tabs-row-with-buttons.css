@@ -62,7 +62,7 @@
   display: flex;
   font-size: 14px;
   font-style: normal;
-  transition: 0.3s;
+  transition: 0.05s;
   align-items: center;
   font-family: Poppins;
   font-weight: 500;
@@ -496,7 +496,7 @@
   display: flex;
   font-size: 14px;
   font-style: normal;
-  transition: 0.3s;
+  transition: 0.05s;
   align-items: center;
   font-family: Poppins;
   font-weight: 500;
