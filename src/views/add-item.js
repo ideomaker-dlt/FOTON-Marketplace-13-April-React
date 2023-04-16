@@ -51,7 +51,9 @@ const AddItem = (props) => {
             <div className="add-item-card">
               <form className="add-item-form">
                 <div className="add-item-field">
-                  <label className="add-item-text02 Content">Name Item:</label>
+                  <label className="add-item-text02 Content padding-4px-left">
+                    Name Item:
+                  </label>
                   <input
                     type="text"
                     enctype="The Funky Apes Crew..."
@@ -60,7 +62,7 @@ const AddItem = (props) => {
                   />
                 </div>
                 <div className="add-item-area">
-                  <label className="add-item-text03">
+                  <label className="add-item-text03 padding-4px-left">
                     Description in max 250 characters (Appears in Items
                     Metadata):
                   </label>
@@ -70,7 +72,7 @@ const AddItem = (props) => {
                   ></textarea>
                 </div>
                 <div className="add-item-field-image">
-                  <label className="add-item-text04">
+                  <label className="add-item-text04 padding-4px-left">
                     Image file: JPG, PNG, GIF, SVG.
                   </label>
                   <div className="add-item-container05">
@@ -90,7 +92,7 @@ const AddItem = (props) => {
                       <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
                     </svg>
                   </div>
-                  <label className="add-item-text05">
+                  <label className="add-item-text05 padding-4px-left">
                     Select the way the image is displayed within the frame:
                   </label>
                   <div className="add-item-container07">
@@ -135,7 +137,7 @@ const AddItem = (props) => {
                 </div>
                 <div className="add-item-field1">
                   <div className="add-item-container09">
-                    <label className="add-item-text12">
+                    <label className="add-item-text12 padding-4px-left">
                       <span className="Content">Attributes:</span>
                       <br className="Content"></br>
                       <span className="add-item-text15">
@@ -215,7 +217,7 @@ const AddItem = (props) => {
                   </div>
                 </div>
                 <div className="add-item-tags">
-                  <label className="add-item-text25">
+                  <label className="add-item-text25 padding-4px-left">
                     Select one or more categories for your item:
                   </label>
                   <div className="add-item-container13">

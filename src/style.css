@@ -211,6 +211,20 @@
   outline-width: 2px;
   outline-offset: 0;
 }
+.padding-4px-left {
+  padding-left: 4px;
+}
+
+.tab-item-step:hover {
+  border-color: var(--dl-color-dark-green-200);
+}
+.tab-item-step:active {
+  color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-green-200);
+}
+.fill-color {
+  fill: var(--dl-color-dark-white);
+}
 .Content16SemiBold {
   font-size: 16px;
   font-family: Poppins;

@@ -51,7 +51,7 @@ const AddProject = (props) => {
             <div className="add-project-card">
               <form className="add-project-form">
                 <div className="add-project-field">
-                  <label className="add-project-text02 Content">
+                  <label className="add-project-text02 Content padding-4px-left">
                     Name Project:
                   </label>
                   <input
@@ -61,7 +61,7 @@ const AddProject = (props) => {
                   />
                 </div>
                 <div className="add-project-area">
-                  <label className="add-project-text03">
+                  <label className="add-project-text03 padding-4px-left">
                     Description in max 250 characters:
                   </label>
                   <textarea
@@ -70,7 +70,7 @@ const AddProject = (props) => {
                   ></textarea>
                 </div>
                 <div className="add-project-area1">
-                  <label className="add-project-text04">
+                  <label className="add-project-text04 padding-4px-left">
                     Long Description in max 1500 characters:
                   </label>
                   <textarea
@@ -79,7 +79,7 @@ const AddProject = (props) => {
                   ></textarea>
                 </div>
                 <div className="add-project-field-image">
-                  <label className="add-project-text05">
+                  <label className="add-project-text05 padding-4px-left">
                     Logo/Avatar image 1:1 ratio max 500 x 500px:
                   </label>
                   <div className="add-project-container05">
@@ -101,7 +101,7 @@ const AddProject = (props) => {
                   </div>
                 </div>
                 <div className="add-project-field-image1">
-                  <label className="add-project-text06">
+                  <label className="add-project-text06 padding-4px-left">
                     Banner image 3:2 ratio. Ex. 3000 x 2000px:
                   </label>
                   <div className="add-project-container07">
@@ -126,7 +126,7 @@ const AddProject = (props) => {
                   </div>
                 </div>
                 <div className="add-project-tags">
-                  <label className="add-project-text07">
+                  <label className="add-project-text07 padding-4px-left">
                     Select some tags close to your projects&apos; domain of
                     activity:
                   </label>

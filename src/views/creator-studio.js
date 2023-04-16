@@ -52,19 +52,13 @@ const CreatorStudio = (props) => {
                   <br></br>
                 </span>
               </Link>
-              <button className="creator-studio-button button">
-                <span className="creator-studio-text07">
-                  <span>Info</span>
-                  <br></br>
-                </span>
-              </button>
             </div>
           </div>
           <div className="creator-studio-gray-overlay"></div>
         </div>
         <div className="creator-studio-tabs-row">
           <div className="creator-studio-container05">
-            <span className="creator-studio-text10">My Projects</span>
+            <span className="creator-studio-text07">My Projects</span>
           </div>
         </div>
         <div className="creator-studio-projects-container">
@@ -83,15 +77,15 @@ const CreatorStudio = (props) => {
                 </div>
                 <div className="creator-studio-container08">
                   <div className="creator-studio-container09">
-                    <h1 className="creator-studio-text11 Smallest">
+                    <h1 className="creator-studio-text08 Smallest">
                       <span>Role: Admin</span>
                       <br></br>
                     </h1>
                   </div>
-                  <h1 className="creator-studio-text14 Heading3">
+                  <h1 className="creator-studio-text11 Heading3">
                     Project One
                   </h1>
-                  <h1 className="creator-studio-text15 Content">
+                  <h1 className="creator-studio-text12 Content">
                     <span>2 Collections, 1500 Items</span>
                     <br></br>
                   </h1>
@@ -111,13 +105,13 @@ const CreatorStudio = (props) => {
               </div>
               <div className="creator-studio-container11">
                 <div className="creator-studio-container12">
-                  <h1 className="creator-studio-text18 Smallest">
+                  <h1 className="creator-studio-text15 Smallest">
                     <span>Role: Admin</span>
                     <br></br>
                   </h1>
                 </div>
-                <h1 className="creator-studio-text21 Heading3">Project One</h1>
-                <h1 className="creator-studio-text22 Content">
+                <h1 className="creator-studio-text18 Heading3">Project One</h1>
+                <h1 className="creator-studio-text19 Content">
                   <span>2 Collections, 1500 Items</span>
                   <br></br>
                 </h1>
@@ -136,13 +130,13 @@ const CreatorStudio = (props) => {
               </div>
               <div className="creator-studio-container14">
                 <div className="creator-studio-container15">
-                  <h1 className="creator-studio-text25 Smallest">
+                  <h1 className="creator-studio-text22 Smallest">
                     <span>Role: Admin</span>
                     <br></br>
                   </h1>
                 </div>
-                <h1 className="creator-studio-text28 Heading3">Project One</h1>
-                <h1 className="creator-studio-text29 Content">
+                <h1 className="creator-studio-text25 Heading3">Project One</h1>
+                <h1 className="creator-studio-text26 Content">
                   <span>2 Collections, 1500 Items</span>
                   <br></br>
                 </h1>
@@ -161,13 +155,13 @@ const CreatorStudio = (props) => {
               </div>
               <div className="creator-studio-container17">
                 <div className="creator-studio-container18">
-                  <h1 className="creator-studio-text32 Smallest">
+                  <h1 className="creator-studio-text29 Smallest">
                     <span>Role: Admin</span>
                     <br></br>
                   </h1>
                 </div>
-                <h1 className="creator-studio-text35 Heading3">Project One</h1>
-                <h1 className="creator-studio-text36 Content">
+                <h1 className="creator-studio-text32 Heading3">Project One</h1>
+                <h1 className="creator-studio-text33 Content">
                   <span>2 Collections, 1500 Items</span>
                   <br></br>
                 </h1>
@@ -186,13 +180,13 @@ const CreatorStudio = (props) => {
               </div>
               <div className="creator-studio-container20">
                 <div className="creator-studio-container21">
-                  <h1 className="creator-studio-text39 Smallest">
+                  <h1 className="creator-studio-text36 Smallest">
                     <span>Role: Admin</span>
                     <br></br>
                   </h1>
                 </div>
-                <h1 className="creator-studio-text42 Heading3">Project One</h1>
-                <h1 className="creator-studio-text43 Content">
+                <h1 className="creator-studio-text39 Heading3">Project One</h1>
+                <h1 className="creator-studio-text40 Content">
                   <span>2 Collections, 1500 Items</span>
                   <br></br>
                 </h1>
@@ -202,7 +196,7 @@ const CreatorStudio = (props) => {
         </div>
         <div className="creator-studio-tabs-row1">
           <div className="creator-studio-container22">
-            <span className="creator-studio-text46">Resources</span>
+            <span className="creator-studio-text43">Resources</span>
           </div>
         </div>
         <div className="creator-studio-resources">
@@ -211,15 +205,15 @@ const CreatorStudio = (props) => {
               <div className="creator-studio-item">
                 <div className="creator-studio-container24">
                   <div className="creator-studio-container25">
-                    <h1 className="creator-studio-text47 Smallest">
+                    <h1 className="creator-studio-text44 Smallest">
                       <span>By FOTON</span>
                       <br></br>
                     </h1>
                   </div>
-                  <h1 className="creator-studio-text50 Heading3">
+                  <h1 className="creator-studio-text47 Heading3">
                     Introduction Video
                   </h1>
-                  <h1 className="creator-studio-text51 Content">
+                  <h1 className="creator-studio-text48 Content">
                     <span>Watch how the platform works</span>
                     <br></br>
                   </h1>
@@ -230,15 +224,15 @@ const CreatorStudio = (props) => {
               <div className="creator-studio-item1">
                 <div className="creator-studio-container26">
                   <div className="creator-studio-container27">
-                    <h1 className="creator-studio-text54 Smallest">
+                    <h1 className="creator-studio-text51 Smallest">
                       <span>By FOTON</span>
                       <br></br>
                     </h1>
                   </div>
-                  <h1 className="creator-studio-text57 Heading3">
+                  <h1 className="creator-studio-text54 Heading3">
                     What are NFTs?
                   </h1>
-                  <h1 className="creator-studio-text58 Content">
+                  <h1 className="creator-studio-text55 Content">
                     <span>Short intro</span>
                     <br></br>
                   </h1>
@@ -249,13 +243,13 @@ const CreatorStudio = (props) => {
               <div className="creator-studio-item2">
                 <div className="creator-studio-container28">
                   <div className="creator-studio-container29">
-                    <h1 className="creator-studio-text61 Smallest">
+                    <h1 className="creator-studio-text58 Smallest">
                       <span>By FOTON</span>
                       <br></br>
                     </h1>
                   </div>
-                  <h1 className="creator-studio-text64 Heading3">Guide Book</h1>
-                  <h1 className="creator-studio-text65 Content">
+                  <h1 className="creator-studio-text61 Heading3">Guide Book</h1>
+                  <h1 className="creator-studio-text62 Content">
                     <span>FAQ and more</span>
                     <br></br>
                   </h1>
