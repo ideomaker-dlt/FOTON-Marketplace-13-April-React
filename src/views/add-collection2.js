@@ -662,7 +662,7 @@ const AddCollection2 = (props) => {
                 <input
                   type="text"
                   enctype="The Funky Apes Crew..."
-                  placeholder="Image Name..."
+                  placeholder="Treat Name...Blue..."
                   className="add-collection2-textinput03 focus-reset-forms Content16SemiBold input"
                 />
               </div>
@@ -684,7 +684,7 @@ const AddCollection2 = (props) => {
                 <input
                   type="text"
                   enctype="The Funky Apes Crew..."
-                  placeholder="Image Name..."
+                  placeholder="Treat Name...Blue..."
                   className="add-collection2-textinput05 focus-reset-forms Content16SemiBold input"
                 />
               </div>
@@ -706,7 +706,7 @@ const AddCollection2 = (props) => {
                 <input
                   type="text"
                   enctype="The Funky Apes Crew..."
-                  placeholder="Image Name..."
+                  placeholder="Treat Name...Blue..."
                   className="add-collection2-textinput07 focus-reset-forms Content16SemiBold input"
                 />
               </div>
@@ -728,7 +728,7 @@ const AddCollection2 = (props) => {
                 <input
                   type="text"
                   enctype="The Funky Apes Crew..."
-                  placeholder="Image Name..."
+                  placeholder="Treat Name...Blue..."
                   className="add-collection2-textinput09 focus-reset-forms Content16SemiBold input"
                 />
               </div>
@@ -750,7 +750,7 @@ const AddCollection2 = (props) => {
                 <input
                   type="text"
                   enctype="The Funky Apes Crew..."
-                  placeholder="Image Name..."
+                  placeholder="Treat Name...Blue..."
                   className="add-collection2-textinput11 focus-reset-forms Content16SemiBold input"
                 />
               </div>
