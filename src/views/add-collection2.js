@@ -539,7 +539,10 @@ const AddCollection2 = (props) => {
             </div>
             <div className="add-collection2-tabs-row2">
               <div className="add-collection2-container35">
-                <Link to="/creator-studio" className="add-collection2-navlink1">
+                <Link
+                  to="/add-collection2"
+                  className="add-collection2-navlink1"
+                >
                   &lt; go back
                 </Link>
                 <span className="add-collection2-text083">
@@ -764,6 +767,14 @@ const AddCollection2 = (props) => {
                 placeholder="47%..."
                 className="add-collection2-textinput12 focus-reset-forms Content16SemiBold input"
               />
+            </div>
+            <div className="add-collection2-container46">
+              <svg
+                viewBox="0 0 1024 1024"
+                className="add-collection2-icon34 fill-color-white"
+              >
+                <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+              </svg>
             </div>
           </div>
         </div>

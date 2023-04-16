@@ -1660,8 +1660,8 @@
   bottom: 660px;
   height: 100vh;
   display: flex;
-  z-index: 1000;
-  position: absolute;
+  z-index: 100000;
+  position: fixed;
   align-items: center;
   flex-direction: row;
   justify-content: center;
@@ -1673,8 +1673,9 @@
   height: 80%;
   display: flex;
   padding: var(--dl-space-space-twounits);
+  position: relative;
   box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.2);
-  overflow-y: scroll;
+  overflow-y: auto;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-style: solid;
@@ -2481,6 +2482,29 @@
 .add-collection2-textinput12:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
+}
+.add-collection2-container46 {
+  top: 0px;
+  flex: 0 0 auto;
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  align-items: center;
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.add-collection2-container46:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.add-collection2-icon34 {
+  width: 24px;
+  height: 24px;
 }
 @media(max-width: 1200px) {
   .add-collection2-tabs-row1 {

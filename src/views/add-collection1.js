@@ -59,7 +59,7 @@ const AddCollection1 = (props) => {
                   <br></br>
                 </span>
               </button>
-              <button type="button" className="add-collection1-button01">
+              <Link to="/add-collection2" className="add-collection1-navlink1">
                 <svg
                   viewBox="0 0 1024 1024"
                   className="add-collection1-icon02 fill-color-white"
@@ -70,8 +70,8 @@ const AddCollection1 = (props) => {
                   <span>Organise</span>
                   <br></br>
                 </span>
-              </button>
-              <button type="button" className="add-collection1-button02">
+              </Link>
+              <button type="button" className="add-collection1-button01">
                 <svg
                   viewBox="0 0 1024 1024"
                   className="add-collection1-icon04 fill-color-white"
@@ -83,7 +83,7 @@ const AddCollection1 = (props) => {
                   <br></br>
                 </span>
               </button>
-              <button type="button" className="add-collection1-button03">
+              <button type="button" className="add-collection1-button02">
                 <svg
                   viewBox="0 0 1024 1024"
                   className="add-collection1-icon06 fill-color-white"
@@ -244,7 +244,7 @@ const AddCollection1 = (props) => {
                       placeholder="Upload image..."
                       className="add-collection1-textinput3 focus-reset-forms input Content16SemiBold"
                     />
-                    <button className="add-collection1-button04 button Content16SemiBold">
+                    <button className="add-collection1-button03 button Content16SemiBold">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="add-collection1-icon12"
@@ -273,7 +273,7 @@ const AddCollection1 = (props) => {
                       placeholder="Upload image..."
                       className="add-collection1-textinput4 focus-reset-forms Content16SemiBold input"
                     />
-                    <button className="add-collection1-button05 button Content16SemiBold">
+                    <button className="add-collection1-button04 button Content16SemiBold">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="add-collection1-icon16"
@@ -302,7 +302,7 @@ const AddCollection1 = (props) => {
                       placeholder="Upload image..."
                       className="add-collection1-textinput5 focus-reset-forms Content16SemiBold input"
                     />
-                    <button className="add-collection1-button06 button Content16SemiBold">
+                    <button className="add-collection1-button05 button Content16SemiBold">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="add-collection1-icon20"
@@ -327,7 +327,7 @@ const AddCollection1 = (props) => {
                   <div className="add-collection1-container18">
                     <button
                       type="button"
-                      className="add-collection1-button07 button Content16SemiBold"
+                      className="add-collection1-button06 button Content16SemiBold"
                     >
                       <span className="add-collection1-text39">
                         <span>Avatars</span>
@@ -336,7 +336,7 @@ const AddCollection1 = (props) => {
                     </button>
                     <button
                       type="button"
-                      className="add-collection1-button08 button Content16SemiBold"
+                      className="add-collection1-button07 button Content16SemiBold"
                     >
                       <span className="add-collection1-text42">
                         <span>Art</span>
@@ -345,7 +345,7 @@ const AddCollection1 = (props) => {
                     </button>
                     <button
                       type="button"
-                      className="add-collection1-button09 button Content16SemiBold"
+                      className="add-collection1-button08 button Content16SemiBold"
                     >
                       <span className="add-collection1-text45">
                         <span>Gaming</span>
@@ -354,7 +354,7 @@ const AddCollection1 = (props) => {
                     </button>
                     <button
                       type="button"
-                      className="add-collection1-button10 Content16SemiBold button"
+                      className="add-collection1-button09 Content16SemiBold button"
                     >
                       <span className="add-collection1-text48">
                         <span>Memberships</span>
@@ -363,7 +363,7 @@ const AddCollection1 = (props) => {
                     </button>
                     <button
                       type="button"
-                      className="add-collection1-button11 Content16SemiBold button"
+                      className="add-collection1-button10 Content16SemiBold button"
                     >
                       <span className="add-collection1-text51">
                         <span>Tickets</span>
@@ -372,7 +372,7 @@ const AddCollection1 = (props) => {
                     </button>
                     <button
                       type="button"
-                      className="add-collection1-button12 button Content16SemiBold"
+                      className="add-collection1-button11 button Content16SemiBold"
                     >
                       <span className="add-collection1-text54">
                         <span>Music</span>
@@ -381,7 +381,7 @@ const AddCollection1 = (props) => {
                     </button>
                     <button
                       type="button"
-                      className="add-collection1-button13 button Content16SemiBold"
+                      className="add-collection1-button12 button Content16SemiBold"
                     >
                       <span className="add-collection1-text57">
                         <span>Video</span>
@@ -390,7 +390,7 @@ const AddCollection1 = (props) => {
                     </button>
                     <button
                       type="button"
-                      className="add-collection1-button14 button Content16SemiBold"
+                      className="add-collection1-button13 button Content16SemiBold"
                     >
                       <span className="add-collection1-text60">
                         <span>Other</span>
@@ -400,13 +400,16 @@ const AddCollection1 = (props) => {
                   </div>
                 </div>
                 <div className="add-collection1-bottom-buttons">
-                  <button className="add-collection1-button15 button">
+                  <button className="add-collection1-button14 button">
                     <span className="add-collection1-text63">
                       <span>Save Draft</span>
                       <br></br>
                     </span>
                   </button>
-                  <button className="add-collection1-button16 button">
+                  <Link
+                    to="/add-collection2"
+                    className="add-collection1-navlink2 button"
+                  >
                     <span className="add-collection1-text66">
                       <span>Create Collection</span>
                       <br></br>
@@ -417,7 +420,7 @@ const AddCollection1 = (props) => {
                     >
                       <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                     </svg>
-                  </button>
+                  </Link>
                 </div>
               </form>
               <div className="add-collection1-info-box">
