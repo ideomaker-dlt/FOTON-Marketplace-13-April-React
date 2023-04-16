@@ -137,7 +137,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 16px;
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius12);
@@ -146,13 +146,14 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-200);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-button:hover {
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-button:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-icon {
   width: 24px;
@@ -191,7 +192,8 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-navlink1:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-icon02 {
   width: 24px;
@@ -230,7 +232,8 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-button01:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-icon04 {
   width: 24px;
@@ -269,7 +272,8 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-button02:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection1-icon06 {
   width: 24px;
