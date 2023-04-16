@@ -137,7 +137,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 16px;
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius12);
@@ -146,13 +146,14 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-200);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-button:hover {
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-button:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-icon {
   width: 24px;
@@ -191,7 +192,8 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-button01:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-icon02 {
   width: 24px;
@@ -230,7 +232,8 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-button02:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-icon04 {
   width: 24px;
@@ -269,7 +272,8 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-button03:active {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-icon06 {
   width: 24px;
@@ -677,7 +681,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 16px;
-  border-color: var(--dl-color-dark-gray-400);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius12);
@@ -686,7 +690,7 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-370);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-button08:hover {
   background-color: var(--dl-color-dark-gray-360);
@@ -713,7 +717,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 16px;
-  border-color: var(--dl-color-dark-gray-400);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius12);
@@ -722,7 +726,7 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-370);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-button09:hover {
   background-color: var(--dl-color-dark-gray-360);
@@ -788,6 +792,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -796,7 +801,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item1:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header {
   flex: 0 0 auto;
@@ -807,7 +812,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -883,6 +888,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -891,7 +897,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item11:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header1 {
   flex: 0 0 auto;
@@ -902,7 +908,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -978,6 +984,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -986,7 +993,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item12:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header2 {
   flex: 0 0 auto;
@@ -997,7 +1004,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -1073,6 +1080,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -1081,7 +1089,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item13:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header3 {
   flex: 0 0 auto;
@@ -1092,7 +1100,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -1168,6 +1176,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -1176,7 +1185,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item14:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header4 {
   flex: 0 0 auto;
@@ -1187,7 +1196,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -1263,6 +1272,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -1271,7 +1281,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item15:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header5 {
   flex: 0 0 auto;
@@ -1282,7 +1292,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -1358,6 +1368,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -1366,7 +1377,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item16:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header6 {
   flex: 0 0 auto;
@@ -1377,7 +1388,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -1453,6 +1464,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -1461,7 +1473,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item17:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header7 {
   flex: 0 0 auto;
@@ -1472,7 +1484,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
@@ -1548,6 +1560,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  transition: 0.05s;
   align-items: flex-start;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 2px;
@@ -1556,7 +1569,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-item18:hover {
-  border-color: var(--dl-color-dark-green-200);
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .add-collection2-image-header8 {
   flex: 0 0 auto;
@@ -1567,7 +1580,7 @@
   aspect-ratio: 1/1;
   border-color: var(--dl-color-dark-gray-360);
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 7px;
   background-size: cover;
   justify-content: flex-end;
   background-image: url("/playground_assets/vlad__foton.is__radix.stream_isometric_tile_with_rts_game_like__a0871e9c-34d4-42d0-a1c6-0fb4288d0a1e-1500w.png");
