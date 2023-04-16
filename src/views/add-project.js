@@ -80,7 +80,7 @@ const AddProject = (props) => {
                 </div>
                 <div className="add-project-field-image">
                   <label className="add-project-text05">
-                    Logo/Avatar image 1:1 ratio max 500x500px:
+                    Logo/Avatar image 1:1 ratio max 500 x 500px:
                   </label>
                   <div className="add-project-container05">
                     <input
@@ -102,7 +102,7 @@ const AddProject = (props) => {
                 </div>
                 <div className="add-project-field-image1">
                   <label className="add-project-text06">
-                    Banner image 3:2 ratio. Ex. 3000x2000px:
+                    Banner image 3:2 ratio. Ex. 3000 x 2000px:
                   </label>
                   <div className="add-project-container07">
                     <input
