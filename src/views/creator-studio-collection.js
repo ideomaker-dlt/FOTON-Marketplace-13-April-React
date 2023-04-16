@@ -57,7 +57,7 @@ const CreatorStudioCollection = (props) => {
             </div>
             <div className="creator-studio-collection-buttons">
               <Link
-                to="/add-item"
+                to="/add-items-selector"
                 className="creator-studio-collection-navlink button"
               >
                 <span className="creator-studio-collection-text07">

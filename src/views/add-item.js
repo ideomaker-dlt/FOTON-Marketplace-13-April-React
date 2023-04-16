@@ -51,7 +51,7 @@ const AddItem = (props) => {
             <div className="add-item-card">
               <form className="add-item-form">
                 <div className="add-item-field">
-                  <label className="add-item-text02 Content padding-4px-left">
+                  <label className="add-item-text02 padding-4px-left Content">
                     Name Item:
                   </label>
                   <input
@@ -137,18 +137,11 @@ const AddItem = (props) => {
                 </div>
                 <div className="add-item-field1">
                   <div className="add-item-container09">
-                    <label className="add-item-text12 padding-4px-left">
-                      <span className="Content">Attributes:</span>
-                      <br className="Content"></br>
-                      <span className="add-item-text15">
-                        Exist as metadata and are displayed as text.
-                      </span>
-                    </label>
                     <button className="add-item-button03 button Content16SemiBold">
                       <svg viewBox="0 0 1024 1024" className="add-item-icon04">
                         <path d="M726 554v-84h-172v-172h-84v172h-172v84h172v172h84v-172h172zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                       </svg>
-                      <span className="add-item-text16">
+                      <span className="add-item-text12">
                         <span>
                           Add
                           <span
@@ -182,7 +175,7 @@ const AddItem = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-item-text19">
+                        <span className="add-item-text15">
                           <span>Remove</span>
                           <br></br>
                         </span>
@@ -208,7 +201,7 @@ const AddItem = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-item-text22">
+                        <span className="add-item-text18">
                           <span>Remove</span>
                           <br></br>
                         </span>
@@ -217,7 +210,7 @@ const AddItem = (props) => {
                   </div>
                 </div>
                 <div className="add-item-tags">
-                  <label className="add-item-text25 padding-4px-left">
+                  <label className="add-item-text21 padding-4px-left">
                     Select one or more categories for your item:
                   </label>
                   <div className="add-item-container13">
@@ -225,7 +218,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button06 button Content16SemiBold"
                     >
-                      <span className="add-item-text26">
+                      <span className="add-item-text22">
                         <span>Avatars</span>
                         <br></br>
                       </span>
@@ -234,7 +227,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button07 button Content16SemiBold"
                     >
-                      <span className="add-item-text29">
+                      <span className="add-item-text25">
                         <span>Art</span>
                         <br></br>
                       </span>
@@ -243,7 +236,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button08 button Content16SemiBold"
                     >
-                      <span className="add-item-text32">
+                      <span className="add-item-text28">
                         <span>Gaming</span>
                         <br></br>
                       </span>
@@ -252,7 +245,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button09 button Content16SemiBold"
                     >
-                      <span className="add-item-text35">
+                      <span className="add-item-text31">
                         <span>Memberships</span>
                         <br></br>
                       </span>
@@ -261,7 +254,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button10 button Content16SemiBold"
                     >
-                      <span className="add-item-text38">
+                      <span className="add-item-text34">
                         <span>Tickets</span>
                         <br></br>
                       </span>
@@ -270,7 +263,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button11 button Content16SemiBold"
                     >
-                      <span className="add-item-text41">
+                      <span className="add-item-text37">
                         <span>Music</span>
                         <br></br>
                       </span>
@@ -279,7 +272,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button12 button Content16SemiBold"
                     >
-                      <span className="add-item-text44">
+                      <span className="add-item-text40">
                         <span>Video</span>
                         <br></br>
                       </span>
@@ -288,7 +281,7 @@ const AddItem = (props) => {
                       type="button"
                       className="add-item-button13 button Content16SemiBold"
                     >
-                      <span className="add-item-text47">
+                      <span className="add-item-text43">
                         <span>Other</span>
                         <br></br>
                       </span>
@@ -297,13 +290,13 @@ const AddItem = (props) => {
                 </div>
                 <div className="add-item-bottom-buttons">
                   <button className="add-item-button14 button">
-                    <span className="add-item-text50">
+                    <span className="add-item-text46">
                       <span>Save Draft</span>
                       <br></br>
                     </span>
                   </button>
                   <button className="add-item-button15 button">
-                    <span className="add-item-text53">
+                    <span className="add-item-text49">
                       <span>Preview Item</span>
                       <br></br>
                     </span>
@@ -315,11 +308,11 @@ const AddItem = (props) => {
               </form>
               <div className="add-item-info-box">
                 <div className="add-item-container14">
-                  <h1 className="add-item-text56 Content18">
+                  <h1 className="add-item-text52 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="add-item-text59">
+                  <span className="add-item-text55">
                     <span>
                       Items can exist on their own within a Project or be placed
                       within a Collection. In both cases, once an Item is

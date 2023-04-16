@@ -54,7 +54,7 @@ const CreatorStudioProject = (props) => {
             </div>
             <div className="creator-studio-project-buttons">
               <Link
-                to="/add-collection"
+                to="/add-collection1"
                 className="creator-studio-project-navlink button"
               >
                 <span className="creator-studio-project-text04">
@@ -63,7 +63,7 @@ const CreatorStudioProject = (props) => {
                 </span>
               </Link>
               <Link
-                to="/add-item"
+                to="/add-items-selector"
                 className="creator-studio-project-navlink1 button"
               >
                 <span className="creator-studio-project-text07">

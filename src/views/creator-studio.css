@@ -112,14 +112,14 @@
   text-align: center;
   transition: 0;
   font-weight: 600;
-  padding-top: 13px;
+  padding-top: 11px;
   border-color: var(--dl-color-dark-purplelight);
   border-width: 2px;
   padding-left: var(--dl-space-space-twounits);
   align-content: center;
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: var(--dl-space-space-twounits);
-  padding-bottom: 13px;
+  padding-bottom: 11px;
   text-decoration: none;
   background-color: var(--dl-color-dark-purpledarkbg);
 }

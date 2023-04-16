@@ -215,15 +215,18 @@
   padding-left: 4px;
 }
 
-.tab-item-step:hover {
-  border-color: var(--dl-color-dark-green-200);
-}
 .tab-item-step:active {
   color: var(--dl-color-dark-green-200);
   border-color: var(--dl-color-dark-green-200);
 }
-.fill-color {
+.tab-item-step:hover {
+  border-color: var(--dl-color-dark-green-200);
+}
+.fill-color-white {
   fill: var(--dl-color-dark-white);
+}
+.fill-color-gray {
+  fill: var(--dl-color-dark-gray-400);
 }
 .Content16SemiBold {
   font-size: 16px;
@@ -354,6 +357,10 @@
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .padding-4px-left {
+    font-size: 13px;
+    line-height: 1.3;
   }
 }
 @media(max-width: 479px) {

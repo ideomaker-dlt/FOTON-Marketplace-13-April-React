@@ -51,7 +51,7 @@ const AddProject = (props) => {
             <div className="add-project-card">
               <form className="add-project-form">
                 <div className="add-project-field">
-                  <label className="add-project-text02 Content padding-4px-left">
+                  <label className="add-project-text02 padding-4px-left Content">
                     Name Project:
                   </label>
                   <input

@@ -157,12 +157,12 @@
   display: flex;
   align-self: flex-end;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-sixunits);
+  padding-top: var(--dl-space-space-threeunits);
   padding-left: var(--dl-space-space-twounits);
   border-radius: var(--dl-radius-radius-radius12);
   padding-right: var(--dl-space-space-twounits);
   flex-direction: row;
-  padding-bottom: var(--dl-space-space-sixunits);
+  padding-bottom: var(--dl-space-space-threeunits);
   justify-content: flex-start;
   background-color: var(--dl-color-dark-gray-250);
 }
@@ -389,18 +389,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.add-item-text12 {
-  color: var(--dl-color-dark-white);
-  font-size: 16px;
-  font-family: Poppins;
-  font-weight: 400;
-  line-height: 1.15;
-  text-transform: none;
-  text-decoration: none;
-}
-.add-item-text15 {
-  color: var(--dl-color-dark-gray-400);
-}
 .add-item-button03 {
   gap: 8px;
   color: var(--dl-color-dark-white);
@@ -427,7 +415,7 @@
   width: 24px;
   height: 24px;
 }
-.add-item-text16 {
+.add-item-text12 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -505,7 +493,7 @@
   width: 24px;
   height: 24px;
 }
-.add-item-text19 {
+.add-item-text15 {
   color: var(--dl-color-dark-gray-400);
   font-size: 16px;
   font-style: normal;
@@ -578,7 +566,7 @@
   width: 24px;
   height: 24px;
 }
-.add-item-text22 {
+.add-item-text18 {
   color: var(--dl-color-dark-gray-400);
   font-size: 16px;
   font-style: normal;
@@ -590,7 +578,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.add-item-text25 {
+.add-item-text21 {
   color: var(--dl-color-dark-white);
 }
 .add-item-container13 {
@@ -623,7 +611,7 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 
-.add-item-text26 {
+.add-item-text22 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -650,7 +638,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.add-item-text29 {
+.add-item-text25 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -677,7 +665,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.add-item-text32 {
+.add-item-text28 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -704,7 +692,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.add-item-text35 {
+.add-item-text31 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -731,7 +719,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.add-item-text38 {
+.add-item-text34 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -758,7 +746,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.add-item-text41 {
+.add-item-text37 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -785,7 +773,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.add-item-text44 {
+.add-item-text40 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -812,7 +800,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.add-item-text47 {
+.add-item-text43 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -909,11 +897,11 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: flex-start;
 }
-.add-item-text56 {
+.add-item-text52 {
   color: var(--dl-color-dark-darkergreen);
   font-style: normal;
 }
-.add-item-text59 {
+.add-item-text55 {
   color: var(--dl-color-dark-white);
   line-height: 1.4;
 }
@@ -990,7 +978,7 @@
     gap: 4px;
     width: auto;
     align-self: flex-start;
-    padding-top: var(--dl-space-space-threeunits);
+    padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-halfunit);
     border-radius: var(--dl-radius-radius-radius8);
     padding-right: var(--dl-space-space-halfunit);
@@ -1028,7 +1016,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .add-item-text16 {
+  .add-item-text12 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1056,7 +1044,7 @@
     height: 50px;
     align-self: flex-start;
   }
-  .add-item-text19 {
+  .add-item-text15 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1081,7 +1069,7 @@
   .add-item-button05 {
     align-self: flex-start;
   }
-  .add-item-text22 {
+  .add-item-text18 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1093,7 +1081,7 @@
   .add-item-button06 {
     height: 42px;
   }
-  .add-item-text26 {
+  .add-item-text22 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1101,7 +1089,7 @@
   .add-item-button07 {
     height: 42px;
   }
-  .add-item-text29 {
+  .add-item-text25 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1109,7 +1097,7 @@
   .add-item-button08 {
     height: 42px;
   }
-  .add-item-text32 {
+  .add-item-text28 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1117,7 +1105,7 @@
   .add-item-button09 {
     height: 42px;
   }
-  .add-item-text35 {
+  .add-item-text31 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1125,7 +1113,7 @@
   .add-item-button10 {
     height: 42px;
   }
-  .add-item-text38 {
+  .add-item-text34 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1133,7 +1121,7 @@
   .add-item-button11 {
     height: 42px;
   }
-  .add-item-text41 {
+  .add-item-text37 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1141,7 +1129,7 @@
   .add-item-button12 {
     height: 42px;
   }
-  .add-item-text44 {
+  .add-item-text40 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1149,7 +1137,7 @@
   .add-item-button13 {
     height: 42px;
   }
-  .add-item-text47 {
+  .add-item-text43 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -1168,7 +1156,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
-  .add-item-text50 {
+  .add-item-text46 {
     font-size: 16px;
   }
   .add-item-button15 {
@@ -1180,7 +1168,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
-  .add-item-text53 {
+  .add-item-text49 {
     font-size: 16px;
   }
   .add-item-info-box {
