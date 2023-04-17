@@ -42,9 +42,10 @@
     "@types/react-helmet": "^6.1.6",
     "@types/react-router-dom": "^5.3.3",
     "craco-alias": "^3.0.1",
-    "node-sass": "^8.0.0",
+    "node-sass": "^6.0.0",
     "react-scripts": "^5.0.1",
     "sass": "^1.62.0",
-    "sass-loader": "^13.2.2"
+    "sass-loader": "^13.2.2",
+    "typescript-plugin-css-modules": "^5.0.1"
   }
 }
