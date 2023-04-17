@@ -1,0 +1,24 @@
+.categories {
+    gap: 2px;
+    flex: 1;
+    height: 40px;
+    margin-top: 12px;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+@media (min-width: 767px) {
+    .categories {
+        gap: var(--dl-space-space-halfunit);
+        width: auto;
+        display: flex;
+        margin-top: var(--dl-space-space-oneandhalfunits);
+        padding-left: var(--dl-space-space-unit);
+        margin-bottom: 12px;
+        padding-right: var(--dl-space-space-unit);
+        justify-content: flex-start;
+    }
+}

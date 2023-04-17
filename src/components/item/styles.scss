@@ -1,4 +1,4 @@
-.item1-item1 {
+.nft-item {
   flex: 1;
   display: flex;
   position: relative;
@@ -12,26 +12,30 @@
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
+
+  &:hover {
+    transform: translateY(-5px);
+    border-color: var(--dl-color-dark-green-200);
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+  }
+
+  .nft-image-header {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    aspect-ratio: 3/2;
+    border-radius: var(--dl-radius-radius-radius12);
+    background-size: cover;
+    background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png");
+  }
 }
-.item1-item1:hover {
-  transform: translateY(-5px);
-  border-color: var(--dl-color-dark-green-200);
-  border-top-width: 0px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 5px;
-}
-.item1-image-header {
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  aspect-ratio: 3/2;
-  border-radius: var(--dl-radius-radius-radius12);
-  background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png");
-}
+
+
 .item1-text-box {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
@@ -105,11 +109,12 @@
   color: var(--dl-color-dark-green-200);
 }
 @media(max-width: 767px) {
-  .item1-item1 {
+  .nft-item {
     border-radius: var(--dl-radius-radius-radius8);
-  }
-  .item1-image-header {
-    border-radius: var(--dl-radius-radius-radius8);
+    
+    .nft-image-header {
+      border-radius: var(--dl-radius-radius-radius8);
+    }
   }
   .item1-text {
     font-size: 16px;
