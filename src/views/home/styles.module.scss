@@ -1,4 +1,4 @@
-.home-container {
+.homeContainer {
   width: 100%;
   display: flex;
   min-height: 100vh;
@@ -7,7 +7,7 @@
   background-color: var(--dl-color-dark-gray-200);
 }
 
-.home-collections {
+.homeCollections {
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
@@ -18,7 +18,7 @@
 }
 
 @media(max-width: 767px) {
-  .home-collections {
+  .homeCollections {
     gap: var(--dl-space-space-twounits);
     margin-top: 0px;
   }

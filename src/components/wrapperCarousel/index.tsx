@@ -1,11 +1,11 @@
 import React, { memo } from 'react'
 
 import { Item } from '@components'
-import './styles.scss'
+import styles from './styles.module.scss'
 
 export const WrapperCarousel: React.FC<any> = memo(() => {
   return (
-    <div className='wrapper-carousel-wrapper-carousel'>
+    <div className={styles.wrapperCarousel}>
       {[
         {
           title: 'Collection 1',

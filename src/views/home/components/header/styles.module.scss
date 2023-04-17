@@ -11,12 +11,12 @@
     margin-bottom: var(--dl-space-space-unit);
     flex-direction: column;
 
-    .container-image {
+    .containerImage {
         background-image: url("/playground_assets/grid_0%20%5B4%5D-1500w.webp");
         background-position: top;
     }
 
-    .container-inner {
+    .containerInner {
         position: auto !important;
 
         > div:first-child {
@@ -172,7 +172,7 @@
 
 @media(max-width: 1200px) {
     .header {
-        .container-inner {
+        .containerInner {
             > div:first-child {
                 height: auto;
             }
@@ -195,11 +195,11 @@
         .container {
             border-radius: var(--dl-radius-radius-radius8);
 
-            .container-image {
+            .containerImage {
                 border-radius: var(--dl-radius-radius-radius8);
             }
 
-            .container-inner {
+            .containerInner {
                 > div:first-child {
                     padding-left: var(--dl-space-space-unit);
                     padding-right: var(--dl-space-space-unit);

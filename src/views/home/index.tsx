@@ -3,11 +3,11 @@ import { Helmet } from 'react-helmet'
 
 import { LayoutWithSidebar, TrendingCarousel } from '@components'
 import { Categories, Header } from './components'
-import './styles.scss'
+import styles from './styles.module.scss'
 
 export const Home = memo(() => {
   return (
-    <div className='home-container'>
+    <div className={styles.homeContainer}>
       <Helmet>
         <title>
           FOTON Marketplace for NFTs and Digital Collectibles on Radix DLT
@@ -28,7 +28,7 @@ export const Home = memo(() => {
       <LayoutWithSidebar>
         <Categories />
         <Header />
-        <div className='home-collections'>
+        <div className={styles.homeCollections}>
           <TrendingCarousel />
           <TrendingCarousel />
           <TrendingCarousel />

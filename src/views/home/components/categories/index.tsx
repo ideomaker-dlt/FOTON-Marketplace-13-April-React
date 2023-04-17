@@ -1,11 +1,11 @@
 import React, { memo } from 'react'
 
-import './styles.scss'
 import { CategoryItem } from '../'
+import styles from './styles.module.scss'
 
 export const Categories = memo(() => {
   return (
-    <div className='categories'>
+    <div className={styles.categories}>
       {['all', 'avatars', 'art', 'games', 'memberships'].map((categoryItem) => (
         <CategoryItem
           key={categoryItem}
