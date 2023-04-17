@@ -223,7 +223,7 @@ const AddCollection2 = (props) => {
                 <div className="add-collection2-tabs-row1">
                   <div className="add-collection2-container13">
                     <span className="add-collection2-text035">
-                      Add Images - Treats:
+                      Add Items - Treats:
                     </span>
                   </div>
                   <div className="add-collection2-filter-buttons">
@@ -516,8 +516,8 @@ const AddCollection2 = (props) => {
         <div className="add-collection2-overlay-rarity">
           <div className="add-collection2-container34">
             <div className="add-collection2-field">
-              <label className="add-collection2-text081 Content padding-4px-left">
-                Name Layer - Attribute:
+              <label className="add-collection2-text081 padding-4px-left Content">
+                Layer Name - Attribute:
               </label>
               <input
                 type="text"
@@ -527,8 +527,8 @@ const AddCollection2 = (props) => {
               />
             </div>
             <div className="add-collection2-field1">
-              <label className="add-collection2-text082 Content padding-4px-left">
-                Layer Rarity:
+              <label className="add-collection2-text082 padding-4px-left Content">
+                Layer Rarity within collection:
               </label>
               <input
                 type="text"
@@ -537,237 +537,578 @@ const AddCollection2 = (props) => {
                 className="add-collection2-textinput02 focus-reset-forms input Content16SemiBold"
               />
             </div>
-            <div className="add-collection2-tabs-row2">
-              <div className="add-collection2-container35">
-                <Link
-                  to="/add-collection2"
-                  className="add-collection2-navlink1"
-                >
-                  &lt; go back
-                </Link>
-                <span className="add-collection2-text083">
-                  Layer content - Treats:
-                </span>
-              </div>
-              <div className="add-collection2-filter-buttons1">
-                <div className="add-collection2-timeframe">
-                  <button className="add-collection2-button11">
-                    <span className="add-collection2-text084">
-                      <span>1h</span>
-                      <br></br>
-                    </span>
-                  </button>
-                  <button className="add-collection2-button12">
-                    <span className="add-collection2-text087">
-                      <span>6h</span>
-                      <br></br>
-                    </span>
-                  </button>
-                  <button className="add-collection2-button13">
-                    <span className="add-collection2-text090">
-                      <span>24h</span>
-                      <br></br>
-                    </span>
-                  </button>
-                  <button className="add-collection2-button14">
-                    <span className="add-collection2-text093">
-                      <span>7d</span>
-                      <br></br>
-                    </span>
-                  </button>
+            <div className="add-collection2-layer-items-treats">
+              <div className="add-collection2-tabs-row2">
+                <div className="add-collection2-container35">
+                  <span className="add-collection2-text083">Layer items</span>
                 </div>
-                <div
-                  data-thq="thq-dropdown"
-                  className="add-collection2-sort-by list-item"
-                >
+                <div className="add-collection2-filter-buttons1">
+                  <div className="add-collection2-timeframe">
+                    <button className="add-collection2-button11">
+                      <span className="add-collection2-text084">
+                        <span>1h</span>
+                        <br></br>
+                      </span>
+                    </button>
+                    <button className="add-collection2-button12">
+                      <span className="add-collection2-text087">
+                        <span>6h</span>
+                        <br></br>
+                      </span>
+                    </button>
+                    <button className="add-collection2-button13">
+                      <span className="add-collection2-text090">
+                        <span>24h</span>
+                        <br></br>
+                      </span>
+                    </button>
+                    <button className="add-collection2-button14">
+                      <span className="add-collection2-text093">
+                        <span>7d</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
                   <div
-                    data-thq="thq-dropdown-toggle"
-                    className="add-collection2-dropdown-toggle"
+                    data-thq="thq-dropdown"
+                    className="add-collection2-sort-by list-item"
                   >
-                    <svg
-                      viewBox="0 0 1024 1024"
-                      className="add-collection2-icon28"
-                    >
-                      <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
-                    </svg>
-                    <span className="add-collection2-text096">
-                      Sort by Name
-                    </span>
                     <div
-                      data-thq="thq-dropdown-arrow"
-                      className="add-collection2-dropdown-arrow"
+                      data-thq="thq-dropdown-toggle"
+                      className="add-collection2-dropdown-toggle"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection2-icon30"
+                        className="add-collection2-icon28"
                       >
-                        <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                        <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
                       </svg>
+                      <span className="add-collection2-text096">
+                        Sort by Name
+                      </span>
+                      <div
+                        data-thq="thq-dropdown-arrow"
+                        className="add-collection2-dropdown-arrow"
+                      >
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon30"
+                        >
+                          <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                        </svg>
+                      </div>
                     </div>
-                  </div>
-                  <ul
-                    data-thq="thq-dropdown-list"
-                    className="add-collection2-dropdown-list"
-                  >
-                    <li
-                      data-thq="thq-dropdown"
-                      className="add-collection2-dropdown list-item"
+                    <ul
+                      data-thq="thq-dropdown-list"
+                      className="add-collection2-dropdown-list"
                     >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="add-collection2-dropdown-toggle1"
+                      <li
+                        data-thq="thq-dropdown"
+                        className="add-collection2-dropdown list-item"
                       >
-                        <span className="add-collection2-text097">Name</span>
-                      </div>
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="add-collection2-dropdown-toggle2"
-                      >
-                        <span className="add-collection2-text098">
-                          Most Rare
-                        </span>
-                      </div>
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="add-collection2-dropdown-toggle3"
-                      >
-                        <span className="add-collection2-text099">
-                          Newest Added
-                        </span>
-                      </div>
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="add-collection2-dropdown-toggle4"
-                      >
-                        <span className="add-collection2-text100">Oldest</span>
-                      </div>
-                    </li>
-                  </ul>
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          className="add-collection2-dropdown-toggle1"
+                        >
+                          <span className="add-collection2-text097">Name</span>
+                        </div>
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          className="add-collection2-dropdown-toggle2"
+                        >
+                          <span className="add-collection2-text098">
+                            Most Rare
+                          </span>
+                        </div>
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          className="add-collection2-dropdown-toggle3"
+                        >
+                          <span className="add-collection2-text099">
+                            Newest Added
+                          </span>
+                        </div>
+                        <div
+                          data-thq="thq-dropdown-toggle"
+                          className="add-collection2-dropdown-toggle4"
+                        >
+                          <span className="add-collection2-text100">
+                            Oldest
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button type="button" className="add-collection2-button15">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      className="add-collection2-icon32"
+                    >
+                      <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
+                    </svg>
+                    <span className="add-collection2-text101">
+                      <span>Select All</span>
+                      <br></br>
+                    </span>
+                  </button>
+                  <button type="button" className="add-collection2-button16">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      className="add-collection2-icon34 fill-color-white"
+                    >
+                      <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                    </svg>
+                    <span className="add-collection2-text104">
+                      <span>Delete</span>
+                      <br></br>
+                    </span>
+                  </button>
                 </div>
-                <button type="button" className="add-collection2-button15">
-                  <svg
-                    viewBox="0 0 1024 1024"
-                    className="add-collection2-icon32"
-                  >
-                    <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
-                  </svg>
-                  <span className="add-collection2-text101">
-                    <span>Select All</span>
-                    <br></br>
+              </div>
+              <div className="add-collection2-tabs-row3">
+                <div className="add-collection2-container36">
+                  <span className="add-collection2-text107 Labels13CAPS">
+                    name
                   </span>
-                </button>
+                </div>
+                <div className="add-collection2-container37">
+                  <span className="add-collection2-text108 Labels13CAPS">
+                    Rarity
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                </div>
               </div>
-            </div>
-            <div className="add-collection2-row-image">
-              <div className="add-collection2-container36">
-                <input type="checkbox" className="add-collection2-checkbox09" />
-                <div className="add-collection2-container37"></div>
-                <input
-                  type="text"
-                  enctype="The Funky Apes Crew..."
-                  placeholder="Treat Name...Blue..."
-                  className="add-collection2-textinput03 focus-reset-forms Content16SemiBold input"
-                />
-              </div>
-              <input
-                type="text"
-                enctype="The Funky Apes Crew..."
-                placeholder="47%..."
-                className="add-collection2-textinput04 focus-reset-forms input Content16SemiBold"
-              />
-            </div>
-            <div className="add-collection2-row-image1">
               <div className="add-collection2-container38">
-                <input type="checkbox" className="add-collection2-checkbox10" />
-                <div className="add-collection2-container39"></div>
-                <input
-                  type="text"
-                  enctype="The Funky Apes Crew..."
-                  placeholder="Treat Name...Blue..."
-                  className="add-collection2-textinput05 focus-reset-forms input Content16SemiBold"
-                />
+                <div className="add-collection2-row-image">
+                  <div className="add-collection2-container39">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox09"
+                    />
+                    <div className="add-collection2-container40"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput03 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container41">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput04 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button17">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon36 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text109">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image01">
+                  <div className="add-collection2-container42">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox10"
+                    />
+                    <div className="add-collection2-container43"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput05 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container44">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput06 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button18">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon38 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text112">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image02">
+                  <div className="add-collection2-container45">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox11"
+                    />
+                    <div className="add-collection2-container46"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput07 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container47">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput08 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button19">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon40 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text115">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image03">
+                  <div className="add-collection2-container48">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox12"
+                    />
+                    <div className="add-collection2-container49"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput09 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container50">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput10 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button20">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon42 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text118">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image04">
+                  <div className="add-collection2-container51">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox13"
+                    />
+                    <div className="add-collection2-container52"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput11 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container53">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput12 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button21">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon44 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text121">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image05">
+                  <div className="add-collection2-container54">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox14"
+                    />
+                    <div className="add-collection2-container55"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput13 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container56">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput14 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button22">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon46 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text124">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image06">
+                  <div className="add-collection2-container57">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox15"
+                    />
+                    <div className="add-collection2-container58"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput15 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container59">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput16 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button23">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon48 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text127">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image07">
+                  <div className="add-collection2-container60">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox16"
+                    />
+                    <div className="add-collection2-container61"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput17 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container62">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput18 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button24">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon50 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text130">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image08">
+                  <div className="add-collection2-container63">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox17"
+                    />
+                    <div className="add-collection2-container64"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput19 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container65">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput20 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button25">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon52 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text133">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image09">
+                  <div className="add-collection2-container66">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox18"
+                    />
+                    <div className="add-collection2-container67"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput21 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container68">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput22 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button26">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon54 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text136">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image10">
+                  <div className="add-collection2-container69">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox19"
+                    />
+                    <div className="add-collection2-container70"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput23 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container71">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput24 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button27">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon56 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text139">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="add-collection2-row-image11">
+                  <div className="add-collection2-container72">
+                    <input
+                      type="checkbox"
+                      className="add-collection2-checkbox20"
+                    />
+                    <div className="add-collection2-container73"></div>
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="Treat Name...Blue..."
+                      className="add-collection2-textinput25 focus-reset-forms input Content16SemiBold"
+                    />
+                  </div>
+                  <div className="add-collection2-container74">
+                    <input
+                      type="text"
+                      enctype="The Funky Apes Crew..."
+                      placeholder="47%..."
+                      className="add-collection2-textinput26 Content16SemiBold focus-reset-forms input"
+                    />
+                    <button type="button" className="add-collection2-button28">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2-icon58 fill-color-white"
+                      >
+                        <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      </svg>
+                      <span className="add-collection2-text142">
+                        <span>Delete</span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                </div>
               </div>
-              <label className="add-collection2-text104 Content padding-4px-left">
-                {' '}
-                Rarity:
-              </label>
-              <input
-                type="text"
-                enctype="The Funky Apes Crew..."
-                placeholder="47%..."
-                className="add-collection2-textinput06 Content16SemiBold focus-reset-forms input"
-              />
             </div>
-            <div className="add-collection2-row-image2">
-              <div className="add-collection2-container40">
-                <input type="checkbox" className="add-collection2-checkbox11" />
-                <div className="add-collection2-container41"></div>
-                <input
-                  type="text"
-                  enctype="The Funky Apes Crew..."
-                  placeholder="Treat Name...Blue..."
-                  className="add-collection2-textinput07 Content16SemiBold focus-reset-forms input"
-                />
-              </div>
-              <label className="add-collection2-text105 Content padding-4px-left">
-                {' '}
-                Rarity:
-              </label>
-              <input
-                type="text"
-                enctype="The Funky Apes Crew..."
-                placeholder="47%..."
-                className="add-collection2-textinput08 focus-reset-forms Content16SemiBold input"
-              />
-            </div>
-            <div className="add-collection2-row-image3">
-              <div className="add-collection2-container42">
-                <input type="checkbox" className="add-collection2-checkbox12" />
-                <div className="add-collection2-container43"></div>
-                <input
-                  type="text"
-                  enctype="The Funky Apes Crew..."
-                  placeholder="Treat Name...Blue..."
-                  className="add-collection2-textinput09 focus-reset-forms Content16SemiBold input"
-                />
-              </div>
-              <label className="add-collection2-text106 Content padding-4px-left">
-                {' '}
-                Rarity:
-              </label>
-              <input
-                type="text"
-                enctype="The Funky Apes Crew..."
-                placeholder="47%..."
-                className="add-collection2-textinput10 focus-reset-forms Content16SemiBold input"
-              />
-            </div>
-            <div className="add-collection2-row-image4">
-              <div className="add-collection2-container44">
-                <input type="checkbox" className="add-collection2-checkbox13" />
-                <div className="add-collection2-container45"></div>
-                <input
-                  type="text"
-                  enctype="The Funky Apes Crew..."
-                  placeholder="Treat Name...Blue..."
-                  className="add-collection2-textinput11 focus-reset-forms Content16SemiBold input"
-                />
-              </div>
-              <label className="add-collection2-text107 Content padding-4px-left">
-                {' '}
-                Rarity:
-              </label>
-              <input
-                type="text"
-                enctype="The Funky Apes Crew..."
-                placeholder="47%..."
-                className="add-collection2-textinput12 focus-reset-forms input Content16SemiBold"
-              />
-            </div>
-            <div className="add-collection2-container46">
+            <div className="add-collection2-close-window-button">
               <svg
                 viewBox="0 0 1024 1024"
-                className="add-collection2-icon34 fill-color-white"
+                className="add-collection2-icon60 fill-color-white"
               >
                 <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
               </svg>

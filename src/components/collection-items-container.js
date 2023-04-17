@@ -169,7 +169,7 @@ const CollectionItemsContainer = (props) => {
             <div className="collection-items-container-accordion-header2">
               <div className="collection-items-container-container10">
                 <span className="collection-items-container-text23">
-                  Trait one
+                  Attribute one
                 </span>
               </div>
               <div className="collection-items-container-container11">
@@ -192,7 +192,7 @@ const CollectionItemsContainer = (props) => {
                     className="collection-items-container-checkbox04"
                   />
                   <span className="collection-items-container-text24">
-                    Attribute nr 1
+                    Trait nr 1
                   </span>
                 </div>
                 <span className="collection-items-container-how-many05">
@@ -206,7 +206,7 @@ const CollectionItemsContainer = (props) => {
                     className="collection-items-container-checkbox05"
                   />
                   <span className="collection-items-container-text25">
-                    Attribute nr 1
+                    Trait nr 2
                   </span>
                 </div>
                 <span className="collection-items-container-how-many06">
@@ -220,7 +220,7 @@ const CollectionItemsContainer = (props) => {
                     className="collection-items-container-checkbox06"
                   />
                   <span className="collection-items-container-text26">
-                    Attribute nr 1
+                    Trait nr 3
                   </span>
                 </div>
                 <span className="collection-items-container-how-many07">
@@ -233,7 +233,7 @@ const CollectionItemsContainer = (props) => {
             <div className="collection-items-container-accordion-header3">
               <div className="collection-items-container-container15">
                 <span className="collection-items-container-text27">
-                  Trait two
+                  Attribute two
                 </span>
               </div>
               <div className="collection-items-container-container16">
@@ -256,7 +256,7 @@ const CollectionItemsContainer = (props) => {
                     className="collection-items-container-checkbox07"
                   />
                   <span className="collection-items-container-text28">
-                    Attribute nr 1
+                    Trait nr 1
                   </span>
                 </div>
                 <span className="collection-items-container-how-many09">
@@ -270,7 +270,7 @@ const CollectionItemsContainer = (props) => {
                     className="collection-items-container-checkbox08"
                   />
                   <span className="collection-items-container-text29">
-                    Attribute nr 1
+                    Trait nr 2
                   </span>
                 </div>
                 <span className="collection-items-container-how-many10">
@@ -284,7 +284,7 @@ const CollectionItemsContainer = (props) => {
                     className="collection-items-container-checkbox09"
                   />
                   <span className="collection-items-container-text30">
-                    Attribute nr 1
+                    Trait nr 3
                   </span>
                 </div>
                 <span className="collection-items-container-how-many11">
