@@ -1665,7 +1665,7 @@
   align-items: center;
   flex-direction: row;
   justify-content: center;
-  background-color: rgba(76, 76, 76, 0.21);
+  background-color: rgba(22, 22, 22, 0.86);
 }
 .add-collection2-container34 {
   gap: var(--dl-space-space-unit);
@@ -2188,10 +2188,6 @@
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
-.add-collection2-text104 {
-  color: var(--dl-color-dark-green-200);
-  width: auto;
-}
 .add-collection2-textinput04 {
   flex: 0.2;
   color: var(--dl-color-dark-white);
@@ -2257,7 +2253,7 @@
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
-.add-collection2-text105 {
+.add-collection2-text104 {
   color: var(--dl-color-dark-green-200);
   width: auto;
 }
@@ -2326,7 +2322,7 @@
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
-.add-collection2-text106 {
+.add-collection2-text105 {
   color: var(--dl-color-dark-green-200);
   width: auto;
 }
@@ -2395,7 +2391,7 @@
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
-.add-collection2-text107 {
+.add-collection2-text106 {
   color: var(--dl-color-dark-green-200);
   width: auto;
 }
@@ -2464,7 +2460,7 @@
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
-.add-collection2-text108 {
+.add-collection2-text107 {
   color: var(--dl-color-dark-green-200);
   width: auto;
 }

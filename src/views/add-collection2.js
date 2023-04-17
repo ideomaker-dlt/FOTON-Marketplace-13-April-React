@@ -516,7 +516,7 @@ const AddCollection2 = (props) => {
         <div className="add-collection2-overlay-rarity">
           <div className="add-collection2-container34">
             <div className="add-collection2-field">
-              <label className="add-collection2-text081 padding-4px-left Content">
+              <label className="add-collection2-text081 Content padding-4px-left">
                 Name Layer - Attribute:
               </label>
               <input
@@ -527,14 +527,14 @@ const AddCollection2 = (props) => {
               />
             </div>
             <div className="add-collection2-field1">
-              <label className="add-collection2-text082 padding-4px-left Content">
+              <label className="add-collection2-text082 Content padding-4px-left">
                 Layer Rarity:
               </label>
               <input
                 type="text"
                 enctype="The Funky Apes Crew..."
                 placeholder="78%"
-                className="add-collection2-textinput02 focus-reset-forms Content16SemiBold input"
+                className="add-collection2-textinput02 focus-reset-forms input Content16SemiBold"
               />
             </div>
             <div className="add-collection2-tabs-row2">
@@ -669,15 +669,11 @@ const AddCollection2 = (props) => {
                   className="add-collection2-textinput03 focus-reset-forms Content16SemiBold input"
                 />
               </div>
-              <label className="add-collection2-text104 padding-4px-left Content">
-                {' '}
-                Rarity:
-              </label>
               <input
                 type="text"
                 enctype="The Funky Apes Crew..."
                 placeholder="47%..."
-                className="add-collection2-textinput04 focus-reset-forms Content16SemiBold input"
+                className="add-collection2-textinput04 focus-reset-forms input Content16SemiBold"
               />
             </div>
             <div className="add-collection2-row-image1">
@@ -688,10 +684,10 @@ const AddCollection2 = (props) => {
                   type="text"
                   enctype="The Funky Apes Crew..."
                   placeholder="Treat Name...Blue..."
-                  className="add-collection2-textinput05 focus-reset-forms Content16SemiBold input"
+                  className="add-collection2-textinput05 focus-reset-forms input Content16SemiBold"
                 />
               </div>
-              <label className="add-collection2-text105 padding-4px-left Content">
+              <label className="add-collection2-text104 Content padding-4px-left">
                 {' '}
                 Rarity:
               </label>
@@ -699,7 +695,7 @@ const AddCollection2 = (props) => {
                 type="text"
                 enctype="The Funky Apes Crew..."
                 placeholder="47%..."
-                className="add-collection2-textinput06 focus-reset-forms Content16SemiBold input"
+                className="add-collection2-textinput06 Content16SemiBold focus-reset-forms input"
               />
             </div>
             <div className="add-collection2-row-image2">
@@ -710,10 +706,10 @@ const AddCollection2 = (props) => {
                   type="text"
                   enctype="The Funky Apes Crew..."
                   placeholder="Treat Name...Blue..."
-                  className="add-collection2-textinput07 focus-reset-forms Content16SemiBold input"
+                  className="add-collection2-textinput07 Content16SemiBold focus-reset-forms input"
                 />
               </div>
-              <label className="add-collection2-text106 padding-4px-left Content">
+              <label className="add-collection2-text105 Content padding-4px-left">
                 {' '}
                 Rarity:
               </label>
@@ -735,7 +731,7 @@ const AddCollection2 = (props) => {
                   className="add-collection2-textinput09 focus-reset-forms Content16SemiBold input"
                 />
               </div>
-              <label className="add-collection2-text107 padding-4px-left Content">
+              <label className="add-collection2-text106 Content padding-4px-left">
                 {' '}
                 Rarity:
               </label>
@@ -757,7 +753,7 @@ const AddCollection2 = (props) => {
                   className="add-collection2-textinput11 focus-reset-forms Content16SemiBold input"
                 />
               </div>
-              <label className="add-collection2-text108 padding-4px-left Content">
+              <label className="add-collection2-text107 Content padding-4px-left">
                 {' '}
                 Rarity:
               </label>
@@ -765,7 +761,7 @@ const AddCollection2 = (props) => {
                 type="text"
                 enctype="The Funky Apes Crew..."
                 placeholder="47%..."
-                className="add-collection2-textinput12 focus-reset-forms Content16SemiBold input"
+                className="add-collection2-textinput12 focus-reset-forms input Content16SemiBold"
               />
             </div>
             <div className="add-collection2-container46">
