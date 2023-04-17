@@ -112,7 +112,17 @@ const AddCollection2 = (props) => {
                         }}
                       />
                     </span>
-                    <span>Add Layers - Attributes:</span>
+                    <span>
+                      Add Layers
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                    <span className="add-collection2-text016">
+                      ● Attributes:
+                    </span>
                   </label>
                   <div className="add-collection2-container06">
                     <input
@@ -132,11 +142,11 @@ const AddCollection2 = (props) => {
                   <div className="add-collection2-container-layer">
                     <div className="add-collection2-container07">
                       <div className="add-collection2-container08">
-                        <span className="add-collection2-text016 Content16SemiBold">
+                        <span className="add-collection2-text017 Content16SemiBold">
                           <span>Head</span>
                           <br></br>
                         </span>
-                        <span className="add-collection2-text019">
+                        <span className="add-collection2-text020">
                           <span>2 Files - 72% Rarity</span>
                           <br></br>
                         </span>
@@ -160,11 +170,11 @@ const AddCollection2 = (props) => {
                   <div className="add-collection2-container-layer1">
                     <div className="add-collection2-container09">
                       <div className="add-collection2-container10">
-                        <span className="add-collection2-text022 Content16SemiBold">
+                        <span className="add-collection2-text023 Content16SemiBold">
                           <span>Eyes</span>
                           <br></br>
                         </span>
-                        <span className="add-collection2-text025">
+                        <span className="add-collection2-text026">
                           <span>2 Files - 72% Rarity</span>
                           <br></br>
                         </span>
@@ -188,11 +198,11 @@ const AddCollection2 = (props) => {
                   <div className="add-collection2-container-layer2">
                     <div className="add-collection2-container11">
                       <div className="add-collection2-container12">
-                        <span className="add-collection2-text028 Content16SemiBold">
+                        <span className="add-collection2-text029 Content16SemiBold">
                           <span>Mouth</span>
                           <br></br>
                         </span>
-                        <span className="add-collection2-text031">
+                        <span className="add-collection2-text032">
                           <span>2 Files - 72% Rarity</span>
                           <br></br>
                         </span>
@@ -213,7 +223,7 @@ const AddCollection2 = (props) => {
                       </svg>
                     </button>
                   </div>
-                  <label className="add-collection2-text034 padding-4px-left">
+                  <label className="add-collection2-text035 padding-4px-left">
                     * Organise layers by dragging them. The order of the layers
                     above is reversed when it generates your images. Ex: First
                     layer at the top will be the Background of your avatar.
@@ -223,8 +233,16 @@ const AddCollection2 = (props) => {
               <div className="add-collection2-container-images">
                 <div className="add-collection2-tabs-row1">
                   <div className="add-collection2-container13">
-                    <span className="add-collection2-text035">
-                      Add Items - Treats:
+                    <span className="add-collection2-text036">
+                      <span>
+                        Add Assets
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <span className="add-collection2-text038">● Treats:</span>
                     </span>
                   </div>
                   <div className="add-collection2-filter-buttons">
@@ -239,7 +257,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M362 576l-148 192h596l-192-256-148 192zM896 810q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596q34 0 60 26t26 60v596z"></path>
                         </svg>
-                        <span className="add-collection2-text036">
+                        <span className="add-collection2-text039">
                           <span>Add Files</span>
                           <br></br>
                         </span>
@@ -254,14 +272,14 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text039">
+                        <span className="add-collection2-text042">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                     <button type="button" className="add-collection2-button10">
-                      <span className="add-collection2-text042">
+                      <span className="add-collection2-text045">
                         <span>Continue</span>
                         <br></br>
                       </span>
@@ -285,17 +303,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box">
                       <div className="add-collection2-container16">
                         <div className="add-collection2-floor">
-                          <span className="add-collection2-text045 SmallestLabels">
+                          <span className="add-collection2-text048 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text046">Black</span>
+                          <span className="add-collection2-text049">Black</span>
                         </div>
                         <div className="add-collection2-volume24">
-                          <span className="add-collection2-text047 SmallestLabels">
+                          <span className="add-collection2-text050 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container17">
-                            <span className="add-collection2-text048">38%</span>
+                            <span className="add-collection2-text051">38%</span>
                           </div>
                         </div>
                       </div>
@@ -311,17 +329,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box1">
                       <div className="add-collection2-container18">
                         <div className="add-collection2-floor1">
-                          <span className="add-collection2-text049 SmallestLabels">
+                          <span className="add-collection2-text052 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text050">Black</span>
+                          <span className="add-collection2-text053">Black</span>
                         </div>
                         <div className="add-collection2-volume241">
-                          <span className="add-collection2-text051 SmallestLabels">
+                          <span className="add-collection2-text054 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container19">
-                            <span className="add-collection2-text052">38%</span>
+                            <span className="add-collection2-text055">38%</span>
                           </div>
                         </div>
                       </div>
@@ -337,17 +355,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box2">
                       <div className="add-collection2-container20">
                         <div className="add-collection2-floor2">
-                          <span className="add-collection2-text053 SmallestLabels">
+                          <span className="add-collection2-text056 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text054">Black</span>
+                          <span className="add-collection2-text057">Black</span>
                         </div>
                         <div className="add-collection2-volume242">
-                          <span className="add-collection2-text055 SmallestLabels">
+                          <span className="add-collection2-text058 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container21">
-                            <span className="add-collection2-text056">38%</span>
+                            <span className="add-collection2-text059">38%</span>
                           </div>
                         </div>
                       </div>
@@ -363,17 +381,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box3">
                       <div className="add-collection2-container22">
                         <div className="add-collection2-floor3">
-                          <span className="add-collection2-text057 SmallestLabels">
+                          <span className="add-collection2-text060 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text058">Black</span>
+                          <span className="add-collection2-text061">Black</span>
                         </div>
                         <div className="add-collection2-volume243">
-                          <span className="add-collection2-text059 SmallestLabels">
+                          <span className="add-collection2-text062 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container23">
-                            <span className="add-collection2-text060">38%</span>
+                            <span className="add-collection2-text063">38%</span>
                           </div>
                         </div>
                       </div>
@@ -389,17 +407,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box4">
                       <div className="add-collection2-container24">
                         <div className="add-collection2-floor4">
-                          <span className="add-collection2-text061 SmallestLabels">
+                          <span className="add-collection2-text064 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text062">Black</span>
+                          <span className="add-collection2-text065">Black</span>
                         </div>
                         <div className="add-collection2-volume244">
-                          <span className="add-collection2-text063 SmallestLabels">
+                          <span className="add-collection2-text066 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container25">
-                            <span className="add-collection2-text064">38%</span>
+                            <span className="add-collection2-text067">38%</span>
                           </div>
                         </div>
                       </div>
@@ -415,17 +433,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box5">
                       <div className="add-collection2-container26">
                         <div className="add-collection2-floor5">
-                          <span className="add-collection2-text065 SmallestLabels">
+                          <span className="add-collection2-text068 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text066">Black</span>
+                          <span className="add-collection2-text069">Black</span>
                         </div>
                         <div className="add-collection2-volume245">
-                          <span className="add-collection2-text067 SmallestLabels">
+                          <span className="add-collection2-text070 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container27">
-                            <span className="add-collection2-text068">38%</span>
+                            <span className="add-collection2-text071">38%</span>
                           </div>
                         </div>
                       </div>
@@ -441,17 +459,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box6">
                       <div className="add-collection2-container28">
                         <div className="add-collection2-floor6">
-                          <span className="add-collection2-text069 SmallestLabels">
+                          <span className="add-collection2-text072 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text070">Black</span>
+                          <span className="add-collection2-text073">Black</span>
                         </div>
                         <div className="add-collection2-volume246">
-                          <span className="add-collection2-text071 SmallestLabels">
+                          <span className="add-collection2-text074 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container29">
-                            <span className="add-collection2-text072">38%</span>
+                            <span className="add-collection2-text075">38%</span>
                           </div>
                         </div>
                       </div>
@@ -467,17 +485,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box7">
                       <div className="add-collection2-container30">
                         <div className="add-collection2-floor7">
-                          <span className="add-collection2-text073 SmallestLabels">
+                          <span className="add-collection2-text076 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text074">Black</span>
+                          <span className="add-collection2-text077">Black</span>
                         </div>
                         <div className="add-collection2-volume247">
-                          <span className="add-collection2-text075 SmallestLabels">
+                          <span className="add-collection2-text078 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container31">
-                            <span className="add-collection2-text076">38%</span>
+                            <span className="add-collection2-text079">38%</span>
                           </div>
                         </div>
                       </div>
@@ -493,17 +511,17 @@ const AddCollection2 = (props) => {
                     <div className="add-collection2-text-box8">
                       <div className="add-collection2-container32">
                         <div className="add-collection2-floor8">
-                          <span className="add-collection2-text077 SmallestLabels">
+                          <span className="add-collection2-text080 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection2-text078">Black</span>
+                          <span className="add-collection2-text081">Black</span>
                         </div>
                         <div className="add-collection2-volume248">
-                          <span className="add-collection2-text079 SmallestLabels">
+                          <span className="add-collection2-text082 SmallestLabels">
                             rarity
                           </span>
                           <div className="add-collection2-container33">
-                            <span className="add-collection2-text080">38%</span>
+                            <span className="add-collection2-text083">38%</span>
                           </div>
                         </div>
                       </div>
@@ -517,7 +535,7 @@ const AddCollection2 = (props) => {
         <div className="add-collection2-overlay-rarity">
           <div id="appOverlay" className="add-collection2-container34">
             <div className="add-collection2-container35">
-              <label className="add-collection2-text081">Eyes</label>
+              <label className="add-collection2-text084">Eyes</label>
             </div>
             <div className="add-collection2-container36">
               <div>
@@ -569,8 +587,8 @@ const AddCollection2 = (props) => {
                 ></DangerousHTML>
               </div>
               <div className="add-collection2-field">
-                <label className="add-collection2-text082 padding-4px-left">
-                  Layer Name - Attribute:
+                <label className="add-collection2-text085 padding-4px-left">
+                  Layer Name:
                 </label>
                 <input
                   type="text"
@@ -580,7 +598,7 @@ const AddCollection2 = (props) => {
                 />
               </div>
               <div className="add-collection2-field1">
-                <label className="add-collection2-text083 Content padding-4px-left">
+                <label className="add-collection2-text086 Content padding-4px-left">
                   Layer Rarity within collection:
                 </label>
                 <input
@@ -593,36 +611,36 @@ const AddCollection2 = (props) => {
               <div className="add-collection2-layer-items-treats">
                 <div className="add-collection2-tabs-row2">
                   <div className="add-collection2-container37">
-                    <span className="add-collection2-text084">
+                    <span className="add-collection2-text087">
                       &lt; go back
                     </span>
-                    <span className="add-collection2-text085">
-                      Layer items 
+                    <span className="add-collection2-text088">
+                      Layer Assets 
                     </span>
-                    <span className="add-collection2-text086">Rules</span>
+                    <span className="add-collection2-text089">Rules</span>
                   </div>
                   <div className="add-collection2-filter-buttons1">
                     <div className="add-collection2-timeframe">
                       <button className="add-collection2-button11">
-                        <span className="add-collection2-text087">
+                        <span className="add-collection2-text090">
                           <span>1h</span>
                           <br></br>
                         </span>
                       </button>
                       <button className="add-collection2-button12">
-                        <span className="add-collection2-text090">
+                        <span className="add-collection2-text093">
                           <span>6h</span>
                           <br></br>
                         </span>
                       </button>
                       <button className="add-collection2-button13">
-                        <span className="add-collection2-text093">
+                        <span className="add-collection2-text096">
                           <span>24h</span>
                           <br></br>
                         </span>
                       </button>
                       <button className="add-collection2-button14">
-                        <span className="add-collection2-text096">
+                        <span className="add-collection2-text099">
                           <span>7d</span>
                           <br></br>
                         </span>
@@ -642,7 +660,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
                         </svg>
-                        <span className="add-collection2-text099">
+                        <span className="add-collection2-text102">
                           Sort by Name
                         </span>
                         <div
@@ -669,7 +687,7 @@ const AddCollection2 = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection2-dropdown-toggle1"
                           >
-                            <span className="add-collection2-text100">
+                            <span className="add-collection2-text103">
                               Name
                             </span>
                           </div>
@@ -677,7 +695,7 @@ const AddCollection2 = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection2-dropdown-toggle2"
                           >
-                            <span className="add-collection2-text101">
+                            <span className="add-collection2-text104">
                               Most Rare
                             </span>
                           </div>
@@ -685,7 +703,7 @@ const AddCollection2 = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection2-dropdown-toggle3"
                           >
-                            <span className="add-collection2-text102">
+                            <span className="add-collection2-text105">
                               Newest Added
                             </span>
                           </div>
@@ -693,7 +711,7 @@ const AddCollection2 = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection2-dropdown-toggle4"
                           >
-                            <span className="add-collection2-text103">
+                            <span className="add-collection2-text106">
                               Oldest
                             </span>
                           </div>
@@ -707,7 +725,7 @@ const AddCollection2 = (props) => {
                       >
                         <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
                       </svg>
-                      <span className="add-collection2-text104">
+                      <span className="add-collection2-text107">
                         <span>Select All</span>
                         <br></br>
                       </span>
@@ -719,7 +737,7 @@ const AddCollection2 = (props) => {
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
-                      <span className="add-collection2-text107">
+                      <span className="add-collection2-text110">
                         <span>Delete</span>
                         <br></br>
                       </span>
@@ -729,18 +747,18 @@ const AddCollection2 = (props) => {
                 <div className="add-collection2-tabs-row3">
                   <div className="add-collection2-container38">
                     <div className="add-collection2-container39">
-                      <span className="add-collection2-text110 Labels13CAPS">
+                      <span className="add-collection2-text113 Labels13CAPS">
                         Open
                       </span>
                     </div>
                     <div className="add-collection2-container40">
-                      <span className="add-collection2-text111 Labels13CAPS">
+                      <span className="add-collection2-text114 Labels13CAPS">
                         name
                       </span>
                     </div>
                   </div>
                   <div className="add-collection2-container41">
-                    <span className="add-collection2-text112 Labels13CAPS">
+                    <span className="add-collection2-text115 Labels13CAPS">
                       Rarity
                       <span
                         dangerouslySetInnerHTML={{
@@ -761,7 +779,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput03 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -782,7 +800,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text113">
+                        <span className="add-collection2-text116">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -799,7 +817,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput05 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -820,7 +838,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text116">
+                        <span className="add-collection2-text119">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -837,7 +855,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput07 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -858,7 +876,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text119">
+                        <span className="add-collection2-text122">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -875,7 +893,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput09 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -896,7 +914,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text122">
+                        <span className="add-collection2-text125">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -913,7 +931,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput11 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -934,7 +952,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text125">
+                        <span className="add-collection2-text128">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -951,7 +969,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput13 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -972,7 +990,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text128">
+                        <span className="add-collection2-text131">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -989,7 +1007,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput15 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -1010,7 +1028,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text131">
+                        <span className="add-collection2-text134">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -1027,7 +1045,7 @@ const AddCollection2 = (props) => {
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
-                        placeholder="Treat Name...Blue..."
+                        placeholder="Blue..."
                         className="add-collection2-textinput17 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
@@ -1048,7 +1066,7 @@ const AddCollection2 = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection2-text134">
+                        <span className="add-collection2-text137">
                           <span>Delete</span>
                           <br></br>
                         </span>
