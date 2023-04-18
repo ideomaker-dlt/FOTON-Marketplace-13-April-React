@@ -299,6 +299,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox"
                       />
+                      <div className="add-collection2-replace-image">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon28 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box">
                       <div className="add-collection2-container16">
@@ -325,6 +333,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox01"
                       />
+                      <div className="add-collection2-replace-image1">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon30 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box1">
                       <div className="add-collection2-container18">
@@ -351,6 +367,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox02"
                       />
+                      <div className="add-collection2-replace-image2">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon32 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box2">
                       <div className="add-collection2-container20">
@@ -377,6 +401,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox03"
                       />
+                      <div className="add-collection2-replace-image3">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon34 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box3">
                       <div className="add-collection2-container22">
@@ -403,6 +435,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox04"
                       />
+                      <div className="add-collection2-replace-image4">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon36 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box4">
                       <div className="add-collection2-container24">
@@ -429,6 +469,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox05"
                       />
+                      <div className="add-collection2-replace-image5">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon38 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box5">
                       <div className="add-collection2-container26">
@@ -455,6 +503,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox06"
                       />
+                      <div className="add-collection2-replace-image6">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon40 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box6">
                       <div className="add-collection2-container28">
@@ -481,6 +537,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox07"
                       />
+                      <div className="add-collection2-replace-image7">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon42 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box7">
                       <div className="add-collection2-container30">
@@ -507,6 +571,14 @@ const AddCollection2 = (props) => {
                         type="checkbox"
                         className="add-collection2-checkbox08"
                       />
+                      <div className="add-collection2-replace-image8">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2-icon44 fill-color-white"
+                        >
+                          <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                        </svg>
+                      </div>
                     </div>
                     <div className="add-collection2-text-box8">
                       <div className="add-collection2-container32">
@@ -656,7 +728,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon28"
+                          className="add-collection2-icon46"
                         >
                           <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
                         </svg>
@@ -669,7 +741,7 @@ const AddCollection2 = (props) => {
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection2-icon30"
+                            className="add-collection2-icon48"
                           >
                             <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
                           </svg>
@@ -721,7 +793,7 @@ const AddCollection2 = (props) => {
                     <button type="button" className="add-collection2-button15">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection2-icon32"
+                        className="add-collection2-icon50"
                       >
                         <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
                       </svg>
@@ -733,7 +805,7 @@ const AddCollection2 = (props) => {
                     <button type="button" className="add-collection2-button16">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection2-icon34 fill-color-white"
+                        className="add-collection2-icon52 fill-color-white"
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
@@ -796,7 +868,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon36 fill-color-white"
+                          className="add-collection2-icon54 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -818,7 +890,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection2-textinput05 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2-textinput05 Content16SemiBold focus-reset-forms input"
                       />
                     </div>
                     <div className="add-collection2-container48">
@@ -826,7 +898,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection2-textinput06 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2-textinput06 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
@@ -834,7 +906,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon38 fill-color-white"
+                          className="add-collection2-icon56 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -856,7 +928,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection2-textinput07 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2-textinput07 Content16SemiBold focus-reset-forms input"
                       />
                     </div>
                     <div className="add-collection2-container51">
@@ -864,7 +936,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection2-textinput08 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2-textinput08 focus-reset-forms input Content16SemiBold"
                       />
                       <button
                         type="button"
@@ -872,7 +944,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon40 fill-color-white"
+                          className="add-collection2-icon58 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -894,7 +966,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection2-textinput09 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2-textinput09 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                     <div className="add-collection2-container54">
@@ -902,7 +974,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection2-textinput10 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2-textinput10 focus-reset-forms input Content16SemiBold"
                       />
                       <button
                         type="button"
@@ -910,7 +982,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon42 fill-color-white"
+                          className="add-collection2-icon60 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -940,7 +1012,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection2-textinput12 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2-textinput12 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
@@ -948,7 +1020,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon44 fill-color-white"
+                          className="add-collection2-icon62 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -970,7 +1042,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection2-textinput13 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2-textinput13 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                     <div className="add-collection2-container60">
@@ -978,7 +1050,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection2-textinput14 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2-textinput14 focus-reset-forms input Content16SemiBold"
                       />
                       <button
                         type="button"
@@ -986,7 +1058,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon46 fill-color-white"
+                          className="add-collection2-icon64 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -1008,7 +1080,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection2-textinput15 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2-textinput15 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                     <div className="add-collection2-container63">
@@ -1016,7 +1088,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection2-textinput16 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2-textinput16 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
@@ -1024,7 +1096,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon48 fill-color-white"
+                          className="add-collection2-icon66 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -1046,7 +1118,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection2-textinput17 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2-textinput17 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                     <div className="add-collection2-container66">
@@ -1054,7 +1126,7 @@ const AddCollection2 = (props) => {
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection2-textinput18 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2-textinput18 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
@@ -1062,7 +1134,7 @@ const AddCollection2 = (props) => {
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection2-icon50 fill-color-white"
+                          className="add-collection2-icon68 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
@@ -1078,7 +1150,7 @@ const AddCollection2 = (props) => {
               <div className="add-collection2-close-window-button">
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="add-collection2-icon52 fill-color-white"
+                  className="add-collection2-icon70 fill-color-white"
                 >
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>
