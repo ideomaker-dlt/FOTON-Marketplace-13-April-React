@@ -1059,7 +1059,7 @@
   align-items: center;
   border-color: var(--dl-color-dark-white);
   border-style: solid;
-  border-width: 2px;
+  border-width: 1.6px;
   padding-left: var(--dl-space-space-halfunit);
   border-radius: 24px;
   padding-right: var(--dl-space-space-unit);
