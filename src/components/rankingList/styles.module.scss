@@ -1,0 +1,13 @@
+.container {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media(max-width: 767px) {
+  .container {
+    gap: 4px;
+    height: auto;
+  }
+}

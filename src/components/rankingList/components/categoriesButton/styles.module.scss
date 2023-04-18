@@ -1,0 +1,7 @@
+.container {
+    gap: var(--dl-space-space-halfunit);
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width: 767px) {}

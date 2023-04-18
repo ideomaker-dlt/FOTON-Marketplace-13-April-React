@@ -11,7 +11,7 @@ export const RankingPreview: React.FC<any> = memo(
     }
   ) => {
     return (
-      <div className={`ranking-preview-ranking-list ${props.rootClassName} `}>
+      <div className={`ranking-preview-ranking-list`}>
         <div className='ranking-preview-categories'>
           <div className='ranking-preview-container'>
             <div

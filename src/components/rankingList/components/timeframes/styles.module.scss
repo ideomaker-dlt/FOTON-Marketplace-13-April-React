@@ -1,0 +1,100 @@
+.container {
+    gap: var(--dl-space-space-unit);
+    display: flex;
+    align-items: center;
+
+    > div {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-color: var(--dl-color-dark-gray-360);
+        border-width: 2px;
+        border-radius: var(--dl-radius-radius-radius12);
+        overflow: hidden;
+
+        > button {
+            color: var(--dl-color-dark-white);
+            height: auto;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            transition: 0.05s;
+            align-items: center;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 1.15;
+            padding-top: 16px;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: 0px;
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: 14px;
+            text-transform: none;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-dark-gray-200);
+            cursor: pointer;
+            
+            &:first-child {
+                padding-left: var(--dl-space-space-oneandhalfunits);
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+        
+            &:last-child {
+                padding-right: var(--dl-space-space-oneandhalfunits);
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            &:hover {
+                background-color: var(--dl-color-dark-gray-360);
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+        
+            &:active {
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            > span {
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        gap: var(--dl-space-space-halfunit);
+
+        > div {
+            border-radius: var(--dl-radius-radius-radius8);
+
+            > button {
+                height: auto;
+                padding-top: 10px;
+                padding-left: var(--dl-space-space-halfunit);
+                padding-right: var(--dl-space-space-halfunit);
+                padding-bottom: 10px;
+
+                &:first-child {
+                    padding-left: var(--dl-space-space-unit);
+                    border-top-left-radius: 7px;
+                    border-bottom-left-radius: 7px;
+                }
+
+                &:last-child {
+                    padding-right: var(--dl-space-space-unit);
+                    border-top-right-radius: 7px;
+                    border-bottom-right-radius: 7px;
+                }
+
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

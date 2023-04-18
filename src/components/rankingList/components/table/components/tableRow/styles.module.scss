@@ -1,0 +1,255 @@
+.firstColumnSpan {
+    color: var(--dl-color-dark-gray-400);
+    width: auto;
+    text-align: right;
+}
+.firstColumnImage {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: column;
+    background-size: cover;
+    background-image: url("/playground_assets/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png");
+}
+.secondColumnFirst {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    > div:first-child {
+        flex: 3;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+
+        span {
+            color: var(--dl-color-dark-green-200);
+        }
+    }
+
+    > div:nth-child(2) {
+        flex: 2;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        span {
+            color: var(--dl-color-dark-white);
+        }
+    }
+}
+.secondColumnSecond {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    > div:first-child {
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        span {
+            color: var(--dl-color-dark-green-200);
+        }
+    }
+
+    > div:nth-child(2) {
+        flex: 1.2;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        span {
+            color: var(--dl-color-dark-white);
+            display: none;
+
+            &:nth-child(2) {
+                display: flex;
+            }
+        }
+    }
+
+    > div:nth-child(3) {
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        span {
+            color: var(--dl-color-dark-white);
+
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+    }
+}
+.secondColumnThird {
+    flex: 0.8;
+    width: auto;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.owners {
+    flex: 1;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    span {
+        color: var(--dl-color-dark-white);
+    }
+}
+
+.listed {
+    flex: 0.7;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    span {
+        color: var(--dl-color-dark-white);
+    }
+}
+
+.follow {
+    flex: 0.7;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    svg {
+        fill: var(--dl-color-dark-white);
+        width: 24px;
+        height: 24px;
+        transition: 0.05s;
+    }
+    
+    &:hover {
+        svg {
+            fill: var(--dl-color-dark-green-200);
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    .ranking-list-group-301 {
+        flex: 0.3;
+        justify-content: flex-end;
+    }
+}
+
+@media(max-width: 767px) {
+    .firstColumnSpan {
+        font-size: 13px;
+    }
+    .firstColumnImage {
+        width: 60px;
+        height: 60px;
+    }
+    .secondColumnFirst {
+        flex: 1;
+        width: 100%;
+
+        > div:first-child {
+            gap: 4px;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: center;
+
+            span {
+                color: var(--dl-color-dark-white);
+                font-size: 13px;
+            }
+        }
+
+        > div:nth-child(2) {
+            gap: 4px;
+            align-items: flex-end;
+            flex-direction: column;
+            justify-content: center;
+
+            span {
+                color: var(--dl-color-dark-white);
+                font-size: 13px;
+            }
+        }
+    }
+    .secondColumnSecond {
+        flex: 1;
+        width: 100%;
+        justify-content: space-between;
+
+        > div:first-child {
+            display: none;
+        }
+    
+        > div:nth-child(2) {
+            flex: 3;
+            align-items: center;
+            justify-content: flex-start;
+
+            span {
+                color: var(--dl-color-dark-gray-400);
+                display: flex;
+                font-size: 12px;
+                font-weight: 400;
+                margin-right: 4px;
+            }
+        }
+    
+        > div:nth-child(3) {
+            flex: 2;
+            align-items: center;
+            justify-content: flex-end;
+
+            span {
+                display: none;
+
+                &:nth-child(2) {
+                    color: var(--dl-color-dark-green-200);
+                    display: flex;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .secondColumnThird {
+        display: none;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .owners {
+        display: none;
+    }
+    .listed {
+        display: none;
+    }
+    .follow {
+        justify-content: flex-end;
+    }
+}
