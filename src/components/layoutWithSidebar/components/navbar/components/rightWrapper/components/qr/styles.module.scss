@@ -1,0 +1,235 @@
+.layoutWithSidebarConnectQr {
+    flex: 0 0 auto;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin-left: var(--dl-space-space-halfunit);
+    justify-content: center;
+}
+
+.layoutWithSidebarCategory2 {
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+}
+
+.layoutWithSidebarDropdownToggle09 {
+    fill: #595959;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: flex-end;
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: var(--dl-color-dark-gray-200);
+}
+
+.layoutWithSidebarContent {
+    gap: 0;
+    flex: 0 0 auto;
+    width: auto;
+    height: 46px;
+    display: flex;
+    transition: 0.05s;
+    align-items: center;
+    border-color: var(--dl-color-dark-white);
+    border-style: solid;
+    border-width: 2px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: 24px;
+    padding-right: var(--dl-space-space-unit);
+    justify-content: center;
+}
+
+.layoutWithSidebarContent:hover {
+    border-color: var(--dl-color-dark-green-200);
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.layoutWithSidebarImage {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+
+.layoutWithSidebarText25 {
+    color: var(--dl-color-dark-white);
+    align-self: center;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.layoutWithSidebarDropdown-list2 {
+    right: 0;
+    width: auto;
+    display: none;
+    z-index: 100;
+    position: absolute;
+    min-width: 100%;
+    transition: 0.3s;
+    align-items: stretch;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: var(--dl-space-space-halfunit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-unit);
+    list-style-type: none;
+    background-color: var(--dl-color-dark-gray-360);
+    list-style-position: inside;
+}
+
+.layoutWithSidebarBigButtons2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    margin-bottom: 0px;
+}
+
+.layoutWithSidebarUserPersona2 {
+    gap: 4px;
+    fill: #595959;
+    color: var(--dl-color-dark-white);
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+}
+
+.layoutWithSidebarContainer4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.layoutWithSidebarName2 {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.layoutWithSidebarUserSettings2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+}
+
+.layoutWithSidebarDropdownToggle10 {
+    gap: 0;
+    fill: #595959;
+    color: var(--dl-color-dark-white);
+    width: 280px;
+    height: 280px;
+    display: inline-flex;
+    transition: 0.05s;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: 2px;
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+    text-decoration: none;
+    background-color: var(--dl-color-dark-black);
+}
+
+.layoutWithSidebarDropdownList2 {
+  right: 0;
+  width: auto;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  list-style-type: none;
+  background-color: var(--dl-color-dark-gray-360);
+  list-style-position: inside;
+}
+
+.layoutWithSidebarDropdownToggle10:hover {
+    fill: #fff;
+    color: #fff;
+    background-color: var(--dl-color-dark-gray-370);
+}
+
+.layoutWithSidebarLogOut2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+}
+
+
+
+@media(max-width: 991px) {
+    .layoutWithSidebarConnectQr {
+        display: none;
+    }
+}
+
+
+
+@media(max-width: 767px) {
+    .layoutWithSidebarConnectQr {
+        display: none;
+    }
+
+    .layoutWithSidebarCategory2 {
+        border-radius: var(--dl-radius-radius-radius8);
+    }
+
+    .layoutWithSidebarDropdownToggle09 {
+        height: 38.5px;
+        padding-left: var(--dl-space-space-unit);
+    }
+
+    .layoutWithSidebarDropdownList2 {
+        display: none;
+        border-radius: var(--dl-radius-radius-radius8);
+    }
+
+    .layoutWithSidebarUserPersona2 {
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 10px;
+    }
+
+    .layoutWithSidebarName2 {
+        font-size: 13px;
+    }
+
+    .layoutWithSidebarDropdownToggle10 {
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 10px;
+    }
+}

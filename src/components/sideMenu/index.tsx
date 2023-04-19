@@ -1,11 +1,15 @@
 import React, { memo } from 'react'
-
-import './styles.scss'
+import { Category, CreatorStudio } from "./components"
+import styles from './styles.module.scss'
 
 export const SideMenu = memo((props: any) => {
   return (
-    <div className={`side-menu-side-menu ${props.rootClassName} `}>
-      <div className='side-menu-container hide-scroll'>
+    <div className={`${styles.sideMenuSideMenu} ${props.rootClassName} `}>
+
+      <Category />
+      <CreatorStudio />
+
+      {/* <div className='side-menu-container hide-scroll'>
         <div className='side-menu-container01'>
           <span className='side-menu-text material-symbols-outlined'>
             category
@@ -75,7 +79,7 @@ export const SideMenu = memo((props: any) => {
             <span className='side-menu-text15 Content'>Settings</span>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 })

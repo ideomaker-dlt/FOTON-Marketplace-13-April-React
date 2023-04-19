@@ -1,4 +1,4 @@
-.nft-item {
+.nftItem {
   flex: 1;
   display: flex;
   position: relative;
@@ -22,7 +22,7 @@
     border-bottom-width: 5px;
   }
 
-  .nft-image-header {
+  .nftImageHeader {
     flex: 0 0 auto;
     width: 100%;
     height: auto;
@@ -36,7 +36,7 @@
 }
 
 
-.item1-text-box {
+.item1TextBox {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -50,14 +50,16 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
 }
-.item1-container {
+
+.item1Container {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-items: flex-start;
 }
-.item1-text {
+
+.item1Text {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: auto;
@@ -72,7 +74,8 @@
   text-transform: none;
   text-decoration: none;
 }
-.item1-container1 {
+
+.item1Container1 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -80,7 +83,8 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.item1-floor {
+
+.item1Floor {
   gap: 3px;
   flex: 1;
   height: 100%;
@@ -88,13 +92,16 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.item1-text1 {
+
+.item1Text1 {
   color: var(--dl-color-dark-gray-400);
 }
-.item1-text2 {
+
+.item1Text2 {
   color: var(--dl-color-dark-white);
 }
-.item1-volume24 {
+
+.item1Volume24 {
   gap: 3px;
   flex: 1;
   height: 100%;
@@ -102,38 +109,47 @@
   align-items: flex-end;
   flex-direction: column;
 }
-.item1-text3 {
+
+.item1Text3 {
   color: var(--dl-color-dark-gray-400);
 }
-.item1-text4 {
+
+.item1Text4 {
   color: var(--dl-color-dark-green-200);
 }
+
 @media(max-width: 767px) {
-  .nft-item {
+  .nftItem {
     border-radius: var(--dl-radius-radius-radius8);
-    
-    .nft-image-header {
+
+    .nftImageHeader {
       border-radius: var(--dl-radius-radius-radius8);
     }
   }
-  .item1-text {
+
+  .item1Text {
     font-size: 16px;
   }
-  .item1-text1 {
+
+  .item1Text1 {
     font-size: 11px;
   }
-  .item1-text2 {
+
+  .item1Text2 {
     font-size: 13px;
   }
-  .item1-text3 {
+
+  .item1Text3 {
     font-size: 11px;
   }
-  .item1-text4 {
+
+  .item1Text4 {
     font-size: 13px;
   }
 }
+
 @media(max-width: 479px) {
-  .item1-text-box {
+  .item1TextBox {
     padding: 12px;
     padding-top: var(--dl-space-space-unit);
     padding-left: var(--dl-space-space-unit);

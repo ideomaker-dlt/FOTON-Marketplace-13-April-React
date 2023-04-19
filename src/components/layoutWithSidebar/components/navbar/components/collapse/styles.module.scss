@@ -1,0 +1,42 @@
+.layoutWithSidebarSidenavButton {
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    transition: 0.05s;
+    align-items: center;
+    border-color: var(--dl-color-dark-gray-360);
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-radius12);
+    justify-content: center;
+}
+
+.layoutWithSidebarSidenavButton:hover {
+    border-color: var(--dl-color-dark-gray-370);
+    background-color: var(--dl-color-dark-gray-300);
+}
+
+.layoutWithSidebarIcon {
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+    background-size: contain;
+    background-image: url("/playground_assets/sidemenu-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media(max-width: 767px) {
+    .layoutWithSidebarSidenavButton {
+        width: 40px;
+        height: 40px;
+    }
+
+    .layoutWithSidebarIcon {
+        width: 18px;
+        height: 18px;
+    }
+}
