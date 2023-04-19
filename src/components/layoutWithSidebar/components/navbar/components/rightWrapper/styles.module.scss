@@ -1,0 +1,43 @@
+.layoutWithSidebarWrapperRight {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.layoutWithSidebarUser {
+    flex: 0 0 auto;
+    width: 50px;
+    height: 50px;
+    display: none;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.layoutWithSidebarAvatar {
+    flex: 0 0 auto;
+    width: 46px;
+    height: 46px;
+    display: flex;
+    transition: 0.05s;
+    align-items: flex-start;
+    border-color: var(--dl-color-dark-white);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-round);
+    background-size: cover;
+    background-image: url("/playground_assets/vlad__foton.is__radix.stream_funny_cartoon_character_in_the_sty_98d91502-c00e-4158-af06-43df0dbd30b7-200h.png");
+}
+
+.layoutWithSidebarAvatar:hover {
+    border-color: var(--dl-color-dark-green-200);
+}
+
+@media(max-width: 991px) {
+    .layoutWithSidebarUser {
+        display: none;
+    }
+
+}

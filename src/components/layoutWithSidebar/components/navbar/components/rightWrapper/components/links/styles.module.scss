@@ -1,0 +1,105 @@
+.layoutWithSidebarContainerRight {
+    flex: 0 0 auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.layoutWithSidebarItems {
+    flex: 1;
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    justify-content: flex-end;
+}
+
+.layoutWithSidebarButton1 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 1.15;
+    padding-top: 12px;
+    border-width: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 12px;
+    text-transform: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.layoutWithSidebarButton1:active {
+    color: var(--dl-color-dark-green-200);
+}
+
+.layoutWithSidebarNavlink1 {
+    color: var(--dl-color-dark-white);
+    transition: 0.3s;
+    padding-top: 12px;
+    border-width: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 12px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.layoutWithSidebarNavlink1:hover {
+    color: var(--dl-color-dark-green-200);
+}
+
+.layoutWithSidebarNavlink1:active {
+    color: var(--dl-color-dark-green-200);
+}
+
+.layoutWithSidebarNavlink2 {
+    color: var(--dl-color-dark-white);
+    transition: 0.3s;
+    padding-top: 12px;
+    border-width: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 12px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.layoutWithSidebarNavlink2:hover {
+    color: var(--dl-color-dark-green-200);
+}
+
+.layoutWithSidebarNavlink2:active {
+    color: var(--dl-color-dark-green-200);
+}
+
+.layoutWithSidebarButton2 {
+    color: var(--dl-color-dark-white);
+    transition: 0.3s;
+    padding-top: 12px;
+    border-width: 0px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 12px;
+    background-color: transparent;
+}
+
+.layoutWithSidebarButton2:hover {
+    color: var(--dl-color-dark-green-200);
+}
+
+.layoutWithSidebarButton2:active {
+    color: var(--dl-color-dark-green-200);
+}
+
+@media(max-width: 991px) {
+
+    .layoutWithSidebarItems {
+        display: none;
+    }
+}
