@@ -64,16 +64,13 @@ export const TabsRowWithButtons: React.FC<any> = memo(
           </div>
           <div
             data-thq='thq-dropdown'
-            className='tabs-row-with-buttons-sort-by list-item'
-          >
+            className='tabs-row-with-buttons-sort-by list-item'>
             <div
               data-thq='thq-dropdown-toggle'
-              className='tabs-row-with-buttons-dropdown-toggle'
-            >
+              className='tabs-row-with-buttons-dropdown-toggle'>
               <svg
                 viewBox='0 0 1024 1024'
-                className='tabs-row-with-buttons-icon2'
-              >
+                className='tabs-row-with-buttons-icon2'>
                 <path d='M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z'></path>
               </svg>
               <span className='tabs-row-with-buttons-text16'>
@@ -137,16 +134,14 @@ export const TabsRowWithButtons: React.FC<any> = memo(
                 </div>
                 <div
                   data-thq='thq-dropdown-toggle'
-                  className='tabs-row-with-buttons-dropdown-toggle6'
-                >
+                  className='tabs-row-with-buttons-dropdown-toggle6'>
                   <span className='tabs-row-with-buttons-text22'>
                     Newest Listed
                   </span>
                 </div>
                 <div
                   data-thq='thq-dropdown-toggle'
-                  className='tabs-row-with-buttons-dropdown-toggle7'
-                >
+                  className='tabs-row-with-buttons-dropdown-toggle7'>
                   <span className='tabs-row-with-buttons-text23'>Oldest</span>
                 </div>
               </li>
@@ -155,8 +150,7 @@ export const TabsRowWithButtons: React.FC<any> = memo(
           <button type='button' className='tabs-row-with-buttons-button5'>
             <svg
               viewBox='0 0 1024 1024'
-              className='tabs-row-with-buttons-icon6'
-            >
+              className='tabs-row-with-buttons-icon6'>
               <path d='M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z'></path>
             </svg>
             <span className='tabs-row-with-buttons-text24'>
