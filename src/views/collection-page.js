@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import LayoutWithSidebar from '../components/layout-with-sidebar'
+import CollectionItemsContainer from '../components/collection-items-container'
 import './collection-page.css'
 
 const CollectionPage = (props) => {
@@ -60,7 +61,7 @@ const CollectionPage = (props) => {
             <div className="collection-page-container07">
               <div className="collection-page-description-collection">
                 <div className="collection-page-container08">
-                  <h1 className="collection-page-text07 Content">
+                  <h1 className="collection-page-text07">
                     <span>
                       The crew of pirates gathered around a campfire on a
                       tropical island, their ship anchored offshore. They
@@ -95,7 +96,9 @@ const CollectionPage = (props) => {
           <span className="collection-page-text17">About</span>
           <span className="collection-page-text18">Followers</span>
         </div>
-        <div className="collection-page-container09"></div>
+        <div className="collection-page-container09">
+          <CollectionItemsContainer></CollectionItemsContainer>
+        </div>
       </LayoutWithSidebar>
     </div>
   )
