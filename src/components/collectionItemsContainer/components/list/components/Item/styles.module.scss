@@ -15,7 +15,6 @@
  }
 
  .collectionItemsContainerItem1:Hover {
-     transform: translateY(-5px);
      border-color: var(--dl-color-dark-green-200);
      border-top-width: 0px;
      border-left-width: 0px;
@@ -39,7 +38,7 @@
  .collectionItemsContainerCheckbox10 {
      width: 18px;
      height: 18px;
-     opacity: 0.8;
+     opacity: 0.7;
      margin-top: var(--dl-space-space-unit);
      margin-right: var(--dl-space-space-unit);
      background-color: var(--dl-color-dark-blue-100);

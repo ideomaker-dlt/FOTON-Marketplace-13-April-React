@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import { LayoutWithSidebar } from '@components'
-import './styles.scss'
+import styles from "./styles.module.scss"
+import { AddItem, Header, HelmetComponent, Menu } from './components'
 
 export const AddItemsSelector = memo(() => {
   return (
-    <div className='add-items-selector-container'>
-      <Helmet>
+    <div className={styles.addItemsSelectorContainer}>
+      <HelmetComponent />
+      {/* <Helmet>
         <title>
           Add-Items-Selector - FOTON Marketplace for NFTs and Digital
           Collectibles on Radix DLT
@@ -25,19 +27,13 @@ export const AddItemsSelector = memo(() => {
           property='og:description'
           content='Collect , Trade or Mint NFTs and find your Communities'
         />
-      </Helmet>
+      </Helmet> */}
       <LayoutWithSidebar rootClassName='layout-with-sidebar-root-class-name10'>
-        <div className='add-items-selector-header-creator'>
-          <div className='add-items-selector-container01'>
-            <div className='add-items-selector-container02'>
-              <div className='add-items-selector-container03'>
-                <h1 className='add-items-selector-text'>Create New Item</h1>
-              </div>
-            </div>
-          </div>
-          <div className='add-items-selector-mask-overlay'></div>
-        </div>
-        <div className='add-items-selector-tabs-row'>
+        <Header />
+        <Menu />
+        <AddItem />
+
+        {/* <div className='add-items-selector-tabs-row'>
           <div className='add-items-selector-container04'>
             <Link
               to='/creator-studio-collection'
@@ -49,8 +45,9 @@ export const AddItemsSelector = memo(() => {
               Define your Item below
             </span>
           </div>
-        </div>
-        <div className='add-items-selector-container05'>
+        </div> */}
+
+        {/* <div className='add-items-selector-container05'>
           <Link to='/add-item'>
             <div className='add-items-selector-collection'>
               <div className='add-items-selector-container06'>
@@ -133,7 +130,7 @@ export const AddItemsSelector = memo(() => {
               </div>
             </div>
           </Link>
-        </div>
+        </div> */}
       </LayoutWithSidebar>
     </div>
   )
