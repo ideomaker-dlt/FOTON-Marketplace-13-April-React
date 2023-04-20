@@ -72,29 +72,39 @@ const CollectionPage = (props) => {
                     </span>
                     <br></br>
                   </h1>
+                  <h1 className="collection-page-text10">
+                    <span>
+                      Created on 23 Apr 2023 · Last updated 28 Apr 2023 
+                    </span>
+                    <br></br>
+                  </h1>
                 </div>
               </div>
             </div>
             <div className="collection-page-small-stats">
               <div className="collection-page-small-card">
-                <span className="collection-page-text10">10000</span>
-                <span className="collection-page-text11">Items</span>
+                <span className="collection-page-text13">10000</span>
+                <span className="collection-page-text14">Items</span>
               </div>
               <div className="collection-page-small-card1">
-                <span className="collection-page-text12">573</span>
-                <span className="collection-page-text13">Followers</span>
+                <span className="collection-page-text15">573</span>
+                <span className="collection-page-text16">Followers</span>
               </div>
               <div className="collection-page-small-card2">
-                <span className="collection-page-text14">28k</span>
-                <span className="collection-page-text15">Views</span>
+                <span className="collection-page-text17">28k</span>
+                <span className="collection-page-text18">Views</span>
+              </div>
+              <div className="collection-page-small-card3">
+                <span className="collection-page-text19">5%</span>
+                <span className="collection-page-text20">Creator Earnings</span>
               </div>
             </div>
           </div>
         </div>
         <div className="collection-page-tabs-row">
-          <span className="collection-page-text16">Items</span>
-          <span className="collection-page-text17">About</span>
-          <span className="collection-page-text18">Followers</span>
+          <span className="collection-page-text21">Items</span>
+          <span className="collection-page-text22">About</span>
+          <span className="collection-page-text23">Followers</span>
         </div>
         <div className="collection-page-container09">
           <CollectionItemsContainer></CollectionItemsContainer>

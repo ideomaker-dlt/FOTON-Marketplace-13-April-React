@@ -15,20 +15,21 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius8);
-  margin-bottom: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
   justify-content: flex-start;
 }
 .collection-page-container02 {
-  width: 100%;
-  height: 100%;
+  flex: 5;
+  width: auto;
+  height: auto;
   display: flex;
-  min-height: 200px;
   align-items: flex-start;
 }
 .collection-page-image {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: 460;
   object-fit: cover;
   aspect-ratio: 3/2;
   border-color: var(--dl-color-dark-gray-300);
@@ -36,7 +37,8 @@
   border-radius: var(--dl-radius-radius-radius12);
 }
 .collection-page-container03 {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 5;
   width: 100%;
   height: 100%;
   display: flex;
@@ -46,15 +48,15 @@
   flex-direction: column;
 }
 .collection-page-container04 {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: flex-start;
-  margin-top: var(--dl-space-space-fourunits);
+  margin-top: var(--dl-space-space-twounits);
   justify-content: flex-start;
 }
 .collection-page-avatar-logo {
-  width: 140px;
-  height: 140px;
+  width: 120px;
+  height: 120px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -76,7 +78,7 @@
   border-radius: var(--dl-radius-radius-radius12);
 }
 .collection-page-container05 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -89,7 +91,7 @@
 }
 .collection-page-text {
   color: var(--dl-color-dark-white);
-  font-size: 30px;
+  font-size: 22px;
   font-family: Poppins;
   font-weight: 700;
   line-height: 1.15;
@@ -104,7 +106,7 @@
 }
 .collection-page-text01 {
   color: var(--dl-color-dark-green-200);
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
@@ -114,7 +116,7 @@
 }
 .collection-page-text04 {
   color: var(--dl-color-dark-gray-400);
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 600;
@@ -149,11 +151,23 @@
 }
 .collection-page-text07 {
   color: var(--dl-color-dark-white);
+  display: none;
   font-size: 14px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.5;
+  padding-right: var(--dl-space-space-threeunits);
+  text-transform: none;
+  text-decoration: none;
+}
+.collection-page-text10 {
+  color: var(--dl-color-dark-white);
+  font-size: 14px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 1.5;
   padding-right: var(--dl-space-space-threeunits);
   text-transform: none;
   text-decoration: none;
@@ -179,13 +193,13 @@
   padding-bottom: 8px;
   background-color: var(--dl-color-dark-gray-300);
 }
-.collection-page-text10 {
+.collection-page-text13 {
   color: var(--dl-color-dark-green-200);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
 }
-.collection-page-text11 {
+.collection-page-text14 {
   color: var(--dl-color-dark-gray-400);
   font-size: 14px;
   font-style: normal;
@@ -205,13 +219,13 @@
   padding-bottom: 8px;
   background-color: var(--dl-color-dark-gray-300);
 }
-.collection-page-text12 {
+.collection-page-text15 {
   color: var(--dl-color-dark-green-200);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
 }
-.collection-page-text13 {
+.collection-page-text16 {
   color: var(--dl-color-dark-gray-400);
   font-size: 14px;
   font-style: normal;
@@ -231,20 +245,46 @@
   padding-bottom: 8px;
   background-color: var(--dl-color-dark-gray-300);
 }
-.collection-page-text14 {
+.collection-page-text17 {
   color: var(--dl-color-dark-green-200);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
 }
-.collection-page-text15 {
+.collection-page-text18 {
+  color: var(--dl-color-dark-gray-400);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.collection-page-small-card3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 12px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: 8px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.collection-page-text19 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.collection-page-text20 {
   color: var(--dl-color-dark-gray-400);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
 .collection-page-tabs-row {
-  gap: var(--dl-space-space-twounits);
+  gap: var(--dl-space-space-threeunits);
   flex: 0 0 auto;
   width: 100%;
   height: 60px;
@@ -257,7 +297,7 @@
   padding-right: var(--dl-space-space-halfunit);
   border-bottom-width: 1px;
 }
-.collection-page-text16 {
+.collection-page-text21 {
   color: var(--dl-color-dark-white);
   height: 100%;
   font-style: normal;
@@ -269,25 +309,10 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
-.collection-page-text16:hover {
+.collection-page-text21:hover {
   border-color: var(--dl-color-dark-green-200);
 }
-.collection-page-text17 {
-  color: var(--dl-color-dark-white);
-  height: 100%;
-  font-style: normal;
-  transition: 0.3s;
-  font-weight: 600;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  border-color: var(--dl-color-dark-gray-200);
-  border-width: 0px;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  border-bottom-width: 2px;
-}
-.collection-page-text17:hover {
-  border-color: var(--dl-color-dark-green-200);
-}
-.collection-page-text18 {
+.collection-page-text22 {
   color: var(--dl-color-dark-white);
   height: 100%;
   font-style: normal;
@@ -299,7 +324,22 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
-.collection-page-text18:hover {
+.collection-page-text22:hover {
+  border-color: var(--dl-color-dark-green-200);
+}
+.collection-page-text23 {
+  color: var(--dl-color-dark-white);
+  height: 100%;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.collection-page-text23:hover {
   border-color: var(--dl-color-dark-green-200);
 }
 .collection-page-container09 {
@@ -310,13 +350,21 @@
   align-items: flex-start;
 }
 @media(max-width: 1200px) {
-  .collection-page-text16 {
+  .collection-page-container02 {
+    flex: 5;
+    aspect-ratio: 1/1;
+  }
+  .collection-page-image {
+    width: 100%;
+    height: 100%;
+  }
+  .collection-page-text21 {
     color: var(--dl-color-dark-white);
   }
-  .collection-page-text17 {
+  .collection-page-text22 {
     color: var(--dl-color-dark-white);
   }
-  .collection-page-text18 {
+  .collection-page-text23 {
     color: var(--dl-color-dark-white);
   }
 }
@@ -340,15 +388,27 @@
   .collection-page-description-collection {
     gap: var(--dl-space-space-halfunit);
     height: auto;
-    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-top: 0px;
   }
 }
 @media(max-width: 767px) {
   .collection-page-container01 {
-    gap: var(--dl-space-space-twounits);
+    gap: var(--dl-space-space-unit);
+    height: auto;
     flex-direction: column;
+    justify-content: flex-start;
+  }
+  .collection-page-container02 {
+    flex: 0;
+    width: 100%;
+    height: auto;
+  }
+  .collection-page-image {
+    height: 400px;
+    max-height: auto;
   }
   .collection-page-container03 {
+    flex: 0;
     height: auto;
     padding-top: 0px;
   }
@@ -387,15 +447,18 @@
     height: auto;
     padding-top: var(--dl-space-space-unit);
   }
-  .collection-page-text16 {
+  .collection-page-tabs-row {
+    gap: var(--dl-space-space-twounits);
+  }
+  .collection-page-text21 {
     font-size: 13px;
     font-weight: 600;
   }
-  .collection-page-text17 {
+  .collection-page-text22 {
     font-size: 13px;
     font-weight: 600;
   }
-  .collection-page-text18 {
+  .collection-page-text23 {
     font-size: 13px;
     font-weight: 600;
   }
