@@ -131,7 +131,7 @@
   display: flex;
   font-size: 14px;
   font-style: normal;
-  transition: 0.3s;
+  transition: 0.05s;
   align-items: center;
   font-family: Poppins;
   font-weight: 500;
@@ -171,7 +171,7 @@
   display: flex;
   font-size: 14px;
   font-style: normal;
-  transition: 0.3s;
+  transition: 0.05s;
   align-items: center;
   font-family: Poppins;
   font-weight: 500;
@@ -211,7 +211,7 @@
   display: flex;
   font-size: 14px;
   font-style: normal;
-  transition: 0.3s;
+  transition: 0.05s;
   align-items: center;
   font-family: Poppins;
   font-weight: 500;
@@ -251,7 +251,7 @@
   display: flex;
   font-size: 14px;
   font-style: normal;
-  transition: 0.3s;
+  transition: 0.05s;
   align-items: center;
   font-family: Poppins;
   font-weight: 500;
@@ -307,7 +307,7 @@
 .add-collection2-card {
   gap: var(--dl-space-space-unit);
   width: 100%;
-  height: auto;
+  height: 814px;
   display: flex;
   align-self: flex-end;
   align-items: flex-start;
@@ -393,14 +393,17 @@
   gap: 0;
   height: 60px;
   display: flex;
+  transition: 0.3s;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .add-collection2-container07 {
   width: 100%;
   height: auto;
   display: flex;
+  transition: 0.05s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -411,6 +414,9 @@
   border-right-width: 0px;
   border-top-right-radius: var(--dl-radius-radius-radius16);
   border-bottom-right-radius: 0;
+}
+.add-collection2-container07:hover {
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-container08 {
   gap: 2px;
@@ -436,7 +442,7 @@
 }
 .add-collection2-icon10 {
   width: 24px;
-  height: 24px;
+  height: 100%;
 }
 .add-collection2-button05 {
   gap: 4px;
@@ -467,14 +473,17 @@
   gap: 0;
   height: 60px;
   display: flex;
+  transition: 0.3s;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .add-collection2-container09 {
   width: 100%;
   height: auto;
   display: flex;
+  transition: 0.05s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -485,6 +494,9 @@
   border-right-width: 0px;
   border-top-right-radius: var(--dl-radius-radius-radius16);
   border-bottom-right-radius: 0;
+}
+.add-collection2-container09:hover {
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-container10 {
   gap: 2px;
@@ -510,7 +522,7 @@
 }
 .add-collection2-icon14 {
   width: 24px;
-  height: 24px;
+  height: 100%;
 }
 .add-collection2-button06 {
   gap: 4px;
@@ -541,14 +553,17 @@
   gap: 0;
   height: 60px;
   display: flex;
+  transition: 0.3s;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .add-collection2-container11 {
   width: 100%;
   height: auto;
   display: flex;
+  transition: 0.05s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -559,6 +574,9 @@
   border-right-width: 0px;
   border-top-right-radius: var(--dl-radius-radius-radius16);
   border-bottom-right-radius: 0;
+}
+.add-collection2-container11:hover {
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection2-container12 {
   gap: 2px;
@@ -584,7 +602,7 @@
 }
 .add-collection2-icon18 {
   width: 24px;
-  height: 24px;
+  height: 100%;
 }
 .add-collection2-button07 {
   gap: 4px;
@@ -849,7 +867,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon28 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -973,7 +990,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon30 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -1097,7 +1113,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon32 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -1221,7 +1236,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon34 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -1345,7 +1359,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon36 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -1469,7 +1482,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon38 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -1593,7 +1605,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon40 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -1717,7 +1728,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon42 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;
@@ -1841,7 +1851,6 @@
   background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection2-icon44 {
-  fill: var(--dl-color-dark-gray-400);
   width: 24px;
   height: 24px;
   opacity: 1;

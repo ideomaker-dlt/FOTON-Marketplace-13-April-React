@@ -235,7 +235,7 @@ const AddCollection2 = (props) => {
                   <div className="add-collection2-container13">
                     <span className="add-collection2-text036">
                       <span>
-                        Add Assets
+                        Layer Assets
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',

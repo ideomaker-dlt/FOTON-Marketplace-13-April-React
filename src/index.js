@@ -13,6 +13,7 @@ import CreatorStudio from './views/creator-studio'
 import AddProject from './views/add-project'
 import Home from './views/home'
 import CreatorStudioProject from './views/creator-studio-project'
+import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-analytics'
 
 const App = () => {
   return (
@@ -35,6 +36,11 @@ const App = () => {
           component={CreatorStudioProject}
           exact
           path="/creator-studio-project"
+        />
+        <Route
+          component={CreatorStudioCollectionAnalytics}
+          exact
+          path="/creator-studio-collection-analytics"
         />
       </div>
     </Router>

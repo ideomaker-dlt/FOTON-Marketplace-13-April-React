@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -39,19 +40,26 @@ const SideMenu = (props) => {
           Creator Studio
         </span>
         <div className="side-menu-container09">
-          <div className="side-menu-container10">
-            <span className="side-menu-text02 material-symbols-outlined">
-              <span className="">dashboard_customize</span>
-              <br className=""></br>
-            </span>
-            <span className="side-menu-text05 Content">Dashboard</span>
-          </div>
-          <div className="side-menu-container11">
-            <span className="side-menu-text06 material-symbols-outlined">
-              insights
-            </span>
-            <span className="side-menu-text07 Content">Analytics</span>
-          </div>
+          <Link to="/creator-studio-collection" className="side-menu-navlink">
+            <div className="side-menu-container10">
+              <span className="side-menu-text02 material-symbols-outlined">
+                <span className="">dashboard_customize</span>
+                <br className=""></br>
+              </span>
+              <span className="side-menu-text05 Content">Dashboard</span>
+            </div>
+          </Link>
+          <Link
+            to="/creator-studio-collection-analytics"
+            className="side-menu-navlink1"
+          >
+            <div className="side-menu-container11">
+              <span className="side-menu-text06 material-symbols-outlined">
+                insights
+              </span>
+              <span className="side-menu-text07 Content">Analytics</span>
+            </div>
+          </Link>
           <div className="side-menu-container12">
             <span className="side-menu-text08 material-symbols-outlined">
               settings
