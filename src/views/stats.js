@@ -27,7 +27,7 @@ const Stats = (props) => {
           content="Collect , Trade or Mint NFTs and find your Communities"
         />
       </Helmet>
-      <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name4">
+      <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name13">
         <div className="stats-tabs-row">
           <span className="stats-text">Collections Stats</span>
         </div>
@@ -37,7 +37,7 @@ const Stats = (props) => {
           <span className="stats-text3">Following</span>
         </div>
         <div className="stats-container1">
-          <RankingList rootClassName="ranking-list-root-class-name4"></RankingList>
+          <RankingList rootClassName="ranking-list-root-class-name5"></RankingList>
         </div>
       </LayoutWithSidebar>
     </div>

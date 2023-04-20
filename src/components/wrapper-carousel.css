@@ -7,6 +7,12 @@
   max-height: auto;
   align-items: flex-start;
 }
+.wrapper-carousel-navlink {
+  display: contents;
+}
+.wrapper-carousel-component {
+  text-decoration: none;
+}
 .wrapper-carousel-item2 {
   flex: 1;
   display: flex;

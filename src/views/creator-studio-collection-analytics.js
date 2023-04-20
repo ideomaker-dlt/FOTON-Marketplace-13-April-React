@@ -122,9 +122,9 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value">
-                  <p className="creator-studio-collection-analytics-text18">
+                  <h1 className="creator-studio-collection-analytics-text18">
                     15000
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -139,9 +139,9 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value01">
-                  <p className="creator-studio-collection-analytics-text21">
+                  <h1 className="creator-studio-collection-analytics-text21">
                     3782
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -156,9 +156,9 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value02">
-                  <p className="creator-studio-collection-analytics-text24">
+                  <h1 className="creator-studio-collection-analytics-text24">
                     351,368
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -173,7 +173,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value03">
-                  <p className="creator-studio-collection-analytics-text27">
+                  <h1 className="creator-studio-collection-analytics-text27">
                     <span>
                       203,365
                       <span
@@ -185,7 +185,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                     <span className="creator-studio-collection-analytics-text29">
                       XRD
                     </span>
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -200,7 +200,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value04">
-                  <p className="creator-studio-collection-analytics-text32">
+                  <h1 className="creator-studio-collection-analytics-text32">
                     <span>
                       203,365
                       <span
@@ -212,7 +212,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                     <span className="creator-studio-collection-analytics-text34">
                       XRD
                     </span>
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -227,7 +227,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value05">
-                  <p className="creator-studio-collection-analytics-text37">
+                  <h1 className="creator-studio-collection-analytics-text37">
                     <span>
                       203,365
                       <span
@@ -239,7 +239,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                     <span className="creator-studio-collection-analytics-text39">
                       XRD
                     </span>
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -254,7 +254,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value06">
-                  <p className="creator-studio-collection-analytics-text42">
+                  <h1 className="creator-studio-collection-analytics-text42">
                     <span>
                       203,365
                       <span
@@ -266,7 +266,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                     <span className="creator-studio-collection-analytics-text44">
                       XRD
                     </span>
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -281,7 +281,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value07">
-                  <p className="creator-studio-collection-analytics-text47">
+                  <h1 className="creator-studio-collection-analytics-text47">
                     <span>
                       203,365
                       <span
@@ -293,7 +293,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                     <span className="creator-studio-collection-analytics-text49">
                       XRD
                     </span>
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -308,7 +308,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value08">
-                  <p className="creator-studio-collection-analytics-text52">
+                  <h1 className="creator-studio-collection-analytics-text52">
                     <span>
                       203,365
                       <span
@@ -320,7 +320,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
                     <span className="creator-studio-collection-analytics-text54">
                       XRD
                     </span>
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -335,9 +335,9 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value09">
-                  <p className="creator-studio-collection-analytics-text57">
+                  <h1 className="creator-studio-collection-analytics-text57">
                     642
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -352,9 +352,9 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value10">
-                  <p className="creator-studio-collection-analytics-text60">
+                  <h1 className="creator-studio-collection-analytics-text60">
                     842
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>
@@ -369,9 +369,9 @@ const CreatorStudioCollectionAnalytics = (props) => {
                   </h1>
                 </div>
                 <div className="creator-studio-collection-analytics-value11">
-                  <p className="creator-studio-collection-analytics-text63">
+                  <h1 className="creator-studio-collection-analytics-text63">
                     231
-                  </p>
+                  </h1>
                 </div>
               </div>
             </div>

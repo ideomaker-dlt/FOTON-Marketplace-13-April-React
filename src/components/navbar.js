@@ -66,7 +66,7 @@ input[type="search"]::-webkit-search-results-decoration {
           <div className="navbar-container-right">
             <div className="navbar-items">
               <button className="navbar-button1">{props.button}</button>
-              <Link to="/stats" className="navbar-navlink Content">
+              <Link to="/collection-page" className="navbar-navlink Content">
                 {props.button1}
               </Link>
               <button className="navbar-button2 Content">

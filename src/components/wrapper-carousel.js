@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -8,7 +9,9 @@ import './wrapper-carousel.css'
 const WrapperCarousel = (props) => {
   return (
     <div className="wrapper-carousel-wrapper-carousel">
-      <Item1></Item1>
+      <Link to="/collection-page" className="wrapper-carousel-navlink">
+        <Item1 className="wrapper-carousel-component"></Item1>
+      </Link>
       <div className="wrapper-carousel-item2">
         <div className="wrapper-carousel-image-header"></div>
         <div className="wrapper-carousel-text-box">

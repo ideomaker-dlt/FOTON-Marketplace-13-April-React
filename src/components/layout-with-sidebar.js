@@ -195,7 +195,7 @@ input[type="search"]::-webkit-search-results-decoration {
                       </span>
                       <span className="layout-with-sidebar-text07">Drops</span>
                     </div>
-                    <Link to="/stats" className="">
+                    <Link to="/collection-page" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-dropdown-toggle02"
