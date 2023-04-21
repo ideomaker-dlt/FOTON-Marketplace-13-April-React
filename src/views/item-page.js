@@ -219,17 +219,23 @@ const ItemPage = (props) => {
                         <span>Eyes</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text048">
-                        <span>243</span>
-                        <br></br>
-                      </p>
+                      <div className="item-page-container09">
+                        <p className="item-page-text048">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text051">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
                     </div>
                     <div className="item-page-container-row01">
-                      <p className="item-page-text051">
+                      <p className="item-page-text054">
                         <span>Purple</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text054">
+                      <p className="item-page-text057">
                         <span>14%</span>
                         <br></br>
                       </p>
@@ -237,21 +243,27 @@ const ItemPage = (props) => {
                   </div>
                   <div className="item-page-treat1">
                     <div className="item-page-container-row02">
-                      <p className="item-page-text057">
+                      <p className="item-page-text060">
                         <span>Eyes</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text060">
-                        <span>243</span>
-                        <br></br>
-                      </p>
+                      <div className="item-page-container10">
+                        <p className="item-page-text063">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text066">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
                     </div>
                     <div className="item-page-container-row03">
-                      <p className="item-page-text063">
+                      <p className="item-page-text069">
                         <span>Purple</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text066">
+                      <p className="item-page-text072">
                         <span>14%</span>
                         <br></br>
                       </p>
@@ -259,21 +271,27 @@ const ItemPage = (props) => {
                   </div>
                   <div className="item-page-treat2">
                     <div className="item-page-container-row04">
-                      <p className="item-page-text069">
+                      <p className="item-page-text075">
                         <span>Eyes</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text072">
-                        <span>243</span>
-                        <br></br>
-                      </p>
+                      <div className="item-page-container11">
+                        <p className="item-page-text078">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text081">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
                     </div>
                     <div className="item-page-container-row05">
-                      <p className="item-page-text075">
+                      <p className="item-page-text084">
                         <span>Purple</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text078">
+                      <p className="item-page-text087">
                         <span>14%</span>
                         <br></br>
                       </p>
@@ -281,38 +299,22 @@ const ItemPage = (props) => {
                   </div>
                   <div className="item-page-treat3">
                     <div className="item-page-container-row06">
-                      <p className="item-page-text081">
+                      <p className="item-page-text090">
                         <span>Eyes</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text084">
-                        <span>243</span>
-                        <br></br>
-                      </p>
+                      <div className="item-page-container12">
+                        <p className="item-page-text093">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text096">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
                     </div>
                     <div className="item-page-container-row07">
-                      <p className="item-page-text087">
-                        <span>Purple</span>
-                        <br></br>
-                      </p>
-                      <p className="item-page-text090">
-                        <span>14%</span>
-                        <br></br>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="item-page-treat4">
-                    <div className="item-page-container-row08">
-                      <p className="item-page-text093">
-                        <span>Eyes</span>
-                        <br></br>
-                      </p>
-                      <p className="item-page-text096">
-                        <span>243</span>
-                        <br></br>
-                      </p>
-                    </div>
-                    <div className="item-page-container-row09">
                       <p className="item-page-text099">
                         <span>Purple</span>
                         <br></br>
@@ -323,23 +325,57 @@ const ItemPage = (props) => {
                       </p>
                     </div>
                   </div>
-                  <div className="item-page-treat5">
-                    <div className="item-page-container-row10">
+                  <div className="item-page-treat4">
+                    <div className="item-page-container-row08">
                       <p className="item-page-text105">
                         <span>Eyes</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text108">
-                        <span>243</span>
-                        <br></br>
-                      </p>
+                      <div className="item-page-container13">
+                        <p className="item-page-text108">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text111">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
                     </div>
-                    <div className="item-page-container-row11">
-                      <p className="item-page-text111">
+                    <div className="item-page-container-row09">
+                      <p className="item-page-text114">
                         <span>Purple</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text114">
+                      <p className="item-page-text117">
+                        <span>14%</span>
+                        <br></br>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="item-page-treat5">
+                    <div className="item-page-container-row10">
+                      <p className="item-page-text120">
+                        <span>Eyes</span>
+                        <br></br>
+                      </p>
+                      <div className="item-page-container14">
+                        <p className="item-page-text123">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text126">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="item-page-container-row11">
+                      <p className="item-page-text129">
+                        <span>Purple</span>
+                        <br></br>
+                      </p>
+                      <p className="item-page-text132">
                         <span>14%</span>
                         <br></br>
                       </p>
@@ -347,21 +383,27 @@ const ItemPage = (props) => {
                   </div>
                   <div className="item-page-treat6">
                     <div className="item-page-container-row12">
-                      <p className="item-page-text117">
+                      <p className="item-page-text135">
                         <span>Eyes</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text120">
-                        <span>243</span>
-                        <br></br>
-                      </p>
+                      <div className="item-page-container15">
+                        <p className="item-page-text138">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text141">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
                     </div>
                     <div className="item-page-container-row13">
-                      <p className="item-page-text123">
+                      <p className="item-page-text144">
                         <span>Purple</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text126">
+                      <p className="item-page-text147">
                         <span>14%</span>
                         <br></br>
                       </p>
@@ -369,21 +411,27 @@ const ItemPage = (props) => {
                   </div>
                   <div className="item-page-treat7">
                     <div className="item-page-container-row14">
-                      <p className="item-page-text129">
+                      <p className="item-page-text150">
                         <span>Eyes</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text132">
-                        <span>243</span>
-                        <br></br>
-                      </p>
+                      <div className="item-page-container16">
+                        <p className="item-page-text153">
+                          <span>243</span>
+                          <br></br>
+                        </p>
+                        <p className="item-page-text156">
+                          <span>Have it</span>
+                          <br></br>
+                        </p>
+                      </div>
                     </div>
                     <div className="item-page-container-row15">
-                      <p className="item-page-text135">
+                      <p className="item-page-text159">
                         <span>Purple</span>
                         <br></br>
                       </p>
-                      <p className="item-page-text138">
+                      <p className="item-page-text162">
                         <span>14%</span>
                         <br></br>
                       </p>
@@ -393,44 +441,44 @@ const ItemPage = (props) => {
               </div>
               <div className="item-page-item-details2">
                 <div className="item-page-tabs-row3">
-                  <span className="item-page-text141">Offers</span>
-                  <span className="item-page-text142">Listings</span>
-                  <span className="item-page-text143">Activity</span>
+                  <span className="item-page-text165">Offers</span>
+                  <span className="item-page-text166">Listings</span>
+                  <span className="item-page-text167">Activity</span>
                 </div>
-                <div className="item-page-container09">
+                <div className="item-page-container17">
                   <div className="item-page-header-table">
                     <div className="item-page-second-column header-second-column">
                       <div className="item-page-group1">
                         <div className="item-page-name">
-                          <span className="item-page-text144">
-                            <span className="Content16SemiBold item-page-text145">
+                          <span className="item-page-text168">
+                            <span className="Content16SemiBold item-page-text169">
                               Price
                             </span>
                             <br></br>
                           </span>
                         </div>
                         <div className="item-page-volume">
-                          <span className="item-page-text147 Content16SemiBold">
+                          <span className="item-page-text171 Content16SemiBold">
                             Floor Difference
                           </span>
                         </div>
                       </div>
                       <div className="item-page-group2">
                         <div className="item-page-change">
-                          <span className="item-page-text148 Content16SemiBold">
+                          <span className="item-page-text172 Content16SemiBold">
                             expiration
                           </span>
                         </div>
                         <div className="item-page-floor">
-                          <span className="item-page-text149 Content16SemiBold">
+                          <span className="item-page-text173 Content16SemiBold">
                             Floor:
                           </span>
-                          <span className="item-page-text150 Content16SemiBold">
+                          <span className="item-page-text174 Content16SemiBold">
                             quantity
                           </span>
                         </div>
                         <div className="item-page-change01">
-                          <span className="item-page-text151 Content16SemiBold">
+                          <span className="item-page-text175 Content16SemiBold">
                             from
                           </span>
                         </div>
@@ -441,30 +489,30 @@ const ItemPage = (props) => {
                     <div className="item-page-second-column1 table-row-second-column">
                       <div className="item-page-group11">
                         <div className="item-page-name1">
-                          <span className="item-page-text152 Content16SemiBold">
+                          <span className="item-page-text176 Content16SemiBold">
                             357 XRD
                           </span>
                         </div>
                         <div className="item-page-volume1">
-                          <span className="item-page-text153 Content16SemiBold">
+                          <span className="item-page-text177 Content16SemiBold">
                             59% below
                           </span>
                         </div>
                       </div>
                       <div className="item-page-group21">
                         <div className="item-page-change02">
-                          <span className="item-page-text154">in 21 hours</span>
+                          <span className="item-page-text178">in 21 hours</span>
                         </div>
                         <div className="item-page-floor1">
                           <span className="item-page-text-mobile Content16SemiBold">
                             Expires in
                           </span>
-                          <span className="item-page-text155 Content16SemiBold">
+                          <span className="item-page-text179 Content16SemiBold">
                             21
                           </span>
                         </div>
                         <div className="item-page-change03">
-                          <span className="item-page-text156">rdx7..274g</span>
+                          <span className="item-page-text180">rdx7..274g</span>
                           <span className="item-page-change-mobile">
                             21 days left
                           </span>
@@ -476,30 +524,30 @@ const ItemPage = (props) => {
                     <div className="item-page-second-column2 table-row-second-column">
                       <div className="item-page-group12">
                         <div className="item-page-name2">
-                          <span className="item-page-text157 Content16SemiBold">
+                          <span className="item-page-text181 Content16SemiBold">
                             357 XRD
                           </span>
                         </div>
                         <div className="item-page-volume2">
-                          <span className="item-page-text158 Content16SemiBold">
+                          <span className="item-page-text182 Content16SemiBold">
                             59% below
                           </span>
                         </div>
                       </div>
                       <div className="item-page-group22">
                         <div className="item-page-change04">
-                          <span className="item-page-text159">in 21 hours</span>
+                          <span className="item-page-text183">in 21 hours</span>
                         </div>
                         <div className="item-page-floor2">
                           <span className="item-page-text-mobile1 Content16SemiBold">
                             Floor:
                           </span>
-                          <span className="item-page-text160 Content16SemiBold">
+                          <span className="item-page-text184 Content16SemiBold">
                             1
                           </span>
                         </div>
                         <div className="item-page-change05">
-                          <span className="item-page-text161">rdx7..274g</span>
+                          <span className="item-page-text185">rdx7..274g</span>
                           <span className="item-page-change-mobile1">+31%</span>
                         </div>
                       </div>
@@ -509,30 +557,30 @@ const ItemPage = (props) => {
                     <div className="item-page-second-column3 table-row-second-column">
                       <div className="item-page-group13">
                         <div className="item-page-name3">
-                          <span className="item-page-text162 Content16SemiBold">
+                          <span className="item-page-text186 Content16SemiBold">
                             357 XRD
                           </span>
                         </div>
                         <div className="item-page-volume3">
-                          <span className="item-page-text163 Content16SemiBold">
+                          <span className="item-page-text187 Content16SemiBold">
                             59% below
                           </span>
                         </div>
                       </div>
                       <div className="item-page-group23">
                         <div className="item-page-change06">
-                          <span className="item-page-text164">in 21 hours</span>
+                          <span className="item-page-text188">in 21 hours</span>
                         </div>
                         <div className="item-page-floor3">
                           <span className="item-page-text-mobile2 Content16SemiBold">
                             Floor:
                           </span>
-                          <span className="item-page-text165 Content16SemiBold">
+                          <span className="item-page-text189 Content16SemiBold">
                             1
                           </span>
                         </div>
                         <div className="item-page-change07">
-                          <span className="item-page-text166">rdx7..274g</span>
+                          <span className="item-page-text190">rdx7..274g</span>
                           <span className="item-page-change-mobile2">+31%</span>
                         </div>
                       </div>
@@ -542,30 +590,30 @@ const ItemPage = (props) => {
                     <div className="item-page-second-column4 table-row-second-column">
                       <div className="item-page-group14">
                         <div className="item-page-name4">
-                          <span className="item-page-text167 Content16SemiBold">
+                          <span className="item-page-text191 Content16SemiBold">
                             357 XRD
                           </span>
                         </div>
                         <div className="item-page-volume4">
-                          <span className="item-page-text168 Content16SemiBold">
+                          <span className="item-page-text192 Content16SemiBold">
                             59% below
                           </span>
                         </div>
                       </div>
                       <div className="item-page-group24">
                         <div className="item-page-change08">
-                          <span className="item-page-text169">in 21 hours</span>
+                          <span className="item-page-text193">in 21 hours</span>
                         </div>
                         <div className="item-page-floor4">
                           <span className="item-page-text-mobile3 Content16SemiBold">
                             Floor:
                           </span>
-                          <span className="item-page-text170 Content16SemiBold">
+                          <span className="item-page-text194 Content16SemiBold">
                             1
                           </span>
                         </div>
                         <div className="item-page-change09">
-                          <span className="item-page-text171">rdx7..274g</span>
+                          <span className="item-page-text195">rdx7..274g</span>
                           <span className="item-page-change-mobile3">+31%</span>
                         </div>
                       </div>
@@ -575,30 +623,30 @@ const ItemPage = (props) => {
                     <div className="item-page-second-column5 table-row-second-column">
                       <div className="item-page-group15">
                         <div className="item-page-name5">
-                          <span className="item-page-text172 Content16SemiBold">
+                          <span className="item-page-text196 Content16SemiBold">
                             357 XRD
                           </span>
                         </div>
                         <div className="item-page-volume5">
-                          <span className="item-page-text173 Content16SemiBold">
+                          <span className="item-page-text197 Content16SemiBold">
                             59% below
                           </span>
                         </div>
                       </div>
                       <div className="item-page-group25">
                         <div className="item-page-change10">
-                          <span className="item-page-text174">in 21 hours</span>
+                          <span className="item-page-text198">in 21 hours</span>
                         </div>
                         <div className="item-page-floor5">
                           <span className="item-page-text-mobile4 Content16SemiBold">
                             Floor:
                           </span>
-                          <span className="item-page-text175 Content16SemiBold">
+                          <span className="item-page-text199 Content16SemiBold">
                             1
                           </span>
                         </div>
                         <div className="item-page-change11">
-                          <span className="item-page-text176">rdx7..274g</span>
+                          <span className="item-page-text200">rdx7..274g</span>
                           <span className="item-page-change-mobile4">+31%</span>
                         </div>
                       </div>
@@ -608,30 +656,30 @@ const ItemPage = (props) => {
                     <div className="item-page-second-column6 table-row-second-column">
                       <div className="item-page-group16">
                         <div className="item-page-name6">
-                          <span className="item-page-text177 Content16SemiBold">
+                          <span className="item-page-text201 Content16SemiBold">
                             357 XRD
                           </span>
                         </div>
                         <div className="item-page-volume6">
-                          <span className="item-page-text178 Content16SemiBold">
+                          <span className="item-page-text202 Content16SemiBold">
                             59% below
                           </span>
                         </div>
                       </div>
                       <div className="item-page-group26">
                         <div className="item-page-change12">
-                          <span className="item-page-text179">in 21 hours</span>
+                          <span className="item-page-text203">in 21 hours</span>
                         </div>
                         <div className="item-page-floor6">
                           <span className="item-page-text-mobile5 Content16SemiBold">
                             Floor:
                           </span>
-                          <span className="item-page-text180 Content16SemiBold">
+                          <span className="item-page-text204 Content16SemiBold">
                             1
                           </span>
                         </div>
                         <div className="item-page-change13">
-                          <span className="item-page-text181">rdx7..274g</span>
+                          <span className="item-page-text205">rdx7..274g</span>
                           <span className="item-page-change-mobile5">+31%</span>
                         </div>
                       </div>
