@@ -716,10 +716,9 @@
   width: 100%;
   height: auto;
   display: grid;
-  padding: var(--dl-space-space-unit);
+  padding: 0px;
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius12);
-  background-color: var(--dl-color-dark-gray-250);
   grid-template-columns: 1fr 1fr 1fr;
 }
 .item-page-treat {
@@ -2070,6 +2069,10 @@
   }
   .item-page-container05 {
     gap: 2px;
+  }
+  .item-page-container08 {
+    gap: var(--dl-space-space-halfunit);
+    grid-template-columns: 1fr 1fr;
   }
   .item-page-header-table {
     border-top-left-radius: 0;
