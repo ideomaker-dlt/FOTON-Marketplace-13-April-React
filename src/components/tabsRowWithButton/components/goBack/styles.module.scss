@@ -1,0 +1,60 @@
+.tabsRowWithButtonsContainer {
+    gap: var(--dl-space-space-twounits);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tabsRowWithButtonsNavlink {
+    color: var(--dl-color-dark-gray-400);
+    height: 100%;
+    font-style: normal;
+    transition: 0.05s;
+    font-weight: 600;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    border-color: var(--dl-color-dark-gray-200);
+    border-width: 0px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    text-decoration: none;
+    border-bottom-width: 2px;
+}
+
+.tabsRowWithButtonsNavlink:hover {
+    color: var(--dl-color-dark-green-200);
+}
+
+.tabsRowWithButtonsText {
+    color: var(--dl-color-dark-white);
+    height: 100%;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    border-color: var(--dl-color-dark-gray-200);
+    border-width: 0px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    border-bottom-width: 2px;
+}
+
+@media(max-width: 1200px) {
+    .tabsRowWithButtonsText {
+        color: var(--dl-color-dark-white);
+    }
+}
+
+@media(max-width: 767px) {
+
+    .tabsRowWithButtonsContainer {
+        gap: var(--dl-space-space-unit);
+    }
+
+    .tabsRowWithButtonsNavlink {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .tabsRowWithButtonsText {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+}

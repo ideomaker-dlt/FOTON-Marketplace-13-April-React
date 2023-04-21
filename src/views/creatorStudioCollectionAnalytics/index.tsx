@@ -5,69 +5,17 @@ import { Helmet } from 'react-helmet'
 
 import { LayoutWithSidebar } from '@components'
 import './styles.scss'
+import { GoBack, Header, HelmetComponent, List } from './components'
 
 export const CreatorStudioCollectionAnalytics = (props: any) => {
     return (
         <div className="creator-studio-collection-analytics-container">
-            <Helmet>
-                <title>
-                    Creator-Studio-Collection-Analytics - FOTON Marketplace for NFTs and
-                    Digital Collectibles on Radix DLT
-                </title>
-                <meta
-                    name="description"
-                    content="Collect , Trade or Mint NFTs and find your Communities"
-                />
-                <meta
-                    property="og:title"
-                    content="Creator-Studio-Collection-Analytics - FOTON Marketplace for NFTs and Digital Collectibles on Radix DLT"
-                />
-                <meta
-                    property="og:description"
-                    content="Collect , Trade or Mint NFTs and find your Communities"
-                />
-            </Helmet>
+            <HelmetComponent />
             <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name12">
-                <div className="creator-studio-collection-analytics-header-creator">
-                    <div className="creator-studio-collection-analytics-gray-overlay"></div>
-                    <div className="creator-studio-collection-analytics-container01">
-                        <div className="creator-studio-collection-analytics-container02">
-                            <div className="creator-studio-collection-analytics-avatar-logo">
-                                <img
-                                    src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
-                                    className="creator-studio-collection-analytics-image"
-                                />
-                            </div>
-                            <div className="creator-studio-collection-analytics-container03">
-                                <h1 className="creator-studio-collection-analytics-text">
-                                    Collection One
-                                </h1>
-                                <div className="creator-studio-collection-analytics-container04">
-                                    <h1 className="creator-studio-collection-analytics-text01">
-                                        <span>1500 items</span>
-                                        <br></br>
-                                    </h1>
-                                    <h1 className="creator-studio-collection-analytics-text04">
-                                        <span>Unlisted</span>
-                                        <br></br>
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="creator-studio-collection-analytics-buttons">
-                            <Link
-                                to="/add-items-selector"
-                                className="creator-studio-collection-analytics-navlink button"
-                            >
-                                <span className="creator-studio-collection-analytics-text07">
-                                    <span>Export Data</span>
-                                    <br></br>
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="creator-studio-collection-analytics-tabs-row">
+                <Header />
+                <GoBack />
+                <List />
+                {/* <div className="creator-studio-collection-analytics-tabs-row">
                     <div className="creator-studio-collection-analytics-container05">
                         <Link
                             to="/creator-studio-project"
@@ -108,8 +56,8 @@ export const CreatorStudioCollectionAnalytics = (props: any) => {
                             </button>
                         </div>
                     </div>
-                </div>
-                <div className="creator-studio-collection-analytics-resources">
+                </div> */}
+                {/* <div className="creator-studio-collection-analytics-resources">
                     <div className="creator-studio-collection-analytics-container06">
                         <div className="creator-studio-collection-analytics-item-data">
                             <div className="creator-studio-collection-analytics-container07">
@@ -376,7 +324,7 @@ export const CreatorStudioCollectionAnalytics = (props: any) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </LayoutWithSidebar>
         </div>
     )

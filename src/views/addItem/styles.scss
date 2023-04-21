@@ -130,6 +130,7 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
+
 .add-item-container-form {
   gap: var(--dl-space-space-twounits);
   width: 100%;
@@ -166,6 +167,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-dark-gray-250);
 }
+// 
 .add-item-form {
   gap: var(--dl-space-space-threeunits);
   flex: 1;
@@ -871,6 +873,7 @@
   width: 20px;
   height: 20px;
 }
+
 .add-item-info-box {
   flex: 0.8;
   height: auto;
@@ -1168,6 +1171,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
+  // 
   .add-item-text49 {
     font-size: 16px;
   }
