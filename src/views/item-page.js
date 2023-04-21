@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -140,10 +139,7 @@ const ItemPage = (props) => {
                 </div>
               </div>
               <div className="item-page-buy-container">
-                <Link
-                  to="/add-collection2"
-                  className="item-page-navlink button"
-                >
+                <button className="item-page-button3 button">
                   <span className="item-page-text027">
                     <span>Minting Soon</span>
                     <br></br>
@@ -151,10 +147,17 @@ const ItemPage = (props) => {
                   <svg viewBox="0 0 1024 1024" className="item-page-icon04">
                     <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                   </svg>
-                </Link>
-                <button className="item-page-button3 button">
+                </button>
+                <button className="item-page-button4 button">
                   <span className="item-page-text030">
-                    <span>Make Offer Soon</span>
+                    <span>
+                      Make Offer
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
                     <br></br>
                   </span>
                 </button>
@@ -176,7 +179,7 @@ const ItemPage = (props) => {
                 </div>
               </div>
               <div className="item-page-container07">
-                <button type="button" className="item-page-button4">
+                <button type="button" className="item-page-button5">
                   <svg
                     viewBox="0 0 1024 1024"
                     className="item-page-icon06 fill-color-white"
@@ -188,7 +191,7 @@ const ItemPage = (props) => {
                     <br></br>
                   </span>
                 </button>
-                <button type="button" className="item-page-button5">
+                <button type="button" className="item-page-button6">
                   <span className="item-page-text040">
                     <span>Follow</span>
                     <br></br>
