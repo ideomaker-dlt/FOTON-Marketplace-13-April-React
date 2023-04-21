@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -296,41 +297,43 @@ const CollectionItemsContainer = (props) => {
         </div>
         <div className="collection-items-container-grid-items">
           <div className="collection-items-container-container20">
-            <div className="collection-items-container-item1">
-              <div className="collection-items-container-image-header">
-                <input
-                  type="checkbox"
-                  className="collection-items-container-checkbox10"
-                />
-              </div>
-              <div className="collection-items-container-text-box">
-                <div className="collection-items-container-container21">
-                  <span className="collection-items-container-text31">
-                    {props.text}
-                  </span>
+            <Link to="/item-page">
+              <div className="collection-items-container-item1">
+                <div className="collection-items-container-image-header">
+                  <input
+                    type="checkbox"
+                    className="collection-items-container-checkbox10"
+                  />
                 </div>
-                <div className="collection-items-container-container22">
-                  <div className="collection-items-container-floor">
-                    <span className="collection-items-container-text32 SmallestLabels">
-                      {props.text8}
-                    </span>
-                    <span className="collection-items-container-text33 Content16SemiBold">
-                      {props.text9}
+                <div className="collection-items-container-text-box">
+                  <div className="collection-items-container-container21">
+                    <span className="collection-items-container-text31">
+                      {props.text}
                     </span>
                   </div>
-                  <div className="collection-items-container-volume24">
-                    <span className="collection-items-container-text34 SmallestLabels">
-                      {props.text10}
-                    </span>
-                    <div className="collection-items-container-container23">
-                      <span className="collection-items-container-text35">
-                        {props.text32}
+                  <div className="collection-items-container-container22">
+                    <div className="collection-items-container-floor">
+                      <span className="collection-items-container-text32 SmallestLabels">
+                        {props.text8}
                       </span>
+                      <span className="collection-items-container-text33 Content16SemiBold">
+                        {props.text9}
+                      </span>
+                    </div>
+                    <div className="collection-items-container-volume24">
+                      <span className="collection-items-container-text34 SmallestLabels">
+                        {props.text10}
+                      </span>
+                      <div className="collection-items-container-container23">
+                        <span className="collection-items-container-text35">
+                          {props.text32}
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
             <div className="collection-items-container-item11">
               <div className="collection-items-container-image-header1">
                 <input
