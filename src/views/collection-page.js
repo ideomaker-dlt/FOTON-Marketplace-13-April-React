@@ -28,7 +28,7 @@ const CollectionPage = (props) => {
         />
       </Helmet>
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name4">
-        <div className="collection-page-container01">
+        <div className="collection-page-container1">
           <div className="collection-page-image-header">
             <img
               alt="image"
@@ -37,16 +37,16 @@ const CollectionPage = (props) => {
             />
           </div>
           <div className="collection-page-collection-info-box">
-            <div className="collection-page-container02">
+            <div className="collection-page-container2">
               <div className="collection-page-avatar-logo">
                 <img
                   src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="collection-page-image1"
                 />
               </div>
-              <div className="collection-page-container03">
+              <div className="collection-page-container3">
                 <h1 className="collection-page-text">Collection One</h1>
-                <div className="collection-page-container04">
+                <div className="collection-page-container4">
                   <p className="collection-page-text01">
                     <span>By Smooth Collective</span>
                     <br></br>
@@ -58,9 +58,9 @@ const CollectionPage = (props) => {
                 </div>
               </div>
             </div>
-            <div className="collection-page-container05">
+            <div className="collection-page-container5">
               <div className="collection-page-description-collection">
-                <div className="collection-page-container06">
+                <div className="collection-page-container6">
                   <h2 className="collection-page-text07">
                     <span>
                       The crew of pirates gathered around a campfire on a
@@ -72,7 +72,6 @@ const CollectionPage = (props) => {
                     </span>
                     <br></br>
                   </h2>
-                  <div className="collection-page-container07"></div>
                   <p className="collection-page-text10">
                     <span>
                       Created on 23 Apr 2023
@@ -105,7 +104,7 @@ const CollectionPage = (props) => {
                 <span className="collection-page-text20">Days to Drop</span>
               </div>
             </div>
-            <div className="collection-page-container08">
+            <div className="collection-page-container7">
               <button type="button" className="collection-page-button">
                 <svg
                   viewBox="0 0 1024 1024"
@@ -174,7 +173,7 @@ const CollectionPage = (props) => {
           <span className="collection-page-text37">About</span>
           <span className="collection-page-text38">Followers</span>
         </div>
-        <div className="collection-page-container09">
+        <div className="collection-page-container8">
           <CollectionItemsContainer></CollectionItemsContainer>
         </div>
       </LayoutWithSidebar>
