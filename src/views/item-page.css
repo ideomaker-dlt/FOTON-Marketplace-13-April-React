@@ -2146,8 +2146,8 @@
     z-index: 100;
     margin-top: 0px;
     padding-top: 0px;
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .item-page-name-item {
     gap: var(--dl-space-space-halfunit);
@@ -2160,6 +2160,7 @@
     gap: var(--dl-space-space-halfunit);
     height: auto;
     padding-top: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
   }
   .item-page-text004 {
     font-size: 18px;
