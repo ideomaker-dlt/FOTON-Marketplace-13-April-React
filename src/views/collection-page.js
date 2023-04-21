@@ -74,7 +74,14 @@ const CollectionPage = (props) => {
                   </h2>
                   <div className="collection-page-container07"></div>
                   <p className="collection-page-text10">
-                    <span>Created on 23 Apr 2023 · Updated 28 Apr 2023 </span>
+                    <span>
+                      Created on 23 Apr 2023
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
                     <br></br>
                   </p>
                 </div>
