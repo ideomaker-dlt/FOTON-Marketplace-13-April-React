@@ -75,9 +75,7 @@ const CollectionPage = (props) => {
                     </h2>
                   </div>
                   <p className="collection-page-text10">
-                    <span>
-                      Created on 23 Apr 2023 · Last updated 28 Apr 2023 
-                    </span>
+                    <span>Created on 23 Apr 2023 · Updated 28 Apr 2023 </span>
                     <br></br>
                   </p>
                 </div>
@@ -97,8 +95,8 @@ const CollectionPage = (props) => {
                 <span className="collection-page-text18">Views</span>
               </div>
               <div className="collection-page-small-card3">
-                <span className="collection-page-text19">5%</span>
-                <span className="collection-page-text20">Creator Earnings</span>
+                <span className="collection-page-text19">62</span>
+                <span className="collection-page-text20">Days to Drop</span>
               </div>
             </div>
             <div className="collection-page-container08">

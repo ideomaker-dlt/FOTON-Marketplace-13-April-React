@@ -128,7 +128,7 @@
 }
 .collection-page-container05 {
   gap: var(--dl-space-space-twounits);
-  width: 100%;
+  width: auto;
   display: flex;
   align-self: flex-start;
   justify-content: flex-start;
@@ -136,7 +136,7 @@
 .collection-page-description-collection {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   align-self: center;
@@ -672,6 +672,8 @@
   .collection-page-container01 {
     gap: var(--dl-space-space-unit);
     height: auto;
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-unit);
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -683,12 +685,13 @@
   }
   .collection-page-image {
     max-height: auto;
+    aspect-ratio: 3/2;
   }
   .collection-page-collection-info-box {
     flex: 0;
     height: auto;
     z-index: 100;
-    margin-top: -130px;
+    margin-top: -80px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
@@ -727,13 +730,13 @@
   .collection-page-description-collection {
     gap: var(--dl-space-space-halfunit);
     height: auto;
-    padding-top: var(--dl-space-space-unit);
+    padding-top: 0px;
   }
   .collection-page-container06 {
     gap: 2px;
   }
   .collection-page-container07 {
-    max-width: auto;
+    max-width: 300;
   }
   .collection-page-text07 {
     color: var(--dl-color-dark-white);
@@ -800,7 +803,7 @@
     font-size: 13px;
   }
   .collection-page-container08 {
-    top: 140px;
+    top: 80px;
   }
   .collection-page-button {
     height: 39px;
