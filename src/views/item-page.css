@@ -2199,6 +2199,7 @@
     gap: var(--dl-space-space-halfunit);
     height: auto;
     padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .item-page-text004 {
@@ -2226,6 +2227,7 @@
   }
   .item-page-container05 {
     gap: 2px;
+    padding-left: var(--dl-space-space-halfunit);
   }
   .item-page-button {
     height: 39px;
@@ -2286,6 +2288,7 @@
   }
   .item-page-buy-container {
     flex-wrap: wrap;
+    margin-bottom: 0px;
   }
   .item-page-button3 {
     width: 100%;
