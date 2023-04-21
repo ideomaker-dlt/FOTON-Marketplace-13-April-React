@@ -61,19 +61,18 @@ const CollectionPage = (props) => {
             <div className="collection-page-container05">
               <div className="collection-page-description-collection">
                 <div className="collection-page-container06">
-                  <div className="collection-page-container07">
-                    <h2 className="collection-page-text07">
-                      <span>
-                        The crew of pirates gathered around a campfire on a
-                        tropical island, their ship anchored offshore. They
-                        toasted their recent plunder and shared stories of
-                        adventure. The sound of waves and the scent of saltwater
-                        filled the air, as they planned their next raid under
-                        the glow of the moon.
-                      </span>
-                      <br></br>
-                    </h2>
-                  </div>
+                  <h2 className="collection-page-text07">
+                    <span>
+                      The crew of pirates gathered around a campfire on a
+                      tropical island, their ship anchored offshore. They
+                      toasted their recent plunder and shared stories of
+                      adventure. The sound of waves and the scent of saltwater
+                      filled the air, as they planned their next raid under the
+                      glow of the moon.
+                    </span>
+                    <br></br>
+                  </h2>
+                  <div className="collection-page-container07"></div>
                   <p className="collection-page-text10">
                     <span>Created on 23 Apr 2023 · Updated 28 Apr 2023 </span>
                     <br></br>
