@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -59,10 +60,12 @@ const ItemPage = (props) => {
                 <div className="item-page-container02">
                   <h1 className="item-page-text004">Item name #2044</h1>
                   <div className="item-page-container03">
-                    <p className="item-page-text005">
-                      <span>Collection Name</span>
-                      <br></br>
-                    </p>
+                    <Link to="/collection-page" className="item-page-navlink">
+                      <p className="item-page-text005">
+                        <span>Collection Name</span>
+                        <br></br>
+                      </p>
+                    </Link>
                     <p className="item-page-text008">
                       <span>
                         By

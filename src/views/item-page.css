@@ -197,6 +197,9 @@
   align-items: flex-start;
   flex-direction: row;
 }
+.item-page-navlink {
+  display: contents;
+}
 .item-page-text005 {
   color: var(--dl-color-dark-green-200);
   font-size: 16px;
