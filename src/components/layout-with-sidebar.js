@@ -286,17 +286,19 @@ input[type="search"]::-webkit-search-results-decoration {
                         </span>
                       </div>
                     </div>
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-collector-profile1"
-                    >
-                      <span className="layout-with-sidebar-text17 material-symbols-outlined">
-                        category
-                      </span>
-                      <span className="layout-with-sidebar-text18">
-                        Collector Profile
-                      </span>
-                    </div>
+                    <Link to="/collector-profile" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-collector-profile1"
+                      >
+                        <span className="layout-with-sidebar-text17 material-symbols-outlined">
+                          category
+                        </span>
+                        <span className="layout-with-sidebar-text18">
+                          Collector Profile
+                        </span>
+                      </div>
+                    </Link>
                     <Link to="/creator-studio" className="">
                       <div
                         data-thq="thq-dropdown-toggle"

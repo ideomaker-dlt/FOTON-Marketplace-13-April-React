@@ -12,6 +12,7 @@ import AddItem from './views/add-item'
 import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-analytics'
 import CreatorStudio from './views/creator-studio'
 import Stats from './views/stats'
+import CollectorProfile from './views/collector-profile'
 import AddProject from './views/add-project'
 import Home from './views/home'
 import CreatorStudioProject from './views/creator-studio-project'
@@ -38,6 +39,7 @@ const App = () => {
         />
         <Route component={CreatorStudio} exact path="/creator-studio" />
         <Route component={Stats} exact path="/stats" />
+        <Route component={CollectorProfile} exact path="/collector-profile" />
         <Route component={AddProject} exact path="/add-project" />
         <Route component={Home} exact path="/" />
         <Route
