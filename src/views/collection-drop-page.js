@@ -27,29 +27,46 @@ const CollectionDropPage = (props) => {
         />
       </Helmet>
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name18">
-        <div className="collection-drop-page-tabs-row">
-          <span className="collection-drop-page-text">Drops</span>
-        </div>
-        <div className="collection-drop-page-container01"></div>
         <div className="collection-drop-page-header">
-          <div className="article-container collection-drop-page-container02">
+          <div className="article-container collection-drop-page-container01">
             <div className="collection-drop-page-container-pop article-img-holder"></div>
             <div className="collection-drop-page-gray-overlay article-title-link">
-              <div className="collection-drop-page-container03">
-                <div className="collection-drop-page-text-header">
+              <div className="collection-drop-page-container02">
+                <div className="collection-drop-page-container03">
+                  <div className="collection-drop-page-avatar-logo">
+                    <img
+                      src="/playground_assets/grid_0%20%5B7%5D-200h.webp"
+                      className="collection-drop-page-image"
+                    />
+                  </div>
                   <div className="collection-drop-page-container04">
+                    <h1 className="collection-drop-page-text">
+                      Collection One
+                    </h1>
                     <div className="collection-drop-page-container05">
-                      <div className="collection-drop-page-container06">
-                        <div className="collection-drop-page-dot"></div>
-                        <span className="collection-drop-page-text01">
-                          Status
-                        </span>
-                      </div>
-                      <div className="collection-drop-page-container07">
-                        <span className="collection-drop-page-text02">
-                          minting soon
-                        </span>
-                      </div>
+                      <p className="collection-drop-page-text01">
+                        <span>By Smooth Collective</span>
+                        <br></br>
+                      </p>
+                      <p className="collection-drop-page-text04">
+                        <span>Verified</span>
+                        <br></br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="collection-drop-page-container06">
+                  <div className="collection-drop-page-container07">
+                    <div className="collection-drop-page-container08">
+                      <div className="collection-drop-page-dot"></div>
+                      <span className="collection-drop-page-text07">
+                        Time to DROP
+                      </span>
+                    </div>
+                    <div className="collection-drop-page-container09">
+                      <span className="collection-drop-page-text08">
+                        coming soon
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -65,7 +82,7 @@ const CollectionDropPage = (props) => {
                 >
                   <path d="M512 658l160 96-42-182 142-124-188-16-72-172-72 172-188 16 142 124-42 182zM938 394l-232 202 70 300-264-160-264 160 70-300-232-202 306-26 120-282 120 282z"></path>
                 </svg>
-                <span className="collection-drop-page-text03">
+                <span className="collection-drop-page-text09">
                   <span>Follow</span>
                   <br></br>
                 </span>
@@ -77,7 +94,7 @@ const CollectionDropPage = (props) => {
                 >
                   <path d="M854 768v-384h-172v384h172zM640 554v-170h-470v170h470zM640 768v-170h-470v170h470zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
-                <span className="collection-drop-page-text06">
+                <span className="collection-drop-page-text12">
                   <span>Follow</span>
                   <br></br>
                 </span>
@@ -89,13 +106,13 @@ const CollectionDropPage = (props) => {
                 >
                   <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                 </svg>
-                <span className="collection-drop-page-text09">
+                <span className="collection-drop-page-text15">
                   <span>Follow</span>
                   <br></br>
                 </span>
               </button>
               <button type="button" className="collection-drop-page-button3">
-                <span className="collection-drop-page-text12">
+                <span className="collection-drop-page-text18">
                   <span>Follow</span>
                   <br></br>
                 </span>
@@ -109,23 +126,23 @@ const CollectionDropPage = (props) => {
             </div>
           </div>
         </div>
-        <div className="collection-drop-page-tabs-row1">
-          <span className="collection-drop-page-text15">Mint</span>
-          <span className="collection-drop-page-text16">Team</span>
-          <span className="collection-drop-page-text17">FAQ</span>
+        <div className="collection-drop-page-tabs-row">
+          <span className="collection-drop-page-text21">Mint</span>
+          <span className="collection-drop-page-text22">Team</span>
+          <span className="collection-drop-page-text23">FAQ</span>
         </div>
         <div className="collection-drop-page-drops-container">
           <div className="collection-drop-page-wrapper-all">
             <div className="collection-drop-page-container-left">
               <div className="collection-drop-page-about">
-                <div className="collection-drop-page-container08">
-                  <label className="collection-drop-page-text18">
+                <div className="collection-drop-page-container10">
+                  <label className="collection-drop-page-text24">
                     About this Collection
                   </label>
                 </div>
-                <div className="collection-drop-page-container09">
+                <div className="collection-drop-page-container11">
                   <div className="collection-drop-page-description-collection">
-                    <div className="collection-drop-page-container10">
+                    <div className="collection-drop-page-container12">
                       <div className="collection-drop-page-engagement-buttons">
                         <button
                           type="button"
@@ -137,7 +154,7 @@ const CollectionDropPage = (props) => {
                           >
                             <path d="M516 792q96-86 142-130t100-104 75-106 21-90q0-64-43-106t-107-42q-50 0-93 28t-59 72h-80q-16-44-59-72t-93-28q-64 0-107 42t-43 106q0 44 21 90t75 106 100 104 142 130l4 4zM704 128q100 0 167 68t67 166q0 58-22 113t-81 123-107 114-154 142l-62 56-62-54q-138-124-199-186t-113-146-52-162q0-98 67-166t167-68q116 0 192 90 76-90 192-90z"></path>
                           </svg>
-                          <span className="collection-drop-page-text19">
+                          <span className="collection-drop-page-text25">
                             <span>2536</span>
                             <br></br>
                           </span>
@@ -152,7 +169,7 @@ const CollectionDropPage = (props) => {
                           >
                             <path d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
                           </svg>
-                          <span className="collection-drop-page-text22">
+                          <span className="collection-drop-page-text28">
                             <span>16536</span>
                             <br></br>
                           </span>
@@ -161,13 +178,13 @@ const CollectionDropPage = (props) => {
                           type="button"
                           className="collection-drop-page-button6"
                         >
-                          <span className="collection-drop-page-text25">
+                          <span className="collection-drop-page-text31">
                             <span>Avatars</span>
                             <br></br>
                           </span>
                         </button>
                       </div>
-                      <h2 className="collection-drop-page-text28">
+                      <h2 className="collection-drop-page-text34">
                         The crew of pirates gathered around a campfire on a
                         tropical island, their ship anchored offshore. They
                         toasted their recent plunder and shared stories of
@@ -175,7 +192,7 @@ const CollectionDropPage = (props) => {
                         filled the air, as they planned their next raid under
                         the glow of the moon.
                       </h2>
-                      <p className="collection-drop-page-text29">
+                      <p className="collection-drop-page-text35">
                         <span>
                           Added on 23 Apr 2023
                           <span
@@ -189,7 +206,7 @@ const CollectionDropPage = (props) => {
                     </div>
                   </div>
                 </div>
-                <p className="collection-drop-page-text32">
+                <p className="collection-drop-page-text38">
                   <span>
                     In the year 2050, humanity had exhausted the resources of
                     Earth and faced the grim reality of its impending demise.
@@ -238,23 +255,23 @@ const CollectionDropPage = (props) => {
                 </p>
               </div>
               <div className="collection-drop-page-about1">
-                <div className="collection-drop-page-container11">
-                  <label className="collection-drop-page-text42">
+                <div className="collection-drop-page-container13">
+                  <label className="collection-drop-page-text48">
                     Minting Details
                   </label>
-                  <div className="collection-drop-page-container12">
-                    <p className="collection-drop-page-text43">
+                  <div className="collection-drop-page-container14">
+                    <p className="collection-drop-page-text49">
                       <span>Price per item minted:</span>
                       <br></br>
                     </p>
-                    <p className="collection-drop-page-text46">
+                    <p className="collection-drop-page-text52">
                       <span>Minting starts:</span>
                       <br></br>
                     </p>
                   </div>
-                  <div className="collection-drop-page-container13">
-                    <label className="collection-drop-page-text49">
-                      <span className="collection-drop-page-text50">
+                  <div className="collection-drop-page-container15">
+                    <label className="collection-drop-page-text55">
+                      <span className="collection-drop-page-text56">
                         000.00
                         <span
                           dangerouslySetInnerHTML={{
@@ -262,14 +279,14 @@ const CollectionDropPage = (props) => {
                           }}
                         />
                       </span>
-                      <span className="collection-drop-page-text51">XRD</span>
+                      <span className="collection-drop-page-text57">XRD</span>
                     </label>
-                    <label className="collection-drop-page-text52">
+                    <label className="collection-drop-page-text58">
                       01 July 2023, 14:00
                     </label>
                   </div>
                 </div>
-                <div className="collection-drop-page-container14">
+                <div className="collection-drop-page-container16">
                   <div className="collection-drop-page-buy-container">
                     <button className="collection-drop-page-button7 button">
                       <svg
@@ -278,7 +295,7 @@ const CollectionDropPage = (props) => {
                       >
                         <path d="M592 550l176-80-176-80-80-176-80 176-176 80 176 80 80 176zM810 86q34 0 60 25t26 59v598q0 34-26 60t-60 26h-170l-128 128-128-128h-170q-34 0-60-26t-26-60v-598q0-34 26-59t60-25h596z"></path>
                       </svg>
-                      <span className="collection-drop-page-text53">
+                      <span className="collection-drop-page-text59">
                         <span>Minting Soon</span>
                         <br></br>
                       </span>
@@ -290,7 +307,7 @@ const CollectionDropPage = (props) => {
                       >
                         <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                       </svg>
-                      <span className="collection-drop-page-text56">
+                      <span className="collection-drop-page-text62">
                         <span>
                           Follow
                           <span
@@ -312,14 +329,21 @@ const CollectionDropPage = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_deso_556dbc6d-d05c-43d6-b5a3-019912494a61-1500w.png"
-                    className="collection-drop-page-image"
+                    className="collection-drop-page-image1"
                   />
                 </div>
                 <div className="collection-drop-page-item-image1">
                   <img
                     alt="image"
                     src="/playground_assets/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
-                    className="collection-drop-page-image1"
+                    className="collection-drop-page-image2"
+                  />
+                </div>
+                <div className="collection-drop-page-item-image2">
+                  <img
+                    alt="image"
+                    src="/playground_assets/vlad__foton.is__radix.stream_character_mood_board_from_3_angles_e1a1e6fb-e0fe-497f-9fce-c022e03dd47a-1500w.png"
+                    className="collection-drop-page-image3"
                   />
                 </div>
               </div>
