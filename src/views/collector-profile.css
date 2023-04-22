@@ -1092,14 +1092,14 @@
   padding: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-color: var(--dl-color-dark-darkergreen);
+  border-color: var(--dl-color-dark-gray-300);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
-  background-color: var(--dl-color-dark-darkergreentreatsbg);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .collector-profile-tesseract:hover {
-  background-color: var(--dl-color-dark-darkergreenhighlight);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .collector-profile-image-tesseract {
   flex: 0 0 auto;
@@ -1159,14 +1159,14 @@
   padding: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-color: var(--dl-color-dark-darkergreen);
+  border-color: var(--dl-color-dark-gray-300);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
-  background-color: var(--dl-color-dark-darkergreentreatsbg);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .collector-profile-tesseract1:hover {
-  background-color: var(--dl-color-dark-darkergreenhighlight);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .collector-profile-image-tesseract1 {
   flex: 0 0 auto;
@@ -1226,14 +1226,14 @@
   padding: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-color: var(--dl-color-dark-darkergreen);
+  border-color: var(--dl-color-dark-gray-300);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
-  background-color: var(--dl-color-dark-darkergreentreatsbg);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .collector-profile-tesseract2:hover {
-  background-color: var(--dl-color-dark-darkergreenhighlight);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .collector-profile-image-tesseract2 {
   flex: 0 0 auto;
@@ -1293,14 +1293,14 @@
   padding: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-color: var(--dl-color-dark-darkergreen);
+  border-color: var(--dl-color-dark-gray-300);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
-  background-color: var(--dl-color-dark-darkergreentreatsbg);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .collector-profile-tesseract3:hover {
-  background-color: var(--dl-color-dark-darkergreenhighlight);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .collector-profile-image-tesseract3 {
   flex: 0 0 auto;
@@ -1360,14 +1360,14 @@
   padding: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-color: var(--dl-color-dark-darkergreen);
+  border-color: var(--dl-color-dark-gray-300);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
-  background-color: var(--dl-color-dark-darkergreentreatsbg);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .collector-profile-tesseract4:hover {
-  background-color: var(--dl-color-dark-darkergreenhighlight);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .collector-profile-image-tesseract4 {
   flex: 0 0 auto;
@@ -1427,14 +1427,14 @@
   padding: var(--dl-space-space-unit);
   transition: 0.3s;
   align-items: center;
-  border-color: var(--dl-color-dark-darkergreen);
+  border-color: var(--dl-color-dark-gray-300);
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
-  background-color: var(--dl-color-dark-darkergreentreatsbg);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .collector-profile-tesseract5:hover {
-  background-color: var(--dl-color-dark-darkergreenhighlight);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .collector-profile-image-tesseract5 {
   flex: 0 0 auto;
