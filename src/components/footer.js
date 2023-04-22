@@ -65,7 +65,14 @@ const Footer = (props) => {
             <span className="footer-text24">{props.text19}</span>
             <span className="footer-text25">{props.text20}</span>
             <span className="footer-text26">{props.text21}</span>
-            <span className="footer-text27">{props.text22}</span>
+            <a
+              href="https://tally.so/r/w5bq46"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="footer-link"
+            >
+              {props.text22}
+            </a>
           </div>
         </div>
       </div>

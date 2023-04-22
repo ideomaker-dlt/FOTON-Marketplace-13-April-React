@@ -521,7 +521,7 @@
 .footer-text26:hover {
   background-color: var(--dl-color-dark-darkergreenhighlight);
 }
-.footer-text27 {
+.footer-link {
   color: var(--dl-color-dark-white);
   width: 100%;
   font-size: 14px;
@@ -538,7 +538,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.footer-text27:hover {
+.footer-link:hover {
   background-color: var(--dl-color-dark-darkergreenhighlight);
 }
 .footer-container3 {
@@ -790,7 +790,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .footer-text27 {
+  .footer-link {
     color: var(--dl-color-dark-white);
     font-size: 14px;
     font-style: normal;
