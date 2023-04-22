@@ -1992,7 +1992,7 @@
     text-decoration: none;
   }
   .collector-profile-container11 {
-    gap: 0;
+    gap: var(--dl-space-space-halfunit);
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
