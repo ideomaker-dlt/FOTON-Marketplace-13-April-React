@@ -274,7 +274,9 @@ const CollectorProfile = (props) => {
                         <span className="collector-profile-text-mobile1 Content16SemiBold">
                           To Level Up:
                         </span>
-                        <span className="collector-profile-text055">3400</span>
+                        <span className="collector-profile-text055 Content16SemiBold">
+                          500
+                        </span>
                       </div>
                     </div>
                   </div>

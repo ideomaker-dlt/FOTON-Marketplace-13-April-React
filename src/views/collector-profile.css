@@ -1757,7 +1757,7 @@
   }
   .collector-profile-container13 {
     gap: var(--dl-space-space-halfunit);
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 @media(max-width: 767px) {
@@ -2176,6 +2176,7 @@
   }
   .collector-profile-text055 {
     color: var(--dl-color-dark-green-200);
+    font-size: 12px;
   }
   .collector-profile-row2 {
     height: 60px;
