@@ -175,14 +175,14 @@ const UserProfileSettings = (props) => {
                 <div className="user-profile-settings-bottom-buttons">
                   <button className="user-profile-settings-button2 button">
                     <span className="user-profile-settings-text10">
-                      <span>Save</span>
+                      <span>Save Settings</span>
                       <br></br>
                     </span>
                     <svg
                       viewBox="0 0 1024 1024"
-                      className="user-profile-settings-icon08"
+                      className="user-profile-settings-icon08 fill-color-white"
                     >
-                      <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
+                      <path d="M640 384v-170h-426v170h426zM512 810q52 0 90-38t38-90-38-90-90-38-90 38-38 90 38 90 90 38zM726 128l170 170v512q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h512z"></path>
                     </svg>
                   </button>
                 </div>

@@ -466,6 +466,7 @@
   width: 100%;
   display: flex;
   align-self: flex-start;
+  margin-top: var(--dl-space-space-threeunits);
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -495,10 +496,13 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-darkergreen);
 }
+.user-profile-settings-text10 {
+  padding-top: 2px;
+}
 .user-profile-settings-icon08 {
-  fill: var(--dl-color-dark-white);
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
+  padding-bottom: 0px;
 }
 .user-profile-settings-info-box {
   flex: 0.8;
@@ -635,6 +639,10 @@
   }
   .user-profile-settings-text10 {
     font-size: 16px;
+  }
+  .user-profile-settings-icon08 {
+    width: 20px;
+    height: 20px;
   }
   .user-profile-settings-info-box {
     display: none;
