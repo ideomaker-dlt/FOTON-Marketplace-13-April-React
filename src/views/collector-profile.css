@@ -95,7 +95,7 @@
   border-radius: var(--dl-radius-radius-round);
 }
 .collector-profile-container05 {
-  gap: var(--dl-space-space-unit);
+  gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -108,7 +108,7 @@
 }
 .collector-profile-text01 {
   color: var(--dl-color-dark-white);
-  font-size: 30px;
+  font-size: 24px;
   font-family: Poppins;
   font-weight: 700;
   line-height: 1.15;
