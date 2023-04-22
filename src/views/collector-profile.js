@@ -166,7 +166,7 @@ const CollectorProfile = (props) => {
         </div>
         <div className="collector-profile-container07">
           <div className="collector-profile-container08">
-            <div className="collector-profile-card">
+            <div className="collector-profile-about">
               <div className="collector-profile-container09">
                 <label className="collector-profile-text36">About</label>
               </div>
@@ -180,68 +180,69 @@ const CollectorProfile = (props) => {
                 </h2>
               </div>
             </div>
-            <div className="collector-profile-container11">
+            <div className="collector-profile-levels">
+              <label className="collector-profile-text38">Skill Levels</label>
               <div className="collector-profile-header-table">
                 <div className="collector-profile-second-column header-second-column">
                   <div className="collector-profile-group1">
                     <div className="collector-profile-name">
-                      <span className="collector-profile-text38">
-                        <span className="Content16SemiBold collector-profile-text39">
+                      <span className="collector-profile-text39">
+                        <span className="Content16SemiBold collector-profile-text40">
                           Type
                         </span>
                         <br></br>
                       </span>
                     </div>
                     <div className="collector-profile-volume">
-                      <span className="collector-profile-text41 Content16SemiBold">
+                      <span className="collector-profile-text42 Content16SemiBold">
                         Level
                       </span>
                     </div>
                   </div>
                   <div className="collector-profile-group2">
                     <div className="collector-profile-change">
-                      <span className="collector-profile-text42 Content16SemiBold">
+                      <span className="collector-profile-text43 Content16SemiBold">
                         points
                       </span>
                     </div>
                     <div className="collector-profile-floor">
-                      <span className="collector-profile-text43 Content16SemiBold">
+                      <span className="collector-profile-text44 Content16SemiBold">
                         Floor:
                       </span>
-                      <span className="collector-profile-text44 Content16SemiBold">
+                      <span className="collector-profile-text45 Content16SemiBold">
                         to level up
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="collector-profile-container12">
+              <div className="collector-profile-container11">
                 <div className="collector-profile-row table-row">
                   <div className="collector-profile-second-column1 table-row-second-column">
                     <div className="collector-profile-group11">
                       <div className="collector-profile-skill">
-                        <span className="collector-profile-text45 Content16SemiBold">
+                        <span className="collector-profile-text46 Content16SemiBold">
                           Creating
                         </span>
                       </div>
                       <div className="collector-profile-level">
-                        <span className="collector-profile-text46 Content16SemiBold">
+                        <span className="collector-profile-text47 Content16SemiBold">
                           3/60
                         </span>
                       </div>
                     </div>
                     <div className="collector-profile-group21">
                       <div className="collector-profile-change1">
-                        <span className="collector-profile-text47">
+                        <span className="collector-profile-text48">
                           Points:
                         </span>
-                        <span className="collector-profile-text48">2300</span>
+                        <span className="collector-profile-text49">2300</span>
                       </div>
                       <div className="collector-profile-floor1">
                         <span className="collector-profile-text-mobile Content16SemiBold">
                           To Level Up:
                         </span>
-                        <span className="collector-profile-text49 Content16SemiBold">
+                        <span className="collector-profile-text50 Content16SemiBold">
                           500
                         </span>
                       </div>
@@ -252,28 +253,28 @@ const CollectorProfile = (props) => {
                   <div className="collector-profile-second-column2 table-row-second-column">
                     <div className="collector-profile-group12">
                       <div className="collector-profile-skill1">
-                        <span className="collector-profile-text50 Content16SemiBold">
+                        <span className="collector-profile-text51 Content16SemiBold">
                           Engaging
                         </span>
                       </div>
                       <div className="collector-profile-level1">
-                        <span className="collector-profile-text51 Content16SemiBold">
+                        <span className="collector-profile-text52 Content16SemiBold">
                           1/60
                         </span>
                       </div>
                     </div>
                     <div className="collector-profile-group22">
                       <div className="collector-profile-change2">
-                        <span className="collector-profile-text52">
+                        <span className="collector-profile-text53">
                           Points:
                         </span>
-                        <span className="collector-profile-text53">3500</span>
+                        <span className="collector-profile-text54">3500</span>
                       </div>
                       <div className="collector-profile-floor2">
                         <span className="collector-profile-text-mobile1 Content16SemiBold">
                           To Level Up:
                         </span>
-                        <span className="collector-profile-text54 Content16SemiBold">
+                        <span className="collector-profile-text55 Content16SemiBold">
                           500
                         </span>
                       </div>
@@ -284,28 +285,28 @@ const CollectorProfile = (props) => {
                   <div className="collector-profile-second-column3 table-row-second-column">
                     <div className="collector-profile-group13">
                       <div className="collector-profile-skill2">
-                        <span className="collector-profile-text55 Content16SemiBold">
+                        <span className="collector-profile-text56 Content16SemiBold">
                           Trading
                         </span>
                       </div>
                       <div className="collector-profile-level2">
-                        <span className="collector-profile-text56 Content16SemiBold">
+                        <span className="collector-profile-text57 Content16SemiBold">
                           0/60
                         </span>
                       </div>
                     </div>
                     <div className="collector-profile-group23">
                       <div className="collector-profile-change3">
-                        <span className="collector-profile-text57">
+                        <span className="collector-profile-text58">
                           Points:
                         </span>
-                        <span className="collector-profile-text58">0</span>
+                        <span className="collector-profile-text59">0</span>
                       </div>
                       <div className="collector-profile-floor3">
                         <span className="collector-profile-text-mobile2 Content16SemiBold">
                           To Level Up:
                         </span>
-                        <span className="collector-profile-text59 Content16SemiBold">
+                        <span className="collector-profile-text60 Content16SemiBold">
                           500
                         </span>
                       </div>
@@ -315,22 +316,22 @@ const CollectorProfile = (props) => {
               </div>
             </div>
           </div>
-          <div className="collector-profile-card1">
+          <div className="collector-profile-card">
             <div className="collector-profile-item-details">
               <div className="collector-profile-tabs-row1">
-                <span className="collector-profile-text60">Tesseracts</span>
-                <span className="collector-profile-text61">Artefacts</span>
+                <span className="collector-profile-text61">Tesseracts</span>
+                <span className="collector-profile-text62">Artefacts</span>
               </div>
-              <div className="collector-profile-container13">
+              <div className="collector-profile-container12">
                 <div className="collector-profile-tesseract">
                   <div className="collector-profile-image-tesseract"></div>
-                  <div className="collector-profile-container14">
+                  <div className="collector-profile-container13">
                     <div className="collector-profile-container-row">
-                      <p className="collector-profile-text62">
+                      <p className="collector-profile-text63">
                         <span>Blue Ice</span>
                         <br></br>
                       </p>
-                      <p className="collector-profile-text65">
+                      <p className="collector-profile-text66">
                         <span>12</span>
                         <br></br>
                       </p>
@@ -339,13 +340,13 @@ const CollectorProfile = (props) => {
                 </div>
                 <div className="collector-profile-tesseract1">
                   <div className="collector-profile-image-tesseract1"></div>
-                  <div className="collector-profile-container15">
+                  <div className="collector-profile-container14">
                     <div className="collector-profile-container-row1">
-                      <p className="collector-profile-text68">
+                      <p className="collector-profile-text69">
                         <span>Green Leaf</span>
                         <br></br>
                       </p>
-                      <p className="collector-profile-text71">
+                      <p className="collector-profile-text72">
                         <span>3</span>
                         <br></br>
                       </p>
@@ -354,10 +355,10 @@ const CollectorProfile = (props) => {
                 </div>
                 <div className="collector-profile-tesseract2">
                   <div className="collector-profile-image-tesseract2"></div>
-                  <div className="collector-profile-container16">
+                  <div className="collector-profile-container15">
                     <div className="collector-profile-container-row2">
-                      <p className="collector-profile-text74">Yellow Spark</p>
-                      <p className="collector-profile-text75">
+                      <p className="collector-profile-text75">Yellow Spark</p>
+                      <p className="collector-profile-text76">
                         <span>4</span>
                         <br></br>
                       </p>
@@ -366,10 +367,10 @@ const CollectorProfile = (props) => {
                 </div>
                 <div className="collector-profile-tesseract3">
                   <div className="collector-profile-image-tesseract3"></div>
-                  <div className="collector-profile-container17">
+                  <div className="collector-profile-container16">
                     <div className="collector-profile-container-row3">
-                      <p className="collector-profile-text78">Red Heart</p>
-                      <p className="collector-profile-text79">
+                      <p className="collector-profile-text79">Red Heart</p>
+                      <p className="collector-profile-text80">
                         <span>7</span>
                         <br></br>
                       </p>
@@ -378,10 +379,10 @@ const CollectorProfile = (props) => {
                 </div>
                 <div className="collector-profile-tesseract4">
                   <div className="collector-profile-image-tesseract4"></div>
-                  <div className="collector-profile-container18">
+                  <div className="collector-profile-container17">
                     <div className="collector-profile-container-row4">
-                      <p className="collector-profile-text82">Purple Blade</p>
-                      <p className="collector-profile-text83">
+                      <p className="collector-profile-text83">Purple Blade</p>
+                      <p className="collector-profile-text84">
                         <span>2</span>
                         <br></br>
                       </p>
@@ -390,10 +391,10 @@ const CollectorProfile = (props) => {
                 </div>
                 <div className="collector-profile-tesseract5">
                   <div className="collector-profile-image-tesseract5"></div>
-                  <div className="collector-profile-container19">
+                  <div className="collector-profile-container18">
                     <div className="collector-profile-container-row5">
-                      <p className="collector-profile-text86">White Pearl</p>
-                      <p className="collector-profile-text87">
+                      <p className="collector-profile-text87">White Pearl</p>
+                      <p className="collector-profile-text88">
                         <span>0</span>
                         <br></br>
                       </p>
