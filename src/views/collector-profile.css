@@ -90,7 +90,7 @@
   margin: auto;
   position: absolute;
   object-fit: cover;
-  border-color: var(--dl-color-dark-gray-400);
+  border-color: var(--dl-color-dark-white);
   border-width: 2px;
   border-radius: var(--dl-radius-radius-round);
 }
@@ -1105,13 +1105,12 @@
   height: 80px;
   display: flex;
   align-items: flex-start;
-  border-color: var(--dl-color-dark-darkergreenhighlight);
-  border-style: solid;
-  border-width: 1px;
+  border-color: var(--dl-color-dark-black);
+  border-width: 0px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   background-size: cover;
-  background-image: url("/playground_assets/screenshot%202023-04-22%20at%2002.56.31-200w.png");
+  background-image: url("/playground_assets/tesseract-p-500-200h.png");
 }
 .collector-profile-container14 {
   gap: var(--dl-space-space-unit);
@@ -1208,13 +1207,12 @@
   height: 80px;
   display: flex;
   align-items: flex-start;
-  border-color: var(--dl-color-dark-darkergreenhighlight);
-  border-style: solid;
-  border-width: 1px;
+  border-color: var(--dl-color-dark-black);
+  border-width: 0px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   background-size: cover;
-  background-image: url("/playground_assets/screenshot%202023-04-22%20at%2002.56.31-200w.png");
+  background-image: url("/playground_assets/tesseract-green-p-500-200h.png");
 }
 .collector-profile-container16 {
   gap: var(--dl-space-space-unit);
@@ -1311,13 +1309,12 @@
   height: 80px;
   display: flex;
   align-items: flex-start;
-  border-color: var(--dl-color-dark-darkergreenhighlight);
-  border-style: solid;
-  border-width: 1px;
+  border-color: var(--dl-color-dark-black);
+  border-width: 0px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   background-size: cover;
-  background-image: url("/playground_assets/screenshot%202023-04-22%20at%2002.56.31-200w.png");
+  background-image: url("/playground_assets/tesseract-yellow-p-500-200h.png");
 }
 .collector-profile-container18 {
   gap: var(--dl-space-space-unit);
@@ -1414,13 +1411,12 @@
   height: 80px;
   display: flex;
   align-items: flex-start;
-  border-color: var(--dl-color-dark-darkergreenhighlight);
-  border-style: solid;
-  border-width: 1px;
+  border-color: var(--dl-color-dark-black);
+  border-width: 0px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   background-size: cover;
-  background-image: url("/playground_assets/screenshot%202023-04-22%20at%2002.56.31-200w.png");
+  background-image: url("/playground_assets/tesseract-red-p-500-200h.png");
 }
 .collector-profile-container20 {
   gap: var(--dl-space-space-unit);
@@ -1517,13 +1513,12 @@
   height: 80px;
   display: flex;
   align-items: flex-start;
-  border-color: var(--dl-color-dark-darkergreenhighlight);
-  border-style: solid;
-  border-width: 1px;
+  border-color: var(--dl-color-dark-black);
+  border-width: 0px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   background-size: cover;
-  background-image: url("/playground_assets/screenshot%202023-04-22%20at%2002.56.31-200w.png");
+  background-image: url("/playground_assets/tesseract-purple-p-500-200h.png");
 }
 .collector-profile-container22 {
   gap: var(--dl-space-space-unit);
@@ -1620,13 +1615,12 @@
   height: 80px;
   display: flex;
   align-items: flex-start;
-  border-color: var(--dl-color-dark-darkergreenhighlight);
-  border-style: solid;
-  border-width: 1px;
+  border-color: var(--dl-color-dark-black);
+  border-width: 0px;
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: column;
   background-size: cover;
-  background-image: url("/playground_assets/screenshot%202023-04-22%20at%2002.56.31-200w.png");
+  background-image: url("/playground_assets/tesseract-white-p-500-200h.png");
 }
 .collector-profile-container24 {
   gap: var(--dl-space-space-unit);

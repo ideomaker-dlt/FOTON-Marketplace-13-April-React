@@ -37,7 +37,7 @@ const CollectorProfile = (props) => {
             <div className="collector-profile-container04">
               <div className="collector-profile-avatar-logo">
                 <img
-                  src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
+                  src="/playground_assets/vlad__foton.is__radix.stream_funny_cartoon_character_in_the_sty_98d91502-c00e-4158-af06-43df0dbd30b7-200h.png"
                   className="collector-profile-image"
                 />
               </div>
