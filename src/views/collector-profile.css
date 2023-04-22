@@ -674,18 +674,6 @@
   background-color: var(--dl-color-dark-gray-250);
   grid-template-columns: 1fr 1fr 1fr;
 }
-.collector-profile-text38 {
-  color: var(--dl-color-dark-white);
-  font-size: 18px;
-  font-style: normal;
-  font-family: Poppins;
-  font-weight: 600;
-  line-height: 1.4;
-  padding-left: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-unit);
-  text-transform: none;
-  text-decoration: none;
-}
 .collector-profile-header-table {
   top: 79px;
   width: 100%;
@@ -722,7 +710,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.collector-profile-text39 {
+.collector-profile-text38 {
   color: var(--dl-color-dark-gray-400);
   font-size: 13px;
   font-style: normal;
@@ -737,7 +725,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text42 {
+.collector-profile-text41 {
   color: var(--dl-color-dark-gray-400);
   font-size: 13px;
   font-style: normal;
@@ -758,7 +746,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text43 {
+.collector-profile-text42 {
   color: var(--dl-color-dark-gray-400);
   font-size: 13px;
   font-style: normal;
@@ -772,11 +760,11 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text44 {
+.collector-profile-text43 {
   color: var(--dl-color-dark-white);
   display: none;
 }
-.collector-profile-text45 {
+.collector-profile-text44 {
   color: var(--dl-color-dark-gray-400);
   font-size: 13px;
   font-style: normal;
@@ -811,7 +799,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.collector-profile-text46 {
+.collector-profile-text45 {
   color: var(--dl-color-dark-white);
 }
 .collector-profile-level {
@@ -822,7 +810,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text47 {
+.collector-profile-text46 {
   color: var(--dl-color-dark-white);
 }
 .collector-profile-group21 {
@@ -839,12 +827,12 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text48 {
+.collector-profile-text47 {
   color: var(--dl-color-dark-green-200);
   display: none;
   padding-right: 4px;
 }
-.collector-profile-text49 {
+.collector-profile-text48 {
   color: var(--dl-color-dark-green-200);
 }
 .collector-profile-floor1 {
@@ -858,7 +846,7 @@
   color: var(--dl-color-dark-white);
   display: none;
 }
-.collector-profile-text50 {
+.collector-profile-text49 {
   color: var(--dl-color-dark-green-200);
 }
 .collector-profile-row1 {
@@ -882,7 +870,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.collector-profile-text51 {
+.collector-profile-text50 {
   color: var(--dl-color-dark-white);
 }
 .collector-profile-level1 {
@@ -893,7 +881,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text52 {
+.collector-profile-text51 {
   color: var(--dl-color-dark-white);
 }
 .collector-profile-group22 {
@@ -910,12 +898,12 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text53 {
+.collector-profile-text52 {
   color: var(--dl-color-dark-green-200);
   display: none;
   padding-right: 4px;
 }
-.collector-profile-text54 {
+.collector-profile-text53 {
   color: var(--dl-color-dark-green-200);
 }
 .collector-profile-floor2 {
@@ -929,7 +917,7 @@
   color: var(--dl-color-dark-white);
   display: none;
 }
-.collector-profile-text55 {
+.collector-profile-text54 {
   color: var(--dl-color-dark-green-200);
 }
 .collector-profile-row2 {
@@ -953,7 +941,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.collector-profile-text56 {
+.collector-profile-text55 {
   color: var(--dl-color-dark-white);
 }
 .collector-profile-level2 {
@@ -964,7 +952,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text57 {
+.collector-profile-text56 {
   color: var(--dl-color-dark-white);
 }
 .collector-profile-group23 {
@@ -981,12 +969,12 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.collector-profile-text58 {
+.collector-profile-text57 {
   color: var(--dl-color-dark-green-200);
   display: none;
   padding-right: 4px;
 }
-.collector-profile-text59 {
+.collector-profile-text58 {
   color: var(--dl-color-dark-green-200);
 }
 .collector-profile-floor3 {
@@ -1000,7 +988,7 @@
   color: var(--dl-color-dark-white);
   display: none;
 }
-.collector-profile-text60 {
+.collector-profile-text59 {
   color: var(--dl-color-dark-green-200);
 }
 .collector-profile-card {
@@ -1042,7 +1030,7 @@
   padding-right: var(--dl-space-space-halfunit);
   border-bottom-width: 1px;
 }
-.collector-profile-text61 {
+.collector-profile-text60 {
   color: var(--dl-color-dark-white);
   height: 100%;
   font-style: normal;
@@ -1054,10 +1042,10 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
-.collector-profile-text61:hover {
+.collector-profile-text60:hover {
   border-color: var(--dl-color-dark-green-200);
 }
-.collector-profile-text62 {
+.collector-profile-text61 {
   color: var(--dl-color-dark-white);
   height: 100%;
   font-style: normal;
@@ -1069,7 +1057,7 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
-.collector-profile-text62:hover {
+.collector-profile-text61:hover {
   border-color: var(--dl-color-dark-green-200);
 }
 .collector-profile-container12 {
@@ -1130,7 +1118,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.collector-profile-text63 {
+.collector-profile-text62 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1140,7 +1128,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collector-profile-text66 {
+.collector-profile-text65 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1197,7 +1185,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.collector-profile-text69 {
+.collector-profile-text68 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1207,7 +1195,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collector-profile-text72 {
+.collector-profile-text71 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1264,7 +1252,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.collector-profile-text75 {
+.collector-profile-text74 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1274,7 +1262,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collector-profile-text76 {
+.collector-profile-text75 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1331,7 +1319,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.collector-profile-text79 {
+.collector-profile-text78 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1341,7 +1329,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collector-profile-text80 {
+.collector-profile-text79 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1398,7 +1386,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.collector-profile-text83 {
+.collector-profile-text82 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1408,7 +1396,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collector-profile-text84 {
+.collector-profile-text83 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1465,7 +1453,7 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.collector-profile-text87 {
+.collector-profile-text86 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1475,7 +1463,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collector-profile-text88 {
+.collector-profile-text87 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1498,10 +1486,10 @@
   .collector-profile-text35 {
     color: var(--dl-color-dark-white);
   }
-  .collector-profile-text61 {
+  .collector-profile-text60 {
     color: var(--dl-color-dark-white);
   }
-  .collector-profile-text62 {
+  .collector-profile-text61 {
     color: var(--dl-color-dark-white);
   }
 }
@@ -1555,7 +1543,6 @@
     border-radius: var(--dl-radius-radius-radius8);
     margin-bottom: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-unit);
-    background-size: cover;
   }
   .collector-profile-container01 {
     gap: var(--dl-space-space-unit);
@@ -1784,9 +1771,6 @@
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
-  .collector-profile-text38 {
-    padding-left: var(--dl-space-space-halfunit);
-  }
   .collector-profile-header-table {
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
@@ -1802,11 +1786,11 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text39 {
+  .collector-profile-text38 {
     color: var(--dl-color-dark-gray-400);
     font-size: 12px;
   }
-  .collector-profile-text40 {
+  .collector-profile-text39 {
     color: var(--dl-color-dark-gray-400);
     font-size: 12px;
   }
@@ -1816,7 +1800,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text42 {
+  .collector-profile-text41 {
     font-size: 12px;
   }
   .collector-profile-group2 {
@@ -1834,7 +1818,7 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .collector-profile-text44 {
+  .collector-profile-text43 {
     color: var(--dl-color-dark-gray-400);
     display: flex;
     font-size: 12px;
@@ -1854,7 +1838,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text46 {
+  .collector-profile-text45 {
     color: var(--dl-color-dark-white);
     font-size: 13px;
   }
@@ -1864,7 +1848,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text47 {
+  .collector-profile-text46 {
     font-size: 13px;
   }
   .collector-profile-group21 {
@@ -1877,13 +1861,13 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .collector-profile-text48 {
+  .collector-profile-text47 {
     color: var(--dl-color-dark-gray-400);
     display: flex;
     font-size: 12px;
     padding-right: 4px;
   }
-  .collector-profile-text49 {
+  .collector-profile-text48 {
     font-size: 12px;
   }
   .collector-profile-floor1 {
@@ -1898,7 +1882,7 @@
     font-weight: 400;
     margin-right: 4px;
   }
-  .collector-profile-text50 {
+  .collector-profile-text49 {
     color: var(--dl-color-dark-green-200);
     font-size: 12px;
   }
@@ -1915,7 +1899,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text51 {
+  .collector-profile-text50 {
     color: var(--dl-color-dark-white);
     font-size: 13px;
   }
@@ -1925,7 +1909,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text52 {
+  .collector-profile-text51 {
     font-size: 13px;
   }
   .collector-profile-group22 {
@@ -1938,13 +1922,13 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .collector-profile-text53 {
+  .collector-profile-text52 {
     color: var(--dl-color-dark-gray-400);
     display: flex;
     font-size: 12px;
     padding-right: 4px;
   }
-  .collector-profile-text54 {
+  .collector-profile-text53 {
     color: var(--dl-color-dark-green-200);
     font-size: 12px;
   }
@@ -1960,7 +1944,7 @@
     font-weight: 400;
     margin-right: 4px;
   }
-  .collector-profile-text55 {
+  .collector-profile-text54 {
     color: var(--dl-color-dark-green-200);
     font-size: 12px;
   }
@@ -1977,7 +1961,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text56 {
+  .collector-profile-text55 {
     color: var(--dl-color-dark-white);
     font-size: 13px;
   }
@@ -1987,7 +1971,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .collector-profile-text57 {
+  .collector-profile-text56 {
     font-size: 13px;
   }
   .collector-profile-group23 {
@@ -2000,13 +1984,13 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
-  .collector-profile-text58 {
+  .collector-profile-text57 {
     color: var(--dl-color-dark-gray-400);
     display: flex;
     font-size: 12px;
     padding-right: 4px;
   }
-  .collector-profile-text59 {
+  .collector-profile-text58 {
     color: var(--dl-color-dark-green-200);
     font-size: 12px;
   }
@@ -2022,7 +2006,7 @@
     font-weight: 400;
     margin-right: 4px;
   }
-  .collector-profile-text60 {
+  .collector-profile-text59 {
     color: var(--dl-color-dark-green-200);
     font-size: 12px;
   }
@@ -2039,11 +2023,11 @@
   .collector-profile-tabs-row1 {
     gap: var(--dl-space-space-twounits);
   }
-  .collector-profile-text61 {
+  .collector-profile-text60 {
     font-size: 13px;
     font-weight: 600;
   }
-  .collector-profile-text62 {
+  .collector-profile-text61 {
     font-size: 13px;
     font-weight: 600;
   }
@@ -2051,60 +2035,60 @@
     width: 60px;
     height: 60px;
   }
-  .collector-profile-text63 {
+  .collector-profile-text62 {
     font-size: 13px;
   }
-  .collector-profile-text66 {
+  .collector-profile-text65 {
     font-size: 13px;
   }
   .collector-profile-image-tesseract1 {
     width: 60px;
     height: 60px;
   }
-  .collector-profile-text69 {
+  .collector-profile-text68 {
     font-size: 13px;
   }
-  .collector-profile-text72 {
+  .collector-profile-text71 {
     font-size: 13px;
   }
   .collector-profile-image-tesseract2 {
     width: 60px;
     height: 60px;
   }
-  .collector-profile-text75 {
+  .collector-profile-text74 {
     font-size: 13px;
   }
-  .collector-profile-text76 {
+  .collector-profile-text75 {
     font-size: 13px;
   }
   .collector-profile-image-tesseract3 {
     width: 60px;
     height: 60px;
   }
-  .collector-profile-text79 {
+  .collector-profile-text78 {
     font-size: 13px;
   }
-  .collector-profile-text80 {
+  .collector-profile-text79 {
     font-size: 13px;
   }
   .collector-profile-image-tesseract4 {
     width: 60px;
     height: 60px;
   }
-  .collector-profile-text83 {
+  .collector-profile-text82 {
     font-size: 13px;
   }
-  .collector-profile-text84 {
+  .collector-profile-text83 {
     font-size: 13px;
   }
   .collector-profile-image-tesseract5 {
     width: 60px;
     height: 60px;
   }
-  .collector-profile-text87 {
+  .collector-profile-text86 {
     font-size: 13px;
   }
-  .collector-profile-text88 {
+  .collector-profile-text87 {
     font-size: 13px;
   }
 }

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import AddItemsSelector from './views/add-items-selector'
+import Drops from './views/drops'
 import CollectionPage from './views/collection-page'
 import AddCollection1 from './views/add-collection1'
 import UserProfileSettings from './views/user-profile-settings'
@@ -18,12 +19,14 @@ import AddProject from './views/add-project'
 import Home from './views/home'
 import CreatorStudioProject from './views/creator-studio-project'
 import ItemPage from './views/item-page'
+import CollectionDropPage from './views/collection-drop-page'
 
 const App = () => {
   return (
     <Router>
       <div>
         <Route component={AddItemsSelector} exact path="/add-items-selector" />
+        <Route component={Drops} exact path="/drops" />
         <Route component={CollectionPage} exact path="/collection-page" />
         <Route component={AddCollection1} exact path="/add-collection1" />
         <Route
@@ -54,6 +57,11 @@ const App = () => {
           path="/creator-studio-project"
         />
         <Route component={ItemPage} exact path="/item-page" />
+        <Route
+          component={CollectionDropPage}
+          exact
+          path="/collection-drop-page"
+        />
       </div>
     </Router>
   )

@@ -61,7 +61,9 @@ const Home = (props) => {
         </div>
         <div className="home-header">
           <div className="article-container home-container01">
-            <div className="home-container-pop article-img-holder"></div>
+            <div className="home-container-pop article-img-holder">
+              <div className="home-mask-overlay"></div>
+            </div>
             <div className="home-gray-overlay article-title-link">
               <div className="home-container02">
                 <div className="home-text-header">

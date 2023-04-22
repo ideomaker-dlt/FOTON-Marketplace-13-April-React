@@ -164,6 +164,20 @@
   background-image: url("/playground_assets/grid_0%20%5B4%5D-1500w.webp");
   background-position: top;
 }
+.home-mask-overlay {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  background-color: rgba(24, 24, 24, 0.20);
+}
 .home-gray-overlay {
   position: auto !important;
 }
@@ -543,6 +557,9 @@
   }
   .home-container-pop {
     border-radius: var(--dl-radius-radius-radius8);
+  }
+  .home-mask-overlay {
+    height: 100%;
   }
   .home-container02 {
     padding-left: var(--dl-space-space-unit);

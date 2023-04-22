@@ -73,20 +73,22 @@ input[type="search"]::-webkit-search-results-decoration {
           <div className="layout-with-sidebar-wrapper-right">
             <div className="layout-with-sidebar-container-right">
               <div className="layout-with-sidebar-items">
-                <button className="layout-with-sidebar-button1">Drops</button>
+                <Link to="/drops" className="layout-with-sidebar-navlink01">
+                  Drops
+                </Link>
                 <Link
                   to="/stats"
-                  className="layout-with-sidebar-navlink01 Content"
+                  className="layout-with-sidebar-navlink02 Content"
                 >
                   Stats
                 </Link>
                 <Link
                   to="/creator-studio"
-                  className="layout-with-sidebar-navlink02 Content"
+                  className="layout-with-sidebar-navlink03 Content"
                 >
                   Create
                 </Link>
-                <button className="layout-with-sidebar-button2 Content">
+                <button className="layout-with-sidebar-button1 Content">
                   More
                 </button>
               </div>

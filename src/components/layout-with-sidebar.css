@@ -160,7 +160,7 @@
   padding-right: var(--dl-space-space-unit);
   justify-content: flex-end;
 }
-.layout-with-sidebar-button1 {
+.layout-with-sidebar-navlink01 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   transition: 0.3s;
@@ -175,23 +175,6 @@
   text-transform: none;
   text-decoration: none;
   background-color: transparent;
-}
-.layout-with-sidebar-button1:active {
-  color: var(--dl-color-dark-green-200);
-}
-.layout-with-sidebar-navlink01 {
-  color: var(--dl-color-dark-white);
-  transition: 0.3s;
-  padding-top: 12px;
-  border-width: 0px;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: 12px;
-  text-decoration: none;
-  background-color: transparent;
-}
-.layout-with-sidebar-navlink01:hover {
-  color: var(--dl-color-dark-green-200);
 }
 .layout-with-sidebar-navlink01:active {
   color: var(--dl-color-dark-green-200);
@@ -213,7 +196,24 @@
 .layout-with-sidebar-navlink02:active {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-button2 {
+.layout-with-sidebar-navlink03 {
+  color: var(--dl-color-dark-white);
+  transition: 0.3s;
+  padding-top: 12px;
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 12px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.layout-with-sidebar-navlink03:hover {
+  color: var(--dl-color-dark-green-200);
+}
+.layout-with-sidebar-navlink03:active {
+  color: var(--dl-color-dark-green-200);
+}
+.layout-with-sidebar-button1 {
   color: var(--dl-color-dark-white);
   transition: 0.3s;
   padding-top: 12px;
@@ -223,10 +223,10 @@
   padding-bottom: 12px;
   background-color: transparent;
 }
-.layout-with-sidebar-button2:hover {
+.layout-with-sidebar-button1:hover {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-button2:active {
+.layout-with-sidebar-button1:active {
   color: var(--dl-color-dark-green-200);
 }
 .layout-with-sidebar-mobile-search {
@@ -1201,6 +1201,8 @@
   flex-direction: column;
   background-color: var(--dl-color-dark-gray-200);
 }
+
+
 
 
 
