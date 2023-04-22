@@ -179,7 +179,7 @@
 .layout-with-sidebar-button1:active {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-navlink1 {
+.layout-with-sidebar-navlink01 {
   color: var(--dl-color-dark-white);
   transition: 0.3s;
   padding-top: 12px;
@@ -190,13 +190,13 @@
   text-decoration: none;
   background-color: transparent;
 }
-.layout-with-sidebar-navlink1:hover {
+.layout-with-sidebar-navlink01:hover {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-navlink1:active {
+.layout-with-sidebar-navlink01:active {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-navlink2 {
+.layout-with-sidebar-navlink02 {
   color: var(--dl-color-dark-white);
   transition: 0.3s;
   padding-top: 12px;
@@ -207,10 +207,10 @@
   text-decoration: none;
   background-color: transparent;
 }
-.layout-with-sidebar-navlink2:hover {
+.layout-with-sidebar-navlink02:hover {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-navlink2:active {
+.layout-with-sidebar-navlink02:active {
   color: var(--dl-color-dark-green-200);
 }
 .layout-with-sidebar-button2 {
@@ -413,6 +413,7 @@
   margin-bottom: var(--dl-space-space-halfunit);
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
   background-color: var(--dl-color-dark-gray-370);
 }
 .layout-with-sidebar-collector-profile:hover {

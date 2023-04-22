@@ -76,13 +76,13 @@ input[type="search"]::-webkit-search-results-decoration {
                 <button className="layout-with-sidebar-button1">Drops</button>
                 <Link
                   to="/stats"
-                  className="layout-with-sidebar-navlink1 Content"
+                  className="layout-with-sidebar-navlink01 Content"
                 >
                   Stats
                 </Link>
                 <Link
                   to="/creator-studio"
-                  className="layout-with-sidebar-navlink2 Content"
+                  className="layout-with-sidebar-navlink02 Content"
                 >
                   Create
                 </Link>
@@ -157,17 +157,19 @@ input[type="search"]::-webkit-search-results-decoration {
                         </span>
                       </div>
                     </div>
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-collector-profile"
-                    >
-                      <span className="layout-with-sidebar-text02 material-symbols-outlined">
-                        category
-                      </span>
-                      <span className="layout-with-sidebar-text03">
-                        Collector Profile
-                      </span>
-                    </div>
+                    <Link to="/collector-profile" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-collector-profile"
+                      >
+                        <span className="layout-with-sidebar-text02 material-symbols-outlined">
+                          category
+                        </span>
+                        <span className="layout-with-sidebar-text03">
+                          Collector Profile
+                        </span>
+                      </div>
+                    </Link>
                     <Link to="/creator-studio" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
@@ -217,17 +219,19 @@ input[type="search"]::-webkit-search-results-decoration {
                       </span>
                       <span className="layout-with-sidebar-text11">More</span>
                     </div>
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle04"
-                    >
-                      <span className="layout-with-sidebar-text12 material-symbols-outlined">
-                        manage_accounts
-                      </span>
-                      <span className="layout-with-sidebar-text13">
-                        Profile Settings
-                      </span>
-                    </div>
+                    <Link to="/user-profile-settings" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-dropdown-toggle04"
+                      >
+                        <span className="layout-with-sidebar-text12 material-symbols-outlined">
+                          manage_accounts
+                        </span>
+                        <span className="layout-with-sidebar-text13">
+                          Profile Settings
+                        </span>
+                      </div>
+                    </Link>
                   </li>
                   <li
                     data-thq="thq-dropdown"
