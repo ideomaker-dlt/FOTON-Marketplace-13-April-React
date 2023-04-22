@@ -317,17 +317,19 @@ input[type="search"]::-webkit-search-results-decoration {
                     data-thq="thq-dropdown"
                     className="layout-with-sidebar-user-settings1 list-item"
                   >
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle07"
-                    >
-                      <span className="layout-with-sidebar-text21 material-symbols-outlined">
-                        manage_accounts
-                      </span>
-                      <span className="layout-with-sidebar-text22">
-                        Profile Settings
-                      </span>
-                    </div>
+                    <Link to="/user-profile-settings" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-dropdown-toggle07"
+                      >
+                        <span className="layout-with-sidebar-text21 material-symbols-outlined">
+                          manage_accounts
+                        </span>
+                        <span className="layout-with-sidebar-text22">
+                          Profile Settings
+                        </span>
+                      </div>
+                    </Link>
                   </li>
                   <li
                     data-thq="thq-dropdown"

@@ -17,6 +17,7 @@ import AddProject from './views/add-project'
 import Home from './views/home'
 import CreatorStudioProject from './views/creator-studio-project'
 import ItemPage from './views/item-page'
+import UserProfileSettings from './views/user-profile-settings'
 
 const App = () => {
   return (
@@ -48,6 +49,11 @@ const App = () => {
           path="/creator-studio-project"
         />
         <Route component={ItemPage} exact path="/item-page" />
+        <Route
+          component={UserProfileSettings}
+          exact
+          path="/user-profile-settings"
+        />
       </div>
     </Router>
   )
