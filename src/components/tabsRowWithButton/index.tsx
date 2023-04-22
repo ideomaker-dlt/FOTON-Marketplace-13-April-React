@@ -2,31 +2,35 @@ import React, { memo } from 'react'
 import { Link } from 'react-router-dom'
 
 import './styles.scss'
+import { Filter, GoBack } from './components'
 
 export const TabsRowWithButtons: React.FC<any> = memo(
   (
     props = {
-      text1: 'My Items',
       rootClassName: '',
-      text7: 'Descending',
-      SelectAll: 'Select All',
-      text6: 'Ascending',
-      text3: 'Price',
-      text5: 'A to Z',
-      text2: 'Sort by Status',
-      text: '< go back',
-      text4: 'Status',
+      // text1: 'My Items',
+      // text7: 'Descending',
+      // SelectAll: 'Select All',
+      // text6: 'Ascending',
+      // text3: 'Price',
+      // text5: 'A to Z',
+      // text2: 'Sort by Status',
+      // text: '< go back',
+      // text4: 'Status',
     }
   ) => {
     return (
       <div className={`tabs-row-with-buttons-tabs-row ${props.rootClassName} `}>
-        <div className='tabs-row-with-buttons-container'>
+        <GoBack />
+        <Filter />
+        {/* <div className='tabs-row-with-buttons-container'>
           <Link to='/creator-studio' className='tabs-row-with-buttons-navlink'>
-            {props.text}
+            &lt; go back
           </Link>
-          <span className='tabs-row-with-buttons-text'>{props.text1}</span>
-        </div>
-        <div className='tabs-row-with-buttons-filter-buttons'>
+          <span className='tabs-row-with-buttons-text'>My Items</span>
+        </div> */}
+        
+        {/* <div className='tabs-row-with-buttons-filter-buttons'>
           <button type='button' className='tabs-row-with-buttons-button'>
             <svg viewBox='0 0 1024 1024' className='tabs-row-with-buttons-icon'>
               <path d='M182 242q-12-14-12-28 0-18 13-31t31-13h596q18 0 31 13t13 31q2 12-10 26l-246 314v256q0 18-12 31t-30 13h-86q-18 0-31-13t-13-31v-256q-240-306-244-312z'></path>
@@ -158,7 +162,7 @@ export const TabsRowWithButtons: React.FC<any> = memo(
               <br></br>
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
     )
   }

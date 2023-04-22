@@ -15,6 +15,7 @@ import {
   CreatorStudio,
   CreatorStudioCollectionAnalytics,
   Stats,
+  CollectionPage
 } from 'views'
 
 const App = () => {
@@ -42,6 +43,11 @@ const App = () => {
         component={CreatorStudioCollectionAnalytics}
         exact
         path="/creator-studio-collection-analytics"
+      />
+       <Route
+        component={CollectionPage}
+        exact
+        path="/collection-page"
       />
     </Router>
   )

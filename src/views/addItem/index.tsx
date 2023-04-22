@@ -1,54 +1,22 @@
 import React, { memo } from 'react'
-import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
-
 import { LayoutWithSidebar } from '@components'
-import './styles.scss'
+import styles from "./styles.module.scss"
+import { Form, GoBack, Header } from './components'
 
 export const AddItem = memo(() => {
   return (
-    <div className='add-item-container'>
-      <Helmet>
-        <title>
-          Add-Item - FOTON Marketplace for NFTs and Digital Collectibles on
-          Radix DLT
-        </title>
-        <meta
-          name='description'
-          content='Collect , Trade or Mint NFTs and find your Communities'
-        />
-        <meta
-          property='og:title'
-          content='Add-Item - FOTON Marketplace for NFTs and Digital Collectibles on Radix DLT'
-        />
-        <meta
-          property='og:description'
-          content='Collect , Trade or Mint NFTs and find your Communities'
-        />
-      </Helmet>
+    <div className={styles.addItemContainer}>
+
       <LayoutWithSidebar rootClassName='layout-with-sidebar-root-class-name8'>
-        <div className='add-item-header-creator'>
-          <div className='add-item-container01'>
-            <div className='add-item-container02'>
-              <div className='add-item-container03'>
-                <h1 className='add-item-text'>Create New Item</h1>
-              </div>
-            </div>
-          </div>
-          <div className='add-item-mask-overlay'></div>
-        </div>
-        <div className='add-item-tabs-row'>
-          <div className='add-item-container04'>
-            <Link to='/creator-studio-project' className='add-item-navlink'>
-              &lt; go back
-            </Link>
-            <span className='add-item-text01'>Define your Item below</span>
-          </div>
-        </div>
-        <div className='add-item-container-form'>
-          <div className='add-item-under-header'>
-            <div className='add-item-card'>
-              <form className='add-item-form'>
+        <Header />
+        <GoBack />
+        <Form />
+
+        {/*   <div className={styles.addItemContainerForm}>
+          <div className={styles.addItemUnderHeader}>
+            <div className={styles.addItemCard}>
+
+             <form className='add-item-form'>
                 <div className='add-item-field'>
                   <label className='add-item-text02 padding-4px-left Content'>
                     Name Item:
@@ -326,10 +294,11 @@ export const AddItem = memo(() => {
                     <br></br>
                   </span>
                 </div>
-              </div>
+              </div> 
+
             </div>
           </div>
-        </div>
+        </div>*/}
       </LayoutWithSidebar>
     </div>
   )
