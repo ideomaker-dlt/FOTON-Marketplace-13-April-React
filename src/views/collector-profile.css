@@ -1589,7 +1589,7 @@
     height: 60px;
   }
   .collector-profile-container05 {
-    gap: var(--dl-space-space-halfunit);
+    gap: 4px;
     height: auto;
     padding-top: var(--dl-space-space-unit);
   }
