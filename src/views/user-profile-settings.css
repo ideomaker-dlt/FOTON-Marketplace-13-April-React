@@ -174,7 +174,7 @@
   flex-direction: column;
 }
 .user-profile-settings-field {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -195,7 +195,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .user-profile-settings-field1 {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -216,7 +216,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .user-profile-settings-biography {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -238,7 +238,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .user-profile-settings-profile-picture {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -318,7 +318,7 @@
   height: 50px;
 }
 .user-profile-settings-header-banner-image {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -398,7 +398,7 @@
   height: 50px;
 }
 .user-profile-settings-webpage {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -419,7 +419,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .user-profile-settings-twitter {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -440,7 +440,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .user-profile-settings-telegram {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }

@@ -174,7 +174,7 @@
   flex-direction: column;
 }
 .add-project-field {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -195,7 +195,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-project-area {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -217,7 +217,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-project-area1 {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -239,7 +239,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-project-field-image {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   align-items: stretch;
   flex-direction: column;
@@ -319,7 +319,7 @@
   height: 50px;
 }
 .add-project-field-image1 {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   align-items: stretch;
   flex-direction: column;

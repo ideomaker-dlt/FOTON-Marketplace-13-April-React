@@ -174,7 +174,7 @@
   flex-direction: column;
 }
 .add-item-field {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -195,7 +195,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-item-area {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   flex-direction: column;
 }
@@ -217,7 +217,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-item-field-image {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   display: flex;
   align-items: stretch;
   flex-direction: column;
