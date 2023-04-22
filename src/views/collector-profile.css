@@ -32,7 +32,7 @@
 }
 .collector-profile-container01 {
   flex: 0 0 auto;
-  width: 100%;
+  width: auto;
   display: flex;
   z-index: 130;
   align-items: flex-end;
@@ -334,6 +334,7 @@
   top: var(--dl-space-space-oneandhalfunits);
   right: var(--dl-space-space-oneandhalfunits);
   display: flex;
+  z-index: 210;
   position: absolute;
   align-self: flex-start;
   align-items: center;
