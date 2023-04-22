@@ -176,36 +176,27 @@ const CollectionPage = (props) => {
         </div>
         <div className="collection-page-tabs-row-filters">
           <div className="collection-page-filter-buttons">
-            <button type="button" className="collection-page-button05">
-              <svg viewBox="0 0 1024 1024" className="collection-page-icon10">
-                <path d="M182 242q-12-14-12-28 0-18 13-31t31-13h596q18 0 31 13t13 31q2 12-10 26l-246 314v256q0 18-12 31t-30 13h-86q-18 0-31-13t-13-31v-256q-240-306-244-312z"></path>
-              </svg>
-              <span className="collection-page-text39">
-                <span>Filters</span>
-                <br></br>
-              </span>
-            </button>
             <div className="collection-page-timeframe">
+              <button className="collection-page-button05">
+                <span className="collection-page-text39">
+                  <span>1h</span>
+                  <br></br>
+                </span>
+              </button>
               <button className="collection-page-button06">
                 <span className="collection-page-text42">
-                  <span>1h</span>
+                  <span>6h</span>
                   <br></br>
                 </span>
               </button>
               <button className="collection-page-button07">
                 <span className="collection-page-text45">
-                  <span>6h</span>
+                  <span>24h</span>
                   <br></br>
                 </span>
               </button>
               <button className="collection-page-button08">
                 <span className="collection-page-text48">
-                  <span>24h</span>
-                  <br></br>
-                </span>
-              </button>
-              <button className="collection-page-button09">
-                <span className="collection-page-text51">
                   <span>7d</span>
                   <br></br>
                 </span>
@@ -213,10 +204,10 @@ const CollectionPage = (props) => {
             </div>
             <div className="collection-page-searchbar">
               <form className="collection-page-form">
-                <button className="collection-page-button10 button">
+                <button className="collection-page-button09 button">
                   <svg
                     viewBox="0 0 1024 1024"
-                    className="collection-page-icon12"
+                    className="collection-page-icon10"
                   >
                     <path d="M684.416 676.523c-1.451 1.109-2.859 2.347-4.224 3.712s-2.56 2.731-3.712 4.224c-53.675 51.755-126.677 83.541-207.147 83.541-82.475 0-157.099-33.365-211.2-87.467s-87.467-128.725-87.467-211.2 33.365-157.099 87.467-211.2 128.725-87.467 211.2-87.467 157.099 33.365 211.2 87.467 87.467 128.725 87.467 211.2c0 80.469-31.787 153.472-83.584 207.189zM926.165 865.835l-156.8-156.8c52.523-65.707 83.968-149.035 83.968-239.701 0-106.027-43.008-202.069-112.469-271.531s-165.504-112.469-271.531-112.469-202.069 43.008-271.531 112.469-112.469 165.504-112.469 271.531 43.008 202.069 112.469 271.531 165.504 112.469 271.531 112.469c90.667 0 173.995-31.445 239.701-83.968l156.8 156.8c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"></path>
                   </svg>
@@ -226,7 +217,7 @@ const CollectionPage = (props) => {
                   id="mainsearch"
                   name="search-field"
                   placeholder="Search by name..."
-                  className="collection-page-textinput focus-reset Content18 input"
+                  className="collection-page-textinput Content18 focus-reset input"
                 />
                 <div>
                   <DangerousHTML
@@ -257,26 +248,26 @@ input[type="search"]::-webkit-search-results-decoration {
           </div>
           <div className="collection-page-filter-buttons1">
             <div className="collection-page-timeframe1">
+              <button className="collection-page-button10">
+                <span className="collection-page-text51">
+                  <span>1h</span>
+                  <br></br>
+                </span>
+              </button>
               <button className="collection-page-button11">
                 <span className="collection-page-text54">
-                  <span>1h</span>
+                  <span>6h</span>
                   <br></br>
                 </span>
               </button>
               <button className="collection-page-button12">
                 <span className="collection-page-text57">
-                  <span>6h</span>
+                  <span>24h</span>
                   <br></br>
                 </span>
               </button>
               <button className="collection-page-button13">
                 <span className="collection-page-text60">
-                  <span>24h</span>
-                  <br></br>
-                </span>
-              </button>
-              <button className="collection-page-button14">
-                <span className="collection-page-text63">
                   <span>7d</span>
                   <br></br>
                 </span>
@@ -290,17 +281,17 @@ input[type="search"]::-webkit-search-results-decoration {
                 data-thq="thq-dropdown-toggle"
                 className="collection-page-dropdown-toggle"
               >
-                <svg viewBox="0 0 1024 1024" className="collection-page-icon14">
+                <svg viewBox="0 0 1024 1024" className="collection-page-icon12">
                   <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
                 </svg>
-                <span className="collection-page-text66">Sort by Status</span>
+                <span className="collection-page-text63">Sort by Status</span>
                 <div
                   data-thq="thq-dropdown-arrow"
                   className="collection-page-dropdown-arrow"
                 >
                   <svg
                     viewBox="0 0 1024 1024"
-                    className="collection-page-icon16"
+                    className="collection-page-icon14"
                   >
                     <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
                   </svg>
@@ -318,13 +309,13 @@ input[type="search"]::-webkit-search-results-decoration {
                     data-thq="thq-dropdown-toggle"
                     className="collection-page-dropdown-toggle1"
                   >
-                    <span className="collection-page-text67">Name</span>
+                    <span className="collection-page-text64">Name</span>
                   </div>
                   <div
                     data-thq="thq-dropdown-toggle"
                     className="collection-page-dropdown-toggle2"
                   >
-                    <span className="collection-page-text68">
+                    <span className="collection-page-text65">
                       Price Low to High
                     </span>
                   </div>
@@ -332,7 +323,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     data-thq="thq-dropdown-toggle"
                     className="collection-page-dropdown-toggle3"
                   >
-                    <span className="collection-page-text69">
+                    <span className="collection-page-text66">
                       Price High to Low
                     </span>
                   </div>
@@ -340,19 +331,19 @@ input[type="search"]::-webkit-search-results-decoration {
                     data-thq="thq-dropdown-toggle"
                     className="collection-page-dropdown-toggle4"
                   >
-                    <span className="collection-page-text70">Status</span>
+                    <span className="collection-page-text67">Status</span>
                   </div>
                   <div
                     data-thq="thq-dropdown-toggle"
                     className="collection-page-dropdown-toggle5"
                   >
-                    <span className="collection-page-text71">Most Rare</span>
+                    <span className="collection-page-text68">Most Rare</span>
                   </div>
                   <div
                     data-thq="thq-dropdown-toggle"
                     className="collection-page-dropdown-toggle6"
                   >
-                    <span className="collection-page-text72">
+                    <span className="collection-page-text69">
                       Newest Listed
                     </span>
                   </div>
@@ -360,16 +351,16 @@ input[type="search"]::-webkit-search-results-decoration {
                     data-thq="thq-dropdown-toggle"
                     className="collection-page-dropdown-toggle7"
                   >
-                    <span className="collection-page-text73">Oldest</span>
+                    <span className="collection-page-text70">Oldest</span>
                   </div>
                 </li>
               </ul>
             </div>
-            <button type="button" className="collection-page-button15">
-              <svg viewBox="0 0 1024 1024" className="collection-page-icon18">
+            <button type="button" className="collection-page-button14">
+              <svg viewBox="0 0 1024 1024" className="collection-page-icon16">
                 <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
               </svg>
-              <span className="collection-page-text74">
+              <span className="collection-page-text71">
                 <span>Select All</span>
                 <br></br>
               </span>

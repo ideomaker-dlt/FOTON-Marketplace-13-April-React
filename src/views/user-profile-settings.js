@@ -58,17 +58,17 @@ const UserProfileSettings = (props) => {
             <div className="user-profile-settings-card">
               <form className="user-profile-settings-form">
                 <div className="user-profile-settings-field">
-                  <label className="user-profile-settings-text02 padding-4px-left Content">
+                  <label className="user-profile-settings-text02 Content padding-4px-left">
                     Name:
                   </label>
                   <input
                     type="text"
                     placeholder="Danoshi Hughemoto..."
-                    className="user-profile-settings-textinput Content16SemiBold focus-reset-forms input"
+                    className="user-profile-settings-textinput focus-reset-forms input Content16SemiBold"
                   />
                 </div>
                 <div className="user-profile-settings-field1">
-                  <label className="user-profile-settings-text03 padding-4px-left Content">
+                  <label className="user-profile-settings-text03 Content padding-4px-left">
                     Foton Username:
                   </label>
                   <input
@@ -83,7 +83,7 @@ const UserProfileSettings = (props) => {
                   </label>
                   <textarea
                     placeholder="Something about myself..."
-                    className="user-profile-settings-textarea textarea Content16SemiBold focus-reset-forms"
+                    className="user-profile-settings-textarea Content16SemiBold textarea focus-reset-forms"
                   ></textarea>
                 </div>
                 <div className="user-profile-settings-profile-picture">
@@ -94,7 +94,7 @@ const UserProfileSettings = (props) => {
                     <input
                       type="text"
                       placeholder="Upload image..."
-                      className="user-profile-settings-textinput2 Content16SemiBold focus-reset-forms input"
+                      className="user-profile-settings-textinput2 focus-reset-forms Content16SemiBold input"
                     />
                     <button className="user-profile-settings-button button Content16SemiBold">
                       <svg
@@ -122,9 +122,9 @@ const UserProfileSettings = (props) => {
                     <input
                       type="text"
                       placeholder="Upload image..."
-                      className="user-profile-settings-textinput3 Content16SemiBold focus-reset-forms input"
+                      className="user-profile-settings-textinput3 focus-reset-forms Content16SemiBold input"
                     />
-                    <button className="user-profile-settings-button1 button Content16SemiBold">
+                    <button className="user-profile-settings-button1 Content16SemiBold button">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="user-profile-settings-icon04"
@@ -142,39 +142,9 @@ const UserProfileSettings = (props) => {
                     </svg>
                   </div>
                 </div>
-                <div className="user-profile-settings-webpage">
-                  <label className="user-profile-settings-text07 padding-4px-left Content">
-                    My Webpage:
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Danoshi..."
-                    className="user-profile-settings-textinput4 Content16SemiBold focus-reset-forms input"
-                  />
-                </div>
-                <div className="user-profile-settings-twitter">
-                  <label className="user-profile-settings-text08 padding-4px-left Content">
-                    My Twitter:
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Danoshi..."
-                    className="user-profile-settings-textinput5 Content16SemiBold focus-reset-forms input"
-                  />
-                </div>
-                <div className="user-profile-settings-telegram">
-                  <label className="user-profile-settings-text09 padding-4px-left Content">
-                    My Telegram:
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Danoshi..."
-                    className="user-profile-settings-textinput6 Content16SemiBold focus-reset-forms input"
-                  />
-                </div>
                 <div className="user-profile-settings-bottom-buttons">
                   <button className="user-profile-settings-button2 button">
-                    <span className="user-profile-settings-text10">
+                    <span className="user-profile-settings-text07">
                       <span>Save Settings</span>
                       <br></br>
                     </span>
@@ -189,11 +159,11 @@ const UserProfileSettings = (props) => {
               </form>
               <div className="user-profile-settings-info-box">
                 <div className="user-profile-settings-container09">
-                  <h1 className="user-profile-settings-text13 Content18">
+                  <h1 className="user-profile-settings-text10 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="user-profile-settings-text16">
+                  <span className="user-profile-settings-text13">
                     <span>
                       A Project is the first type of content every user has to
                       create before adding any NFTs on the platform. Projects

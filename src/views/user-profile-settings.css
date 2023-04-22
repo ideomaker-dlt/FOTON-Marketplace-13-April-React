@@ -397,69 +397,6 @@
   width: 50px;
   height: 50px;
 }
-.user-profile-settings-webpage {
-  gap: 12px;
-  display: flex;
-  flex-direction: column;
-}
-.user-profile-settings-text07 {
-  color: var(--dl-color-dark-white);
-}
-.user-profile-settings-textinput4 {
-  color: var(--dl-color-dark-white);
-  height: 50px;
-  transition: 0.3s;
-  border-color: var(--dl-color-dark-gray-370);
-  border-width: 2px;
-  border-radius: var(--dl-radius-radius-radius8);
-  background-color: var(--dl-color-dark-gray-300);
-}
-.user-profile-settings-textinput4:focus {
-  border-color: var(--dl-color-dark-gray-400);
-  background-color: var(--dl-color-dark-gray-360);
-}
-.user-profile-settings-twitter {
-  gap: 12px;
-  display: flex;
-  flex-direction: column;
-}
-.user-profile-settings-text08 {
-  color: var(--dl-color-dark-white);
-}
-.user-profile-settings-textinput5 {
-  color: var(--dl-color-dark-white);
-  height: 50px;
-  transition: 0.3s;
-  border-color: var(--dl-color-dark-gray-370);
-  border-width: 2px;
-  border-radius: var(--dl-radius-radius-radius8);
-  background-color: var(--dl-color-dark-gray-300);
-}
-.user-profile-settings-textinput5:focus {
-  border-color: var(--dl-color-dark-gray-400);
-  background-color: var(--dl-color-dark-gray-360);
-}
-.user-profile-settings-telegram {
-  gap: 12px;
-  display: flex;
-  flex-direction: column;
-}
-.user-profile-settings-text09 {
-  color: var(--dl-color-dark-white);
-}
-.user-profile-settings-textinput6 {
-  color: var(--dl-color-dark-white);
-  height: 50px;
-  transition: 0.3s;
-  border-color: var(--dl-color-dark-gray-370);
-  border-width: 2px;
-  border-radius: var(--dl-radius-radius-radius8);
-  background-color: var(--dl-color-dark-gray-300);
-}
-.user-profile-settings-textinput6:focus {
-  border-color: var(--dl-color-dark-gray-400);
-  background-color: var(--dl-color-dark-gray-360);
-}
 .user-profile-settings-bottom-buttons {
   gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
@@ -496,7 +433,7 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-darkergreen);
 }
-.user-profile-settings-text10 {
+.user-profile-settings-text07 {
   padding-top: 2px;
 }
 .user-profile-settings-icon08 {
@@ -530,11 +467,11 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: flex-start;
 }
-.user-profile-settings-text13 {
+.user-profile-settings-text10 {
   color: var(--dl-color-dark-darkergreen);
   font-style: normal;
 }
-.user-profile-settings-text16 {
+.user-profile-settings-text13 {
   color: var(--dl-color-dark-white);
   line-height: 1.4;
 }
@@ -640,7 +577,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
-  .user-profile-settings-text10 {
+  .user-profile-settings-text07 {
     font-size: 16px;
   }
   .user-profile-settings-icon08 {

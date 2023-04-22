@@ -6,6 +6,7 @@ import './style.css'
 import AddItemsSelector from './views/add-items-selector'
 import CollectionPage from './views/collection-page'
 import AddCollection1 from './views/add-collection1'
+import UserProfileSettings from './views/user-profile-settings'
 import AddCollection2 from './views/add-collection2'
 import CreatorStudioCollection from './views/creator-studio-collection'
 import AddItem from './views/add-item'
@@ -17,7 +18,6 @@ import AddProject from './views/add-project'
 import Home from './views/home'
 import CreatorStudioProject from './views/creator-studio-project'
 import ItemPage from './views/item-page'
-import UserProfileSettings from './views/user-profile-settings'
 
 const App = () => {
   return (
@@ -26,6 +26,11 @@ const App = () => {
         <Route component={AddItemsSelector} exact path="/add-items-selector" />
         <Route component={CollectionPage} exact path="/collection-page" />
         <Route component={AddCollection1} exact path="/add-collection1" />
+        <Route
+          component={UserProfileSettings}
+          exact
+          path="/user-profile-settings"
+        />
         <Route component={AddCollection2} exact path="/add-collection2" />
         <Route
           component={CreatorStudioCollection}
@@ -49,11 +54,6 @@ const App = () => {
           path="/creator-studio-project"
         />
         <Route component={ItemPage} exact path="/item-page" />
-        <Route
-          component={UserProfileSettings}
-          exact
-          path="/user-profile-settings"
-        />
       </div>
     </Router>
   )
