@@ -1020,6 +1020,7 @@
   background-color: var(--dl-color-dark-gray-250);
 }
 .collector-profile-item-details {
+  gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
   align-items: flex-start;
