@@ -547,6 +547,9 @@
   .user-profile-settings-container02 {
     gap: var(--dl-space-space-unit);
   }
+  .user-profile-settings-form {
+    flex: 2;
+  }
 }
 @media(max-width: 767px) {
   .user-profile-settings-header-creator {
@@ -600,7 +603,7 @@
   }
   .user-profile-settings-card {
     gap: 4px;
-    width: auto;
+    width: 100%;
     align-self: flex-start;
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-halfunit);
