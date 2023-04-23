@@ -90,7 +90,7 @@ const CollectionDropPage = (props) => {
               <button type="button" className="collection-drop-page-button1">
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="collection-drop-page-icon02 fill-color-white"
+                  className="collection-drop-page-icon2 fill-color-white"
                 >
                   <path d="M854 768v-384h-172v384h172zM640 554v-170h-470v170h470zM640 768v-170h-470v170h470zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
@@ -102,7 +102,7 @@ const CollectionDropPage = (props) => {
               <button type="button" className="collection-drop-page-button2">
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="collection-drop-page-icon04 fill-color-white"
+                  className="collection-drop-page-icon4 fill-color-white"
                 >
                   <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                 </svg>
@@ -118,7 +118,7 @@ const CollectionDropPage = (props) => {
                 </span>
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="collection-drop-page-icon06 fill-color-white"
+                  className="collection-drop-page-icon6 fill-color-white"
                 >
                   <path d="M512 0c-282.8 0-512 229.2-512 512s229.2 512 512 512 512-229.2 512-512-229.2-512-512-512zM763.6 351l-84 395.8c-5.8 28.2-22.8 34.8-46.4 21.8l-128-94.6-61.4 59.8c-7.2 7-12.8 12.8-25.6 12.8-16.6 0-13.8-6.2-19.4-22l-43.6-143.2-126.6-39.4c-27.4-8.4-27.6-27.2 6.2-40.6l493.2-190.4c22.4-10.2 44.2 5.4 35.6 40z"></path>
                 </svg>
@@ -140,73 +140,8 @@ const CollectionDropPage = (props) => {
                     About this Collection
                   </label>
                 </div>
-                <div className="collection-drop-page-container11">
-                  <div className="collection-drop-page-description-collection">
-                    <div className="collection-drop-page-container12">
-                      <div className="collection-drop-page-engagement-buttons">
-                        <button
-                          type="button"
-                          className="collection-drop-page-button4"
-                        >
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            className="collection-drop-page-icon08 fill-color-white"
-                          >
-                            <path d="M516 792q96-86 142-130t100-104 75-106 21-90q0-64-43-106t-107-42q-50 0-93 28t-59 72h-80q-16-44-59-72t-93-28q-64 0-107 42t-43 106q0 44 21 90t75 106 100 104 142 130l4 4zM704 128q100 0 167 68t67 166q0 58-22 113t-81 123-107 114-154 142l-62 56-62-54q-138-124-199-186t-113-146-52-162q0-98 67-166t167-68q116 0 192 90 76-90 192-90z"></path>
-                          </svg>
-                          <span className="collection-drop-page-text25">
-                            <span>2536</span>
-                            <br></br>
-                          </span>
-                        </button>
-                        <button
-                          type="button"
-                          className="collection-drop-page-button5"
-                        >
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            className="collection-drop-page-icon10 fill-color-white"
-                          >
-                            <path d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
-                          </svg>
-                          <span className="collection-drop-page-text28">
-                            <span>16536</span>
-                            <br></br>
-                          </span>
-                        </button>
-                        <button
-                          type="button"
-                          className="collection-drop-page-button6"
-                        >
-                          <span className="collection-drop-page-text31">
-                            <span>Avatars</span>
-                            <br></br>
-                          </span>
-                        </button>
-                      </div>
-                      <h2 className="collection-drop-page-text34">
-                        The crew of pirates gathered around a campfire on a
-                        tropical island, their ship anchored offshore. They
-                        toasted their recent plunder and shared stories of
-                        adventure. The sound of waves and the scent of saltwater
-                        filled the air, as they planned their next raid under
-                        the glow of the moon.
-                      </h2>
-                      <p className="collection-drop-page-text35">
-                        <span>
-                          Added on 23 Apr 2023
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
-                        </span>
-                        <br></br>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <p className="collection-drop-page-text38">
+                <div className="collection-drop-page-container11"></div>
+                <p className="collection-drop-page-text25">
                   <span>
                     In the year 2050, humanity had exhausted the resources of
                     Earth and faced the grim reality of its impending demise.
@@ -255,59 +190,37 @@ const CollectionDropPage = (props) => {
                 </p>
               </div>
               <div className="collection-drop-page-about1">
-                <div className="collection-drop-page-container13">
-                  <label className="collection-drop-page-text48">
+                <div className="collection-drop-page-container12">
+                  <label className="collection-drop-page-text35">
                     Minting Details
                   </label>
-                  <div className="collection-drop-page-container14">
-                    <p className="collection-drop-page-text49">
+                  <div className="collection-drop-page-container13">
+                    <p className="collection-drop-page-text36">
                       <span>Price per item minted:</span>
                       <br></br>
                     </p>
-                    <p className="collection-drop-page-text52">
+                    <p className="collection-drop-page-text39">
                       <span>Minting starts:</span>
                       <br></br>
                     </p>
                   </div>
-                  <div className="collection-drop-page-container15">
-                    <label className="collection-drop-page-text55">
-                      <span className="collection-drop-page-text56">
-                        000.00
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span className="collection-drop-page-text57">XRD</span>
-                    </label>
-                    <label className="collection-drop-page-text58">
-                      01 July 2023, 14:00
+                  <div className="collection-drop-page-container14">
+                    <label className="collection-drop-page-text42">TBA</label>
+                    <label className="collection-drop-page-text43">
+                      COMING SOON
                     </label>
                   </div>
                 </div>
-                <div className="collection-drop-page-container16">
+                <div className="collection-drop-page-container15">
                   <div className="collection-drop-page-buy-container">
-                    <button className="collection-drop-page-button7 button">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="collection-drop-page-icon12 fill-color-white"
-                      >
-                        <path d="M592 550l176-80-176-80-80-176-80 176-176 80 176 80 80 176zM810 86q34 0 60 25t26 59v598q0 34-26 60t-60 26h-170l-128 128-128-128h-170q-34 0-60-26t-26-60v-598q0-34 26-59t60-25h596z"></path>
-                      </svg>
-                      <span className="collection-drop-page-text59">
+                    <button className="collection-drop-page-button4 button">
+                      <span className="collection-drop-page-text44">
                         <span>Minting Soon</span>
                         <br></br>
                       </span>
                     </button>
-                    <button className="collection-drop-page-button8 button">
-                      <svg
-                        viewBox="0 0 1024 1024"
-                        className="collection-drop-page-icon14 fill-color-white"
-                      >
-                        <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
-                      </svg>
-                      <span className="collection-drop-page-text62">
+                    <button className="collection-drop-page-button5 button">
+                      <span className="collection-drop-page-text47">
                         <span>
                           Follow
                           <span

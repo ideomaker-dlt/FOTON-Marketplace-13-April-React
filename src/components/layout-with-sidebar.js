@@ -190,16 +190,20 @@ input[type="search"]::-webkit-search-results-decoration {
                     data-thq="thq-dropdown"
                     className="layout-with-sidebar-user-settings list-item"
                   >
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle01"
-                    >
-                      <span className="layout-with-sidebar-text06 material-symbols-outlined">
-                        water_drop
-                      </span>
-                      <span className="layout-with-sidebar-text07">Drops</span>
-                    </div>
-                    <Link to="/collection-page" className="">
+                    <Link to="/drops" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-dropdown-toggle01"
+                      >
+                        <span className="layout-with-sidebar-text06 material-symbols-outlined">
+                          water_drop
+                        </span>
+                        <span className="layout-with-sidebar-text07">
+                          Drops
+                        </span>
+                      </div>
+                    </Link>
+                    <Link to="/stats" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-dropdown-toggle02"

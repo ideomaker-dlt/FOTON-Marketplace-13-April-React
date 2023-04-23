@@ -571,9 +571,11 @@
   }
   .home-text15 {
     font-size: 20px;
+    margin-bottom: 4px;
   }
   .home-text16 {
     font-size: 14px;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .home-container03 {
     gap: var(--dl-space-space-halfunit);
