@@ -53,8 +53,8 @@
   justify-content: flex-start;
 }
 .collection-drop-page-avatar-logo {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -847,11 +847,11 @@
     flex-direction: row;
   }
   .collection-drop-page-avatar-logo {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   .collection-drop-page-container04 {
-    gap: var(--dl-space-space-halfunit);
+    gap: 4px;
     height: auto;
     padding-top: var(--dl-space-space-halfunit);
   }
@@ -948,8 +948,8 @@
     justify-content: flex-start;
   }
   .collection-drop-page-avatar-logo {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     align-self: flex-start;
   }
   .collection-drop-page-container04 {
