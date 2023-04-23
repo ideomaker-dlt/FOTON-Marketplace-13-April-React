@@ -187,7 +187,7 @@ const AddCollection1 = (props) => {
                   </div>
                 </div>
                 <div className="add-collection1-field2">
-                  <label className="add-collection1-text030 padding-4px-left Content">
+                  <label className="add-collection1-text030 Content padding-4px-left">
                     Collection Size (Leave empty for Open collections):
                   </label>
                   <input
@@ -254,7 +254,7 @@ const AddCollection1 = (props) => {
                           placeholder="Attribute name...Eyes, Nose, Hair..."
                           className="add-collection1-textinput2 Content16SemiBold focus-reset-forms input"
                         />
-                        <button className="add-collection1-button04 button Content16SemiBold">
+                        <button className="add-collection1-button04 Content16SemiBold button">
                           <svg
                             viewBox="0 0 1024 1024"
                             className="add-collection1-icon12"

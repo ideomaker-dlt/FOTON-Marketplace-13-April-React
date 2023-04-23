@@ -154,6 +154,14 @@ const AddCollection2NonLayered = (props) => {
                       <label className="add-collection-non-layered-text15 padding-4px-left">
                         2000 x 2000 px
                       </label>
+                      <button className="add-collection-non-layered-button4 button Content16SemiBold">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection-non-layered-icon12"
+                        >
+                          <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                        </svg>
+                      </button>
                     </div>
                   </div>
                   <div className="add-collection-non-layered-attribute-row">
@@ -166,7 +174,7 @@ const AddCollection2NonLayered = (props) => {
                       <input
                         type="text"
                         placeholder="Value..."
-                        className="add-collection-non-layered-textinput01 focus-reset-forms input Content16SemiBold"
+                        className="add-collection-non-layered-textinput01 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                   </div>
@@ -180,7 +188,7 @@ const AddCollection2NonLayered = (props) => {
                       <input
                         type="text"
                         placeholder="Value..."
-                        className="add-collection-non-layered-textinput02 focus-reset-forms input Content16SemiBold"
+                        className="add-collection-non-layered-textinput02 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                   </div>
@@ -194,7 +202,7 @@ const AddCollection2NonLayered = (props) => {
                       <input
                         type="text"
                         placeholder="Value..."
-                        className="add-collection-non-layered-textinput03 focus-reset-forms input Content16SemiBold"
+                        className="add-collection-non-layered-textinput03 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                   </div>
@@ -204,7 +212,7 @@ const AddCollection2NonLayered = (props) => {
                     <div className="add-collection-non-layered-container-image3">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-non-layered-icon12"
+                        className="add-collection-non-layered-icon14"
                       >
                         <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
                       </svg>
@@ -256,7 +264,7 @@ const AddCollection2NonLayered = (props) => {
                       <input
                         type="text"
                         placeholder="Value..."
-                        className="add-collection-non-layered-textinput06 focus-reset-forms input Content16SemiBold"
+                        className="add-collection-non-layered-textinput06 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                   </div>
@@ -266,7 +274,7 @@ const AddCollection2NonLayered = (props) => {
                     <div className="add-collection-non-layered-container-image5">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-non-layered-icon14"
+                        className="add-collection-non-layered-icon16"
                       >
                         <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
                       </svg>
@@ -290,7 +298,7 @@ const AddCollection2NonLayered = (props) => {
                       <input
                         type="text"
                         placeholder="Value..."
-                        className="add-collection-non-layered-textinput07 focus-reset-forms input Content16SemiBold"
+                        className="add-collection-non-layered-textinput07 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                   </div>
@@ -318,42 +326,19 @@ const AddCollection2NonLayered = (props) => {
                       <input
                         type="text"
                         placeholder="Value..."
-                        className="add-collection-non-layered-textinput09 focus-reset-forms input Content16SemiBold"
+                        className="add-collection-non-layered-textinput09 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="add-collection-non-layered-bottom-buttons">
-                  <button className="add-collection-non-layered-button4 button">
-                    <span className="add-collection-non-layered-text29">
-                      <span>Save Draft</span>
-                      <br></br>
-                    </span>
-                  </button>
-                  <Link
-                    to="/add-collection2-layered"
-                    className="add-collection-non-layered-navlink2 button"
-                  >
-                    <span className="add-collection-non-layered-text32">
-                      <span>Preview Collection</span>
-                      <br></br>
-                    </span>
-                    <svg
-                      viewBox="0 0 1024 1024"
-                      className="add-collection-non-layered-icon16"
-                    >
-                      <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
-                    </svg>
-                  </Link>
-                </div>
               </form>
               <div className="add-collection-non-layered-info-box">
                 <div className="add-collection-non-layered-container10">
-                  <h1 className="add-collection-non-layered-text35 Content18">
+                  <h1 className="add-collection-non-layered-text29 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="add-collection-non-layered-text38">
+                  <span className="add-collection-non-layered-text32">
                     <span>
                       If you already have images created outside of Foton with
                       other software or service, you can import them all here at
