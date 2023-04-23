@@ -135,7 +135,7 @@ const AddItem = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="add-item-field1">
+                <div className="add-item-add-individual-attributes">
                   <div className="add-item-container09">
                     <button className="add-item-button03 button Content16SemiBold">
                       <svg viewBox="0 0 1024 1024" className="add-item-icon04">

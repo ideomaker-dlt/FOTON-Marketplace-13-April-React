@@ -78,7 +78,7 @@ const AddItemsSelector = (props) => {
               </div>
             </div>
           </Link>
-          <Link to="/add-collection2">
+          <Link to="/add-collection2-layered">
             <div className="add-items-selector-collection1">
               <div className="add-items-selector-container08">
                 <svg
@@ -109,7 +109,7 @@ const AddItemsSelector = (props) => {
               </div>
             </div>
           </Link>
-          <Link to="/add-collection2">
+          <Link to="/add-collection2-layered">
             <div className="add-items-selector-collection2">
               <div className="add-items-selector-container10">
                 <svg

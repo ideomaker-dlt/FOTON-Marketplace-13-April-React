@@ -378,7 +378,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.add-item-field1 {
+.add-item-add-individual-attributes {
   gap: var(--dl-space-space-unit);
   display: flex;
   flex-direction: column;
@@ -1176,7 +1176,7 @@
   }
 }
 @media(max-width: 479px) {
-  .add-item-field1 {
+  .add-item-add-individual-attributes {
     width: auto;
   }
 }

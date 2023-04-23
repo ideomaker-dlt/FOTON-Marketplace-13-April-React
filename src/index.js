@@ -8,7 +8,7 @@ import Drops from './views/drops'
 import CollectionPage from './views/collection-page'
 import AddCollection1 from './views/add-collection1'
 import UserProfileSettings from './views/user-profile-settings'
-import AddCollection2 from './views/add-collection2'
+import AddCollection2Layered from './views/add-collection2-layered'
 import CreatorStudioCollection from './views/creator-studio-collection'
 import AddItem from './views/add-item'
 import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-analytics'
@@ -20,6 +20,7 @@ import Home from './views/home'
 import CreatorStudioProject from './views/creator-studio-project'
 import ItemPage from './views/item-page'
 import CollectionDropPage from './views/collection-drop-page'
+import AddCollection2NonLayered from './views/add-collection2-non-layered'
 
 const App = () => {
   return (
@@ -34,7 +35,11 @@ const App = () => {
           exact
           path="/user-profile-settings"
         />
-        <Route component={AddCollection2} exact path="/add-collection2" />
+        <Route
+          component={AddCollection2Layered}
+          exact
+          path="/add-collection2-layered"
+        />
         <Route
           component={CreatorStudioCollection}
           exact
@@ -61,6 +66,11 @@ const App = () => {
           component={CollectionDropPage}
           exact
           path="/collection-drop-page"
+        />
+        <Route
+          component={AddCollection2NonLayered}
+          exact
+          path="/add-collection2-non-layered"
         />
       </div>
     </Router>

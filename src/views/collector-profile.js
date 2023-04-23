@@ -327,7 +327,7 @@ const CollectorProfile = (props) => {
                   <div className="collector-profile-container13">
                     <div className="collector-profile-container-row">
                       <p className="collector-profile-text62">
-                        <span>Green Leaf</span>
+                        <span>Blue Ice</span>
                         <br></br>
                       </p>
                       <p className="collector-profile-text65">
