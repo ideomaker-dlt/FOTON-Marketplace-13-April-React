@@ -1,0 +1,285 @@
+.dropsHeader {
+    gap: var(--dl-space-space-twounits);
+    flex: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-unit);
+    flex-direction: column;
+}
+
+.dropsContainerPop {
+    background-size: cover;
+    background-image: url("/playground_assets/vlad__foton.is__radix.stream_epic_landscape_in_the_style_of_stu_b067cfab-4efb-44f5-9434-f10505a4fa56-1500w.png");
+    background-position: center;
+}
+
+.dropsGrayOverlay {
+    position: auto !important;
+}
+
+.dropsContainer03 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 100;
+    align-self: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-threeunits);
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: flex-end;
+}
+
+.dropsTextHeader {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.dropsText01 {
+    color: var(--dl-color-dark-white);
+    font-style: normal;
+    transition: 0.3s;
+    margin-bottom: var(--dl-space-space-halfunit);
+}
+
+.dropsText01:hover {
+    color: var(--dl-color-dark-green-200);
+}
+
+.dropsText02 {
+    color: var(--dl-color-dark-green-200);
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: var(--dl-space-space-twounits);
+}
+
+.dropsContainer04 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dropsContainer05 {
+    gap: var(--dl-space-space-unit);
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dropsContainer06 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 22px;
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: 22px;
+    padding-bottom: 0px;
+    backdrop-filter: blur(8px);
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropsDot {
+    flex: 0 0 auto;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-round);
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dl-color-dark-green-200);
+}
+
+.dropsText03 {
+    color: var(--dl-color-dark-white);
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropsContainer07 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 22px;
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: 22px;
+    padding-bottom: 0px;
+    backdrop-filter: blur(8px);
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropsText04 {
+    color: var(--dl-color-dark-white);
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropsContainer08 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    height: 100%;
+    display: flex;
+    transition: 0.3s;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 22px;
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: 22px;
+    padding-bottom: 0px;
+    backdrop-filter: blur(8px);
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropsContainer08:hover {
+    background-color: rgba(35, 255, 189, 0.5);
+}
+
+.dropsText05 {
+    color: var(--dl-color-dark-white);
+    align-self: center;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.dropsMaskOverlay {
+    top: 0px;
+    flex: 0 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    bottom: 0px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    background-color: rgba(24, 24, 24, 0.36);
+}
+
+@media(max-width: 1200px) {
+    .dropsGrayOverlay {
+      height: auto;
+    }
+}
+
+@media(max-width: 767px) {
+
+    .dropsHeader {
+        gap: var(--dl-space-space-unit);
+        margin-bottom: var(--dl-space-space-twounits);
+    }
+
+    .dropsContainer02 {
+        border-radius: var(--dl-radius-radius-radius8);
+    }
+
+    .dropsContainerPop {
+        border-radius: var(--dl-radius-radius-radius8);
+    }
+
+    .dropsContainer03 {
+        padding-left: var(--dl-space-space-unit);
+        padding-right: var(--dl-space-space-unit);
+        padding-bottom: var(--dl-space-space-unit);
+    }
+
+    .dropsTextHeader {
+        height: auto;
+    }
+
+    .dropsText01 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .dropsText02 {
+        font-size: 14px;
+        margin-bottom: var(--dl-space-space-unit);
+    }
+
+    .dropsContainer04 {
+        gap: var(--dl-space-space-halfunit);
+        height: 50px;
+    }
+
+    .dropsContainer05 {
+        gap: var(--dl-space-space-halfunit);
+    }
+
+    .dropsContainer06 {
+        height: 100%;
+        padding-top: 12px;
+        padding-left: var(--dl-space-space-unit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-unit);
+        padding-bottom: 10px;
+    }
+
+    .dropsDot {
+        width: 14px;
+        height: 14px;
+    }
+
+    .dropsText03 {
+        font-size: 13px;
+    }
+
+    .dropsContainer07 {
+        height: 100%;
+        padding-top: 12px;
+        padding-left: var(--dl-space-space-unit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-unit);
+        padding-bottom: 10px;
+    }
+
+    .dropsText04 {
+        font-size: 13px;
+    }
+
+    .dropsContainer08 {
+        height: 100%;
+        display: none;
+        padding-top: 12px;
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-bottom: 10px;
+    }
+
+    .dropsText05 {
+        font-size: 13px;
+    }
+
+    .dropsMaskOverlay {
+        height: 100%;
+    }
+}

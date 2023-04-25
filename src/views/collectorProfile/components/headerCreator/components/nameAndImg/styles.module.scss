@@ -1,0 +1,469 @@
+.collectorProfileContainer01 {
+    flex: 0 0 auto;
+    width: auto;
+    display: flex;
+    z-index: 130;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.collectorProfileContainer02 {
+    gap: var(--dl-space-space-unit);
+    display: none;
+    align-self: center;
+    align-items: center;
+}
+
+.collectorProfileContainer03 {
+    gap: var(--dl-space-space-unit);
+    flex: 0 0 auto;
+    width: auto;
+    height: 160px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    border-radius: var(--dl-radius-radius-radius12);
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.collectorProfileText {
+    color: var(--dl-color-dark-white);
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectorProfileContainer04 {
+    gap: var(--dl-space-space-twounits);
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+.collectorProfileAvatarLogo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    aspect-ratio: 1/1;
+    border-radius: var(--dl-radius-radius-round);
+    flex-direction: column;
+}
+
+.collectorProfileImage {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    object-fit: cover;
+    border-color: var(--dl-color-dark-white);
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-round);
+}
+
+.collectorProfileContainer05 {
+    gap: var(--dl-space-space-halfunit);
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    border-radius: var(--dl-radius-radius-radius12);
+    flex-direction: column;
+}
+
+.collectorProfileText01 {
+    color: var(--dl-color-dark-white);
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectorProfileContainer06 {
+    gap: var(--dl-space-space-halfunit);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.collectorProfileText02 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectorProfileText05 {
+    color: var(--dl-color-dark-white);
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectorProfileContainerButtons {
+    gap: var(--dl-space-space-halfunit);
+    display: none;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.collectorProfileButton {
+    gap: var(--dl-space-space-halfunit);
+    color: var(--dl-color-dark-white);
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    align-self: center;
+    font-style: normal;
+    transition: 0.05s;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 1.15;
+    padding-top: 12px;
+    border-color: var(--dl-color-dark-gray-360);
+    border-width: 2px;
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: 12px;
+    text-transform: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--dl-color-dark-gray-200);
+}
+
+.collectorProfileButton:hover {
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileButton:active {
+    border-color: var(--dl-color-dark-gray-360);
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.collectorProfileText08 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.collectorProfileButton1 {
+    gap: var(--dl-space-space-halfunit);
+    color: var(--dl-color-dark-white);
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    align-self: center;
+    font-style: normal;
+    transition: 0.05s;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 1.15;
+    padding-top: 12px;
+    border-color: var(--dl-color-dark-gray-360);
+    border-width: 2px;
+    padding-left: 12px;
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: 12px;
+    padding-bottom: 12px;
+    text-transform: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--dl-color-dark-gray-200);
+}
+
+.collectorProfileButton1:hover {
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileButton1:active {
+    border-color: var(--dl-color-dark-gray-360);
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileIcon02 {
+    width: 20px;
+    height: 20px;
+}
+
+.collectorProfileText11 {
+    display: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.collectorProfileButton2 {
+    gap: var(--dl-space-space-halfunit);
+    color: var(--dl-color-dark-white);
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    align-self: center;
+    font-style: normal;
+    transition: 0.05s;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 1.15;
+    padding-top: 12px;
+    border-color: var(--dl-color-dark-gray-360);
+    border-width: 2px;
+    padding-left: 12px;
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: 12px;
+    padding-bottom: 12px;
+    text-transform: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--dl-color-dark-gray-200);
+}
+
+.collectorProfileButton2:hover {
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileButton2:active {
+    border-color: var(--dl-color-dark-gray-360);
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileIcon04 {
+    width: 20px;
+    height: 20px;
+}
+
+.collectorProfileText14 {
+    display: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.collectorProfileButton3 {
+    gap: var(--dl-space-space-halfunit);
+    color: var(--dl-color-dark-white);
+    height: 40px;
+    display: flex;
+    font-size: 14px;
+    align-self: center;
+    font-style: normal;
+    transition: 0.05s;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 1.15;
+    padding-top: 12px;
+    border-color: var(--dl-color-dark-gray-360);
+    border-width: 2px;
+    padding-left: 12px;
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: 12px;
+    padding-bottom: 12px;
+    text-transform: none;
+    justify-content: center;
+    text-decoration: none;
+    background-color: var(--dl-color-dark-gray-200);
+}
+
+.collectorProfileButton3:hover {
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileButton3:active {
+    border-color: var(--dl-color-dark-gray-360);
+    background-color: var(--dl-color-dark-gray-360);
+}
+
+.collectorProfileText17 {
+    display: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.collectorProfileIcon06 {
+    width: 18px;
+    height: 18px;
+}
+
+@media(max-width: 991px) {
+    .collectorProfileContainer02 {
+        gap: var(--dl-space-space-unit);
+    }
+
+    .collectorProfileContainer04 {
+        gap: var(--dl-space-space-unit);
+        align-self: flex-start;
+    }
+
+    .collectorProfileAvatarLogo {
+        width: 100px;
+        height: 100px;
+    }
+    .collectorProfileContainer05 {
+        gap: var(--dl-space-space-halfunit);
+        height: auto;
+        padding-top: var(--dl-space-space-oneandhalfunits);
+      }
+      .collectorProfileText01 {
+        font-size: 22px;
+      }
+}
+
+@media(max-width: 767px) {
+    .collectorProfileContainer01 {
+        gap: var(--dl-space-space-unit);
+        z-index: 100;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .collectorProfileContainer02 {
+        gap: var(--dl-space-space-unit);
+        align-self: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .collectorProfileContainer03 {
+        gap: var(--dl-space-space-halfunit);
+        height: auto;
+        padding-top: var(--dl-space-space-unit);
+    }
+
+    .collectorProfileText {
+        font-size: 18px;
+    }
+
+    .collectorProfileContainer04 {
+        gap: var(--dl-space-space-halfunit);
+        align-self: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .collectorProfileAvatarLogo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .collectorProfileContainer05 {
+        gap: 4px;
+        height: auto;
+        padding-top: var(--dl-space-space-unit);
+    }
+
+    .collectorProfileText01 {
+        font-size: 16px;
+    }
+
+    .collectorProfileText02 {
+        font-size: 13px;
+    }
+
+    .collectorProfileText05 {
+        font-size: 13px;
+    }
+
+    .collectorProfileContainerButtons {
+        align-self: flex-start;
+        justify-content: flex-end;
+    }
+
+    .collectorProfileButton {
+        height: 39px;
+        padding-top: 0px;
+        padding-left: var(--dl-space-space-halfunit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-halfunit);
+        padding-bottom: 0px;
+    }
+
+    .collectorProfileText08 {
+        display: none;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .collectorProfileButton1 {
+        height: 39px;
+        padding-top: 0px;
+        padding-left: var(--dl-space-space-halfunit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-halfunit);
+        padding-bottom: 0px;
+    }
+
+    .collectorProfileText11 {
+        display: none;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .collectorProfileButton2 {
+        height: 39px;
+        padding-top: 0px;
+        padding-left: var(--dl-space-space-halfunit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-halfunit);
+        padding-bottom: 0px;
+    }
+
+    .collectorProfileText14 {
+        display: none;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .collectorProfileButton3 {
+        height: 39px;
+        padding-top: 0px;
+        padding-left: var(--dl-space-space-halfunit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-halfunit);
+        padding-bottom: 0px;
+    }
+
+    .collectorProfileText17 {
+        display: none;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+
+}

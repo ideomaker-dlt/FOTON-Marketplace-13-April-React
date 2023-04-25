@@ -16,7 +16,7 @@ export const Follow = memo(() => {
                     <br></br>
                 </span>
             </button>
-            <button type="button" className={styles.collectionPageButton1}>
+            <button type="button" className={styles.collectionPageButton01}>
                 <svg
                     viewBox="0 0 1024 1024"
                     className={`${styles.collectionPageIcon02} fill-color-gray`}
@@ -28,7 +28,7 @@ export const Follow = memo(() => {
                     <br></br>
                 </span>
             </button>
-            <button type="button" className={styles.collectionPageButton2}>
+            <button type="button" className={styles.collectionPageButton02}>
                 <svg
                     viewBox="0 0 950.8571428571428 1024"
                     className={`${styles.collectionPageIcon04} fill-color-gray`}
@@ -40,7 +40,7 @@ export const Follow = memo(() => {
                     <br></br>
                 </span>
             </button>
-            <button type="button" className={styles.collectionPageButton3}>
+            <button type="button" className={styles.collectionPageButton03}>
                 <span className={styles.collectionPageText30}>
                     <span>Follow</span>
                     <br></br>
@@ -52,7 +52,7 @@ export const Follow = memo(() => {
                     <path d="M512 0c-282.8 0-512 229.2-512 512s229.2 512 512 512 512-229.2 512-512-229.2-512-512-512zM763.6 351l-84 395.8c-5.8 28.2-22.8 34.8-46.4 21.8l-128-94.6-61.4 59.8c-7.2 7-12.8 12.8-25.6 12.8-16.6 0-13.8-6.2-19.4-22l-43.6-143.2-126.6-39.4c-27.4-8.4-27.6-27.2 6.2-40.6l493.2-190.4c22.4-10.2 44.2 5.4 35.6 40z"></path>
                 </svg>
             </button>
-            <button type="button" className={styles.collectionPageButton4}>
+            <button type="button" className={styles.collectionPageButton04}>
                 <span className={styles.collectionPageText33}>
                     <span>Follow</span>
                     <br></br>

@@ -1,0 +1,263 @@
+.dropsDropsContainer {
+    width: 100%;
+    display: flex;
+    z-index: 500;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dropsWrapperGrid {
+    gap: var(--dl-space-space-unit);
+    flex: 0 0 auto;
+    width: 100%;
+    display: grid;
+    position: relative;
+    max-height: auto;
+    align-items: flex-start;
+    grid-row-gap: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dropsItem1 {
+    flex: 1;
+    display: flex;
+    position: relative;
+    transition: 0.3s;
+    align-items: flex-start;
+    border-color: var(--dl-color-dark-gray-360);
+    border-width: 5px;
+    border-radius: var(--dl-radius-radius-radius12);
+    flex-direction: column;
+    text-decoration: none;
+    background-color: var(--dl-color-dark-gray-360);
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+.dropsItem1:hover {
+    transform: translateY(-5px);
+    border-color: var(--dl-color-dark-green-200);
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+}
+
+.dropsImageHeader {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    aspect-ratio: 3/2;
+    border-radius: var(--dl-radius-radius-radius12);
+    background-size: cover;
+    background-image: url("/playground_assets/vlad__foton.is__radix.stream_landscape_from_a_star_wars_city_on_f4c0cd19-f3b4-41bd-bbf9-b240bdd757c1-1500w.png");
+}
+
+.dropsTextBox {
+    gap: var(--dl-space-space-unit);
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    justify-content: flex-start;
+}
+
+.dropsContainer09 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.dropsText09 {
+    color: var(--dl-color-dark-white);
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.dropsContainer10 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.dropsFloor {
+    gap: 3px;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dropsText10 {
+    color: var(--dl-color-dark-gray-400);
+}
+
+.dropsText11 {
+    color: var(--dl-color-dark-white);
+}
+
+.dropsVolume24 {
+    gap: 3px;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.dropsText12 {
+    color: var(--dl-color-dark-gray-400);
+}
+
+.dropsText13 {
+    color: var(--dl-color-dark-green-200);
+}
+
+
+@media(max-width: 1200px) {
+    .dropsWrapperGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 991px) {
+    .dropsWrapperGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .dropsWrapperGrid {
+        gap: var(--dl-space-space-halfunit);
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dropsItem1 {
+        border-radius: var(--dl-radius-radius-radius8);
+    }
+
+    .dropsImageHeader {
+        border-radius: var(--dl-radius-radius-radius8);
+    }
+
+    .dropsText09 {
+        font-size: 16px;
+    }
+
+    .dropsText10 {
+        font-size: 11px;
+    }
+
+    .dropsText11 {
+        font-size: 13px;
+    }
+
+    .dropsText12 {
+        font-size: 11px;
+    }
+
+    .dropsText13 {
+        font-size: 13px;
+    }
+
+
+}
+
+@media(max-width: 479px) {
+    .dropsContainer04 {
+      height: auto;
+    }
+    .dropsContainer05 {
+      flex-direction: column;
+    }
+    .dropsTextBox {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox1 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox2 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox3 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox4 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox5 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox6 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox7 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+    .dropsTextBox8 {
+      padding: 12px;
+      padding-top: var(--dl-space-space-unit);
+      padding-left: var(--dl-space-space-unit);
+      padding-right: var(--dl-space-space-unit);
+      padding-bottom: var(--dl-space-space-unit);
+    }
+  }

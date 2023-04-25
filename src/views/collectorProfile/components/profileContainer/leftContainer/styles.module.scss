@@ -1,0 +1,807 @@
+.collectorProfileContainer08 {
+    gap: var(--dl-space-space-unit);
+    flex: 4;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.collectorProfileAbout {
+    gap: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-twounits);
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: flex-start;
+    background-color: var(--dl-color-dark-gray-250);
+}
+
+.collectorProfileContainer09 {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.collectorProfileText36 {
+    color: var(--dl-color-dark-white);
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectorProfileContainer10 {
+    gap: 4px;
+    width: 100%;
+    display: flex;
+    max-width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.collectorProfileText37 {
+    color: var(--dl-color-dark-white);
+    height: auto;
+    display: flex;
+    overflow: visible;
+    flex-wrap: wrap;
+    font-style: normal;
+    white-space: normal;
+    padding-right: 0px;
+}
+
+.collectorProfileLevels {
+    gap: var(--dl-space-space-halfunit);
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    background-color: var(--dl-color-dark-gray-250);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.collectorProfileHeaderTable {
+    top: 79px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    border-color: var(--dl-color-dark-gray-300);
+    border-width: 0px;
+    padding-left: var(--dl-space-space-unit);
+    border-radius: 0px;
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-unit);
+    justify-content: flex-start;
+    background-color: var(--dl-color-dark-gray-250);
+    border-bottom-width: 1px;
+}
+
+.collectorProfileSecondColumn {
+    padding-left: 0px;
+}
+
+.collectorProfileGroup1 {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileName {
+    flex: 3;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collectorProfileText38 {
+    color: var(--dl-color-dark-gray-400);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.collectorProfileVolume {
+    flex: 2;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText41 {
+    color: var(--dl-color-dark-gray-400);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.collectorProfileGroup2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileChange {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText42 {
+    color: var(--dl-color-dark-gray-400);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.collectorProfileFloor {
+    flex: 0.7;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText43 {
+    color: var(--dl-color-dark-white);
+    display: none;
+}
+
+.collectorProfileText44 {
+    color: var(--dl-color-dark-gray-400);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.collectorProfileContainer11 {
+    gap: var(--dl-space-space-halfunit);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.collectorProfileRow {
+    height: 50px;
+}
+
+.collectorProfileSecondColumn1 {
+    padding-left: 0px;
+}
+
+.collectorProfileGroup11 {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileSkill {
+    flex: 3;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collectorProfileText45 {
+    color: var(--dl-color-dark-white);
+}
+
+.collectorProfileLevel {
+    flex: 2;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText46 {
+    color: var(--dl-color-dark-white);
+}
+
+.collectorProfileGroup21 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileChange1 {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText47 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    padding-right: 4px;
+}
+
+.collectorProfileText48 {
+    color: var(--dl-color-dark-green-200);
+}
+
+.collectorProfileFloor1 {
+    flex: 0.7;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileTextMobile {
+    color: var(--dl-color-dark-white);
+    display: none;
+}
+
+.collectorProfileText49 {
+    color: var(--dl-color-dark-green-200);
+}
+
+.collectorProfileRow1 {
+    height: 50px;
+}
+
+.collectorProfileSecondColumn2 {
+    padding-left: 0px;
+}
+
+.collectorProfileGroup12 {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileSkill1 {
+    flex: 3;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collectorProfileText50 {
+    color: var(--dl-color-dark-white);
+}
+
+.collectorProfileLevel1 {
+    flex: 2;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText51 {
+    color: var(--dl-color-dark-white);
+}
+
+.collectorProfileGroup22 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileChange2 {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText52 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    padding-right: 4px;
+}
+
+.collectorProfileText53 {
+    color: var(--dl-color-dark-green-200);
+}
+
+.collectorProfileFloor2 {
+    flex: 0.7;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileTextMobile1 {
+    color: var(--dl-color-dark-white);
+    display: none;
+}
+
+.collectorProfileText54 {
+    color: var(--dl-color-dark-green-200);
+}
+
+.collectorProfileRow2 {
+    height: 50px;
+}
+
+.collectorProfileSecondColumn3 {
+    padding-left: 0px;
+}
+
+.collectorProfileGroup13 {
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileSkill2 {
+    flex: 3;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collectorProfileText55 {
+    color: var(--dl-color-dark-white);
+}
+
+.collectorProfileLevel2 {
+    flex: 2;
+    width: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText56 {
+    color: var(--dl-color-dark-white);
+}
+
+.collectorProfileGroup23 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectorProfileChange3 {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileText57 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    padding-right: 4px;
+}
+
+.collectorProfileText58 {
+    color: var(--dl-color-dark-green-200);
+}
+
+.collectorProfileFloor3 {
+    flex: 0.7;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.collectorProfileTextMobile2 {
+    color: var(--dl-color-dark-white);
+    display: none;
+}
+
+.collectorProfileText59 {
+    color: var(--dl-color-dark-green-200);
+}
+
+
+@media(max-width: 991px) {
+    .collectorProfileAbout {
+        gap: var(--dl-space-space-twounits);
+    }
+
+    .collectorProfileContainer10 {
+        gap: 2px;
+    }
+
+    .collectorProfileHeaderTable {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+}
+
+@media(max-width: 767px) {
+    .collectorProfileAbout {
+        gap: 4px;
+        width: auto;
+        height: auto;
+        align-self: flex-start;
+        padding-top: var(--dl-space-space-twounits);
+        padding-left: var(--dl-space-space-unit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-unit);
+    }
+
+    .collectorProfileContainer10 {
+        gap: 2px;
+    }
+
+    .collectorProfileText37 {
+        color: var(--dl-color-dark-white);
+        font-size: 13px;
+        font-style: normal;
+        font-family: Poppins;
+        font-weight: 400;
+        line-height: 1.5;
+        white-space: normal;
+        padding-right: 0px;
+        text-transform: none;
+        text-decoration: none;
+    }
+
+    .collectorProfileLevels {
+        gap: var(--dl-space-space-halfunit);
+        padding-top: var(--dl-space-space-twounits);
+        padding-left: var(--dl-space-space-halfunit);
+        padding-right: var(--dl-space-space-halfunit);
+    }
+
+    .collectorProfileHeaderTable {
+        padding-left: var(--dl-space-space-halfunit);
+        padding-right: var(--dl-space-space-halfunit);
+        padding-bottom: var(--dl-space-space-unit);
+    }
+
+    .collectorProfileGroup1 {
+        flex: 1;
+        width: 100%;
+    }
+
+    .collectorProfileName {
+        gap: 4px;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText38 {
+        color: var(--dl-color-dark-gray-400);
+        font-size: 12px;
+    }
+
+    .collectorProfileText39 {
+        color: var(--dl-color-dark-gray-400);
+        font-size: 12px;
+    }
+
+    .collectorProfileVolume {
+        gap: 4px;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText41 {
+        font-size: 12px;
+    }
+
+    .collectorProfileGroup2 {
+        flex: 1;
+        width: 100%;
+        display: none;
+    }
+
+    .collectorProfileChange {
+        flex: 2;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .collectorProfileFloor {
+        flex: 3;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .collectorProfileText43 {
+        color: var(--dl-color-dark-gray-400);
+        display: flex;
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 4px;
+    }
+
+    .collectorProfileRow {
+        height: 60px;
+    }
+
+    .collectorProfileGroup11 {
+        flex: 1;
+        width: 100%;
+    }
+
+    .collectorProfileSkill {
+        gap: 4px;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText45 {
+        color: var(--dl-color-dark-white);
+        font-size: 13px;
+    }
+
+    .collectorProfileLevel {
+        gap: 4px;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText46 {
+        font-size: 13px;
+    }
+
+    .collectorProfileGroup21 {
+        flex: 1;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .collectorProfileChange1 {
+        flex: 2;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .collectorProfileText47 {
+        color: var(--dl-color-dark-gray-400);
+        display: flex;
+        font-size: 12px;
+        padding-right: 4px;
+    }
+
+    .collectorProfileText48 {
+        font-size: 12px;
+    }
+
+    .collectorProfileFloor1 {
+        flex: 3;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .collectorProfileTextMobile {
+        color: var(--dl-color-dark-gray-400);
+        display: flex;
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 4px;
+    }
+
+    .collectorProfileText49 {
+        color: var(--dl-color-dark-green-200);
+        font-size: 12px;
+    }
+
+    .collectorProfileRow1 {
+        height: 60px;
+    }
+
+    .collectorProfileGroup12 {
+        flex: 1;
+        width: 100%;
+    }
+
+    .collectorProfileSkill1 {
+        gap: 4px;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText50 {
+        color: var(--dl-color-dark-white);
+        font-size: 13px;
+    }
+
+    .collectorProfileLevel1 {
+        gap: 4px;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText51 {
+        font-size: 13px;
+    }
+
+    .collectorProfileGroup22 {
+        flex: 1;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .collectorProfileChange2 {
+        flex: 2;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .collectorProfileText52 {
+        color: var(--dl-color-dark-gray-400);
+        display: flex;
+        font-size: 12px;
+        padding-right: 4px;
+    }
+
+    .collectorProfileText53 {
+        color: var(--dl-color-dark-green-200);
+        font-size: 12px;
+    }
+
+    .collectorProfileFloor2 {
+        flex: 3;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .collectorProfileTextMobile1 {
+        color: var(--dl-color-dark-gray-400);
+        display: flex;
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 4px;
+    }
+
+    .collectorProfileText54 {
+        color: var(--dl-color-dark-green-200);
+        font-size: 12px;
+    }
+
+    .collectorProfileRow2 {
+        height: 60px;
+    }
+
+    .collectorProfileGroup13 {
+        flex: 1;
+        width: 100%;
+    }
+
+    .collectorProfileSkill2 {
+        gap: 4px;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText55 {
+        color: var(--dl-color-dark-white);
+        font-size: 13px;
+    }
+
+    .collectorProfileLevel2 {
+        gap: 4px;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .collectorProfileText56 {
+        font-size: 13px;
+    }
+
+    .collectorProfileGroup23 {
+        flex: 1;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .collectorProfileChange3 {
+        flex: 2;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .collectorProfileText57 {
+        color: var(--dl-color-dark-gray-400);
+        display: flex;
+        font-size: 12px;
+        padding-right: 4px;
+    }
+
+    .collectorProfileText58 {
+        color: var(--dl-color-dark-green-200);
+        font-size: 12px;
+    }
+
+    .collectorProfileFloor3 {
+        flex: 3;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .collectorProfileTextMobile2 {
+        color: var(--dl-color-dark-gray-400);
+        display: flex;
+        font-size: 12px;
+        font-weight: 400;
+        margin-right: 4px;
+    }
+
+    .collectorProfileText59 {
+        color: var(--dl-color-dark-green-200);
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 479px) {
+    .collectorProfileText37 {
+        width: auto;
+    }
+}

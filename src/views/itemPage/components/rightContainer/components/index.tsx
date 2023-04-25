@@ -1,0 +1,7 @@
+export * from "./name"
+export * from "./avatars"
+export * from "./offer"
+export * from "./detailsMobile"
+export * from "./addToFavorites"
+export * from "./treats"
+export * from "./offersAndActivity"

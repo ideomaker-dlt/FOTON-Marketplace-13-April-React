@@ -40,16 +40,18 @@ export const MobileMenu = memo(() => {
                                 </span>
                             </div>
                         </div>
-                        <div
-                            data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarCollectorProfile}>
-                            <span className={`${styles.layoutWithSidebarText02} material-symbols-outlined`}>
-                                category
-                            </span>
-                            <span className={styles.layoutWithSidebarText03}>
-                                Collector Profile
-                            </span>
-                        </div>
+                        <Link to="/collector-profile" className="">
+                            <div
+                                data-thq='thq-dropdown-toggle'
+                                className={styles.layoutWithSidebarCollectorProfile}>
+                                <span className={`${styles.layoutWithSidebarText02} material-symbols-outlined`}>
+                                    category
+                                </span>
+                                <span className={styles.layoutWithSidebarText03}>
+                                    Collector Profile
+                                </span>
+                            </div>
+                        </Link>
                         <Link to='/creator-studio' className='' >
                             <div data-thq='thq-dropdown-toggle'
                                 className={styles.layoutWithSidebarCreatorStudio}>
