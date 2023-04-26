@@ -18,7 +18,8 @@ import {
   CollectionPage,
   ItemPage,
   CollectorProfile,
-  Drops
+  Drops,
+  CollectionDropPage
 } from 'views'
 
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
       <Route component={AddItemsSelector} exact path='/add-items-selector' />
       <Route component={Stats} exact path='/stats' />
       <Route component={Drops} exact path="/drops" />
+      <Route component={CollectionDropPage} exact path="/collection-drop-page" />
       <Route component={AddCollection1} exact path='/add-collection1' />
       <Route component={AddCollection2} exact path='/add-collection2' />
       <Route

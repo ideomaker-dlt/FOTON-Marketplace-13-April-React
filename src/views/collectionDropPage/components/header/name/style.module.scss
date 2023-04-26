@@ -1,0 +1,340 @@
+.collectionDropPageContainerPop {
+    background-size: cover;
+    background-image: url("/playground_assets/vlad__foton.is__radix.stream_landscape_from_a_star_wars_city_on_f4c0cd19-f3b4-41bd-bbf9-b240bdd757c1-1500w.png");
+    background-position: center;
+}
+
+.collectionDropPageGrayOverlay {
+    position: auto !important;
+}
+
+.collectionDropPageContainer02 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 100;
+    align-self: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-threeunits);
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: flex-end;
+}
+
+.collectionDropPageContainer03 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    display: flex;
+    align-self: flex-start;
+    margin-top: var(--dl-space-space-twounits);
+    justify-content: flex-start;
+}
+
+.collectionDropPageAvatarLogo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    aspect-ratio: 1/1;
+    border-radius: var(--dl-radius-radius-radius12);
+    flex-direction: column;
+}
+
+.collectionDropPageImage {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    object-fit: cover;
+    border-color: var(--dl-color-dark-gray-400);
+    border-width: 2px;
+    border-radius: var(--dl-radius-radius-radius12);
+}
+
+.collectionDropPageContainer04 {
+    gap: var(--dl-space-space-halfunit);
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-twounits);
+    border-radius: var(--dl-radius-radius-radius12);
+    flex-direction: column;
+}
+
+.collectionDropPageText {
+    color: var(--dl-color-dark-white);
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectionDropPageContainer05 {
+    gap: var(--dl-space-space-halfunit);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.collectionDropPageText01 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectionDropPageText04 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 1.15;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.collectionDropPageContainer06 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collectionDropPageContainer07 {
+    gap: var(--dl-space-space-unit);
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.collectionDropPageContainer08 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 22px;
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: 22px;
+    padding-bottom: 0px;
+    backdrop-filter: blur(8px);
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.collectionDropPageDot {
+    flex: 0 0 auto;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-round);
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--dl-color-dark-green-200);
+}
+
+.collectionDropPageText07 {
+    color: var(--dl-color-dark-white);
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.collectionDropPageContainer09 {
+    gap: var(--dl-space-space-unit);
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 22px;
+    border-radius: var(--dl-radius-radius-radius12);
+    padding-right: 22px;
+    padding-bottom: 0px;
+    backdrop-filter: blur(8px);
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.collectionDropPageText08 {
+    color: var(--dl-color-dark-white);
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+@media(max-width: 1200px) {
+    .collectionDropPageGrayOverlay {
+        height: auto;
+    }
+
+    .collectionDropPageContainer03 {
+        flex-direction: row;
+    }
+
+    .collectionDropPageAvatarLogo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .collectionDropPageContainer04 {
+        padding-top: var(--dl-space-space-halfunit);
+    }
+
+}
+
+@media(max-width: 991px) {
+    .collectionDropPageContainer02 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .collectionDropPageContainer03 {
+        gap: var(--dl-space-space-unit);
+        align-self: flex-start;
+        margin-left: 0px;
+        flex-direction: row;
+    }
+
+    .collectionDropPageAvatarLogo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .collectionDropPageContainer04 {
+        gap: 4px;
+        height: auto;
+        padding-top: var(--dl-space-space-halfunit);
+    }
+
+    .collectionDropPageText {
+        font-size: 22px;
+    }
+
+}
+
+
+@media(max-width: 767px) {
+    .collectionDropPageContainer01 {
+        border-radius: var(--dl-radius-radius-radius8);
+        justify-content: flex-end;
+    }
+
+    .collectionDropPageContainerPop {
+        height: auto;
+        border-radius: var(--dl-radius-radius-radius8);
+    }
+
+    .collectionDropPageGrayOverlay {
+        justify-content: flex-end;
+    }
+
+    .collectionDropPageContainer02 {
+        padding-left: var(--dl-space-space-unit);
+        padding-right: var(--dl-space-space-unit);
+        padding-bottom: var(--dl-space-space-unit);
+    }
+
+    .collectionDropPageContainer03 {
+        gap: var(--dl-space-space-halfunit);
+        align-self: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .collectionDropPageAvatarLogo {
+        width: 60px;
+        height: 60px;
+        align-self: flex-start;
+    }
+
+    .collectionDropPageContainer04 {
+        gap: var(--dl-space-space-halfunit);
+        height: auto;
+        padding-top: var(--dl-space-space-halfunit);
+    }
+
+    .collectionDropPageText {
+        font-size: 18px;
+    }
+
+    .collectionDropPageText01 {
+        font-size: 13px;
+    }
+
+    .collectionDropPageText04 {
+        font-size: 13px;
+    }
+
+    .collectionDropPageContainer06 {
+        gap: var(--dl-space-space-halfunit);
+        height: 50px;
+    }
+
+    .collectionDropPageContainer07 {
+        gap: var(--dl-space-space-halfunit);
+    }
+
+    .collectionDropPageContainer08 {
+        height: 100%;
+        padding-top: 12px;
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-bottom: 10px;
+    }
+
+    .collectionDropPageDot {
+        width: 14px;
+        height: 14px;
+    }
+
+    .collectionDropPageText07 {
+        font-size: 13px;
+    }
+
+    .collectionDropPageContainer09 {
+        height: 100%;
+        padding-top: 12px;
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-bottom: 10px;
+    }
+
+    .collectionDropPageText08 {
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width: 479px) {
+    .collectionDropPageContainer06 {
+      height: auto;
+    }
+    .collectionDropPageContainer07 {
+      width: 100%;
+      flex-direction: row;
+    }
+
+  }

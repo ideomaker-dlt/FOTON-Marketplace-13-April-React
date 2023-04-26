@@ -1,0 +1,22 @@
+.collectionDropPageHeader {
+    gap: var(--dl-space-space-twounits);
+    flex: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    margin-top: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-unit);
+    flex-direction: column;
+}
+
+@media(max-width: 767px) {
+    .collectionDropPageHeader {
+        gap: var(--dl-space-space-unit);
+        margin-top: var(--dl-space-space-unit);
+        margin-bottom: var(--dl-space-space-unit);
+    }
+}

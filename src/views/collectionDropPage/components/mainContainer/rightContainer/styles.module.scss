@@ -1,0 +1,180 @@
+.collectionDropPageContainerRight {
+    gap: var(--dl-space-space-twounits);
+    flex: 5;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: var(--dl-space-space-unit);
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-unit);
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.collectionDropPageItemInfoBox {
+    gap: var(--dl-space-space-oneandhalfunits);
+    flex: 1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+}
+
+.collectionDropPageItemImage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-radius12);
+    justify-content: center;
+}
+
+.collectionDropPageImage1 {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    max-height: auto;
+    object-fit: cover;
+    border-color: var(--dl-color-dark-gray-300);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius12);
+}
+
+.collectionDropPageItemImage1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-radius12);
+    justify-content: center;
+}
+
+.collectionDropPageImage2 {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    max-height: auto;
+    object-fit: cover;
+    border-color: var(--dl-color-dark-gray-300);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius12);
+}
+
+.collectionDropPageItemImage2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-radius12);
+    justify-content: center;
+}
+
+.collectionDropPageImage3 {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    max-height: auto;
+    object-fit: cover;
+    border-color: var(--dl-color-dark-gray-300);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-radius12);
+}
+
+@media(max-width: 1200px) {
+    .collectionDropPageContainerRight {
+        gap: var(--dl-space-space-unit);
+        flex-direction: column;
+    }
+
+    .collectionDropPageItem-info-box {
+        gap: var(--dl-space-space-unit);
+        height: auto;
+        z-index: 100;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 991px) {
+    .collectionDropPageContainerRight {
+        flex-direction: column;
+    }
+
+    .collectionDropPageItem-info-box {
+        gap: var(--dl-space-space-unit);
+        z-index: 100;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .collectionDropPageItemImage {
+        flex: 0 0 auto;
+        align-items: center;
+    }
+
+    .collectionDropPageItemImage1 {
+        flex: 0 0 auto;
+        align-items: center;
+    }
+
+    .collectionDropPageItemImage2 {
+        flex: 0 0 auto;
+        align-items: center;
+    }
+}
+
+@media(max-width: 767px) {
+    .collectionDropPageContainerRight {
+        gap: var(--dl-space-space-unit);
+        height: auto;
+        margin-bottom: var(--dl-space-space-unit);
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .collectionDropPageItem-info-box {
+        flex: 0;
+        height: auto;
+        z-index: 100;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .collectionDropPageItemImage {
+        flex: 0;
+        width: 100%;
+        height: auto;
+        z-index: 0;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .collectionDropPageItemImage1 {
+        flex: 0;
+        width: 100%;
+        height: auto;
+        z-index: 0;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .collectionDropPageItemImage2 {
+        flex: 0;
+        width: 100%;
+        height: auto;
+        z-index: 0;
+        align-items: center;
+        flex-direction: row;
+    }
+}
