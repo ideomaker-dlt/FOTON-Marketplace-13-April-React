@@ -15,7 +15,10 @@ import {
   CreatorStudio,
   CreatorStudioCollectionAnalytics,
   Stats,
-  CollectionPage
+  CollectionPage,
+  ItemPage,
+  CollectorProfile,
+  Drops
 } from 'views'
 
 const App = () => {
@@ -23,6 +26,7 @@ const App = () => {
     <Router>
       <Route component={AddItemsSelector} exact path='/add-items-selector' />
       <Route component={Stats} exact path='/stats' />
+      <Route component={Drops} exact path="/drops" />
       <Route component={AddCollection1} exact path='/add-collection1' />
       <Route component={AddCollection2} exact path='/add-collection2' />
       <Route
@@ -39,15 +43,21 @@ const App = () => {
         exact
         path='/creator-studio-project'
       />
+      <Route component={ItemPage} exact path="/item-page" />
       <Route
         component={CreatorStudioCollectionAnalytics}
         exact
         path="/creator-studio-collection-analytics"
       />
-       <Route
+      <Route
         component={CollectionPage}
         exact
         path="/collection-page"
+      />
+      <Route
+        component={CollectorProfile}
+        exact
+        path="/collector-profile"
       />
     </Router>
   )

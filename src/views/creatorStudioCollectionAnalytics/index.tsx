@@ -1,13 +1,9 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
-import { Helmet } from 'react-helmet'
-
+import React, { memo } from 'react'
 import { LayoutWithSidebar } from '@components'
 import './styles.scss'
 import { GoBack, Header, HelmetComponent, List } from './components'
 
-export const CreatorStudioCollectionAnalytics = (props: any) => {
+export const CreatorStudioCollectionAnalytics = memo((props: any) => {
     return (
         <div className="creator-studio-collection-analytics-container">
             <HelmetComponent />
@@ -328,5 +324,5 @@ export const CreatorStudioCollectionAnalytics = (props: any) => {
             </LayoutWithSidebar>
         </div>
     )
-}
+})
 

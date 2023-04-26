@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { LayoutWithSidebar, CollectionItemsContainer } from '@components'
 import styles from "./styles.module.scss"
-import { Detail, HelmetComponent } from './components'
+import { Detail, Filters, HelmetComponent } from './components'
 
-export const CollectionPage = () => {
+export const CollectionPage = memo(() => {
     return (
         <div className={styles.collectionPageContainer}>
             <HelmetComponent />
@@ -14,10 +14,11 @@ export const CollectionPage = () => {
                     <span className={styles.collectionPageText37}>About</span>
                     <span className={styles.collectionPageText38}>Followers</span>
                 </div>
+                <Filters />
                 <div className={styles.collectionPageContainer09}>
                     <CollectionItemsContainer></CollectionItemsContainer>
                 </div>
             </LayoutWithSidebar>
         </div>
     )
-}
+})

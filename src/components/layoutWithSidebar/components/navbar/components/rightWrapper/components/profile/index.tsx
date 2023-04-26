@@ -34,16 +34,18 @@ export const Profile = memo(() => {
                                 </span>
                             </div>
                         </div>
-                        <div
-                            data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarCollectorProfile1}>
-                            <span className={`${styles.layoutWithSidebarText17} material-symbols-outlined`}>
-                                category
-                            </span>
-                            <span className={styles.layoutWithSidebarText18}>
-                                Collector Profile
-                            </span>
-                        </div>
+                        <Link to="/collector-profile" className="">
+                            <div
+                                data-thq='thq-dropdown-toggle'
+                                className={styles.layoutWithSidebarCollectorProfile1}>
+                                <span className={`${styles.layoutWithSidebarText17} material-symbols-outlined`}>
+                                    category
+                                </span>
+                                <span className={styles.layoutWithSidebarText18}>
+                                    Collector Profile
+                                </span>
+                            </div>
+                        </Link>
                         <Link to='/creator-studio'>
                             <div
                                 data-thq='thq-dropdown-toggle'

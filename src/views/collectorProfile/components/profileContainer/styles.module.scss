@@ -1,0 +1,23 @@
+ .collectorProfileContainer07 {
+     gap: var(--dl-space-space-unit);
+     width: 100%;
+     height: auto;
+     display: flex;
+     margin-top: 0px;
+     border-radius: var(--dl-radius-radius-radius8);
+     flex-direction: row;
+ }
+
+ @media(max-width: 991px) {
+     .collectorProfileContainer07 {
+         flex-direction: column;
+     }
+ }
+
+ @media(max-width: 767px) {
+     .collectorProfileContainer07 {
+         gap: var(--dl-space-space-unit);
+         margin-top: 0px;
+         flex-direction: column;
+     }
+ }

@@ -347,11 +347,11 @@
     padding-right: 10px;
   }
   .article-container {
-    aspect-ratio: 1/1;
+    aspect-ratio: 3/2;
     background-position: left;
   }
   .article-img-holder {
-    aspect-ratio: 1/1;
+    aspect-ratio: 3/2;
     background-position: left;
   }
   .header-first-column {

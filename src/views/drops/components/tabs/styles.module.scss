@@ -1,0 +1,101 @@
+.dropsTabsRow1 {
+    gap: var(--dl-space-space-threeunits);
+    flex: 0 0 auto;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: flex-end;
+    border-color: var(--dl-color-dark-gray-300);
+    border-width: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+    border-bottom-width: 1px;
+}
+
+.dropsText06 {
+    color: var(--dl-color-dark-white);
+    height: 100%;
+    font-style: normal;
+    transition: 0.3s;
+    font-weight: 600;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    border-color: var(--dl-color-dark-green-200);
+    border-width: 0px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    border-bottom-width: 2px;
+}
+
+.dropsText06:hover {
+    border-color: var(--dl-color-dark-green-200);
+}
+
+.dropsText07 {
+    color: var(--dl-color-dark-white);
+    height: 100%;
+    font-style: normal;
+    transition: 0.3s;
+    font-weight: 600;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    border-color: var(--dl-color-dark-gray-200);
+    border-width: 0px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    border-bottom-width: 2px;
+}
+
+.dropsText07:hover {
+    border-color: var(--dl-color-dark-green-200);
+}
+
+.dropsText08 {
+    color: var(--dl-color-dark-white);
+    height: 100%;
+    font-style: normal;
+    transition: 0.3s;
+    font-weight: 600;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    border-color: var(--dl-color-dark-gray-200);
+    border-width: 0px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    border-bottom-width: 2px;
+}
+
+.dropsText08:hover {
+    border-color: var(--dl-color-dark-green-200);
+}
+
+@media(max-width: 1200px) {
+    .dropsText06 {
+        color: var(--dl-color-dark-white);
+    }
+
+    .dropsText07 {
+        color: var(--dl-color-dark-white);
+    }
+
+    .dropsText08 {
+        color: var(--dl-color-dark-white);
+    }
+
+}
+
+@media(max-width: 767px) {
+    .dropsTabsRow1 {
+        gap: var(--dl-space-space-twounits);
+    }
+
+    .dropsText06 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .dropsText07 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .dropsText08 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}

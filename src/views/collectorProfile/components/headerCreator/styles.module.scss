@@ -1,0 +1,56 @@
+.collectorProfileHeaderCreator {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.3);
+    margin-top: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-twounits);
+    border-radius: var(--dl-radius-radius-radius12);
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    background-size: cover;
+    justify-content: flex-end;
+    background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirates_tropical_island_surrounded_76234baf-9c5d-4ffd-9df1-70336854b375-1500w.png");
+    background-position: center;
+}
+
+.collectorProfileMaskOverlay {
+    top: 0px;
+    flex: 0 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    bottom: 0px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    background-color: rgba(24, 24, 24, 0.36);
+}
+
+
+@media(max-width: 767px) {
+    .collectorProfileHeaderCreator {
+        height: 180px;
+        margin-top: var(--dl-space-space-unit);
+        padding-top: var(--dl-space-space-threeunits);
+        padding-left: var(--dl-space-space-unit);
+        border-radius: var(--dl-radius-radius-radius8);
+        margin-bottom: var(--dl-space-space-unit);
+        padding-bottom: var(--dl-space-space-unit);
+    }
+
+    .collectorProfileMaskOverlay {
+        height: 100%;
+    }
+
+}
