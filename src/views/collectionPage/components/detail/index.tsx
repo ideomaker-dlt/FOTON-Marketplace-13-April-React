@@ -6,7 +6,7 @@ import styles from "./styles.module.scss"
 
 export const Detail = memo(() => {
     return (
-        <div className={styles.collectionPageContainer01}>
+        <div className={styles.container}>
             <Image />
             <Info />
         </div>

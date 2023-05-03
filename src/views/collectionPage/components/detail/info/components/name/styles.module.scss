@@ -1,153 +1,154 @@
-.collectionPageContainer02 {
+.container {
     gap: var(--dl-space-space-oneandhalfunits);
     display: flex;
     align-self: flex-start;
     margin-top: var(--dl-space-space-twounits);
     justify-content: flex-start;
-}
 
-.collectionPageAvatarLogo {
-    width: 120px;
-    height: 120px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    aspect-ratio: 1/1;
-    border-radius: var(--dl-radius-radius-radius12);
-    flex-direction: column;
-}
+    .logo {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        position: relative;
+        align-items: flex-start;
+        aspect-ratio: 1/1;
+        border-radius: var(--dl-radius-radius-radius12);
+        flex-direction: column;
 
-.collectionPageImage1 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    position: absolute;
-    object-fit: cover;
-    border-color: var(--dl-color-dark-gray-400);
-    border-width: 2px;
-    border-radius: var(--dl-radius-radius-radius12);
-}
+        >img {
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            position: absolute;
+            object-fit: cover;
+            border-color: var(--dl-color-dark-gray-400);
+            border-width: 2px;
+            border-radius: var(--dl-radius-radius-radius12);
+        }
+    }
 
-.collectionPageContainer03 {
-    gap: var(--dl-space-space-halfunit);
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    padding-top: var(--dl-space-space-twounits);
-    border-radius: var(--dl-radius-radius-radius12);
-    flex-direction: column;
-}
+    .nameContainer {
+        gap: var(--dl-space-space-halfunit);
+        flex: 0 0 auto;
+        width: auto;
+        height: auto;
+        display: flex;
+        align-self: center;
+        align-items: flex-start;
+        padding-top: var(--dl-space-space-twounits);
+        border-radius: var(--dl-radius-radius-radius12);
+        flex-direction: column;
 
-.collectionPageText {
-    color: var(--dl-color-dark-white);
-    font-size: 30px;
-    font-family: Poppins;
-    font-weight: 700;
-    line-height: 1.15;
-    text-transform: none;
-    text-decoration: none;
-}
+        >h1 {
+            color: var(--dl-color-dark-white);
+            font-size: 30px;
+            font-family: Poppins;
+            font-weight: 700;
+            line-height: 1.15;
+            text-transform: none;
+            text-decoration: none;
+        }
 
-.collectionPageContainer04 {
-    gap: var(--dl-space-space-halfunit);
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-}
+        >div {
+            gap: var(--dl-space-space-halfunit);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
 
-.collectionPageText01 {
-    color: var(--dl-color-dark-green-200);
-    font-size: 16px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 600;
-    line-height: 1.15;
-    text-transform: none;
-    text-decoration: none;
-}
+            p:nth-child(1) {
+                color: var(--dl-color-dark-green-200);
+                font-size: 16px;
+                font-style: normal;
+                font-family: Poppins;
+                font-weight: 600;
+                line-height: 1.15;
+                text-transform: none;
+                text-decoration: none;
+            }
 
-.collectionPageText04 {
-    color: var(--dl-color-dark-gray-400);
-    font-size: 16px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 600;
-    line-height: 1.15;
-    text-transform: none;
-    text-decoration: none;
-}
+            p:nth-child(2) {
+                color: var(--dl-color-dark-gray-400);
+                font-size: 16px;
+                font-style: normal;
+                font-family: Poppins;
+                font-weight: 600;
+                line-height: 1.15;
+                text-transform: none;
+                text-decoration: none;
+            }
+        }
 
+    }
+}
 
 @media(max-width: 1200px) {
 
-    .collectionPageContainer02 {
+    .container {
         flex-direction: column;
-    }
 
-    .collectionPageContainer03 {
-        padding-top: var(--dl-space-space-halfunit);
+        .nameContainer {
+            padding-top: var(--dl-space-space-halfunit);
+        }
     }
 
 }
 
 @media(max-width: 991px) {
 
-    .collectionPageContainer02 {
+    .container {
         gap: var(--dl-space-space-unit);
         align-self: flex-start;
         margin-left: 0px;
         flex-direction: column;
-    }
 
-    .collectionPageContainer03 {
-        gap: var(--dl-space-space-halfunit);
-        height: auto;
-        padding-top: var(--dl-space-space-halfunit);
-    }
+        .nameContainer {
+            gap: var(--dl-space-space-halfunit);
+            height: auto;
+            padding-top: var(--dl-space-space-halfunit);
 
-    .collectionPageText {
-        font-size: 22px;
+            >h1 {
+                font-size: 22px;
+            }
+        }
     }
 
 }
 
 @media(max-width: 767px) {
-    .collectionPageContainer02 {
+    .container {
         gap: var(--dl-space-space-halfunit);
         align-self: flex-start;
         align-items: center;
         justify-content: flex-start;
-    }
 
-    .collectionPageAvatarLogo {
-        width: 100px;
-        height: 100px;
-        align-self: flex-start;
-    }
+        .logo {
+            width: 100px;
+            height: 100px;
+            align-self: flex-start;
+        }
 
-    .collectionPageContainer03 {
-        gap: var(--dl-space-space-halfunit);
-        height: auto;
-        padding-top: var(--dl-space-space-halfunit);
-    }
+        .nameContainer {
+            gap: var(--dl-space-space-halfunit);
+            height: auto;
+            padding-top: var(--dl-space-space-halfunit);
 
-    .collectionPageText {
-        font-size: 18px;
-    }
+            >h1 {
+                font-size: 18px;
+            }
 
-    .collectionPageText01 {
-        font-size: 13px;
-    }
+            >div {
+                p:nth-child(1) {
+                    font-size: 13px;
+                }
 
-    .collectionPageText04 {
-        font-size: 13px;
+                p:nth-child(2) {
+                    font-size: 13px;
+                }
+            }
+        }
     }
-
 
 }

@@ -4,15 +4,14 @@ import styles from "./style.module.scss"
 
 export const Name = memo(() => {
     return (
-        <div className={`${styles.collectionDropPageContainer01} article-container`}>
+        <div className={`${styles.container} article-container`}>
             <div className={`${styles.collectionDropPageContainerPop} article-img-holder`}></div>
             <div className={`${styles.collectionDropPageGrayOverlay} article-title-link`}>
-                <div className={styles.collectionDropPageContainer02}>
+                <div>
                     <div className={styles.collectionDropPageContainer03}>
                         <div className={styles.collectionDropPageAvatarLogo}>
                             <img
                                 src="/playground_assets/grid_0%20%5B7%5D-200h.webp"
-                                className={styles.collectionDropPageImage}
                             />
                         </div>
                         <div className={styles.collectionDropPageContainer04}>

@@ -1,4 +1,4 @@
-.addItemTabsRow {
+.row {
     top: 80px;
     flex: 0 0 auto;
     width: 100%;
@@ -15,66 +15,72 @@
     justify-content: space-between;
     background-color: var(--dl-color-dark-gray-200);
     border-bottom-width: 1px;
-}
 
-.addItemContainer04 {
-    gap: var(--dl-space-space-twounits);
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
+    >div {
+        gap: var(--dl-space-space-twounits);
+        height: 100%;
+        display: flex;
+        align-items: center;
 
-.addItemNavlink {
-    color: var(--dl-color-dark-gray-400);
-    height: 100%;
-    font-style: normal;
-    transition: 0.05s;
-    font-weight: 600;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    border-color: var(--dl-color-dark-gray-200);
-    border-width: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-    text-decoration: none;
-    border-bottom-width: 2px;
-}
 
-.addItemNavlink:hover {
-    color: var(--dl-color-dark-green-200);
-}
+        .link {
+            color: var(--dl-color-dark-gray-400);
+            height: 100%;
+            font-style: normal;
+            transition: 0.05s;
+            font-weight: 600;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: var(--dl-color-dark-gray-200);
+            border-width: 0px;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            text-decoration: none;
+            border-bottom-width: 2px;
+        }
 
-.addItemText01 {
-    color: var(--dl-color-dark-white);
-    height: 100%;
-    font-style: normal;
-    font-weight: 600;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    border-color: var(--dl-color-dark-gray-200);
-    border-width: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-    border-bottom-width: 2px;
+        .link:hover {
+            color: var(--dl-color-dark-green-200);
+        }
+
+        >span {
+            color: var(--dl-color-dark-white);
+            height: 100%;
+            font-style: normal;
+            font-weight: 600;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: var(--dl-color-dark-gray-200);
+            border-width: 0px;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            border-bottom-width: 2px;
+        }
+    }
 }
 
 
 @media(max-width: 1200px) {
-    .addItemText01 {
-        color: var(--dl-color-dark-white);
+    .row {
+        >div {
+            >span {
+                color: var(--dl-color-dark-white);
+            }
+        }
     }
 }
 
 
 @media(max-width: 767px) {
-    .addItemTabsRow {
+    .row {
         top: 70px;
-    }
 
-    .addItemNavlink {
-        font-size: 13px;
-        font-weight: 600;
-    }
+        >div {
+            .link {
+                font-size: 13px;
+                font-weight: 600;
+            }
 
-    .addItemText01 {
-        font-size: 13px;
-        font-weight: 600;
+            >span {
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
     }
-
 }

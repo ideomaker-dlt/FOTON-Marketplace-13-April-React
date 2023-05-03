@@ -54,17 +54,17 @@ export const DropList = memo(() => {
 
     ])
     return (
-        <div className={styles.dropsDropsContainer}>
+        <div className={styles.container}>
             <div className={styles.dropsWrapperGrid}>
                 {drops.map((drop, index) => (
                     <Link to="/collection-drop-page">
-                        <div className={styles.dropsItem1}>
-                            <div className={styles.dropsImageHeader}></div>
-                            <div className={styles.dropsTextBox}>
-                                <div className={styles.dropsContainer09}>
-                                    <span className={styles.dropsText09}>{drop.name}</span>
+                        <div className={styles.item}>
+                            <div className={styles.header}></div>
+                            <div className={styles.box}>
+                                <div className={styles.name}>
+                                    <span>{drop.name}</span>
                                 </div>
-                                <div className={styles.dropsContainer10}>
+                                <div className={styles.details}>
                                     <div className={styles.dropsFloor}>
                                         <span className={`${styles.dropsText10} SmallestLabels`}>price</span>
                                         <span className={`${styles.dropsText11} Content16SemiBold`}>

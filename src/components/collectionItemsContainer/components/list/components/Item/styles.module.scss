@@ -1,4 +1,4 @@
- .collectionItemsContainerItem1 {
+ .container {
      flex: 1;
      display: flex;
      position: relative;
@@ -12,9 +12,126 @@
      border-top-width: 0px;
      border-left-width: 0px;
      border-right-width: 0px;
+
+
+     .imageHeader {
+         flex: 0 0 auto;
+         width: 100%;
+         height: auto;
+         display: flex;
+         align-items: flex-start;
+         aspect-ratio: 1/1;
+         border-radius: var(--dl-radius-radius-radius12);
+         background-size: cover;
+         justify-content: flex-end;
+         background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_985a59cd-5e25-43ca-b106-15a717076d76-1500w.png");
+
+         >input {
+             width: 18px;
+             height: 18px;
+             opacity: 0.7;
+             margin-top: var(--dl-space-space-unit);
+             margin-right: var(--dl-space-space-unit);
+             background-color: var(--dl-color-dark-blue-100);
+         }
+     }
+
+     .textBox {
+         gap: var(--dl-space-space-unit);
+         flex: 0 0 auto;
+         width: 100%;
+         height: auto;
+         display: flex;
+         align-items: flex-start;
+         padding-top: var(--dl-space-space-oneandhalfunits);
+         padding-left: var(--dl-space-space-unit);
+         padding-right: var(--dl-space-space-unit);
+         flex-direction: column;
+         padding-bottom: var(--dl-space-space-oneandhalfunits);
+         justify-content: flex-start;
+
+         .textTitle {
+             flex: 0 0 auto;
+             width: 100%;
+             height: auto;
+             display: flex;
+             align-items: flex-start;
+
+             >span {
+                 color: var(--dl-color-dark-white);
+                 width: 100%;
+                 height: auto;
+                 display: inline-block;
+                 overflow: hidden;
+                 font-size: 18px;
+                 font-style: normal;
+                 font-family: Poppins;
+                 font-weight: 600;
+                 white-space: nowrap;
+                 text-overflow: ellipsis;
+                 text-transform: none;
+                 text-decoration: none;
+             }
+         }
+
+         .textDetails {
+             flex: 0 0 auto;
+             width: 100%;
+             height: auto;
+             display: flex;
+             align-items: flex-start;
+             justify-content: space-between;
+
+             .floor {
+                 gap: 3px;
+                 flex: 1;
+                 height: 100%;
+                 display: flex;
+                 align-items: flex-start;
+                 flex-direction: column;
+
+                 span:nth-child(1) {
+                     color: var(--dl-color-dark-gray-400);
+                 }
+
+                 span:nth-child(2) {
+                     color: var(--dl-color-dark-white);
+                 }
+             }
+
+             .volume {
+                 gap: 3px;
+                 flex: 1;
+                 height: 100%;
+                 display: flex;
+                 align-self: flex-end;
+                 align-items: flex-end;
+                 flex-direction: column;
+                 justify-content: flex-end;
+
+                 >span {
+                     color: var(--dl-color-dark-green-200);
+                 }
+
+                 >div {
+                     gap: var(--dl-space-space-halfunit);
+                     display: flex;
+                     align-items: center;
+                     flex-direction: row;
+                     justify-content: flex-end;
+
+                     >span {
+                         color: var(--dl-color-dark-white);
+                     }
+                 }
+             }
+         }
+     }
+
+
  }
 
- .collectionItemsContainerItem1:Hover {
+ .container:Hover {
      border-color: var(--dl-color-dark-green-200);
      border-top-width: 0px;
      border-left-width: 0px;
@@ -22,153 +139,58 @@
      border-bottom-width: 5px;
  }
 
- .collectionItemsContainerImageHeader {
-     flex: 0 0 auto;
-     width: 100%;
-     height: auto;
-     display: flex;
-     align-items: flex-start;
-     aspect-ratio: 1/1;
-     border-radius: var(--dl-radius-radius-radius12);
-     background-size: cover;
-     justify-content: flex-end;
-     background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_985a59cd-5e25-43ca-b106-15a717076d76-1500w.png");
- }
-
- .collectionItemsContainerCheckbox10 {
-     width: 18px;
-     height: 18px;
-     opacity: 0.7;
-     margin-top: var(--dl-space-space-unit);
-     margin-right: var(--dl-space-space-unit);
-     background-color: var(--dl-color-dark-blue-100);
- }
-
- .collectionItemsContainerTextBox {
-     gap: var(--dl-space-space-unit);
-     flex: 0 0 auto;
-     width: 100%;
-     height: auto;
-     display: flex;
-     align-items: flex-start;
-     padding-top: var(--dl-space-space-oneandhalfunits);
-     padding-left: var(--dl-space-space-unit);
-     padding-right: var(--dl-space-space-unit);
-     flex-direction: column;
-     padding-bottom: var(--dl-space-space-oneandhalfunits);
-     justify-content: flex-start;
- }
-
- .collectionItemsContainerContainer21 {
-     flex: 0 0 auto;
-     width: 100%;
-     height: auto;
-     display: flex;
-     align-items: flex-start;
- }
-
- .collectionItemsContainerText31 {
-     color: var(--dl-color-dark-white);
-     width: 100%;
-     height: auto;
-     display: inline-block;
-     overflow: hidden;
-     font-size: 18px;
-     font-style: normal;
-     font-family: Poppins;
-     font-weight: 600;
-     white-space: nowrap;
-     text-overflow: ellipsis;
-     text-transform: none;
-     text-decoration: none;
- }
-
- .collectionItemsContainerContainer22 {
-     flex: 0 0 auto;
-     width: 100%;
-     height: auto;
-     display: flex;
-     align-items: flex-start;
-     justify-content: space-between;
- }
-
- .collectionItemsContainerFloor {
-     gap: 3px;
-     flex: 1;
-     height: 100%;
-     display: flex;
-     align-items: flex-start;
-     flex-direction: column;
- }
-
- .collectionItemsContainerText32 {
-     color: var(--dl-color-dark-gray-400);
- }
-
- .collectionItemsContainerText33 {
-     color: var(--dl-color-dark-white);
- }
-
- .collectionItemsContainerVolume24 {
-     gap: 3px;
-     flex: 1;
-     height: 100%;
-     display: flex;
-     align-self: flex-end;
-     align-items: flex-end;
-     flex-direction: column;
-     justify-content: flex-end;
- }
-
- .collectionItemsContainerText34 {
-     color: var(--dl-color-dark-green-200);
- }
-
- .collectionItemsContainerContainer23 {
-     gap: var(--dl-space-space-halfunit);
-     display: flex;
-     align-items: center;
-     flex-direction: row;
-     justify-content: flex-end;
- }
-
- .collectionItemsContainerText35 {
-     color: var(--dl-color-dark-white);
- }
-
-
-
-
 
 
  @media(max-width: 767px) {
 
-     .collectionItemsContainerItem1 {
+     .container {
          border-radius: var(--dl-radius-radius-radius8);
-     }
 
-     .collectionItemsContainerImageHeader {
-         border-radius: var(--dl-radius-radius-radius8);
-     }
+         .imageHeader {
+             border-radius: var(--dl-radius-radius-radius8);
+         }
 
-     .collectionItemsContainerText31 {
-         font-size: 16px;
-     }
+         .textBox {
+             .textTitle {
+                 >span {
+                     font-size: 16px;
+                 }
+             }
+         }
 
-     .collectionItemsContainerText32 {
-         font-size: 11px;
-     }
+         .textDetails {
 
-     .collectionItemsContainerText33 {
-         font-size: 13px;
-     }
+             .floor {
+                 gap: 3px;
+                 flex: 1;
+                 height: 100%;
+                 display: flex;
+                 align-items: flex-start;
+                 flex-direction: column;
 
-     .collectionItemsContainerText34 {
-         font-size: 11px;
-     }
+                 span:nth-child(1) {
+                     font-size: 11px;
+                 }
 
-     .collectionItemsContainerText35 {
-         font-size: 13px;
+                 span:nth-child(2) {
+                     font-size: 13px;
+                 }
+             }
+
+             .volume {
+
+                 >span {
+                     font-size: 11px;
+                 }
+
+                 >div {
+                     >span {
+                         font-size: 13px;
+                     }
+                 }
+             }
+         }
+       
      }
 
  }

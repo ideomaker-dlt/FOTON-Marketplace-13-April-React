@@ -7,8 +7,8 @@ export const List: React.FC<any> = memo(
   ({ items }
   ) => {
     return (
-      <div className={styles.collectionItemsContainerGridItems}>
-        <div className={styles.collectionItemsContainerContainer20}>
+      <div className={styles.gridItems}>
+        <div className={styles.container}>
 
           {
 

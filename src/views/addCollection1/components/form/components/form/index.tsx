@@ -203,7 +203,7 @@ export const Form = memo(() => {
                         placeholder='Upload image...'
                         className={`${styles.addCollection1Textinput5} focus-reset-forms Content16SemiBold input`}
                     />
-                    <button className={`${styles.addCollection1Button05}button Content16SemiBold`}>
+                    <button className={`${styles.addCollection1Button05} button Content16SemiBold`}>
                         <svg
                             viewBox='0 0 1024 1024'
                             className={styles.addCollection1Icon20}

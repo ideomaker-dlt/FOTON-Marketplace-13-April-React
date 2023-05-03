@@ -6,8 +6,8 @@ import styles from "./styles.module.scss"
 
 export const MainContainer = memo(() => {
     return (
-        <div className={styles.collectionDropPageDropsContainer}>
-            <div className={styles.collectionDropPageWrapperAll}>
+        <div className={styles.container}>
+            <div className={styles.wrapperAll}>
                 <LeftContainer />
                 {/* <div className="collection-drop-page-container-left">
                 <div className="collection-drop-page-about">

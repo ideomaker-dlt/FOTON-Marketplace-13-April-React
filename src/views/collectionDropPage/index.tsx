@@ -3,13 +3,13 @@ import React, { memo } from 'react'
 import { Helmet } from 'react-helmet'
 
 import { LayoutWithSidebar } from '@components'
-import './styles.scss'
+import styles from './styles.module.scss'
 import { Header, HelmetComponent, MainContainer, Tabs } from './components'
 
 
 export const CollectionDropPage = memo(() => {
     return (
-        <div className="collection-drop-page-container">
+        <div className={styles.container}>
             <HelmetComponent />
             <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name18">
                 <Header />
@@ -118,7 +118,7 @@ export const CollectionDropPage = memo(() => {
                     <span className="collection-drop-page-text22">Team</span>
                     <span className="collection-drop-page-text23">FAQ</span>
                 </div> */}
-                <MainContainer/>
+                <MainContainer />
                 {/* <div className="collection-drop-page-drops-container">
                     <div className="collection-drop-page-wrapper-all">
                         <div className="collection-drop-page-container-left">

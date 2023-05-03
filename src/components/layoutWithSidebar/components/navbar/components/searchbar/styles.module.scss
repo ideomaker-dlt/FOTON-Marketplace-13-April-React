@@ -1,4 +1,4 @@
-.layoutWithSidebarSearchbar {
+.searchbar {
     flex: 1;
     width: 100%;
     height: 50px;
@@ -11,65 +11,68 @@
     border-width: 2px;
     margin-right: var(--dl-space-space-twounits);
     border-radius: var(--dl-radius-radius-radius12);
+
+    .form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-self: center;
+        border-color: var(--dl-color-dark-gray-360);
+        border-width: 0px;
+        border-radius: var(--dl-radius-radius-radius12);
+
+        >button {
+            display: flex;
+            align-items: center;
+            border-width: 0px;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: var(--dl-space-space-halfunit);
+            flex-direction: row;
+            justify-content: center;
+            background-color: transparent;
+
+            >svg {
+                fill: var(--dl-color-dark-gray-400);
+                width: 24px;
+                height: 24px;
+                transition: 0.3s;
+            }
+
+            >svg:focus-within {
+                fill: var(--dl-color-dark-gray-370);
+            }
+        }
+
+
+        >input {
+            color: var(--dl-color-dark-white);
+            width: 100%;
+            height: 50px;
+            align-self: center;
+            border-width: 0px;
+            padding-left: var(--dl-space-space-halfunit);
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: var(--dl-space-space-halfunit);
+            background-color: transparent;
+        }
+    }
+
 }
 
-.layoutWithSidebarSearchbar:hover {
+.searchbar:hover {
     border-color: var(--dl-color-dark-gray-370);
     background-color: var(--dl-color-dark-gray-200);
 }
 
-.layoutWithSidebarSearchbar:focus-within {
+.searchbar:focus-within {
     border-color: var(--dl-color-dark-gray-370);
     background-color: var(--dl-color-dark-gray-200);
 }
 
-.layoutWithSidebarForm {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-self: center;
-    border-color: var(--dl-color-dark-gray-360);
-    border-width: 0px;
-    border-radius: var(--dl-radius-radius-radius12);
-}
-
-.layoutWithSidebarButton {
-    display: flex;
-    align-items: center;
-    border-width: 0px;
-    padding-left: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-radius8);
-    padding-right: var(--dl-space-space-halfunit);
-    flex-direction: row;
-    justify-content: center;
-    background-color: transparent;
-}
-
-.layoutWithSidebarIcon1 {
-    fill: var(--dl-color-dark-gray-400);
-    width: 24px;
-    height: 24px;
-    transition: 0.3s;
-}
-
-.layoutWithSidebarIcon1:focus-within {
-    fill: var(--dl-color-dark-gray-370);
-}
-
-.layoutWithSidebarTextinput {
-    color: var(--dl-color-dark-white);
-    width: 100%;
-    height: 50px;
-    align-self: center;
-    border-width: 0px;
-    padding-left: var(--dl-space-space-halfunit);
-    border-radius: var(--dl-radius-radius-radius8);
-    padding-right: var(--dl-space-space-halfunit);
-    background-color: transparent;
-}
 
 @media(max-width: 991px) {
-    .layoutWithSidebarSearchbar {
+    .searchbar {
         display: none;
     }
 

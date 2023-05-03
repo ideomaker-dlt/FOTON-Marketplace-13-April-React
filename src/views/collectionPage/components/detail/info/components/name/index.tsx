@@ -3,21 +3,19 @@ import styles from "./styles.module.scss"
 
 export const Name = memo(() => {
     return (
-        <div className={styles.collectionPageContainer02}>
-            <div className={styles.collectionPageAvatarLogo}>
-                <img
-                    src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
-                    className={styles.collectionPageImage1}
+        <div className={styles.container}>
+            <div className={styles.logo}>
+                <img src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                 />
             </div>
-            <div className={styles.collectionPageContainer03}>
-                <h1 className={styles.collectionPageText}>Collection One</h1>
-                <div className={styles.collectionPageContainer04}>
-                    <p className={styles.collectionPageText01}>
+            <div className={styles.nameContainer}>
+                <h1>Collection One</h1>
+                <div>
+                    <p>
                         <span>By Smooth Collective</span>
                         <br></br>
                     </p>
-                    <p className={styles.collectionPageText04}>
+                    <p>
                         <span>Verified</span>
                         <br></br>
                     </p>

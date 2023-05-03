@@ -5,7 +5,7 @@ import { Form, GoBack, Header } from './components'
 
 export const AddItem = memo(() => {
   return (
-    <div className={styles.addItemContainer}>
+    <div className={styles.container}>
 
       <LayoutWithSidebar rootClassName='layout-with-sidebar-root-class-name8'>
         <Header />

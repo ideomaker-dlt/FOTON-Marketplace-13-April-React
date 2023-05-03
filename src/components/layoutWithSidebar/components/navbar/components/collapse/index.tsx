@@ -5,8 +5,8 @@ export const Collapse = memo(({ setSideMenuIsVisible, sideMenuIsVisible }: { set
     return (
         <div
             onClick={() => setSideMenuIsVisible(!sideMenuIsVisible)}
-            className={styles.layoutWithSidebarSidenavButton}>
-            <div className={styles.layoutWithSidebarIcon}></div>
+            className={styles.sidenavButton}>
+            <div></div>
         </div>
 
     )

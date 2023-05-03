@@ -3,10 +3,10 @@ import styles from "./styles.module.scss"
 
 export const LeftContainer = memo(() => {
     return (
-        <div className={styles.collectionDropPageContainerLeft}>
+        <div className={styles.container}>
             <div className={styles.collectionDropPageAbout}>
                 <div className={styles.collectionDropPageContainer10}>
-                    <label className={styles.collectionDropPageText24}>
+                    <label>
                         About this Collection
                     </label>
                 </div>

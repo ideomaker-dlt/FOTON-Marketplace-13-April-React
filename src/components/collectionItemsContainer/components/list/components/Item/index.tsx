@@ -4,34 +4,32 @@ import styles from './styles.module.scss'
 
 export const Item = memo(({ item }: any) => {
     return (
-        <div className={styles.collectionItemsContainerItem1}>
-            <div className={styles.collectionItemsContainerImageHeader}>
-                <input
-                    type='checkbox'
-                    className={styles.collectionItemsContainerCheckbox10}
-                />
+        <div className={styles.container}>
+            <div className={styles.imageHeader}>
+                <input type='checkbox' />
             </div>
-            <div className={styles.collectionItemsContainerTextBox}>
-                <div className={styles.collectionItemsContainerContainer21}>
-                    <span className={styles.collectionItemsContainerText31}>
+
+            <div className={styles.textBox}>
+                <div className={styles.textTitle}>
+                    <span>
                         {item.text}
                     </span>
                 </div>
-                <div className={styles.collectionItemsContainerContainer22}>
-                    <div className={styles.collectionItemsContainerFloor}>
-                        <span className={`${styles.collectionItemsContainerText32} SmallestLabels`}>
+                <div className={styles.textDetails}>
+                    <div className={styles.floor}>
+                        <span className={`SmallestLabels`}>
                             {item.text2}
                         </span>
-                        <span className={`${styles.collectionItemsContainerText33} Content16SemiBold`}>
+                        <span className={`Content16SemiBold`}>
                             {item.text4}
                         </span>
                     </div>
-                    <div className={styles.collectionItemsContainerVolume24}>
-                        <span className={`${styles.collectionItemsContainerText34} SmallestLabels`}>
+                    <div className={styles.volume}>
+                        <span className={`SmallestLabels`}>
                             {item.text3}
                         </span>
-                        <div className={styles.collectionItemsContainerContainer23}>
-                            <span className={styles.collectionItemsContainerText35}>
+                        <div>
+                            <span>
                                 {item.text5}
                             </span>
                         </div>

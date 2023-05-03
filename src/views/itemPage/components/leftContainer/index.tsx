@@ -3,15 +3,15 @@ import styles from "./styles.module.scss"
 
 export const LeftContainer = memo(() => {
     return (
-        <div className={styles.itemPageContainerLeft}>
-            <div className={styles.itemPageItemImage}>
+        <div className={styles.container}>
+            <div className={styles.imageDiv}>
                 <img
                     alt="image"
                     src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_985a59cd-5e25-43ca-b106-15a717076d76-1500w.png"
                     className={styles.itemPageImage}
                 />
             </div>
-            <div className={styles.itemPageItemDetails}>
+            <div className={styles.details}>
                 <div className={styles.itemPageTabsRow}>
                     <span className={styles.itemPageText}>Details</span>
                     <span className={styles.itemPageText001}>Description</span>

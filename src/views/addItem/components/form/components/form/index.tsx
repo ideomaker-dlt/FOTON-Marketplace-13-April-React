@@ -8,7 +8,7 @@ export const FormComponent = memo(() => {
         "Avatars", "Art", "Gaming", "Memberships", "Tickets", "Music", "Video", "Other"
     ])
     return (
-        < form className={styles.addItemForm} >
+        <form className={styles.addItemForm} >
             <div className={styles.addItemField}>
                 <label className={`${styles.addItemText02} padding-4px-left Content`}>
                     Name Item:
@@ -29,7 +29,7 @@ export const FormComponent = memo(() => {
                     className={`${styles.addItemTextarea} Content16SemiBold textarea focus-reset-forms`}
                 ></textarea>
             </div>
-            <div className={`${styles.addItemField} image`}>
+            <div className={`${styles.addItemFieldImage}`}>
                 <label className={`${styles.addItemText04} padding-4px-left`}>
                     Image file: JPG, PNG, GIF, SVG.
                 </label>
@@ -206,6 +206,6 @@ export const FormComponent = memo(() => {
                     </svg>
                 </button>
             </div>
-        </ form>
+        </form>
     )
 })

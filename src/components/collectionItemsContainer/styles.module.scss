@@ -1,4 +1,4 @@
-.collectionItemsContainerCollectionItemsContainer {
+.container {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -18,13 +18,13 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
-}
 
-.collectionItemsContainerContainer {
-  gap: var(--dl-space-space-unit);
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: flex-start;
+  >div {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 }

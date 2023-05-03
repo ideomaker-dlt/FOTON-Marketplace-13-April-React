@@ -3,8 +3,8 @@ import styles from "./styles.module.scss"
 
 export const RightContainer = memo(() => {
     return (
-        <div className={styles.collectionDropPageContainerRight}>
-            <div className={styles.collectionDropPageItemInfoBox}>
+        <div className={styles.container}>
+            <div >
                 <div className={styles.collectionDropPageItemImage}>
                     <img
                         alt="image"

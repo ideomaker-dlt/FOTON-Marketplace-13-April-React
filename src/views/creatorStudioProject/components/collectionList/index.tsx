@@ -5,7 +5,7 @@ import styles from "./styles.module.scss"
 export const CollectionList = memo(() => {
 
     return (
-        <div className={styles.creatorStudioProjectCollectionsContainer}>
+        <div className={styles.container}>
             <div className={styles.creatorStudioProjectContainer05}>
                 {[...Array(4)].map((x, i) => (
                     <Link to='/creator-studio-collection'>

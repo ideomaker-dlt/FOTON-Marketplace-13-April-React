@@ -3,10 +3,10 @@ import styles from "./styles.module.scss"
 
 export const Description = memo(() => {
     return (
-        <div className={styles.collectionPageContainer05}>
-            <div className={styles.collectionPageDescriptionCollection}>
-                <div className={styles.collectionPageContainer06}>
-                    <h2 className={styles.collectionPageText07}>
+        <div className={styles.container}>
+            <div>
+                <div>
+                    <h2>
                         <span>
                             The crew of pirates gathered around a campfire on a
                             tropical island, their ship anchored offshore. They
@@ -17,8 +17,8 @@ export const Description = memo(() => {
                         </span>
                         <br></br>
                     </h2>
-                    <div className={styles.collectionPageContainer07}></div>
-                    <p className={styles.collectionPageText10}>
+                    {/* <div></div> */}
+                    <p>
                         <span>
                             Created on 23 Apr 2023
                             <span

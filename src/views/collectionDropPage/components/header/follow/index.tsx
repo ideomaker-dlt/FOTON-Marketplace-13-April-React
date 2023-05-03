@@ -3,7 +3,7 @@ import styles from "./styles.module.scss"
 
 export const Follow = memo(() => {
     return (
-        <div className={styles.collectionDropPageMaskOverlay}>
+        <div className={styles.overlay}>
             <div className={styles.collectionDropPageContainerButtons}>
                 <button type="button" className={styles.collectionDropPageButton}>
                     <svg

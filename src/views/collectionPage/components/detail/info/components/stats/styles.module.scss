@@ -1,192 +1,60 @@
-.collectionPageSmallStats {
+.smallStats {
     gap: var(--dl-space-space-halfunit);
     flex: 0 0 auto;
     width: 100%;
     display: flex;
     margin-top: var(--dl-space-space-unit);
     align-items: flex-start;
-}
 
-.collectionPageSmallCard {
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    padding-top: 12px;
-    padding-left: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-radius8);
-    padding-right: var(--dl-space-space-unit);
-    flex-direction: column;
-    padding-bottom: 8px;
-    background-color: var(--dl-color-dark-gray-300);
-}
+    .card {
+        flex: 0 0 auto;
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        padding-top: 12px;
+        padding-left: var(--dl-space-space-unit);
+        border-radius: var(--dl-radius-radius-radius8);
+        padding-right: var(--dl-space-space-unit);
+        flex-direction: column;
+        padding-bottom: 8px;
+        background-color: var(--dl-color-dark-gray-300);
 
-.collectionPageText13 {
-    color: var(--dl-color-dark-green-200);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-}
+        span:nth-child(1) {
+            color: var(--dl-color-dark-green-200);
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+        }
 
-.collectionPageText14 {
-    color: var(--dl-color-dark-gray-400);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.collectionPageSmallCard1 {
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    padding-top: 12px;
-    padding-left: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-radius8);
-    padding-right: var(--dl-space-space-unit);
-    flex-direction: column;
-    padding-bottom: 8px;
-    background-color: var(--dl-color-dark-gray-300);
-}
-
-.collectionPageText15 {
-    color: var(--dl-color-dark-green-200);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-}
-
-.collectionPageText16 {
-    color: var(--dl-color-dark-gray-400);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.collectionPageSmallCard2 {
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    padding-top: 12px;
-    padding-left: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-radius8);
-    padding-right: var(--dl-space-space-unit);
-    flex-direction: column;
-    padding-bottom: 8px;
-    background-color: var(--dl-color-dark-gray-300);
-}
-
-.collectionPageText17 {
-    color: var(--dl-color-dark-green-200);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-}
-
-.collectionPageText18 {
-    color: var(--dl-color-dark-gray-400);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.collectionPageSmallCard3 {
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: flex-start;
-    padding-top: 12px;
-    padding-left: var(--dl-space-space-unit);
-    border-radius: var(--dl-radius-radius-radius8);
-    padding-right: var(--dl-space-space-unit);
-    flex-direction: column;
-    padding-bottom: 8px;
-    background-color: var(--dl-color-dark-gray-300);
-}
-
-.collectionPageText19 {
-    color: var(--dl-color-dark-green-200);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-}
-
-.collectionPageText20 {
-    color: var(--dl-color-dark-gray-400);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
+        span:nth-child(2) {
+            color: var(--dl-color-dark-gray-400);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
 }
 
 
 @media(max-width: 767px) {
 
-    .collectionPageSmallStats {
+    .smallStats {
         flex-wrap: wrap;
-    }
 
-    .collectionPageSmallCard {
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 6px;
-    }
+        .card {
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 6px;
 
-    .collectionPageText13 {
-        font-size: 16px;
-    }
+            span:nth-child(1) {
+                font-size: 16px;
+            }
 
-    .collectionPageText14 {
-        font-size: 13px;
-    }
-
-    .collectionPageSmallCard1 {
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 6px;
-    }
-
-    .collectionPageText15 {
-        font-size: 16px;
-    }
-
-    .collectionPageText16 {
-        font-size: 13px;
-    }
-
-    .collectionPageSmallCard2 {
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 6px;
-    }
-
-    .collectionPageText17 {
-        font-size: 16px;
-    }
-
-    .collectionPageText18 {
-        font-size: 13px;
-    }
-
-    .collectionPageSmallCard3 {
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 6px;
-    }
-
-    .collectionPageText19 {
-        font-size: 16px;
-    }
-
-    .collectionPageText20 {
-        font-size: 13px;
+            span:nth-child(2) {
+                font-size: 13px;
+            }
+        }
     }
 }

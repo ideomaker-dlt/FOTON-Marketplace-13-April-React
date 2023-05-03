@@ -5,8 +5,8 @@ import styles from "./styles.module.scss"
 
 export const Header = memo(() => {
     return (
-        <div className={styles.creatorStudioCollectionAnalyticsHeaderCreator}>
-            <div className={styles.creatorStudioCollectionAnalyticsGrayOverlay}></div>
+        <div className={styles.headerCreator}>
+            <div className={styles.grayOverlay}></div>
             <div className={styles.creatorStudioCollectionAnalyticsContainer01}>
                 <div className={styles.creatorStudioCollectionAnalyticsContainer02}>
                     <div className={styles.creatorStudioCollectionAnalyticsAvatarLogo}>

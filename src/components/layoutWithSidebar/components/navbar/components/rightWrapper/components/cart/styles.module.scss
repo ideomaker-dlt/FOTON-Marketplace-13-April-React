@@ -1,4 +1,4 @@
-.layoutWithSidebarCart {
+.cart {
     flex: 0 0 auto;
     width: 50px;
     height: 50px;
@@ -12,52 +12,53 @@
     border-radius: var(--dl-radius-radius-radius12);
     padding-right: 0px;
     justify-content: center;
+
+    svg {
+        fill: var(--dl-color-dark-white);
+        width: 100%;
+        height: 100%;
+        transition: 0.05s;
+        padding-top: 10px;
+        padding-left: 9px;
+        padding-right: 14px;
+        padding-bottom: 10px;
+    }
+
+    span {
+        color: var(--dl-color-dark-white);
+        display: none;
+    }
+
 }
 
-.layoutWithSidebarCart:hover {
+.cart:hover {
     background-color: var(--dl-color-dark-gray-360);
 }
 
-.layoutWithSidebarIcon5 {
-    fill: var(--dl-color-dark-white);
-    width: 100%;
-    height: 100%;
-    transition: 0.05s;
-    padding-top: 10px;
-    padding-left: 9px;
-    padding-right: 14px;
-    padding-bottom: 10px;
-}
-
-.layoutWithSidebarText {
-    color: var(--dl-color-dark-white);
-    display: none;
-}
-
 @media(max-width: 991px) {
-    .layoutWithSidebarIcon5 {
-        fill: var(--dl-color-dark-white);
-        padding-top: 13px;
-        padding-bottom: 13px;
-    }
-
-    .layoutWithSidebarCart {
+    .cart {
         margin-left: 0px;
         margin-right: 0px;
+
+        svg {
+            fill: var(--dl-color-dark-white);
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
     }
 }
 
 @media(max-width: 767px) {
-    .layoutWithSidebarIcon5 {
-        padding-top: 12px;
-        padding-left: 6px;
-        padding-right: 10px;
-        padding-bottom: 12px;
-    }
-
-    .layoutWithSidebarCart {
+    .cart {
         width: 44px;
         height: 44px;
         margin-left: 4px;
+
+        svg {
+            padding-top: 12px;
+            padding-left: 6px;
+            padding-right: 10px;
+            padding-bottom: 12px;
+        }
     }
 }

@@ -9,13 +9,13 @@ import { DropList, Header, HelmetComponent, Tabs } from './components'
 
 export const Drops = memo(() => {
   return (
-    <div className={styles.dropsContainer}>
+    <div className={styles.container}>
       <HelmetComponent />
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name17">
-        <div className={styles.dropsTabsRow}>
-          <span className={styles.dropsText}>Drops</span>
+        <div className={styles.row}>
+          <span>Drops</span>
         </div>
-        <div className={styles.dropsContainer01}></div>
+        <div className={styles.container01}></div>
         <Header />
         <Tabs />
         <DropList />

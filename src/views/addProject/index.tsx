@@ -8,13 +8,13 @@ import styles from "./styles.module.scss"
 
 export const AddProject = memo(() => {
   return (
-    <div className={styles.addProjectContainer}>
+    <div className={styles.container}>
       <HelmetComponent />
       <LayoutWithSidebar rootClassName='layout-with-sidebar-root-class-name2'>
         <Header />
         <Menu />
 
-        <div className={styles.addProjectContainerForm}>
+        <div className={styles.containerForm}>
           <div className={styles.addProjectUnderHeader}>
             <div className={styles.addProjectCard}>
               <Form />

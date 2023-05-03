@@ -64,7 +64,7 @@ export const Treats = memo(() => {
 
     ])
     return (
-        <div className={styles.itemPageItemDetails1}>
+        <div className={styles.details}>
             <div className={styles.itemPageTabsRow2}>
                 <span className={styles.itemPageText043}>Treats</span>
                 <span className={styles.itemPageText044}>Rarity</span>

@@ -1,12 +1,41 @@
-import React, { memo } from 'react'
+import React, { memo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './styles.module.scss'
 
 export const Links = memo(() => {
+    const [links, setLinks] = useState([
+        {
+            link: "/drops",
+            title: "Drops"
+        },
+        {
+            link: "/stats",
+            title: "Stats"
+        },
+        {
+            link: "/creator-studio",
+            title: "Create"
+        },
+        {
+            link: "/drops",
+            title: "More"
+        },
+
+    ])
     return (
-        <div className={styles.layoutWithSidebarContainerRight}>
-            <div className={styles.layoutWithSidebarItems}>
-                <Link
+        <div className={styles.container}>
+            <div>
+                {
+                    links.map((link) => (
+                        <Link
+                            to={link.link}
+                            className={`${styles.link} Content`}>
+                            {link.title}
+                        </Link>
+                    ))
+                }
+
+                {/* <Link
                     to="/drops"
                     className={styles.layoutWithSidebarNavlink01}>
                     Drops
@@ -23,7 +52,7 @@ export const Links = memo(() => {
                 </Link>
                 <button className={`${styles.layoutWithSidebarButton1} Content`}>
                     More
-                </button>
+                </button> */}
             </div>
         </div>
     )
