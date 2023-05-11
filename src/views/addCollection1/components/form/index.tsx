@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 import styles from './styles.module.scss'
-import '../../styles.scss'
+// import '../../styles.scss'
 import { Link } from 'react-router-dom'
 import { Form as FormComponent, InfoBox } from './components'
 

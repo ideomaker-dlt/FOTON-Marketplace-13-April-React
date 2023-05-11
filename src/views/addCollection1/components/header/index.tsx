@@ -15,6 +15,4 @@ export const Header = memo(() => {
             <div className={styles.addCollection1MaskOverlay}></div>
         </div>
     )
-
-
 })

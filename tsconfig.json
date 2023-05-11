@@ -15,5 +15,8 @@
     "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
   "include": ["src", "index.d.ts"],
-  "extends": "./tsconfig.paths.json"
+  "extends": "./tsconfig.paths.json",
+  "exclude": [
+    "**/*.spec.ts"
+  ]
 }
