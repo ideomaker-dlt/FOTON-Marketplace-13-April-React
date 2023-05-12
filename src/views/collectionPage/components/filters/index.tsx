@@ -1,7 +1,7 @@
 import React, { memo, useState } from 'react'
 import styles from "./styles.module.scss"
 // @ts-ignore
-import DangerousHTML from 'dangerous-html/react'
+import DangerousHTML from 'react-dangerous-html'
 
 export const Filters = memo(() => {
     const [timeframes, setTimeframes] = useState([

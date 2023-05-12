@@ -1,7 +1,7 @@
 import React, { memo } from 'react'
 import { Link } from 'react-router-dom'
 // @ts-ignore
-import DangerousHTML from 'dangerous-html/react'
+import DangerousHTML from 'react-dangerous-html'
 
 import './styles.scss'
 

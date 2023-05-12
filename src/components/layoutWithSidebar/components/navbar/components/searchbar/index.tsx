@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 // @ts-ignore
-import DangerousHTML from 'dangerous-html/react'
+import DangerousHTML from 'react-dangerous-html'
 import styles from './styles.module.scss'
 
 export const SearchBar = memo(() => {

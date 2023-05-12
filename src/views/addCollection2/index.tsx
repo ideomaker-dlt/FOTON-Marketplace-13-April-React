@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 // @ts-ignore
-import DangerousHTML from 'dangerous-html/react'
+import DangerousHTML from 'react-dangerous-html'
 import { LayoutWithSidebar } from '@components'
 import './styles.scss'
 
