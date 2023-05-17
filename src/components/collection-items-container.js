@@ -155,6 +155,7 @@ const CollectionItemsContainer = (props) => {
                 <div className="collection-items-container-container09">
                   <input
                     type="checkbox"
+                    checked
                     className="collection-items-container-checkbox03"
                   />
                   <span className="collection-items-container-text22">
@@ -451,22 +452,27 @@ const CollectionItemsContainer = (props) => {
                   <span className="collection-items-container-text51">
                     {props.text4}
                   </span>
+                  <div className="collection-items-container-container34">
+                    <span className="collection-items-container-text52">
+                      # 2537
+                    </span>
+                  </div>
                 </div>
-                <div className="collection-items-container-container34">
+                <div className="collection-items-container-container35">
                   <div className="collection-items-container-floor4">
-                    <span className="collection-items-container-text52 SmallestLabels">
+                    <span className="collection-items-container-text53 SmallestLabels">
                       {props.text20}
                     </span>
-                    <span className="collection-items-container-text53 Content16SemiBold">
+                    <span className="collection-items-container-text54 Content16SemiBold">
                       {props.text21}
                     </span>
                   </div>
                   <div className="collection-items-container-volume244">
-                    <span className="collection-items-container-text54 SmallestLabels">
+                    <span className="collection-items-container-text55 SmallestLabels">
                       {props.text22}
                     </span>
-                    <div className="collection-items-container-container35">
-                      <span className="collection-items-container-text55">
+                    <div className="collection-items-container-container36">
+                      <span className="collection-items-container-text56">
                         {props.text36}
                       </span>
                     </div>
@@ -482,26 +488,26 @@ const CollectionItemsContainer = (props) => {
                 />
               </div>
               <div className="collection-items-container-text-box5">
-                <div className="collection-items-container-container36">
-                  <span className="collection-items-container-text56">
+                <div className="collection-items-container-container37">
+                  <span className="collection-items-container-text57">
                     {props.text5}
                   </span>
                 </div>
-                <div className="collection-items-container-container37">
+                <div className="collection-items-container-container38">
                   <div className="collection-items-container-floor5">
-                    <span className="collection-items-container-text57 SmallestLabels">
+                    <span className="collection-items-container-text58 SmallestLabels">
                       {props.text23}
                     </span>
-                    <span className="collection-items-container-text58 Content16SemiBold">
+                    <span className="collection-items-container-text59 Content16SemiBold">
                       {props.text24}
                     </span>
                   </div>
                   <div className="collection-items-container-volume245">
-                    <span className="collection-items-container-text59 SmallestLabels">
+                    <span className="collection-items-container-text60 SmallestLabels">
                       {props.text25}
                     </span>
-                    <div className="collection-items-container-container38">
-                      <span className="collection-items-container-text60">
+                    <div className="collection-items-container-container39">
+                      <span className="collection-items-container-text61">
                         {props.text37}
                       </span>
                     </div>
@@ -517,26 +523,26 @@ const CollectionItemsContainer = (props) => {
                 />
               </div>
               <div className="collection-items-container-text-box6">
-                <div className="collection-items-container-container39">
-                  <span className="collection-items-container-text61">
+                <div className="collection-items-container-container40">
+                  <span className="collection-items-container-text62">
                     {props.text6}
                   </span>
                 </div>
-                <div className="collection-items-container-container40">
+                <div className="collection-items-container-container41">
                   <div className="collection-items-container-floor6">
-                    <span className="collection-items-container-text62 SmallestLabels">
+                    <span className="collection-items-container-text63 SmallestLabels">
                       {props.text26}
                     </span>
-                    <span className="collection-items-container-text63 Content16SemiBold">
+                    <span className="collection-items-container-text64 Content16SemiBold">
                       {props.text27}
                     </span>
                   </div>
                   <div className="collection-items-container-volume246">
-                    <span className="collection-items-container-text64 SmallestLabels">
+                    <span className="collection-items-container-text65 SmallestLabels">
                       {props.text28}
                     </span>
-                    <div className="collection-items-container-container41">
-                      <span className="collection-items-container-text65">
+                    <div className="collection-items-container-container42">
+                      <span className="collection-items-container-text66">
                         {props.text38}
                       </span>
                     </div>
@@ -552,26 +558,26 @@ const CollectionItemsContainer = (props) => {
                 />
               </div>
               <div className="collection-items-container-text-box7">
-                <div className="collection-items-container-container42">
-                  <span className="collection-items-container-text66">
+                <div className="collection-items-container-container43">
+                  <span className="collection-items-container-text67">
                     {props.text7}
                   </span>
                 </div>
-                <div className="collection-items-container-container43">
+                <div className="collection-items-container-container44">
                   <div className="collection-items-container-floor7">
-                    <span className="collection-items-container-text67 SmallestLabels">
+                    <span className="collection-items-container-text68 SmallestLabels">
                       {props.text29}
                     </span>
-                    <span className="collection-items-container-text68 Content16SemiBold">
+                    <span className="collection-items-container-text69 Content16SemiBold">
                       {props.text30}
                     </span>
                   </div>
                   <div className="collection-items-container-volume247">
-                    <span className="collection-items-container-text69 SmallestLabels">
+                    <span className="collection-items-container-text70 SmallestLabels">
                       {props.text31}
                     </span>
-                    <div className="collection-items-container-container44">
-                      <span className="collection-items-container-text70">
+                    <div className="collection-items-container-container45">
+                      <span className="collection-items-container-text71">
                         {props.text39}
                       </span>
                     </div>
@@ -587,7 +593,7 @@ const CollectionItemsContainer = (props) => {
 }
 
 CollectionItemsContainer.defaultProps = {
-  text35: '2 offers',
+  text35: '3',
   text14: 'Price',
   text20: 'Price',
   text23: 'Price',
@@ -600,7 +606,7 @@ CollectionItemsContainer.defaultProps = {
   text10: 'LISTED',
   text19: 'LISTED',
   text33: 'no offers',
-  text36: '2 offers',
+  text36: '4',
   text24: '16700 XRD',
   text38: '2 offers',
   text39: '2 offers',

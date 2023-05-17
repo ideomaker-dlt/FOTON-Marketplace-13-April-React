@@ -47,7 +47,7 @@ const AddItemsSelector = (props) => {
               &lt; go back
             </Link>
             <span className="add-items-selector-text01">
-              Define your Item below
+              Select the type of items to add
             </span>
           </div>
         </div>
@@ -66,7 +66,7 @@ const AddItemsSelector = (props) => {
               </div>
               <div className="add-items-selector-container07">
                 <h1 className="add-items-selector-text02 Heading3">
-                  Add single Item
+                  Add Single Item
                 </h1>
                 <h1 className="add-items-selector-text03 Content">
                   <span>
@@ -92,24 +92,18 @@ const AddItemsSelector = (props) => {
               </div>
               <div className="add-items-selector-container09">
                 <h1 className="add-items-selector-text06 Heading3">
-                  Add Batch - More items
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                  Add Batch - Layered
                 </h1>
                 <h1 className="add-items-selector-text07 Content">
                   <span>
-                    For collectibles that belong in a Uniform Collection created
-                    previously.
+                    You have Layers and want to generate images for more items.
                   </span>
                   <br></br>
                 </h1>
               </div>
             </div>
           </Link>
-          <Link to="/add-collection2-layered">
+          <Link to="/add-un-layered-batch">
             <div className="add-items-selector-collection2">
               <div className="add-items-selector-container10">
                 <svg
@@ -123,11 +117,12 @@ const AddItemsSelector = (props) => {
               </div>
               <div className="add-items-selector-container11">
                 <h1 className="add-items-selector-text10 Heading3">
-                  Import Batch
+                  Add Batch - Unlayered
                 </h1>
                 <h1 className="add-items-selector-text11 Content">
                   <span>
-                    If you already have images for a Uniform Collection.
+                    You have Ready Made images for more items and want to fill
+                    in their Attributes.
                   </span>
                   <br></br>
                 </h1>

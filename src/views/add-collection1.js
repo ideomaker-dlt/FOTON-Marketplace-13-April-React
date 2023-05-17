@@ -204,7 +204,7 @@ const AddCollection1 = (props) => {
                   <div className="add-collection1-container11">
                     <div className="add-collection1-container12">
                       <Link
-                        to="/add-collection2-non-layered"
+                        to="/add-un-layered-batch"
                         className="add-collection1-navlink2 Content16SemiBold button"
                       >
                         <img
@@ -227,7 +227,7 @@ const AddCollection1 = (props) => {
                           className="add-collection1-image1"
                         />
                         <span className="add-collection1-text035">
-                          <span>I have Layers to generate images</span>
+                          <span>I have Layers to Generate images</span>
                           <br></br>
                         </span>
                       </button>
@@ -244,8 +244,9 @@ const AddCollection1 = (props) => {
                         <span>Add Attributes: </span>
                         <span> </span>
                         <span className="add-collection1-text042">
-                          (You will add their values later for each image
-                          individually. Drag to organise them higher or lower)
+                          (You will add their values later when you add the
+                          items inside this collection. Drag to organise them
+                          higher or lower)
                         </span>
                       </label>
                       <div className="add-collection1-container13">
@@ -600,6 +601,7 @@ const AddCollection1 = (props) => {
           </div>
         </div>
       </LayoutWithSidebar>
+      <div className="add-collection1-container29"></div>
     </div>
   )
 }

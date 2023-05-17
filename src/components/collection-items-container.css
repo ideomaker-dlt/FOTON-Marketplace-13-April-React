@@ -480,7 +480,7 @@
   border-width: 2px;
   margin-right: 0px;
   border-radius: var(--dl-radius-radius-radius8);
-  background-color: var(--dl-color-dark-blue-100);
+  background-color: var(--dl-color-dark-blue-50);
 }
 .collection-items-container-text22 {
   color: var(--dl-color-dark-green-200);
@@ -1378,11 +1378,13 @@
   height: 18px;
   opacity: 0.7;
   margin-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-dark-black);
+  border-width: 1px;
   margin-right: var(--dl-space-space-unit);
   background-color: var(--dl-color-dark-blue-100);
 }
 .collection-items-container-text-box4 {
-  gap: var(--dl-space-space-unit);
+  gap: 12px;
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1392,7 +1394,7 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
   justify-content: flex-start;
 }
 .collection-items-container-container33 {
@@ -1400,7 +1402,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .collection-items-container-text51 {
   color: var(--dl-color-dark-white);
@@ -1419,6 +1421,34 @@
 }
 .collection-items-container-container34 {
   flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  transition: 0.3s;
+  align-items: flex-start;
+  padding-top: 4px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: 8px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 8px;
+  padding-bottom: 2px;
+}
+.collection-items-container-container34:hover {
+  color: var(--dl-color-dark-green-200);
+}
+.collection-items-container-container34:focus-within {
+  color: var(--dl-color-dark-green-200);
+}
+.collection-items-container-text52 {
+  color: var(--dl-color-dark-white);
+  transition: 0.05s;
+}
+.collection-items-container-text52:hover {
+  color: var(--dl-color-dark-green-200);
+}
+.collection-items-container-container35 {
+  flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
@@ -1433,10 +1463,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.collection-items-container-text52 {
+.collection-items-container-text53 {
   color: var(--dl-color-dark-gray-400);
 }
-.collection-items-container-text53 {
+.collection-items-container-text54 {
   color: var(--dl-color-dark-white);
 }
 .collection-items-container-volume244 {
@@ -1444,22 +1474,22 @@
   flex: 1;
   height: 100%;
   display: flex;
-  align-self: flex-end;
+  align-self: flex-start;
   align-items: flex-end;
   flex-direction: column;
   justify-content: flex-end;
 }
-.collection-items-container-text54 {
+.collection-items-container-text55 {
   color: var(--dl-color-dark-green-200);
 }
-.collection-items-container-container35 {
+.collection-items-container-container36 {
   gap: var(--dl-space-space-halfunit);
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.collection-items-container-text55 {
+.collection-items-container-text56 {
   color: var(--dl-color-dark-white);
 }
 .collection-items-container-item15 {
@@ -1518,14 +1548,14 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
 }
-.collection-items-container-container36 {
+.collection-items-container-container37 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-items: flex-start;
 }
-.collection-items-container-text56 {
+.collection-items-container-text57 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: auto;
@@ -1540,7 +1570,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collection-items-container-container37 {
+.collection-items-container-container38 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1556,10 +1586,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.collection-items-container-text57 {
+.collection-items-container-text58 {
   color: var(--dl-color-dark-gray-400);
 }
-.collection-items-container-text58 {
+.collection-items-container-text59 {
   color: var(--dl-color-dark-white);
 }
 .collection-items-container-volume245 {
@@ -1572,17 +1602,17 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-.collection-items-container-text59 {
+.collection-items-container-text60 {
   color: var(--dl-color-dark-green-200);
 }
-.collection-items-container-container38 {
+.collection-items-container-container39 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.collection-items-container-text60 {
+.collection-items-container-text61 {
   color: var(--dl-color-dark-white);
 }
 .collection-items-container-item16 {
@@ -1641,14 +1671,14 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
 }
-.collection-items-container-container39 {
+.collection-items-container-container40 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-items: flex-start;
 }
-.collection-items-container-text61 {
+.collection-items-container-text62 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: auto;
@@ -1663,7 +1693,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collection-items-container-container40 {
+.collection-items-container-container41 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1679,10 +1709,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.collection-items-container-text62 {
+.collection-items-container-text63 {
   color: var(--dl-color-dark-gray-400);
 }
-.collection-items-container-text63 {
+.collection-items-container-text64 {
   color: var(--dl-color-dark-white);
 }
 .collection-items-container-volume246 {
@@ -1695,17 +1725,17 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-.collection-items-container-text64 {
+.collection-items-container-text65 {
   color: var(--dl-color-dark-green-200);
 }
-.collection-items-container-container41 {
+.collection-items-container-container42 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.collection-items-container-text65 {
+.collection-items-container-text66 {
   color: var(--dl-color-dark-white);
 }
 .collection-items-container-item17 {
@@ -1764,14 +1794,14 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: flex-start;
 }
-.collection-items-container-container42 {
+.collection-items-container-container43 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-items: flex-start;
 }
-.collection-items-container-text66 {
+.collection-items-container-text67 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: auto;
@@ -1786,7 +1816,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collection-items-container-container43 {
+.collection-items-container-container44 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1802,10 +1832,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.collection-items-container-text67 {
+.collection-items-container-text68 {
   color: var(--dl-color-dark-gray-400);
 }
-.collection-items-container-text68 {
+.collection-items-container-text69 {
   color: var(--dl-color-dark-white);
 }
 .collection-items-container-volume247 {
@@ -1818,17 +1848,17 @@
   flex-direction: column;
   justify-content: flex-end;
 }
-.collection-items-container-text69 {
+.collection-items-container-text70 {
   color: var(--dl-color-dark-green-200);
 }
-.collection-items-container-container44 {
+.collection-items-container-container45 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.collection-items-container-text70 {
+.collection-items-container-text71 {
   color: var(--dl-color-dark-white);
 }
 @media(max-width: 1200px) {
@@ -2151,15 +2181,18 @@
     font-size: 16px;
   }
   .collection-items-container-text52 {
-    font-size: 11px;
-  }
-  .collection-items-container-text53 {
     font-size: 13px;
   }
-  .collection-items-container-text54 {
+  .collection-items-container-text53 {
     font-size: 11px;
   }
+  .collection-items-container-text54 {
+    font-size: 13px;
+  }
   .collection-items-container-text55 {
+    font-size: 11px;
+  }
+  .collection-items-container-text56 {
     font-size: 13px;
   }
   .collection-items-container-item15 {
@@ -2168,19 +2201,19 @@
   .collection-items-container-image-header5 {
     border-radius: var(--dl-radius-radius-radius8);
   }
-  .collection-items-container-text56 {
+  .collection-items-container-text57 {
     font-size: 16px;
   }
-  .collection-items-container-text57 {
-    font-size: 11px;
-  }
   .collection-items-container-text58 {
-    font-size: 13px;
+    font-size: 11px;
   }
   .collection-items-container-text59 {
-    font-size: 11px;
+    font-size: 13px;
   }
   .collection-items-container-text60 {
+    font-size: 11px;
+  }
+  .collection-items-container-text61 {
     font-size: 13px;
   }
   .collection-items-container-item16 {
@@ -2189,19 +2222,19 @@
   .collection-items-container-image-header6 {
     border-radius: var(--dl-radius-radius-radius8);
   }
-  .collection-items-container-text61 {
+  .collection-items-container-text62 {
     font-size: 16px;
   }
-  .collection-items-container-text62 {
-    font-size: 11px;
-  }
   .collection-items-container-text63 {
-    font-size: 13px;
+    font-size: 11px;
   }
   .collection-items-container-text64 {
-    font-size: 11px;
+    font-size: 13px;
   }
   .collection-items-container-text65 {
+    font-size: 11px;
+  }
+  .collection-items-container-text66 {
     font-size: 13px;
   }
   .collection-items-container-item17 {
@@ -2210,19 +2243,19 @@
   .collection-items-container-image-header7 {
     border-radius: var(--dl-radius-radius-radius8);
   }
-  .collection-items-container-text66 {
+  .collection-items-container-text67 {
     font-size: 16px;
   }
-  .collection-items-container-text67 {
-    font-size: 11px;
-  }
   .collection-items-container-text68 {
-    font-size: 13px;
+    font-size: 11px;
   }
   .collection-items-container-text69 {
-    font-size: 11px;
+    font-size: 13px;
   }
   .collection-items-container-text70 {
+    font-size: 11px;
+  }
+  .collection-items-container-text71 {
     font-size: 13px;
   }
 }

@@ -567,7 +567,7 @@ const RankingPreview2 = (props) => {
 RankingPreview2.defaultProps = {
   text55: '9478',
   text50: 'Philosophical Pirates',
-  text4: '100',
+  text4: '6',
   text52: '+31%',
   text54: '15000',
   text56: '12%',

@@ -11,7 +11,7 @@ const SideMenu = (props) => {
       <div className="side-menu-container hide-scroll">
         <div className="side-menu-container01">
           <span className="side-menu-text material-symbols-outlined">
-            category
+            deblur
           </span>
         </div>
         <div className="side-menu-line-separator"></div>

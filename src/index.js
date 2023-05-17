@@ -13,7 +13,7 @@ import CreatorStudioCollection from './views/creator-studio-collection'
 import AddItem from './views/add-item'
 import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-analytics'
 import CreatorStudio from './views/creator-studio'
-import AddCollection2NonLayered from './views/add-collection2-non-layered'
+import AddUnLayeredBatch from './views/add-un-layered-batch'
 import Stats from './views/stats'
 import CollectorProfile from './views/collector-profile'
 import AddProject from './views/add-project'
@@ -53,9 +53,9 @@ const App = () => {
         />
         <Route component={CreatorStudio} exact path="/creator-studio" />
         <Route
-          component={AddCollection2NonLayered}
+          component={AddUnLayeredBatch}
           exact
-          path="/add-collection2-non-layered"
+          path="/add-un-layered-batch"
         />
         <Route component={Stats} exact path="/stats" />
         <Route component={CollectorProfile} exact path="/collector-profile" />

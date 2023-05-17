@@ -146,7 +146,7 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-200);
 }
 .add-collection-layered-button:hover {
   background-color: var(--dl-color-dark-gray-360);
@@ -186,7 +186,7 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-200);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection-layered-button01:hover {
   background-color: var(--dl-color-dark-gray-360);
@@ -647,9 +647,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  z-index: 100;
-  position: sticky;
-  align-items: flex-start;
+  align-items: center;
   border-color: var(--dl-color-dark-gray-300);
   border-width: 0px;
   padding-left: var(--dl-space-space-halfunit);
@@ -670,10 +668,10 @@
   height: 100%;
   font-style: normal;
   font-weight: 400;
-  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-dark-gray-250);
   border-width: 0px;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
   border-bottom-width: 2px;
 }
 .add-collection-layered-text038 {
@@ -717,7 +715,7 @@
   background-color: var(--dl-color-dark-gray-360);
 }
 .add-collection-layered-button08:hover {
-  background-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-370);
 }
 .add-collection-layered-icon22 {
   width: 24px;
