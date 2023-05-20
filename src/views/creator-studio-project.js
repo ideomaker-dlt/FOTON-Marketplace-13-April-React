@@ -188,6 +188,71 @@ const CreatorStudioProject = (props) => {
         <TabsRowWithButtons></TabsRowWithButtons>
         <CollectionItemsContainer></CollectionItemsContainer>
       </LayoutWithSidebar>
+      <div className="creator-studio-project-bottom-menu">
+        <div className="creator-studio-project-container-left">
+          <span className="creator-studio-project-text39">Selected items:</span>
+          <span className="creator-studio-project-text40">3</span>
+        </div>
+        <div className="creator-studio-project-container-right">
+          <button type="button" className="creator-studio-project-button">
+            <svg
+              viewBox="0 0 1024 1024"
+              className="creator-studio-project-icon fill-color-white"
+            >
+              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+            </svg>
+            <span className="creator-studio-project-text41">
+              <span>
+                Edit
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+            </span>
+          </button>
+          <button type="button" className="creator-studio-project-button1">
+            <svg
+              viewBox="0 0 1024 1024"
+              className="creator-studio-project-icon2 fill-color-white"
+            >
+              <path d="M726 666l-154-154 154-154-60-60-154 154-154-154-60 60 154 154-154 154 60 60 154-154 154 154zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
+            </svg>
+            <span className="creator-studio-project-text44">
+              <span>Cancel</span>
+              <br></br>
+            </span>
+          </button>
+          <Link
+            to="/add-collection2-layered"
+            className="creator-studio-project-navlink4"
+          >
+            <svg
+              viewBox="0 0 1024 1024"
+              className="creator-studio-project-icon4 fill-color-white"
+            >
+              <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+            </svg>
+            <span className="creator-studio-project-text47">
+              <span>Delete</span>
+              <br></br>
+            </span>
+          </Link>
+          <button type="button" className="creator-studio-project-button2">
+            <img
+              src="/playground_assets/mop.svg"
+              alt="image"
+              className="creator-studio-project-image5"
+            />
+            <span className="creator-studio-project-text50">
+              <span>Sweep Floor</span>
+              <br></br>
+            </span>
+          </button>
+        </div>
+      </div>
     </div>
   )
 }
