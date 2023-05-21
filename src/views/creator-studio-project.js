@@ -73,41 +73,118 @@ const CreatorStudioProject = (props) => {
               </Link>
             </div>
           </div>
+          <div className="creator-studio-project-container04">
+            <div
+              data-thq="thq-dropdown"
+              className="creator-studio-project-category list-item"
+            >
+              <div
+                data-thq="thq-dropdown-toggle"
+                className="creator-studio-project-dropdown-toggle"
+              >
+                <span className="creator-studio-project-text10">Category</span>
+                <div
+                  data-thq="thq-dropdown-arrow"
+                  className="creator-studio-project-dropdown-arrow"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    className="creator-studio-project-icon"
+                  >
+                    <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                  </svg>
+                </div>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="creator-studio-project-icon02 fill-color-gray"
+                >
+                  <path d="M512 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM512 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM512 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26z"></path>
+                </svg>
+              </div>
+              <ul
+                data-thq="thq-dropdown-list"
+                className="creator-studio-project-dropdown-list"
+              >
+                <li
+                  data-thq="thq-dropdown"
+                  className="creator-studio-project-dropdown list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="creator-studio-project-dropdown-toggle1"
+                  >
+                    <span className="creator-studio-project-text11">Edit</span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="creator-studio-project-dropdown1 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="creator-studio-project-dropdown-toggle2"
+                  >
+                    <span className="creator-studio-project-text12">
+                      Duplicate
+                    </span>
+                  </div>
+                </li>
+                <li
+                  data-thq="thq-dropdown"
+                  className="creator-studio-project-dropdown2 list-item"
+                >
+                  <div
+                    data-thq="thq-dropdown-toggle"
+                    className="creator-studio-project-dropdown-toggle3"
+                  >
+                    <span className="creator-studio-project-text13">
+                      Delete
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className="creator-studio-project-tabs-row">
-          <div className="creator-studio-project-container04">
+          <div className="creator-studio-project-container05">
             <Link
               to="/creator-studio"
               className="creator-studio-project-navlink2"
             >
               &lt; go back
             </Link>
-            <span className="creator-studio-project-text10">
+            <span className="creator-studio-project-text14">
               My Collections
             </span>
           </div>
         </div>
         <div className="creator-studio-project-collections-container">
-          <div className="creator-studio-project-container05">
+          <div className="creator-studio-project-container06">
             <Link to="/creator-studio-collection">
               <div className="creator-studio-project-collection">
-                <div className="creator-studio-project-container06">
+                <div className="creator-studio-project-container07">
                   <img
                     src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                     className="creator-studio-project-image1"
                   />
                 </div>
-                <div className="creator-studio-project-container07">
-                  <div className="creator-studio-project-container08">
-                    <h1 className="creator-studio-project-text11 Smallest">
+                <div className="creator-studio-project-container08">
+                  <div className="creator-studio-project-container09">
+                    <h1 className="creator-studio-project-text15 Smallest">
                       <span>Role: Admin</span>
                       <br></br>
                     </h1>
                   </div>
-                  <h1 className="creator-studio-project-text14 Heading3">
+                  <h1 className="creator-studio-project-text18 Heading3">
                     Collection One
                   </h1>
-                  <h1 className="creator-studio-project-text15 Content">
+                  <h1 className="creator-studio-project-text19 Content">
                     <span>1500 Items</span>
                     <br></br>
                   </h1>
@@ -115,69 +192,69 @@ const CreatorStudioProject = (props) => {
               </div>
             </Link>
             <div className="creator-studio-project-collection1">
-              <div className="creator-studio-project-container09">
+              <div className="creator-studio-project-container10">
                 <img
                   src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="creator-studio-project-image2"
                 />
               </div>
-              <div className="creator-studio-project-container10">
-                <div className="creator-studio-project-container11">
-                  <h1 className="creator-studio-project-text18 Smallest">
+              <div className="creator-studio-project-container11">
+                <div className="creator-studio-project-container12">
+                  <h1 className="creator-studio-project-text22 Smallest">
                     <span>Role: Admin</span>
                     <br></br>
                   </h1>
                 </div>
-                <h1 className="creator-studio-project-text21 Heading3">
+                <h1 className="creator-studio-project-text25 Heading3">
                   Collection One
                 </h1>
-                <h1 className="creator-studio-project-text22 Content">
+                <h1 className="creator-studio-project-text26 Content">
                   <span>1500 Items</span>
                   <br></br>
                 </h1>
               </div>
             </div>
             <div className="creator-studio-project-collection2">
-              <div className="creator-studio-project-container12">
+              <div className="creator-studio-project-container13">
                 <img
                   src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="creator-studio-project-image3"
                 />
               </div>
-              <div className="creator-studio-project-container13">
-                <div className="creator-studio-project-container14">
-                  <h1 className="creator-studio-project-text25 Smallest">
+              <div className="creator-studio-project-container14">
+                <div className="creator-studio-project-container15">
+                  <h1 className="creator-studio-project-text29 Smallest">
                     <span>Role: Admin</span>
                     <br></br>
                   </h1>
                 </div>
-                <h1 className="creator-studio-project-text28 Heading3">
+                <h1 className="creator-studio-project-text32 Heading3">
                   Collection One
                 </h1>
-                <h1 className="creator-studio-project-text29 Content">
+                <h1 className="creator-studio-project-text33 Content">
                   <span>1500 Items</span>
                   <br></br>
                 </h1>
               </div>
             </div>
             <div className="creator-studio-project-collection3">
-              <div className="creator-studio-project-container15">
+              <div className="creator-studio-project-container16">
                 <img
                   src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="creator-studio-project-image4"
                 />
               </div>
-              <div className="creator-studio-project-container16">
-                <div className="creator-studio-project-container17">
-                  <h1 className="creator-studio-project-text32 Smallest">
+              <div className="creator-studio-project-container17">
+                <div className="creator-studio-project-container18">
+                  <h1 className="creator-studio-project-text36 Smallest">
                     <span>Role: Admin</span>
                     <br></br>
                   </h1>
                 </div>
-                <h1 className="creator-studio-project-text35 Heading3">
+                <h1 className="creator-studio-project-text39 Heading3">
                   Collection One
                 </h1>
-                <h1 className="creator-studio-project-text36 Content">
+                <h1 className="creator-studio-project-text40 Content">
                   <span>1500 Items</span>
                   <br></br>
                 </h1>
@@ -190,18 +267,18 @@ const CreatorStudioProject = (props) => {
       </LayoutWithSidebar>
       <div className="creator-studio-project-bottom-menu">
         <div className="creator-studio-project-container-left">
-          <span className="creator-studio-project-text39">Selected items:</span>
-          <span className="creator-studio-project-text40">3</span>
+          <span className="creator-studio-project-text43">Selected items:</span>
+          <span className="creator-studio-project-text44">3</span>
         </div>
         <div className="creator-studio-project-container-right">
           <button type="button" className="creator-studio-project-button">
             <svg
               viewBox="0 0 1024 1024"
-              className="creator-studio-project-icon fill-color-white"
+              className="creator-studio-project-icon04 fill-color-white"
             >
               <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
             </svg>
-            <span className="creator-studio-project-text41">
+            <span className="creator-studio-project-text45">
               <span>
                 Edit
                 <span
@@ -216,11 +293,11 @@ const CreatorStudioProject = (props) => {
           <button type="button" className="creator-studio-project-button1">
             <svg
               viewBox="0 0 1024 1024"
-              className="creator-studio-project-icon2 fill-color-white"
+              className="creator-studio-project-icon06 fill-color-white"
             >
               <path d="M726 666l-154-154 154-154-60-60-154 154-154-154-60 60 154 154-154 154 60 60 154-154 154 154zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
             </svg>
-            <span className="creator-studio-project-text44">
+            <span className="creator-studio-project-text48">
               <span>Cancel</span>
               <br></br>
             </span>
@@ -231,22 +308,22 @@ const CreatorStudioProject = (props) => {
           >
             <svg
               viewBox="0 0 1024 1024"
-              className="creator-studio-project-icon4 fill-color-white"
+              className="creator-studio-project-icon08 fill-color-white"
             >
               <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
             </svg>
-            <span className="creator-studio-project-text47">
+            <span className="creator-studio-project-text51">
               <span>Delete</span>
               <br></br>
             </span>
           </Link>
           <button type="button" className="creator-studio-project-button2">
             <img
-              src="/playground_assets/mop.svg"
               alt="image"
+              src="/playground_assets/mop.svg"
               className="creator-studio-project-image5"
             />
-            <span className="creator-studio-project-text50">
+            <span className="creator-studio-project-text54">
               <span>Sweep Floor</span>
               <br></br>
             </span>
