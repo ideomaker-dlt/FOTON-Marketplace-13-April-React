@@ -15,6 +15,7 @@ import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-
 import CreatorStudio from './views/creator-studio'
 import AddUnLayeredBatch from './views/add-un-layered-batch'
 import Stats from './views/stats'
+import ListCollection from './views/list-collection'
 import CollectorProfile from './views/collector-profile'
 import AddProject from './views/add-project'
 import Home from './views/home'
@@ -58,6 +59,7 @@ const App = () => {
           path="/add-un-layered-batch"
         />
         <Route component={Stats} exact path="/stats" />
+        <Route component={ListCollection} exact path="/list-collection" />
         <Route component={CollectorProfile} exact path="/collector-profile" />
         <Route component={AddProject} exact path="/add-project" />
         <Route component={Home} exact path="/" />

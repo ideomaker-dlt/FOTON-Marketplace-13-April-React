@@ -149,8 +149,17 @@ const CreatorStudioCollection = (props) => {
                     <br></br>
                   </span>
                 </Link>
-                <button className="creator-studio-collection-button button">
+                <Link
+                  to="/list-collection"
+                  className="creator-studio-collection-navlink1 button"
+                >
                   <span className="creator-studio-collection-text14">
+                    <span>List</span>
+                    <br></br>
+                  </span>
+                </Link>
+                <button className="creator-studio-collection-button button">
+                  <span className="creator-studio-collection-text17">
                     <span>List</span>
                     <br></br>
                   </span>
@@ -162,7 +171,7 @@ const CreatorStudioCollection = (props) => {
                   >
                     <path d="M512 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM512 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM512 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26z"></path>
                   </svg>
-                  <span className="creator-studio-collection-text17">
+                  <span className="creator-studio-collection-text20">
                     <span>Edit</span>
                     <br></br>
                   </span>
@@ -175,7 +184,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle04"
                   >
-                    <span className="creator-studio-collection-text20">
+                    <span className="creator-studio-collection-text23">
                       List
                     </span>
                     <div
@@ -208,7 +217,7 @@ const CreatorStudioCollection = (props) => {
                         data-thq="thq-dropdown-toggle"
                         className="creator-studio-collection-dropdown-toggle05"
                       >
-                        <span className="creator-studio-collection-text21">
+                        <span className="creator-studio-collection-text24">
                           List via Drops
                         </span>
                       </div>
@@ -221,7 +230,7 @@ const CreatorStudioCollection = (props) => {
                         data-thq="thq-dropdown-toggle"
                         className="creator-studio-collection-dropdown-toggle06"
                       >
-                        <span className="creator-studio-collection-text22">
+                        <span className="creator-studio-collection-text25">
                           List for Minting 
                         </span>
                       </div>
@@ -234,7 +243,7 @@ const CreatorStudioCollection = (props) => {
                         data-thq="thq-dropdown-toggle"
                         className="creator-studio-collection-dropdown-toggle07"
                       >
-                        <span className="creator-studio-collection-text23">
+                        <span className="creator-studio-collection-text26">
                           Mint it Myself
                         </span>
                       </div>
@@ -249,11 +258,11 @@ const CreatorStudioCollection = (props) => {
           <div className="creator-studio-collection-container8">
             <Link
               to="/creator-studio-project"
-              className="creator-studio-collection-navlink1"
+              className="creator-studio-collection-navlink2"
             >
               &lt; go back
             </Link>
-            <span className="creator-studio-collection-text24">My Items</span>
+            <span className="creator-studio-collection-text27">My Items</span>
           </div>
           <div className="creator-studio-collection-filter-buttons">
             <button type="button" className="creator-studio-collection-button2">
@@ -263,32 +272,32 @@ const CreatorStudioCollection = (props) => {
               >
                 <path d="M182 242q-12-14-12-28 0-18 13-31t31-13h596q18 0 31 13t13 31q2 12-10 26l-246 314v256q0 18-12 31t-30 13h-86q-18 0-31-13t-13-31v-256q-240-306-244-312z"></path>
               </svg>
-              <span className="creator-studio-collection-text25">
+              <span className="creator-studio-collection-text28">
                 <span>Filters</span>
                 <br></br>
               </span>
             </button>
             <div className="creator-studio-collection-timeframe">
               <button className="creator-studio-collection-button3">
-                <span className="creator-studio-collection-text28">
+                <span className="creator-studio-collection-text31">
                   <span>1h</span>
                   <br></br>
                 </span>
               </button>
               <button className="creator-studio-collection-button4">
-                <span className="creator-studio-collection-text31">
+                <span className="creator-studio-collection-text34">
                   <span>6h</span>
                   <br></br>
                 </span>
               </button>
               <button className="creator-studio-collection-button5">
-                <span className="creator-studio-collection-text34">
+                <span className="creator-studio-collection-text37">
                   <span>24h</span>
                   <br></br>
                 </span>
               </button>
               <button className="creator-studio-collection-button6">
-                <span className="creator-studio-collection-text37">
+                <span className="creator-studio-collection-text40">
                   <span>7d</span>
                   <br></br>
                 </span>
@@ -308,7 +317,7 @@ const CreatorStudioCollection = (props) => {
                 >
                   <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
                 </svg>
-                <span className="creator-studio-collection-text40">
+                <span className="creator-studio-collection-text43">
                   Sort by Status
                 </span>
                 <div
@@ -335,7 +344,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle09"
                   >
-                    <span className="creator-studio-collection-text41">
+                    <span className="creator-studio-collection-text44">
                       Name
                     </span>
                   </div>
@@ -343,7 +352,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle10"
                   >
-                    <span className="creator-studio-collection-text42">
+                    <span className="creator-studio-collection-text45">
                       Price Low to High
                     </span>
                   </div>
@@ -351,7 +360,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle11"
                   >
-                    <span className="creator-studio-collection-text43">
+                    <span className="creator-studio-collection-text46">
                       Price High to Low
                     </span>
                   </div>
@@ -359,7 +368,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle12"
                   >
-                    <span className="creator-studio-collection-text44">
+                    <span className="creator-studio-collection-text47">
                       Status
                     </span>
                   </div>
@@ -367,7 +376,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle13"
                   >
-                    <span className="creator-studio-collection-text45">
+                    <span className="creator-studio-collection-text48">
                       Most Rare
                     </span>
                   </div>
@@ -375,7 +384,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle14"
                   >
-                    <span className="creator-studio-collection-text46">
+                    <span className="creator-studio-collection-text49">
                       Newest Listed
                     </span>
                   </div>
@@ -383,7 +392,7 @@ const CreatorStudioCollection = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="creator-studio-collection-dropdown-toggle15"
                   >
-                    <span className="creator-studio-collection-text47">
+                    <span className="creator-studio-collection-text50">
                       Oldest
                     </span>
                   </div>
@@ -397,7 +406,7 @@ const CreatorStudioCollection = (props) => {
               >
                 <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
               </svg>
-              <span className="creator-studio-collection-text48">
+              <span className="creator-studio-collection-text51">
                 <span>Select All</span>
                 <br></br>
               </span>
