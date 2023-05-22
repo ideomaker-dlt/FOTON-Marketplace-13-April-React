@@ -189,7 +189,22 @@ const CollectionDropPage = (props) => {
                   </span>
                 </p>
               </div>
-              <div className="collection-drop-page-about1">
+              <div className="collection-drop-page-items-example">
+                <div className="collection-drop-page-selected-image">
+                  <img
+                    src="/playground_assets/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_ca187c73-4361-4257-92dd-492fd841d827-1500w.png"
+                    alt="image"
+                    className="collection-drop-page-image1"
+                  />
+                </div>
+                <div className="collection-drop-page-four-examples">
+                  <div className="collection-drop-page-selected-image1"></div>
+                  <div className="collection-drop-page-selected-image2"></div>
+                  <div className="collection-drop-page-selected-image3"></div>
+                  <div className="collection-drop-page-selected-image4"></div>
+                </div>
+              </div>
+              <div className="collection-drop-page-mint-panel">
                 <div className="collection-drop-page-container12">
                   <label className="collection-drop-page-text35">
                     Minting Details
@@ -242,22 +257,59 @@ const CollectionDropPage = (props) => {
                   <img
                     alt="image"
                     src="/playground_assets/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_deso_556dbc6d-d05c-43d6-b5a3-019912494a61-1500w.png"
-                    className="collection-drop-page-image1"
+                    className="collection-drop-page-image2"
                   />
                 </div>
                 <div className="collection-drop-page-item-image1">
                   <img
                     alt="image"
                     src="/playground_assets/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
-                    className="collection-drop-page-image2"
+                    className="collection-drop-page-image3"
                   />
                 </div>
                 <div className="collection-drop-page-item-image2">
                   <img
                     alt="image"
                     src="/playground_assets/vlad__foton.is__radix.stream_character_mood_board_from_3_angles_e1a1e6fb-e0fe-497f-9fce-c022e03dd47a-1500w.png"
-                    className="collection-drop-page-image3"
+                    className="collection-drop-page-image4"
                   />
+                </div>
+                <div className="collection-drop-page-about1">
+                  <div className="collection-drop-page-container16">
+                    <label className="collection-drop-page-text50">
+                      Roadmap and/or Risks
+                    </label>
+                  </div>
+                  <div className="collection-drop-page-container17"></div>
+                  <p className="collection-drop-page-text51">
+                    <span>
+                      In the year 2050, humanity had exhausted the resources of
+                      Earth and faced the grim reality of its impending demise.
+                      But hope was not lost, for a team of scientists had
+                      discovered a new planet, similar to Mars, that could
+                      sustain human life. A mission was launched to establish a
+                      colony on this distant world, and after years of travel,
+                      the first settlers arrived.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      The new planet, named Nova, was a harsh and unforgiving
+                      environment. The colonists had to contend with intense
+                      radiation, extreme temperatures, and unpredictable weather
+                      patterns. But with their advanced technology and
+                      unyielding determination, they managed to establish a
+                      self-sustaining colony and began the process of
+                      terraforming the planet.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      As the years passed, the colonists adapted to their new
+                      home and formed a thriving society. They built towering
+                      cities, cultivated vast fields of crops, and explored the
+                      uncharted regions of the planet. But they soon discovered
+                      that they were not alone on Nova.
+                    </span>
+                  </p>
                 </div>
               </div>
             </div>

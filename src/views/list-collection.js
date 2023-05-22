@@ -87,7 +87,7 @@ const ListCollection = (props) => {
                   <input
                     type="text"
                     placeholder="2..."
-                    className="list-collection-textinput02 focus-reset-forms Content16SemiBold input"
+                    className="list-collection-textinput02 focus-reset-forms input Content16SemiBold"
                   />
                 </div>
                 <div className="list-collection-area">
@@ -171,7 +171,7 @@ const ListCollection = (props) => {
                     <input
                       type="text"
                       placeholder="Upload images..."
-                      className="list-collection-textinput04 focus-reset-forms input Content16SemiBold"
+                      className="list-collection-textinput04 focus-reset-forms Content16SemiBold input"
                     />
                     <button className="list-collection-button1 button Content16SemiBold">
                       <svg
@@ -233,7 +233,7 @@ const ListCollection = (props) => {
                     <input
                       type="text"
                       placeholder="14:00 UCT"
-                      className="list-collection-textinput06 focus-reset-forms input Content16SemiBold"
+                      className="list-collection-textinput06 focus-reset-forms Content16SemiBold input"
                     />
                     <button className="list-collection-button3 button Content16SemiBold">
                       <svg
@@ -270,7 +270,7 @@ const ListCollection = (props) => {
                       placeholder="14:00 UCT"
                       className="list-collection-textinput08 focus-reset-forms input Content16SemiBold"
                     />
-                    <button className="list-collection-button5 button Content16SemiBold">
+                    <button className="list-collection-button5 Content16SemiBold button">
                       <svg
                         viewBox="0 0 1024 1024"
                         className="list-collection-icon24 fill-color-gray"
@@ -330,7 +330,7 @@ const ListCollection = (props) => {
                     type="text"
                     enctype="150..."
                     placeholder="rdxhkasfj..."
-                    className="list-collection-textinput09 focus-reset-forms Content16SemiBold input"
+                    className="list-collection-textinput09 focus-reset-forms input Content16SemiBold"
                   />
                 </div>
                 <div className="list-collection-bottom-buttons1">
