@@ -766,6 +766,7 @@
   width: 100%;
   height: 50px;
   display: flex;
+  z-index: 50;
   position: sticky;
   align-items: center;
   border-color: var(--dl-color-dark-gray-300);
