@@ -33,7 +33,7 @@ const CollectionPage = (props) => {
           <div className="collection-page-image-header">
             <img
               alt="image"
-              src="/playground_assets/vlad__foton.is__radix.stream_pirates_tropical_island_illustrati_766cf345-d799-426c-ac63-a659abb90994-1500w.png"
+              src="/vlad__foton.is__radix.stream_pirates_tropical_island_illustrati_766cf345-d799-426c-ac63-a659abb90994-1500w.png"
               className="collection-page-image"
             />
           </div>
@@ -41,7 +41,7 @@ const CollectionPage = (props) => {
             <div className="collection-page-container2">
               <div className="collection-page-avatar-logo">
                 <img
-                  src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
+                  src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="collection-page-image1"
                 />
               </div>

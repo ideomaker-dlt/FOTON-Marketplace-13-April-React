@@ -11,6 +11,7 @@
   --dl-color-success-300: #199033;
   --dl-size-size-xxlarge: 288px;
   --dl-color-dark-blue-50: #23333bff;
+  --dl-color-dark-red-100: #d83b58ff;
   --dl-color-dark-red-200: #ff4b6cff;
   --dl-size-size-maxwidth: 1400px;
   --dl-color-dark-blue-100: #3579aaff;
@@ -136,7 +137,7 @@
   flex-direction: column;
   background-size: cover;
   justify-content: flex-end;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_068329de-a4e1-486d-96e3-c21a1d066cdf-1500w.png");
+  background-image: url("/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_068329de-a4e1-486d-96e3-c21a1d066cdf-1500w.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -232,6 +233,26 @@
 .fil {
   width: 24px;
   height: 24px;
+}
+.range2 {
+  padding: 0px;
+}
+
+.item-layer {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  position: relative;
+  transition: 0.05s;
+  align-items: flex-start;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.item-layer:hover {
+  border-color: var(--dl-color-dark-darkergreen);
 }
 .Content16SemiBold {
   font-size: 16px;
@@ -366,6 +387,9 @@
   .padding-4px-left {
     font-size: 13px;
     line-height: 1.3;
+  }
+  .item-layer {
+    border-radius: var(--dl-radius-radius-radius8);
   }
 }
 @media(max-width: 479px) {

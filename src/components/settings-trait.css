@@ -1,0 +1,40 @@
+.settings-trait-container {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  transition: 0.05s;
+  align-items: center;
+  border-color: #787878;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("/inflow_spaceman_full_body_happy_cartoon_4k_f2f5b719-594c-4cca-ab4d-95de70515d23-200h.png");
+}
+.settings-trait-container:hover {
+  border-color: var(--dl-color-dark-green-200);
+}
+.settings-trait-hover-icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 156, 117, 0.8);
+}
+.settings-trait-icon {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 767px) {
+  .settings-trait-container {
+    width: 40px;
+    height: 40px;
+  }
+}

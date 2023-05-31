@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import LayoutWithSidebar from '../components/layout-with-sidebar'
+import RankingPreview from '../components/ranking-preview'
 import TrendingCarousel1 from '../components/trending-carousel1'
 import './home.css'
 
@@ -96,6 +97,7 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-collections">
+          <RankingPreview></RankingPreview>
           <TrendingCarousel1 rootClassName="trending-carousel1-root-class-name"></TrendingCarousel1>
           <TrendingCarousel1 rootClassName="trending-carousel1-root-class-name2"></TrendingCarousel1>
           <TrendingCarousel1 rootClassName="trending-carousel1-root-class-name1"></TrendingCarousel1>

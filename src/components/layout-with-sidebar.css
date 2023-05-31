@@ -53,7 +53,7 @@
   display: flex;
   align-items: flex-start;
   background-size: contain;
-  background-image: url("/playground_assets/sidemenu-icon.svg");
+  background-image: url("/sidemenu-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -70,7 +70,7 @@
   background-size: contain;
   justify-content: flex-start;
   text-decoration: none;
-  background-image: url("/playground_assets/foton%20logo%20white.svg");
+  background-image: url("/foton%20logo%20white.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -725,7 +725,7 @@
   border-width: 2px;
   border-radius: var(--dl-radius-radius-round);
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_funny_cartoon_character_in_the_sty_98d91502-c00e-4158-af06-43df0dbd30b7-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_funny_cartoon_character_in_the_sty_98d91502-c00e-4158-af06-43df0dbd30b7-200h.png");
 }
 .layout-with-sidebar-avatar:hover {
   border-color: var(--dl-color-dark-green-200);
@@ -770,7 +770,7 @@
   border-width: 2px;
   border-radius: var(--dl-radius-radius-round);
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_funny_cartoon_character_in_the_sty_98d91502-c00e-4158-af06-43df0dbd30b7-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_funny_cartoon_character_in_the_sty_98d91502-c00e-4158-af06-43df0dbd30b7-200h.png");
 }
 .layout-with-sidebar-dropdown-list1 {
   right: 0;
@@ -1201,6 +1201,9 @@
   flex-direction: column;
   background-color: var(--dl-color-dark-gray-200);
 }
+
+
+
 
 
 

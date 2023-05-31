@@ -119,7 +119,7 @@ const CreatorStudioCollection = (props) => {
               <div className="creator-studio-collection-container5">
                 <div className="creator-studio-collection-avatar-logo">
                   <img
-                    src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
+                    src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                     className="creator-studio-collection-image"
                   />
                 </div>

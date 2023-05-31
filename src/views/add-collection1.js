@@ -194,7 +194,7 @@ const AddCollection1 = (props) => {
                     type="text"
                     enctype="The Funky Apes Crew..."
                     placeholder="15000..."
-                    className="add-collection1-textinput1 Content16SemiBold focus-reset-forms input"
+                    className="add-collection1-textinput01 Content16SemiBold focus-reset-forms input"
                   />
                 </div>
                 <div className="add-collection1-type-of-images">
@@ -209,7 +209,7 @@ const AddCollection1 = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/playground_assets/cover.svg"
+                          src="/cover.svg"
                           className="add-collection1-image"
                         />
                         <span className="add-collection1-text032">
@@ -223,7 +223,7 @@ const AddCollection1 = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/playground_assets/layers%20icon.svg"
+                          src="/layers%20icon.svg"
                           className="add-collection1-image1"
                         />
                         <span className="add-collection1-text035">
@@ -253,7 +253,7 @@ const AddCollection1 = (props) => {
                         <input
                           type="text"
                           placeholder="Attribute name...Eyes, Nose, Hair..."
-                          className="add-collection1-textinput2 Content16SemiBold focus-reset-forms input"
+                          className="add-collection1-textinput02 Content16SemiBold focus-reset-forms input"
                         />
                         <button className="add-collection1-button04 Content16SemiBold button">
                           <svg
@@ -357,7 +357,7 @@ const AddCollection1 = (props) => {
                     type="text"
                     enctype="The Funky Apes Crew..."
                     placeholder="Funky Ape #&#123;&#123;id&#125;&#125;"
-                    className="add-collection1-textinput3 focus-reset-forms input Content16SemiBold"
+                    className="add-collection1-textinput03 focus-reset-forms input Content16SemiBold"
                   />
                 </div>
                 <div className="add-collection1-area">
@@ -387,7 +387,7 @@ const AddCollection1 = (props) => {
                     <input
                       type="text"
                       placeholder="Upload image..."
-                      className="add-collection1-textinput4 focus-reset-forms input Content16SemiBold"
+                      className="add-collection1-textinput04 focus-reset-forms input Content16SemiBold"
                     />
                     <button className="add-collection1-button08 button Content16SemiBold">
                       <svg
@@ -416,7 +416,7 @@ const AddCollection1 = (props) => {
                     <input
                       type="text"
                       placeholder="Upload image..."
-                      className="add-collection1-textinput5 focus-reset-forms Content16SemiBold input"
+                      className="add-collection1-textinput05 focus-reset-forms Content16SemiBold input"
                     />
                     <button className="add-collection1-button09 button Content16SemiBold">
                       <svg
@@ -445,7 +445,7 @@ const AddCollection1 = (props) => {
                     <input
                       type="text"
                       placeholder="Upload image..."
-                      className="add-collection1-textinput6 focus-reset-forms Content16SemiBold input"
+                      className="add-collection1-textinput06 focus-reset-forms Content16SemiBold input"
                     />
                     <button className="add-collection1-button10 button Content16SemiBold">
                       <svg
@@ -544,9 +544,42 @@ const AddCollection1 = (props) => {
                     </button>
                   </div>
                 </div>
+                <div className="add-collection1-field4">
+                  <label className="add-collection1-text084 padding-4px-left Content">
+                    Link to Webpage (optional):
+                  </label>
+                  <input
+                    type="text"
+                    enctype="The Funky Apes Crew..."
+                    placeholder="https://www.mywebpage.com"
+                    className="add-collection1-textinput07 focus-reset-forms Content16SemiBold input"
+                  />
+                </div>
+                <div className="add-collection1-field5">
+                  <label className="add-collection1-text085 Content padding-4px-left">
+                    Link to Twitter page (optional):
+                  </label>
+                  <input
+                    type="text"
+                    enctype="The Funky Apes Crew..."
+                    placeholder="https://twitter.com/FotonSDK"
+                    className="add-collection1-textinput08 focus-reset-forms input Content16SemiBold"
+                  />
+                </div>
+                <div className="add-collection1-field6">
+                  <label className="add-collection1-text086 Content padding-4px-left">
+                    Link to Telegram group (optional):
+                  </label>
+                  <input
+                    type="text"
+                    enctype="The Funky Apes Crew..."
+                    placeholder="https://t.me/FotonMarketplace"
+                    className="add-collection1-textinput09 focus-reset-forms input Content16SemiBold"
+                  />
+                </div>
                 <div className="add-collection1-bottom-buttons">
                   <button className="add-collection1-button19 button">
-                    <span className="add-collection1-text084">
+                    <span className="add-collection1-text087">
                       <span>Save Draft</span>
                       <br></br>
                     </span>
@@ -555,7 +588,7 @@ const AddCollection1 = (props) => {
                     to="/add-collection2-layered"
                     className="add-collection1-navlink3 button"
                   >
-                    <span className="add-collection1-text087">
+                    <span className="add-collection1-text090">
                       <span>Create Collection</span>
                       <br></br>
                     </span>
@@ -570,11 +603,11 @@ const AddCollection1 = (props) => {
               </form>
               <div className="add-collection1-info-box">
                 <div className="add-collection1-container28">
-                  <h1 className="add-collection1-text090 Content18">
+                  <h1 className="add-collection1-text093 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="add-collection1-text093">
+                  <span className="add-collection1-text096">
                     <span>
                       Collections on FOTON are similar to folders on your PC.
                       Until you add items inside them they are just an empty box

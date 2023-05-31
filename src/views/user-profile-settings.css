@@ -27,7 +27,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   background-size: cover;
   justify-content: flex-end;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirates_tropical_island_surrounded_76234baf-9c5d-4ffd-9df1-70336854b375-1500w.png");
+  background-image: url("/vlad__foton.is__radix.stream_pirates_tropical_island_surrounded_76234baf-9c5d-4ffd-9df1-70336854b375-1500w.png");
   background-position: center;
 }
 .user-profile-settings-container01 {
@@ -306,7 +306,7 @@
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
   border-width: 2px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: var(--dl-radius-radius-round);
   justify-content: center;
 }
 .user-profile-settings-container06:hover {

@@ -103,7 +103,7 @@ const AddItem = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/playground_assets/contain.svg"
+                          src="/contain.svg"
                           className="add-item-image"
                         />
                         <span className="add-item-text06">
@@ -124,7 +124,7 @@ const AddItem = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/playground_assets/cover.svg"
+                          src="/cover.svg"
                           className="add-item-image1"
                         />
                         <span className="add-item-text09">

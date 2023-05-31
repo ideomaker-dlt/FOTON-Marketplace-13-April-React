@@ -27,7 +27,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   background-size: cover;
   justify-content: flex-end;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_launch_of_a_geometric_rocket_with__07d686d1-ac67-4445-8604-8ef1e9f56803-1500w.png");
+  background-image: url("/vlad__foton.is__radix.stream_launch_of_a_geometric_rocket_with__07d686d1-ac67-4445-8604-8ef1e9f56803-1500w.png");
   background-position: center;
 }
 .add-collection1-container01 {
@@ -503,7 +503,7 @@
 .add-collection1-text030 {
   color: var(--dl-color-dark-white);
 }
-.add-collection1-textinput1 {
+.add-collection1-textinput01 {
   color: var(--dl-color-dark-white);
   height: 50px;
   transition: 0.3s;
@@ -512,7 +512,7 @@
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-dark-gray-300);
 }
-.add-collection1-textinput1:focus {
+.add-collection1-textinput01:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -626,7 +626,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.add-collection1-textinput2 {
+.add-collection1-textinput02 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: 50px;
@@ -639,7 +639,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.add-collection1-textinput2:focus {
+.add-collection1-textinput02:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -898,7 +898,7 @@
 .add-collection1-text053 {
   color: var(--dl-color-dark-gray-400);
 }
-.add-collection1-textinput3 {
+.add-collection1-textinput03 {
   color: var(--dl-color-dark-white);
   height: 50px;
   transition: 0.3s;
@@ -907,7 +907,7 @@
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-dark-gray-300);
 }
-.add-collection1-textinput3:focus {
+.add-collection1-textinput03:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -971,7 +971,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.add-collection1-textinput4 {
+.add-collection1-textinput04 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: 50px;
@@ -984,7 +984,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.add-collection1-textinput4:focus {
+.add-collection1-textinput04:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1051,7 +1051,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.add-collection1-textinput5 {
+.add-collection1-textinput05 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: 50px;
@@ -1064,7 +1064,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.add-collection1-textinput5:focus {
+.add-collection1-textinput05:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1131,7 +1131,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.add-collection1-textinput6 {
+.add-collection1-textinput06 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: 50px;
@@ -1144,7 +1144,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.add-collection1-textinput6:focus {
+.add-collection1-textinput06:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1428,6 +1428,69 @@
   font-style: normal;
   font-weight: 600;
 }
+.add-collection1-field4 {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.add-collection1-text084 {
+  color: var(--dl-color-dark-white);
+}
+.add-collection1-textinput07 {
+  color: var(--dl-color-dark-white);
+  height: 50px;
+  transition: 0.3s;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.add-collection1-textinput07:focus {
+  border-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.add-collection1-field5 {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.add-collection1-text085 {
+  color: var(--dl-color-dark-white);
+}
+.add-collection1-textinput08 {
+  color: var(--dl-color-dark-white);
+  height: 50px;
+  transition: 0.3s;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.add-collection1-textinput08:focus {
+  border-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.add-collection1-field6 {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.add-collection1-text086 {
+  color: var(--dl-color-dark-white);
+}
+.add-collection1-textinput09 {
+  color: var(--dl-color-dark-white);
+  height: 50px;
+  transition: 0.3s;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.add-collection1-textinput09:focus {
+  border-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-gray-360);
+}
 .add-collection1-bottom-buttons {
   gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
@@ -1520,11 +1583,11 @@
   padding-bottom: var(--dl-space-space-fourunits);
   justify-content: flex-start;
 }
-.add-collection1-text090 {
+.add-collection1-text093 {
   color: var(--dl-color-dark-darkergreen);
   font-style: normal;
 }
-.add-collection1-text093 {
+.add-collection1-text096 {
   color: var(--dl-color-dark-white);
   line-height: 1.4;
 }
@@ -1817,7 +1880,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
-  .add-collection1-text084 {
+  .add-collection1-text087 {
     font-size: 16px;
   }
   .add-collection1-navlink3 {
@@ -1829,7 +1892,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
-  .add-collection1-text087 {
+  .add-collection1-text090 {
     font-size: 16px;
   }
   .add-collection1-info-box {

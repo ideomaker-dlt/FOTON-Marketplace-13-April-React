@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -35,7 +36,7 @@ const CollectionDropPage = (props) => {
                 <div className="collection-drop-page-container03">
                   <div className="collection-drop-page-avatar-logo">
                     <img
-                      src="/playground_assets/grid_0%20%5B7%5D-200h.webp"
+                      src="/grid_0%20%5B7%5D-200h.webp"
                       className="collection-drop-page-image"
                     />
                   </div>
@@ -128,20 +129,31 @@ const CollectionDropPage = (props) => {
         </div>
         <div className="collection-drop-page-tabs-row">
           <span className="collection-drop-page-text21">Mint</span>
-          <span className="collection-drop-page-text22">Team</span>
-          <span className="collection-drop-page-text23">FAQ</span>
+          <Link
+            to="/collection-drop-page-roadmap"
+            className="collection-drop-page-navlink"
+          >
+            Roadmap
+          </Link>
+          <Link
+            to="/collection-drop-page-team"
+            className="collection-drop-page-navlink1"
+          >
+            Team
+          </Link>
+          <span className="collection-drop-page-text22">FAQ</span>
         </div>
         <div className="collection-drop-page-drops-container">
           <div className="collection-drop-page-wrapper-all">
             <div className="collection-drop-page-container-left">
               <div className="collection-drop-page-about">
                 <div className="collection-drop-page-container10">
-                  <label className="collection-drop-page-text24">
+                  <label className="collection-drop-page-text23">
                     About this Collection
                   </label>
                 </div>
                 <div className="collection-drop-page-container11"></div>
-                <p className="collection-drop-page-text25">
+                <p className="collection-drop-page-text24">
                   <span>
                     In the year 2050, humanity had exhausted the resources of
                     Earth and faced the grim reality of its impending demise.
@@ -192,8 +204,8 @@ const CollectionDropPage = (props) => {
               <div className="collection-drop-page-items-example">
                 <div className="collection-drop-page-selected-image">
                   <img
-                    src="/playground_assets/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_ca187c73-4361-4257-92dd-492fd841d827-1500w.png"
                     alt="image"
+                    src="/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_ca187c73-4361-4257-92dd-492fd841d827-1500w.png"
                     className="collection-drop-page-image1"
                   />
                 </div>
@@ -206,22 +218,22 @@ const CollectionDropPage = (props) => {
               </div>
               <div className="collection-drop-page-mint-panel">
                 <div className="collection-drop-page-container12">
-                  <label className="collection-drop-page-text35">
+                  <label className="collection-drop-page-text34">
                     Minting Details
                   </label>
                   <div className="collection-drop-page-container13">
-                    <p className="collection-drop-page-text36">
+                    <p className="collection-drop-page-text35">
                       <span>Price per item minted:</span>
                       <br></br>
                     </p>
-                    <p className="collection-drop-page-text39">
+                    <p className="collection-drop-page-text38">
                       <span>Minting starts:</span>
                       <br></br>
                     </p>
                   </div>
                   <div className="collection-drop-page-container14">
-                    <label className="collection-drop-page-text42">TBA</label>
-                    <label className="collection-drop-page-text43">
+                    <label className="collection-drop-page-text41">TBA</label>
+                    <label className="collection-drop-page-text42">
                       COMING SOON
                     </label>
                   </div>
@@ -229,13 +241,13 @@ const CollectionDropPage = (props) => {
                 <div className="collection-drop-page-container15">
                   <div className="collection-drop-page-buy-container">
                     <button className="collection-drop-page-button4 button">
-                      <span className="collection-drop-page-text44">
+                      <span className="collection-drop-page-text43">
                         <span>Minting Soon</span>
                         <br></br>
                       </span>
                     </button>
                     <button className="collection-drop-page-button5 button">
-                      <span className="collection-drop-page-text47">
+                      <span className="collection-drop-page-text46">
                         <span>
                           Follow
                           <span
@@ -250,63 +262,27 @@ const CollectionDropPage = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="collection-drop-page-roadmap">
-                <div className="collection-drop-page-container16">
-                  <label className="collection-drop-page-text50">
-                    Roadmap and/or Risks
-                  </label>
-                </div>
-                <div className="collection-drop-page-container17"></div>
-                <p className="collection-drop-page-text51">
-                  <span>
-                    In the year 2050, humanity had exhausted the resources of
-                    Earth and faced the grim reality of its impending demise.
-                    But hope was not lost, for a team of scientists had
-                    discovered a new planet, similar to Mars, that could sustain
-                    human life. A mission was launched to establish a colony on
-                    this distant world, and after years of travel, the first
-                    settlers arrived.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    The new planet, named Nova, was a harsh and unforgiving
-                    environment. The colonists had to contend with intense
-                    radiation, extreme temperatures, and unpredictable weather
-                    patterns. But with their advanced technology and unyielding
-                    determination, they managed to establish a self-sustaining
-                    colony and began the process of terraforming the planet.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    As the years passed, the colonists adapted to their new home
-                    and formed a thriving society. They built towering cities,
-                    cultivated vast fields of crops, and explored the uncharted
-                    regions of the planet. But they soon discovered that they
-                    were not alone on Nova.
-                  </span>
-                </p>
-              </div>
             </div>
             <div className="collection-drop-page-container-right">
               <div className="collection-drop-page-item-info-box">
                 <div className="collection-drop-page-item-image">
                   <img
                     alt="image"
-                    src="/playground_assets/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_deso_556dbc6d-d05c-43d6-b5a3-019912494a61-1500w.png"
+                    src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_deso_556dbc6d-d05c-43d6-b5a3-019912494a61-1500w.png"
                     className="collection-drop-page-image2"
                   />
                 </div>
                 <div className="collection-drop-page-item-image1">
                   <img
                     alt="image"
-                    src="/playground_assets/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
+                    src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
                     className="collection-drop-page-image3"
                   />
                 </div>
                 <div className="collection-drop-page-item-image2">
                   <img
                     alt="image"
-                    src="/playground_assets/vlad__foton.is__radix.stream_character_mood_board_from_3_angles_e1a1e6fb-e0fe-497f-9fce-c022e03dd47a-1500w.png"
+                    src="/vlad__foton.is__radix.stream_character_mood_board_from_3_angles_e1a1e6fb-e0fe-497f-9fce-c022e03dd47a-1500w.png"
                     className="collection-drop-page-image4"
                   />
                 </div>

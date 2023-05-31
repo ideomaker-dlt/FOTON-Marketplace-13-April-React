@@ -33,7 +33,7 @@ const ItemPage = (props) => {
             <div className="item-page-item-image">
               <img
                 alt="image"
-                src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_985a59cd-5e25-43ca-b106-15a717076d76-1500w.png"
+                src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_985a59cd-5e25-43ca-b106-15a717076d76-1500w.png"
                 className="item-page-image"
               />
             </div>
@@ -91,7 +91,7 @@ const ItemPage = (props) => {
                       <button type="button" className="item-page-button">
                         <img
                           alt="image"
-                          src="/playground_assets/tag.svg"
+                          src="/tag.svg"
                           className="item-page-image1"
                         />
                         <span className="item-page-text014">

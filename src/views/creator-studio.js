@@ -33,7 +33,7 @@ const CreatorStudio = (props) => {
             <div className="creator-studio-container02">
               <div className="creator-studio-container03">
                 <img
-                  src="/playground_assets/creatorstudiologo.svg"
+                  src="/creatorstudiologo.svg"
                   className="creator-studio-image"
                 />
               </div>
@@ -67,11 +67,11 @@ const CreatorStudio = (props) => {
               <div className="creator-studio-project">
                 <div className="creator-studio-container07">
                   <img
-                    src="/playground_assets/hexagonmaskbordergray.svg"
+                    src="/hexagonmaskbordergray.svg"
                     className="creator-studio-mask"
                   />
                   <img
-                    src="/playground_assets/art_3.0_ninja__2d__game_character_._cevtore_style__t_pose_00ed9e8d-9bd5-4d11-be76-c73a71e6f04e-200h.png"
+                    src="/art_3.0_ninja__2d__game_character_._cevtore_style__t_pose_00ed9e8d-9bd5-4d11-be76-c73a71e6f04e-200h.png"
                     className="creator-studio-image1"
                   />
                 </div>
@@ -95,11 +95,11 @@ const CreatorStudio = (props) => {
             <div className="creator-studio-project1">
               <div className="creator-studio-container10">
                 <img
-                  src="/playground_assets/hexagonmaskbordergray.svg"
+                  src="/hexagonmaskbordergray.svg"
                   className="creator-studio-mask1"
                 />
                 <img
-                  src="/playground_assets/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
+                  src="/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
                   className="creator-studio-image2"
                 />
               </div>
@@ -120,11 +120,11 @@ const CreatorStudio = (props) => {
             <div className="creator-studio-project2">
               <div className="creator-studio-container13">
                 <img
-                  src="/playground_assets/hexagonmaskbordergray.svg"
+                  src="/hexagonmaskbordergray.svg"
                   className="creator-studio-mask2"
                 />
                 <img
-                  src="/playground_assets/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
+                  src="/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
                   className="creator-studio-image3"
                 />
               </div>
@@ -145,11 +145,11 @@ const CreatorStudio = (props) => {
             <div className="creator-studio-project3">
               <div className="creator-studio-container16">
                 <img
-                  src="/playground_assets/hexagonmaskbordergray.svg"
+                  src="/hexagonmaskbordergray.svg"
                   className="creator-studio-mask3"
                 />
                 <img
-                  src="/playground_assets/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
+                  src="/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
                   className="creator-studio-image4"
                 />
               </div>
@@ -170,11 +170,11 @@ const CreatorStudio = (props) => {
             <div className="creator-studio-project4">
               <div className="creator-studio-container19">
                 <img
-                  src="/playground_assets/hexagonmaskbordergray.svg"
+                  src="/hexagonmaskbordergray.svg"
                   className="creator-studio-mask4"
                 />
                 <img
-                  src="/playground_assets/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
+                  src="/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png"
                   className="creator-studio-image5"
                 />
               </div>

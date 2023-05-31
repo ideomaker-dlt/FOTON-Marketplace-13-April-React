@@ -73,13 +73,13 @@
   border-radius: 0px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/hexagonmask-200h.png");
+  background-image: url("/hexagonmask-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .side-menu-container-over:hover {
   background-size: cover;
-  background-image: url("/playground_assets/hexagonmaskborder-200h.png");
+  background-image: url("/hexagonmaskborder-200h.png");
 }
 .side-menu-container-base {
   flex: 0 0 auto;
@@ -91,7 +91,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_mechanical_eye_angled_view_game_in_397f6926-7a9f-4b79-ac60-c0695df0c2f6-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_mechanical_eye_angled_view_game_in_397f6926-7a9f-4b79-ac60-c0695df0c2f6-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -116,13 +116,13 @@
   border-radius: 0px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/hexagonmask-200h.png");
+  background-image: url("/hexagonmask-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .side-menu-container-over1:hover {
   background-size: cover;
-  background-image: url("/playground_assets/hexagonmaskborder-200h.png");
+  background-image: url("/hexagonmaskborder-200h.png");
 }
 .side-menu-container-base1 {
   flex: 0 0 auto;
@@ -134,7 +134,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/art_3.0_ninja__2d__game_character_._cevtore_style__t_pose_00ed9e8d-9bd5-4d11-be76-c73a71e6f04e-200h.png");
+  background-image: url("/nerds%20republic%20logo-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -159,13 +159,13 @@
   border-radius: 0px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/hexagonmask-200h.png");
+  background-image: url("/hexagonmask-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 .side-menu-container-over2:hover {
   background-size: cover;
-  background-image: url("/playground_assets/hexagonmaskborder-200h.png");
+  background-image: url("/hexagonmaskborder-200h.png");
 }
 .side-menu-container-base2 {
   flex: 0 0 auto;
@@ -177,7 +177,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png");
+  background-image: url("/bookblaster_cartoon_astronaut_3d_8k_rich_color_73cf7de9-2a54-498b-810b-b1990c1c5349-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -192,14 +192,14 @@
   margin-bottom: 2px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/hexagonmask-200h.png");
+  background-image: url("/hexagonmask-200h.png");
 }
 .side-menu-container02:hover {
   border: none;
   border-color: var(--dl-color-dark-green-200);
   border-width: 3px;
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_mechanical_eye_angled_view_game_in_397f6926-7a9f-4b79-ac60-c0695df0c2f6-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_mechanical_eye_angled_view_game_in_397f6926-7a9f-4b79-ac60-c0695df0c2f6-200h.png");
 }
 .side-menu-line-separator1 {
   flex: 0 0 auto;
@@ -226,7 +226,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_portret_in_the_style_of_old_4ebe8238-6ff2-4f0e-85e9-db256f6ed64e-200h.png");
+  background-image: url("/grid_0%20%5B7%5D-200h.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -247,7 +247,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_portret_in_the_style_of_old_4ebe8238-6ff2-4f0e-85e9-db256f6ed64e-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -268,7 +268,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_portret_in_the_style_of_old_4ebe8238-6ff2-4f0e-85e9-db256f6ed64e-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_samurai_warrior_portret_with_sword_ef86e3e2-36ae-4453-90e2-6dda1ad3bb49-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -289,7 +289,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_portret_in_the_style_of_old_4ebe8238-6ff2-4f0e-85e9-db256f6ed64e-200h.png");
+  background-image: url("/inflow_spaceman_full_body_happy_cartoon_4k_f2f5b719-594c-4cca-ab4d-95de70515d23-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -310,7 +310,7 @@
   margin-bottom: 11px;
   padding-bottom: 0px;
   background-size: cover;
-  background-image: url("/playground_assets/vlad__foton.is__radix.stream_pirate_portret_in_the_style_of_old_4ebe8238-6ff2-4f0e-85e9-db256f6ed64e-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_pirate_portret_in_the_style_of_old_4ebe8238-6ff2-4f0e-85e9-db256f6ed64e-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }

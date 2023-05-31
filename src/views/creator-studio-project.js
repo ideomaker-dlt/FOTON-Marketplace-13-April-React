@@ -36,11 +36,11 @@ const CreatorStudioProject = (props) => {
             <div className="creator-studio-project-container02">
               <div className="creator-studio-project-avatar-logo">
                 <img
-                  src="/playground_assets/hexagonmaskbordergray.svg"
+                  src="/hexagonmaskbordergray.svg"
                   className="creator-studio-project-mask"
                 />
                 <img
-                  src="/playground_assets/art_3.0_ninja__2d__game_character_._cevtore_style__t_pose_00ed9e8d-9bd5-4d11-be76-c73a71e6f04e-200h.png"
+                  src="/art_3.0_ninja__2d__game_character_._cevtore_style__t_pose_00ed9e8d-9bd5-4d11-be76-c73a71e6f04e-200h.png"
                   className="creator-studio-project-image"
                 />
               </div>
@@ -170,7 +170,7 @@ const CreatorStudioProject = (props) => {
               <div className="creator-studio-project-collection">
                 <div className="creator-studio-project-container07">
                   <img
-                    src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
+                    src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                     className="creator-studio-project-image1"
                   />
                 </div>
@@ -194,7 +194,7 @@ const CreatorStudioProject = (props) => {
             <div className="creator-studio-project-collection1">
               <div className="creator-studio-project-container10">
                 <img
-                  src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
+                  src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="creator-studio-project-image2"
                 />
               </div>
@@ -217,7 +217,7 @@ const CreatorStudioProject = (props) => {
             <div className="creator-studio-project-collection2">
               <div className="creator-studio-project-container13">
                 <img
-                  src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
+                  src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="creator-studio-project-image3"
                 />
               </div>
@@ -240,7 +240,7 @@ const CreatorStudioProject = (props) => {
             <div className="creator-studio-project-collection3">
               <div className="creator-studio-project-container16">
                 <img
-                  src="/playground_assets/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
+                  src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="creator-studio-project-image4"
                 />
               </div>
@@ -320,7 +320,7 @@ const CreatorStudioProject = (props) => {
           <button type="button" className="creator-studio-project-button2">
             <img
               alt="image"
-              src="/playground_assets/mop.svg"
+              src="/mop.svg"
               className="creator-studio-project-image5"
             />
             <span className="creator-studio-project-text54">

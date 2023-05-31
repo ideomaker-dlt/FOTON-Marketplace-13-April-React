@@ -372,7 +372,7 @@ input[type="search"]::-webkit-search-results-decoration {
                   <div className="layout-with-sidebar-content">
                     <img
                       alt="image"
-                      src="/playground_assets/group%20489.svg"
+                      src="/group%20489.svg"
                       className="layout-with-sidebar-image"
                     />
                     <span className="layout-with-sidebar-text25">Connect</span>
@@ -425,8 +425,8 @@ input[type="search"]::-webkit-search-results-decoration {
               text2="Settings"
               text3="Settings"
               text4="Analytics"
-              image_src1="/playground_assets/tune.svg"
-              image_src2="/playground_assets/chart_data.svg"
+              image_src1="/tune.svg"
+              image_src2="/chart_data.svg"
               rootClassName="side-menu-root-class-name5"
               className=""
             ></SideMenu>

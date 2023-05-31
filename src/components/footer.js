@@ -111,7 +111,7 @@ Footer.defaultProps = {
   text5: 'Tickets',
   text14: 'Launchpad & Grants',
   text11: 'Tesseract NFT',
-  image_src: '/playground_assets/foton%20logo%20white.svg',
+  image_src: '/foton%20logo%20white.svg',
   text3: 'Games',
   text8: 'Drops Portal',
   text17: 'Resources',
