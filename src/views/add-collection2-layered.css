@@ -307,7 +307,7 @@
 .add-collection-layered-card {
   gap: var(--dl-space-space-unit);
   width: 100%;
-  height: 814px;
+  height: auto;
   display: flex;
   align-self: flex-end;
   align-items: flex-start;

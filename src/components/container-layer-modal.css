@@ -79,13 +79,13 @@
   width: 24px;
   height: 24px;
 }
-.container-layer-modal-overlay-window-pop-up {
+.container-layer-modal-modal-wrapper {
   top: 0px;
-  flex: 0 0 auto;
   left: 0px;
   width: 100%;
   bottom: 660px;
   height: 100vh;
+  display: flex;
   z-index: 100000;
   position: fixed;
   align-items: center;
@@ -93,10 +93,14 @@
   justify-content: center;
 }
 .container-layer-modal-b-overlay-gray2 {
+  top: 0px;
   flex: 0 0 auto;
-  width: auto;
+  left: 0px;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100vh;
   display: flex;
+  position: absolute;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -104,8 +108,6 @@
 }
 .container-layer-modal-container2 {
   gap: var(--dl-space-space-unit);
-  width: auto;
-  height: auto;
   display: flex;
   padding: 0px;
   position: relative;
@@ -179,9 +181,11 @@
   width: 100%;
   display: flex;
   align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
 }
 .container-layer-modal-field {
   gap: var(--dl-space-space-halfunit);
@@ -302,11 +306,11 @@
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: 13px;
-  background-color: var(--dl-color-dark-red-200);
+  background-color: var(--dl-color-dark-red-100);
 }
 .container-layer-modal-button2:hover {
   border-color: var(--dl-color-dark-gray-370);
-  background-color: var(--dl-color-dark-red-100);
+  background-color: var(--dl-color-dark-red-200);
 }
 .container-layer-modal-icon08 {
   width: 20px;
