@@ -3,7 +3,7 @@ import styles from "./styles.module.scss"
 export const InfoBox = memo(() => {
 
     return (
-        <div className={styles.addProjectInfoBox}>
+        <div className={styles.infoBox}>
             <div className={styles.addProjectContainer10}>
                 <h1 className={`${styles.addProjectText74} Content18 `}>
                     <span>Info:</span>

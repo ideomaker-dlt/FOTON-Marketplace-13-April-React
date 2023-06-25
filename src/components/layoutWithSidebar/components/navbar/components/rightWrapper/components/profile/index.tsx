@@ -4,32 +4,30 @@ import styles from "./styles.module.scss"
 
 export const Profile = memo(() => {
     return (
-        <div className={styles.layoutWithSidebarUser1}>
+        <div className={styles.container}>
             <div
                 data-thq='thq-dropdown'
-                className={`${styles.layoutWithSidebarCategory1} list-item`}>
+                className={`list-item`}>
                 <div
-                    data-thq='thq-dropdown-toggle'
-                    className={styles.layoutWithSidebarDropdownToggle06}>
-                    <div className={styles.layoutWithSidebarAvatar1}></div>
+                    data-thq='thq-dropdown-toggle'>
+                    <div className={styles.avatar}></div>
                 </div>
                 <ul
-                    data-thq='thq-dropdown-list'
-                    className={styles.layoutWithSidebarDropdownList1}>
+                    data-thq='thq-dropdown-list'>
                     <li
                         data-thq='thq-dropdown'
-                        className={`${styles.layoutWithSidebarBigButtons1} list-item`}>
+                        className={`${styles.bigButton} list-item`}>
                         <div
                             data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarUserPersona1}>
-                            <span className={`${styles.layoutWithSidebarText16} material-symbols-outlined`}>
+                            className={styles.userPersona}>
+                            <span className={`material-symbols-outlined`}>
                                 account_circle
                             </span>
-                            <div className={styles.layoutWithSidebarContainer3}>
-                                <span className={styles.layoutWithSidebarName1}>
+                            <div>
+                                <span>
                                     Danoshi Hughemoto
                                 </span>
-                                <span className={styles.layoutWithSidebarRadixAddress1}>
+                                <span>
                                     rdxdhsj...sdg765sg
                                 </span>
                             </div>
@@ -37,11 +35,11 @@ export const Profile = memo(() => {
                         <Link to="/collector-profile" className="">
                             <div
                                 data-thq='thq-dropdown-toggle'
-                                className={styles.layoutWithSidebarCollectorProfile1}>
-                                <span className={`${styles.layoutWithSidebarText17} material-symbols-outlined`}>
+                                className={styles.profile}>
+                                <span className={`material-symbols-outlined`}>
                                     category
                                 </span>
-                                <span className={styles.layoutWithSidebarText18}>
+                                <span>
                                     Collector Profile
                                 </span>
                             </div>
@@ -49,11 +47,11 @@ export const Profile = memo(() => {
                         <Link to='/creator-studio'>
                             <div
                                 data-thq='thq-dropdown-toggle'
-                                className={styles.layoutWithSidebarCreatorStudio1}>
-                                <span className={`${styles.layoutWithSidebarText19} material-symbols-outlined`}>
+                                className={styles.creatorStudio}>
+                                <span className={`material-symbols-outlined`}>
                                     deblur
                                 </span>
-                                <span className={styles.layoutWithSidebarText20}>
+                                <span>
                                     Creator Studio
                                 </span>
                             </div>
@@ -61,31 +59,29 @@ export const Profile = memo(() => {
                     </li >
                     <li
                         data-thq='thq-dropdown'
-                        className={`${styles.layoutWithSidebarUserSettings1} list-item`}>
-                        <div data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarDropdownToggle07} >
-                            <span className={`${styles.layoutWithSidebarText21}  material-symbols-outlined`}>
+                        className={`${styles.settings} list-item`}>
+                        <div data-thq='thq-dropdown-toggle'>
+                            <span className={`material-symbols-outlined`}>
                                 manage_accounts
                             </span >
-                            <span className={styles.layoutWithSidebarText22}>
+                            <span>
                                 Profile Settings
                             </span>
                         </div >
                     </li >
                     <li
                         data-thq='thq-dropdown'
-                        className={`${styles.layoutWithSidebarLogOut1} list-item`}>
-                        <div data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarDropdownToggle08} >
-                            <span className={`${styles.layoutWithSidebarText23}  material-symbols-outlined`}>
+                        className={`${styles.logOut} list-item`}>
+                        <div data-thq='thq-dropdown-toggle' >
+                            <span className={`material-symbols-outlined`}>
                                 logout
                             </span >
-                            <span className={styles.layoutWithSidebarText24}>
+                            <span>
                                 Log Out
                             </span>
                         </div >
                     </li >
-                </ul >
+                </ul>
             </div >
         </div >
     )

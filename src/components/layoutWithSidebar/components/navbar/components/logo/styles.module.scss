@@ -1,27 +1,30 @@
-.layoutWithSidebarNavlink {
+.navlink {
     display: contents;
+
+    >div {
+        width: 110px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        margin-left: var(--dl-space-space-twounits);
+        margin-right: var(--dl-space-space-twounits);
+        background-size: contain;
+        justify-content: flex-start;
+        text-decoration: none;
+        background-image: url("/playground_assets/foton%20logo%20white.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
-.layoutWithSidebarLogoContainer {
-    width: 110px;
-    height: 26px;
-    display: flex;
-    align-items: center;
-    margin-left: var(--dl-space-space-twounits);
-    margin-right: var(--dl-space-space-twounits);
-    background-size: contain;
-    justify-content: flex-start;
-    text-decoration: none;
-    background-image: url("/playground_assets/foton%20logo%20white.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 @media(max-width: 767px) {
-    .layoutWithSidebarLogoContainer {
-        width: 80px;
-        height: 22px;
-        margin-left: var(--dl-space-space-unit);
-        margin-right: var(--dl-space-space-unit);
+    .navlink {
+        >div {
+            width: 80px;
+            height: 22px;
+            margin-left: var(--dl-space-space-unit);
+            margin-right: var(--dl-space-space-unit);
+        }
     }
 }

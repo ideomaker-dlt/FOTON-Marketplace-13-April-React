@@ -4,11 +4,11 @@ import styles from "./styles.module.scss"
 
 export const Menu = memo(() => {
     return (
-        <div className={styles.addItemsSelectorTabsRow}>
+        <div className={styles.row}>
             <div className={styles.addItemsSelectorContainer04}>
                 <Link
                     to='/creator-studio-collection'
-                    className={styles.addItemsSelectorNavlink}
+                    className={styles.link}
                 >
                     &lt; go back
                 </Link>

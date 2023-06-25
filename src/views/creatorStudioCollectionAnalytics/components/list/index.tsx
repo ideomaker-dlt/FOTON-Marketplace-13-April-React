@@ -70,7 +70,6 @@ export const List = memo(() => {
     return (
         <div className={styles.creatorStudioCollectionAnalyticsResources}>
             <div className={styles.creatorStudioCollectionAnalyticsContainer06}>
-
                 {
                     listWithBlueBg.map((item, index) => (
                         <div key={index} className={styles.creatorStudioCollectionAnalyticsItemData}>
@@ -102,8 +101,6 @@ export const List = memo(() => {
                         </div>
                     ))
                 }
-
-
                 {
                     listWithOutBlueBg.map((val, key) => (
                         <div key={key} className={styles.creatorStudioCollectionAnalyticsItemData06}>
@@ -135,11 +132,6 @@ export const List = memo(() => {
                         </div>
                     ))
                 }
-
-
-
-
-
             </div>
         </div>
     )

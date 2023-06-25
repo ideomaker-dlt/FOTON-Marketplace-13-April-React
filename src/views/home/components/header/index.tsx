@@ -8,9 +8,12 @@ export const Header = memo(() => {
   return (
     <div className={styles.header}>
       <div className={classnames([styles.container, 'article-container'])}>
-        <div
+        {/* <div
           className={classnames([styles.containerImage, 'article-img-holder'])}
-        ></div>
+        ></div> */}
+        <div className={classnames([styles.containerImage, 'article-img-holder'])}>
+          <div className={styles.maskOverlay}></div>
+        </div>
         <div
           className={classnames([styles.containerInner, 'article-title-link'])}
         >

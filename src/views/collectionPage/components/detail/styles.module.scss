@@ -1,4 +1,4 @@
-.collectionPageContainer01 {
+.container {
     gap: var(--dl-space-space-twounits);
     width: 100%;
     height: auto;
@@ -12,19 +12,19 @@
 }
 
 @media(max-width: 1200px) {
-    .collectionPageContainer01 {
+    .container {
         flex-direction: column;
     }
 }
 
 @media(max-width: 991px) {
-    .collectionPageContainer01 {
+    .container {
         flex-direction: column;
     }
 }
 
 @media(max-width: 767px) {
-    .collectionPageContainer01 {
+    .container {
         gap: var(--dl-space-space-unit);
         height: auto;
         margin-top: 0px;

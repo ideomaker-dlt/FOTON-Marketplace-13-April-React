@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 export const Menu = memo(() => {
     return (
-        <div className={styles.addProjectTabsRow}>
-            <div className={styles.addProjectContainer04}>
-                <Link to='/creator-studio-project' className={styles.addProjectNavlink}>
+        <div className={styles.row}>
+            <div>
+                <Link to='/creator-studio-project' className={styles.navlink}>
                     &lt; go back
                 </Link>
                 <span className={styles.addProjectText01}>Define your item below</span>

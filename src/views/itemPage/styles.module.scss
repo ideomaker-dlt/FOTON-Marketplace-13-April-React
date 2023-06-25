@@ -6,17 +6,19 @@
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-dark-gray-200);
-}
 
-.itemPageWrapperAll {
-  gap: var(--dl-space-space-twounits);
-  width: 100%;
-  display: flex;
+  .itemPageWrapperAll {
+    gap: var(--dl-space-space-twounits);
+    width: 100%;
+    display: flex;
+  }
 }
 
 @media(max-width: 767px) {
-  .itemPageWrapperAll {
-    gap: 0;
-    flex-direction: column;
+  .itemPageContainer {
+    .itemPageWrapperAll {
+      gap: 0;
+      flex-direction: column;
+    }
   }
 }

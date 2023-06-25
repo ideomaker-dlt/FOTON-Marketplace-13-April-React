@@ -8,8 +8,8 @@ export const CollectionItemsContainer: React.FC<any> = memo(
   (
   ) => {
     return (
-      <div className={styles.collectionItemsContainerCollectionItemsContainer}>
-        <div className={styles.collectionItemsContainerContainer}>
+      <div className={styles.container}>
+        <div>
           <Filter />
           <List />
         </div>

@@ -1,0 +1,299 @@
+.overlay {
+    top: 0px;
+    flex: 0 0 auto;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    bottom: 0px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    background-color: rgba(24, 24, 24, 0.36);
+
+    >div {
+        gap: var(--dl-space-space-halfunit);
+        top: var(--dl-space-space-oneandhalfunits);
+        right: var(--dl-space-space-oneandhalfunits);
+        display: flex;
+        opacity: 0.8;
+        z-index: 210;
+        position: absolute;
+        align-self: flex-start;
+        align-items: center;
+        justify-content: flex-end;
+
+        .collectionDropPageButton {
+            gap: var(--dl-space-space-halfunit);
+            color: var(--dl-color-dark-white);
+            height: 40px;
+            display: flex;
+            font-size: 14px;
+            align-self: center;
+            font-style: normal;
+            transition: 0.05s;
+            align-items: center;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 1.15;
+            padding-top: 12px;
+            border-color: var(--dl-color-dark-gray-360);
+            border-width: 2px;
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: var(--dl-space-space-oneandhalfunits);
+            padding-bottom: 12px;
+            text-transform: none;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-dark-gray-200);
+
+            &:hover {
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            &:active {
+                border-color: var(--dl-color-dark-gray-360);
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            >svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            >span {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+        }
+
+
+        .collectionDropPageButton1 {
+            gap: var(--dl-space-space-halfunit);
+            color: var(--dl-color-dark-white);
+            height: 40px;
+            display: flex;
+            font-size: 14px;
+            align-self: center;
+            font-style: normal;
+            transition: 0.05s;
+            align-items: center;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 1.15;
+            padding-top: 12px;
+            border-color: var(--dl-color-dark-gray-360);
+            border-width: 2px;
+            padding-left: 12px;
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: 12px;
+            padding-bottom: 12px;
+            text-transform: none;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-dark-gray-200);
+
+            &:hover {
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            &:active {
+                border-color: var(--dl-color-dark-gray-360);
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            >svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            >span {
+                display: none;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+            }
+        }
+
+
+        .collectionDropPageButton2 {
+            gap: var(--dl-space-space-halfunit);
+            color: var(--dl-color-dark-white);
+            height: 40px;
+            display: flex;
+            font-size: 14px;
+            align-self: center;
+            font-style: normal;
+            transition: 0.05s;
+            align-items: center;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 1.15;
+            padding-top: 12px;
+            border-color: var(--dl-color-dark-gray-360);
+            border-width: 2px;
+            padding-left: 12px;
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: 12px;
+            padding-bottom: 12px;
+            text-transform: none;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-dark-gray-200);
+
+            &:hover {
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            &:active {
+                border-color: var(--dl-color-dark-gray-360);
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            >svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            >span {
+                display: none;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+            }
+        }
+
+
+
+        .collectionDropPageButton3 {
+            gap: var(--dl-space-space-halfunit);
+            color: var(--dl-color-dark-white);
+            height: 40px;
+            display: flex;
+            font-size: 14px;
+            align-self: center;
+            font-style: normal;
+            transition: 0.05s;
+            align-items: center;
+            font-family: Poppins;
+            font-weight: 500;
+            line-height: 1.15;
+            padding-top: 12px;
+            border-color: var(--dl-color-dark-gray-360);
+            border-width: 2px;
+            padding-left: 12px;
+            border-radius: var(--dl-radius-radius-radius8);
+            padding-right: 12px;
+            padding-bottom: 12px;
+            text-transform: none;
+            justify-content: center;
+            text-decoration: none;
+            background-color: var(--dl-color-dark-gray-200);
+
+            &:hover {
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            &:active {
+                border-color: var(--dl-color-dark-gray-360);
+                background-color: var(--dl-color-dark-gray-360);
+            }
+
+            >span {
+                display: none;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            >svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+
+    }
+}
+
+
+@media(max-width: 767px) {
+    .overlay {
+        height: 100%;
+
+        >div {
+            top: var(--dl-space-space-unit);
+            right: var(--dl-space-space-unit);
+            align-self: flex-start;
+            justify-content: flex-end;
+
+            .collectionDropPageButton {
+                height: 39px;
+                padding-top: 0px;
+                padding-left: var(--dl-space-space-halfunit);
+                border-radius: var(--dl-radius-radius-radius8);
+                padding-right: var(--dl-space-space-halfunit);
+                padding-bottom: 0px;
+            }
+
+            .collectionDropPageText09 {
+                display: none;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            .collectionDropPageButton1 {
+                height: 39px;
+                padding-top: 0px;
+                padding-left: var(--dl-space-space-halfunit);
+                border-radius: var(--dl-radius-radius-radius8);
+                padding-right: var(--dl-space-space-halfunit);
+                padding-bottom: 0px;
+            }
+
+            .collectionDropPageText12 {
+                display: none;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            .collectionDropPageButton2 {
+                height: 39px;
+                padding-top: 0px;
+                padding-left: var(--dl-space-space-halfunit);
+                border-radius: var(--dl-radius-radius-radius8);
+                padding-right: var(--dl-space-space-halfunit);
+                padding-bottom: 0px;
+            }
+
+            .collectionDropPageText15 {
+                display: none;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            .collectionDropPageButton3 {
+                height: 39px;
+                padding-top: 0px;
+                padding-left: var(--dl-space-space-halfunit);
+                border-radius: var(--dl-radius-radius-radius8);
+                padding-right: var(--dl-space-space-halfunit);
+                padding-bottom: 0px;
+            }
+
+            .collectionDropPageText18 {
+                display: none;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -4,9 +4,8 @@ import styles from "./styles.module.scss"
 
 export const MobileMenu = memo(() => {
     return (
-        <div className={styles.layoutWithSidebarMobileMenu}>
-            <div
-                data-thq='thq-dropdown'
+        <div className={styles.container}>
+            <div data-thq='thq-dropdown'
                 className={`${styles.layoutWithSidebarCategory} list-item`}>
                 <div
                     data-thq='thq-dropdown-toggle'
@@ -19,15 +18,13 @@ export const MobileMenu = memo(() => {
                             className=''></path>
                     </svg>
                 </div>
-                <ul
-                    data-thq='thq-dropdown-list'
+                <ul data-thq='thq-dropdown-list'
                     className={styles.layoutWithSidebarDropdownList}>
-                    <li
-                        data-thq='thq-dropdown'
-                        className={`${styles.layoutWithSidebarBigButtons} list-item`}>
+                    <li data-thq='thq-dropdown'
+                        className={`${styles.bigButtons} list-item`}>
                         <div
                             data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarUserPersona}>
+                            className={styles.persona}>
                             <span className={`${styles.layoutWithSidebarText01} material-symbols-outlined`}>
                                 account_circle
                             </span>
@@ -43,7 +40,7 @@ export const MobileMenu = memo(() => {
                         <Link to="/collector-profile" className="">
                             <div
                                 data-thq='thq-dropdown-toggle'
-                                className={styles.layoutWithSidebarCollectorProfile}>
+                                className={styles.profile}>
                                 <span className={`${styles.layoutWithSidebarText02} material-symbols-outlined`}>
                                     category
                                 </span>
@@ -54,7 +51,7 @@ export const MobileMenu = memo(() => {
                         </Link>
                         <Link to='/creator-studio' className='' >
                             <div data-thq='thq-dropdown-toggle'
-                                className={styles.layoutWithSidebarCreatorStudio}>
+                                className={styles.creatorStudio}>
                                 <span className={`${styles.layoutWithSidebarText04} material-symbols-outlined`}>
                                     deblur
                                 </span>
@@ -66,10 +63,10 @@ export const MobileMenu = memo(() => {
                     </li >
                     <li
                         data-thq='thq-dropdown'
-                        className={`${styles.layoutWithSidebarUserSettings} list-item`}>
+                        className={`${styles.userSettings} list-item`}>
                         <div
                             data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarDropdownToggle01}>
+                            className={styles.toggle01}>
                             <span className={`${styles.layoutWithSidebarText06} material-symbols-outlined`}>
                                 water_drop
                             </span>
@@ -79,7 +76,7 @@ export const MobileMenu = memo(() => {
                         </div>
                         <Link to='/stats' className=''>
                             <div data-thq='thq-dropdown-toggle'
-                                className={styles.layoutWithSidebarDropdownToggle02} >
+                                className={styles.toggle02} >
                                 <span className={`${styles.layoutWithSidebarText08} material-symbols-outlined`}>
                                     insights
                                 </span >
@@ -90,7 +87,7 @@ export const MobileMenu = memo(() => {
                         </Link >
                         <div
                             data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarDropdownToggle03}>
+                            className={styles.toggle03}>
                             <span className={`${styles.layoutWithSidebarText10} material-symbols-outlined`}>
                                 grid_view
                             </span>
@@ -98,7 +95,7 @@ export const MobileMenu = memo(() => {
                         </div >
                         <div
                             data-thq='thq-dropdown-toggle'
-                            className={styles.layoutWithSidebarDropdownToggle04}>
+                            className={styles.toggle04}>
                             <span className={`${styles.layoutWithSidebarText12} material-symbols-outlined`}>
                                 manage_accounts
                             </span>
@@ -109,7 +106,7 @@ export const MobileMenu = memo(() => {
                     </li >
                     <li
                         data-thq='thq-dropdown'
-                        className={`${styles.layoutWithSidebarLogOut} list-item`}>
+                        className={`${styles.logOut} list-item`}>
                         <div
                             data-thq='thq-dropdown-toggle'
                             className={`${styles.layoutWithSidebarDropdownToggle05}`}>

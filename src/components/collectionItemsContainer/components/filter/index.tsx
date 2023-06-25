@@ -49,10 +49,10 @@ export const Filter = memo(() => {
 
 
   return (
-    <div className={styles.collectionItemsContainerFiltersSideMenu}>
+    <div className={styles.filtersSideMenu}>
       <RarityRank />
       <Status />
-      <div className={styles.collectionItemsContainerSeparationLine}></div>
+      <div className={styles.separationLine}></div>
       {
         attributes.map((attribute) => (
           <Attribute attribute={attribute} />

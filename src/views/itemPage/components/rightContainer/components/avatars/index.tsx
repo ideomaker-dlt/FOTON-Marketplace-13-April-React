@@ -2,8 +2,8 @@ import React, { memo } from 'react'
 import styles from "./styles.module.scss"
 export const Avatars = memo(() => {
     return (
-        <div className={styles.itemPageContainer04}>
-            <div className={styles.itemPageDescriptionCollection}>
+        <div className={styles.container}>
+            <div>
                 <div className={styles.itemPageContainer05}>
                     <div className={styles.itemPageEngagementButtons}>
                         <button type="button" className={styles.itemPageButton}>

@@ -5,26 +5,12 @@ import styles from "./styles.module.scss"
 export const GoBack = memo(() => {
 
     return (
-        <div className={styles.tabsRowWithButtonsContainer}>
-            <Link to='/creator-studio' className={styles.tabsRowWithButtonsNavlink}>
+        <div className={styles.container}>
+            <Link to='/creator-studio' className={styles.navlink}>
                 &lt; go back
             </Link>
-            <span className={styles.tabsRowWithButtonsText}>My Items</span>
+            <span>My Items</span>
         </div>
-
-        // <div className={styles.creatorStudioProjectTabsRow}>
-        //     <div className={styles.creatorStudioProjectContainer04}>
-        //         <Link
-        //             to='/creator-studio'
-        //             className={styles.creatorStudioProjectNavlink2}
-        //         >
-        //             &lt; go back
-        //         </Link>
-        //         <span className={styles.creatorStudioProjectText10}>
-        //             My Collections
-        //         </span>
-        //     </div>
-        // </div>
     )
 
 

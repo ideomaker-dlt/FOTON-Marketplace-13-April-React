@@ -1,136 +1,147 @@
-.collectionPageContainer05 {
+.container {
     gap: var(--dl-space-space-twounits);
     width: auto;
     display: flex;
     align-self: flex-start;
     justify-content: flex-start;
+
+    >div {
+        gap: var(--dl-space-space-unit);
+        width: auto;
+        height: auto;
+        display: flex;
+        align-self: center;
+        align-items: flex-start;
+        padding-top: 0px;
+        border-radius: var(--dl-radius-radius-radius12);
+        flex-direction: column;
+
+        >div {
+            gap: 4px;
+            width: 100%;
+            display: flex;
+            max-width: auto;
+            align-items: flex-start;
+            flex-direction: column;
+
+            >h2 {
+                color: var(--dl-color-dark-white);
+                height: auto;
+                display: flex;
+                overflow: visible;
+                flex-wrap: wrap;
+                font-size: 14px;
+                font-style: normal;
+                font-family: Poppins;
+                font-weight: 400;
+                line-height: 1.5;
+                white-space: normal;
+                padding-right: 0px;
+                text-transform: none;
+                text-decoration: none;
+            }
+
+            >div {
+                width: auto;
+                border: 2px dashed rgba(120, 120, 120, 0.4);
+                display: flex;
+                max-width: 100%;
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            >p {
+                color: var(--dl-color-dark-gray-400);
+                font-size: 14px;
+                font-style: normal;
+                font-family: Poppins;
+                font-weight: 400;
+                line-height: 1.5;
+                padding-right: var(--dl-space-space-threeunits);
+                text-transform: none;
+                text-decoration: none;
+            }
+        }
+    }
 }
 
-.collectionPageDescriptionCollection {
-    gap: var(--dl-space-space-unit);
-    width: auto;
-    height: auto;
-    display: flex;
-    align-self: center;
-    align-items: flex-start;
-    padding-top: 0px;
-    border-radius: var(--dl-radius-radius-radius12);
-    flex-direction: column;
-}
-
-.collectionPageContainer06 {
-    gap: 4px;
-    width: 100%;
-    display: flex;
-    max-width: auto;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.collectionPageText07 {
-    color: var(--dl-color-dark-white);
-    height: auto;
-    display: flex;
-    overflow: visible;
-    flex-wrap: wrap;
-    font-size: 14px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 400;
-    line-height: 1.5;
-    white-space: normal;
-    padding-right: 0px;
-    text-transform: none;
-    text-decoration: none;
-}
-
-.collectionPageContainer07 {
-    width: auto;
-    border: 2px dashed rgba(120, 120, 120, 0.4);
-    display: flex;
-    max-width: 100%;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.collectionPageText10 {
-    color: var(--dl-color-dark-gray-400);
-    font-size: 14px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 400;
-    line-height: 1.5;
-    padding-right: var(--dl-space-space-threeunits);
-    text-transform: none;
-    text-decoration: none;
-}
 
 @media(max-width: 991px) {
-    .collectionPageContainer05 {
+    .container {
         gap: var(--dl-space-space-unit);
         align-self: flex-start;
+
+        >div {
+            gap: var(--dl-space-space-halfunit);
+            height: auto;
+            padding-top: 0px;
+
+            >div {
+                gap: 2px;
+
+                >div {
+                    width: auto;
+                }
+            }
+
+        }
+
     }
 
-    .collectionPageDescriptionCollection {
-        gap: var(--dl-space-space-halfunit);
-        height: auto;
-        padding-top: 0px;
-    }
-
-    .collectionPageContainer06 {
-        gap: 2px;
-    }
-
-    .collectionPageContainer07 {
-        width: auto;
-    }
 }
 
 @media(max-width: 767px) {
-    .collectionPageContainer05 {
+    .container {
         gap: var(--dl-space-space-halfunit);
         align-self: flex-start;
         align-items: center;
         justify-content: flex-start;
-    }
 
-    .collectionPageDescriptionCollection {
-        gap: var(--dl-space-space-halfunit);
-        height: auto;
-        padding-top: 0px;
-    }
+        >div {
+            gap: var(--dl-space-space-halfunit);
+            height: auto;
+            padding-top: 0px;
 
-    .collectionPageContainer06 {
-        gap: 2px;
-    }
+            >div {
+                gap: 2px;
 
-    .collectionPageText07 {
-        color: var(--dl-color-dark-white);
-        font-size: 13px;
-        font-style: normal;
-        font-family: Poppins;
-        font-weight: 400;
-        line-height: 1.5;
-        white-space: normal;
-        text-transform: none;
-        text-decoration: none;
-    }
+                >h2 {
+                    color: var(--dl-color-dark-white);
+                    font-size: 13px;
+                    font-style: normal;
+                    font-family: Poppins;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    white-space: normal;
+                    text-transform: none;
+                    text-decoration: none;
+                }
 
-    .collectionPageContainer07 {
-        height: auto;
-        overflow: visible;
-        max-width: auto;
-        white-space: normal;
-        text-overflow: unset;
-    }
+                >div {
+                    height: auto;
+                    overflow: visible;
+                    max-width: auto;
+                    white-space: normal;
+                    text-overflow: unset;
+                }
 
-    .collectionPageText10 {
-        font-size: 13px;
+                >p {
+                    font-size: 13px;
+                }
+            }
+        }
+
     }
 }
 
 @media(max-width: 479px) {
-    .collectionPageText07 {
-        width: auto;
+    .container {
+        >div {
+            >div {
+                >h2 {
+                    width: auto;
+                }
+            }
+        }
     }
 }

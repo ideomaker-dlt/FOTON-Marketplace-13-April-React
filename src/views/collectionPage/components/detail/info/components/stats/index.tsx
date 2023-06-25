@@ -1,10 +1,36 @@
-import React, { memo } from 'react'
+import React, { memo, useState } from 'react'
 import styles from "./styles.module.scss"
 
 export const Stats = memo(() => {
+    const [stats, setstats] = useState([
+        {
+            text: 10000,
+            text1: "Items"
+        },
+        {
+            text: 573,
+            text1: "Followers"
+        },
+        {
+            text: "28k",
+            text1: "Views"
+        },
+        {
+            text: 62,
+            text1: "Days to Drop"
+        },
+    ])
     return (
-        <div className={styles.collectionPageSmallStats}>
-            <div className={styles.collectionPageSmallCard}>
+        <div className={styles.smallStats}>
+            {
+                stats.map((stat) => (
+                    <div className={styles.card}>
+                        <span className={styles.collectionPageText13}>{stat.text}</span>
+                        <span className={styles.collectionPageText14}>{stat.text1}</span>
+                    </div>
+                ))
+            }
+            {/* <div className={styles.collectionPageSmallCard}>
                 <span className={styles.collectionPageText13}>10000</span>
                 <span className={styles.collectionPageText14}>Items</span>
             </div>
@@ -19,7 +45,7 @@ export const Stats = memo(() => {
             <div className={styles.collectionPageSmallCard3}>
                 <span className={styles.collectionPageText19}>62</span>
                 <span className={styles.collectionPageText20}>Days to Drop</span>
-            </div>
+            </div> */}
         </div>
     )
 

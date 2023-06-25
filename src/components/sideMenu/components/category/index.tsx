@@ -4,23 +4,23 @@ import styles from "./styles.module.scss"
 export const Category = memo(() => {
     return (
         <div className={`${styles.sideMenuContainer} hide-scroll`}>
-            <div className={styles.sideMenuContainer01}>
+            <div className={styles.category}>
                 <span className={`${styles.sideMenuText} material-symbols-outlined`}>
                     category
                 </span>
             </div>
-            <div className={styles.sideMenuLineSeparator}></div>
-            <div className={styles.sideMenuContainerHexa}>
-                <div className={styles.sideMenuContainerOver}></div>
-                <div className={styles.sideMenuContainerBase}></div>
+            <div className={styles.separator}></div>
+            <div className={styles.hexa}>
+                <div></div>
+                <div></div>
             </div>
-            <div className={styles.sideMenuContainerHexa1}>
-                <div className={styles.sideMenuContainerOver1}></div>
-                <div className={styles.sideMenuContainerBase1}></div>
+            <div className={styles.hexa1}>
+                <div></div>
+                <div></div>
             </div>
-            <div className={styles.sideMenuContainerHexa2}>
-                <div className={styles.sideMenuContainerOver2}></div>
-                <div className={styles.sideMenuContainerBase2}></div>
+            <div className={styles.hexa2}>
+                <div></div>
+                <div></div>
             </div>
             <div className={styles.sideMenuContainer02}></div>
             <div className={styles.sideMenuLineSeparator1}></div>

@@ -5,14 +5,14 @@ import styles from "./styles.module.scss"
 export const GoBack = memo(() => {
 
     return (
-        <div className={styles.creatorStudioCollectionContainer5}>
+        <div className={styles.container}>
             <Link
                 to='/creator-studio-project'
-                className={styles.creatorStudioCollectionNavlink1}
+                className={styles.navLink}
             >
                 &lt; go back 1
             </Link>
-            <span className={styles.creatorStudioCollectionText13}>My Items 1</span>
+            <span>My Items 1</span>
         </div>
     )
 

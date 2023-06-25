@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import styles from "./styles.module.scss"
 export const Offer = memo(() => {
     return (
-        <div className={styles.itemPageBuyContainer}>
+        <div className={styles.container}>
             <button className={`${styles.itemPageButton3} button`}>
                 <span className={styles.itemPageText027}>
                     <span>Minting Soon</span>

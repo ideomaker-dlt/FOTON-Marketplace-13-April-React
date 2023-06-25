@@ -6,13 +6,13 @@ export const InfoBox = memo(() => {
 
     return (
 
-        <div className={`${styles.addCollection1InfoBox} `}>
-            <div className={styles.addCollection1Container19}>
-                <h1 className={`${styles.addCollection1Text69} Content18`}>
+        <div className={`${styles.infoBox} `}>
+            <div>
+                <h1 className={`Content18`}>
                     <span>Info:</span>
                     <br></br>
                 </h1>
-                <span className={styles.addCollection1Text72}>
+                <span>
                     <span>
                         Collections on FOTON are similar to folders on your PC.
                         Until you add items inside them they are just an empty box

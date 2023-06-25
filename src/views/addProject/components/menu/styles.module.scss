@@ -1,4 +1,4 @@
-.addProjectTabsRow {
+.row {
     top: 80px;
     flex: 0 0 auto;
     width: 100%;
@@ -15,64 +15,70 @@
     justify-content: space-between;
     background-color: var(--dl-color-dark-gray-200);
     border-bottom-width: 1px;
-}
 
-.addProjectContainer04 {
-    gap: var(--dl-space-space-twounits);
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
+    >div {
+        gap: var(--dl-space-space-twounits);
+        height: 100%;
+        display: flex;
+        align-items: center;
 
-.addProjectNavlink {
-    color: var(--dl-color-dark-gray-400);
-    height: 100%;
-    font-style: normal;
-    transition: 0.05s;
-    font-weight: 600;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    border-color: var(--dl-color-dark-gray-200);
-    border-width: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-    text-decoration: none;
-    border-bottom-width: 2px;
-}
+        .navlink {
+            color: var(--dl-color-dark-gray-400);
+            height: 100%;
+            font-style: normal;
+            transition: 0.05s;
+            font-weight: 600;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: var(--dl-color-dark-gray-200);
+            border-width: 0px;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            text-decoration: none;
+            border-bottom-width: 2px;
 
-.addProjectNavlink:hover {
-    color: var(--dl-color-dark-green-200);
-}
+            &:hover {
+                color: var(--dl-color-dark-green-200);
+            }
+        }
 
-.addProjectText01 {
-    color: var(--dl-color-dark-white);
-    height: 100%;
-    font-style: normal;
-    font-weight: 600;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    border-color: var(--dl-color-dark-gray-200);
-    border-width: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-    border-bottom-width: 2px;
+        >span {
+            color: var(--dl-color-dark-white);
+            height: 100%;
+            font-style: normal;
+            font-weight: 600;
+            padding-top: var(--dl-space-space-oneandhalfunits);
+            border-color: var(--dl-color-dark-gray-200);
+            border-width: 0px;
+            padding-bottom: var(--dl-space-space-oneandhalfunits);
+            border-bottom-width: 2px;
+        }
+    }
 }
 
 @media(max-width: 1200px) {
-    .addProjectText01 {
-        color: var(--dl-color-dark-white);
+    >div {
+        .row {
+            >span {
+                color: var(--dl-color-dark-white);
+            }
+        }
     }
 }
 
 @media(max-width: 767px) {
-    .addProjectTabsRow {
+    .row {
         top: 70px;
-    }
 
-    .addProjectNavlink {
-        font-size: 13px;
-        font-weight: 600;
-    }
+        >div {
+            .navlink {
+                font-size: 13px;
+                font-weight: 600;
+            }
 
-    .addProjectText01 {
-        font-size: 13px;
-        font-weight: 600;
+            >span {
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
     }
 
 }

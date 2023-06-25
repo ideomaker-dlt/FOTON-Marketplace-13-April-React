@@ -8,20 +8,20 @@ export const GoBack = memo(() => {
         "1d", "7d", "30d", "6m", "All"
     ])
     return (
-        <div className={styles.creatorStudioCollectionAnalyticsTabsRow}>
-            <div className={styles.creatorStudioCollectionAnalyticsContainer05}>
+        <div className={styles.row}>
+            <div className={styles.goBack}>
                 <Link
                     to="/creator-studio-project"
-                    className={styles.creatorStudioCollectionAnalyticsNavlink1}
+                    className={styles.navLink}
                 >
                     &lt; go back
                 </Link>
-                <span className={styles.creatorStudioCollectionAnalyticsText10}>
+                <span>
                     Analytics
                 </span>
             </div>
-            <div className={styles.creatorStudioCollectionAnalyticsFilterButtons}>
-                <div className={styles.creatorStudioCollectionAnalyticsTimeframe}>
+            <div className={styles.filterButtons}>
+                <div className={styles.timeframe}>
 
                     {
                         timeframes.map((timeframe, index) => {

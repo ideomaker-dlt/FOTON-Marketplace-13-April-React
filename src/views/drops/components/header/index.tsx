@@ -5,14 +5,14 @@ import styles from "./styles.module.scss"
 export const Header = memo(() => {
     return (
         <div className={styles.dropsHeader}>
-            <div className={`${styles.dropsContainer02} article-container`}>
+            <div className={`${styles.container} article-container`}>
                 <div className={`${styles.dropsContainerPop} article-img-holder`}></div>
                 <div className={`${styles.dropsGrayOverlay} article-title-link`}>
                     <div className={styles.dropsContainer03}>
                         <div className={styles.dropsTextHeader}>
-                            <h1 className={`${styles.dropsText01} Heading1`}>Featured Drop</h1>
-                            <h3 className={styles.dropsText02}>By Sharp Collective</h3>
-                            <div className={styles.dropsContainer04}>
+                            <h1 className={`Heading1`}>Featured Drop</h1>
+                            <h3>By Sharp Collective</h3>
+                            <div>
                                 <div className={styles.dropsContainer05}>
                                     <div className={styles.dropsContainer06}>
                                         <div className={styles.dropsDot}></div>

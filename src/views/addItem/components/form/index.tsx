@@ -4,9 +4,9 @@ import { FormComponent, InfoBox } from './components'
 
 export const Form = memo(() => {
     return (
-        <div className={styles.addItemContainerForm}>
-            <div className={styles.addItemUnderHeader}>
-                <div className={styles.addItemCard}>
+        <div className={styles.container}>
+            <div className={styles.header}>
+                <div>
                     <FormComponent />
                     <InfoBox />
                 </div>

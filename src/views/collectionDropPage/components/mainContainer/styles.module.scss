@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    display: flex;
+    z-index: 500;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+
+    .wrapperAll {
+        gap: var(--dl-space-space-twounits);
+        width: 100%;
+        display: flex;
+    }
+}
+
+@media(max-width: 1200px) {
+    .container {
+        .wrapperAll {
+            gap: var(--dl-space-space-unit);
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    .container {
+        .wrapperAll {
+            gap: var(--dl-space-space-unit);
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .container {
+        .wrapperAll {
+            gap: 0;
+            flex-direction: column;
+        }
+    }
+}

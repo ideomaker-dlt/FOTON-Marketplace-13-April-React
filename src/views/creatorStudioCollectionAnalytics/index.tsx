@@ -1,11 +1,11 @@
 import React, { memo } from 'react'
 import { LayoutWithSidebar } from '@components'
-import './styles.scss'
+import styles from './styles.module.scss'
 import { GoBack, Header, HelmetComponent, List } from './components'
 
 export const CreatorStudioCollectionAnalytics = memo((props: any) => {
     return (
-        <div className="creator-studio-collection-analytics-container">
+        <div className={styles.container}>
             <HelmetComponent />
             <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name12">
                 <Header />

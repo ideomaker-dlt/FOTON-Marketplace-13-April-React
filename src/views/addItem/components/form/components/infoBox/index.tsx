@@ -3,13 +3,13 @@ import styles from "./styles.module.scss"
 export const InfoBox = memo(() => {
 
     return (
-        <div className={styles.addItemInfoBox}>
-            <div className={styles.addItemContainer14}>
-                <h1 className={`${styles.addItemText52} Content18`}>
+        <div className={styles.infoBox}>
+            <div>
+                <h1 className={`Content18`}>
                     <span>Info:</span>
                     <br></br>
                 </h1>
-                <span className={styles.addItemText55}>
+                <span>
                     <span>
                         Items can exist on their own within a Project or be placed
                         within a Collection. In both cases, once an Item is
