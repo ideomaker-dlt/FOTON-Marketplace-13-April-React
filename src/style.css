@@ -16,6 +16,7 @@
   --dl-size-size-maxwidth: 1400px;
   --dl-color-dark-blue-100: #3579aaff;
   --dl-color-dark-blue-200: #2ba3ffff;
+  --dl-color-dark-blue-400: #293f4aff;
   --dl-color-dark-gray-100: #161616ff;
   --dl-color-dark-gray-200: #191919ff;
   --dl-color-dark-gray-250: #1d1d1dff;
@@ -41,6 +42,7 @@
   --dl-space-space-threeunits: 48px;
   --dl-color-dark-darkgreenbtn: #009c75ff;
   --dl-color-dark-purpledarkbg: #362348ff;
+  --dl-color-dark-purplelightish: #9f65d4ff;
   --dl-space-space-oneandhalfunits: 24px;
   --dl-color-dark-darkergreentreatsbg: #182520ff;
   --dl-color-dark-darkergreenhighlight: #1b372bff;
@@ -129,7 +131,21 @@
 .article-img-holder {
   width: 100%;
   display: flex;
-  position: absolute;
+  position: relative;
+  transition: 0.3s;
+  align-items: flex-start;
+  aspect-ratio: 3/1;
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url("/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_068329de-a4e1-486d-96e3-c21a1d066cdf-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.article-img-holder2 {
+  width: 100%;
+  display: flex;
   transition: 0.3s;
   align-items: flex-start;
   aspect-ratio: 3/1;
@@ -142,8 +158,6 @@
   background-position: center;
 }
 .article-title-link {
-  flex: 1;
-  width: 100%;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -254,6 +268,7 @@
 .item-layer:hover {
   border-color: var(--dl-color-dark-darkergreen);
 }
+
 .Content16SemiBold {
   font-size: 16px;
   font-family: Poppins;
@@ -335,6 +350,9 @@
 }
 
 @media(max-width: 991px) {
+  .article-img-holder {
+    aspect-ratio: 3/2;
+  }
   .header-first-column {
     width: 117px;
   }
@@ -348,9 +366,13 @@
   }
   .article-container {
     aspect-ratio: 3/2;
-    background-position: left;
+    background-position: center;
   }
   .article-img-holder {
+    aspect-ratio: 3/2;
+    background-position: left;
+  }
+  .article-img-holder2 {
     aspect-ratio: 3/2;
     background-position: left;
   }

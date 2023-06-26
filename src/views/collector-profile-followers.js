@@ -291,7 +291,7 @@ const CollectorProfileFollowers = (props) => {
                         <br></br>
                       </h1>
                       <h1 className="collector-profile-followers-text056">
-                        <span>rdxdhsj...g765sg</span>
+                        <span>Level 34</span>
                         <br></br>
                       </h1>
                     </div>

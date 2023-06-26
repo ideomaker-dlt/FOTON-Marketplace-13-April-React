@@ -259,6 +259,7 @@
 .item-page-engagement-buttons {
   gap: var(--dl-space-space-halfunit);
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
@@ -2222,6 +2223,9 @@
   }
   .item-page-text047 {
     color: var(--dl-color-dark-white);
+  }
+  .item-page-container08 {
+    grid-template-columns: 1fr 1fr;
   }
   .item-page-text168 {
     color: var(--dl-color-dark-white);

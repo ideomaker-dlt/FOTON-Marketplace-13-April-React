@@ -213,7 +213,7 @@
 .layout-with-sidebar-navlink03:active {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-button1 {
+.layout-with-sidebar-navlink04 {
   color: var(--dl-color-dark-white);
   transition: 0.3s;
   padding-top: 12px;
@@ -221,12 +221,13 @@
   padding-left: var(--dl-space-space-unit);
   padding-right: var(--dl-space-space-unit);
   padding-bottom: 12px;
+  text-decoration: none;
   background-color: transparent;
 }
-.layout-with-sidebar-button1:hover {
+.layout-with-sidebar-navlink04:hover {
   color: var(--dl-color-dark-green-200);
 }
-.layout-with-sidebar-button1:active {
+.layout-with-sidebar-navlink04:active {
   color: var(--dl-color-dark-green-200);
 }
 .layout-with-sidebar-mobile-search {
@@ -1201,6 +1202,8 @@
   flex-direction: column;
   background-color: var(--dl-color-dark-gray-200);
 }
+
+
 
 
 

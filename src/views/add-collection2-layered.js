@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import LayoutWithSidebar from '../components/layout-with-sidebar'
@@ -36,7 +36,7 @@ const AddCollection2Layered = (props) => {
             <div className="add-collection-layered-container02">
               <div className="add-collection-layered-container03">
                 <h1 className="add-collection-layered-text">
-                  Create New Collection
+                  Add Batch - Generate Items
                 </h1>
               </div>
             </div>
@@ -57,45 +57,36 @@ const AddCollection2Layered = (props) => {
                   viewBox="0 0 1024 1024"
                   className="add-collection-layered-icon fill-color-white"
                 >
-                  <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
-                </svg>
-                <span className="add-collection-layered-text001">
-                  <span>Define Collection</span>
-                  <br></br>
-                </span>
-              </button>
-              <button type="button" className="add-collection-layered-button01">
-                <svg
-                  viewBox="0 0 1024 1024"
-                  className="add-collection-layered-icon02 fill-color-white"
-                >
                   <path d="M512 682q-18-14-163-127t-221-171l384-298 384 298q-76 58-220 170t-164 128zM512 792l314-246 70 54-384 298-384-298 70-54z"></path>
                 </svg>
-                <span className="add-collection-layered-text004">
+                <span className="add-collection-layered-text001">
                   <span>Organise</span>
                   <br></br>
                 </span>
               </button>
-              <button type="button" className="add-collection-layered-button02">
+              <Link
+                to="/add-collection2-layered-preview"
+                className="add-collection-layered-navlink1"
+              >
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="add-collection-layered-icon02 fill-color-white"
+                >
+                  <path d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
+                </svg>
+                <span className="add-collection-layered-text004">
+                  <span>Preview</span>
+                  <br></br>
+                </span>
+              </Link>
+              <button type="button" className="add-collection-layered-button01">
                 <svg
                   viewBox="0 0 1024 1024"
                   className="add-collection-layered-icon04 fill-color-white"
                 >
-                  <path d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
-                </svg>
-                <span className="add-collection-layered-text007">
-                  <span>Preview</span>
-                  <br></br>
-                </span>
-              </button>
-              <button type="button" className="add-collection-layered-button03">
-                <svg
-                  viewBox="0 0 1024 1024"
-                  className="add-collection-layered-icon06 fill-color-white"
-                >
                   <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                 </svg>
-                <span className="add-collection-layered-text010">
+                <span className="add-collection-layered-text007">
                   <span>Confirm</span>
                   <br></br>
                 </span>
@@ -108,7 +99,7 @@ const AddCollection2Layered = (props) => {
             <div className="add-collection-layered-card">
               <form className="add-collection-layered-side-layers">
                 <div className="add-collection-layered-field-image">
-                  <label className="add-collection-layered-text013 padding-4px-left">
+                  <label className="add-collection-layered-text010 padding-4px-left">
                     <span>
                       <span
                         dangerouslySetInnerHTML={{
@@ -124,7 +115,7 @@ const AddCollection2Layered = (props) => {
                         }}
                       />
                     </span>
-                    <span className="add-collection-layered-text016">
+                    <span className="add-collection-layered-text013">
                       ● Attributes:
                     </span>
                   </label>
@@ -136,11 +127,11 @@ const AddCollection2Layered = (props) => {
                     />
                     <button
                       type="button"
-                      className="add-collection-layered-button04 button Content16SemiBold"
+                      className="add-collection-layered-button02 button Content16SemiBold"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-icon08"
+                        className="add-collection-layered-icon06"
                       >
                         <path d="M726 554v-84h-172v-172h-84v172h-172v84h172v172h84v-172h172zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                       </svg>
@@ -149,29 +140,29 @@ const AddCollection2Layered = (props) => {
                   <div className="add-collection-layered-container-layer">
                     <div className="add-collection-layered-container07">
                       <div className="add-collection-layered-container08">
-                        <span className="add-collection-layered-text017 Content16SemiBold">
+                        <span className="add-collection-layered-text014 Content16SemiBold">
                           <span>Head</span>
                           <br></br>
                         </span>
-                        <span className="add-collection-layered-text020">
+                        <span className="add-collection-layered-text017">
                           <span>2 Files - 72% Rarity</span>
                           <br></br>
                         </span>
                       </div>
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-icon10 fill-color-gray"
+                        className="add-collection-layered-icon08 fill-color-gray"
                       >
                         <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                       </svg>
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-button05 button Content16SemiBold"
+                      className="add-collection-layered-button03 button Content16SemiBold"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-icon12 fill-color-white"
+                        className="add-collection-layered-icon10 fill-color-white"
                       >
                         <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
                       </svg>
@@ -182,56 +173,81 @@ const AddCollection2Layered = (props) => {
                   <div className="add-collection-layered-container-layer1">
                     <div className="add-collection-layered-container09">
                       <div className="add-collection-layered-container10">
-                        <span className="add-collection-layered-text023 Content16SemiBold">
+                        <span className="add-collection-layered-text020 Content16SemiBold">
                           <span>Mouth</span>
                           <br></br>
                         </span>
-                        <span className="add-collection-layered-text026">
+                        <span className="add-collection-layered-text023">
                           <span>2 Files - 72% Rarity</span>
                           <br></br>
                         </span>
                       </div>
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-icon14 fill-color-gray"
+                        className="add-collection-layered-icon12 fill-color-gray"
                       >
                         <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                       </svg>
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-button06 button Content16SemiBold"
+                      className="add-collection-layered-button04 button Content16SemiBold"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-icon16 fill-color-white"
+                        className="add-collection-layered-icon14 fill-color-white"
                       >
                         <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
                       </svg>
                     </button>
                   </div>
-                  <label className="add-collection-layered-text029 padding-4px-left">
-                    * Organise layers by dragging them. The order of the layers
-                    above is reversed when it generates your images. Ex: First
-                    layer at the top will be the Background of your avatar.
-                  </label>
+                  <div className="add-collection-layered-container11">
+                    <label className="add-collection-layered-text026 padding-4px-left">
+                      <span>Organise layers by dragging them.</span>
+                      <br></br>
+                    </label>
+                    <div className="add-collection-layered-tooltip">
+                      <svg
+                        id="tooltip1"
+                        viewBox="0 0 1024 1024"
+                        className="add-collection-layered-icon16 tooltipclass"
+                      >
+                        <path d="M470 384v-86h84v86h-84zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM470 726v-256h84v256h-84z"></path>
+                      </svg>
+                      <div>
+                        <Script
+                          html={`<script>
+      // With the above scripts loaded, you can call \`tippy()\` with a CSS
+      // selector and a \`content\` prop:
+      tippy('#tooltip1', { theme: 'lemon',
+        content: 'The order of the layers above is reversed when it generates your images. Ex: First layer at the top will be the Background of your avatar.',
+      });
+
+      
+    </script>
+
+`}
+                        ></Script>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </form>
               <div className="add-collection-layered-container-images">
                 <div className="add-collection-layered-tabs-row1">
-                  <div className="add-collection-layered-container11">
-                    <span className="add-collection-layered-text030">
-                      <span className="add-collection-layered-text031">
+                  <div className="add-collection-layered-container12">
+                    <span className="add-collection-layered-text029">
+                      <span className="add-collection-layered-text030">
                         Current Layer:
                       </span>
                       <span> Eyes</span>
                     </span>
                   </div>
                   <div className="add-collection-layered-filter-buttons">
-                    <div className="add-collection-layered-container12">
+                    <div className="add-collection-layered-container13">
                       <button
                         type="button"
-                        className="add-collection-layered-button07"
+                        className="add-collection-layered-button05"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -239,14 +255,14 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M362 576l-148 192h596l-192-256-148 192zM896 810q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h596q34 0 60 26t26 60v596z"></path>
                         </svg>
-                        <span className="add-collection-layered-text033">
+                        <span className="add-collection-layered-text032">
                           <span>Add Files</span>
                           <br></br>
                         </span>
                       </button>
                       <button
                         type="button"
-                        className="add-collection-layered-button08"
+                        className="add-collection-layered-button06"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -254,17 +270,17 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text036">
+                        <span className="add-collection-layered-text035">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
-                    <button
-                      type="button"
-                      className="add-collection-layered-button09"
+                    <Link
+                      to="/add-collection2-layered-preview"
+                      className="add-collection-layered-navlink2"
                     >
-                      <span className="add-collection-layered-text039">
+                      <span className="add-collection-layered-text038">
                         <span>Continue</span>
                         <br></br>
                       </span>
@@ -274,10 +290,10 @@ const AddCollection2Layered = (props) => {
                       >
                         <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                       </svg>
-                    </button>
+                    </Link>
                   </div>
                 </div>
-                <div className="add-collection-layered-container13">
+                <div className="add-collection-layered-container14">
                   <div className="item-layer add-collection-layered-item1">
                     <div className="add-collection-layered-image-header">
                       <input
@@ -294,21 +310,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box">
-                      <div className="add-collection-layered-container14">
+                      <div className="add-collection-layered-container15">
                         <div className="add-collection-layered-floor">
-                          <span className="add-collection-layered-text042 SmallestLabels">
+                          <span className="add-collection-layered-text041 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text043">
+                          <span className="add-collection-layered-text042">
                             Shy
                           </span>
                         </div>
                         <div className="add-collection-layered-volume24">
-                          <span className="add-collection-layered-text044 SmallestLabels">
+                          <span className="add-collection-layered-text043 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container15">
-                            <span className="add-collection-layered-text045">
+                          <div className="add-collection-layered-container16">
+                            <span className="add-collection-layered-text044">
                               38%
                             </span>
                           </div>
@@ -332,21 +348,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box1">
-                      <div className="add-collection-layered-container16">
+                      <div className="add-collection-layered-container17">
                         <div className="add-collection-layered-floor1">
-                          <span className="add-collection-layered-text046 SmallestLabels">
+                          <span className="add-collection-layered-text045 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text047">
+                          <span className="add-collection-layered-text046">
                             Blue
                           </span>
                         </div>
                         <div className="add-collection-layered-volume241">
-                          <span className="add-collection-layered-text048 SmallestLabels">
+                          <span className="add-collection-layered-text047 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container17">
-                            <span className="add-collection-layered-text049">
+                          <div className="add-collection-layered-container18">
+                            <span className="add-collection-layered-text048">
                               21%
                             </span>
                           </div>
@@ -370,21 +386,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box2">
-                      <div className="add-collection-layered-container18">
+                      <div className="add-collection-layered-container19">
                         <div className="add-collection-layered-floor2">
-                          <span className="add-collection-layered-text050 SmallestLabels">
+                          <span className="add-collection-layered-text049 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text051">
+                          <span className="add-collection-layered-text050">
                             Unequal
                           </span>
                         </div>
                         <div className="add-collection-layered-volume242">
-                          <span className="add-collection-layered-text052 SmallestLabels">
+                          <span className="add-collection-layered-text051 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container19">
-                            <span className="add-collection-layered-text053">
+                          <div className="add-collection-layered-container20">
+                            <span className="add-collection-layered-text052">
                               8%
                             </span>
                           </div>
@@ -408,21 +424,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box3">
-                      <div className="add-collection-layered-container20">
+                      <div className="add-collection-layered-container21">
                         <div className="add-collection-layered-floor3">
-                          <span className="add-collection-layered-text054 SmallestLabels">
+                          <span className="add-collection-layered-text053 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text055">
+                          <span className="add-collection-layered-text054">
                             Glasses
                           </span>
                         </div>
                         <div className="add-collection-layered-volume243">
-                          <span className="add-collection-layered-text056 SmallestLabels">
+                          <span className="add-collection-layered-text055 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container21">
-                            <span className="add-collection-layered-text057">
+                          <div className="add-collection-layered-container22">
+                            <span className="add-collection-layered-text056">
                               2%
                             </span>
                           </div>
@@ -446,21 +462,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box4">
-                      <div className="add-collection-layered-container22">
+                      <div className="add-collection-layered-container23">
                         <div className="add-collection-layered-floor4">
-                          <span className="add-collection-layered-text058 SmallestLabels">
+                          <span className="add-collection-layered-text057 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text059">
+                          <span className="add-collection-layered-text058">
                             Pirate
                           </span>
                         </div>
                         <div className="add-collection-layered-volume244">
-                          <span className="add-collection-layered-text060 SmallestLabels">
+                          <span className="add-collection-layered-text059 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container23">
-                            <span className="add-collection-layered-text061">
+                          <div className="add-collection-layered-container24">
+                            <span className="add-collection-layered-text060">
                               39%
                             </span>
                           </div>
@@ -484,21 +500,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box5">
-                      <div className="add-collection-layered-container24">
+                      <div className="add-collection-layered-container25">
                         <div className="add-collection-layered-floor5">
-                          <span className="add-collection-layered-text062 SmallestLabels">
+                          <span className="add-collection-layered-text061 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text063">
+                          <span className="add-collection-layered-text062">
                             One Eye
                           </span>
                         </div>
                         <div className="add-collection-layered-volume245">
-                          <span className="add-collection-layered-text064 SmallestLabels">
+                          <span className="add-collection-layered-text063 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container25">
-                            <span className="add-collection-layered-text065">
+                          <div className="add-collection-layered-container26">
+                            <span className="add-collection-layered-text064">
                               4%
                             </span>
                           </div>
@@ -522,21 +538,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box6">
-                      <div className="add-collection-layered-container26">
+                      <div className="add-collection-layered-container27">
                         <div className="add-collection-layered-floor6">
-                          <span className="add-collection-layered-text066 SmallestLabels">
+                          <span className="add-collection-layered-text065 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text067">
+                          <span className="add-collection-layered-text066">
                             Regular
                           </span>
                         </div>
                         <div className="add-collection-layered-volume246">
-                          <span className="add-collection-layered-text068 SmallestLabels">
+                          <span className="add-collection-layered-text067 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container27">
-                            <span className="add-collection-layered-text069">
+                          <div className="add-collection-layered-container28">
+                            <span className="add-collection-layered-text068">
                               55%
                             </span>
                           </div>
@@ -560,21 +576,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box7">
-                      <div className="add-collection-layered-container28">
+                      <div className="add-collection-layered-container29">
                         <div className="add-collection-layered-floor7">
-                          <span className="add-collection-layered-text070 SmallestLabels">
+                          <span className="add-collection-layered-text069 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text071">
+                          <span className="add-collection-layered-text070">
                             Green
                           </span>
                         </div>
                         <div className="add-collection-layered-volume247">
-                          <span className="add-collection-layered-text072 SmallestLabels">
+                          <span className="add-collection-layered-text071 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container29">
-                            <span className="add-collection-layered-text073">
+                          <div className="add-collection-layered-container30">
+                            <span className="add-collection-layered-text072">
                               43%
                             </span>
                           </div>
@@ -598,21 +614,21 @@ const AddCollection2Layered = (props) => {
                       </div>
                     </div>
                     <div className="add-collection-layered-text-box8">
-                      <div className="add-collection-layered-container30">
+                      <div className="add-collection-layered-container31">
                         <div className="add-collection-layered-floor8">
-                          <span className="add-collection-layered-text074 SmallestLabels">
+                          <span className="add-collection-layered-text073 SmallestLabels">
                             Name
                           </span>
-                          <span className="add-collection-layered-text075">
+                          <span className="add-collection-layered-text074">
                             Two Way
                           </span>
                         </div>
                         <div className="add-collection-layered-volume248">
-                          <span className="add-collection-layered-text076 SmallestLabels">
+                          <span className="add-collection-layered-text075 SmallestLabels">
                             rarity
                           </span>
-                          <div className="add-collection-layered-container31">
-                            <span className="add-collection-layered-text077">
+                          <div className="add-collection-layered-container32">
+                            <span className="add-collection-layered-text076">
                               18%
                             </span>
                           </div>
@@ -626,13 +642,13 @@ const AddCollection2Layered = (props) => {
           </div>
         </div>
         <div className="add-collection-layered-overlay-rarity">
-          <div id="appOverlay" className="add-collection-layered-container32">
-            <div className="add-collection-layered-container33">
-              <label className="add-collection-layered-text078">Eyes</label>
-            </div>
+          <div id="appOverlay" className="add-collection-layered-container33">
             <div className="add-collection-layered-container34">
+              <label className="add-collection-layered-text077">Eyes</label>
+            </div>
+            <div className="add-collection-layered-container35">
               <div>
-                <DangerousHTML
+                <Script
                   html={`<style>
   
 /* width */
@@ -677,10 +693,10 @@ const AddCollection2Layered = (props) => {
 
 
 </style>`}
-                ></DangerousHTML>
+                ></Script>
               </div>
               <div className="add-collection-layered-field">
-                <label className="add-collection-layered-text079 padding-4px-left">
+                <label className="add-collection-layered-text078 padding-4px-left">
                   Layer Name:
                 </label>
                 <input
@@ -691,7 +707,7 @@ const AddCollection2Layered = (props) => {
                 />
               </div>
               <div className="add-collection-layered-field1">
-                <label className="add-collection-layered-text080 Content padding-4px-left">
+                <label className="add-collection-layered-text079 Content padding-4px-left">
                   Layer Rarity within collection:
                 </label>
                 <input
@@ -703,39 +719,39 @@ const AddCollection2Layered = (props) => {
               </div>
               <div className="add-collection-layered-layer-items-treats">
                 <div className="add-collection-layered-tabs-row2">
-                  <div className="add-collection-layered-container35">
-                    <span className="add-collection-layered-text081">
+                  <div className="add-collection-layered-container36">
+                    <span className="add-collection-layered-text080">
                       &lt; go back
                     </span>
-                    <span className="add-collection-layered-text082">
+                    <span className="add-collection-layered-text081">
                       Layer Assets 
                     </span>
-                    <span className="add-collection-layered-text083">
+                    <span className="add-collection-layered-text082">
                       Rules
                     </span>
                   </div>
                   <div className="add-collection-layered-filter-buttons1">
                     <div className="add-collection-layered-timeframe">
-                      <button className="add-collection-layered-button10">
-                        <span className="add-collection-layered-text084">
+                      <button className="add-collection-layered-button07">
+                        <span className="add-collection-layered-text083">
                           <span>1h</span>
                           <br></br>
                         </span>
                       </button>
-                      <button className="add-collection-layered-button11">
-                        <span className="add-collection-layered-text087">
+                      <button className="add-collection-layered-button08">
+                        <span className="add-collection-layered-text086">
                           <span>6h</span>
                           <br></br>
                         </span>
                       </button>
-                      <button className="add-collection-layered-button12">
-                        <span className="add-collection-layered-text090">
+                      <button className="add-collection-layered-button09">
+                        <span className="add-collection-layered-text089">
                           <span>24h</span>
                           <br></br>
                         </span>
                       </button>
-                      <button className="add-collection-layered-button13">
-                        <span className="add-collection-layered-text093">
+                      <button className="add-collection-layered-button10">
+                        <span className="add-collection-layered-text092">
                           <span>7d</span>
                           <br></br>
                         </span>
@@ -755,7 +771,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
                         </svg>
-                        <span className="add-collection-layered-text096">
+                        <span className="add-collection-layered-text095">
                           Sort by Name
                         </span>
                         <div
@@ -782,7 +798,7 @@ const AddCollection2Layered = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection-layered-dropdown-toggle1"
                           >
-                            <span className="add-collection-layered-text097">
+                            <span className="add-collection-layered-text096">
                               Name
                             </span>
                           </div>
@@ -790,7 +806,7 @@ const AddCollection2Layered = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection-layered-dropdown-toggle2"
                           >
-                            <span className="add-collection-layered-text098">
+                            <span className="add-collection-layered-text097">
                               Most Rare
                             </span>
                           </div>
@@ -798,7 +814,7 @@ const AddCollection2Layered = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection-layered-dropdown-toggle3"
                           >
-                            <span className="add-collection-layered-text099">
+                            <span className="add-collection-layered-text098">
                               Newest Added
                             </span>
                           </div>
@@ -806,7 +822,7 @@ const AddCollection2Layered = (props) => {
                             data-thq="thq-dropdown-toggle"
                             className="add-collection-layered-dropdown-toggle4"
                           >
-                            <span className="add-collection-layered-text100">
+                            <span className="add-collection-layered-text099">
                               Oldest
                             </span>
                           </div>
@@ -815,7 +831,7 @@ const AddCollection2Layered = (props) => {
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-button14"
+                      className="add-collection-layered-button11"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
@@ -823,14 +839,14 @@ const AddCollection2Layered = (props) => {
                       >
                         <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
                       </svg>
-                      <span className="add-collection-layered-text101">
+                      <span className="add-collection-layered-text100">
                         <span>Select All</span>
                         <br></br>
                       </span>
                     </button>
                     <button
                       type="button"
-                      className="add-collection-layered-button15"
+                      className="add-collection-layered-button12"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
@@ -838,7 +854,7 @@ const AddCollection2Layered = (props) => {
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
-                      <span className="add-collection-layered-text104">
+                      <span className="add-collection-layered-text103">
                         <span>Delete</span>
                         <br></br>
                       </span>
@@ -846,20 +862,20 @@ const AddCollection2Layered = (props) => {
                   </div>
                 </div>
                 <div className="add-collection-layered-tabs-row3">
-                  <div className="add-collection-layered-container36">
-                    <div className="add-collection-layered-container37">
-                      <span className="add-collection-layered-text107 Labels13CAPS">
+                  <div className="add-collection-layered-container37">
+                    <div className="add-collection-layered-container38">
+                      <span className="add-collection-layered-text106 Labels13CAPS">
                         Open
                       </span>
                     </div>
-                    <div className="add-collection-layered-container38">
-                      <span className="add-collection-layered-text108 Labels13CAPS">
+                    <div className="add-collection-layered-container39">
+                      <span className="add-collection-layered-text107 Labels13CAPS">
                         name
                       </span>
                     </div>
                   </div>
-                  <div className="add-collection-layered-container39">
-                    <span className="add-collection-layered-text109 Labels13CAPS">
+                  <div className="add-collection-layered-container40">
+                    <span className="add-collection-layered-text108 Labels13CAPS">
                       Rarity
                       <span
                         dangerouslySetInnerHTML={{
@@ -869,14 +885,14 @@ const AddCollection2Layered = (props) => {
                     </span>
                   </div>
                 </div>
-                <div className="add-collection-layered-container40">
+                <div className="add-collection-layered-container41">
                   <div className="add-collection-layered-row-image">
-                    <div className="add-collection-layered-container41">
+                    <div className="add-collection-layered-container42">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox09"
                       />
-                      <div className="add-collection-layered-container42"></div>
+                      <div className="add-collection-layered-container43"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -884,7 +900,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput03 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
-                    <div className="add-collection-layered-container43">
+                    <div className="add-collection-layered-container44">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -893,7 +909,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button16"
+                        className="add-collection-layered-button13"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -901,7 +917,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text110">
+                        <span className="add-collection-layered-text109">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -909,12 +925,12 @@ const AddCollection2Layered = (props) => {
                     </div>
                   </div>
                   <div className="add-collection-layered-row-image1">
-                    <div className="add-collection-layered-container44">
+                    <div className="add-collection-layered-container45">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox10"
                       />
-                      <div className="add-collection-layered-container45"></div>
+                      <div className="add-collection-layered-container46"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -922,7 +938,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput05 Content16SemiBold focus-reset-forms input"
                       />
                     </div>
-                    <div className="add-collection-layered-container46">
+                    <div className="add-collection-layered-container47">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -931,7 +947,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button17"
+                        className="add-collection-layered-button14"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -939,7 +955,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text113">
+                        <span className="add-collection-layered-text112">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -947,12 +963,12 @@ const AddCollection2Layered = (props) => {
                     </div>
                   </div>
                   <div className="add-collection-layered-row-image2">
-                    <div className="add-collection-layered-container47">
+                    <div className="add-collection-layered-container48">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox11"
                       />
-                      <div className="add-collection-layered-container48"></div>
+                      <div className="add-collection-layered-container49"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -960,7 +976,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput07 Content16SemiBold focus-reset-forms input"
                       />
                     </div>
-                    <div className="add-collection-layered-container49">
+                    <div className="add-collection-layered-container50">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -969,7 +985,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button18"
+                        className="add-collection-layered-button15"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -977,7 +993,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text116">
+                        <span className="add-collection-layered-text115">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -985,12 +1001,12 @@ const AddCollection2Layered = (props) => {
                     </div>
                   </div>
                   <div className="add-collection-layered-row-image3">
-                    <div className="add-collection-layered-container50">
+                    <div className="add-collection-layered-container51">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox12"
                       />
-                      <div className="add-collection-layered-container51"></div>
+                      <div className="add-collection-layered-container52"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -998,7 +1014,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput09 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-container52">
+                    <div className="add-collection-layered-container53">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1007,7 +1023,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button19"
+                        className="add-collection-layered-button16"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -1015,7 +1031,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text119">
+                        <span className="add-collection-layered-text118">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -1023,12 +1039,12 @@ const AddCollection2Layered = (props) => {
                     </div>
                   </div>
                   <div className="add-collection-layered-row-image4">
-                    <div className="add-collection-layered-container53">
+                    <div className="add-collection-layered-container54">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox13"
                       />
-                      <div className="add-collection-layered-container54"></div>
+                      <div className="add-collection-layered-container55"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1036,7 +1052,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput11 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
-                    <div className="add-collection-layered-container55">
+                    <div className="add-collection-layered-container56">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1045,7 +1061,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button20"
+                        className="add-collection-layered-button17"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -1053,7 +1069,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text122">
+                        <span className="add-collection-layered-text121">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -1061,12 +1077,12 @@ const AddCollection2Layered = (props) => {
                     </div>
                   </div>
                   <div className="add-collection-layered-row-image5">
-                    <div className="add-collection-layered-container56">
+                    <div className="add-collection-layered-container57">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox14"
                       />
-                      <div className="add-collection-layered-container57"></div>
+                      <div className="add-collection-layered-container58"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1074,7 +1090,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput13 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-container58">
+                    <div className="add-collection-layered-container59">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1083,7 +1099,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button21"
+                        className="add-collection-layered-button18"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -1091,7 +1107,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text125">
+                        <span className="add-collection-layered-text124">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -1099,12 +1115,12 @@ const AddCollection2Layered = (props) => {
                     </div>
                   </div>
                   <div className="add-collection-layered-row-image6">
-                    <div className="add-collection-layered-container59">
+                    <div className="add-collection-layered-container60">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox15"
                       />
-                      <div className="add-collection-layered-container60"></div>
+                      <div className="add-collection-layered-container61"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1112,7 +1128,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput15 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-container61">
+                    <div className="add-collection-layered-container62">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1121,7 +1137,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button22"
+                        className="add-collection-layered-button19"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -1129,7 +1145,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text128">
+                        <span className="add-collection-layered-text127">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -1137,12 +1153,12 @@ const AddCollection2Layered = (props) => {
                     </div>
                   </div>
                   <div className="add-collection-layered-row-image7">
-                    <div className="add-collection-layered-container62">
+                    <div className="add-collection-layered-container63">
                       <input
                         type="checkbox"
                         className="add-collection-layered-checkbox16"
                       />
-                      <div className="add-collection-layered-container63"></div>
+                      <div className="add-collection-layered-container64"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1150,7 +1166,7 @@ const AddCollection2Layered = (props) => {
                         className="add-collection-layered-textinput17 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-container64">
+                    <div className="add-collection-layered-container65">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
@@ -1159,7 +1175,7 @@ const AddCollection2Layered = (props) => {
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-button23"
+                        className="add-collection-layered-button20"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
@@ -1167,7 +1183,7 @@ const AddCollection2Layered = (props) => {
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-text131">
+                        <span className="add-collection-layered-text130">
                           <span>Delete</span>
                           <br></br>
                         </span>

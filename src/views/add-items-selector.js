@@ -63,6 +63,11 @@ const AddItemsSelector = (props) => {
                   <path d="M832 288c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.98 96 96z"></path>
                   <path d="M896 832h-768v-128l224-384 256 320h64l224-192z"></path>
                 </svg>
+                <img
+                  alt="image"
+                  src="/additem-200h.png"
+                  className="add-items-selector-image"
+                />
               </div>
               <div className="add-items-selector-container07">
                 <h1 className="add-items-selector-text02 Heading3">
@@ -78,7 +83,7 @@ const AddItemsSelector = (props) => {
               </div>
             </div>
           </Link>
-          <Link to="/add-collection2-layered">
+          <Link to="/add-un-layered-batch">
             <div className="add-items-selector-collection1">
               <div className="add-items-selector-container08">
                 <svg
@@ -89,21 +94,32 @@ const AddItemsSelector = (props) => {
                   <path d="M960 352c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.98 96 96z"></path>
                   <path d="M1024 896h-768v-128l224-384 256 320h64l224-192z"></path>
                 </svg>
+                <img
+                  alt="image"
+                  src="/addbatch-200w.png"
+                  className="add-items-selector-image1"
+                />
               </div>
               <div className="add-items-selector-container09">
                 <h1 className="add-items-selector-text06 Heading3">
-                  Add Batch - Layered
+                  Add Items - Batch
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
                 </h1>
                 <h1 className="add-items-selector-text07 Content">
                   <span>
-                    You have Layers and want to generate images for more items.
+                    You have Ready Made images for items and want to fill in
+                    their Attributes individually.
                   </span>
                   <br></br>
                 </h1>
               </div>
             </div>
           </Link>
-          <Link to="/add-un-layered-batch">
+          <Link to="/add-collection2-layered">
             <div className="add-items-selector-collection2">
               <div className="add-items-selector-container10">
                 <svg
@@ -114,15 +130,20 @@ const AddItemsSelector = (props) => {
                   <path d="M960 352c0 53.020-42.98 96-96 96s-96-42.98-96-96 42.98-96 96-96 96 42.98 96 96z"></path>
                   <path d="M1024 896h-768v-128l224-384 256 320h64l224-192z"></path>
                 </svg>
+                <img
+                  alt="image"
+                  src="/addlayeredbatch-200h.png"
+                  className="add-items-selector-image2"
+                />
               </div>
               <div className="add-items-selector-container11">
                 <h1 className="add-items-selector-text10 Heading3">
-                  Add Batch - Unlayered
+                  Add Items - Layered Batch
                 </h1>
                 <h1 className="add-items-selector-text11 Content">
                   <span>
-                    You have Ready Made images for more items and want to fill
-                    in their Attributes.
+                    You have Layers and want to generate items for an entire
+                    Collection.
                   </span>
                   <br></br>
                 </h1>

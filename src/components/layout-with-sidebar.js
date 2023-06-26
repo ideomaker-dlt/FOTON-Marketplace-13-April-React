@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 import SideMenu from './side-menu'
@@ -44,7 +44,7 @@ const LayoutWithSidebar = (props) => {
                 className="layout-with-sidebar-textinput focus-reset Content18 input"
               />
               <div className="">
-                <DangerousHTML
+                <Script
                   html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color: red;
@@ -66,7 +66,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 </style>`}
                   className=""
-                ></DangerousHTML>
+                ></Script>
               </div>
             </form>
           </div>
@@ -88,9 +88,12 @@ input[type="search"]::-webkit-search-results-decoration {
                 >
                   Create
                 </Link>
-                <button className="layout-with-sidebar-button1 Content">
+                <Link
+                  to="/more-page"
+                  className="layout-with-sidebar-navlink04 Content"
+                >
                   More
-                </button>
+                </Link>
               </div>
             </div>
             <div className="layout-with-sidebar-mobile-search">
@@ -216,15 +219,17 @@ input[type="search"]::-webkit-search-results-decoration {
                         </span>
                       </div>
                     </Link>
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle03"
-                    >
-                      <span className="layout-with-sidebar-text10 material-symbols-outlined">
-                        grid_view
-                      </span>
-                      <span className="layout-with-sidebar-text11">More</span>
-                    </div>
+                    <Link to="/more-page" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-dropdown-toggle03"
+                      >
+                        <span className="layout-with-sidebar-text10 material-symbols-outlined">
+                          grid_view
+                        </span>
+                        <span className="layout-with-sidebar-text11">More</span>
+                      </div>
+                    </Link>
                     <Link to="/user-profile-settings" className="">
                       <div
                         data-thq="thq-dropdown-toggle"

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 
 import './container-layer-modal.css'
 
@@ -68,7 +68,7 @@ const ContainerLayerModal = (props) => {
             </div>
             <div className="container-layer-modal-buttons">
               <div>
-                <DangerousHTML
+                <Script
                   html={`<style>
   
 /* width */
@@ -113,7 +113,7 @@ const ContainerLayerModal = (props) => {
 
 
 </style>`}
-                ></DangerousHTML>
+                ></Script>
               </div>
               <div className="container-layer-modal-field1">
                 <div className="container-layer-modal-bottom-buttons">

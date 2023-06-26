@@ -33,7 +33,7 @@ const ItemPage = (props) => {
             <div className="item-page-item-image">
               <img
                 alt="image"
-                src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_985a59cd-5e25-43ca-b106-15a717076d76-1500w.png"
+                src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_065ba4ec-0904-4c75-9453-fba488a364b4-1500w.png"
                 className="item-page-image"
               />
             </div>

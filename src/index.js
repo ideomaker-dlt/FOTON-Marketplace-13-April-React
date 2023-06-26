@@ -13,12 +13,14 @@ import AddCollection2Layered from './views/add-collection2-layered'
 import CreatorStudioCollection from './views/creator-studio-collection'
 import AddItem from './views/add-item'
 import CollectionDropPageRoadmap from './views/collection-drop-page-roadmap'
+import AddCollection2LayeredPreview from './views/add-collection2-layered-preview'
 import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-analytics'
 import CreatorStudio from './views/creator-studio'
 import CollectorProfileFollowers from './views/collector-profile-followers'
 import AddUnLayeredBatch from './views/add-un-layered-batch'
 import Stats from './views/stats'
-import ListCollection from './views/list-collection'
+import MorePage from './views/more-page'
+import PublishCollection from './views/publish-collection'
 import CollectorProfile from './views/collector-profile'
 import AddProject from './views/add-project'
 import Home from './views/home'
@@ -61,6 +63,11 @@ const App = () => {
           path="/collection-drop-page-roadmap"
         />
         <Route
+          component={AddCollection2LayeredPreview}
+          exact
+          path="/add-collection2-layered-preview"
+        />
+        <Route
           component={CreatorStudioCollectionAnalytics}
           exact
           path="/creator-studio-collection-analytics"
@@ -77,7 +84,8 @@ const App = () => {
           path="/add-un-layered-batch"
         />
         <Route component={Stats} exact path="/stats" />
-        <Route component={ListCollection} exact path="/list-collection" />
+        <Route component={MorePage} exact path="/more-page" />
+        <Route component={PublishCollection} exact path="/publish-collection" />
         <Route component={CollectorProfile} exact path="/collector-profile" />
         <Route component={AddProject} exact path="/add-project" />
         <Route component={Home} exact path="/" />

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import LayoutWithSidebar from '../components/layout-with-sidebar'
@@ -220,7 +220,7 @@ const CollectionPage = (props) => {
                   className="collection-page-textinput Content18 focus-reset input"
                 />
                 <div>
-                  <DangerousHTML
+                  <Script
                     html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color: red;
@@ -241,7 +241,7 @@ input[type="search"]::-webkit-search-results-decoration {
 -webkit-appearance:none;
 }
 </style>`}
-                  ></DangerousHTML>
+                  ></Script>
                 </div>
               </form>
             </div>

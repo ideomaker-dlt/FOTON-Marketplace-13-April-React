@@ -92,6 +92,17 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <style>
+      .tippy-box[data-theme~='lemon'] {
+        background-color: #00E39F;
+        color: black;
+        padding: 10px;
+
+      }
+      .tippy-box[data-theme~='lemon'][data-placement^='top'] > .tippy-arrow::before {
+        border-top-color: #00E39F;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -101,5 +112,9 @@
       data-section-id="navbar"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
+
+    <!-- Tooltip -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
   </body>
 </html>

@@ -116,7 +116,7 @@ Footer.defaultProps = {
   text8: 'Drops Portal',
   text17: 'Resources',
   text13: 'Creator Studio',
-  text22: 'Contact',
+  text22: 'Press Kit',
   text15: 'Jobs Portal',
   text18: 'Announcements',
   text6: 'For Collectors',

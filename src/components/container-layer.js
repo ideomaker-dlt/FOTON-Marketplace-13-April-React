@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 import SettingsTrait from './settings-trait'
@@ -60,7 +60,7 @@ const ContainerLayer = (props) => {
               </div>
               <div className="container-layer-container03">
                 <div>
-                  <DangerousHTML
+                  <Script
                     html={`<style>
   
 /* width */
@@ -105,7 +105,7 @@ const ContainerLayer = (props) => {
 
 
 </style>`}
-                  ></DangerousHTML>
+                  ></Script>
                 </div>
                 <div className="container-layer-field">
                   <label className="container-layer-text07 padding-4px-left">
@@ -131,7 +131,7 @@ const ContainerLayer = (props) => {
                     />
                     <div className="container-layer-slider">
                       <div>
-                        <DangerousHTML
+                        <Script
                           html={`
 <style>
 input[type="range"] {
@@ -267,7 +267,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                        ></DangerousHTML>
+                        ></Script>
                       </div>
                       <span className="container-layer-percentage-value-start">
                         {props.RarityPercentage}
@@ -512,7 +512,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -648,7 +648,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>
@@ -703,7 +703,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -839,7 +839,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>
@@ -894,7 +894,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -1030,7 +1030,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>
@@ -1085,7 +1085,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -1221,7 +1221,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>
@@ -1276,7 +1276,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -1412,7 +1412,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>
@@ -1467,7 +1467,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -1603,7 +1603,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>
@@ -1658,7 +1658,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -1794,7 +1794,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>
@@ -1849,7 +1849,7 @@ sliderEl.addEventListener("input", (event) => {
                             100%
                           </span>
                           <div>
-                            <DangerousHTML
+                            <Script
                               html={`
 <style>
 input[type="range"] {
@@ -1985,7 +1985,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                            ></DangerousHTML>
+                            ></Script>
                           </div>
                         </div>
                       </div>

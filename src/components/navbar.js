@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 import './navbar.css'
@@ -36,7 +36,7 @@ const Navbar = (props) => {
               className="navbar-textinput Content18 input"
             />
             <div className="">
-              <DangerousHTML
+              <Script
                 html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color: red;
@@ -58,7 +58,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 </style>`}
                 className=""
-              ></DangerousHTML>
+              ></Script>
             </div>
           </form>
         </div>

@@ -150,11 +150,11 @@ const CreatorStudioCollection = (props) => {
                   </span>
                 </Link>
                 <Link
-                  to="/list-collection"
+                  to="/publish-collection"
                   className="creator-studio-collection-navlink1 button"
                 >
                   <span className="creator-studio-collection-text14">
-                    <span>List</span>
+                    <span>Publish</span>
                     <br></br>
                   </span>
                 </Link>
