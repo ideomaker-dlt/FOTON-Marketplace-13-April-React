@@ -66,7 +66,7 @@ const ItemOpen = (props) => {
 ItemOpen.defaultProps = {
   text11: '# 2537',
   text6: 'Continue',
-  text: 'Blob #00001',
+  text: 'Item #00001',
   text61: 'Continue',
   image_alt: 'image',
   image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',

@@ -1,4 +1,9 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+ 
+ :root {
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
   --dl-color-danger-300: #A22020;
@@ -41,6 +46,7 @@
   --dl-radius-radius-radius16: 16;
   --dl-space-space-threeunits: 48px;
   --dl-color-dark-darkgreenbtn: #009c75ff;
+  --dl-color-dark-purplebright: #cc93ffff;
   --dl-color-dark-purpledarkbg: #362348ff;
   --dl-color-dark-purplelightish: #9f65d4ff;
   --dl-space-space-oneandhalfunits: 24px;
@@ -48,13 +54,13 @@
   --dl-color-dark-darkergreenhighlight: #1b372bff;
 }
 .button {
-  color: var(--dl-color-dark-black);
+  color: var(--dl-color-dark-white);
   display: inline-block;
-  padding: 0.5rem 1rem;
-  border-color: var(--dl-color-dark-black);
-  border-width: 1px;
+  padding: var(--dl-space-space-unit);
+  border-color: var(--dl-color-dark-green-200);
+  border-width: 2;
   border-radius: 4px;
-  background-color: var(--dl-color-dark-white);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .input {
   color: var(--dl-color-dark-black);
@@ -269,6 +275,15 @@
   border-color: var(--dl-color-dark-darkergreen);
 }
 
+.reddot {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-round);
+  background-color: none;
+}
 .Content16SemiBold {
   font-size: 16px;
   font-family: Poppins;

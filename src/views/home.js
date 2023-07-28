@@ -106,7 +106,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-news">
-            <Link to="/more-page" className="home-navlink1">
+            <Link to="/discover" className="home-navlink1">
               <div className="home-container-top">
                 <div className="home-container14">
                   <h2 className="home-heading">Discover All Features</h2>
@@ -123,7 +123,7 @@ const Home = (props) => {
                     </div>
                     <div className="home-info-bubble1">
                       <span className="home-text21">
-                        NFTS MARKETPLACE
+                        NFT MARKETPLACE
                         <span
                           dangerouslySetInnerHTML={{
                             __html: ' ',
@@ -139,7 +139,7 @@ const Home = (props) => {
               </div>
             </Link>
             <div className="home-container-bottom">
-              <Link to="/more-page" className="home-navlink2">
+              <Link to="/discover" className="home-navlink2">
                 <div className="home-container16">
                   <h2 className="home-heading1">Climb The Leaderboard </h2>
                   <div className="home-container17">

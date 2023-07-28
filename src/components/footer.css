@@ -599,6 +599,8 @@
   color: var(--dl-color-dark-darkergreen);
 }
 
+
+
 @media(max-width: 1200px) {
   .footer-footer {
     padding-left: var(--dl-space-space-twounits);

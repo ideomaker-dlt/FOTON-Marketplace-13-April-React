@@ -1,29 +1,42 @@
 import React, { useState } from 'react'
 
 import Script from 'dangerous-html/react'
+import PropTypes from 'prop-types'
 
 import './container-layer-modal.css'
 
 const ContainerLayerModal = (props) => {
   const [isVisible, setIsVisible] = useState(false)
   return (
-    <div className="container-layer-modal-container-layer-modal">
+    <div
+      className={`container-layer-modal-container-layer-modal ${props.rootClassName} `}
+    >
       <div className="container-layer-modal-container">
         <div className="container-layer-modal-container1">
           <span className="container-layer-modal-text Content16SemiBold">
-            <span>Modal</span>
-            <br></br>
+            <span className="">Modal</span>
+            <br className=""></br>
           </span>
           <span className="container-layer-modal-text03">
-            <span>2 Files - 72% Rarity</span>
-            <br></br>
+            <span className="">
+              2 Files - 72%
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br className=""></br>
           </span>
         </div>
         <svg
           viewBox="0 0 1024 1024"
           className="container-layer-modal-icon fill-color-gray"
         >
-          <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
+          <path
+            d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"
+            className=""
+          ></path>
         </svg>
       </div>
       <button
@@ -35,7 +48,10 @@ const ContainerLayerModal = (props) => {
           viewBox="0 0 1024 1024"
           className="container-layer-modal-icon02 fill-color-white"
         >
-          <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
+          <path
+            d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"
+            className=""
+          ></path>
         </svg>
       </button>
       {isVisible && (
@@ -55,7 +71,10 @@ const ContainerLayerModal = (props) => {
                   viewBox="0 0 1024 1024"
                   className="container-layer-modal-icon04 fill-color-white"
                 >
-                  <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    className=""
+                  ></path>
                 </svg>
               </div>
             </div>
@@ -67,7 +86,7 @@ const ContainerLayerModal = (props) => {
               </div>
             </div>
             <div className="container-layer-modal-buttons">
-              <div>
+              <div className="">
                 <Script
                   html={`<style>
   
@@ -113,6 +132,7 @@ const ContainerLayerModal = (props) => {
 
 
 </style>`}
+                  className=""
                 ></Script>
               </div>
               <div className="container-layer-modal-field1">
@@ -123,8 +143,8 @@ const ContainerLayerModal = (props) => {
                     className="container-layer-modal-button button"
                   >
                     <span className="container-layer-modal-text08">
-                      <span>Cancel</span>
-                      <br></br>
+                      <span className="">Cancel</span>
+                      <br className=""></br>
                     </span>
                   </button>
                   <button
@@ -132,14 +152,17 @@ const ContainerLayerModal = (props) => {
                     className="container-layer-modal-button1 button"
                   >
                     <span className="container-layer-modal-text11">
-                      <span>Confirm</span>
-                      <br></br>
+                      <span className="">Confirm</span>
+                      <br className=""></br>
                     </span>
                     <svg
                       viewBox="0 0 1024 1024"
                       className="container-layer-modal-icon06"
                     >
-                      <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
+                      <path
+                        d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"
+                        className=""
+                      ></path>
                     </svg>
                   </button>
                   <button
@@ -147,14 +170,17 @@ const ContainerLayerModal = (props) => {
                     className="container-layer-modal-button2 button"
                   >
                     <span className="container-layer-modal-text14">
-                      <span>Delete</span>
-                      <br></br>
+                      <span className="">Delete</span>
+                      <br className=""></br>
                     </span>
                     <svg
                       viewBox="0 0 1024 1024"
                       className="container-layer-modal-icon08 fill-color-white"
                     >
-                      <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                      <path
+                        d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                        className=""
+                      ></path>
                     </svg>
                   </button>
                 </div>
@@ -165,6 +191,14 @@ const ContainerLayerModal = (props) => {
       )}
     </div>
   )
+}
+
+ContainerLayerModal.defaultProps = {
+  rootClassName: '',
+}
+
+ContainerLayerModal.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default ContainerLayerModal

@@ -141,7 +141,7 @@ const CreatorStudioCollection = (props) => {
               </div>
               <div className="creator-studio-collection-buttons">
                 <Link
-                  to="/add-items-selector"
+                  to="/add-items-templates"
                   className="creator-studio-collection-navlink button"
                 >
                   <span className="creator-studio-collection-text11">

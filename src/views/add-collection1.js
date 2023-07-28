@@ -213,7 +213,7 @@ const AddCollection1 = (props) => {
                           className="add-collection1-image"
                         />
                         <span className="add-collection1-text032">
-                          <span>I have Ready Made images</span>
+                          <span>I have final Artwork images</span>
                           <br></br>
                         </span>
                       </Link>

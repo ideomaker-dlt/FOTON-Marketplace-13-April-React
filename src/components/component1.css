@@ -1,0 +1,108 @@
+.component1-container {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: column;
+  background-size: 120%;
+  background-image: url("/snap2023-06-23-15-18-29-1500h.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.component1-text {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.component1-text01 {
+  color: var(--dl-color-dark-gray-400);
+  display: none;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.component1-container1 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component1-info-bubble {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 2px;
+  background-color: var(--dl-color-dark-darkergreen);
+}
+.component1-text04 {
+  color: var(--dl-color-dark-gray-250);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+}
+.component1-info-bubble1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 2px;
+  background-color: var(--dl-color-dark-darkergreen);
+}
+.component1-text05 {
+  color: var(--dl-color-dark-gray-250);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+}
+.component1-spinner {
+  gap: 4px;
+  flex: 0 0 auto;
+  left: 32px;
+  width: auto;
+  bottom: var(--dl-space-space-twounits);
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+.component1-image {
+  width: 40px;
+  object-fit: cover;
+}
+.component1-text06 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+@media(max-width: 991px) {
+  .component1-spinner {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .component1-container {
+    padding-left: var(--dl-space-space-unit);
+    background-size: 95%;
+    background-position: 120px;
+  }
+}

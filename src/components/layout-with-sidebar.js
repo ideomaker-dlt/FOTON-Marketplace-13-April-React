@@ -89,10 +89,10 @@ input[type="search"]::-webkit-search-results-decoration {
                   Create
                 </Link>
                 <Link
-                  to="/more-page"
+                  to="/discover"
                   className="layout-with-sidebar-navlink04 Content"
                 >
-                  More
+                  Discover
                 </Link>
               </div>
             </div>
@@ -219,7 +219,7 @@ input[type="search"]::-webkit-search-results-decoration {
                         </span>
                       </div>
                     </Link>
-                    <Link to="/more-page" className="">
+                    <Link to="/discover" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-dropdown-toggle03"

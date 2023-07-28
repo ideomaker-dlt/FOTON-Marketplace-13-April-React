@@ -9,23 +9,33 @@ import './container-layer.css'
 const ContainerLayer = (props) => {
   const [isVisible, setIsVisible] = useState(false)
   return (
-    <div className="container-layer-container-layer">
+    <div className={`container-layer-container-layer ${props.rootClassName} `}>
       <div className="container-layer-container">
         <div className="container-layer-container01">
           <span className="container-layer-text Content16SemiBold">
-            <span>Eyes</span>
-            <br></br>
+            <span className="">Eyes</span>
+            <br className=""></br>
           </span>
           <span className="container-layer-text03">
-            <span>2 Files - 72% Rarity</span>
-            <br></br>
+            <span className="">
+              2 Files - 72%
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br className=""></br>
           </span>
         </div>
         <svg
           viewBox="0 0 1024 1024"
           className="container-layer-icon fill-color-gray"
         >
-          <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
+          <path
+            d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"
+            className=""
+          ></path>
         </svg>
       </div>
       <button
@@ -37,7 +47,10 @@ const ContainerLayer = (props) => {
           viewBox="0 0 1024 1024"
           className="container-layer-icon02 fill-color-white"
         >
-          <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
+          <path
+            d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"
+            className=""
+          ></path>
         </svg>
       </button>
       {isVisible && (
@@ -54,12 +67,15 @@ const ContainerLayer = (props) => {
                     viewBox="0 0 1024 1024"
                     className="container-layer-icon04 fill-color-white"
                   >
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      className=""
+                    ></path>
                   </svg>
                 </div>
               </div>
               <div className="container-layer-container03">
-                <div>
+                <div className="">
                   <Script
                     html={`<style>
   
@@ -105,6 +121,7 @@ const ContainerLayer = (props) => {
 
 
 </style>`}
+                    className=""
                   ></Script>
                 </div>
                 <div className="container-layer-field">
@@ -130,7 +147,7 @@ const ContainerLayer = (props) => {
                       className="container-layer-textinput01 focus-reset-forms Content16SemiBold input"
                     />
                     <div className="container-layer-slider">
-                      <div>
+                      <div className="">
                         <Script
                           html={`
 <style>
@@ -267,6 +284,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                          className=""
                         ></Script>
                       </div>
                       <span className="container-layer-percentage-value-start">
@@ -299,26 +317,26 @@ sliderEl.addEventListener("input", (event) => {
                       <div className="container-layer-timeframe">
                         <button className="container-layer-button">
                           <span className="container-layer-text12">
-                            <span>1h</span>
-                            <br></br>
+                            <span className="">1h</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <button className="container-layer-button01">
                           <span className="container-layer-text15">
-                            <span>6h</span>
-                            <br></br>
+                            <span className="">6h</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <button className="container-layer-button02">
                           <span className="container-layer-text18">
-                            <span>24h</span>
-                            <br></br>
+                            <span className="">24h</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <button className="container-layer-button03">
                           <span className="container-layer-text21">
-                            <span>7d</span>
-                            <br></br>
+                            <span className="">7d</span>
+                            <br className=""></br>
                           </span>
                         </button>
                       </div>
@@ -334,7 +352,10 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon06"
                           >
-                            <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
+                            <path
+                              d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text24">
                             Sort by Name
@@ -347,7 +368,10 @@ sliderEl.addEventListener("input", (event) => {
                               viewBox="0 0 1024 1024"
                               className="container-layer-icon08"
                             >
-                              <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
+                              <path
+                                d="M316 366l196 196 196-196 60 60-256 256-256-256z"
+                                className=""
+                              ></path>
                             </svg>
                           </div>
                         </div>
@@ -402,11 +426,14 @@ sliderEl.addEventListener("input", (event) => {
                           viewBox="0 0 1024 1024"
                           className="container-layer-icon10"
                         >
-                          <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
+                          <path
+                            d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"
+                            className=""
+                          ></path>
                         </svg>
                         <span className="container-layer-text29">
-                          <span>Select All</span>
-                          <br></br>
+                          <span className="">Select All</span>
+                          <br className=""></br>
                         </span>
                       </button>
                       <button
@@ -417,11 +444,14 @@ sliderEl.addEventListener("input", (event) => {
                           viewBox="0 0 1024 1024"
                           className="container-layer-icon12 fill-color-white"
                         >
-                          <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                          <path
+                            d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                            className=""
+                          ></path>
                         </svg>
                         <span className="container-layer-text32">
-                          <span>Delete</span>
-                          <br></br>
+                          <span className="">Delete</span>
+                          <br className=""></br>
                         </span>
                       </button>
                     </div>
@@ -453,7 +483,10 @@ sliderEl.addEventListener("input", (event) => {
                           viewBox="0 0 1024 1024"
                           className="container-layer-icon14 fill-color-white"
                         >
-                          <path d="M554 174q126 16 213 112t87 226-87 226-213 112v-86q92-16 153-87t61-165-61-165-153-87v166l-194-190 194-194v132zM302 782l62-62q46 34 106 44v86q-96-12-168-68zM260 554q10 58 42 106l-60 60q-56-74-68-166h86zM304 364q-36 52-44 106h-86q12-90 70-166z"></path>
+                          <path
+                            d="M554 174q126 16 213 112t87 226-87 226-213 112v-86q92-16 153-87t61-165-61-165-153-87v166l-194-190 194-194v132zM302 782l62-62q46 34 106 44v86q-96-12-168-68zM260 554q10 58 42 106l-60 60q-56-74-68-166h86zM304 364q-36 52-44 106h-86q12-90 70-166z"
+                            className=""
+                          ></path>
                         </svg>
                         <span className="container-layer-text38">
                           {props.text}
@@ -468,7 +501,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -491,11 +524,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon16 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text39">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider1">
@@ -511,7 +547,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end1">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -648,6 +684,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -659,7 +696,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox1"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -682,11 +719,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon18 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text42">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider2">
@@ -702,7 +742,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end2">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -839,6 +879,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -850,7 +891,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox2"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -873,11 +914,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon20 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text45">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider3">
@@ -893,7 +937,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end3">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -1030,6 +1074,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -1041,7 +1086,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox3"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1064,11 +1109,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon22 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text48">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider4">
@@ -1084,7 +1132,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end4">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -1221,6 +1269,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -1232,7 +1281,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox4"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1255,11 +1304,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon24 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text51">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider5">
@@ -1275,7 +1327,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end5">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -1412,6 +1464,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -1423,7 +1476,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox5"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1446,11 +1499,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon26 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text54">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider6">
@@ -1466,7 +1522,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end6">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -1603,6 +1659,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -1614,7 +1671,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox6"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1637,11 +1694,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon28 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text57">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider7">
@@ -1657,7 +1717,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end7">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -1794,6 +1854,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -1805,7 +1866,7 @@ sliderEl.addEventListener("input", (event) => {
                           type="checkbox"
                           className="container-layer-checkbox7"
                         />
-                        <SettingsTrait></SettingsTrait>
+                        <SettingsTrait className=""></SettingsTrait>
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1828,11 +1889,14 @@ sliderEl.addEventListener("input", (event) => {
                             viewBox="0 0 1024 1024"
                             className="container-layer-icon30 fill-color-white"
                           >
-                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                            <path
+                              d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
+                              className=""
+                            ></path>
                           </svg>
                           <span className="container-layer-text60">
-                            <span>Delete</span>
-                            <br></br>
+                            <span className="">Delete</span>
+                            <br className=""></br>
                           </span>
                         </button>
                         <div className="container-layer-slider8">
@@ -1848,7 +1912,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end8">
                             100%
                           </span>
-                          <div>
+                          <div className="">
                             <Script
                               html={`
 <style>
@@ -1985,6 +2049,7 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
+                              className=""
                             ></Script>
                           </div>
                         </div>
@@ -2006,6 +2071,7 @@ ContainerLayer.defaultProps = {
   textinput_placeholder: 'placeholder',
   RarityPercentage2: '100%',
   RarityPercentage: '0%',
+  rootClassName: '',
 }
 
 ContainerLayer.propTypes = {
@@ -2013,6 +2079,7 @@ ContainerLayer.propTypes = {
   textinput_placeholder: PropTypes.string,
   RarityPercentage2: PropTypes.string,
   RarityPercentage: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default ContainerLayer

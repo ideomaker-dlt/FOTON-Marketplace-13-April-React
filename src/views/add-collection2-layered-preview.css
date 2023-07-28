@@ -3361,7 +3361,7 @@
   grid-row-gap: var(--dl-space-space-unit);
   justify-content: flex-start;
   grid-auto-columns: minmax(180px, auto);
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .add-collection-layered-preview-overlay-rarity {
   top: 0px;

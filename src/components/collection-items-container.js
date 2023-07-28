@@ -7,7 +7,9 @@ import './collection-items-container.css'
 
 const CollectionItemsContainer = (props) => {
   return (
-    <div className="collection-items-container-collection-items-container">
+    <div
+      className={`collection-items-container-collection-items-container ${props.rootClassName} `}
+    >
       <div className="collection-items-container-container">
         <div className="collection-items-container-filters-side-menu">
           <div className="collection-items-container-header-sticky-mobile">
@@ -604,6 +606,7 @@ CollectionItemsContainer.defaultProps = {
   text37: '2 offers',
   text22: 'LISTED',
   text10: 'LISTED',
+  rootClassName: '',
   text19: 'LISTED',
   text33: 'no offers',
   text36: '4',
@@ -647,6 +650,7 @@ CollectionItemsContainer.propTypes = {
   text37: PropTypes.string,
   text22: PropTypes.string,
   text10: PropTypes.string,
+  rootClassName: PropTypes.string,
   text19: PropTypes.string,
   text33: PropTypes.string,
   text36: PropTypes.string,

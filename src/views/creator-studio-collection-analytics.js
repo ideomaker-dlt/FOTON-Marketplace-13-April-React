@@ -56,7 +56,7 @@ const CreatorStudioCollectionAnalytics = (props) => {
             </div>
             <div className="creator-studio-collection-analytics-buttons">
               <Link
-                to="/add-items-selector"
+                to="/add-items-templates"
                 className="creator-studio-collection-analytics-navlink button"
               >
                 <span className="creator-studio-collection-analytics-text07">
