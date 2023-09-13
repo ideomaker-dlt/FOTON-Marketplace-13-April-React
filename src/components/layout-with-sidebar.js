@@ -43,7 +43,7 @@ const LayoutWithSidebar = (props) => {
                 placeholder="Search..."
                 className="layout-with-sidebar-textinput focus-reset Content18 input"
               />
-              <div className="">
+              <div className="layout-with-sidebar-div">
                 <Script
                   html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */

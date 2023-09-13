@@ -48,7 +48,7 @@ const BlogPost = (props) => {
                   placeholder="Search..."
                   className="blog-post-textinput focus-reset input Content18"
                 />
-                <div>
+                <div className="blog-post-div">
                   <Script
                     html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */

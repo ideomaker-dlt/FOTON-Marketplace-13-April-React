@@ -337,144 +337,39 @@ const CollectionItemsContainer = (props) => {
                 </div>
               </div>
             </Link>
-            <div className="collection-items-container-item11">
-              <div className="collection-items-container-image-header1">
+            <div className="collection-items-container-item101">
+              <div className="collection-items-container-image-header01">
                 <input
                   type="checkbox"
                   className="collection-items-container-checkbox11"
                 />
               </div>
-              <div className="collection-items-container-text-box1">
+              <div className="collection-items-container-text-box01">
                 <div className="collection-items-container-container24">
                   <span className="collection-items-container-text36">
-                    {props.text1}
-                  </span>
-                </div>
-                <div className="collection-items-container-container25">
-                  <div className="collection-items-container-floor1">
-                    <span className="collection-items-container-text37 SmallestLabels">
-                      {props.text11}
-                    </span>
-                    <span className="collection-items-container-text38 Content16SemiBold">
-                      {props.text12}
-                    </span>
-                  </div>
-                  <div className="collection-items-container-volume241">
-                    <span className="collection-items-container-text39 SmallestLabels">
-                      {props.text13}
-                    </span>
-                    <div className="collection-items-container-container26">
-                      <span className="collection-items-container-text40">
-                        {props.text33}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="collection-items-container-item12">
-              <div className="collection-items-container-image-header2">
-                <input
-                  type="checkbox"
-                  className="collection-items-container-checkbox12"
-                />
-              </div>
-              <div className="collection-items-container-text-box2">
-                <div className="collection-items-container-container27">
-                  <span className="collection-items-container-text41">
-                    {props.text2}
-                  </span>
-                </div>
-                <div className="collection-items-container-container28">
-                  <div className="collection-items-container-floor2">
-                    <span className="collection-items-container-text42 SmallestLabels">
-                      {props.text14}
-                    </span>
-                    <span className="collection-items-container-text43 Content16SemiBold">
-                      {props.text15}
-                    </span>
-                  </div>
-                  <div className="collection-items-container-volume242">
-                    <span className="collection-items-container-text44 SmallestLabels">
-                      {props.text16}
-                    </span>
-                    <div className="collection-items-container-container29">
-                      <span className="collection-items-container-text45">
-                        {props.text34}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="collection-items-container-item13">
-              <div className="collection-items-container-image-header3">
-                <input
-                  type="checkbox"
-                  className="collection-items-container-checkbox13"
-                />
-              </div>
-              <div className="collection-items-container-text-box3">
-                <div className="collection-items-container-container30">
-                  <span className="collection-items-container-text46">
-                    {props.text3}
-                  </span>
-                </div>
-                <div className="collection-items-container-container31">
-                  <div className="collection-items-container-floor3">
-                    <span className="collection-items-container-text47 SmallestLabels">
-                      {props.text17}
-                    </span>
-                    <span className="collection-items-container-text48 Content16SemiBold">
-                      {props.text18}
-                    </span>
-                  </div>
-                  <div className="collection-items-container-volume243">
-                    <span className="collection-items-container-text49 SmallestLabels">
-                      {props.text19}
-                    </span>
-                    <div className="collection-items-container-container32">
-                      <span className="collection-items-container-text50">
-                        {props.text35}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="collection-items-container-item14">
-              <div className="collection-items-container-image-header4">
-                <input
-                  type="checkbox"
-                  className="collection-items-container-checkbox14"
-                />
-              </div>
-              <div className="collection-items-container-text-box4">
-                <div className="collection-items-container-container33">
-                  <span className="collection-items-container-text51">
                     {props.text4}
                   </span>
-                  <div className="collection-items-container-container34">
-                    <span className="collection-items-container-text52">
+                  <div className="collection-items-container-container25">
+                    <span className="collection-items-container-text37">
                       # 2537
                     </span>
                   </div>
                 </div>
-                <div className="collection-items-container-container35">
-                  <div className="collection-items-container-floor4">
-                    <span className="collection-items-container-text53 SmallestLabels">
+                <div className="collection-items-container-container26">
+                  <div className="collection-items-container-floor01">
+                    <span className="collection-items-container-text38 SmallestLabels">
                       {props.text20}
                     </span>
-                    <span className="collection-items-container-text54 Content16SemiBold">
+                    <span className="collection-items-container-text39 Content16SemiBold">
                       {props.text21}
                     </span>
                   </div>
-                  <div className="collection-items-container-volume244">
-                    <span className="collection-items-container-text55 SmallestLabels">
+                  <div className="collection-items-container-volume2401">
+                    <span className="collection-items-container-text40 SmallestLabels">
                       {props.text22}
                     </span>
-                    <div className="collection-items-container-container36">
-                      <span className="collection-items-container-text56">
+                    <div className="collection-items-container-container27">
+                      <span className="collection-items-container-text41">
                         {props.text36}
                       </span>
                     </div>
@@ -482,105 +377,360 @@ const CollectionItemsContainer = (props) => {
                 </div>
               </div>
             </div>
-            <div className="collection-items-container-item15">
-              <div className="collection-items-container-image-header5">
+            <div className="collection-items-container-item102">
+              <div className="collection-items-container-image-header02">
+                <input
+                  type="checkbox"
+                  className="collection-items-container-checkbox12"
+                />
+              </div>
+              <div className="collection-items-container-text-box02">
+                <div className="collection-items-container-container28">
+                  <span className="collection-items-container-text42">
+                    Item one
+                  </span>
+                  <div className="collection-items-container-container29">
+                    <span className="collection-items-container-text43">
+                      # 2537
+                    </span>
+                  </div>
+                </div>
+                <div className="collection-items-container-container30">
+                  <div className="collection-items-container-floor02">
+                    <span className="collection-items-container-text44 SmallestLabels">
+                      Price
+                    </span>
+                    <span className="collection-items-container-text45 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2402">
+                    <span className="collection-items-container-text46 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container31">
+                      <span className="collection-items-container-text47">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collection-items-container-item103">
+              <div className="collection-items-container-image-header03">
+                <input
+                  type="checkbox"
+                  className="collection-items-container-checkbox13"
+                />
+              </div>
+              <div className="collection-items-container-text-box03">
+                <div className="collection-items-container-container32">
+                  <span className="collection-items-container-text48">
+                    Item one
+                  </span>
+                  <div className="collection-items-container-container33">
+                    <span className="collection-items-container-text49">
+                      # 2537
+                    </span>
+                  </div>
+                </div>
+                <div className="collection-items-container-container34">
+                  <div className="collection-items-container-floor03">
+                    <span className="collection-items-container-text50 SmallestLabels">
+                      Price
+                    </span>
+                    <span className="collection-items-container-text51 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2403">
+                    <span className="collection-items-container-text52 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container35">
+                      <span className="collection-items-container-text53">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collection-items-container-item104">
+              <div className="collection-items-container-image-header04">
+                <input
+                  type="checkbox"
+                  className="collection-items-container-checkbox14"
+                />
+              </div>
+              <div className="collection-items-container-text-box04">
+                <div className="collection-items-container-container36">
+                  <span className="collection-items-container-text54">
+                    Item one
+                  </span>
+                  <div className="collection-items-container-container37">
+                    <span className="collection-items-container-text55">
+                      # 2537
+                    </span>
+                  </div>
+                </div>
+                <div className="collection-items-container-container38">
+                  <div className="collection-items-container-floor04">
+                    <span className="collection-items-container-text56 SmallestLabels">
+                      Price
+                    </span>
+                    <span className="collection-items-container-text57 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2404">
+                    <span className="collection-items-container-text58 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container39">
+                      <span className="collection-items-container-text59">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collection-items-container-item105">
+              <div className="collection-items-container-image-header05">
                 <input
                   type="checkbox"
                   className="collection-items-container-checkbox15"
                 />
               </div>
-              <div className="collection-items-container-text-box5">
-                <div className="collection-items-container-container37">
-                  <span className="collection-items-container-text57">
-                    {props.text5}
+              <div className="collection-items-container-text-box05">
+                <div className="collection-items-container-container40">
+                  <span className="collection-items-container-text60">
+                    Item one
                   </span>
-                </div>
-                <div className="collection-items-container-container38">
-                  <div className="collection-items-container-floor5">
-                    <span className="collection-items-container-text58 SmallestLabels">
-                      {props.text23}
-                    </span>
-                    <span className="collection-items-container-text59 Content16SemiBold">
-                      {props.text24}
+                  <div className="collection-items-container-container41">
+                    <span className="collection-items-container-text61">
+                      # 2537
                     </span>
                   </div>
-                  <div className="collection-items-container-volume245">
-                    <span className="collection-items-container-text60 SmallestLabels">
-                      {props.text25}
+                </div>
+                <div className="collection-items-container-container42">
+                  <div className="collection-items-container-floor05">
+                    <span className="collection-items-container-text62 SmallestLabels">
+                      Price
                     </span>
-                    <div className="collection-items-container-container39">
-                      <span className="collection-items-container-text61">
-                        {props.text37}
+                    <span className="collection-items-container-text63 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2405">
+                    <span className="collection-items-container-text64 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container43">
+                      <span className="collection-items-container-text65">
+                        4
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="collection-items-container-item16">
-              <div className="collection-items-container-image-header6">
+            <div className="collection-items-container-item106">
+              <div className="collection-items-container-image-header06">
                 <input
                   type="checkbox"
                   className="collection-items-container-checkbox16"
                 />
               </div>
-              <div className="collection-items-container-text-box6">
-                <div className="collection-items-container-container40">
-                  <span className="collection-items-container-text62">
-                    {props.text6}
+              <div className="collection-items-container-text-box06">
+                <div className="collection-items-container-container44">
+                  <span className="collection-items-container-text66">
+                    Item one
                   </span>
-                </div>
-                <div className="collection-items-container-container41">
-                  <div className="collection-items-container-floor6">
-                    <span className="collection-items-container-text63 SmallestLabels">
-                      {props.text26}
-                    </span>
-                    <span className="collection-items-container-text64 Content16SemiBold">
-                      {props.text27}
+                  <div className="collection-items-container-container45">
+                    <span className="collection-items-container-text67">
+                      # 2537
                     </span>
                   </div>
-                  <div className="collection-items-container-volume246">
-                    <span className="collection-items-container-text65 SmallestLabels">
-                      {props.text28}
+                </div>
+                <div className="collection-items-container-container46">
+                  <div className="collection-items-container-floor06">
+                    <span className="collection-items-container-text68 SmallestLabels">
+                      Price
                     </span>
-                    <div className="collection-items-container-container42">
-                      <span className="collection-items-container-text66">
-                        {props.text38}
+                    <span className="collection-items-container-text69 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2406">
+                    <span className="collection-items-container-text70 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container47">
+                      <span className="collection-items-container-text71">
+                        4
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="collection-items-container-item17">
-              <div className="collection-items-container-image-header7">
+            <div className="collection-items-container-item107">
+              <div className="collection-items-container-image-header07">
                 <input
                   type="checkbox"
                   className="collection-items-container-checkbox17"
                 />
               </div>
-              <div className="collection-items-container-text-box7">
-                <div className="collection-items-container-container43">
-                  <span className="collection-items-container-text67">
-                    {props.text7}
+              <div className="collection-items-container-text-box07">
+                <div className="collection-items-container-container48">
+                  <span className="collection-items-container-text72">
+                    Item one
                   </span>
-                </div>
-                <div className="collection-items-container-container44">
-                  <div className="collection-items-container-floor7">
-                    <span className="collection-items-container-text68 SmallestLabels">
-                      {props.text29}
-                    </span>
-                    <span className="collection-items-container-text69 Content16SemiBold">
-                      {props.text30}
+                  <div className="collection-items-container-container49">
+                    <span className="collection-items-container-text73">
+                      # 2537
                     </span>
                   </div>
-                  <div className="collection-items-container-volume247">
-                    <span className="collection-items-container-text70 SmallestLabels">
-                      {props.text31}
+                </div>
+                <div className="collection-items-container-container50">
+                  <div className="collection-items-container-floor07">
+                    <span className="collection-items-container-text74 SmallestLabels">
+                      Price
                     </span>
-                    <div className="collection-items-container-container45">
-                      <span className="collection-items-container-text71">
-                        {props.text39}
+                    <span className="collection-items-container-text75 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2407">
+                    <span className="collection-items-container-text76 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container51">
+                      <span className="collection-items-container-text77">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collection-items-container-item108">
+              <div className="collection-items-container-image-header08">
+                <input
+                  type="checkbox"
+                  className="collection-items-container-checkbox18"
+                />
+              </div>
+              <div className="collection-items-container-text-box08">
+                <div className="collection-items-container-container52">
+                  <span className="collection-items-container-text78">
+                    Item one
+                  </span>
+                  <div className="collection-items-container-container53">
+                    <span className="collection-items-container-text79">
+                      # 2537
+                    </span>
+                  </div>
+                </div>
+                <div className="collection-items-container-container54">
+                  <div className="collection-items-container-floor08">
+                    <span className="collection-items-container-text80 SmallestLabels">
+                      Price
+                    </span>
+                    <span className="collection-items-container-text81 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2408">
+                    <span className="collection-items-container-text82 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container55">
+                      <span className="collection-items-container-text83">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collection-items-container-item109">
+              <div className="collection-items-container-image-header09">
+                <input
+                  type="checkbox"
+                  className="collection-items-container-checkbox19"
+                />
+              </div>
+              <div className="collection-items-container-text-box09">
+                <div className="collection-items-container-container56">
+                  <span className="collection-items-container-text84">
+                    Item one
+                  </span>
+                  <div className="collection-items-container-container57">
+                    <span className="collection-items-container-text85">
+                      # 2537
+                    </span>
+                  </div>
+                </div>
+                <div className="collection-items-container-container58">
+                  <div className="collection-items-container-floor09">
+                    <span className="collection-items-container-text86 SmallestLabels">
+                      Price
+                    </span>
+                    <span className="collection-items-container-text87 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2409">
+                    <span className="collection-items-container-text88 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container59">
+                      <span className="collection-items-container-text89">
+                        4
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collection-items-container-item110">
+              <div className="collection-items-container-image-header10">
+                <input
+                  type="checkbox"
+                  className="collection-items-container-checkbox20"
+                />
+              </div>
+              <div className="collection-items-container-text-box10">
+                <div className="collection-items-container-container60">
+                  <span className="collection-items-container-text90">
+                    Item one
+                  </span>
+                  <div className="collection-items-container-container61">
+                    <span className="collection-items-container-text91">
+                      # 2537
+                    </span>
+                  </div>
+                </div>
+                <div className="collection-items-container-container62">
+                  <div className="collection-items-container-floor10">
+                    <span className="collection-items-container-text92 SmallestLabels">
+                      Price
+                    </span>
+                    <span className="collection-items-container-text93 Content16SemiBold">
+                      16700 XRD
+                    </span>
+                  </div>
+                  <div className="collection-items-container-volume2410">
+                    <span className="collection-items-container-text94 SmallestLabels">
+                      LISTED
+                    </span>
+                    <div className="collection-items-container-container63">
+                      <span className="collection-items-container-text95">
+                        4
                       </span>
                     </div>
                   </div>

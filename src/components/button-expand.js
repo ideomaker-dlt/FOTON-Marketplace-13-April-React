@@ -26,7 +26,7 @@ const ButtonExpand = (props) => {
         <div className="button-expand-modal-wrapper">
           <div
             onClick={() => setIsVisible(false)}
-            className="button-expand-b-overlay-gray2"
+            className="button-expand-bg-overlay-gray2"
           ></div>
           <div id="appOverlay" className="button-expand-container01">
             <div className="button-expand-container-bar-top">

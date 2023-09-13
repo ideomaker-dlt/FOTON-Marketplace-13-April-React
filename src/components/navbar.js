@@ -35,7 +35,7 @@ const Navbar = (props) => {
               placeholder={props.textinput_placeholder}
               className="navbar-textinput Content18 input"
             />
-            <div className="">
+            <div className="navbar-div">
               <Script
                 html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */

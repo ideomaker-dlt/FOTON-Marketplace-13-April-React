@@ -92,7 +92,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.container-layer-b-overlay-gray {
+.container-layer-bg-overlay-gray {
   flex: 0 0 auto;
   width: auto;
   height: 100vh;
@@ -185,6 +185,9 @@
   padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
 }
+.container-layer-code-embed {
+  display: contents;
+}
 .container-layer-field {
   gap: var(--dl-space-space-halfunit);
   width: 50%;
@@ -260,6 +263,9 @@
   padding-right: var(--dl-space-space-halfunit);
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
+}
+.container-layer-code-embed02 {
+  display: contents;
 }
 .container-layer-percentage-value-start {
   color: var(--dl-color-dark-green-200);
@@ -1012,6 +1018,9 @@
   text-transform: none;
   text-decoration: none;
 }
+.container-layer-code-embed04 {
+  display: contents;
+}
 .container-layer-row-image1 {
   gap: var(--dl-space-space-unit);
   width: 100%;
@@ -1147,6 +1156,9 @@
   padding-left: var(--dl-space-space-halfunit);
   text-transform: none;
   text-decoration: none;
+}
+.container-layer-code-embed06 {
+  display: contents;
 }
 .container-layer-row-image2 {
   gap: var(--dl-space-space-unit);
@@ -1284,6 +1296,9 @@
   text-transform: none;
   text-decoration: none;
 }
+.container-layer-code-embed08 {
+  display: contents;
+}
 .container-layer-row-image3 {
   gap: var(--dl-space-space-unit);
   width: 100%;
@@ -1419,6 +1434,9 @@
   padding-left: var(--dl-space-space-halfunit);
   text-transform: none;
   text-decoration: none;
+}
+.container-layer-code-embed10 {
+  display: contents;
 }
 .container-layer-row-image4 {
   gap: var(--dl-space-space-unit);
@@ -1556,6 +1574,9 @@
   text-transform: none;
   text-decoration: none;
 }
+.container-layer-code-embed12 {
+  display: contents;
+}
 .container-layer-row-image5 {
   gap: var(--dl-space-space-unit);
   width: 100%;
@@ -1691,6 +1712,9 @@
   padding-left: var(--dl-space-space-halfunit);
   text-transform: none;
   text-decoration: none;
+}
+.container-layer-code-embed14 {
+  display: contents;
 }
 .container-layer-row-image6 {
   gap: var(--dl-space-space-unit);
@@ -1828,6 +1852,9 @@
   text-transform: none;
   text-decoration: none;
 }
+.container-layer-code-embed16 {
+  display: contents;
+}
 .container-layer-row-image7 {
   gap: var(--dl-space-space-unit);
   width: 100%;
@@ -1963,6 +1990,9 @@
   padding-left: var(--dl-space-space-halfunit);
   text-transform: none;
   text-decoration: none;
+}
+.container-layer-code-embed18 {
+  display: contents;
 }
 .container-layer-root-class-name {
   display: none;

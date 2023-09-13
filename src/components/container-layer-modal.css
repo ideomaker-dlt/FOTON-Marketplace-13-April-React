@@ -92,7 +92,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.container-layer-modal-b-overlay-gray2 {
+.container-layer-modal-bg-overlay-gray2 {
   top: 0px;
   flex: 0 0 auto;
   left: 0px;
@@ -214,6 +214,9 @@
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-threeunits);
+}
+.container-layer-modal-code-embed {
+  display: contents;
 }
 .container-layer-modal-field1 {
   gap: var(--dl-space-space-halfunit);
@@ -340,7 +343,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .container-layer-modal-b-overlay-gray2 {
+  .container-layer-modal-bg-overlay-gray2 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }

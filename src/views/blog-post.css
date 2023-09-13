@@ -117,6 +117,9 @@
   padding-right: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
+.blog-post-div {
+  display: contents;
+}
 .blog-post-wrapper-right {
   flex: 1;
   width: 100%;

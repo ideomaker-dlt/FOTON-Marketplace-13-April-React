@@ -12,7 +12,7 @@ import './add-collection2-layered-organise.css'
 
 const AddCollection2LayeredOrganise = (props) => {
   return (
-    <div className="add-collection-layered-organise-container">
+    <div className="add-collection2layered-organise-container">
       <Helmet>
         <title>
           Add-Collection2-Layered-Organise - FOTON Marketplace for NFTs and
@@ -32,99 +32,174 @@ const AddCollection2LayeredOrganise = (props) => {
         />
       </Helmet>
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name27">
-        <div className="add-collection-layered-organise-header-creator">
-          <div className="add-collection-layered-organise-container001">
-            <div className="add-collection-layered-organise-container002">
-              <div className="add-collection-layered-organise-container003">
-                <h1 className="add-collection-layered-organise-text">
+        <div className="add-collection2layered-organise-header-creator">
+          <div className="add-collection2layered-organise-container001">
+            <div className="add-collection2layered-organise-container002">
+              <div className="add-collection2layered-organise-container003">
+                <h1 className="add-collection2layered-organise-text">
                   Add Batch - Generate Items
                 </h1>
               </div>
             </div>
           </div>
-          <div className="add-collection-layered-organise-mask-overlay"></div>
+          <div className="add-collection2layered-organise-mask-overlay"></div>
         </div>
-        <div className="add-collection-layered-organise-progress-navigation">
-          <div className="add-collection-layered-organise-container004">
-            <div className="add-collection-layered-organise-left">
+        <div className="add-collection2layered-organise-progress-navigation">
+          <div className="add-collection2layered-organise-container004">
+            <div className="add-collection2layered-organise-left">
               <Link
                 to="/add-items-sets"
-                className="add-collection-layered-organise-navlink"
+                className="add-collection2layered-organise-navlink"
               >
                 &lt; go back
               </Link>
-              <div className="add-collection-layered-organise-container005">
+              <div className="add-collection2layered-organise-container005">
+                <Link
+                  to="/add-items-sets"
+                  className="add-collection2layered-organise-navlink1"
+                >
+                  Humans
+                </Link>
+                <div className="add-collection2layered-organise-set-settings">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    className="add-collection2layered-organise-icon"
+                  >
+                    <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
+                  </svg>
+                </div>
+              </div>
+              <div className="add-collection2layered-organise-container006">
                 <button
                   type="button"
-                  className="add-collection-layered-organise-button"
+                  className="add-collection2layered-organise-button"
                 >
                   <svg
                     viewBox="0 0 1024 1024"
-                    className="add-collection-layered-organise-icon fill-color-white"
+                    className="add-collection2layered-organise-icon002 fill-color-white"
                   >
                     <path d="M512 682q-18-14-163-127t-221-171l384-298 384 298q-76 58-220 170t-164 128zM512 792l314-246 70 54-384 298-384-298 70-54z"></path>
                   </svg>
-                  <span className="add-collection-layered-organise-text001">
+                  <span className="add-collection2layered-organise-text001">
                     <span>Organise</span>
                     <br></br>
                   </span>
                 </button>
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="add-collection-layered-organise-icon002 fill-color-gray"
+                  className="add-collection2layered-organise-icon004 fill-color-gray"
                 >
                   <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
                 </svg>
                 <Link
                   to="/add-collection2-layered-inspect"
-                  className="add-collection-layered-organise-navlink1"
+                  className="add-collection2layered-organise-navlink2"
                 >
                   <svg
                     viewBox="0 0 1024 1024"
-                    className="add-collection-layered-organise-icon004 fill-color-white"
+                    className="add-collection2layered-organise-icon006 fill-color-white"
                   >
                     <path d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
                   </svg>
-                  <span className="add-collection-layered-organise-text004">
+                  <span className="add-collection2layered-organise-text004">
                     <span>Inspect</span>
                     <br></br>
                   </span>
                 </Link>
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="add-collection-layered-organise-icon006 fill-color-gray"
+                  className="add-collection2layered-organise-icon008 fill-color-gray"
                 >
                   <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
                 </svg>
                 <Link
                   to="/add-collection2-layered-generate"
-                  className="add-collection-layered-organise-navlink2"
+                  className="add-collection2layered-organise-navlink3"
                 >
                   <svg
                     viewBox="0 0 1024 1024"
-                    className="add-collection-layered-organise-icon008 fill-color-white"
+                    className="add-collection2layered-organise-icon010 fill-color-white"
                   >
-                    <path d="M632 572l134 134 88-88v236h-236l88-88-134-134zM618 170h236v236l-88-88-536 536-60-60 536-536zM452 392l-60 60-222-222 60-60z"></path>
+                    <path d="M256 512h128l-170 170-172-170h128q0-140 101-241t241-101q100 0 182 54l-62 62q-54-30-120-30-106 0-181 75t-75 181zM810 342l172 170h-128q0 140-101 241t-241 101q-100 0-182-54l62-62q56 30 120 30 106 0 181-75t75-181h-128z"></path>
                   </svg>
-                  <span className="add-collection-layered-organise-text007">
+                  <span className="add-collection2layered-organise-text007">
                     <span>Generate</span>
                     <br></br>
                   </span>
                 </Link>
               </div>
             </div>
-            <div className="add-collection-layered-organise-right">
+            <div className="add-collection2layered-organise-right">
+              <div className="add-collection2layered-organise-container007">
+                <button
+                  type="button"
+                  className="add-collection2layered-organise-button01"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    className="add-collection2layered-organise-icon012 fill-color-white"
+                  >
+                    <path d="M512 682q-18-14-163-127t-221-171l384-298 384 298q-76 58-220 170t-164 128zM512 792l314-246 70 54-384 298-384-298 70-54z"></path>
+                  </svg>
+                  <span className="add-collection2layered-organise-text010">
+                    <span>Organise</span>
+                    <br></br>
+                  </span>
+                </button>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="add-collection2layered-organise-icon014 fill-color-gray"
+                >
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+                <Link
+                  to="/add-collection2-layered-inspect"
+                  className="add-collection2layered-organise-navlink4"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    className="add-collection2layered-organise-icon016 fill-color-white"
+                  >
+                    <path d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
+                  </svg>
+                  <span className="add-collection2layered-organise-text013">
+                    <span>Inspect</span>
+                    <br></br>
+                  </span>
+                </Link>
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="add-collection2layered-organise-icon018 fill-color-gray"
+                >
+                  <path d="M366 708l196-196-196-196 60-60 256 256-256 256z"></path>
+                </svg>
+                <Link
+                  to="/add-collection2-layered-generate"
+                  className="add-collection2layered-organise-navlink5"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    className="add-collection2layered-organise-icon020 fill-color-white"
+                  >
+                    <path d="M256 512h128l-170 170-172-170h128q0-140 101-241t241-101q100 0 182 54l-62 62q-54-30-120-30-106 0-181 75t-75 181zM810 342l172 170h-128q0 140-101 241t-241 101q-100 0-182-54l62-62q56 30 120 30 106 0 181-75t75-181h-128z"></path>
+                  </svg>
+                  <span className="add-collection2layered-organise-text016">
+                    <span>Generate</span>
+                    <br></br>
+                  </span>
+                </Link>
+              </div>
               <Link
                 to="/add-collection2-layered-inspect"
-                className="add-collection-layered-organise-navlink3"
+                className="add-collection2layered-organise-navlink6"
               >
-                <span className="add-collection-layered-organise-text010">
+                <span className="add-collection2layered-organise-text019">
                   <span>Continue</span>
                   <br></br>
                 </span>
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="add-collection-layered-organise-icon010 fill-color-white"
+                  className="add-collection2layered-organise-icon022 fill-color-white"
                 >
                   <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                 </svg>
@@ -132,185 +207,362 @@ const AddCollection2LayeredOrganise = (props) => {
             </div>
           </div>
         </div>
-        <div className="add-collection-layered-organise-container-form">
-          <div className="add-collection-layered-organise-under-header">
-            <div className="add-collection-layered-organise-card">
-              <div className="add-collection-layered-organise-set-box">
-                <div className="add-collection-layered-organise-set-layers">
-                  <div className="add-collection-layered-organise-add-layer">
-                    <div className="add-collection-layered-organise-container006">
-                      <label className="add-collection-layered-organise-text013 padding-4px-left">
-                        Humans
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </label>
-                      <div className="add-collection-layered-organise-container007">
-                        <div className="add-collection-layered-organise-container008">
+        <div className="add-collection2layered-organise-container-form">
+          <div className="add-collection2layered-organise-under-header">
+            <div className="add-collection2layered-organise-card">
+              <div className="add-collection2layered-organise-set-box">
+                <div className="add-collection2layered-organise-set-layers">
+                  <div className="add-collection2layered-organise-add-layer">
+                    <div className="add-collection2layered-organise-container008">
+                      <div className="add-collection2layered-organise-container009">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon024 fill-color-white"
+                        >
+                          <path d="M512 133.035l331.264 165.632-331.264 165.632-331.264-165.632zM492.928 47.189l-426.667 213.333c-21.077 10.539-29.611 36.139-19.072 57.216 4.309 8.661 11.136 15.189 19.072 19.072l426.667 213.333c12.459 6.229 26.453 5.803 38.144 0l426.667-213.333c21.077-10.539 29.611-36.181 19.072-57.259-4.309-8.619-11.179-15.147-19.072-19.072l-426.667-213.333c-12.459-6.229-26.453-5.803-38.144 0zM66.261 763.477l426.667 213.333c12.459 6.229 26.453 5.803 38.144 0l426.667-213.333c21.077-10.539 29.611-36.181 19.072-57.259s-36.181-29.611-57.259-19.072l-407.552 203.819-407.595-203.776c-21.077-10.539-46.72-2.005-57.259 19.072s-2.005 46.72 19.072 57.259zM66.261 550.144l426.667 213.333c12.459 6.229 26.453 5.803 38.144 0l426.667-213.333c21.077-10.539 29.611-36.181 19.072-57.259s-36.181-29.611-57.259-19.072l-407.552 203.819-407.595-203.776c-21.077-10.539-46.72-2.005-57.259 19.072s-2.005 46.72 19.072 57.259z"></path>
+                        </svg>
+                        <label className="add-collection2layered-organise-text022 padding-4px-left">
+                          Layers
+                        </label>
+                      </div>
+                      <div className="add-collection2layered-organise-container010">
+                        <div className="add-collection2layered-organise-set-settings1">
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon012 fill-color-white"
-                          >
-                            <path d="M726 554v-84h-172v-172h-84v172h-172v84h172v172h84v-172h172zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
-                          </svg>
-                        </div>
-                        <div className="add-collection-layered-organise-container009">
-                          <svg
-                            viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon014"
+                            className="add-collection2layered-organise-icon026"
                           >
                             <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
                           </svg>
                         </div>
                       </div>
+                      <label className="add-collection2layered-organise-text023 padding-4px-left">
+                        6
+                      </label>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-layers">
-                    <div className="add-collection-layered-organise-container-layer">
-                      <div className="add-collection-layered-organise-container010">
-                        <div className="add-collection-layered-organise-container011">
-                          <span className="add-collection-layered-organise-text014 Content16SemiBold">
-                            <span>Accessories</span>
+                  <div className="add-collection2layered-organise-add-layer1">
+                    <div className="add-collection2layered-organise-container011">
+                      <div className="add-collection2layered-organise-container012">
+                        <label className="add-collection2layered-organise-text024 padding-4px-left">
+                          New layer name...
+                        </label>
+                      </div>
+                      <div className="add-collection2layered-organise-container013">
+                        <div className="add-collection2layered-organise-set-settings2">
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon028"
+                          >
+                            <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
+                          </svg>
+                        </div>
+                        <div className="add-collection2layered-organise-add-layer2">
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon030 fill-color-white"
+                          >
+                            <path d="M726 554v-84h-172v-172h-84v172h-172v84h172v172h84v-172h172zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="add-collection2layered-organise-layers">
+                    <div className="add-collection2layered-organise-container-layer">
+                      <div className="add-collection2layered-organise-container014">
+                        <div className="add-collection2layered-organise-container015">
+                          <span className="add-collection2layered-organise-text025 Content16SemiBold">
+                            <span>Hat</span>
                             <br></br>
                           </span>
-                          <span className="add-collection-layered-organise-text017">
-                            <span>
-                              2 Files - 72%
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: ' ',
-                                }}
-                              />
+                          <div className="add-collection2layered-organise-container016">
+                            <span className="add-collection2layered-organise-text028">
+                              <span>
+                                72%
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: ' ',
+                                  }}
+                                />
+                              </span>
+                              <br></br>
                             </span>
-                            <br></br>
-                          </span>
+                            <div className="add-collection2layered-organise-container017">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                className="add-collection2layered-organise-icon032 fill-color-white"
+                              >
+                                <path d="M512 133.035l331.264 165.632-331.264 165.632-331.264-165.632zM492.928 47.189l-426.667 213.333c-21.077 10.539-29.611 36.139-19.072 57.216 4.309 8.661 11.136 15.189 19.072 19.072l426.667 213.333c12.459 6.229 26.453 5.803 38.144 0l426.667-213.333c21.077-10.539 29.611-36.181 19.072-57.259-4.309-8.619-11.179-15.147-19.072-19.072l-426.667-213.333c-12.459-6.229-26.453-5.803-38.144 0zM66.261 763.477l426.667 213.333c12.459 6.229 26.453 5.803 38.144 0l426.667-213.333c21.077-10.539 29.611-36.181 19.072-57.259s-36.181-29.611-57.259-19.072l-407.552 203.819-407.595-203.776c-21.077-10.539-46.72-2.005-57.259 19.072s-2.005 46.72 19.072 57.259zM66.261 550.144l426.667 213.333c12.459 6.229 26.453 5.803 38.144 0l426.667-213.333c21.077-10.539 29.611-36.181 19.072-57.259s-36.181-29.611-57.259-19.072l-407.552 203.819-407.595-203.776c-21.077-10.539-46.72-2.005-57.259 19.072s-2.005 46.72 19.072 57.259z"></path>
+                              </svg>
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                className="add-collection2layered-organise-icon034 fill-color-white"
+                              >
+                                <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                              </svg>
+                              <span className="add-collection2layered-organise-text031">
+                                <span>
+                                  9
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: ' ',
+                                    }}
+                                  />
+                                </span>
+                                <br></br>
+                              </span>
+                            </div>
+                          </div>
                         </div>
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon016 fill-color-gray"
+                          className="add-collection2layered-organise-icon036 fill-color-gray"
                         >
                           <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                         </svg>
                       </div>
                     </div>
-                    <div className="add-collection-layered-organise-container-layer1">
-                      <div className="add-collection-layered-organise-container012">
-                        <div className="add-collection-layered-organise-container013">
-                          <span className="add-collection-layered-organise-text020 Content16SemiBold">
-                            <span>Head</span>
-                            <br></br>
-                          </span>
-                          <span className="add-collection-layered-organise-text023">
-                            <span>
-                              2 Files - 72%
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: ' ',
-                                }}
-                              />
-                            </span>
-                            <br></br>
-                          </span>
-                        </div>
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon018 fill-color-gray"
-                        >
-                          <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="add-collection-layered-organise-container-layer2">
-                      <div className="add-collection-layered-organise-container014">
-                        <div className="add-collection-layered-organise-container015">
-                          <span className="add-collection-layered-organise-text026 Content16SemiBold">
-                            <span>Mouth</span>
-                            <br></br>
-                          </span>
-                          <span className="add-collection-layered-organise-text029">
-                            <span>
-                              2 Files - 72%
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: ' ',
-                                }}
-                              />
-                            </span>
-                            <br></br>
-                          </span>
-                        </div>
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon020 fill-color-gray"
-                        >
-                          <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="add-collection-layered-organise-container-layer3">
-                      <div className="add-collection-layered-organise-container016">
-                        <div className="add-collection-layered-organise-container017">
-                          <span className="add-collection-layered-organise-text032 Content16SemiBold">
+                    <div className="add-collection2layered-organise-container-layer1">
+                      <div className="add-collection2layered-organise-container018">
+                        <div className="add-collection2layered-organise-container019">
+                          <span className="add-collection2layered-organise-text034 Content16SemiBold">
                             <span>Nose</span>
                             <br></br>
                           </span>
-                          <span className="add-collection-layered-organise-text035">
-                            <span>
-                              2 Files - 72%
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: ' ',
-                                }}
-                              />
+                          <div className="add-collection2layered-organise-container020">
+                            <span className="add-collection2layered-organise-text037">
+                              <span>
+                                22%
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: ' ',
+                                  }}
+                                />
+                              </span>
+                              <br></br>
                             </span>
-                            <br></br>
-                          </span>
+                            <div className="add-collection2layered-organise-container021">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                className="add-collection2layered-organise-icon038 fill-color-white"
+                              >
+                                <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                              </svg>
+                              <span className="add-collection2layered-organise-text040">
+                                <span>
+                                  9
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: ' ',
+                                    }}
+                                  />
+                                </span>
+                                <br></br>
+                              </span>
+                            </div>
+                          </div>
                         </div>
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon022 fill-color-gray"
+                          className="add-collection2layered-organise-icon040 fill-color-gray"
                         >
                           <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                         </svg>
                       </div>
                     </div>
-                    <div className="add-collection-layered-organise-container-layer4">
-                      <div className="add-collection-layered-organise-container018">
-                        <div className="add-collection-layered-organise-container019">
-                          <span className="add-collection-layered-organise-text038 Content16SemiBold">
+                    <div className="add-collection2layered-organise-container-layer2">
+                      <div className="add-collection2layered-organise-container022">
+                        <div className="add-collection2layered-organise-container023">
+                          <span className="add-collection2layered-organise-text043 Content16SemiBold">
                             <span>Eyes</span>
                             <br></br>
                           </span>
-                          <span className="add-collection-layered-organise-text041">
-                            <span>
-                              2 Files - 72%
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: ' ',
-                                }}
-                              />
+                          <div className="add-collection2layered-organise-container024">
+                            <span className="add-collection2layered-organise-text046">
+                              <span>100%</span>
+                              <br></br>
                             </span>
-                            <br></br>
-                          </span>
+                            <div className="add-collection2layered-organise-container025">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                className="add-collection2layered-organise-icon042 fill-color-white"
+                              >
+                                <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                              </svg>
+                              <span className="add-collection2layered-organise-text049">
+                                <span>
+                                  9
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: ' ',
+                                    }}
+                                  />
+                                </span>
+                                <br></br>
+                              </span>
+                            </div>
+                          </div>
                         </div>
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon024 fill-color-gray"
+                          className="add-collection2layered-organise-icon044 fill-color-gray"
                         >
                           <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                         </svg>
                       </div>
                     </div>
-                    <div className="add-collection-layered-organise-container-layer5">
-                      <div className="add-collection-layered-organise-container020">
-                        <div className="add-collection-layered-organise-container021">
-                          <span className="add-collection-layered-organise-text044 Content16SemiBold">
+                    <div className="add-collection2layered-organise-container-layer3">
+                      <div className="add-collection2layered-organise-container026">
+                        <div className="add-collection2layered-organise-container027">
+                          <span className="add-collection2layered-organise-text052 Content16SemiBold">
+                            <span>Mouth</span>
+                            <br></br>
+                          </span>
+                          <div className="add-collection2layered-organise-container028">
+                            <span className="add-collection2layered-organise-text055">
+                              <span>
+                                72%
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: ' ',
+                                  }}
+                                />
+                              </span>
+                              <br></br>
+                            </span>
+                            <div className="add-collection2layered-organise-container029">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                className="add-collection2layered-organise-icon046 fill-color-white"
+                              >
+                                <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                              </svg>
+                              <span className="add-collection2layered-organise-text058">
+                                <span>
+                                  9
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: ' ',
+                                    }}
+                                  />
+                                </span>
+                                <br></br>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon048 fill-color-gray"
+                        >
+                          <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-container-layer4">
+                      <div className="add-collection2layered-organise-container030">
+                        <div className="add-collection2layered-organise-container031">
+                          <span className="add-collection2layered-organise-text061 Content16SemiBold">
+                            <span>Head</span>
+                            <br></br>
+                          </span>
+                          <div className="add-collection2layered-organise-container032">
+                            <span className="add-collection2layered-organise-text064">
+                              <span>
+                                72%
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: ' ',
+                                  }}
+                                />
+                              </span>
+                              <br></br>
+                            </span>
+                            <div className="add-collection2layered-organise-container033">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                className="add-collection2layered-organise-icon050 fill-color-white"
+                              >
+                                <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                              </svg>
+                              <span className="add-collection2layered-organise-text067">
+                                <span>
+                                  9
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: ' ',
+                                    }}
+                                  />
+                                </span>
+                                <br></br>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon052 fill-color-gray"
+                        >
+                          <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-container-layer5">
+                      <div className="add-collection2layered-organise-container034">
+                        <div className="add-collection2layered-organise-container035">
+                          <span className="add-collection2layered-organise-text070 Content16SemiBold">
                             <span>Background</span>
                             <br></br>
                           </span>
-                          <span className="add-collection-layered-organise-text047">
+                          <div className="add-collection2layered-organise-container036">
+                            <span className="add-collection2layered-organise-text073">
+                              <span>
+                                72%
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: ' ',
+                                  }}
+                                />
+                              </span>
+                              <br></br>
+                            </span>
+                            <div className="add-collection2layered-organise-container037">
+                              <svg
+                                viewBox="0 0 1024 1024"
+                                className="add-collection2layered-organise-icon054 fill-color-white"
+                              >
+                                <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                              </svg>
+                              <span className="add-collection2layered-organise-text076">
+                                <span>
+                                  9
+                                  <span
+                                    dangerouslySetInnerHTML={{
+                                      __html: ' ',
+                                    }}
+                                  />
+                                </span>
+                                <br></br>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon056 fill-color-gray"
+                        >
+                          <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-container-layer6">
+                      <div className="add-collection2layered-organise-container038">
+                        <div className="add-collection2layered-organise-container039">
+                          <span className="add-collection2layered-organise-text079 Content16SemiBold">
+                            <span>Head</span>
+                            <br></br>
+                          </span>
+                          <span className="add-collection2layered-organise-text082">
                             <span>
                               2 Files - 72%
                               <span
@@ -324,7 +576,7 @@ const AddCollection2LayeredOrganise = (props) => {
                         </div>
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon026 fill-color-gray"
+                          className="add-collection2layered-organise-icon058 fill-color-gray"
                         >
                           <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                         </svg>
@@ -332,14 +584,14 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                     <ContainerLayer rootClassName="container-layer-root-class-name"></ContainerLayer>
                     <ContainerLayerModal rootClassName="container-layer-modal-root-class-name"></ContainerLayerModal>
-                    <div className="add-collection-layered-organise-container-layer6">
-                      <div className="add-collection-layered-organise-container022">
-                        <div className="add-collection-layered-organise-container023">
-                          <span className="add-collection-layered-organise-text050 Content16SemiBold">
+                    <div className="add-collection2layered-organise-container-layer7">
+                      <div className="add-collection2layered-organise-container040">
+                        <div className="add-collection2layered-organise-container041">
+                          <span className="add-collection2layered-organise-text085 Content16SemiBold">
                             <span>Mouth</span>
                             <br></br>
                           </span>
-                          <span className="add-collection-layered-organise-text053">
+                          <span className="add-collection2layered-organise-text088">
                             <span>
                               2 Files - 72%
                               <span
@@ -353,43 +605,46 @@ const AddCollection2LayeredOrganise = (props) => {
                         </div>
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon028 fill-color-gray"
+                          className="add-collection2layered-organise-icon060 fill-color-gray"
                         >
                           <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                         </svg>
                       </div>
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button01 Content16SemiBold button"
+                        className="add-collection2layered-organise-button02 Content16SemiBold button"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon030 fill-color-white"
+                          className="add-collection2layered-organise-icon062 fill-color-white"
                         >
                           <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
                         </svg>
                       </button>
                     </div>
-                    <div className="add-collection-layered-organise-footer-label">
-                      <label className="add-collection-layered-organise-text056 padding-4px-left">
+                    <div className="add-collection2layered-organise-footer-label">
+                      <label className="add-collection2layered-organise-text091 padding-4px-left">
                         <span>Drag layers to organise them</span>
                         <br></br>
                       </label>
-                      <div className="add-collection-layered-organise-tooltip">
+                      <div className="add-collection2layered-organise-tooltip">
                         <svg
                           id="tooltip1"
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon032 tooltipclass"
+                          className="add-collection2layered-organise-icon064 tooltipclass"
                         >
                           <path d="M470 384v-86h84v86h-84zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM470 726v-256h84v256h-84z"></path>
                         </svg>
-                        <div>
+                        <div className="add-collection2layered-organise-div">
                           <Script
                             html={`<script>
       // With the above scripts loaded, you can call \`tippy()\` with a CSS
       // selector and a \`content\` prop:
       tippy('#tooltip1', { theme: 'lemon',
         content: 'The order of the Layers is as seen. Ex: bottom layer is the background of your artwork.',
+      });
+        tippy('#tooltip2', { theme: 'lemon',
+        content: 'Drag the slider to the left to make the Trait rare or to the right to make it common. You can also change values by typing them!',
       });
 
       
@@ -403,51 +658,51 @@ const AddCollection2LayeredOrganise = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="add-collection-layered-organise-layers-content">
+              <div className="add-collection2layered-organise-layers-content">
                 <div
                   id="Accessories"
-                  className="add-collection-layered-organise-layer-box"
+                  className="add-collection2layered-organise-layer-box"
                 >
-                  <div className="add-collection-layered-organise-tabs-row">
-                    <div className="add-collection-layered-organise-container024">
+                  <div className="add-collection2layered-organise-tabs-row">
+                    <div className="add-collection2layered-organise-container042">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon034 fill-color-white"
+                        className="add-collection2layered-organise-icon066 fill-color-white"
                       >
-                        <path d="M896 726v-598h-598v598h598zM896 42q34 0 60 26t26 60v598q0 34-26 59t-60 25h-598q-34 0-59-25t-25-59v-598q0-34 25-60t59-26h598zM128 214v682h682v86h-682q-34 0-60-26t-26-60v-682h86zM680 440l152 200h-470l118-150 84 100z"></path>
+                        <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
                       </svg>
-                      <span className="add-collection-layered-organise-text059">
+                      <span className="add-collection2layered-organise-text094">
                         Accessories
                       </span>
                     </div>
-                    <div className="add-collection-layered-organise-filter-buttons">
-                      <div className="add-collection-layered-organise-container025">
+                    <div className="add-collection2layered-organise-filter-buttons">
+                      <div className="add-collection2layered-organise-container043">
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button02"
+                          className="add-collection2layered-organise-button03"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon036 fill-color-white"
+                            className="add-collection2layered-organise-icon068 fill-color-white"
                           >
                             <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text060">
+                          <span className="add-collection2layered-organise-text095">
                             <span>Add</span>
                             <br></br>
                           </span>
                         </button>
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button03"
+                          className="add-collection2layered-organise-button04"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon038 fill-color-white"
+                            className="add-collection2layered-organise-icon070 fill-color-white"
                           >
                             <path d="M128 810h426l-136-182-106 138-78-92zM42 470h598v426h-512q-34 0-60-26t-26-60v-340zM214 128h84v86h-84v-86zM384 128h86v86h-86v-86zM128 128v86h-86q0-32 27-59t59-27zM726 810h84v86h-84v-86zM726 128h84v86h-84v-86zM42 298h86v86h-86v-86zM896 128q32 0 59 27t27 59h-86v-86zM896 298h86v86h-86v-86zM554 128h86v86h-86v-86zM982 810q0 32-27 59t-59 27v-86h86zM896 470h86v84h-86v-84zM896 640h86v86h-86v-86z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text063">
+                          <span className="add-collection2layered-organise-text098">
                             <span>Blank</span>
                             <br></br>
                           </span>
@@ -456,289 +711,489 @@ const AddCollection2LayeredOrganise = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-container026">
-                    <div className="item-layer add-collection-layered-organise-trait">
-                      <div className="add-collection-layered-organise-container-bg">
-                        <div className="add-collection-layered-organise-image-item">
+                  <div className="add-collection2layered-organise-tabs-row1">
+                    <div className="add-collection2layered-organise-container044">
+                      <div className="add-collection2layered-organise-tab-layer">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon072 fill-color-white"
+                        >
+                          <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                        </svg>
+                        <span className="add-collection2layered-organise-text101">
+                          Traits
+                        </span>
+                      </div>
+                      <div className="add-collection2layered-organise-tab-layer1">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon074 fill-color-white"
+                        >
+                          <path d="M810 426h86v172h-86v-172zM640 768v-512h86v512h-86zM128 598v-172h86v172h-86zM470 938v-852h84v852h-84zM298 768v-512h86v512h-86z"></path>
+                        </svg>
+                        <span className="add-collection2layered-organise-text102">
+                          Rarity
+                        </span>
+                      </div>
+                      <div className="add-collection2layered-organise-tab-layer2">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon076 fill-color-white"
+                        >
+                          <path d="M426 170l-98 98 226 226v360h-84v-324l-202-202-98 98v-256h256zM598 170h256v256l-98-98-124 124-60-60 124-124z"></path>
+                        </svg>
+                        <span className="add-collection2layered-organise-text103">
+                          Rules
+                        </span>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-filter-buttons1">
+                      <div className="add-collection2layered-organise-container045">
+                        <EditButton></EditButton>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button05"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon078 fill-color-white"
+                          >
+                            <path d="M128 810h426l-136-182-106 138-78-92zM42 470h598v426h-512q-34 0-60-26t-26-60v-340zM214 128h84v86h-84v-86zM384 128h86v86h-86v-86zM128 128v86h-86q0-32 27-59t59-27zM726 810h84v86h-84v-86zM726 128h84v86h-84v-86zM42 298h86v86h-86v-86zM896 128q32 0 59 27t27 59h-86v-86zM896 298h86v86h-86v-86zM554 128h86v86h-86v-86zM982 810q0 32-27 59t-59 27v-86h86zM896 470h86v84h-86v-84zM896 640h86v86h-86v-86z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text104">
+                            <span>Blank</span>
+                            <br></br>
+                          </span>
+                        </button>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button06"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon080 fill-color-white"
+                          >
+                            <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text107">
+                            <span>Add</span>
+                            <br></br>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="add-collection2layered-organise-container046">
+                    <div className="item-layer add-collection2layered-organise-trait">
+                      <div className="add-collection2layered-organise-container-bg">
+                        <div className="add-collection2layered-organise-image-item">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox"
+                            className="add-collection2layered-organise-checkbox"
                           />
-                          <div className="add-collection-layered-organise-replace-image">
+                          <div className="add-collection2layered-organise-replace-image">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon040 fill-color-white"
+                              className="add-collection2layered-organise-icon082 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box">
-                        <div className="add-collection-layered-organise-container027">
-                          <div className="add-collection-layered-organise-name-item">
-                            <span className="add-collection-layered-organise-text066">
+                      <div className="add-collection2layered-organise-text-box">
+                        <div className="add-collection2layered-organise-container047">
+                          <div className="add-collection2layered-organise-name-item">
+                            <span className="add-collection2layered-organise-text110">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity">
-                            <span className="add-collection-layered-organise-text067">
+                          <div className="add-collection2layered-organise-rarity">
+                            <span className="add-collection2layered-organise-text111">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait01">
-                      <div className="add-collection-layered-organise-container-bg01">
-                        <div className="add-collection-layered-organise-image-item01">
+                    <div className="item-layer add-collection2layered-organise-trait01">
+                      <div className="add-collection2layered-organise-container-bg01">
+                        <div className="add-collection2layered-organise-image-item01">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox01"
+                            className="add-collection2layered-organise-checkbox01"
                           />
-                          <div className="add-collection-layered-organise-replace-image01">
+                          <div className="add-collection2layered-organise-replace-image01">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon042 fill-color-white"
+                              className="add-collection2layered-organise-icon084 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box01">
-                        <div className="add-collection-layered-organise-container028">
-                          <div className="add-collection-layered-organise-name-item01">
-                            <span className="add-collection-layered-organise-text068">
+                      <div className="add-collection2layered-organise-text-box01">
+                        <div className="add-collection2layered-organise-container048">
+                          <div className="add-collection2layered-organise-name-item01">
+                            <span className="add-collection2layered-organise-text112">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity01">
-                            <span className="add-collection-layered-organise-text069">
+                          <div className="add-collection2layered-organise-rarity01">
+                            <span className="add-collection2layered-organise-text113">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait02">
-                      <div className="add-collection-layered-organise-container-bg02">
-                        <div className="add-collection-layered-organise-image-item02">
+                    <div className="item-layer add-collection2layered-organise-trait02">
+                      <div className="add-collection2layered-organise-container-bg02">
+                        <div className="add-collection2layered-organise-image-item02">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox02"
+                            className="add-collection2layered-organise-checkbox02"
                           />
-                          <div className="add-collection-layered-organise-replace-image02">
+                          <div className="add-collection2layered-organise-replace-image02">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon044 fill-color-white"
+                              className="add-collection2layered-organise-icon086 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box02">
-                        <div className="add-collection-layered-organise-container029">
-                          <div className="add-collection-layered-organise-name-item02">
-                            <span className="add-collection-layered-organise-text070">
+                      <div className="add-collection2layered-organise-text-box02">
+                        <div className="add-collection2layered-organise-container049">
+                          <div className="add-collection2layered-organise-name-item02">
+                            <span className="add-collection2layered-organise-text114">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity02">
-                            <span className="add-collection-layered-organise-text071">
+                          <div className="add-collection2layered-organise-rarity02">
+                            <span className="add-collection2layered-organise-text115">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait03">
-                      <div className="add-collection-layered-organise-container-bg03">
-                        <div className="add-collection-layered-organise-image-item03">
+                    <div className="item-layer add-collection2layered-organise-trait03">
+                      <div className="add-collection2layered-organise-container-bg03">
+                        <div className="add-collection2layered-organise-image-item03">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox03"
+                            className="add-collection2layered-organise-checkbox03"
                           />
-                          <div className="add-collection-layered-organise-replace-image03">
+                          <div className="add-collection2layered-organise-replace-image03">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon046 fill-color-white"
+                              className="add-collection2layered-organise-icon088 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box03">
-                        <div className="add-collection-layered-organise-container030">
-                          <div className="add-collection-layered-organise-name-item03">
-                            <span className="add-collection-layered-organise-text072">
+                      <div className="add-collection2layered-organise-text-box03">
+                        <div className="add-collection2layered-organise-container050">
+                          <div className="add-collection2layered-organise-name-item03">
+                            <span className="add-collection2layered-organise-text116">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity03">
-                            <span className="add-collection-layered-organise-text073">
+                          <div className="add-collection2layered-organise-rarity03">
+                            <span className="add-collection2layered-organise-text117">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait04">
-                      <div className="add-collection-layered-organise-container-bg04">
-                        <div className="add-collection-layered-organise-image-item04">
+                    <div className="item-layer add-collection2layered-organise-trait04">
+                      <div className="add-collection2layered-organise-container-bg04">
+                        <div className="add-collection2layered-organise-image-item04">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox04"
+                            className="add-collection2layered-organise-checkbox04"
                           />
-                          <div className="add-collection-layered-organise-replace-image04">
+                          <div className="add-collection2layered-organise-replace-image04">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon048 fill-color-white"
+                              className="add-collection2layered-organise-icon090 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box04">
-                        <div className="add-collection-layered-organise-container031">
-                          <div className="add-collection-layered-organise-name-item04">
-                            <span className="add-collection-layered-organise-text074">
+                      <div className="add-collection2layered-organise-text-box04">
+                        <div className="add-collection2layered-organise-container051">
+                          <div className="add-collection2layered-organise-name-item04">
+                            <span className="add-collection2layered-organise-text118">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity04">
-                            <span className="add-collection-layered-organise-text075">
+                          <div className="add-collection2layered-organise-rarity04">
+                            <span className="add-collection2layered-organise-text119">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait05">
-                      <div className="add-collection-layered-organise-container-bg05">
-                        <div className="add-collection-layered-organise-image-item05">
+                    <div className="item-layer add-collection2layered-organise-trait05">
+                      <div className="add-collection2layered-organise-container-bg05">
+                        <div className="add-collection2layered-organise-image-item05">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox05"
+                            className="add-collection2layered-organise-checkbox05"
                           />
-                          <div className="add-collection-layered-organise-replace-image05">
+                          <div className="add-collection2layered-organise-replace-image05">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon050 fill-color-white"
+                              className="add-collection2layered-organise-icon092 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box05">
-                        <div className="add-collection-layered-organise-container032">
-                          <div className="add-collection-layered-organise-name-item05">
-                            <span className="add-collection-layered-organise-text076">
+                      <div className="add-collection2layered-organise-text-box05">
+                        <div className="add-collection2layered-organise-container052">
+                          <div className="add-collection2layered-organise-name-item05">
+                            <span className="add-collection2layered-organise-text120">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity05">
-                            <span className="add-collection-layered-organise-text077">
+                          <div className="add-collection2layered-organise-rarity05">
+                            <span className="add-collection2layered-organise-text121">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait06">
-                      <div className="add-collection-layered-organise-container-bg06">
-                        <div className="add-collection-layered-organise-image-item06">
+                    <div className="item-layer add-collection2layered-organise-trait06">
+                      <div className="add-collection2layered-organise-container-bg06">
+                        <div className="add-collection2layered-organise-image-item06">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox06"
+                            className="add-collection2layered-organise-checkbox06"
                           />
-                          <div className="add-collection-layered-organise-replace-image06">
+                          <div className="add-collection2layered-organise-replace-image06">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon052 fill-color-white"
+                              className="add-collection2layered-organise-icon094 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box06">
-                        <div className="add-collection-layered-organise-container033">
-                          <div className="add-collection-layered-organise-name-item06">
-                            <span className="add-collection-layered-organise-text078">
+                      <div className="add-collection2layered-organise-text-box06">
+                        <div className="add-collection2layered-organise-container053">
+                          <div className="add-collection2layered-organise-name-item06">
+                            <span className="add-collection2layered-organise-text122">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity06">
-                            <span className="add-collection-layered-organise-text079">
+                          <div className="add-collection2layered-organise-rarity06">
+                            <span className="add-collection2layered-organise-text123">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait07">
-                      <div className="add-collection-layered-organise-container-bg07">
-                        <div className="add-collection-layered-organise-image-item07">
+                    <div className="item-layer add-collection2layered-organise-trait07">
+                      <div className="add-collection2layered-organise-container-bg07">
+                        <div className="add-collection2layered-organise-image-item07">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox07"
+                            className="add-collection2layered-organise-checkbox07"
                           />
-                          <div className="add-collection-layered-organise-replace-image07">
+                          <div className="add-collection2layered-organise-replace-image07">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon054 fill-color-white"
+                              className="add-collection2layered-organise-icon096 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box07">
-                        <div className="add-collection-layered-organise-container034">
-                          <div className="add-collection-layered-organise-name-item07">
-                            <span className="add-collection-layered-organise-text080">
+                      <div className="add-collection2layered-organise-text-box07">
+                        <div className="add-collection2layered-organise-container054">
+                          <div className="add-collection2layered-organise-name-item07">
+                            <span className="add-collection2layered-organise-text124">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity07">
-                            <span className="add-collection-layered-organise-text081">
+                          <div className="add-collection2layered-organise-rarity07">
+                            <span className="add-collection2layered-organise-text125">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait08">
-                      <div className="add-collection-layered-organise-container-bg08">
-                        <div className="add-collection-layered-organise-image-item08">
+                    <div className="item-layer add-collection2layered-organise-trait08">
+                      <div className="add-collection2layered-organise-container-bg08">
+                        <div className="add-collection2layered-organise-image-item08">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox08"
+                            className="add-collection2layered-organise-checkbox08"
                           />
-                          <div className="add-collection-layered-organise-replace-image08">
+                          <div className="add-collection2layered-organise-replace-image08">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon056 fill-color-white"
+                              className="add-collection2layered-organise-icon098 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box08">
-                        <div className="add-collection-layered-organise-container035">
-                          <div className="add-collection-layered-organise-name-item08">
-                            <span className="add-collection-layered-organise-text082">
+                      <div className="add-collection2layered-organise-text-box08">
+                        <div className="add-collection2layered-organise-container055">
+                          <div className="add-collection2layered-organise-name-item08">
+                            <span className="add-collection2layered-organise-text126">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity08">
-                            <span className="add-collection-layered-organise-text083">
+                          <div className="add-collection2layered-organise-rarity08">
+                            <span className="add-collection2layered-organise-text127">
+                              38%
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="item-layer add-collection2layered-organise-trait09">
+                      <div className="add-collection2layered-organise-container-bg09">
+                        <div className="add-collection2layered-organise-image-item09">
+                          <input
+                            type="checkbox"
+                            className="add-collection2layered-organise-checkbox09"
+                          />
+                          <div className="add-collection2layered-organise-replace-image09">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon100 fill-color-white"
+                            >
+                              <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-text-box09">
+                        <div className="add-collection2layered-organise-container056">
+                          <div className="add-collection2layered-organise-name-item09">
+                            <span className="add-collection2layered-organise-text128">
+                              Shy
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-rarity09">
+                            <span className="add-collection2layered-organise-text129">
+                              38%
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="item-layer add-collection2layered-organise-trait10">
+                      <div className="add-collection2layered-organise-container-bg10">
+                        <div className="add-collection2layered-organise-image-item10">
+                          <input
+                            type="checkbox"
+                            className="add-collection2layered-organise-checkbox10"
+                          />
+                          <div className="add-collection2layered-organise-replace-image10">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon102 fill-color-white"
+                            >
+                              <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-text-box10">
+                        <div className="add-collection2layered-organise-container057">
+                          <div className="add-collection2layered-organise-name-item10">
+                            <span className="add-collection2layered-organise-text130">
+                              Shy
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-rarity10">
+                            <span className="add-collection2layered-organise-text131">
+                              38%
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="item-layer add-collection2layered-organise-trait11">
+                      <div className="add-collection2layered-organise-container-bg11">
+                        <div className="add-collection2layered-organise-image-item11">
+                          <input
+                            type="checkbox"
+                            className="add-collection2layered-organise-checkbox11"
+                          />
+                          <div className="add-collection2layered-organise-replace-image11">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon104 fill-color-white"
+                            >
+                              <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-text-box11">
+                        <div className="add-collection2layered-organise-container058">
+                          <div className="add-collection2layered-organise-name-item11">
+                            <span className="add-collection2layered-organise-text132">
+                              Shy
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-rarity11">
+                            <span className="add-collection2layered-organise-text133">
+                              38%
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="item-layer add-collection2layered-organise-trait12">
+                      <div className="add-collection2layered-organise-container-bg12">
+                        <div className="add-collection2layered-organise-image-item12">
+                          <input
+                            type="checkbox"
+                            className="add-collection2layered-organise-checkbox12"
+                          />
+                          <div className="add-collection2layered-organise-replace-image12">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon106 fill-color-white"
+                            >
+                              <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-text-box12">
+                        <div className="add-collection2layered-organise-container059">
+                          <div className="add-collection2layered-organise-name-item12">
+                            <span className="add-collection2layered-organise-text134">
+                              Shy
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-rarity12">
+                            <span className="add-collection2layered-organise-text135">
                               38%
                             </span>
                           </div>
@@ -749,63 +1204,63 @@ const AddCollection2LayeredOrganise = (props) => {
                 </div>
                 <div
                   id="Accessories"
-                  className="add-collection-layered-organise-layer-box1"
+                  className="add-collection2layered-organise-layer-box1"
                 >
-                  <div className="add-collection-layered-organise-tabs-row1">
-                    <div className="add-collection-layered-organise-container036">
+                  <div className="add-collection2layered-organise-tabs-row2">
+                    <div className="add-collection2layered-organise-container060">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon058 fill-color-white"
+                        className="add-collection2layered-organise-icon108 fill-color-white"
                       >
                         <path d="M896 726v-598h-598v598h598zM896 42q34 0 60 26t26 60v598q0 34-26 59t-60 25h-598q-34 0-59-25t-25-59v-598q0-34 25-60t59-26h598zM128 214v682h682v86h-682q-34 0-60-26t-26-60v-682h86zM680 440l152 200h-470l118-150 84 100z"></path>
                       </svg>
-                      <span className="add-collection-layered-organise-text084">
+                      <span className="add-collection2layered-organise-text136">
                         Head
                       </span>
                     </div>
-                    <div className="add-collection-layered-organise-filter-buttons1">
-                      <div className="add-collection-layered-organise-container037">
+                    <div className="add-collection2layered-organise-filter-buttons2">
+                      <div className="add-collection2layered-organise-container061">
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button04"
+                          className="add-collection2layered-organise-button07"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon060 fill-color-white"
+                            className="add-collection2layered-organise-icon110 fill-color-white"
                           >
                             <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text085">
+                          <span className="add-collection2layered-organise-text137">
                             <span>Add</span>
                             <br></br>
                           </span>
                         </button>
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button05"
+                          className="add-collection2layered-organise-button08"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon062 fill-color-white"
+                            className="add-collection2layered-organise-icon112 fill-color-white"
                           >
                             <path d="M128 810h426l-136-182-106 138-78-92zM42 470h598v426h-512q-34 0-60-26t-26-60v-340zM214 128h84v86h-84v-86zM384 128h86v86h-86v-86zM128 128v86h-86q0-32 27-59t59-27zM726 810h84v86h-84v-86zM726 128h84v86h-84v-86zM42 298h86v86h-86v-86zM896 128q32 0 59 27t27 59h-86v-86zM896 298h86v86h-86v-86zM554 128h86v86h-86v-86zM982 810q0 32-27 59t-59 27v-86h86zM896 470h86v84h-86v-84zM896 640h86v86h-86v-86z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text088">
+                          <span className="add-collection2layered-organise-text140">
                             <span>Blank</span>
                             <br></br>
                           </span>
                         </button>
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button06"
+                          className="add-collection2layered-organise-button09"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon064 fill-color-white"
+                            className="add-collection2layered-organise-icon114 fill-color-white"
                           >
                             <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text091">
+                          <span className="add-collection2layered-organise-text143">
                             <span>Edit</span>
                             <br></br>
                           </span>
@@ -813,193 +1268,193 @@ const AddCollection2LayeredOrganise = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-container038">
-                    <div className="item-layer add-collection-layered-organise-trait09">
-                      <div className="add-collection-layered-organise-container-bg09">
-                        <div className="add-collection-layered-organise-image-item09">
+                  <div className="add-collection2layered-organise-container062">
+                    <div className="item-layer add-collection2layered-organise-trait13">
+                      <div className="add-collection2layered-organise-container-bg13">
+                        <div className="add-collection2layered-organise-image-item13">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox09"
+                            className="add-collection2layered-organise-checkbox13"
                           />
-                          <div className="add-collection-layered-organise-replace-image09">
+                          <div className="add-collection2layered-organise-replace-image13">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon066 fill-color-white"
+                              className="add-collection2layered-organise-icon116 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box09">
-                        <div className="add-collection-layered-organise-container039">
-                          <div className="add-collection-layered-organise-name-item09">
-                            <span className="add-collection-layered-organise-text094">
+                      <div className="add-collection2layered-organise-text-box13">
+                        <div className="add-collection2layered-organise-container063">
+                          <div className="add-collection2layered-organise-name-item13">
+                            <span className="add-collection2layered-organise-text146">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity09">
-                            <span className="add-collection-layered-organise-text095">
+                          <div className="add-collection2layered-organise-rarity13">
+                            <span className="add-collection2layered-organise-text147">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait10">
-                      <div className="add-collection-layered-organise-container-bg10">
-                        <div className="add-collection-layered-organise-image-item10">
+                    <div className="item-layer add-collection2layered-organise-trait14">
+                      <div className="add-collection2layered-organise-container-bg14">
+                        <div className="add-collection2layered-organise-image-item14">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox10"
+                            className="add-collection2layered-organise-checkbox14"
                           />
-                          <div className="add-collection-layered-organise-replace-image10">
+                          <div className="add-collection2layered-organise-replace-image14">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon068 fill-color-white"
+                              className="add-collection2layered-organise-icon118 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box10">
-                        <div className="add-collection-layered-organise-container040">
-                          <div className="add-collection-layered-organise-name-item10">
-                            <span className="add-collection-layered-organise-text096">
+                      <div className="add-collection2layered-organise-text-box14">
+                        <div className="add-collection2layered-organise-container064">
+                          <div className="add-collection2layered-organise-name-item14">
+                            <span className="add-collection2layered-organise-text148">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity10">
-                            <span className="add-collection-layered-organise-text097">
+                          <div className="add-collection2layered-organise-rarity14">
+                            <span className="add-collection2layered-organise-text149">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait11">
-                      <div className="add-collection-layered-organise-container-bg11">
-                        <div className="add-collection-layered-organise-image-item11">
+                    <div className="item-layer add-collection2layered-organise-trait15">
+                      <div className="add-collection2layered-organise-container-bg15">
+                        <div className="add-collection2layered-organise-image-item15">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox11"
+                            className="add-collection2layered-organise-checkbox15"
                           />
-                          <div className="add-collection-layered-organise-replace-image11">
+                          <div className="add-collection2layered-organise-replace-image15">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon070 fill-color-white"
+                              className="add-collection2layered-organise-icon120 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box11">
-                        <div className="add-collection-layered-organise-container041">
-                          <div className="add-collection-layered-organise-name-item11">
-                            <span className="add-collection-layered-organise-text098">
+                      <div className="add-collection2layered-organise-text-box15">
+                        <div className="add-collection2layered-organise-container065">
+                          <div className="add-collection2layered-organise-name-item15">
+                            <span className="add-collection2layered-organise-text150">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity11">
-                            <span className="add-collection-layered-organise-text099">
+                          <div className="add-collection2layered-organise-rarity15">
+                            <span className="add-collection2layered-organise-text151">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait12">
-                      <div className="add-collection-layered-organise-container-bg12">
-                        <div className="add-collection-layered-organise-image-item12">
+                    <div className="item-layer add-collection2layered-organise-trait16">
+                      <div className="add-collection2layered-organise-container-bg16">
+                        <div className="add-collection2layered-organise-image-item16">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox12"
+                            className="add-collection2layered-organise-checkbox16"
                           />
-                          <div className="add-collection-layered-organise-replace-image12">
+                          <div className="add-collection2layered-organise-replace-image16">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon072 fill-color-white"
+                              className="add-collection2layered-organise-icon122 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box12">
-                        <div className="add-collection-layered-organise-container042">
-                          <div className="add-collection-layered-organise-name-item12">
-                            <span className="add-collection-layered-organise-text100">
+                      <div className="add-collection2layered-organise-text-box16">
+                        <div className="add-collection2layered-organise-container066">
+                          <div className="add-collection2layered-organise-name-item16">
+                            <span className="add-collection2layered-organise-text152">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity12">
-                            <span className="add-collection-layered-organise-text101">
+                          <div className="add-collection2layered-organise-rarity16">
+                            <span className="add-collection2layered-organise-text153">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait13">
-                      <div className="add-collection-layered-organise-container-bg13">
-                        <div className="add-collection-layered-organise-image-item13">
+                    <div className="item-layer add-collection2layered-organise-trait17">
+                      <div className="add-collection2layered-organise-container-bg17">
+                        <div className="add-collection2layered-organise-image-item17">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox13"
+                            className="add-collection2layered-organise-checkbox17"
                           />
-                          <div className="add-collection-layered-organise-replace-image13">
+                          <div className="add-collection2layered-organise-replace-image17">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon074 fill-color-white"
+                              className="add-collection2layered-organise-icon124 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box13">
-                        <div className="add-collection-layered-organise-container043">
-                          <div className="add-collection-layered-organise-name-item13">
-                            <span className="add-collection-layered-organise-text102">
+                      <div className="add-collection2layered-organise-text-box17">
+                        <div className="add-collection2layered-organise-container067">
+                          <div className="add-collection2layered-organise-name-item17">
+                            <span className="add-collection2layered-organise-text154">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity13">
-                            <span className="add-collection-layered-organise-text103">
+                          <div className="add-collection2layered-organise-rarity17">
+                            <span className="add-collection2layered-organise-text155">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait14">
-                      <div className="add-collection-layered-organise-container-bg14">
-                        <div className="add-collection-layered-organise-image-item14">
+                    <div className="item-layer add-collection2layered-organise-trait18">
+                      <div className="add-collection2layered-organise-container-bg18">
+                        <div className="add-collection2layered-organise-image-item18">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox14"
+                            className="add-collection2layered-organise-checkbox18"
                           />
-                          <div className="add-collection-layered-organise-replace-image14">
+                          <div className="add-collection2layered-organise-replace-image18">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon076 fill-color-white"
+                              className="add-collection2layered-organise-icon126 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box14">
-                        <div className="add-collection-layered-organise-container044">
-                          <div className="add-collection-layered-organise-name-item14">
-                            <span className="add-collection-layered-organise-text104">
+                      <div className="add-collection2layered-organise-text-box18">
+                        <div className="add-collection2layered-organise-container068">
+                          <div className="add-collection2layered-organise-name-item18">
+                            <span className="add-collection2layered-organise-text156">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity14">
-                            <span className="add-collection-layered-organise-text105">
+                          <div className="add-collection2layered-organise-rarity18">
+                            <span className="add-collection2layered-organise-text157">
                               38%
                             </span>
                           </div>
@@ -1010,63 +1465,63 @@ const AddCollection2LayeredOrganise = (props) => {
                 </div>
                 <div
                   id="Accessories"
-                  className="add-collection-layered-organise-layer-box2"
+                  className="add-collection2layered-organise-layer-box2"
                 >
-                  <div className="add-collection-layered-organise-tabs-row2">
-                    <div className="add-collection-layered-organise-container045">
+                  <div className="add-collection2layered-organise-tabs-row3">
+                    <div className="add-collection2layered-organise-container069">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon078 fill-color-white"
+                        className="add-collection2layered-organise-icon128 fill-color-white"
                       >
                         <path d="M896 726v-598h-598v598h598zM896 42q34 0 60 26t26 60v598q0 34-26 59t-60 25h-598q-34 0-59-25t-25-59v-598q0-34 25-60t59-26h598zM128 214v682h682v86h-682q-34 0-60-26t-26-60v-682h86zM680 440l152 200h-470l118-150 84 100z"></path>
                       </svg>
-                      <span className="add-collection-layered-organise-text106">
+                      <span className="add-collection2layered-organise-text158">
                         Mouth
                       </span>
                     </div>
-                    <div className="add-collection-layered-organise-filter-buttons2">
-                      <div className="add-collection-layered-organise-container046">
+                    <div className="add-collection2layered-organise-filter-buttons3">
+                      <div className="add-collection2layered-organise-container070">
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button07"
+                          className="add-collection2layered-organise-button10"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon080 fill-color-white"
+                            className="add-collection2layered-organise-icon130 fill-color-white"
                           >
                             <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text107">
+                          <span className="add-collection2layered-organise-text159">
                             <span>Add</span>
                             <br></br>
                           </span>
                         </button>
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button08"
+                          className="add-collection2layered-organise-button11"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon082 fill-color-white"
+                            className="add-collection2layered-organise-icon132 fill-color-white"
                           >
                             <path d="M128 810h426l-136-182-106 138-78-92zM42 470h598v426h-512q-34 0-60-26t-26-60v-340zM214 128h84v86h-84v-86zM384 128h86v86h-86v-86zM128 128v86h-86q0-32 27-59t59-27zM726 810h84v86h-84v-86zM726 128h84v86h-84v-86zM42 298h86v86h-86v-86zM896 128q32 0 59 27t27 59h-86v-86zM896 298h86v86h-86v-86zM554 128h86v86h-86v-86zM982 810q0 32-27 59t-59 27v-86h86zM896 470h86v84h-86v-84zM896 640h86v86h-86v-86z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text110">
+                          <span className="add-collection2layered-organise-text162">
                             <span>Blank</span>
                             <br></br>
                           </span>
                         </button>
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button09"
+                          className="add-collection2layered-organise-button12"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon084 fill-color-white"
+                            className="add-collection2layered-organise-icon134 fill-color-white"
                           >
                             <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text113">
+                          <span className="add-collection2layered-organise-text165">
                             <span>Edit</span>
                             <br></br>
                           </span>
@@ -1074,97 +1529,97 @@ const AddCollection2LayeredOrganise = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-container047">
-                    <div className="item-layer add-collection-layered-organise-trait15">
-                      <div className="add-collection-layered-organise-container-bg15">
-                        <div className="add-collection-layered-organise-image-item15">
+                  <div className="add-collection2layered-organise-container071">
+                    <div className="item-layer add-collection2layered-organise-trait19">
+                      <div className="add-collection2layered-organise-container-bg19">
+                        <div className="add-collection2layered-organise-image-item19">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox15"
+                            className="add-collection2layered-organise-checkbox19"
                           />
-                          <div className="add-collection-layered-organise-replace-image15">
+                          <div className="add-collection2layered-organise-replace-image19">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon086 fill-color-white"
+                              className="add-collection2layered-organise-icon136 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box15">
-                        <div className="add-collection-layered-organise-container048">
-                          <div className="add-collection-layered-organise-name-item15">
-                            <span className="add-collection-layered-organise-text116">
+                      <div className="add-collection2layered-organise-text-box19">
+                        <div className="add-collection2layered-organise-container072">
+                          <div className="add-collection2layered-organise-name-item19">
+                            <span className="add-collection2layered-organise-text168">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity15">
-                            <span className="add-collection-layered-organise-text117">
+                          <div className="add-collection2layered-organise-rarity19">
+                            <span className="add-collection2layered-organise-text169">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait16">
-                      <div className="add-collection-layered-organise-container-bg16">
-                        <div className="add-collection-layered-organise-image-item16">
+                    <div className="item-layer add-collection2layered-organise-trait20">
+                      <div className="add-collection2layered-organise-container-bg20">
+                        <div className="add-collection2layered-organise-image-item20">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox16"
+                            className="add-collection2layered-organise-checkbox20"
                           />
-                          <div className="add-collection-layered-organise-replace-image16">
+                          <div className="add-collection2layered-organise-replace-image20">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon088 fill-color-white"
+                              className="add-collection2layered-organise-icon138 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box16">
-                        <div className="add-collection-layered-organise-container049">
-                          <div className="add-collection-layered-organise-name-item16">
-                            <span className="add-collection-layered-organise-text118">
+                      <div className="add-collection2layered-organise-text-box20">
+                        <div className="add-collection2layered-organise-container073">
+                          <div className="add-collection2layered-organise-name-item20">
+                            <span className="add-collection2layered-organise-text170">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity16">
-                            <span className="add-collection-layered-organise-text119">
+                          <div className="add-collection2layered-organise-rarity20">
+                            <span className="add-collection2layered-organise-text171">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait17">
-                      <div className="add-collection-layered-organise-container-bg17">
-                        <div className="add-collection-layered-organise-image-item17">
+                    <div className="item-layer add-collection2layered-organise-trait21">
+                      <div className="add-collection2layered-organise-container-bg21">
+                        <div className="add-collection2layered-organise-image-item21">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox17"
+                            className="add-collection2layered-organise-checkbox21"
                           />
-                          <div className="add-collection-layered-organise-replace-image17">
+                          <div className="add-collection2layered-organise-replace-image21">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon090 fill-color-white"
+                              className="add-collection2layered-organise-icon140 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box17">
-                        <div className="add-collection-layered-organise-container050">
-                          <div className="add-collection-layered-organise-name-item17">
-                            <span className="add-collection-layered-organise-text120">
+                      <div className="add-collection2layered-organise-text-box21">
+                        <div className="add-collection2layered-organise-container074">
+                          <div className="add-collection2layered-organise-name-item21">
+                            <span className="add-collection2layered-organise-text172">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity17">
-                            <span className="add-collection-layered-organise-text121">
+                          <div className="add-collection2layered-organise-rarity21">
+                            <span className="add-collection2layered-organise-text173">
                               38%
                             </span>
                           </div>
@@ -1175,63 +1630,63 @@ const AddCollection2LayeredOrganise = (props) => {
                 </div>
                 <div
                   id="Accessories"
-                  className="add-collection-layered-organise-layer-box3"
+                  className="add-collection2layered-organise-layer-box3"
                 >
-                  <div className="add-collection-layered-organise-tabs-row3">
-                    <div className="add-collection-layered-organise-container051">
+                  <div className="add-collection2layered-organise-tabs-row4">
+                    <div className="add-collection2layered-organise-container075">
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon092 fill-color-white"
+                        className="add-collection2layered-organise-icon142 fill-color-white"
                       >
                         <path d="M896 726v-598h-598v598h598zM896 42q34 0 60 26t26 60v598q0 34-26 59t-60 25h-598q-34 0-59-25t-25-59v-598q0-34 25-60t59-26h598zM128 214v682h682v86h-682q-34 0-60-26t-26-60v-682h86zM680 440l152 200h-470l118-150 84 100z"></path>
                       </svg>
-                      <span className="add-collection-layered-organise-text122">
+                      <span className="add-collection2layered-organise-text174">
                         Nose
                       </span>
                     </div>
-                    <div className="add-collection-layered-organise-filter-buttons3">
-                      <div className="add-collection-layered-organise-container052">
+                    <div className="add-collection2layered-organise-filter-buttons4">
+                      <div className="add-collection2layered-organise-container076">
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button10"
+                          className="add-collection2layered-organise-button13"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon094 fill-color-white"
+                            className="add-collection2layered-organise-icon144 fill-color-white"
                           >
                             <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text123">
+                          <span className="add-collection2layered-organise-text175">
                             <span>Add</span>
                             <br></br>
                           </span>
                         </button>
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button11"
+                          className="add-collection2layered-organise-button14"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon096 fill-color-white"
+                            className="add-collection2layered-organise-icon146 fill-color-white"
                           >
                             <path d="M128 810h426l-136-182-106 138-78-92zM42 470h598v426h-512q-34 0-60-26t-26-60v-340zM214 128h84v86h-84v-86zM384 128h86v86h-86v-86zM128 128v86h-86q0-32 27-59t59-27zM726 810h84v86h-84v-86zM726 128h84v86h-84v-86zM42 298h86v86h-86v-86zM896 128q32 0 59 27t27 59h-86v-86zM896 298h86v86h-86v-86zM554 128h86v86h-86v-86zM982 810q0 32-27 59t-59 27v-86h86zM896 470h86v84h-86v-84zM896 640h86v86h-86v-86z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text126">
+                          <span className="add-collection2layered-organise-text178">
                             <span>Blank</span>
                             <br></br>
                           </span>
                         </button>
                         <button
                           type="button"
-                          className="add-collection-layered-organise-button12"
+                          className="add-collection2layered-organise-button15"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon098 fill-color-white"
+                            className="add-collection2layered-organise-icon148 fill-color-white"
                           >
                             <path d="M512 662q62 0 106-44t44-106-44-106-106-44-106 44-44 106 44 106 106 44zM830 554l90 70q14 10 4 28l-86 148q-8 14-26 8l-106-42q-42 30-72 42l-16 112q-4 18-20 18h-172q-16 0-20-18l-16-112q-38-16-72-42l-106 42q-18 6-26-8l-86-148q-10-18 4-28l90-70q-2-14-2-42t2-42l-90-70q-14-10-4-28l86-148q8-14 26-8l106 42q42-30 72-42l16-112q4-18 20-18h172q16 0 20 18l16 112q38 16 72 42l106-42q18-6 26 8l86 148q10 18-4 28l-90 70q2 14 2 42t-2 42z"></path>
                           </svg>
-                          <span className="add-collection-layered-organise-text129">
+                          <span className="add-collection2layered-organise-text181">
                             <span>Edit</span>
                             <br></br>
                           </span>
@@ -1239,113 +1694,1452 @@ const AddCollection2LayeredOrganise = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-container053">
-                    <div className="item-layer add-collection-layered-organise-trait18">
-                      <div className="add-collection-layered-organise-container-bg18">
-                        <div className="add-collection-layered-organise-image-item18">
+                  <div className="add-collection2layered-organise-container077">
+                    <div className="item-layer add-collection2layered-organise-trait22">
+                      <div className="add-collection2layered-organise-container-bg22">
+                        <div className="add-collection2layered-organise-image-item22">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox18"
+                            className="add-collection2layered-organise-checkbox22"
                           />
-                          <div className="add-collection-layered-organise-replace-image18">
+                          <div className="add-collection2layered-organise-replace-image22">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon100 fill-color-white"
+                              className="add-collection2layered-organise-icon150 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box18">
-                        <div className="add-collection-layered-organise-container054">
-                          <div className="add-collection-layered-organise-name-item18">
-                            <span className="add-collection-layered-organise-text132">
+                      <div className="add-collection2layered-organise-text-box22">
+                        <div className="add-collection2layered-organise-container078">
+                          <div className="add-collection2layered-organise-name-item22">
+                            <span className="add-collection2layered-organise-text184">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity18">
-                            <span className="add-collection-layered-organise-text133">
+                          <div className="add-collection2layered-organise-rarity22">
+                            <span className="add-collection2layered-organise-text185">
                               38%
                             </span>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="item-layer add-collection-layered-organise-trait19">
-                      <div className="add-collection-layered-organise-container-bg19">
-                        <div className="add-collection-layered-organise-image-item19">
+                    <div className="item-layer add-collection2layered-organise-trait23">
+                      <div className="add-collection2layered-organise-container-bg23">
+                        <div className="add-collection2layered-organise-image-item23">
                           <input
                             type="checkbox"
-                            className="add-collection-layered-organise-checkbox19"
+                            className="add-collection2layered-organise-checkbox23"
                           />
-                          <div className="add-collection-layered-organise-replace-image19">
+                          <div className="add-collection2layered-organise-replace-image23">
                             <svg
                               viewBox="0 0 1024 1024"
-                              className="add-collection-layered-organise-icon102 fill-color-white"
+                              className="add-collection2layered-organise-icon152 fill-color-white"
                             >
                               <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                             </svg>
                           </div>
                         </div>
                       </div>
-                      <div className="add-collection-layered-organise-text-box19">
-                        <div className="add-collection-layered-organise-container055">
-                          <div className="add-collection-layered-organise-name-item19">
-                            <span className="add-collection-layered-organise-text134">
+                      <div className="add-collection2layered-organise-text-box23">
+                        <div className="add-collection2layered-organise-container079">
+                          <div className="add-collection2layered-organise-name-item23">
+                            <span className="add-collection2layered-organise-text186">
                               Shy
                             </span>
                           </div>
-                          <div className="add-collection-layered-organise-rarity19">
-                            <span className="add-collection-layered-organise-text135">
+                          <div className="add-collection2layered-organise-rarity23">
+                            <span className="add-collection2layered-organise-text187">
                               38%
                             </span>
                           </div>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  id="Accessories"
+                  className="add-collection2layered-organise-layer-box4"
+                >
+                  <div className="add-collection2layered-organise-tabs-row5">
+                    <div className="add-collection2layered-organise-container080">
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="add-collection2layered-organise-icon154 fill-color-white"
+                      >
+                        <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                      </svg>
+                      <span className="add-collection2layered-organise-text188">
+                        Accessories
+                      </span>
+                    </div>
+                    <div className="add-collection2layered-organise-filter-buttons5">
+                      <div className="add-collection2layered-organise-container081">
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button16"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon156 fill-color-white"
+                          >
+                            <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text189">
+                            <span>Add</span>
+                            <br></br>
+                          </span>
+                        </button>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button17"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon158 fill-color-white"
+                          >
+                            <path d="M128 810h426l-136-182-106 138-78-92zM42 470h598v426h-512q-34 0-60-26t-26-60v-340zM214 128h84v86h-84v-86zM384 128h86v86h-86v-86zM128 128v86h-86q0-32 27-59t59-27zM726 810h84v86h-84v-86zM726 128h84v86h-84v-86zM42 298h86v86h-86v-86zM896 128q32 0 59 27t27 59h-86v-86zM896 298h86v86h-86v-86zM554 128h86v86h-86v-86zM982 810q0 32-27 59t-59 27v-86h86zM896 470h86v84h-86v-84zM896 640h86v86h-86v-86z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text192">
+                            <span>Blank</span>
+                            <br></br>
+                          </span>
+                        </button>
+                        <EditButton></EditButton>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="add-collection2layered-organise-tabs-row6">
+                    <div className="add-collection2layered-organise-container082">
+                      <div className="add-collection2layered-organise-tab-layer3">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon160 fill-color-white"
+                        >
+                          <path d="M298 298h598v86h-598v-86zM128 726v-86h598v86h-598zM214 554v-84h596v84h-596z"></path>
+                        </svg>
+                        <span className="add-collection2layered-organise-text195">
+                          Traits
+                        </span>
+                      </div>
+                      <div className="add-collection2layered-organise-tab-layer4">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon162 fill-color-white"
+                        >
+                          <path d="M810 426h86v172h-86v-172zM640 768v-512h86v512h-86zM128 598v-172h86v172h-86zM470 938v-852h84v852h-84zM298 768v-512h86v512h-86z"></path>
+                        </svg>
+                        <span className="add-collection2layered-organise-text196">
+                          Rarity
+                        </span>
+                      </div>
+                      <div className="add-collection2layered-organise-tab-layer5">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="add-collection2layered-organise-icon164 fill-color-white"
+                        >
+                          <path d="M426 170l-98 98 226 226v360h-84v-324l-202-202-98 98v-256h256zM598 170h256v256l-98-98-124 124-60-60 124-124z"></path>
+                        </svg>
+                        <span className="add-collection2layered-organise-text197">
+                          Rules
+                        </span>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-filter-buttons6">
+                      <div className="add-collection2layered-organise-container083">
+                        <EditButton></EditButton>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button18"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon166 fill-color-white"
+                          >
+                            <path d="M128 810h426l-136-182-106 138-78-92zM42 470h598v426h-512q-34 0-60-26t-26-60v-340zM214 128h84v86h-84v-86zM384 128h86v86h-86v-86zM128 128v86h-86q0-32 27-59t59-27zM726 810h84v86h-84v-86zM726 128h84v86h-84v-86zM42 298h86v86h-86v-86zM896 128q32 0 59 27t27 59h-86v-86zM896 298h86v86h-86v-86zM554 128h86v86h-86v-86zM982 810q0 32-27 59t-59 27v-86h86zM896 470h86v84h-86v-84zM896 640h86v86h-86v-86z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text198">
+                            <span>Blank</span>
+                            <br></br>
+                          </span>
+                        </button>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button19"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon168 fill-color-white"
+                          >
+                            <path d="M214 810h512l-172-212-128 170-84-128zM682 470h128v340q0 34-25 60t-59 26h-512q-34 0-60-26t-26-60v-512q0-34 26-59t60-25h340v128h128v128zM810 298v128h-84v-128h-128v-84h128v-128h84v128h128v84h-128z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text201">
+                            <span>Add</span>
+                            <br></br>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="add-collection2layered-organise-container084">
+                    <div className="add-collection2layered-organise-trait-row">
+                      <div className="add-collection2layered-organise-container-left">
+                        <div className="add-collection2layered-organise-container-image">
+                          <div className="add-collection2layered-organise-image-trait"></div>
+                        </div>
+                        <div className="add-collection2layered-organise-container085">
+                          <div className="add-collection2layered-organise-container086">
+                            <span className="add-collection2layered-organise-name-trait">
+                              Eyes Right
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-container087">
+                            <span className="add-collection2layered-organise-name-trait01">
+                              Have it:
+                            </span>
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon170 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait02">
+                              32
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-container-right">
+                        <div className="add-collection2layered-organise-container088">
+                          <div className="add-collection2layered-organise-slider">
+                            <span className="add-collection2layered-organise-percentage-value-start">
+                              50%
+                            </span>
+                            <input
+                              type="range"
+                              id="range"
+                              placeholder="placeholder"
+                              className="add-collection2layered-organise-textinput range range2"
+                            />
+                            <div className="add-collection2layered-organise-code-embed">
+                              <Script
+                                html={`
+<style>
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  
+  /* New additions */
+  height: 6px;
+  background: #1B372B;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+  
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)   
+}
+
+/*=============
+Aesthetics 
+=========================*/
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: #4b4949; 
+  text-align: center;
+}
+
+.wrapper {
+  color: #4b4949; 
+  background: #f50;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 4rem;
+  width: 80%;
+  background: #1B372B;
+  padding: 0px 10px;
+}
+
+
+
+
+
+</style>
+
+<script>
+const sliderEl = document.querySelector("#range")
+const sliderValue = document.querySelector(".value")
+
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value; 
+  
+  sliderValue.textContent = tempSliderValue;
+  
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+ 
+  sliderEl.style.background = \`linear-gradient(to right, #f50 \${progress}%, #ccc \${progress}%)\`;
+})
+
+
+// function progressScript() {
+//   const sliderValue = sliderEl.value;
+//   sliderEl.style.background = \`linear-gradient(to right, #f50 \${sliderValue}%, #ccc \${sliderValue}%)\`;
+// }
+
+// progressScript()
+</script>`}
+                              ></Script>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button20"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon172 fill-color-white"
+                          >
+                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text204">
+                            <span>Delete</span>
+                            <br></br>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-trait-row1">
+                      <div className="add-collection2layered-organise-container-left1">
+                        <div className="add-collection2layered-organise-container-image1">
+                          <div className="add-collection2layered-organise-image-trait1"></div>
+                        </div>
+                        <div className="add-collection2layered-organise-container089">
+                          <div className="add-collection2layered-organise-container090">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon174 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait03">
+                              Eyes Right
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-container091">
+                            <span className="add-collection2layered-organise-name-trait04">
+                              Have it:
+                            </span>
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon176 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait05">
+                              32
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-container-right1">
+                        <div className="add-collection2layered-organise-container092">
+                          <div className="add-collection2layered-organise-slider1">
+                            <span className="add-collection2layered-organise-percentage-value-start1">
+                              50%
+                            </span>
+                            <input
+                              type="range"
+                              id="range"
+                              placeholder="placeholder"
+                              className="add-collection2layered-organise-textinput01 range range2"
+                            />
+                            <div className="add-collection2layered-organise-code-embed02">
+                              <Script
+                                html={`
+<style>
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  
+  /* New additions */
+  height: 6px;
+  background: #1B372B;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+  
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)   
+}
+
+/*=============
+Aesthetics 
+=========================*/
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: #4b4949; 
+  text-align: center;
+}
+
+.wrapper {
+  color: #4b4949; 
+  background: #f50;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 4rem;
+  width: 80%;
+  background: #1B372B;
+  padding: 0px 10px;
+}
+
+
+
+
+
+</style>
+
+<script>
+const sliderEl = document.querySelector("#range")
+const sliderValue = document.querySelector(".value")
+
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value; 
+  
+  sliderValue.textContent = tempSliderValue;
+  
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+ 
+  sliderEl.style.background = \`linear-gradient(to right, #f50 \${progress}%, #ccc \${progress}%)\`;
+})
+
+
+// function progressScript() {
+//   const sliderValue = sliderEl.value;
+//   sliderEl.style.background = \`linear-gradient(to right, #f50 \${sliderValue}%, #ccc \${sliderValue}%)\`;
+// }
+
+// progressScript()
+</script>`}
+                              ></Script>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button21"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon178 fill-color-white"
+                          >
+                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text207">
+                            <span>Delete</span>
+                            <br></br>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-trait-row2">
+                      <div className="add-collection2layered-organise-container-left2">
+                        <div className="add-collection2layered-organise-container-image2">
+                          <div className="add-collection2layered-organise-image-trait2"></div>
+                        </div>
+                        <div className="add-collection2layered-organise-container093">
+                          <div className="add-collection2layered-organise-container094">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon180 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait06">
+                              Eyes Right
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-container095">
+                            <span className="add-collection2layered-organise-name-trait07">
+                              Have it:
+                            </span>
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon182 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait08">
+                              345
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-container-right2">
+                        <div className="add-collection2layered-organise-container096">
+                          <div className="add-collection2layered-organise-slider2">
+                            <span className="add-collection2layered-organise-percentage-value-start2">
+                              100%
+                            </span>
+                            <input
+                              type="range"
+                              id="range"
+                              placeholder="placeholder"
+                              className="add-collection2layered-organise-textinput02 range range2"
+                            />
+                            <div className="add-collection2layered-organise-code-embed04">
+                              <Script
+                                html={`
+<style>
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  
+  /* New additions */
+  height: 6px;
+  background: #1B372B;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+  
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)   
+}
+
+/*=============
+Aesthetics 
+=========================*/
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: #4b4949; 
+  text-align: center;
+}
+
+.wrapper {
+  color: #4b4949; 
+  background: #f50;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 4rem;
+  width: 80%;
+  background: #1B372B;
+  padding: 0px 10px;
+}
+
+
+
+
+
+</style>
+
+<script>
+const sliderEl = document.querySelector("#range")
+const sliderValue = document.querySelector(".value")
+
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value; 
+  
+  sliderValue.textContent = tempSliderValue;
+  
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+ 
+  sliderEl.style.background = \`linear-gradient(to right, #f50 \${progress}%, #ccc \${progress}%)\`;
+})
+
+
+// function progressScript() {
+//   const sliderValue = sliderEl.value;
+//   sliderEl.style.background = \`linear-gradient(to right, #f50 \${sliderValue}%, #ccc \${sliderValue}%)\`;
+// }
+
+// progressScript()
+</script>`}
+                              ></Script>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button22"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon184 fill-color-white"
+                          >
+                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text210">
+                            <span>Delete</span>
+                            <br></br>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-trait-row3">
+                      <div className="add-collection2layered-organise-container-left3">
+                        <div className="add-collection2layered-organise-container-image3">
+                          <div className="add-collection2layered-organise-image-trait3"></div>
+                        </div>
+                        <div className="add-collection2layered-organise-container097">
+                          <div className="add-collection2layered-organise-container098">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon186 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait09">
+                              Eyes Right
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-container099">
+                            <span className="add-collection2layered-organise-name-trait10">
+                              Have it:
+                            </span>
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon188 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait11">
+                              32
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-container-right3">
+                        <div className="add-collection2layered-organise-container100">
+                          <div className="add-collection2layered-organise-slider3">
+                            <span className="add-collection2layered-organise-percentage-value-start3">
+                              50%
+                            </span>
+                            <input
+                              type="range"
+                              id="range"
+                              placeholder="placeholder"
+                              className="add-collection2layered-organise-textinput03 range range2"
+                            />
+                            <div className="add-collection2layered-organise-code-embed06">
+                              <Script
+                                html={`
+<style>
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  
+  /* New additions */
+  height: 6px;
+  background: #1B372B;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+  
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)   
+}
+
+/*=============
+Aesthetics 
+=========================*/
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: #4b4949; 
+  text-align: center;
+}
+
+.wrapper {
+  color: #4b4949; 
+  background: #f50;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 4rem;
+  width: 80%;
+  background: #1B372B;
+  padding: 0px 10px;
+}
+
+
+
+
+
+</style>
+
+<script>
+const sliderEl = document.querySelector("#range")
+const sliderValue = document.querySelector(".value")
+
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value; 
+  
+  sliderValue.textContent = tempSliderValue;
+  
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+ 
+  sliderEl.style.background = \`linear-gradient(to right, #f50 \${progress}%, #ccc \${progress}%)\`;
+})
+
+
+// function progressScript() {
+//   const sliderValue = sliderEl.value;
+//   sliderEl.style.background = \`linear-gradient(to right, #f50 \${sliderValue}%, #ccc \${sliderValue}%)\`;
+// }
+
+// progressScript()
+</script>`}
+                              ></Script>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button23"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon190 fill-color-white"
+                          >
+                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text213">
+                            <span>Delete</span>
+                            <br></br>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-trait-row4">
+                      <div className="add-collection2layered-organise-container-left4">
+                        <div className="add-collection2layered-organise-container-image4">
+                          <div className="add-collection2layered-organise-image-trait4"></div>
+                        </div>
+                        <div className="add-collection2layered-organise-container101">
+                          <div className="add-collection2layered-organise-container102">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon192 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait12">
+                              Eyes Right
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-container103">
+                            <span className="add-collection2layered-organise-name-trait13">
+                              Have it:
+                            </span>
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon194 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait14">
+                              32
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-container-right4">
+                        <div className="add-collection2layered-organise-container104">
+                          <div className="add-collection2layered-organise-slider4">
+                            <span className="add-collection2layered-organise-percentage-value-start4">
+                              50%
+                            </span>
+                            <input
+                              type="range"
+                              id="range"
+                              placeholder="placeholder"
+                              className="add-collection2layered-organise-textinput04 range range2"
+                            />
+                            <div className="add-collection2layered-organise-code-embed08">
+                              <Script
+                                html={`
+<style>
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  
+  /* New additions */
+  height: 6px;
+  background: #1B372B;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+  
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)   
+}
+
+/*=============
+Aesthetics 
+=========================*/
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: #4b4949; 
+  text-align: center;
+}
+
+.wrapper {
+  color: #4b4949; 
+  background: #f50;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 4rem;
+  width: 80%;
+  background: #1B372B;
+  padding: 0px 10px;
+}
+
+
+
+
+
+</style>
+
+<script>
+const sliderEl = document.querySelector("#range")
+const sliderValue = document.querySelector(".value")
+
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value; 
+  
+  sliderValue.textContent = tempSliderValue;
+  
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+ 
+  sliderEl.style.background = \`linear-gradient(to right, #f50 \${progress}%, #ccc \${progress}%)\`;
+})
+
+
+// function progressScript() {
+//   const sliderValue = sliderEl.value;
+//   sliderEl.style.background = \`linear-gradient(to right, #f50 \${sliderValue}%, #ccc \${sliderValue}%)\`;
+// }
+
+// progressScript()
+</script>`}
+                              ></Script>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button24"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon196 fill-color-white"
+                          >
+                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text216">
+                            <span>Delete</span>
+                            <br></br>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="add-collection2layered-organise-trait-row5">
+                      <div className="add-collection2layered-organise-container-left5">
+                        <div className="add-collection2layered-organise-container-image5">
+                          <div className="add-collection2layered-organise-image-trait5"></div>
+                        </div>
+                        <div className="add-collection2layered-organise-container105">
+                          <div className="add-collection2layered-organise-container106">
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon198 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait15">
+                              Eyes Right
+                            </span>
+                          </div>
+                          <div className="add-collection2layered-organise-container107">
+                            <span className="add-collection2layered-organise-name-trait16">
+                              Have it:
+                            </span>
+                            <svg
+                              viewBox="0 0 1024 1024"
+                              className="add-collection2layered-organise-icon200 fill-color-white"
+                            >
+                              <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
+                            </svg>
+                            <span className="add-collection2layered-organise-name-trait17">
+                              32
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="add-collection2layered-organise-container-right5">
+                        <div className="add-collection2layered-organise-container108">
+                          <div className="add-collection2layered-organise-slider5">
+                            <span className="add-collection2layered-organise-percentage-value-start5">
+                              50%
+                            </span>
+                            <input
+                              type="range"
+                              id="range"
+                              placeholder="placeholder"
+                              className="add-collection2layered-organise-textinput05 range range2"
+                            />
+                            <div className="add-collection2layered-organise-code-embed10">
+                              <Script
+                                html={`
+<style>
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  border-radius: 15px;
+  /*  overflow: hidden;  remove this line*/
+  
+  /* New additions */
+  height: 6px;
+  background: #1B372B;
+}
+
+/* Thumb: webkit */
+input[type="range"]::-webkit-slider-thumb {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none; 
+  /* creating a custom design */
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Thumb: Firefox */
+input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #00E39F;
+  border-radius: 50%;
+  border: none;
+  
+  /* box-shadow: -407px 0 0 400px #f50; emove this line */
+  transition: .2s ease-in-out;
+}
+
+/* Hover, active & focus Thumb: Webkit */
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+
+/* Hover, active & focus Thumb: Firfox */
+
+input[type="range"]::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 10px rgba(0,227,159, .2)
+}
+input[type="range"]:active::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)
+}
+input[type="range"]:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 13px rgba(0,227,159, .3)   
+}
+
+/*=============
+Aesthetics 
+=========================*/
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  color: #4b4949; 
+  text-align: center;
+}
+
+.wrapper {
+  color: #4b4949; 
+  background: #f50;
+  max-width: 400px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 4rem;
+  width: 80%;
+  background: #1B372B;
+  padding: 0px 10px;
+}
+
+
+
+
+
+</style>
+
+<script>
+const sliderEl = document.querySelector("#range")
+const sliderValue = document.querySelector(".value")
+
+sliderEl.addEventListener("input", (event) => {
+  const tempSliderValue = event.target.value; 
+  
+  sliderValue.textContent = tempSliderValue;
+  
+  const progress = (tempSliderValue / sliderEl.max) * 100;
+ 
+  sliderEl.style.background = \`linear-gradient(to right, #f50 \${progress}%, #ccc \${progress}%)\`;
+})
+
+
+// function progressScript() {
+//   const sliderValue = sliderEl.value;
+//   sliderEl.style.background = \`linear-gradient(to right, #f50 \${sliderValue}%, #ccc \${sliderValue}%)\`;
+// }
+
+// progressScript()
+</script>`}
+                              ></Script>
+                            </div>
+                          </div>
+                        </div>
+                        <button
+                          type="button"
+                          className="add-collection2layered-organise-button25"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="add-collection2layered-organise-icon202 fill-color-white"
+                          >
+                            <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
+                          </svg>
+                          <span className="add-collection2layered-organise-text219">
+                            <span>Delete</span>
+                            <br></br>
+                          </span>
+                        </button>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="add-collection-layered-organise-item-preview">
-                <div className="add-collection-layered-organise-composed-image">
-                  <div className="add-collection-layered-organise-label">
-                    <span className="add-collection-layered-organise-text136">
+              <div className="add-collection2layered-organise-item-preview">
+                <div className="add-collection2layered-organise-composed-image">
+                  <div className="add-collection2layered-organise-label">
+                    <span className="add-collection2layered-organise-text222">
                       Preview sample item
                     </span>
                   </div>
-                  <div className="add-collection-layered-organise-image"></div>
-                  <div className="add-collection-layered-organise-label1">
-                    <span className="add-collection-layered-organise-text137">
+                  <div className="add-collection2layered-organise-image"></div>
+                  <div className="add-collection2layered-organise-label1">
+                    <span className="add-collection2layered-organise-text223">
                       Sample  item
                     </span>
-                    <div className="add-collection-layered-organise-container056">
+                    <div className="add-collection2layered-organise-container109">
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button13"
+                        className="add-collection2layered-organise-button26"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon104 fill-color-white"
+                          className="add-collection2layered-organise-icon204 fill-color-white"
                         >
                           <path d="M754 270l100-100v300h-300l138-138q-76-76-180-76-106 0-181 75t-75 181 75 181 181 75q74 0 145-50t97-120h88q-28 112-120 184t-210 72q-140 0-240-100t-100-242 100-242 240-100q60 0 131 29t111 71z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text138">
+                        <span className="add-collection2layered-organise-text224">
                           <span>Random</span>
                           <br></br>
                         </span>
                       </button>
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button14"
+                        className="add-collection2layered-organise-button27"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon106 fill-color-white"
+                          className="add-collection2layered-organise-icon206 fill-color-white"
                         >
                           <path d="M554 540l112-110 60 60-214 214-214-214 60-60 112 110v-412h84v412zM810 512h86v298q0 34-26 60t-60 26h-596q-34 0-60-26t-26-60v-298h86v298h596v-298z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text141">
+                        <span className="add-collection2layered-organise-text227">
                           <span>Save</span>
                           <br></br>
                         </span>
@@ -1353,23 +3147,23 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="add-collection-layered-organise-composing-layers">
-                  <div className="add-collection-layered-organise-container057">
-                    <span className="add-collection-layered-organise-text144">
+                <div className="add-collection2layered-organise-composing-layers">
+                  <div className="add-collection2layered-organise-container110">
+                    <span className="add-collection2layered-organise-text230">
                       Item sample layers
                     </span>
                   </div>
-                  <div className="add-collection-layered-organise-trait-layer">
-                    <div className="add-collection-layered-organise-container058">
-                      <div className="add-collection-layered-organise-lasyer-image">
-                        <div className="add-collection-layered-organise-container059"></div>
+                  <div className="add-collection2layered-organise-trait-layer">
+                    <div className="add-collection2layered-organise-container111">
+                      <div className="add-collection2layered-organise-lasyer-image">
+                        <div className="add-collection2layered-organise-container112"></div>
                       </div>
-                      <div className="add-collection-layered-organise-container060">
-                        <span className="add-collection-layered-organise-text145">
+                      <div className="add-collection2layered-organise-container113">
+                        <span className="add-collection2layered-organise-text231">
                           <span>Red Eyes</span>
                           <br></br>
                         </span>
-                        <span className="add-collection-layered-organise-text148">
+                        <span className="add-collection2layered-organise-text234">
                           <span>Name Atribute it belongs to</span>
                           <br></br>
                         </span>
@@ -1377,27 +3171,27 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-organise-button15 button Content16SemiBold"
+                      className="add-collection2layered-organise-button28 button Content16SemiBold"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon108 fill-color-white"
+                        className="add-collection2layered-organise-icon208 fill-color-white"
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
                     </button>
                   </div>
-                  <div className="add-collection-layered-organise-trait-layer1">
-                    <div className="add-collection-layered-organise-container061">
-                      <div className="add-collection-layered-organise-lasyer-image1">
-                        <div className="add-collection-layered-organise-container062"></div>
+                  <div className="add-collection2layered-organise-trait-layer1">
+                    <div className="add-collection2layered-organise-container114">
+                      <div className="add-collection2layered-organise-lasyer-image1">
+                        <div className="add-collection2layered-organise-container115"></div>
                       </div>
-                      <div className="add-collection-layered-organise-container063">
-                        <span className="add-collection-layered-organise-text151">
+                      <div className="add-collection2layered-organise-container116">
+                        <span className="add-collection2layered-organise-text237">
                           <span>Red Eyes</span>
                           <br></br>
                         </span>
-                        <span className="add-collection-layered-organise-text154">
+                        <span className="add-collection2layered-organise-text240">
                           <span>Name Atribute it belongs to</span>
                           <br></br>
                         </span>
@@ -1405,27 +3199,27 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-organise-button16 button Content16SemiBold"
+                      className="add-collection2layered-organise-button29 button Content16SemiBold"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon110 fill-color-white"
+                        className="add-collection2layered-organise-icon210 fill-color-white"
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
                     </button>
                   </div>
-                  <div className="add-collection-layered-organise-trait-layer2">
-                    <div className="add-collection-layered-organise-container064">
-                      <div className="add-collection-layered-organise-lasyer-image2">
-                        <div className="add-collection-layered-organise-container065"></div>
+                  <div className="add-collection2layered-organise-trait-layer2">
+                    <div className="add-collection2layered-organise-container117">
+                      <div className="add-collection2layered-organise-lasyer-image2">
+                        <div className="add-collection2layered-organise-container118"></div>
                       </div>
-                      <div className="add-collection-layered-organise-container066">
-                        <span className="add-collection-layered-organise-text157">
+                      <div className="add-collection2layered-organise-container119">
+                        <span className="add-collection2layered-organise-text243">
                           <span>Red Eyes</span>
                           <br></br>
                         </span>
-                        <span className="add-collection-layered-organise-text160">
+                        <span className="add-collection2layered-organise-text246">
                           <span>Name Atribute it belongs to</span>
                           <br></br>
                         </span>
@@ -1433,27 +3227,27 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-organise-button17 button Content16SemiBold"
+                      className="add-collection2layered-organise-button30 button Content16SemiBold"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon112 fill-color-white"
+                        className="add-collection2layered-organise-icon212 fill-color-white"
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
                     </button>
                   </div>
-                  <div className="add-collection-layered-organise-trait-layer3">
-                    <div className="add-collection-layered-organise-container067">
-                      <div className="add-collection-layered-organise-lasyer-image3">
-                        <div className="add-collection-layered-organise-container068"></div>
+                  <div className="add-collection2layered-organise-trait-layer3">
+                    <div className="add-collection2layered-organise-container120">
+                      <div className="add-collection2layered-organise-lasyer-image3">
+                        <div className="add-collection2layered-organise-container121"></div>
                       </div>
-                      <div className="add-collection-layered-organise-container069">
-                        <span className="add-collection-layered-organise-text163">
+                      <div className="add-collection2layered-organise-container122">
+                        <span className="add-collection2layered-organise-text249">
                           <span>Red Eyes</span>
                           <br></br>
                         </span>
-                        <span className="add-collection-layered-organise-text166">
+                        <span className="add-collection2layered-organise-text252">
                           <span>Name Atribute it belongs to</span>
                           <br></br>
                         </span>
@@ -1461,11 +3255,11 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-organise-button18 button Content16SemiBold"
+                      className="add-collection2layered-organise-button31 button Content16SemiBold"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon114 fill-color-white"
+                        className="add-collection2layered-organise-icon214 fill-color-white"
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
@@ -1476,122 +3270,74 @@ const AddCollection2LayeredOrganise = (props) => {
             </div>
           </div>
         </div>
-        <div className="add-collection-layered-organise-overlay-rarity">
+        <div className="add-collection2layered-organise-overlay-rarity">
           <div
             id="appOverlay"
-            className="add-collection-layered-organise-container070"
+            className="add-collection2layered-organise-container123"
           >
-            <div className="add-collection-layered-organise-container071">
-              <label className="add-collection-layered-organise-text169">
+            <div className="add-collection2layered-organise-container124">
+              <label className="add-collection2layered-organise-text255">
                 Eyes
               </label>
             </div>
-            <div className="add-collection-layered-organise-container072">
-              <div>
-                <Script
-                  html={`<style>
-  
-/* width */
-#appOverlay::-webkit-scrollbar {
-  width: 16px;
-  height: calc(100% - 60px);
-}
-
-/* Track */
-#appOverlay::-webkit-scrollbar-track {
-  background: #1D1D1D;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 14px;
-  
-}
- 
-/* Handle */
-#appOverlay::-webkit-scrollbar-thumb {
-  background: #2F2F2F; 
-  border-radius: 12px;
-  border: 3px solid #1D1D1D
-}
-
-/* Handle on hover */
-#appOverlay::-webkit-scrollbar-thumb:hover {
-  background: #838383; 
-}
-
-@media only screen and (max-width: 767px) {
-#appOverlay::-webkit-scrollbar {
-  width: 10px;
-  height: 100%;
-}
-#appOverlay::-webkit-scrollbar-thumb {
-  background: #424242; 
-  border-radius: 10px;
-  border: 2px solid #1D1D1D;
-}
-
-}
-
-
-</style>`}
-                ></Script>
-              </div>
-              <div className="add-collection-layered-organise-field">
-                <label className="add-collection-layered-organise-text170 padding-4px-left">
+            <div className="add-collection2layered-organise-container125">
+              <div className="add-collection2layered-organise-field">
+                <label className="add-collection2layered-organise-text256 padding-4px-left">
                   Layer Name:
                 </label>
                 <input
                   type="text"
                   enctype="The Funky Apes Crew..."
                   placeholder="Eyes..."
-                  className="add-collection-layered-organise-textinput focus-reset-forms input Content16SemiBold"
+                  className="add-collection2layered-organise-textinput06 focus-reset-forms input Content16SemiBold"
                 />
               </div>
-              <div className="add-collection-layered-organise-field1">
-                <label className="add-collection-layered-organise-text171 padding-4px-left Content">
+              <div className="add-collection2layered-organise-field1">
+                <label className="add-collection2layered-organise-text257 padding-4px-left Content">
                   Layer Rarity within collection:
                 </label>
                 <input
                   type="text"
                   enctype="The Funky Apes Crew..."
                   placeholder="78%"
-                  className="add-collection-layered-organise-textinput01 focus-reset-forms Content16SemiBold input"
+                  className="add-collection2layered-organise-textinput07 focus-reset-forms Content16SemiBold input"
                 />
               </div>
-              <div className="add-collection-layered-organise-layer-items-treats">
-                <div className="add-collection-layered-organise-tabs-row4">
-                  <div className="add-collection-layered-organise-container073">
-                    <span className="add-collection-layered-organise-text172">
+              <div className="add-collection2layered-organise-layer-items-treats">
+                <div className="add-collection2layered-organise-tabs-row7">
+                  <div className="add-collection2layered-organise-container126">
+                    <span className="add-collection2layered-organise-text258">
                       &lt; go back
                     </span>
-                    <span className="add-collection-layered-organise-text173">
+                    <span className="add-collection2layered-organise-text259">
                       Layer Assets 
                     </span>
-                    <span className="add-collection-layered-organise-text174">
+                    <span className="add-collection2layered-organise-text260">
                       Rules
                     </span>
                   </div>
-                  <div className="add-collection-layered-organise-filter-buttons4">
-                    <div className="add-collection-layered-organise-timeframe">
-                      <button className="add-collection-layered-organise-button19">
-                        <span className="add-collection-layered-organise-text175">
+                  <div className="add-collection2layered-organise-filter-buttons7">
+                    <div className="add-collection2layered-organise-timeframe">
+                      <button className="add-collection2layered-organise-button32">
+                        <span className="add-collection2layered-organise-text261">
                           <span>1h</span>
                           <br></br>
                         </span>
                       </button>
-                      <button className="add-collection-layered-organise-button20">
-                        <span className="add-collection-layered-organise-text178">
+                      <button className="add-collection2layered-organise-button33">
+                        <span className="add-collection2layered-organise-text264">
                           <span>6h</span>
                           <br></br>
                         </span>
                       </button>
-                      <button className="add-collection-layered-organise-button21">
-                        <span className="add-collection-layered-organise-text181">
+                      <button className="add-collection2layered-organise-button34">
+                        <span className="add-collection2layered-organise-text267">
                           <span>24h</span>
                           <br></br>
                         </span>
                       </button>
-                      <button className="add-collection-layered-organise-button22">
-                        <span className="add-collection-layered-organise-text184">
+                      <button className="add-collection2layered-organise-button35">
+                        <span className="add-collection2layered-organise-text270">
                           <span>7d</span>
                           <br></br>
                         </span>
@@ -1599,28 +3345,28 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                     <div
                       data-thq="thq-dropdown"
-                      className="add-collection-layered-organise-sort-by list-item"
+                      className="add-collection2layered-organise-sort-by list-item"
                     >
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="add-collection-layered-organise-dropdown-toggle"
+                        className="add-collection2layered-organise-dropdown-toggle"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon116"
+                          className="add-collection2layered-organise-icon216"
                         >
                           <path d="M256 554v-84h512v84h-512zM128 256h768v86h-768v-86zM426 768v-86h172v86h-172z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text187">
+                        <span className="add-collection2layered-organise-text273">
                           Sort by Name
                         </span>
                         <div
                           data-thq="thq-dropdown-arrow"
-                          className="add-collection-layered-organise-dropdown-arrow"
+                          className="add-collection2layered-organise-dropdown-arrow"
                         >
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="add-collection-layered-organise-icon118"
+                            className="add-collection2layered-organise-icon218"
                           >
                             <path d="M316 366l196 196 196-196 60 60-256 256-256-256z"></path>
                           </svg>
@@ -1628,41 +3374,41 @@ const AddCollection2LayeredOrganise = (props) => {
                       </div>
                       <ul
                         data-thq="thq-dropdown-list"
-                        className="add-collection-layered-organise-dropdown-list"
+                        className="add-collection2layered-organise-dropdown-list"
                       >
                         <li
                           data-thq="thq-dropdown"
-                          className="add-collection-layered-organise-dropdown list-item"
+                          className="add-collection2layered-organise-dropdown list-item"
                         >
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="add-collection-layered-organise-dropdown-toggle1"
+                            className="add-collection2layered-organise-dropdown-toggle1"
                           >
-                            <span className="add-collection-layered-organise-text188">
+                            <span className="add-collection2layered-organise-text274">
                               Name
                             </span>
                           </div>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="add-collection-layered-organise-dropdown-toggle2"
+                            className="add-collection2layered-organise-dropdown-toggle2"
                           >
-                            <span className="add-collection-layered-organise-text189">
+                            <span className="add-collection2layered-organise-text275">
                               Most Rare
                             </span>
                           </div>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="add-collection-layered-organise-dropdown-toggle3"
+                            className="add-collection2layered-organise-dropdown-toggle3"
                           >
-                            <span className="add-collection-layered-organise-text190">
+                            <span className="add-collection2layered-organise-text276">
                               Newest Added
                             </span>
                           </div>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="add-collection-layered-organise-dropdown-toggle4"
+                            className="add-collection2layered-organise-dropdown-toggle4"
                           >
-                            <span className="add-collection-layered-organise-text191">
+                            <span className="add-collection2layered-organise-text277">
                               Oldest
                             </span>
                           </div>
@@ -1671,51 +3417,51 @@ const AddCollection2LayeredOrganise = (props) => {
                     </div>
                     <button
                       type="button"
-                      className="add-collection-layered-organise-button23"
+                      className="add-collection2layered-organise-button36"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon120"
+                        className="add-collection2layered-organise-icon220"
                       >
                         <path d="M18 572l60-60 238 238-60 60zM948 238l62 60-512 512-240-238 62-60 178 178zM768 298l-270 272-60-60 270-272z"></path>
                       </svg>
-                      <span className="add-collection-layered-organise-text192">
+                      <span className="add-collection2layered-organise-text278">
                         <span>Select All</span>
                         <br></br>
                       </span>
                     </button>
                     <button
                       type="button"
-                      className="add-collection-layered-organise-button24"
+                      className="add-collection2layered-organise-button37"
                     >
                       <svg
                         viewBox="0 0 1024 1024"
-                        className="add-collection-layered-organise-icon122 fill-color-white"
+                        className="add-collection2layered-organise-icon222 fill-color-white"
                       >
                         <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                       </svg>
-                      <span className="add-collection-layered-organise-text195">
+                      <span className="add-collection2layered-organise-text281">
                         <span>Delete</span>
                         <br></br>
                       </span>
                     </button>
                   </div>
                 </div>
-                <div className="add-collection-layered-organise-tabs-row5">
-                  <div className="add-collection-layered-organise-container074">
-                    <div className="add-collection-layered-organise-container075">
-                      <span className="add-collection-layered-organise-text198 Labels13CAPS">
+                <div className="add-collection2layered-organise-tabs-row8">
+                  <div className="add-collection2layered-organise-container127">
+                    <div className="add-collection2layered-organise-container128">
+                      <span className="add-collection2layered-organise-text284 Labels13CAPS">
                         Open
                       </span>
                     </div>
-                    <div className="add-collection-layered-organise-container076">
-                      <span className="add-collection-layered-organise-text199 Labels13CAPS">
+                    <div className="add-collection2layered-organise-container129">
+                      <span className="add-collection2layered-organise-text285 Labels13CAPS">
                         name
                       </span>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-container077">
-                    <span className="add-collection-layered-organise-text200 Labels13CAPS">
+                  <div className="add-collection2layered-organise-container130">
+                    <span className="add-collection2layered-organise-text286 Labels13CAPS">
                       Rarity
                       <span
                         dangerouslySetInnerHTML={{
@@ -1725,305 +3471,305 @@ const AddCollection2LayeredOrganise = (props) => {
                     </span>
                   </div>
                 </div>
-                <div className="add-collection-layered-organise-container078">
-                  <div className="add-collection-layered-organise-row-image">
-                    <div className="add-collection-layered-organise-container079">
+                <div className="add-collection2layered-organise-container131">
+                  <div className="add-collection2layered-organise-row-image">
+                    <div className="add-collection2layered-organise-container132">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox20"
+                        className="add-collection2layered-organise-checkbox24"
                       />
-                      <div className="add-collection-layered-organise-container080"></div>
+                      <div className="add-collection2layered-organise-container133"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput02 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput08 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container081">
+                    <div className="add-collection2layered-organise-container134">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput03 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2layered-organise-textinput09 Content16SemiBold focus-reset-forms input"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button25"
+                        className="add-collection2layered-organise-button38"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon124 fill-color-white"
+                          className="add-collection2layered-organise-icon224 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text201">
+                        <span className="add-collection2layered-organise-text287">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-row-image1">
-                    <div className="add-collection-layered-organise-container082">
+                  <div className="add-collection2layered-organise-row-image1">
+                    <div className="add-collection2layered-organise-container135">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox21"
+                        className="add-collection2layered-organise-checkbox25"
                       />
-                      <div className="add-collection-layered-organise-container083"></div>
+                      <div className="add-collection2layered-organise-container136"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput04 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2layered-organise-textinput10 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container084">
+                    <div className="add-collection2layered-organise-container137">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput05 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2layered-organise-textinput11 focus-reset-forms input Content16SemiBold"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button26"
+                        className="add-collection2layered-organise-button39"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon126 fill-color-white"
+                          className="add-collection2layered-organise-icon226 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text204">
+                        <span className="add-collection2layered-organise-text290">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-row-image2">
-                    <div className="add-collection-layered-organise-container085">
+                  <div className="add-collection2layered-organise-row-image2">
+                    <div className="add-collection2layered-organise-container138">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox22"
+                        className="add-collection2layered-organise-checkbox26"
                       />
-                      <div className="add-collection-layered-organise-container086"></div>
+                      <div className="add-collection2layered-organise-container139"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput06 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput12 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container087">
+                    <div className="add-collection2layered-organise-container140">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput07 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput13 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button27"
+                        className="add-collection2layered-organise-button40"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon128 fill-color-white"
+                          className="add-collection2layered-organise-icon228 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text207">
+                        <span className="add-collection2layered-organise-text293">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-row-image3">
-                    <div className="add-collection-layered-organise-container088">
+                  <div className="add-collection2layered-organise-row-image3">
+                    <div className="add-collection2layered-organise-container141">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox23"
+                        className="add-collection2layered-organise-checkbox27"
                       />
-                      <div className="add-collection-layered-organise-container089"></div>
+                      <div className="add-collection2layered-organise-container142"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput08 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2layered-organise-textinput14 focus-reset-forms input Content16SemiBold"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container090">
+                    <div className="add-collection2layered-organise-container143">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput09 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput15 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button28"
+                        className="add-collection2layered-organise-button41"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon130 fill-color-white"
+                          className="add-collection2layered-organise-icon230 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text210">
+                        <span className="add-collection2layered-organise-text296">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-row-image4">
-                    <div className="add-collection-layered-organise-container091">
+                  <div className="add-collection2layered-organise-row-image4">
+                    <div className="add-collection2layered-organise-container144">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox24"
+                        className="add-collection2layered-organise-checkbox28"
                       />
-                      <div className="add-collection-layered-organise-container092"></div>
+                      <div className="add-collection2layered-organise-container145"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput10 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput16 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container093">
+                    <div className="add-collection2layered-organise-container146">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput11 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2layered-organise-textinput17 focus-reset-forms input Content16SemiBold"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button29"
+                        className="add-collection2layered-organise-button42"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon132 fill-color-white"
+                          className="add-collection2layered-organise-icon232 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text213">
+                        <span className="add-collection2layered-organise-text299">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-row-image5">
-                    <div className="add-collection-layered-organise-container094">
+                  <div className="add-collection2layered-organise-row-image5">
+                    <div className="add-collection2layered-organise-container147">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox25"
+                        className="add-collection2layered-organise-checkbox29"
                       />
-                      <div className="add-collection-layered-organise-container095"></div>
+                      <div className="add-collection2layered-organise-container148"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput12 Content16SemiBold focus-reset-forms input"
+                        className="add-collection2layered-organise-textinput18 Content16SemiBold focus-reset-forms input"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container096">
+                    <div className="add-collection2layered-organise-container149">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput13 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput19 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button30"
+                        className="add-collection2layered-organise-button43"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon134 fill-color-white"
+                          className="add-collection2layered-organise-icon234 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text216">
+                        <span className="add-collection2layered-organise-text302">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-row-image6">
-                    <div className="add-collection-layered-organise-container097">
+                  <div className="add-collection2layered-organise-row-image6">
+                    <div className="add-collection2layered-organise-container150">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox26"
+                        className="add-collection2layered-organise-checkbox30"
                       />
-                      <div className="add-collection-layered-organise-container098"></div>
+                      <div className="add-collection2layered-organise-container151"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput14 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput20 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container099">
+                    <div className="add-collection2layered-organise-container152">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput15 focus-reset-forms input Content16SemiBold"
+                        className="add-collection2layered-organise-textinput21 focus-reset-forms input Content16SemiBold"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button31"
+                        className="add-collection2layered-organise-button44"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon136 fill-color-white"
+                          className="add-collection2layered-organise-icon236 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text219">
+                        <span className="add-collection2layered-organise-text305">
                           <span>Delete</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                   </div>
-                  <div className="add-collection-layered-organise-row-image7">
-                    <div className="add-collection-layered-organise-container100">
+                  <div className="add-collection2layered-organise-row-image7">
+                    <div className="add-collection2layered-organise-container153">
                       <input
                         type="checkbox"
-                        className="add-collection-layered-organise-checkbox27"
+                        className="add-collection2layered-organise-checkbox31"
                       />
-                      <div className="add-collection-layered-organise-container101"></div>
+                      <div className="add-collection2layered-organise-container154"></div>
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="Blue..."
-                        className="add-collection-layered-organise-textinput16 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput22 focus-reset-forms Content16SemiBold input"
                       />
                     </div>
-                    <div className="add-collection-layered-organise-container102">
+                    <div className="add-collection2layered-organise-container155">
                       <input
                         type="text"
                         enctype="The Funky Apes Crew..."
                         placeholder="47%..."
-                        className="add-collection-layered-organise-textinput17 focus-reset-forms Content16SemiBold input"
+                        className="add-collection2layered-organise-textinput23 focus-reset-forms Content16SemiBold input"
                       />
                       <button
                         type="button"
-                        className="add-collection-layered-organise-button32"
+                        className="add-collection2layered-organise-button45"
                       >
                         <svg
                           viewBox="0 0 1024 1024"
-                          className="add-collection-layered-organise-icon138 fill-color-white"
+                          className="add-collection2layered-organise-icon238 fill-color-white"
                         >
                           <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                         </svg>
-                        <span className="add-collection-layered-organise-text222">
+                        <span className="add-collection2layered-organise-text308">
                           <span>Delete</span>
                           <br></br>
                         </span>
@@ -2032,10 +3778,10 @@ const AddCollection2LayeredOrganise = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="add-collection-layered-organise-close-window-button">
+              <div className="add-collection2layered-organise-close-window-button">
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="add-collection-layered-organise-icon140 fill-color-white"
+                  className="add-collection2layered-organise-icon240 fill-color-white"
                 >
                   <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
                 </svg>

@@ -127,6 +127,9 @@
   padding-right: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
+.navbar-div {
+  display: contents;
+}
 .navbar-wrapper-right {
   flex: 1;
   width: 100%;

@@ -55,7 +55,7 @@ const ContainerLayer = (props) => {
       </button>
       {isVisible && (
         <div className="container-layer-overlay-rarity">
-          <div className="container-layer-b-overlay-gray">
+          <div className="container-layer-bg-overlay-gray">
             <div id="appOverlay" className="container-layer-container02">
               <div className="container-layer-container-bar-top">
                 <label className="container-layer-text06">Eyes</label>
@@ -75,7 +75,7 @@ const ContainerLayer = (props) => {
                 </div>
               </div>
               <div className="container-layer-container03">
-                <div className="">
+                <div className="container-layer-code-embed">
                   <Script
                     html={`<style>
   
@@ -147,7 +147,7 @@ const ContainerLayer = (props) => {
                       className="container-layer-textinput01 focus-reset-forms Content16SemiBold input"
                     />
                     <div className="container-layer-slider">
-                      <div className="">
+                      <div className="container-layer-code-embed02">
                         <Script
                           html={`
 <style>
@@ -547,7 +547,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end1">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed04">
                             <Script
                               html={`
 <style>
@@ -742,7 +742,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end2">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed06">
                             <Script
                               html={`
 <style>
@@ -937,7 +937,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end3">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed08">
                             <Script
                               html={`
 <style>
@@ -1132,7 +1132,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end4">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed10">
                             <Script
                               html={`
 <style>
@@ -1327,7 +1327,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end5">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed12">
                             <Script
                               html={`
 <style>
@@ -1522,7 +1522,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end6">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed14">
                             <Script
                               html={`
 <style>
@@ -1717,7 +1717,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end7">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed16">
                             <Script
                               html={`
 <style>
@@ -1912,7 +1912,7 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end8">
                             100%
                           </span>
-                          <div className="">
+                          <div className="container-layer-code-embed18">
                             <Script
                               html={`
 <style>

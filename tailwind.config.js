@@ -23,6 +23,7 @@ module.exports = {
           "Red-200": "#ff4b6cff",
           "PurpleDark": "#673a90ff",
           "PurpleDarkBG": "#362348ff",
+          "DarkGreenBTN2": "#007559ff",
           "Blue-100": "#3579aaff",
           "PurpleLight": "#bf79ffff",
           "DarkerGreen": "#00b384ff",

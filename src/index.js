@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
+import NotFound from './views/not-found'
 import Features from './views/features'
 import AddItemsTemplates from './views/add-items-templates'
 import Drops from './views/drops'
@@ -16,6 +17,7 @@ import UserProfileSettings from './views/user-profile-settings'
 import AddCollection2LayeredOrganise from './views/add-collection2-layered-organise'
 import AddCollection2Layered from './views/add-collection2-layered'
 import CreatorStudioCollection from './views/creator-studio-collection'
+import ImportCollection from './views/import-collection'
 import AddItem from './views/add-item'
 import CollectionDropPageRoadmap from './views/collection-drop-page-roadmap'
 import AddCollection2LayeredPreview from './views/add-collection2-layered-preview'
@@ -39,6 +41,7 @@ const App = () => {
   return (
     <Router>
       <div>
+        <Route component={NotFound} path="**" />
         <Route component={Features} exact path="/features" />
         <Route
           component={AddItemsTemplates}
@@ -84,6 +87,7 @@ const App = () => {
           exact
           path="/creator-studio-collection"
         />
+        <Route component={ImportCollection} exact path="/import-collection" />
         <Route component={AddItem} exact path="/add-item" />
         <Route
           component={CollectionDropPageRoadmap}

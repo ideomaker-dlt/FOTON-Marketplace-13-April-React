@@ -58,7 +58,7 @@ const ContainerLayerModal = (props) => {
         <div className="container-layer-modal-modal-wrapper">
           <div
             onClick={() => setIsVisible(false)}
-            className="container-layer-modal-b-overlay-gray2"
+            className="container-layer-modal-bg-overlay-gray2"
           ></div>
           <div id="appOverlay" className="container-layer-modal-container2">
             <div className="container-layer-modal-container-bar-top">
@@ -86,7 +86,7 @@ const ContainerLayerModal = (props) => {
               </div>
             </div>
             <div className="container-layer-modal-buttons">
-              <div className="">
+              <div className="container-layer-modal-code-embed">
                 <Script
                   html={`<style>
   

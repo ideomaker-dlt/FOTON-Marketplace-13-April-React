@@ -58,7 +58,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.button-expand-b-overlay-gray2 {
+.button-expand-bg-overlay-gray2 {
   top: 0px;
   flex: 0 0 auto;
   left: 0px;
@@ -2433,7 +2433,7 @@
   .button-expand-text {
     display: none;
   }
-  .button-expand-b-overlay-gray2 {
+  .button-expand-bg-overlay-gray2 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }

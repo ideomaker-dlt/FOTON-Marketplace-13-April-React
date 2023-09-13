@@ -47,7 +47,7 @@ const CreatorStudioProject = (props) => {
               <div className="creator-studio-project-container03">
                 <h1 className="creator-studio-project-text">Project One</h1>
                 <h1 className="creator-studio-project-text01">
-                  <span>2 Collections, 1500 items</span>
+                  <span>4 Collections, 6000 items</span>
                   <br></br>
                 </h1>
               </div>
@@ -206,7 +206,7 @@ const CreatorStudioProject = (props) => {
                   </h1>
                 </div>
                 <h1 className="creator-studio-project-text25 Heading3">
-                  Collection One
+                  Collection Two
                 </h1>
                 <h1 className="creator-studio-project-text26 Content">
                   <span>1500 Items</span>
@@ -229,7 +229,7 @@ const CreatorStudioProject = (props) => {
                   </h1>
                 </div>
                 <h1 className="creator-studio-project-text32 Heading3">
-                  Collection One
+                  Collection Three
                 </h1>
                 <h1 className="creator-studio-project-text33 Content">
                   <span>1500 Items</span>
@@ -252,7 +252,7 @@ const CreatorStudioProject = (props) => {
                   </h1>
                 </div>
                 <h1 className="creator-studio-project-text39 Heading3">
-                  Collection One
+                  Collection Four
                 </h1>
                 <h1 className="creator-studio-project-text40 Content">
                   <span>1500 Items</span>
