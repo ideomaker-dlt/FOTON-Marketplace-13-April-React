@@ -20,7 +20,7 @@ const LayoutWithSidebar = (props) => {
           >
             <div className="layout-with-sidebar-icon"></div>
           </div>
-          <Link to="/" className="layout-with-sidebar-navlink">
+          <Link to="/home" className="layout-with-sidebar-navlink">
             <div className="layout-with-sidebar-logo-container"></div>
           </Link>
           <div className="layout-with-sidebar-searchbar">
@@ -430,8 +430,8 @@ input[type="search"]::-webkit-search-results-decoration {
               text2="Settings"
               text3="Settings"
               text4="Analytics"
-              image_src1="/tune.svg"
-              image_src2="/chart_data.svg"
+              imageSrc1="/tune.svg"
+              imageSrc2="/chart_data.svg"
               rootClassName="side-menu-root-class-name5"
               className=""
             ></SideMenu>

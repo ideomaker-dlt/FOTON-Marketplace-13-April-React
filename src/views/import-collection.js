@@ -43,7 +43,7 @@ const ImportCollection = (props) => {
         <div className="import-collection-tabs-row">
           <div className="import-collection-container04">
             <Link
-              to="/creator-studio-project"
+              to="/add-collection-templates"
               className="import-collection-navlink"
             >
               &lt; go back

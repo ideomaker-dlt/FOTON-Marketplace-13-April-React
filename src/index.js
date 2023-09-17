@@ -22,6 +22,7 @@ import AddItem from './views/add-item'
 import CollectionDropPageRoadmap from './views/collection-drop-page-roadmap'
 import AddCollection2LayeredPreview from './views/add-collection2-layered-preview'
 import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-analytics'
+import AddCollectionTemplates from './views/add-collection-templates'
 import CreatorStudio from './views/creator-studio'
 import CollectorProfileFollowers from './views/collector-profile-followers'
 import AddUnLayeredBatch from './views/add-un-layered-batch'
@@ -103,6 +104,11 @@ const App = () => {
           component={CreatorStudioCollectionAnalytics}
           exact
           path="/creator-studio-collection-analytics"
+        />
+        <Route
+          component={AddCollectionTemplates}
+          exact
+          path="/add-collection-templates"
         />
         <Route component={CreatorStudio} exact path="/creator-studio" />
         <Route

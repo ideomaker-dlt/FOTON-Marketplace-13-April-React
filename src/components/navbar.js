@@ -32,7 +32,7 @@ const Navbar = (props) => {
               type="text"
               id="mainsearch"
               name="search-field"
-              placeholder={props.textinput_placeholder}
+              placeholder={props.textinputPlaceholder}
               className="navbar-textinput Content18 input"
             />
             <div className="navbar-div">
@@ -199,7 +199,7 @@ Navbar.defaultProps = {
   rootClassName: '',
   text: 'shopping_cart',
   button1: 'Stats',
-  textinput_placeholder: 'Search...',
+  textinputPlaceholder: 'Search...',
   toggleSidebar: () => {},
   button3: 'More',
   button: 'Drops',
@@ -210,7 +210,7 @@ Navbar.propTypes = {
   rootClassName: PropTypes.string,
   text: PropTypes.string,
   button1: PropTypes.string,
-  textinput_placeholder: PropTypes.string,
+  textinputPlaceholder: PropTypes.string,
   toggleSidebar: PropTypes.func,
   button3: PropTypes.string,
   button: PropTypes.string,

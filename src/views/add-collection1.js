@@ -41,11 +41,14 @@ const AddCollection1 = (props) => {
         <div className="add-collection1-tabs-row">
           <div className="add-collection1-container04">
             <Link
-              to="/creator-studio-project"
+              to="/add-collection-templates"
               className="add-collection1-navlink"
             >
               &lt; go back
             </Link>
+            <span className="add-collection1-text001">
+              Set your Collection name and settings
+            </span>
             <div className="add-collection1-container05">
               <button type="button" className="add-collection1-button">
                 <svg
@@ -54,7 +57,7 @@ const AddCollection1 = (props) => {
                 >
                   <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
                 </svg>
-                <span className="add-collection1-text001">
+                <span className="add-collection1-text002">
                   <span>Define Collection</span>
                   <br></br>
                 </span>
@@ -69,7 +72,7 @@ const AddCollection1 = (props) => {
                 >
                   <path d="M512 682q-18-14-163-127t-221-171l384-298 384 298q-76 58-220 170t-164 128zM512 792l314-246 70 54-384 298-384-298 70-54z"></path>
                 </svg>
-                <span className="add-collection1-text004">
+                <span className="add-collection1-text005">
                   <span>Organise</span>
                   <br></br>
                 </span>
@@ -81,7 +84,7 @@ const AddCollection1 = (props) => {
                 >
                   <path d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
                 </svg>
-                <span className="add-collection1-text007">
+                <span className="add-collection1-text008">
                   <span>Preview</span>
                   <br></br>
                 </span>
@@ -93,7 +96,7 @@ const AddCollection1 = (props) => {
                 >
                   <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                 </svg>
-                <span className="add-collection1-text010">
+                <span className="add-collection1-text011">
                   <span>Confirm</span>
                   <br></br>
                 </span>
@@ -106,7 +109,7 @@ const AddCollection1 = (props) => {
             <div className="add-collection1-card">
               <form className="add-collection1-form">
                 <div className="add-collection1-field">
-                  <label className="add-collection1-text013 padding-4px-left Content">
+                  <label className="add-collection1-text014 padding-4px-left Content">
                     Name Collection:
                   </label>
                   <input
@@ -117,13 +120,13 @@ const AddCollection1 = (props) => {
                   />
                 </div>
                 <div className="add-collection1-field1">
-                  <label className="add-collection1-text014 Content padding-4px-left">
+                  <label className="add-collection1-text015 Content padding-4px-left">
                     Type of Collection:
                   </label>
                   <div className="add-collection1-container06">
                     <div className="add-collection1-card-small">
                       <div className="add-collection1-container07">
-                        <label className="add-collection1-text015">
+                        <label className="add-collection1-text016">
                           Uniform
                         </label>
                         <svg
@@ -134,7 +137,7 @@ const AddCollection1 = (props) => {
                         </svg>
                       </div>
                       <div className="add-collection1-container08">
-                        <span className="add-collection1-text016">
+                        <span className="add-collection1-text017">
                           <span>
                             This type of collection has all the Attributes
                             defined now for all the Items to be added later to
@@ -158,7 +161,7 @@ const AddCollection1 = (props) => {
                     </div>
                     <div className="add-collection1-card-small1">
                       <div className="add-collection1-container09">
-                        <label className="add-collection1-text024">Mixed</label>
+                        <label className="add-collection1-text025">Mixed</label>
                         <svg
                           viewBox="0 0 1024 1024"
                           className="add-collection1-icon10"
@@ -167,7 +170,7 @@ const AddCollection1 = (props) => {
                         </svg>
                       </div>
                       <div className="add-collection1-container10">
-                        <span className="add-collection1-text025">
+                        <span className="add-collection1-text026">
                           <span>
                             This type of collection has no restrictions when it
                             comes to what type of items has inside, or what
@@ -187,7 +190,7 @@ const AddCollection1 = (props) => {
                   </div>
                 </div>
                 <div className="add-collection1-field2">
-                  <label className="add-collection1-text030 Content padding-4px-left">
+                  <label className="add-collection1-text031 Content padding-4px-left">
                     Collection Size (Leave empty for Open collections):
                   </label>
                   <input
@@ -198,7 +201,7 @@ const AddCollection1 = (props) => {
                   />
                 </div>
                 <div className="add-collection1-field3">
-                  <label className="add-collection1-text031 padding-4px-left">
+                  <label className="add-collection1-text032 padding-4px-left">
                     <span className="Content">
                       Creator Royalty in percentage.
                       <span
@@ -207,15 +210,15 @@ const AddCollection1 = (props) => {
                         }}
                       />
                     </span>
-                    <span className="add-collection1-text033">
+                    <span className="add-collection1-text034">
                       (Ex: 2%. Every time an item resells, you get a royalty
                       paid to your creator account. Royalties are enforced
                       outside FOTON marketplace also. Exceptions are transfers
                       to the same owner. Royalties can be adjusted after mint.)
                     </span>
-                    <br className="add-collection1-text034"></br>
                     <br className="add-collection1-text035"></br>
-                    <span className="add-collection1-text036">
+                    <br className="add-collection1-text036"></br>
+                    <span className="add-collection1-text037">
                       Optional - Set a hard limit that can not be crossed or
                       changed anymore, to instil extra confidence to your
                       collectors. (Ex: a 10% hard limit will allow only smaller
@@ -238,7 +241,7 @@ const AddCollection1 = (props) => {
                   </div>
                 </div>
                 <div className="add-collection1-type-of-images">
-                  <label className="add-collection1-text037 padding-4px-left">
+                  <label className="add-collection1-text038 padding-4px-left">
                     Type of images for items in your collection:
                   </label>
                   <div className="add-collection1-container12">
@@ -252,7 +255,7 @@ const AddCollection1 = (props) => {
                           src="/cover.svg"
                           className="add-collection1-image"
                         />
-                        <span className="add-collection1-text038">
+                        <span className="add-collection1-text039">
                           <span>I have final Artwork images</span>
                           <br></br>
                         </span>
@@ -266,14 +269,14 @@ const AddCollection1 = (props) => {
                           src="/layers%20icon.svg"
                           className="add-collection1-image1"
                         />
-                        <span className="add-collection1-text041">
+                        <span className="add-collection1-text042">
                           <span>I have Layers to Generate Artwork images</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
                     <div className="add-collection1-add-attributes">
-                      <label className="add-collection1-text044 padding-4px-left">
+                      <label className="add-collection1-text045 padding-4px-left">
                         <span>
                           <span
                             dangerouslySetInnerHTML={{
@@ -283,7 +286,7 @@ const AddCollection1 = (props) => {
                         </span>
                         <span>Add Attributes: </span>
                         <span> </span>
-                        <span className="add-collection1-text048">
+                        <span className="add-collection1-text049">
                           (You will add their values later when you add the
                           items inside this collection. Drag to organise them
                           higher or lower)
@@ -307,7 +310,7 @@ const AddCollection1 = (props) => {
                       <div className="add-collection1-container-layer">
                         <div className="add-collection1-container15">
                           <div className="add-collection1-container16">
-                            <span className="add-collection1-text049 Content16SemiBold">
+                            <span className="add-collection1-text050 Content16SemiBold">
                               <span>Eyes</span>
                               <br></br>
                             </span>
@@ -331,7 +334,7 @@ const AddCollection1 = (props) => {
                       <div className="add-collection1-container-layer1">
                         <div className="add-collection1-container17">
                           <div className="add-collection1-container18">
-                            <span className="add-collection1-text052 Content16SemiBold">
+                            <span className="add-collection1-text053 Content16SemiBold">
                               <span>Nose</span>
                               <br></br>
                             </span>
@@ -355,7 +358,7 @@ const AddCollection1 = (props) => {
                       <div className="add-collection1-container-layer2">
                         <div className="add-collection1-container19">
                           <div className="add-collection1-container20">
-                            <span className="add-collection1-text055 Content16SemiBold">
+                            <span className="add-collection1-text056 Content16SemiBold">
                               <span>Hair</span>
                               <br></br>
                             </span>
@@ -381,7 +384,7 @@ const AddCollection1 = (props) => {
                 </div>
                 <div className="add-collection1-field4">
                   <div className="add-collection1-container21">
-                    <label className="add-collection1-text058 padding-4px-left Content">
+                    <label className="add-collection1-text059 padding-4px-left Content">
                       Name of each item (NFT):
                       <span
                         dangerouslySetInnerHTML={{
@@ -389,7 +392,7 @@ const AddCollection1 = (props) => {
                         }}
                       />
                     </label>
-                    <label className="add-collection1-text059 Content padding-4px-left">
+                    <label className="add-collection1-text060 Content padding-4px-left">
                       Preview: &quot;Funky Ape #1&quot;
                     </label>
                   </div>
@@ -401,7 +404,7 @@ const AddCollection1 = (props) => {
                   />
                 </div>
                 <div className="add-collection1-area">
-                  <label className="add-collection1-text060 padding-4px-left">
+                  <label className="add-collection1-text061 padding-4px-left">
                     Description in max 250 characters (Appears in Items
                     Metadata):
                   </label>
@@ -411,7 +414,7 @@ const AddCollection1 = (props) => {
                   ></textarea>
                 </div>
                 <div className="add-collection1-area1">
-                  <label className="add-collection1-text061 padding-4px-left">
+                  <label className="add-collection1-text062 padding-4px-left">
                     Long Description in max 1500 characters:
                   </label>
                   <textarea
@@ -420,7 +423,7 @@ const AddCollection1 = (props) => {
                   ></textarea>
                 </div>
                 <div className="add-collection1-field-image">
-                  <label className="add-collection1-text062 padding-4px-left">
+                  <label className="add-collection1-text063 padding-4px-left">
                     Logo/Avatar image 1:1 ratio max 500 x 500px:
                   </label>
                   <div className="add-collection1-container22">
@@ -448,7 +451,7 @@ const AddCollection1 = (props) => {
                   </div>
                 </div>
                 <div className="add-collection1-field-image1">
-                  <label className="add-collection1-text063 padding-4px-left">
+                  <label className="add-collection1-text064 padding-4px-left">
                     Banner image 3:2 ratio (for Cards and Header). Ex. 3000 x
                     2000px:
                   </label>
@@ -477,7 +480,7 @@ const AddCollection1 = (props) => {
                   </div>
                 </div>
                 <div className="add-collection1-field-image2">
-                  <label className="add-collection1-text064 padding-4px-left">
+                  <label className="add-collection1-text065 padding-4px-left">
                     Slider image 3:1 ratio (for Front Page + Drop Page). Ex.
                     3000 x 1000px:
                   </label>
@@ -508,7 +511,7 @@ const AddCollection1 = (props) => {
                 <div className="add-collection1-tags">
                   <label
                     htmlFor="mainsearch"
-                    className="add-collection1-text065 padding-4px-left"
+                    className="add-collection1-text066 padding-4px-left"
                   >
                     Select categories for your collection:
                   </label>
@@ -517,7 +520,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button11 button Content16SemiBold"
                     >
-                      <span className="add-collection1-text066">
+                      <span className="add-collection1-text067">
                         <span>Avatars</span>
                         <br></br>
                       </span>
@@ -526,7 +529,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button12 button Content16SemiBold"
                     >
-                      <span className="add-collection1-text069">
+                      <span className="add-collection1-text070">
                         <span>Art</span>
                         <br></br>
                       </span>
@@ -535,7 +538,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button13 button Content16SemiBold"
                     >
-                      <span className="add-collection1-text072">
+                      <span className="add-collection1-text073">
                         <span>Gaming</span>
                         <br></br>
                       </span>
@@ -544,7 +547,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button14 Content16SemiBold button"
                     >
-                      <span className="add-collection1-text075">
+                      <span className="add-collection1-text076">
                         <span>Memberships</span>
                         <br></br>
                       </span>
@@ -553,7 +556,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button15 Content16SemiBold button"
                     >
-                      <span className="add-collection1-text078">
+                      <span className="add-collection1-text079">
                         <span>Tickets</span>
                         <br></br>
                       </span>
@@ -562,7 +565,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button16 button Content16SemiBold"
                     >
-                      <span className="add-collection1-text081">
+                      <span className="add-collection1-text082">
                         <span>Music</span>
                         <br></br>
                       </span>
@@ -571,7 +574,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button17 button Content16SemiBold"
                     >
-                      <span className="add-collection1-text084">
+                      <span className="add-collection1-text085">
                         <span>Video</span>
                         <br></br>
                       </span>
@@ -580,7 +583,7 @@ const AddCollection1 = (props) => {
                       type="button"
                       className="add-collection1-button18 button Content16SemiBold"
                     >
-                      <span className="add-collection1-text087">
+                      <span className="add-collection1-text088">
                         <span>Other</span>
                         <br></br>
                       </span>
@@ -588,7 +591,7 @@ const AddCollection1 = (props) => {
                   </div>
                 </div>
                 <div className="add-collection1-field5">
-                  <label className="add-collection1-text090 padding-4px-left Content">
+                  <label className="add-collection1-text091 padding-4px-left Content">
                     Link to Webpage (optional):
                   </label>
                   <input
@@ -599,7 +602,7 @@ const AddCollection1 = (props) => {
                   />
                 </div>
                 <div className="add-collection1-field6">
-                  <label className="add-collection1-text091 Content padding-4px-left">
+                  <label className="add-collection1-text092 Content padding-4px-left">
                     Link to Twitter page (optional):
                   </label>
                   <input
@@ -610,7 +613,7 @@ const AddCollection1 = (props) => {
                   />
                 </div>
                 <div className="add-collection1-field7">
-                  <label className="add-collection1-text092 Content padding-4px-left">
+                  <label className="add-collection1-text093 Content padding-4px-left">
                     Link to Telegram group (optional):
                   </label>
                   <input
@@ -622,7 +625,7 @@ const AddCollection1 = (props) => {
                 </div>
                 <div className="add-collection1-bottom-buttons">
                   <button className="add-collection1-button19 button">
-                    <span className="add-collection1-text093">
+                    <span className="add-collection1-text094">
                       <span>Save Draft</span>
                       <br></br>
                     </span>
@@ -631,7 +634,7 @@ const AddCollection1 = (props) => {
                     to="/add-collection2-layered"
                     className="add-collection1-navlink3 button"
                   >
-                    <span className="add-collection1-text096">
+                    <span className="add-collection1-text097">
                       <span>Create Collection</span>
                       <br></br>
                     </span>
@@ -646,11 +649,11 @@ const AddCollection1 = (props) => {
               </form>
               <div className="add-collection1-info-box">
                 <div className="add-collection1-container29">
-                  <h1 className="add-collection1-text099 Content18">
+                  <h1 className="add-collection1-text100 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="add-collection1-text102">
+                  <span className="add-collection1-text103">
                     <span>
                       Collections on FOTON are similar to folders on your PC.
                       Until you add items inside them they are just an empty box

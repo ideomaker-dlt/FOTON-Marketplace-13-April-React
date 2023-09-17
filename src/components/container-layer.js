@@ -288,16 +288,16 @@ sliderEl.addEventListener("input", (event) => {
                         ></Script>
                       </div>
                       <span className="container-layer-percentage-value-start">
-                        {props.RarityPercentage}
+                        {props.rarityPercentage}
                       </span>
                       <input
                         type="range"
                         id="range"
-                        placeholder={props.textinput_placeholder}
+                        placeholder={props.textinputPlaceholder}
                         className="container-layer-textinput02 range range2"
                       />
                       <span className="container-layer-percentage-value-end">
-                        {props.RarityPercentage2}
+                        {props.rarityPercentage2}
                       </span>
                     </div>
                   </div>
@@ -2068,17 +2068,17 @@ sliderEl.addEventListener("input", (event) => {
 
 ContainerLayer.defaultProps = {
   text: 'Randomize',
-  textinput_placeholder: 'placeholder',
-  RarityPercentage2: '100%',
-  RarityPercentage: '0%',
+  textinputPlaceholder: 'placeholder',
+  rarityPercentage2: '100%',
+  rarityPercentage: '0%',
   rootClassName: '',
 }
 
 ContainerLayer.propTypes = {
   text: PropTypes.string,
-  textinput_placeholder: PropTypes.string,
-  RarityPercentage2: PropTypes.string,
-  RarityPercentage: PropTypes.string,
+  textinputPlaceholder: PropTypes.string,
+  rarityPercentage2: PropTypes.string,
+  rarityPercentage: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
