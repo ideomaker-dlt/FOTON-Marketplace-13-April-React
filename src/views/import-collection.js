@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import LayoutWithSidebar from '../components/layout-with-sidebar'
+import ImportButton from '../components/import-button'
 import './import-collection.css'
 
 const ImportCollection = (props) => {
@@ -272,10 +273,7 @@ const ImportCollection = (props) => {
                   </div>
                 </div>
                 <div className="import-collection-bottom-buttons">
-                  <Link
-                    to="/add-collection2-layered"
-                    className="import-collection-navlink1 button"
-                  >
+                  <button className="import-collection-button4 button">
                     <span className="import-collection-text34">
                       <span>Import Collection</span>
                       <br></br>
@@ -286,7 +284,8 @@ const ImportCollection = (props) => {
                     >
                       <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                     </svg>
-                  </Link>
+                  </button>
+                  <ImportButton></ImportButton>
                 </div>
               </form>
               <div className="import-collection-info-box">
@@ -317,7 +316,6 @@ const ImportCollection = (props) => {
           </div>
         </div>
       </LayoutWithSidebar>
-      <div className="import-collection-container19"></div>
     </div>
   )
 }

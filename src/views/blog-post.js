@@ -31,7 +31,7 @@ const BlogPost = (props) => {
       <div className="blog-post-container01">
         <div className="blog-post-navbar">
           <div className="blog-post-container02">
-            <Link to="/home" className="blog-post-navlink">
+            <Link to="/" className="blog-post-navlink">
               <div className="blog-post-logo-container"></div>
             </Link>
             <div className="blog-post-searchbar">
@@ -83,7 +83,7 @@ input[type="search"]::-webkit-search-results-decoration {
                   <Link to="/discover" className="blog-post-navlink02 Content">
                     Discover
                   </Link>
-                  <Link to="/home" className="blog-post-navlink03 Content">
+                  <Link to="/" className="blog-post-navlink03 Content">
                     Marketplace
                   </Link>
                 </div>

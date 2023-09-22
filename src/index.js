@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
-import NotFound from './views/not-found'
 import Features from './views/features'
 import AddItemsTemplates from './views/add-items-templates'
 import Drops from './views/drops'
@@ -37,12 +36,12 @@ import BlogPost from './views/blog-post'
 import CreatorStudioProject from './views/creator-studio-project'
 import ItemPage from './views/item-page'
 import CollectionDropPage from './views/collection-drop-page'
+import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
       <div>
-        <Route component={NotFound} path="**" />
         <Route component={Features} exact path="/features" />
         <Route
           component={AddItemsTemplates}
@@ -140,6 +139,7 @@ const App = () => {
           exact
           path="/collection-drop-page"
         />
+        <Route component={NotFound} path="**" />
       </div>
     </Router>
   )

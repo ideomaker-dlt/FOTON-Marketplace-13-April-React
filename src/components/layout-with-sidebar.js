@@ -20,7 +20,7 @@ const LayoutWithSidebar = (props) => {
           >
             <div className="layout-with-sidebar-icon"></div>
           </div>
-          <Link to="/home" className="layout-with-sidebar-navlink">
+          <Link to="/" className="layout-with-sidebar-navlink">
             <div className="layout-with-sidebar-logo-container"></div>
           </Link>
           <div className="layout-with-sidebar-searchbar">

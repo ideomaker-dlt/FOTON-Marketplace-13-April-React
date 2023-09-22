@@ -43,7 +43,7 @@ const AddCollectionTemplates = (props) => {
         <div className="add-collection-templates-tabs-row">
           <div className="add-collection-templates-container04">
             <Link
-              to="/creator-studio-collection"
+              to="/creator-studio-project"
               className="add-collection-templates-navlink"
             >
               &lt; go back
