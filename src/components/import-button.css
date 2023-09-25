@@ -238,6 +238,7 @@
 .import-button-status-label1 {
   color: var(--dl-color-dark-green-200);
   width: 110px;
+  display: none;
   align-self: center;
   font-style: normal;
   text-align: right;
@@ -325,6 +326,14 @@
 .import-button-status-label3 {
   color: var(--dl-color-dark-red-200);
   width: 110px;
+  align-self: center;
+  font-style: normal;
+  text-align: right;
+}
+.import-button-status-label4 {
+  color: var(--dl-color-dark-gray-400);
+  width: 110px;
+  display: none;
   align-self: center;
   font-style: normal;
   text-align: right;
@@ -473,6 +482,9 @@
     width: 100%;
   }
   .import-button-status-label3 {
+    font-size: 14px;
+  }
+  .import-button-status-label4 {
     font-size: 14px;
   }
   .import-button-cancel-everything {

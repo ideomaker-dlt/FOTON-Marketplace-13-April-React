@@ -82,7 +82,7 @@ const ImportCollection = (props) => {
                           <br></br>
                           <br></br>
                           <span>
-                            Cons: Expensive to export large collections.
+                            Cons: Paid. Adds up the cost for large collections.
                           </span>
                           <br></br>
                           <br></br>
@@ -125,8 +125,9 @@ const ImportCollection = (props) => {
                           <br></br>
                           <span>
                             Cons: More basic features, exports items in batches
-                            of 100, so more zip files to import for large
-                            collections.
+                            of 100, so you&apos;ll need to un-Zip all, add to a
+                            new folder and Zip it. Like this you have one single
+                            Zip file for import to Foton.
                           </span>
                           <br></br>
                           <br></br>
@@ -149,10 +150,55 @@ const ImportCollection = (props) => {
                         </span>
                       </div>
                     </div>
+                    <div className="import-collection-card-small2">
+                      <div className="import-collection-container10">
+                        <label className="import-collection-text22">
+                          HashLips Art Engine App
+                        </label>
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="import-collection-icon04"
+                        >
+                          <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
+                        </svg>
+                      </div>
+                      <div className="import-collection-container11">
+                        <span className="import-collection-text23">
+                          <span>
+                            Pros: Free, unlimited items, versions for Mac and
+                            Windows
+                          </span>
+                          <br></br>
+                          <br></br>
+                          <span>
+                            Cons: Basic features, you have to compress the
+                            exported collection as 1 Zip file.
+                          </span>
+                          <br></br>
+                          <br></br>
+                          <span>
+                            Website:
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: ' ',
+                              }}
+                            />
+                          </span>
+                          <a
+                            href="https://nftexport.io"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="import-collection-link2"
+                          >
+                            www.github.com/hashlips
+                          </a>
+                        </span>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div className="import-collection-field1">
-                  <label className="import-collection-text22 Content padding-4px-left">
+                  <label className="import-collection-text31 Content padding-4px-left">
                     Collection Size (Leave empty if you don&apos;t want to
                     update existing size):
                   </label>
@@ -164,9 +210,9 @@ const ImportCollection = (props) => {
                   />
                 </div>
                 <div className="import-collection-zip-files">
-                  <div className="import-collection-container10">
+                  <div className="import-collection-container12">
                     <div className="import-collection-add-files">
-                      <label className="import-collection-text23 padding-4px-left">
+                      <label className="import-collection-text32 padding-4px-left">
                         <span>
                           <span
                             dangerouslySetInnerHTML={{
@@ -176,15 +222,15 @@ const ImportCollection = (props) => {
                         </span>
                         <span>Add Zip files: </span>
                         <span> </span>
-                        <br className="import-collection-text27"></br>
-                        <span className="import-collection-text28">
+                        <br className="import-collection-text36"></br>
+                        <span className="import-collection-text37">
                           (FOTON will expand the Zip files automatically and
                           attach Traits to Artworks. Ignore the zip file
                           containing the Collection description. This is applied
                           from FOTON directly.)
                         </span>
                       </label>
-                      <div className="import-collection-container11">
+                      <div className="import-collection-container13">
                         <input
                           type="text"
                           placeholder="Add Zip files..."
@@ -193,23 +239,23 @@ const ImportCollection = (props) => {
                         <button className="import-collection-button button Content16SemiBold">
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="import-collection-icon04"
+                            className="import-collection-icon06"
                           >
                             <path d="M726 554v-84h-172v-172h-84v172h-172v84h172v172h84v-172h172zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-36 25-61t61-25h596z"></path>
                           </svg>
                         </button>
                       </div>
                       <div className="import-collection-zipfile">
-                        <div className="import-collection-container12">
-                          <div className="import-collection-container13">
-                            <span className="import-collection-text29 Content16SemiBold">
+                        <div className="import-collection-container14">
+                          <div className="import-collection-container15">
+                            <span className="import-collection-text38 Content16SemiBold">
                               <span>1-100 items.zip</span>
                               <br></br>
                             </span>
                           </div>
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="import-collection-icon06 fill-color-gray"
+                            className="import-collection-icon08 fill-color-gray"
                           >
                             <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                           </svg>
@@ -217,22 +263,22 @@ const ImportCollection = (props) => {
                         <button className="import-collection-button1 Content16SemiBold button">
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="import-collection-icon08"
+                            className="import-collection-icon10"
                           >
                             <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                           </svg>
                         </button>
                       </div>
                       <div className="import-collection-zipfile1">
-                        <div className="import-collection-container14">
-                          <div className="import-collection-container15">
-                            <span className="import-collection-text32">
+                        <div className="import-collection-container16">
+                          <div className="import-collection-container17">
+                            <span className="import-collection-text41">
                               100-200 items.zip
                             </span>
                           </div>
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="import-collection-icon10 fill-color-gray"
+                            className="import-collection-icon12 fill-color-gray"
                           >
                             <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                           </svg>
@@ -240,22 +286,22 @@ const ImportCollection = (props) => {
                         <button className="import-collection-button2 button Content16SemiBold">
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="import-collection-icon12"
+                            className="import-collection-icon14"
                           >
                             <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                           </svg>
                         </button>
                       </div>
                       <div className="import-collection-zipfile2">
-                        <div className="import-collection-container16">
-                          <div className="import-collection-container17">
-                            <span className="import-collection-text33">
+                        <div className="import-collection-container18">
+                          <div className="import-collection-container19">
+                            <span className="import-collection-text42">
                               200-300 items.zip
                             </span>
                           </div>
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="import-collection-icon14 fill-color-gray"
+                            className="import-collection-icon16 fill-color-gray"
                           >
                             <path d="M640 682q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM640 342q-34 0-60-26t-26-60 26-60 60-26 60 26 26 60-26 60-60 26zM384 170q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM384 426q34 0 60 26t26 60-26 60-60 26-60-26-26-60 26-60 60-26zM470 768q0 34-26 60t-60 26-60-26-26-60 26-60 60-26 60 26 26 60z"></path>
                           </svg>
@@ -263,7 +309,7 @@ const ImportCollection = (props) => {
                         <button className="import-collection-button3 button Content16SemiBold">
                           <svg
                             viewBox="0 0 1024 1024"
-                            className="import-collection-icon16"
+                            className="import-collection-icon18"
                           >
                             <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
                           </svg>
@@ -274,13 +320,13 @@ const ImportCollection = (props) => {
                 </div>
                 <div className="import-collection-bottom-buttons">
                   <button className="import-collection-button4 button">
-                    <span className="import-collection-text34">
+                    <span className="import-collection-text43">
                       <span>Import Collection</span>
                       <br></br>
                     </span>
                     <svg
                       viewBox="0 0 1024 1024"
-                      className="import-collection-icon18"
+                      className="import-collection-icon20"
                     >
                       <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                     </svg>
@@ -289,12 +335,12 @@ const ImportCollection = (props) => {
                 </div>
               </form>
               <div className="import-collection-info-box">
-                <div className="import-collection-container18">
-                  <h1 className="import-collection-text37 Content18">
+                <div className="import-collection-container20">
+                  <h1 className="import-collection-text46 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="import-collection-text40">
+                  <span className="import-collection-text49">
                     <span>
                       This import Collection feature works only with the
                       Generators selected by FOTON. They are ideal usually for

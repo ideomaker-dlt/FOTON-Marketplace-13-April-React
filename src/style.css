@@ -19,14 +19,17 @@
   --dl-color-dark-red-100: #d83b58ff;
   --dl-color-dark-red-200: #ff4b6cff;
   --dl-size-size-maxwidth: 1400px;
-  --dl-color-dark-blue-100: #3579aaff;
+  --dl-color-dark-blue-100: #2f77aaff;
+  --dl-color-dark-blue-150: #1c8ce4ff;
   --dl-color-dark-blue-200: #2ba3ffff;
   --dl-color-dark-blue-400: #293f4aff;
   --dl-color-dark-gray-100: #161616ff;
   --dl-color-dark-gray-200: #191919ff;
   --dl-color-dark-gray-250: #1d1d1dff;
   --dl-color-dark-gray-300: #222222ff;
+  --dl-color-dark-gray-350: #292929ff;
   --dl-color-dark-gray-360: #2f2f2fff;
+  --dl-color-dark-gray-365: #333333ff;
   --dl-color-dark-gray-370: #424242ff;
   --dl-color-dark-gray-400: #838383ff;
   --dl-radius-radius-round: 50%;

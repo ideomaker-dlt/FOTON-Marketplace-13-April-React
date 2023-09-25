@@ -9,6 +9,7 @@ module.exports = {
           "Gray-370": "#424242ff",
           "White": "#FFFFFF",
           "Gray-400": "#838383ff",
+          "Gray-350": "#292929ff",
           "PurpleBright": "#cc93ffff",
           "Gray-200": "#191919ff",
           "Green-200": "#00e39fff",
@@ -18,18 +19,21 @@ module.exports = {
           "DarkerGreenTreatsBG": "#182520ff",
           "Black": "#000000",
           "DarkGreenBTN": "#009c75ff",
+          "Blue-150": "#1c8ce4ff",
           "Gray-360": "#2f2f2fff",
           "DarkerGreenHighlight": "#1b372bff",
           "Red-200": "#ff4b6cff",
           "PurpleDark": "#673a90ff",
           "PurpleDarkBG": "#362348ff",
           "DarkGreenBTN2": "#007559ff",
-          "Blue-100": "#3579aaff",
+          "Blue-100": "#2f77aaff",
           "PurpleLight": "#bf79ffff",
           "DarkerGreen": "#00b384ff",
           "BlackGreen": "#070e0bff",
           "Red-100": "#d83b58ff",
-          "Blue-400": "#293f4aff"
+          "Blue-400": "#293f4aff",
+          "Gray-3601": "#333333ff",
+          "Gray-365": "#333333ff"
         },
         "Success": {
           "300": "#199033"

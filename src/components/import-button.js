@@ -94,12 +94,13 @@ const ImportButton = (props) => {
                   <span className="import-button-text11">
                     Storing Collection Items . . .
                   </span>
-                  <span className="import-button-progress2">
-                    120 out of 500
-                  </span>
+                  <span className="import-button-progress2">0 out of 500</span>
                 </div>
                 <div className="import-button-status2">
                   <span className="import-button-status-label3">Failed</span>
+                  <span className="import-button-status-label4">
+                    Not Started
+                  </span>
                   <button type="button" className="import-button-button-active">
                     <svg
                       viewBox="0 0 1024 1024"
@@ -115,7 +116,7 @@ const ImportButton = (props) => {
             <div className="import-button-container-upload"></div>
           </div>
           <div
-            onClick={() => setIsVisible(false)}
+            onClick={() => setIsVisible(true)}
             className="import-button-cancel-everything"
           >
             <svg
