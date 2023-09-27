@@ -185,12 +185,28 @@ const ImportCollection = (props) => {
                             />
                           </span>
                           <a
-                            href="https://nftexport.io"
+                            href="https://github.com/HashLips/hashlips_art_engine_app/releases/tag/v0.1.0_alpha"
                             target="_blank"
                             rel="noreferrer noopener"
                             className="import-collection-link2"
                           >
-                            www.github.com/hashlips
+                            www.
+                          </a>
+                          <a
+                            href="https://github.com/HashLips/hashlips_art_engine_app/releases/tag/v0.1.0_alpha"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="import-collection-link3"
+                          >
+                            github
+                          </a>
+                          <a
+                            href="https://github.com/HashLips/hashlips_art_engine_app/releases/tag/v0.1.0_alpha"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                            className="import-collection-link4"
+                          >
+                            .com/hashlips
                           </a>
                         </span>
                       </div>

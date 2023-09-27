@@ -21,6 +21,7 @@ module.exports = {
           "DarkGreenBTN": "#009c75ff",
           "Blue-150": "#1c8ce4ff",
           "Gray-360": "#2f2f2fff",
+          "Gray-365": "#333333ff",
           "DarkerGreenHighlight": "#1b372bff",
           "Red-200": "#ff4b6cff",
           "PurpleDark": "#673a90ff",
@@ -31,9 +32,7 @@ module.exports = {
           "DarkerGreen": "#00b384ff",
           "BlackGreen": "#070e0bff",
           "Red-100": "#d83b58ff",
-          "Blue-400": "#293f4aff",
-          "Gray-3601": "#333333ff",
-          "Gray-365": "#333333ff"
+          "Blue-400": "#293f4aff"
         },
         "Success": {
           "300": "#199033"

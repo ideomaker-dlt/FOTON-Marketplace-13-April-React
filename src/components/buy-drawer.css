@@ -782,9 +782,11 @@
   }
 }
 @media(max-width: 767px) {
+  .buy-drawer-container {
+    width: 100%;
+  }
   .buy-drawer-button {
-    flex: 1;
-    width: 200px;
+    width: 100%;
     align-items: center;
     padding-top: 10px;
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -798,6 +800,10 @@
   .buy-drawer-drawer-right {
     width: 100%;
   }
+  .buy-drawer-container37 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
   .buy-drawer-button1 {
     width: 100%;
     align-items: center;
@@ -809,10 +815,5 @@
   }
   .buy-drawer-text16 {
     font-size: 16px;
-  }
-}
-@media(max-width: 479px) {
-  .buy-drawer-button {
-    width: auto;
   }
 }

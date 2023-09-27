@@ -399,6 +399,12 @@
 .import-collection-link2 {
   text-decoration: underline;
 }
+.import-collection-link3 {
+  text-decoration: underline;
+}
+.import-collection-link4 {
+  text-decoration: underline;
+}
 .import-collection-field1 {
   gap: 12px;
   display: flex;

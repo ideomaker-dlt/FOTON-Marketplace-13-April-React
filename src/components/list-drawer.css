@@ -905,6 +905,9 @@
   }
 }
 @media(max-width: 767px) {
+  .list-drawer-container {
+    width: 100%;
+  }
   .list-drawer-button {
     flex: 1;
     width: 200px;
@@ -921,6 +924,10 @@
   .list-drawer-drawer-right {
     width: 100%;
   }
+  .list-drawer-container40 {
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
   .list-drawer-button1 {
     width: 100%;
     align-items: center;
@@ -932,10 +939,5 @@
   }
   .list-drawer-text19 {
     font-size: 16px;
-  }
-}
-@media(max-width: 479px) {
-  .list-drawer-button {
-    width: auto;
   }
 }
