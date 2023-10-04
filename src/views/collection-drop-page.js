@@ -61,11 +61,21 @@ const CollectionDropPage = (props) => {
                     <div className="collection-drop-page-container08">
                       <div className="collection-drop-page-dot"></div>
                       <span className="collection-drop-page-text07">
-                        Time to DROP
+                        Minting now
                       </span>
                     </div>
                     <div className="collection-drop-page-container09">
                       <span className="collection-drop-page-text08">
+                        Minting ended
+                      </span>
+                    </div>
+                    <div className="collection-drop-page-container10">
+                      <span className="collection-drop-page-text09">
+                        Time to DROP
+                      </span>
+                    </div>
+                    <div className="collection-drop-page-container11">
+                      <span className="collection-drop-page-text10">
                         21 days
                       </span>
                     </div>
@@ -83,7 +93,7 @@ const CollectionDropPage = (props) => {
                 >
                   <path d="M512 658l160 96-42-182 142-124-188-16-72-172-72 172-188 16 142 124-42 182zM938 394l-232 202 70 300-264-160-264 160 70-300-232-202 306-26 120-282 120 282z"></path>
                 </svg>
-                <span className="collection-drop-page-text09">
+                <span className="collection-drop-page-text11">
                   <span>Follow</span>
                   <br></br>
                 </span>
@@ -95,7 +105,7 @@ const CollectionDropPage = (props) => {
                 >
                   <path d="M854 768v-384h-172v384h172zM640 554v-170h-470v170h470zM640 768v-170h-470v170h470zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
-                <span className="collection-drop-page-text12">
+                <span className="collection-drop-page-text14">
                   <span>Follow</span>
                   <br></br>
                 </span>
@@ -107,13 +117,13 @@ const CollectionDropPage = (props) => {
                 >
                   <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                 </svg>
-                <span className="collection-drop-page-text15">
+                <span className="collection-drop-page-text17">
                   <span>Follow</span>
                   <br></br>
                 </span>
               </button>
               <button type="button" className="collection-drop-page-button3">
-                <span className="collection-drop-page-text18">
+                <span className="collection-drop-page-text20">
                   <span>Follow</span>
                   <br></br>
                 </span>
@@ -128,7 +138,7 @@ const CollectionDropPage = (props) => {
           </div>
         </div>
         <div className="collection-drop-page-tabs-row">
-          <span className="collection-drop-page-text21">Mint</span>
+          <span className="collection-drop-page-text23">Mint</span>
           <Link
             to="/collection-drop-page-roadmap"
             className="collection-drop-page-navlink"
@@ -141,20 +151,20 @@ const CollectionDropPage = (props) => {
           >
             Team
           </Link>
-          <span className="collection-drop-page-text22">FAQ</span>
+          <span className="collection-drop-page-text24">FAQ</span>
         </div>
         <div className="collection-drop-page-drops-container">
           <div className="collection-drop-page-wrapper-all">
             <div className="collection-drop-page-container-top">
               <div className="collection-drop-page-container-left">
                 <div className="collection-drop-page-about">
-                  <div className="collection-drop-page-container10">
-                    <label className="collection-drop-page-text23">
+                  <div className="collection-drop-page-container12">
+                    <label className="collection-drop-page-text25">
                       About this Collection
                     </label>
                   </div>
-                  <div className="collection-drop-page-container11"></div>
-                  <p className="collection-drop-page-text24">
+                  <div className="collection-drop-page-container13"></div>
+                  <p className="collection-drop-page-text26">
                     <span>
                       In the year 2050, humanity had exhausted the resources of
                       Earth and faced the grim reality of its impending demise.
@@ -219,13 +229,13 @@ const CollectionDropPage = (props) => {
                   </div>
                 </div>
                 <div className="collection-drop-page-about1">
-                  <div className="collection-drop-page-container12">
-                    <label className="collection-drop-page-text34">
+                  <div className="collection-drop-page-container14">
+                    <label className="collection-drop-page-text36">
                       About this Collection
                     </label>
                   </div>
-                  <div className="collection-drop-page-container13"></div>
-                  <p className="collection-drop-page-text35">
+                  <div className="collection-drop-page-container15"></div>
+                  <p className="collection-drop-page-text37">
                     <span>
                       In the year 2050, humanity had exhausted the resources of
                       Earth and faced the grim reality of its impending demise.
@@ -277,30 +287,30 @@ const CollectionDropPage = (props) => {
               </div>
               <div className="collection-drop-page-container-right">
                 <div className="collection-drop-page-mint-panel">
-                  <div className="collection-drop-page-container14">
-                    <label className="collection-drop-page-text45">
+                  <div className="collection-drop-page-container16">
+                    <label className="collection-drop-page-text47">
                       Collection Name
                     </label>
-                    <div className="collection-drop-page-container15">
-                      <p className="collection-drop-page-text46">
+                    <div className="collection-drop-page-container17">
+                      <p className="collection-drop-page-text48">
                         <span>Price per item minted:</span>
                         <br></br>
                       </p>
-                      <p className="collection-drop-page-text49">
+                      <p className="collection-drop-page-text51">
                         <span>Starts in:</span>
                         <br></br>
                       </p>
                     </div>
-                    <div className="collection-drop-page-container16">
-                      <label className="collection-drop-page-text52">
+                    <div className="collection-drop-page-container18">
+                      <label className="collection-drop-page-text54">
                         150 XRD
                       </label>
-                      <label className="collection-drop-page-text53">
+                      <label className="collection-drop-page-text55">
                         21 Days
                       </label>
                     </div>
                   </div>
-                  <div className="collection-drop-page-container17">
+                  <div className="collection-drop-page-container19">
                     <div className="collection-drop-page-buy-container">
                       <div className="collection-drop-page-item-counter">
                         <button className="collection-drop-page-button4 button">
@@ -327,14 +337,14 @@ const CollectionDropPage = (props) => {
                         </button>
                       </div>
                       <button className="collection-drop-page-button6 button">
-                        <span className="collection-drop-page-text54">
+                        <span className="collection-drop-page-text56">
                           <span>Mint</span>
                           <br></br>
                         </span>
                       </button>
                     </div>
-                    <div className="collection-drop-page-container18">
-                      <p className="collection-drop-page-text57">
+                    <div className="collection-drop-page-container20">
+                      <p className="collection-drop-page-text59">
                         <span>Limit 20 per user. </span>
                         <br></br>
                       </p>
@@ -342,11 +352,11 @@ const CollectionDropPage = (props) => {
                   </div>
                 </div>
                 <div className="collection-drop-page-progress-panel">
-                  <div className="collection-drop-page-container19">
-                    <label className="collection-drop-page-text60">
+                  <div className="collection-drop-page-container21">
+                    <label className="collection-drop-page-text62">
                       Progress and Stats
                     </label>
-                    <div className="collection-drop-page-container20">
+                    <div className="collection-drop-page-container22">
                       <div className="collection-drop-page-row-chart">
                         <div className="collection-drop-page-labels">
                           <span className="collection-drop-page-text-percentage">
@@ -365,43 +375,43 @@ const CollectionDropPage = (props) => {
                         </div>
                       </div>
                     </div>
-                    <div className="collection-drop-page-container21">
-                      <label className="collection-drop-page-text61 Content">
+                    <div className="collection-drop-page-container23">
+                      <label className="collection-drop-page-text63 Content">
                         Items reserved pre-minting:
                       </label>
-                      <label className="collection-drop-page-text62 Content">
+                      <label className="collection-drop-page-text64 Content">
                         2458
                       </label>
                     </div>
-                    <div className="collection-drop-page-container22">
-                      <label className="collection-drop-page-text63 Content">
+                    <div className="collection-drop-page-container24">
+                      <label className="collection-drop-page-text65 Content">
                         Total owners:
                       </label>
-                      <label className="collection-drop-page-text64 Content">
+                      <label className="collection-drop-page-text66 Content">
                         1259
                       </label>
                     </div>
-                    <div className="collection-drop-page-container23">
-                      <label className="collection-drop-page-text65 Content">
+                    <div className="collection-drop-page-container25">
+                      <label className="collection-drop-page-text67 Content">
                         Total raised:
                       </label>
-                      <label className="collection-drop-page-text66 Content">
+                      <label className="collection-drop-page-text68 Content">
                         257500 XRD
                       </label>
                     </div>
-                    <div className="collection-drop-page-container24">
-                      <label className="collection-drop-page-text67">
+                    <div className="collection-drop-page-container26">
+                      <label className="collection-drop-page-text69">
                         Starting time:
                       </label>
-                      <label className="collection-drop-page-text68 Content">
+                      <label className="collection-drop-page-text70 Content">
                         21 Sept 2023 - 10:30 pm CEST
                       </label>
                     </div>
-                    <div className="collection-drop-page-container25">
-                      <label className="collection-drop-page-text69 Content">
+                    <div className="collection-drop-page-container27">
+                      <label className="collection-drop-page-text71 Content">
                         Ending time:
                       </label>
-                      <label className="collection-drop-page-text70">
+                      <label className="collection-drop-page-text72">
                         29 Sept 2023 - 09:30 pm CEST
                       </label>
                     </div>
@@ -412,13 +422,13 @@ const CollectionDropPage = (props) => {
             <div className="collection-drop-page-container-bottom">
               <div className="collection-drop-page-container-left1">
                 <div className="collection-drop-page-about2">
-                  <div className="collection-drop-page-container26">
-                    <label className="collection-drop-page-text71">
+                  <div className="collection-drop-page-container28">
+                    <label className="collection-drop-page-text73">
                       About this Collection
                     </label>
                   </div>
-                  <div className="collection-drop-page-container27"></div>
-                  <p className="collection-drop-page-text72">
+                  <div className="collection-drop-page-container29"></div>
+                  <p className="collection-drop-page-text74">
                     <span>
                       In the year 2050, humanity had exhausted the resources of
                       Earth and faced the grim reality of its impending demise.
