@@ -91,7 +91,7 @@ const CollectionDropPage = (props) => {
               <button type="button" className="collection-drop-page-button1">
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="collection-drop-page-icon2 fill-color-white"
+                  className="collection-drop-page-icon02 fill-color-white"
                 >
                   <path d="M854 768v-384h-172v384h172zM640 554v-170h-470v170h470zM640 768v-170h-470v170h470zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
@@ -103,7 +103,7 @@ const CollectionDropPage = (props) => {
               <button type="button" className="collection-drop-page-button2">
                 <svg
                   viewBox="0 0 950.8571428571428 1024"
-                  className="collection-drop-page-icon4 fill-color-white"
+                  className="collection-drop-page-icon04 fill-color-white"
                 >
                   <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
                 </svg>
@@ -119,7 +119,7 @@ const CollectionDropPage = (props) => {
                 </span>
                 <svg
                   viewBox="0 0 1024 1024"
-                  className="collection-drop-page-icon6 fill-color-white"
+                  className="collection-drop-page-icon06 fill-color-white"
                 >
                   <path d="M512 0c-282.8 0-512 229.2-512 512s229.2 512 512 512 512-229.2 512-512-229.2-512-512-512zM763.6 351l-84 395.8c-5.8 28.2-22.8 34.8-46.4 21.8l-128-94.6-61.4 59.8c-7.2 7-12.8 12.8-25.6 12.8-16.6 0-13.8-6.2-19.4-22l-43.6-143.2-126.6-39.4c-27.4-8.4-27.6-27.2 6.2-40.6l493.2-190.4c22.4-10.2 44.2 5.4 35.6 40z"></path>
                 </svg>
@@ -227,49 +227,118 @@ const CollectionDropPage = (props) => {
                       <br></br>
                     </p>
                     <p className="collection-drop-page-text38">
-                      <span>Minting starts:</span>
+                      <span>Starts on:</span>
                       <br></br>
                     </p>
                   </div>
                   <div className="collection-drop-page-container14">
-                    <label className="collection-drop-page-text41">TBA</label>
+                    <label className="collection-drop-page-text41">
+                      150 XRD
+                    </label>
                     <label className="collection-drop-page-text42">
-                      COMING SOON
+                      23 Sept 10:30pm CEST
                     </label>
                   </div>
                 </div>
                 <div className="collection-drop-page-container15">
                   <div className="collection-drop-page-buy-container">
-                    <button className="collection-drop-page-button4 button">
+                    <div className="collection-drop-page-item-counter">
+                      <button className="collection-drop-page-button4 button">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="collection-drop-page-icon08 fill-color-white"
+                        >
+                          <path d="M810 554h-596v-84h596v84z"></path>
+                        </svg>
+                      </button>
+                      <input
+                        type="text"
+                        enctype="The Funky Apes Crew..."
+                        placeholder="1"
+                        className="collection-drop-page-textinput"
+                      />
+                      <button className="collection-drop-page-button5 button">
+                        <svg
+                          viewBox="0 0 1024 1024"
+                          className="collection-drop-page-icon10 fill-color-white"
+                        >
+                          <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
+                        </svg>
+                      </button>
+                    </div>
+                    <button className="collection-drop-page-button6 button">
                       <span className="collection-drop-page-text43">
-                        <span>Minting Soon</span>
-                        <br></br>
-                      </span>
-                    </button>
-                    <button className="collection-drop-page-button5 button">
-                      <span className="collection-drop-page-text46">
-                        <span>
-                          Follow
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
-                        </span>
+                        <span>Mint</span>
                         <br></br>
                       </span>
                     </button>
                   </div>
+                  <div className="collection-drop-page-container16">
+                    <p className="collection-drop-page-text46">
+                      <span>Limit 20 per user. </span>
+                      <br></br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="collection-drop-page-progress-panel">
+                <div className="collection-drop-page-container17">
+                  <label className="collection-drop-page-text49">
+                    Progress and Stats
+                  </label>
+                  <div className="collection-drop-page-container18">
+                    <div className="collection-drop-page-row-chart">
+                      <div className="collection-drop-page-labels">
+                        <span className="collection-drop-page-text-percentage Content">
+                          75% minted
+                        </span>
+                        <span className="collection-drop-page-text-percentage1">
+                          2457/10000
+                        </span>
+                      </div>
+                      <div className="collection-drop-page-minting-progress">
+                        <div className="collection-drop-page-bar-bg">
+                          <div className="collection-drop-page-progress">
+                            <div className="collection-drop-page-green-bar"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="collection-drop-page-container19">
+                    <label className="collection-drop-page-text50 Content">
+                      Items reserved pre-minting:
+                    </label>
+                    <label className="collection-drop-page-text51 Content">
+                      2458
+                    </label>
+                  </div>
+                  <div className="collection-drop-page-container20">
+                    <label className="collection-drop-page-text52 Content">
+                      Total owners:
+                    </label>
+                    <label className="collection-drop-page-text53 Content">
+                      1259
+                    </label>
+                  </div>
+                  <div className="collection-drop-page-container21">
+                    <label className="collection-drop-page-text54 Content">
+                      Total raised:
+                    </label>
+                    <label className="collection-drop-page-text55 Content">
+                      257500 XRD
+                    </label>
+                  </div>
                 </div>
               </div>
               <div className="collection-drop-page-about1">
-                <div className="collection-drop-page-container16">
-                  <label className="collection-drop-page-text49">
+                <div className="collection-drop-page-container22">
+                  <label className="collection-drop-page-text56">
                     About this Collection
                   </label>
                 </div>
-                <div className="collection-drop-page-container17"></div>
-                <p className="collection-drop-page-text50">
+                <div className="collection-drop-page-container23"></div>
+                <p className="collection-drop-page-text57">
                   <span>
                     In the year 2050, humanity had exhausted the resources of
                     Earth and faced the grim reality of its impending demise.
@@ -349,13 +418,13 @@ const CollectionDropPage = (props) => {
                   </div>
                 </div>
                 <div className="collection-drop-page-about2">
-                  <div className="collection-drop-page-container18">
-                    <label className="collection-drop-page-text60">
+                  <div className="collection-drop-page-container24">
+                    <label className="collection-drop-page-text67">
                       About this Collection
                     </label>
                   </div>
-                  <div className="collection-drop-page-container19"></div>
-                  <p className="collection-drop-page-text61">
+                  <div className="collection-drop-page-container25"></div>
+                  <p className="collection-drop-page-text68">
                     <span>
                       In the year 2050, humanity had exhausted the resources of
                       Earth and faced the grim reality of its impending demise.

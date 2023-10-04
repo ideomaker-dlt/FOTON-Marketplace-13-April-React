@@ -457,8 +457,8 @@ const AddCollection1 = (props) => {
                 </div>
                 <div className="add-collection1-field-image1">
                   <label className="add-collection1-text067 padding-4px-left">
-                    Banner image 3:2 ratio (for Cards and Header). Ex. 3000 x
-                    2000px:
+                    Banner image 3:1 ratio (for Homepage Sliders + Creator
+                    Studio Header). Ex. 3000 x 2000px:
                   </label>
                   <div className="add-collection1-container26">
                     <input

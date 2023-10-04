@@ -253,7 +253,7 @@ const PublishCollection = (props) => {
                     Roadmap text and/or Risks (max 1500 words):
                   </label>
                   <textarea
-                    placeholder="Something about my team or myself..."
+                    placeholder="What are the steps to fulfill the project. Keep it real and don't overpromise..."
                     className="publish-collection-textarea textarea focus-reset-forms Content16SemiBold"
                   ></textarea>
                 </div>
@@ -469,47 +469,103 @@ const PublishCollection = (props) => {
                     </button>
                   </div>
                 </div>
+                <div className="publish-collection-end-date1">
+                  <label className="publish-collection-text33 padding-4px-left">
+                    Select Network to mint on:
+                  </label>
+                  <div className="publish-collection-container28">
+                    <button
+                      type="button"
+                      className="publish-collection-button10 button Content16SemiBold"
+                    >
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="publish-collection-icon36"
+                      >
+                        <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM512 298q88 0 151 63t63 151-63 151-151 63-151-63-63-151 63-151 151-63z"></path>
+                      </svg>
+                      <span className="publish-collection-text34">
+                        <span>RADIX Mainnet - fees are paid with XRD</span>
+                        <br></br>
+                      </span>
+                    </button>
+                    <button
+                      type="button"
+                      className="publish-collection-button11 button Content16SemiBold"
+                    >
+                      <svg
+                        viewBox="0 0 1024 1024"
+                        className="publish-collection-icon38"
+                      >
+                        <path d="M512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
+                      </svg>
+                      <span className="publish-collection-text37">
+                        <span>
+                          STOKENET (Testnet) - fees are paid with Test XRD
+                          tokens you get for free
+                        </span>
+                        <br></br>
+                      </span>
+                    </button>
+                  </div>
+                  <label className="publish-collection-text40 padding-4px-left">
+                    <span>
+                      * We advise to mint your collection first on STOKENET to
+                      double check that your items have all the traits right and
+                      that they are displayed properly in the Radix Mobile
+                      Wallet. 
+                    </span>
+                    <br></br>
+                    <span>
+                      ** Collections minted on STOKENET are only for testing
+                      purposes and files associated with them will be deleted
+                      after 2 weeks.
+                    </span>
+                    <br></br>
+                    <br></br>
+                  </label>
+                </div>
                 <div className="publish-collection-bottom-buttons">
                   <Link
                     to="/creator-studio-collection"
                     className="publish-collection-navlink1 button"
                   >
-                    <span className="publish-collection-text33">
+                    <span className="publish-collection-text46">
                       <span>Save as Draft</span>
                       <br></br>
                     </span>
                   </Link>
-                  <button className="publish-collection-button10 button">
-                    <span className="publish-collection-text36">
+                  <button className="publish-collection-button12 button">
+                    <span className="publish-collection-text49">
                       <span>Publish to Drops</span>
                       <br></br>
                     </span>
                     <svg
                       viewBox="0 0 1024 1024"
-                      className="publish-collection-icon36"
+                      className="publish-collection-icon40"
                     >
                       <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                     </svg>
                   </button>
                 </div>
                 <div className="publish-collection-field5">
-                  <label className="publish-collection-text39 padding-4px-left">
-                    <span className="publish-collection-text40">OR...</span>
+                  <label className="publish-collection-text52 padding-4px-left">
+                    <span className="publish-collection-text53">OR...</span>
                     <br></br>
                   </label>
-                  <button className="publish-collection-button11 button">
-                    <span className="publish-collection-text42">
+                  <button className="publish-collection-button13 button">
+                    <span className="publish-collection-text55">
                       <span>Mint Now</span>
                       <br></br>
                     </span>
                     <svg
                       viewBox="0 0 1024 1024"
-                      className="publish-collection-icon38"
+                      className="publish-collection-icon42"
                     >
                       <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                     </svg>
                   </button>
-                  <label className="publish-collection-text45 padding-4px-left">
+                  <label className="publish-collection-text58 padding-4px-left">
                     <span>
                       * By default, if you Mint Now, all items will be sent to
                       the Account that you are connected with.
@@ -526,11 +582,23 @@ const PublishCollection = (props) => {
                     <br></br>
                     <span>
                       *** By Using, Publishing and/or Minting on FOTON you agree
-                      to our Terms of Service.
+                      to our
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: ' ',
+                        }}
+                      />
                     </span>
+                    <Link
+                      to="/add-collection1"
+                      className="publish-collection-navlink2"
+                    >
+                      Terms of Service
+                    </Link>
+                    <span>.</span>
                     <br></br>
                   </label>
-                  <label className="publish-collection-text52 padding-4px-left">
+                  <label className="publish-collection-text66 padding-4px-left">
                     <span>
                       If you want to send the items to a different Radix
                       Account, fill the address below:
@@ -543,18 +611,18 @@ const PublishCollection = (props) => {
                     placeholder="acco..."
                     className="publish-collection-textinput19 focus-reset-forms input Content16SemiBold"
                   />
-                  <label className="publish-collection-text55 padding-4px-left">
+                  <label className="publish-collection-text69 padding-4px-left">
                     This address is valid.
                   </label>
                 </div>
               </form>
               <div className="publish-collection-info-box">
-                <div className="publish-collection-container28">
-                  <h1 className="publish-collection-text56 Content18">
+                <div className="publish-collection-container29">
+                  <h1 className="publish-collection-text70 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="publish-collection-text59">
+                  <span className="publish-collection-text73">
                     <span>
                       Collections can be Listed based on Timeframe and Who Mints
                       the items in the collection. 
