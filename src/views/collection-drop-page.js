@@ -66,7 +66,7 @@ const CollectionDropPage = (props) => {
                     </div>
                     <div className="collection-drop-page-container09">
                       <span className="collection-drop-page-text08">
-                        coming soon
+                        21 days
                       </span>
                     </div>
                   </div>
@@ -145,286 +145,16 @@ const CollectionDropPage = (props) => {
         </div>
         <div className="collection-drop-page-drops-container">
           <div className="collection-drop-page-wrapper-all">
-            <div className="collection-drop-page-container-left">
-              <div className="collection-drop-page-about">
-                <div className="collection-drop-page-container10">
-                  <label className="collection-drop-page-text23">
-                    About this Collection
-                  </label>
-                </div>
-                <div className="collection-drop-page-container11"></div>
-                <p className="collection-drop-page-text24">
-                  <span>
-                    In the year 2050, humanity had exhausted the resources of
-                    Earth and faced the grim reality of its impending demise.
-                    But hope was not lost, for a team of scientists had
-                    discovered a new planet, similar to Mars, that could sustain
-                    human life. A mission was launched to establish a colony on
-                    this distant world, and after years of travel, the first
-                    settlers arrived.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    The new planet, named Nova, was a harsh and unforgiving
-                    environment. The colonists had to contend with intense
-                    radiation, extreme temperatures, and unpredictable weather
-                    patterns. But with their advanced technology and unyielding
-                    determination, they managed to establish a self-sustaining
-                    colony and began the process of terraforming the planet.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    As the years passed, the colonists adapted to their new home
-                    and formed a thriving society. They built towering cities,
-                    cultivated vast fields of crops, and explored the uncharted
-                    regions of the planet. But they soon discovered that they
-                    were not alone on Nova.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    The planet was home to a diverse array of alien life forms,
-                    some of which were hostile to human presence. The colonists
-                    found themselves in a constant struggle for survival,
-                    battling against vicious predators and cunning adversaries.
-                    And as they delved deeper into the mysteries of Nova, they
-                    began to uncover dark secrets about its true nature and the
-                    forces that brought them there.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    This is the story of the Nova colony and its struggle for
-                    survival in an alien world. It is a tale of courage,
-                    determination, and the indomitable spirit of humanity in the
-                    face of adversity. But it is also a cautionary tale about
-                    the dangers of playing god and the consequences of our
-                    actions on the universe around us.
-                  </span>
-                </p>
-              </div>
-              <div className="collection-drop-page-items-example">
-                <div className="collection-drop-page-selected-image">
-                  <img
-                    alt="image"
-                    src="/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_ca187c73-4361-4257-92dd-492fd841d827-1500w.png"
-                    className="collection-drop-page-image1"
-                  />
-                </div>
-                <div className="collection-drop-page-four-examples">
-                  <div className="collection-drop-page-selected-image1"></div>
-                  <div className="collection-drop-page-selected-image2"></div>
-                  <div className="collection-drop-page-selected-image3"></div>
-                  <div className="collection-drop-page-selected-image4"></div>
-                </div>
-              </div>
-              <div className="collection-drop-page-mint-panel">
-                <div className="collection-drop-page-container12">
-                  <label className="collection-drop-page-text34">
-                    Minting Details
-                  </label>
-                  <div className="collection-drop-page-container13">
-                    <p className="collection-drop-page-text35">
-                      <span>Price per item minted:</span>
-                      <br></br>
-                    </p>
-                    <p className="collection-drop-page-text38">
-                      <span>Starts on:</span>
-                      <br></br>
-                    </p>
-                  </div>
-                  <div className="collection-drop-page-container14">
-                    <label className="collection-drop-page-text41">
-                      150 XRD
-                    </label>
-                    <label className="collection-drop-page-text42">
-                      23 Sept 10:30pm CEST
-                    </label>
-                  </div>
-                </div>
-                <div className="collection-drop-page-container15">
-                  <div className="collection-drop-page-buy-container">
-                    <div className="collection-drop-page-item-counter">
-                      <button className="collection-drop-page-button4 button">
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="collection-drop-page-icon08 fill-color-white"
-                        >
-                          <path d="M810 554h-596v-84h596v84z"></path>
-                        </svg>
-                      </button>
-                      <input
-                        type="text"
-                        enctype="The Funky Apes Crew..."
-                        placeholder="1"
-                        className="collection-drop-page-textinput"
-                      />
-                      <button className="collection-drop-page-button5 button">
-                        <svg
-                          viewBox="0 0 1024 1024"
-                          className="collection-drop-page-icon10 fill-color-white"
-                        >
-                          <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
-                        </svg>
-                      </button>
-                    </div>
-                    <button className="collection-drop-page-button6 button">
-                      <span className="collection-drop-page-text43">
-                        <span>Mint</span>
-                        <br></br>
-                      </span>
-                    </button>
-                  </div>
-                  <div className="collection-drop-page-container16">
-                    <p className="collection-drop-page-text46">
-                      <span>Limit 20 per user. </span>
-                      <br></br>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="collection-drop-page-progress-panel">
-                <div className="collection-drop-page-container17">
-                  <label className="collection-drop-page-text49">
-                    Progress and Stats
-                  </label>
-                  <div className="collection-drop-page-container18">
-                    <div className="collection-drop-page-row-chart">
-                      <div className="collection-drop-page-labels">
-                        <span className="collection-drop-page-text-percentage Content">
-                          75% minted
-                        </span>
-                        <span className="collection-drop-page-text-percentage1">
-                          2457/10000
-                        </span>
-                      </div>
-                      <div className="collection-drop-page-minting-progress">
-                        <div className="collection-drop-page-bar-bg">
-                          <div className="collection-drop-page-progress">
-                            <div className="collection-drop-page-green-bar"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="collection-drop-page-container19">
-                    <label className="collection-drop-page-text50 Content">
-                      Items reserved pre-minting:
-                    </label>
-                    <label className="collection-drop-page-text51 Content">
-                      2458
-                    </label>
-                  </div>
-                  <div className="collection-drop-page-container20">
-                    <label className="collection-drop-page-text52 Content">
-                      Total owners:
-                    </label>
-                    <label className="collection-drop-page-text53 Content">
-                      1259
-                    </label>
-                  </div>
-                  <div className="collection-drop-page-container21">
-                    <label className="collection-drop-page-text54 Content">
-                      Total raised:
-                    </label>
-                    <label className="collection-drop-page-text55 Content">
-                      257500 XRD
-                    </label>
-                  </div>
-                </div>
-              </div>
-              <div className="collection-drop-page-about1">
-                <div className="collection-drop-page-container22">
-                  <label className="collection-drop-page-text56">
-                    About this Collection
-                  </label>
-                </div>
-                <div className="collection-drop-page-container23"></div>
-                <p className="collection-drop-page-text57">
-                  <span>
-                    In the year 2050, humanity had exhausted the resources of
-                    Earth and faced the grim reality of its impending demise.
-                    But hope was not lost, for a team of scientists had
-                    discovered a new planet, similar to Mars, that could sustain
-                    human life. A mission was launched to establish a colony on
-                    this distant world, and after years of travel, the first
-                    settlers arrived.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    The new planet, named Nova, was a harsh and unforgiving
-                    environment. The colonists had to contend with intense
-                    radiation, extreme temperatures, and unpredictable weather
-                    patterns. But with their advanced technology and unyielding
-                    determination, they managed to establish a self-sustaining
-                    colony and began the process of terraforming the planet.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    As the years passed, the colonists adapted to their new home
-                    and formed a thriving society. They built towering cities,
-                    cultivated vast fields of crops, and explored the uncharted
-                    regions of the planet. But they soon discovered that they
-                    were not alone on Nova.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    The planet was home to a diverse array of alien life forms,
-                    some of which were hostile to human presence. The colonists
-                    found themselves in a constant struggle for survival,
-                    battling against vicious predators and cunning adversaries.
-                    And as they delved deeper into the mysteries of Nova, they
-                    began to uncover dark secrets about its true nature and the
-                    forces that brought them there.
-                  </span>
-                  <br className="Content"></br>
-                  <span>
-                    This is the story of the Nova colony and its struggle for
-                    survival in an alien world. It is a tale of courage,
-                    determination, and the indomitable spirit of humanity in the
-                    face of adversity. But it is also a cautionary tale about
-                    the dangers of playing god and the consequences of our
-                    actions on the universe around us.
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div className="collection-drop-page-container-right">
-              <div className="collection-drop-page-item-info-box">
-                <div className="collection-drop-page-item-image">
-                  <img
-                    alt="image"
-                    src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_deso_556dbc6d-d05c-43d6-b5a3-019912494a61-1500w.png"
-                    className="collection-drop-page-image2"
-                  />
-                </div>
-                <div className="collection-drop-page-item-image1">
-                  <img
-                    alt="image"
-                    src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
-                    className="collection-drop-page-image3"
-                  />
-                </div>
-                <div className="collection-drop-page-item-image2">
-                  <img
-                    alt="image"
-                    src="/vlad__foton.is__radix.stream_character_mood_board_from_3_angles_e1a1e6fb-e0fe-497f-9fce-c022e03dd47a-1500w.png"
-                    className="collection-drop-page-image4"
-                  />
-                  <div className="collection-drop-page-item-image3">
-                    <img
-                      alt="image"
-                      src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
-                      className="collection-drop-page-image5"
-                    />
-                  </div>
-                </div>
-                <div className="collection-drop-page-about2">
-                  <div className="collection-drop-page-container24">
-                    <label className="collection-drop-page-text67">
+            <div className="collection-drop-page-container-top">
+              <div className="collection-drop-page-container-left">
+                <div className="collection-drop-page-about">
+                  <div className="collection-drop-page-container10">
+                    <label className="collection-drop-page-text23">
                       About this Collection
                     </label>
                   </div>
-                  <div className="collection-drop-page-container25"></div>
-                  <p className="collection-drop-page-text68">
+                  <div className="collection-drop-page-container11"></div>
+                  <p className="collection-drop-page-text24">
                     <span>
                       In the year 2050, humanity had exhausted the resources of
                       Earth and faced the grim reality of its impending demise.
@@ -473,26 +203,294 @@ const CollectionDropPage = (props) => {
                     </span>
                   </p>
                 </div>
-                <div className="collection-drop-page-item-image4">
-                  <img
-                    alt="image"
-                    src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_deso_556dbc6d-d05c-43d6-b5a3-019912494a61-1500w.png"
-                    className="collection-drop-page-image6"
-                  />
+                <div className="collection-drop-page-items-example">
+                  <div className="collection-drop-page-selected-image">
+                    <img
+                      alt="image"
+                      src="/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_ca187c73-4361-4257-92dd-492fd841d827-1500w.png"
+                      className="collection-drop-page-image1"
+                    />
+                  </div>
+                  <div className="collection-drop-page-four-examples">
+                    <div className="collection-drop-page-selected-image1"></div>
+                    <div className="collection-drop-page-selected-image2"></div>
+                    <div className="collection-drop-page-selected-image3"></div>
+                    <div className="collection-drop-page-selected-image4"></div>
+                  </div>
                 </div>
-                <div className="collection-drop-page-item-image5">
-                  <img
-                    alt="image"
-                    src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
-                    className="collection-drop-page-image7"
-                  />
+                <div className="collection-drop-page-about1">
+                  <div className="collection-drop-page-container12">
+                    <label className="collection-drop-page-text34">
+                      About this Collection
+                    </label>
+                  </div>
+                  <div className="collection-drop-page-container13"></div>
+                  <p className="collection-drop-page-text35">
+                    <span>
+                      In the year 2050, humanity had exhausted the resources of
+                      Earth and faced the grim reality of its impending demise.
+                      But hope was not lost, for a team of scientists had
+                      discovered a new planet, similar to Mars, that could
+                      sustain human life. A mission was launched to establish a
+                      colony on this distant world, and after years of travel,
+                      the first settlers arrived.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      The new planet, named Nova, was a harsh and unforgiving
+                      environment. The colonists had to contend with intense
+                      radiation, extreme temperatures, and unpredictable weather
+                      patterns. But with their advanced technology and
+                      unyielding determination, they managed to establish a
+                      self-sustaining colony and began the process of
+                      terraforming the planet.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      As the years passed, the colonists adapted to their new
+                      home and formed a thriving society. They built towering
+                      cities, cultivated vast fields of crops, and explored the
+                      uncharted regions of the planet. But they soon discovered
+                      that they were not alone on Nova.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      The planet was home to a diverse array of alien life
+                      forms, some of which were hostile to human presence. The
+                      colonists found themselves in a constant struggle for
+                      survival, battling against vicious predators and cunning
+                      adversaries. And as they delved deeper into the mysteries
+                      of Nova, they began to uncover dark secrets about its true
+                      nature and the forces that brought them there.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      This is the story of the Nova colony and its struggle for
+                      survival in an alien world. It is a tale of courage,
+                      determination, and the indomitable spirit of humanity in
+                      the face of adversity. But it is also a cautionary tale
+                      about the dangers of playing god and the consequences of
+                      our actions on the universe around us.
+                    </span>
+                  </p>
                 </div>
-                <div className="collection-drop-page-item-image6">
-                  <img
-                    alt="image"
-                    src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
-                    className="collection-drop-page-image8"
-                  />
+              </div>
+              <div className="collection-drop-page-container-right">
+                <div className="collection-drop-page-mint-panel">
+                  <div className="collection-drop-page-container14">
+                    <label className="collection-drop-page-text45">
+                      Collection Name
+                    </label>
+                    <div className="collection-drop-page-container15">
+                      <p className="collection-drop-page-text46">
+                        <span>Price per item minted:</span>
+                        <br></br>
+                      </p>
+                      <p className="collection-drop-page-text49">
+                        <span>Starts in:</span>
+                        <br></br>
+                      </p>
+                    </div>
+                    <div className="collection-drop-page-container16">
+                      <label className="collection-drop-page-text52">
+                        150 XRD
+                      </label>
+                      <label className="collection-drop-page-text53">
+                        21 Days
+                      </label>
+                    </div>
+                  </div>
+                  <div className="collection-drop-page-container17">
+                    <div className="collection-drop-page-buy-container">
+                      <div className="collection-drop-page-item-counter">
+                        <button className="collection-drop-page-button4 button">
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="collection-drop-page-icon08 fill-color-white"
+                          >
+                            <path d="M810 554h-596v-84h596v84z"></path>
+                          </svg>
+                        </button>
+                        <input
+                          type="text"
+                          enctype="The Funky Apes Crew..."
+                          placeholder="1"
+                          className="collection-drop-page-textinput"
+                        />
+                        <button className="collection-drop-page-button5 button">
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            className="collection-drop-page-icon10 fill-color-white"
+                          >
+                            <path d="M810 554h-256v256h-84v-256h-256v-84h256v-256h84v256h256v84z"></path>
+                          </svg>
+                        </button>
+                      </div>
+                      <button className="collection-drop-page-button6 button">
+                        <span className="collection-drop-page-text54">
+                          <span>Mint</span>
+                          <br></br>
+                        </span>
+                      </button>
+                    </div>
+                    <div className="collection-drop-page-container18">
+                      <p className="collection-drop-page-text57">
+                        <span>Limit 20 per user. </span>
+                        <br></br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="collection-drop-page-progress-panel">
+                  <div className="collection-drop-page-container19">
+                    <label className="collection-drop-page-text60">
+                      Progress and Stats
+                    </label>
+                    <div className="collection-drop-page-container20">
+                      <div className="collection-drop-page-row-chart">
+                        <div className="collection-drop-page-labels">
+                          <span className="collection-drop-page-text-percentage">
+                            75% minted
+                          </span>
+                          <span className="collection-drop-page-text-percentage1">
+                            2457 / 10000
+                          </span>
+                        </div>
+                        <div className="collection-drop-page-minting-progress">
+                          <div className="collection-drop-page-bar-bg">
+                            <div className="collection-drop-page-progress">
+                              <div className="collection-drop-page-green-bar"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="collection-drop-page-container21">
+                      <label className="collection-drop-page-text61 Content">
+                        Items reserved pre-minting:
+                      </label>
+                      <label className="collection-drop-page-text62 Content">
+                        2458
+                      </label>
+                    </div>
+                    <div className="collection-drop-page-container22">
+                      <label className="collection-drop-page-text63 Content">
+                        Total owners:
+                      </label>
+                      <label className="collection-drop-page-text64 Content">
+                        1259
+                      </label>
+                    </div>
+                    <div className="collection-drop-page-container23">
+                      <label className="collection-drop-page-text65 Content">
+                        Total raised:
+                      </label>
+                      <label className="collection-drop-page-text66 Content">
+                        257500 XRD
+                      </label>
+                    </div>
+                    <div className="collection-drop-page-container24">
+                      <label className="collection-drop-page-text67">
+                        Starting time:
+                      </label>
+                      <label className="collection-drop-page-text68 Content">
+                        21 Sept 2023 - 10:30 pm CEST
+                      </label>
+                    </div>
+                    <div className="collection-drop-page-container25">
+                      <label className="collection-drop-page-text69 Content">
+                        Ending time:
+                      </label>
+                      <label className="collection-drop-page-text70">
+                        29 Sept 2023 - 09:30 pm CEST
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="collection-drop-page-container-bottom">
+              <div className="collection-drop-page-container-left1">
+                <div className="collection-drop-page-about2">
+                  <div className="collection-drop-page-container26">
+                    <label className="collection-drop-page-text71">
+                      About this Collection
+                    </label>
+                  </div>
+                  <div className="collection-drop-page-container27"></div>
+                  <p className="collection-drop-page-text72">
+                    <span>
+                      In the year 2050, humanity had exhausted the resources of
+                      Earth and faced the grim reality of its impending demise.
+                      But hope was not lost, for a team of scientists had
+                      discovered a new planet, similar to Mars, that could
+                      sustain human life. A mission was launched to establish a
+                      colony on this distant world, and after years of travel,
+                      the first settlers arrived.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      The new planet, named Nova, was a harsh and unforgiving
+                      environment. The colonists had to contend with intense
+                      radiation, extreme temperatures, and unpredictable weather
+                      patterns. But with their advanced technology and
+                      unyielding determination, they managed to establish a
+                      self-sustaining colony and began the process of
+                      terraforming the planet.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      As the years passed, the colonists adapted to their new
+                      home and formed a thriving society. They built towering
+                      cities, cultivated vast fields of crops, and explored the
+                      uncharted regions of the planet. But they soon discovered
+                      that they were not alone on Nova.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      The planet was home to a diverse array of alien life
+                      forms, some of which were hostile to human presence. The
+                      colonists found themselves in a constant struggle for
+                      survival, battling against vicious predators and cunning
+                      adversaries. And as they delved deeper into the mysteries
+                      of Nova, they began to uncover dark secrets about its true
+                      nature and the forces that brought them there.
+                    </span>
+                    <br className="Content"></br>
+                    <span>
+                      This is the story of the Nova colony and its struggle for
+                      survival in an alien world. It is a tale of courage,
+                      determination, and the indomitable spirit of humanity in
+                      the face of adversity. But it is also a cautionary tale
+                      about the dangers of playing god and the consequences of
+                      our actions on the universe around us.
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div className="collection-drop-page-container-right1">
+                <div className="collection-drop-page-item-info-box">
+                  <div className="collection-drop-page-item-image">
+                    <img
+                      alt="image"
+                      src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_deso_556dbc6d-d05c-43d6-b5a3-019912494a61-1500w.png"
+                      className="collection-drop-page-image2"
+                    />
+                  </div>
+                  <div className="collection-drop-page-item-image1">
+                    <img
+                      alt="image"
+                      src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
+                      className="collection-drop-page-image3"
+                    />
+                  </div>
+                  <div className="collection-drop-page-item-image2">
+                    <img
+                      alt="image"
+                      src="/vlad__foton.is__radix.stream_scenery_on_a_new_alien_planet_inne_f7e1f32e-2759-4d97-ade9-00fbbe77368d-1500w.png"
+                      className="collection-drop-page-image4"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

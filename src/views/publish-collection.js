@@ -567,7 +567,7 @@ const PublishCollection = (props) => {
                   </button>
                   <label className="publish-collection-text58 padding-4px-left">
                     <span>
-                      * By default, if you Mint Now, all items will be sent to
+                      1. By default, if you Mint Now, all items will be sent to
                       the Account that you are connected with.
                       <span
                         dangerouslySetInnerHTML={{
@@ -577,11 +577,16 @@ const PublishCollection = (props) => {
                     </span>
                     <br></br>
                     <span>
-                      ** All fees associated with this process are paid by you. 
+                      2. All fees associated with this process are paid by you. 
                     </span>
                     <br></br>
                     <span>
-                      *** By Using, Publishing and/or Minting on FOTON you agree
+                      3. If you publish to Drops, items not minted during the
+                      Timeframe, will be burned.  
+                    </span>
+                    <br></br>
+                    <span>
+                      4. By Using, Publishing and/or Minting on FOTON you agree
                       to our
                       <span
                         dangerouslySetInnerHTML={{
@@ -598,7 +603,7 @@ const PublishCollection = (props) => {
                     <span>.</span>
                     <br></br>
                   </label>
-                  <label className="publish-collection-text66 padding-4px-left">
+                  <label className="publish-collection-text68 padding-4px-left">
                     <span>
                       If you want to send the items to a different Radix
                       Account, fill the address below:
@@ -611,18 +616,18 @@ const PublishCollection = (props) => {
                     placeholder="acco..."
                     className="publish-collection-textinput19 focus-reset-forms input Content16SemiBold"
                   />
-                  <label className="publish-collection-text69 padding-4px-left">
+                  <label className="publish-collection-text71 padding-4px-left">
                     This address is valid.
                   </label>
                 </div>
               </form>
               <div className="publish-collection-info-box">
                 <div className="publish-collection-container29">
-                  <h1 className="publish-collection-text70 Content18">
+                  <h1 className="publish-collection-text72 Content18">
                     <span>Info:</span>
                     <br></br>
                   </h1>
-                  <span className="publish-collection-text73">
+                  <span className="publish-collection-text75">
                     <span>
                       Collections can be Listed based on Timeframe and Who Mints
                       the items in the collection. 

@@ -958,6 +958,9 @@
     width: 100%;
     flex-direction: row;
   }
+  .collection-drop-page-team-text23 {
+    font-size: 16px;
+  }
   .collection-drop-page-team-text24 {
     width: auto;
   }
