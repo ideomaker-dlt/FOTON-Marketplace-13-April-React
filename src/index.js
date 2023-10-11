@@ -34,6 +34,7 @@ import AddProject from './views/add-project'
 import Home from './views/home'
 import BlogPost from './views/blog-post'
 import CreatorStudioProject from './views/creator-studio-project'
+import CreatorStudioProjectTeams from './views/creator-studio-project-teams'
 import ItemPage from './views/item-page'
 import CollectionDropPage from './views/collection-drop-page'
 import NotFound from './views/not-found'
@@ -132,6 +133,11 @@ const App = () => {
           component={CreatorStudioProject}
           exact
           path="/creator-studio-project"
+        />
+        <Route
+          component={CreatorStudioProjectTeams}
+          exact
+          path="/creator-studio-project-teams"
         />
         <Route component={ItemPage} exact path="/item-page" />
         <Route

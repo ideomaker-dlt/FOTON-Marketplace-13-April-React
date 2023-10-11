@@ -918,6 +918,8 @@
   height: 100%;
   display: flex;
   align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-dark-gray-350);
 }
 .collection-drop-page-button4 {
   gap: var(--dl-space-space-halfunit);
@@ -964,6 +966,7 @@
   transition: 0.3s;
   font-family: Poppins;
   font-weight: 600;
+  border-radius: var(--dl-radius-radius-radius8);
   text-transform: none;
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-350);

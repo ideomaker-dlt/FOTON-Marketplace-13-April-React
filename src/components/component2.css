@@ -1072,6 +1072,9 @@
   }
 }
 @media(max-width: 767px) {
+  .component2-container {
+    border-radius: var(--dl-radius-radius-radius8);
+  }
   .component2-image-header {
     border-radius: var(--dl-radius-radius-radius8);
   }

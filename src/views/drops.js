@@ -136,7 +136,7 @@ const Drops = (props) => {
                     </div>
                     <div className="drops-volume2401">
                       <span className="drops-text18 SmallestLabels">
-                        TIME LEFT
+                        ends in
                       </span>
                       <span className="drops-text19 Content16SemiBold">
                         2 hrs
@@ -244,10 +244,10 @@ const Drops = (props) => {
                     </div>
                     <div className="drops-volume2404">
                       <span className="drops-text36 SmallestLabels">
-                        TIME LEFT
+                        Status
                       </span>
                       <span className="drops-text37 Content16SemiBold">
-                        none
+                        ENDED
                       </span>
                     </div>
                   </div>
