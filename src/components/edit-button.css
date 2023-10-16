@@ -100,7 +100,7 @@
   background-color: var(--dl-color-dark-gray-300);
   border-bottom-width: 1px;
 }
-.edit-button-container01 {
+.edit-button-container001 {
   flex: 2;
   height: 100%;
   display: flex;
@@ -108,7 +108,7 @@
   padding-right: var(--dl-space-space-halfunit);
   justify-content: space-between;
 }
-.edit-button-container02 {
+.edit-button-container002 {
   gap: var(--dl-space-space-twounits);
   flex: 1;
   height: 100%;
@@ -149,7 +149,7 @@
   text-decoration: none;
   border-bottom-width: 2px;
 }
-.edit-button-container03 {
+.edit-button-container003 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -217,7 +217,7 @@
   width: 24px;
   height: 24px;
 }
-.edit-button-container04 {
+.edit-button-container004 {
   gap: var(--dl-space-space-twounits);
   height: 100%;
   display: flex;
@@ -321,7 +321,7 @@
   padding-right: 10px;
   justify-content: space-between;
 }
-.edit-button-container05 {
+.edit-button-container005 {
   gap: 2px;
   display: flex;
   align-items: center;
@@ -334,7 +334,7 @@
   width: 18px;
   height: 18px;
 }
-.edit-button-container06 {
+.edit-button-container006 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -412,7 +412,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container07 {
+.edit-button-container007 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -550,7 +550,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container08 {
+.edit-button-container008 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -559,7 +559,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container09 {
+.edit-button-container009 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -695,7 +695,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed {
+.edit-button-container011 {
   display: contents;
 }
 .edit-button-trait01:hover {
@@ -821,7 +821,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container10 {
+.edit-button-container012 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -830,7 +830,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container11 {
+.edit-button-container013 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -966,7 +966,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed02 {
+.edit-button-container015 {
   display: contents;
 }
 .edit-button-trait02:hover {
@@ -1092,7 +1092,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container12 {
+.edit-button-container016 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1101,7 +1101,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container13 {
+.edit-button-container017 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1237,7 +1237,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed04 {
+.edit-button-container019 {
   display: contents;
 }
 .edit-button-trait03:hover {
@@ -1363,7 +1363,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container14 {
+.edit-button-container020 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1372,7 +1372,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container15 {
+.edit-button-container021 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1508,7 +1508,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed06 {
+.edit-button-container023 {
   display: contents;
 }
 .edit-button-trait04:hover {
@@ -1634,7 +1634,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container16 {
+.edit-button-container024 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1643,7 +1643,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container17 {
+.edit-button-container025 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -1779,7 +1779,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed08 {
+.edit-button-container027 {
   display: contents;
 }
 .edit-button-trait05:hover {
@@ -1905,7 +1905,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container18 {
+.edit-button-container028 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1914,7 +1914,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container19 {
+.edit-button-container029 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -2050,7 +2050,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed10 {
+.edit-button-container031 {
   display: contents;
 }
 .edit-button-trait06:hover {
@@ -2176,7 +2176,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container20 {
+.edit-button-container032 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -2185,7 +2185,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container21 {
+.edit-button-container033 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -2321,7 +2321,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed12 {
+.edit-button-container035 {
   display: contents;
 }
 .edit-button-trait07:hover {
@@ -2447,7 +2447,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container22 {
+.edit-button-container036 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -2456,7 +2456,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container23 {
+.edit-button-container037 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -2592,7 +2592,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed14 {
+.edit-button-container039 {
   display: contents;
 }
 .edit-button-trait08:hover {
@@ -2718,7 +2718,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container24 {
+.edit-button-container040 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -2727,7 +2727,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container25 {
+.edit-button-container041 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -2863,7 +2863,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed16 {
+.edit-button-container043 {
   display: contents;
 }
 .edit-button-trait09:hover {
@@ -2989,7 +2989,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container26 {
+.edit-button-container044 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -2998,7 +2998,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container27 {
+.edit-button-container045 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -3134,7 +3134,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed18 {
+.edit-button-container047 {
   display: contents;
 }
 .edit-button-trait10:hover {
@@ -3260,7 +3260,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container28 {
+.edit-button-container048 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -3269,7 +3269,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container29 {
+.edit-button-container049 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -3405,7 +3405,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed20 {
+.edit-button-container051 {
   display: contents;
 }
 .edit-button-trait11:hover {
@@ -3531,7 +3531,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container30 {
+.edit-button-container052 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -3540,7 +3540,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container31 {
+.edit-button-container053 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -3676,7 +3676,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed22 {
+.edit-button-container055 {
   display: contents;
 }
 .edit-button-trait12:hover {
@@ -3802,7 +3802,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container32 {
+.edit-button-container056 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -3811,7 +3811,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container33 {
+.edit-button-container057 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -3947,7 +3947,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed24 {
+.edit-button-container059 {
   display: contents;
 }
 .edit-button-content-rules {
@@ -3972,7 +3972,7 @@
   padding-right: 10px;
   justify-content: space-between;
 }
-.edit-button-container34 {
+.edit-button-container060 {
   gap: 2px;
   display: flex;
   align-items: center;
@@ -3985,7 +3985,7 @@
   width: 18px;
   height: 18px;
 }
-.edit-button-container35 {
+.edit-button-container061 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -4063,7 +4063,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container36 {
+.edit-button-container062 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -4201,7 +4201,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container37 {
+.edit-button-container063 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -4210,7 +4210,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container38 {
+.edit-button-container064 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -4346,7 +4346,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed26 {
+.edit-button-container066 {
   display: contents;
 }
 .edit-button-trait14:hover {
@@ -4472,7 +4472,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container39 {
+.edit-button-container067 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -4481,7 +4481,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container40 {
+.edit-button-container068 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -4617,7 +4617,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed28 {
+.edit-button-container070 {
   display: contents;
 }
 .edit-button-trait15:hover {
@@ -4743,7 +4743,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container41 {
+.edit-button-container071 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -4752,7 +4752,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container42 {
+.edit-button-container072 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -4888,7 +4888,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed30 {
+.edit-button-container074 {
   display: contents;
 }
 .edit-button-trait16:hover {
@@ -5014,7 +5014,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container43 {
+.edit-button-container075 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -5023,7 +5023,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container44 {
+.edit-button-container076 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -5159,7 +5159,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed32 {
+.edit-button-container078 {
   display: contents;
 }
 .edit-button-trait17:hover {
@@ -5285,7 +5285,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container45 {
+.edit-button-container079 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -5294,7 +5294,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container46 {
+.edit-button-container080 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -5430,7 +5430,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed34 {
+.edit-button-container082 {
   display: contents;
 }
 .edit-button-trait18:hover {
@@ -5556,7 +5556,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container47 {
+.edit-button-container083 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -5565,7 +5565,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container48 {
+.edit-button-container084 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -5701,7 +5701,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed36 {
+.edit-button-container086 {
   display: contents;
 }
 .edit-button-trait19:hover {
@@ -5827,7 +5827,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container49 {
+.edit-button-container087 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -5836,7 +5836,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container50 {
+.edit-button-container088 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -5972,7 +5972,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed38 {
+.edit-button-container090 {
   display: contents;
 }
 .edit-button-trait20:hover {
@@ -6098,7 +6098,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container51 {
+.edit-button-container091 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -6107,7 +6107,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container52 {
+.edit-button-container092 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -6243,7 +6243,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed40 {
+.edit-button-container094 {
   display: contents;
 }
 .edit-button-trait21:hover {
@@ -6369,7 +6369,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container53 {
+.edit-button-container095 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -6378,7 +6378,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container54 {
+.edit-button-container096 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -6514,7 +6514,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed42 {
+.edit-button-container098 {
   display: contents;
 }
 .edit-button-trait22:hover {
@@ -6640,7 +6640,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container55 {
+.edit-button-container099 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -6649,7 +6649,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container56 {
+.edit-button-container100 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -6785,7 +6785,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed44 {
+.edit-button-container102 {
   display: contents;
 }
 .edit-button-trait23:hover {
@@ -6911,7 +6911,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container57 {
+.edit-button-container103 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -6920,7 +6920,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container58 {
+.edit-button-container104 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -7056,7 +7056,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed46 {
+.edit-button-container106 {
   display: contents;
 }
 .edit-button-trait24:hover {
@@ -7182,7 +7182,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container59 {
+.edit-button-container107 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -7191,7 +7191,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container60 {
+.edit-button-container108 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -7327,7 +7327,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed48 {
+.edit-button-container110 {
   display: contents;
 }
 .edit-button-trait25:hover {
@@ -7453,7 +7453,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container61 {
+.edit-button-container111 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -7462,7 +7462,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container62 {
+.edit-button-container112 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -7598,7 +7598,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed50 {
+.edit-button-container114 {
   display: contents;
 }
 .edit-button-content-settings {
@@ -7623,7 +7623,7 @@
   padding-right: 10px;
   justify-content: space-between;
 }
-.edit-button-container63 {
+.edit-button-container115 {
   gap: 2px;
   display: flex;
   align-items: center;
@@ -7636,7 +7636,7 @@
   width: 18px;
   height: 18px;
 }
-.edit-button-container64 {
+.edit-button-container116 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
@@ -7714,7 +7714,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container65 {
+.edit-button-container117 {
   gap: var(--dl-space-space-unit);
   flex: 0 0 auto;
   width: 100%;
@@ -7852,7 +7852,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container66 {
+.edit-button-container118 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -7861,7 +7861,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container67 {
+.edit-button-container119 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -7997,7 +7997,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed52 {
+.edit-button-container121 {
   display: contents;
 }
 .edit-button-trait27:hover {
@@ -8123,7 +8123,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container68 {
+.edit-button-container122 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -8132,7 +8132,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container69 {
+.edit-button-container123 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -8268,7 +8268,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed54 {
+.edit-button-container125 {
   display: contents;
 }
 .edit-button-trait28:hover {
@@ -8394,7 +8394,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container70 {
+.edit-button-container126 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -8403,7 +8403,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container71 {
+.edit-button-container127 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -8539,7 +8539,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed56 {
+.edit-button-container129 {
   display: contents;
 }
 .edit-button-trait29:hover {
@@ -8665,7 +8665,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container72 {
+.edit-button-container130 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -8674,7 +8674,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container73 {
+.edit-button-container131 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -8810,7 +8810,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed58 {
+.edit-button-container133 {
   display: contents;
 }
 .edit-button-trait30:hover {
@@ -8936,7 +8936,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container74 {
+.edit-button-container134 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -8945,7 +8945,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container75 {
+.edit-button-container135 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -9081,7 +9081,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed60 {
+.edit-button-container137 {
   display: contents;
 }
 .edit-button-trait31:hover {
@@ -9207,7 +9207,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container76 {
+.edit-button-container138 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -9216,7 +9216,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container77 {
+.edit-button-container139 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -9352,7 +9352,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed62 {
+.edit-button-container141 {
   display: contents;
 }
 .edit-button-trait32:hover {
@@ -9478,7 +9478,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container78 {
+.edit-button-container142 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -9487,7 +9487,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container79 {
+.edit-button-container143 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -9623,7 +9623,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed64 {
+.edit-button-container145 {
   display: contents;
 }
 .edit-button-trait33:hover {
@@ -9749,7 +9749,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container80 {
+.edit-button-container146 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -9758,7 +9758,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container81 {
+.edit-button-container147 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -9894,7 +9894,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed66 {
+.edit-button-container149 {
   display: contents;
 }
 .edit-button-trait34:hover {
@@ -10020,7 +10020,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container82 {
+.edit-button-container150 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -10029,7 +10029,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container83 {
+.edit-button-container151 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -10165,7 +10165,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed68 {
+.edit-button-container153 {
   display: contents;
 }
 .edit-button-trait35:hover {
@@ -10291,7 +10291,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container84 {
+.edit-button-container154 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -10300,7 +10300,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container85 {
+.edit-button-container155 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -10436,7 +10436,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed70 {
+.edit-button-container157 {
   display: contents;
 }
 .edit-button-trait36:hover {
@@ -10562,7 +10562,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container86 {
+.edit-button-container158 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -10571,7 +10571,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container87 {
+.edit-button-container159 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -10707,7 +10707,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed72 {
+.edit-button-container161 {
   display: contents;
 }
 .edit-button-trait37:hover {
@@ -10833,7 +10833,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container88 {
+.edit-button-container162 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -10842,7 +10842,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container89 {
+.edit-button-container163 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -10978,7 +10978,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed74 {
+.edit-button-container165 {
   display: contents;
 }
 .edit-button-trait38:hover {
@@ -11104,7 +11104,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.edit-button-container90 {
+.edit-button-container166 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -11113,7 +11113,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.edit-button-container91 {
+.edit-button-container167 {
   width: 100%;
   height: 100%;
   display: flex;
@@ -11249,20 +11249,20 @@
   font-style: normal;
   font-weight: 400;
 }
-.edit-button-code-embed76 {
+.edit-button-container169 {
   display: contents;
 }
-.edit-button-code-embed78 {
+.edit-button-container171 {
   display: contents;
 }
 @media(max-width: 1200px) {
-  .edit-button-container07 {
+  .edit-button-container007 {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .edit-button-container36 {
+  .edit-button-container062 {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .edit-button-container65 {
+  .edit-button-container117 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -11295,7 +11295,7 @@
   .edit-button-text012 {
     display: none;
   }
-  .edit-button-container07 {
+  .edit-button-container007 {
     grid-gap: var(--dl-space-space-halfunit);
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -11319,7 +11319,7 @@
   .edit-button-text136 {
     display: none;
   }
-  .edit-button-container36 {
+  .edit-button-container062 {
     grid-gap: var(--dl-space-space-halfunit);
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -11343,7 +11343,7 @@
   .edit-button-text260 {
     display: none;
   }
-  .edit-button-container65 {
+  .edit-button-container117 {
     grid-gap: var(--dl-space-space-halfunit);
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -11370,10 +11370,10 @@
     gap: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-unit);
   }
-  .edit-button-container01 {
+  .edit-button-container001 {
     justify-content: space-between;
   }
-  .edit-button-container02 {
+  .edit-button-container002 {
     gap: var(--dl-space-space-unit);
   }
   .edit-button-text003 {
@@ -11398,7 +11398,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .edit-button-container04 {
+  .edit-button-container004 {
     gap: var(--dl-space-space-unit);
   }
   .edit-button-tab-button-rarity {
@@ -11449,7 +11449,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .edit-button-container07 {
+  .edit-button-container007 {
     gap: var(--dl-space-space-halfunit);
     align-items: stretch;
     grid-row-gap: var(--dl-space-space-unit);
@@ -11926,7 +11926,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .edit-button-container36 {
+  .edit-button-container062 {
     gap: var(--dl-space-space-halfunit);
     align-items: stretch;
     grid-row-gap: var(--dl-space-space-unit);
@@ -12403,7 +12403,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .edit-button-container65 {
+  .edit-button-container117 {
     gap: var(--dl-space-space-halfunit);
     align-items: stretch;
     grid-row-gap: var(--dl-space-space-unit);

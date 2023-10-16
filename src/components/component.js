@@ -10,14 +10,14 @@ const AppComponent = (props) => {
     <div
       onMouseEnter={() => setIsVisible(true)}
       onMouseLeave={() => setIsVisible(false)}
-      className={`component-container ${props.rootClassName} `}
+      className={`app-component-container ${props.rootClassName} `}
     >
       {isVisible && (
-        <div className="component-overlay">
-          <div className="component-arrow-btn">
+        <div className="app-component-overlay">
+          <div className="app-component-arrow-btn">
             <svg
               viewBox="0 0 1024 1024"
-              className="component-icon fill-color-white"
+              className="app-component-icon fill-color-white"
             >
               <path
                 d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"

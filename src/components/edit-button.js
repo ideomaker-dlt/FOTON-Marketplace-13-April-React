@@ -35,8 +35,8 @@ const EditButton = (props) => {
           ></div>
           <div id="appOverlay" className="edit-button-container-drawer">
             <div className="edit-button-top-tabs">
-              <div className="edit-button-container01">
-                <div className="edit-button-container02">
+              <div className="edit-button-container001">
+                <div className="edit-button-container002">
                   <span
                     onClick={() => setIsVisible(false)}
                     className="edit-button-text003"
@@ -45,7 +45,7 @@ const EditButton = (props) => {
                   </span>
                   <span className="edit-button-text004">Head</span>
                 </div>
-                <div className="edit-button-container03">
+                <div className="edit-button-container003">
                   <button type="button" className="edit-button-button1">
                     <svg
                       viewBox="0 0 1024 1024"
@@ -64,7 +64,7 @@ const EditButton = (props) => {
                   </button>
                 </div>
               </div>
-              <div className="edit-button-container04">
+              <div className="edit-button-container004">
                 <div
                   onClick={() => {
                     setVisibleTab(true)
@@ -124,7 +124,7 @@ const EditButton = (props) => {
             {visibleTab && (
               <div className="edit-button-content-rarity">
                 <div className="edit-button-info-box">
-                  <div className="edit-button-container05">
+                  <div className="edit-button-container005">
                     <span className="edit-button-text008">
                       Adjust rarity by supply or percentage.
                     </span>
@@ -136,7 +136,7 @@ const EditButton = (props) => {
                       <path d="M470 384v-86h84v86h-84zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM470 726v-256h84v256h-84z"></path>
                     </svg>
                   </div>
-                  <div className="edit-button-container06">
+                  <div className="edit-button-container006">
                     <button type="button" className="edit-button-button3">
                       <svg
                         viewBox="0 0 1024 1024"
@@ -163,7 +163,7 @@ const EditButton = (props) => {
                     </button>
                   </div>
                 </div>
-                <div className="edit-button-container07">
+                <div className="edit-button-container007">
                   <div className="item-layer edit-button-trait">
                     <div className="edit-button-container-bg">
                       <div className="edit-button-image-item">
@@ -190,8 +190,8 @@ const EditButton = (props) => {
                           <span className="edit-button-text016">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container08">
-                        <div className="edit-button-container09">
+                      <div className="edit-button-container008">
+                        <div className="edit-button-container009">
                           <div className="edit-button-inputs">
                             <div className="edit-button-amount">
                               <span className="edit-button-text017">349</span>
@@ -222,9 +222,10 @@ const EditButton = (props) => {
                               <span className="edit-button-text022">-</span>
                               <span className="edit-button-text023">+</span>
                             </div>
-                            <div className="edit-button-code-embed">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container011">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -359,7 +360,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -392,8 +394,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text025">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container10">
-                        <div className="edit-button-container11">
+                      <div className="edit-button-container012">
+                        <div className="edit-button-container013">
                           <div className="edit-button-inputs01">
                             <div className="edit-button-amount02">
                               <span className="edit-button-text026">349</span>
@@ -424,9 +426,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text031">-</span>
                               <span className="edit-button-text032">+</span>
                             </div>
-                            <div className="edit-button-code-embed02">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container015">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -561,7 +564,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -594,8 +598,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text034">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container12">
-                        <div className="edit-button-container13">
+                      <div className="edit-button-container016">
+                        <div className="edit-button-container017">
                           <div className="edit-button-inputs02">
                             <div className="edit-button-amount04">
                               <span className="edit-button-text035">349</span>
@@ -626,9 +630,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text040">-</span>
                               <span className="edit-button-text041">+</span>
                             </div>
-                            <div className="edit-button-code-embed04">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container019">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -763,7 +768,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -796,8 +802,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text043">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container14">
-                        <div className="edit-button-container15">
+                      <div className="edit-button-container020">
+                        <div className="edit-button-container021">
                           <div className="edit-button-inputs03">
                             <div className="edit-button-amount06">
                               <span className="edit-button-text044">349</span>
@@ -828,9 +834,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text049">-</span>
                               <span className="edit-button-text050">+</span>
                             </div>
-                            <div className="edit-button-code-embed06">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container023">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -965,7 +972,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -998,8 +1006,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text052">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container16">
-                        <div className="edit-button-container17">
+                      <div className="edit-button-container024">
+                        <div className="edit-button-container025">
                           <div className="edit-button-inputs04">
                             <div className="edit-button-amount08">
                               <span className="edit-button-text053">349</span>
@@ -1030,9 +1038,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text058">-</span>
                               <span className="edit-button-text059">+</span>
                             </div>
-                            <div className="edit-button-code-embed08">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container027">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1167,7 +1176,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -1200,8 +1210,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text061">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container18">
-                        <div className="edit-button-container19">
+                      <div className="edit-button-container028">
+                        <div className="edit-button-container029">
                           <div className="edit-button-inputs05">
                             <div className="edit-button-amount10">
                               <span className="edit-button-text062">349</span>
@@ -1232,9 +1242,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text067">-</span>
                               <span className="edit-button-text068">+</span>
                             </div>
-                            <div className="edit-button-code-embed10">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container031">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1369,7 +1380,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -1402,8 +1414,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text070">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container20">
-                        <div className="edit-button-container21">
+                      <div className="edit-button-container032">
+                        <div className="edit-button-container033">
                           <div className="edit-button-inputs06">
                             <div className="edit-button-amount12">
                               <span className="edit-button-text071">349</span>
@@ -1434,9 +1446,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text076">-</span>
                               <span className="edit-button-text077">+</span>
                             </div>
-                            <div className="edit-button-code-embed12">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container035">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1571,7 +1584,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -1604,8 +1618,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text079">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container22">
-                        <div className="edit-button-container23">
+                      <div className="edit-button-container036">
+                        <div className="edit-button-container037">
                           <div className="edit-button-inputs07">
                             <div className="edit-button-amount14">
                               <span className="edit-button-text080">349</span>
@@ -1636,9 +1650,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text085">-</span>
                               <span className="edit-button-text086">+</span>
                             </div>
-                            <div className="edit-button-code-embed14">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container039">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1773,7 +1788,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -1806,8 +1822,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text088">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container24">
-                        <div className="edit-button-container25">
+                      <div className="edit-button-container040">
+                        <div className="edit-button-container041">
                           <div className="edit-button-inputs08">
                             <div className="edit-button-amount16">
                               <span className="edit-button-text089">349</span>
@@ -1838,9 +1854,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text094">-</span>
                               <span className="edit-button-text095">+</span>
                             </div>
-                            <div className="edit-button-code-embed16">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container043">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1975,7 +1992,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -2008,8 +2026,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text097">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container26">
-                        <div className="edit-button-container27">
+                      <div className="edit-button-container044">
+                        <div className="edit-button-container045">
                           <div className="edit-button-inputs09">
                             <div className="edit-button-amount18">
                               <span className="edit-button-text098">349</span>
@@ -2040,9 +2058,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text103">-</span>
                               <span className="edit-button-text104">+</span>
                             </div>
-                            <div className="edit-button-code-embed18">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container047">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -2177,7 +2196,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -2210,8 +2230,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text106">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container28">
-                        <div className="edit-button-container29">
+                      <div className="edit-button-container048">
+                        <div className="edit-button-container049">
                           <div className="edit-button-inputs10">
                             <div className="edit-button-amount20">
                               <span className="edit-button-text107">349</span>
@@ -2242,9 +2262,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text112">-</span>
                               <span className="edit-button-text113">+</span>
                             </div>
-                            <div className="edit-button-code-embed20">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container051">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -2379,7 +2400,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -2412,8 +2434,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text115">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container30">
-                        <div className="edit-button-container31">
+                      <div className="edit-button-container052">
+                        <div className="edit-button-container053">
                           <div className="edit-button-inputs11">
                             <div className="edit-button-amount22">
                               <span className="edit-button-text116">349</span>
@@ -2444,9 +2466,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text121">-</span>
                               <span className="edit-button-text122">+</span>
                             </div>
-                            <div className="edit-button-code-embed22">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container055">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -2581,7 +2604,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -2614,8 +2638,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text124">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container32">
-                        <div className="edit-button-container33">
+                      <div className="edit-button-container056">
+                        <div className="edit-button-container057">
                           <div className="edit-button-inputs12">
                             <div className="edit-button-amount24">
                               <span className="edit-button-text125">349</span>
@@ -2646,9 +2670,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text130">-</span>
                               <span className="edit-button-text131">+</span>
                             </div>
-                            <div className="edit-button-code-embed24">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container059">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -2783,7 +2808,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -2796,7 +2822,7 @@ sliderEl.addEventListener("input", (event) => {
             {visibleTab2 && (
               <div className="edit-button-content-rules">
                 <div className="edit-button-info-box1">
-                  <div className="edit-button-container34">
+                  <div className="edit-button-container060">
                     <span className="edit-button-text132">
                       Add rules and select how Traits interact.
                     </span>
@@ -2808,7 +2834,7 @@ sliderEl.addEventListener("input", (event) => {
                       <path d="M470 384v-86h84v86h-84zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM470 726v-256h84v256h-84z"></path>
                     </svg>
                   </div>
-                  <div className="edit-button-container35">
+                  <div className="edit-button-container061">
                     <button type="button" className="edit-button-button5">
                       <svg
                         viewBox="0 0 1024 1024"
@@ -2835,7 +2861,7 @@ sliderEl.addEventListener("input", (event) => {
                     </button>
                   </div>
                 </div>
-                <div className="edit-button-container36">
+                <div className="edit-button-container062">
                   <div className="item-layer edit-button-trait13">
                     <div className="edit-button-container-bg13">
                       <div className="edit-button-image-item13">
@@ -2862,8 +2888,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text140">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container37">
-                        <div className="edit-button-container38">
+                      <div className="edit-button-container063">
+                        <div className="edit-button-container064">
                           <div className="edit-button-inputs13">
                             <div className="edit-button-amount26">
                               <span className="edit-button-text141">349</span>
@@ -2894,9 +2920,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text146">-</span>
                               <span className="edit-button-text147">+</span>
                             </div>
-                            <div className="edit-button-code-embed26">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container066">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -3031,7 +3058,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -3064,8 +3092,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text149">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container39">
-                        <div className="edit-button-container40">
+                      <div className="edit-button-container067">
+                        <div className="edit-button-container068">
                           <div className="edit-button-inputs14">
                             <div className="edit-button-amount28">
                               <span className="edit-button-text150">349</span>
@@ -3096,9 +3124,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text155">-</span>
                               <span className="edit-button-text156">+</span>
                             </div>
-                            <div className="edit-button-code-embed28">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container070">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -3233,7 +3262,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -3266,8 +3296,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text158">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container41">
-                        <div className="edit-button-container42">
+                      <div className="edit-button-container071">
+                        <div className="edit-button-container072">
                           <div className="edit-button-inputs15">
                             <div className="edit-button-amount30">
                               <span className="edit-button-text159">349</span>
@@ -3298,9 +3328,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text164">-</span>
                               <span className="edit-button-text165">+</span>
                             </div>
-                            <div className="edit-button-code-embed30">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container074">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -3435,7 +3466,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -3468,8 +3500,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text167">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container43">
-                        <div className="edit-button-container44">
+                      <div className="edit-button-container075">
+                        <div className="edit-button-container076">
                           <div className="edit-button-inputs16">
                             <div className="edit-button-amount32">
                               <span className="edit-button-text168">349</span>
@@ -3500,9 +3532,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text173">-</span>
                               <span className="edit-button-text174">+</span>
                             </div>
-                            <div className="edit-button-code-embed32">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container078">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -3637,7 +3670,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -3670,8 +3704,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text176">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container45">
-                        <div className="edit-button-container46">
+                      <div className="edit-button-container079">
+                        <div className="edit-button-container080">
                           <div className="edit-button-inputs17">
                             <div className="edit-button-amount34">
                               <span className="edit-button-text177">349</span>
@@ -3702,9 +3736,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text182">-</span>
                               <span className="edit-button-text183">+</span>
                             </div>
-                            <div className="edit-button-code-embed34">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container082">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -3839,7 +3874,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -3872,8 +3908,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text185">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container47">
-                        <div className="edit-button-container48">
+                      <div className="edit-button-container083">
+                        <div className="edit-button-container084">
                           <div className="edit-button-inputs18">
                             <div className="edit-button-amount36">
                               <span className="edit-button-text186">349</span>
@@ -3904,9 +3940,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text191">-</span>
                               <span className="edit-button-text192">+</span>
                             </div>
-                            <div className="edit-button-code-embed36">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container086">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -4041,7 +4078,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -4074,8 +4112,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text194">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container49">
-                        <div className="edit-button-container50">
+                      <div className="edit-button-container087">
+                        <div className="edit-button-container088">
                           <div className="edit-button-inputs19">
                             <div className="edit-button-amount38">
                               <span className="edit-button-text195">349</span>
@@ -4106,9 +4144,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text200">-</span>
                               <span className="edit-button-text201">+</span>
                             </div>
-                            <div className="edit-button-code-embed38">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container090">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -4243,7 +4282,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -4276,8 +4316,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text203">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container51">
-                        <div className="edit-button-container52">
+                      <div className="edit-button-container091">
+                        <div className="edit-button-container092">
                           <div className="edit-button-inputs20">
                             <div className="edit-button-amount40">
                               <span className="edit-button-text204">349</span>
@@ -4308,9 +4348,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text209">-</span>
                               <span className="edit-button-text210">+</span>
                             </div>
-                            <div className="edit-button-code-embed40">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container094">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -4445,7 +4486,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -4478,8 +4520,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text212">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container53">
-                        <div className="edit-button-container54">
+                      <div className="edit-button-container095">
+                        <div className="edit-button-container096">
                           <div className="edit-button-inputs21">
                             <div className="edit-button-amount42">
                               <span className="edit-button-text213">349</span>
@@ -4510,9 +4552,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text218">-</span>
                               <span className="edit-button-text219">+</span>
                             </div>
-                            <div className="edit-button-code-embed42">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container098">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -4647,7 +4690,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -4680,8 +4724,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text221">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container55">
-                        <div className="edit-button-container56">
+                      <div className="edit-button-container099">
+                        <div className="edit-button-container100">
                           <div className="edit-button-inputs22">
                             <div className="edit-button-amount44">
                               <span className="edit-button-text222">349</span>
@@ -4712,9 +4756,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text227">-</span>
                               <span className="edit-button-text228">+</span>
                             </div>
-                            <div className="edit-button-code-embed44">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container102">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -4849,7 +4894,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -4882,8 +4928,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text230">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container57">
-                        <div className="edit-button-container58">
+                      <div className="edit-button-container103">
+                        <div className="edit-button-container104">
                           <div className="edit-button-inputs23">
                             <div className="edit-button-amount46">
                               <span className="edit-button-text231">349</span>
@@ -4914,9 +4960,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text236">-</span>
                               <span className="edit-button-text237">+</span>
                             </div>
-                            <div className="edit-button-code-embed46">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container106">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -5051,7 +5098,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -5084,8 +5132,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text239">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container59">
-                        <div className="edit-button-container60">
+                      <div className="edit-button-container107">
+                        <div className="edit-button-container108">
                           <div className="edit-button-inputs24">
                             <div className="edit-button-amount48">
                               <span className="edit-button-text240">349</span>
@@ -5116,9 +5164,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text245">-</span>
                               <span className="edit-button-text246">+</span>
                             </div>
-                            <div className="edit-button-code-embed48">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container110">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -5253,7 +5302,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -5286,8 +5336,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text248">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container61">
-                        <div className="edit-button-container62">
+                      <div className="edit-button-container111">
+                        <div className="edit-button-container112">
                           <div className="edit-button-inputs25">
                             <div className="edit-button-amount50">
                               <span className="edit-button-text249">349</span>
@@ -5318,9 +5368,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text254">-</span>
                               <span className="edit-button-text255">+</span>
                             </div>
-                            <div className="edit-button-code-embed50">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container114">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -5455,7 +5506,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -5468,7 +5520,7 @@ sliderEl.addEventListener("input", (event) => {
             {visibleTab3 && (
               <div className="edit-button-content-settings">
                 <div className="edit-button-info-box2">
-                  <div className="edit-button-container63">
+                  <div className="edit-button-container115">
                     <span className="edit-button-text256">Layer Settings.</span>
                     <svg
                       id="tooltip2"
@@ -5478,7 +5530,7 @@ sliderEl.addEventListener("input", (event) => {
                       <path d="M470 384v-86h84v86h-84zM512 854q140 0 241-101t101-241-101-241-241-101-241 101-101 241 101 241 241 101zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125zM470 726v-256h84v256h-84z"></path>
                     </svg>
                   </div>
-                  <div className="edit-button-container64">
+                  <div className="edit-button-container116">
                     <button type="button" className="edit-button-button7">
                       <svg
                         viewBox="0 0 1024 1024"
@@ -5505,7 +5557,7 @@ sliderEl.addEventListener("input", (event) => {
                     </button>
                   </div>
                 </div>
-                <div className="edit-button-container65">
+                <div className="edit-button-container117">
                   <div className="item-layer edit-button-trait26">
                     <div className="edit-button-container-bg26">
                       <div className="edit-button-image-item26">
@@ -5532,8 +5584,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text264">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container66">
-                        <div className="edit-button-container67">
+                      <div className="edit-button-container118">
+                        <div className="edit-button-container119">
                           <div className="edit-button-inputs26">
                             <div className="edit-button-amount52">
                               <span className="edit-button-text265">349</span>
@@ -5564,9 +5616,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text270">-</span>
                               <span className="edit-button-text271">+</span>
                             </div>
-                            <div className="edit-button-code-embed52">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container121">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -5701,7 +5754,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -5734,8 +5788,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text273">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container68">
-                        <div className="edit-button-container69">
+                      <div className="edit-button-container122">
+                        <div className="edit-button-container123">
                           <div className="edit-button-inputs27">
                             <div className="edit-button-amount54">
                               <span className="edit-button-text274">349</span>
@@ -5766,9 +5820,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text279">-</span>
                               <span className="edit-button-text280">+</span>
                             </div>
-                            <div className="edit-button-code-embed54">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container125">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -5903,7 +5958,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -5936,8 +5992,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text282">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container70">
-                        <div className="edit-button-container71">
+                      <div className="edit-button-container126">
+                        <div className="edit-button-container127">
                           <div className="edit-button-inputs28">
                             <div className="edit-button-amount56">
                               <span className="edit-button-text283">349</span>
@@ -5968,9 +6024,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text288">-</span>
                               <span className="edit-button-text289">+</span>
                             </div>
-                            <div className="edit-button-code-embed56">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container129">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -6105,7 +6162,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -6138,8 +6196,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text291">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container72">
-                        <div className="edit-button-container73">
+                      <div className="edit-button-container130">
+                        <div className="edit-button-container131">
                           <div className="edit-button-inputs29">
                             <div className="edit-button-amount58">
                               <span className="edit-button-text292">349</span>
@@ -6170,9 +6228,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text297">-</span>
                               <span className="edit-button-text298">+</span>
                             </div>
-                            <div className="edit-button-code-embed58">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container133">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -6307,7 +6366,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -6340,8 +6400,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text300">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container74">
-                        <div className="edit-button-container75">
+                      <div className="edit-button-container134">
+                        <div className="edit-button-container135">
                           <div className="edit-button-inputs30">
                             <div className="edit-button-amount60">
                               <span className="edit-button-text301">349</span>
@@ -6372,9 +6432,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text306">-</span>
                               <span className="edit-button-text307">+</span>
                             </div>
-                            <div className="edit-button-code-embed60">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container137">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -6509,7 +6570,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -6542,8 +6604,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text309">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container76">
-                        <div className="edit-button-container77">
+                      <div className="edit-button-container138">
+                        <div className="edit-button-container139">
                           <div className="edit-button-inputs31">
                             <div className="edit-button-amount62">
                               <span className="edit-button-text310">349</span>
@@ -6574,9 +6636,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text315">-</span>
                               <span className="edit-button-text316">+</span>
                             </div>
-                            <div className="edit-button-code-embed62">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container141">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -6711,7 +6774,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -6744,8 +6808,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text318">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container78">
-                        <div className="edit-button-container79">
+                      <div className="edit-button-container142">
+                        <div className="edit-button-container143">
                           <div className="edit-button-inputs32">
                             <div className="edit-button-amount64">
                               <span className="edit-button-text319">349</span>
@@ -6776,9 +6840,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text324">-</span>
                               <span className="edit-button-text325">+</span>
                             </div>
-                            <div className="edit-button-code-embed64">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container145">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -6913,7 +6978,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -6946,8 +7012,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text327">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container80">
-                        <div className="edit-button-container81">
+                      <div className="edit-button-container146">
+                        <div className="edit-button-container147">
                           <div className="edit-button-inputs33">
                             <div className="edit-button-amount66">
                               <span className="edit-button-text328">349</span>
@@ -6978,9 +7044,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text333">-</span>
                               <span className="edit-button-text334">+</span>
                             </div>
-                            <div className="edit-button-code-embed66">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container149">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -7115,7 +7182,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -7148,8 +7216,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text336">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container82">
-                        <div className="edit-button-container83">
+                      <div className="edit-button-container150">
+                        <div className="edit-button-container151">
                           <div className="edit-button-inputs34">
                             <div className="edit-button-amount68">
                               <span className="edit-button-text337">349</span>
@@ -7180,9 +7248,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text342">-</span>
                               <span className="edit-button-text343">+</span>
                             </div>
-                            <div className="edit-button-code-embed68">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container153">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -7317,7 +7386,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -7350,8 +7420,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text345">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container84">
-                        <div className="edit-button-container85">
+                      <div className="edit-button-container154">
+                        <div className="edit-button-container155">
                           <div className="edit-button-inputs35">
                             <div className="edit-button-amount70">
                               <span className="edit-button-text346">349</span>
@@ -7382,9 +7452,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text351">-</span>
                               <span className="edit-button-text352">+</span>
                             </div>
-                            <div className="edit-button-code-embed70">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container157">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -7519,7 +7590,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -7552,8 +7624,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text354">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container86">
-                        <div className="edit-button-container87">
+                      <div className="edit-button-container158">
+                        <div className="edit-button-container159">
                           <div className="edit-button-inputs36">
                             <div className="edit-button-amount72">
                               <span className="edit-button-text355">349</span>
@@ -7584,9 +7656,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text360">-</span>
                               <span className="edit-button-text361">+</span>
                             </div>
-                            <div className="edit-button-code-embed72">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container161">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -7721,7 +7794,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -7754,8 +7828,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text363">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container88">
-                        <div className="edit-button-container89">
+                      <div className="edit-button-container162">
+                        <div className="edit-button-container163">
                           <div className="edit-button-inputs37">
                             <div className="edit-button-amount74">
                               <span className="edit-button-text364">349</span>
@@ -7786,9 +7860,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text369">-</span>
                               <span className="edit-button-text370">+</span>
                             </div>
-                            <div className="edit-button-code-embed74">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container165">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -7923,7 +7998,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -7956,8 +8032,8 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="edit-button-text372">29%</span>
                         </div>
                       </div>
-                      <div className="edit-button-container90">
-                        <div className="edit-button-container91">
+                      <div className="edit-button-container166">
+                        <div className="edit-button-container167">
                           <div className="edit-button-inputs38">
                             <div className="edit-button-amount76">
                               <span className="edit-button-text373">349</span>
@@ -7988,9 +8064,10 @@ sliderEl.addEventListener("input", (event) => {
                               <span className="edit-button-text378">-</span>
                               <span className="edit-button-text379">+</span>
                             </div>
-                            <div className="edit-button-code-embed76">
-                              <Script
-                                html={`
+                            <div>
+                              <div className="edit-button-container169">
+                                <Script
+                                  html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -8125,7 +8202,8 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              ></Script>
+                                ></Script>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -8135,9 +8213,10 @@ sliderEl.addEventListener("input", (event) => {
                 </div>
               </div>
             )}
-            <div className="edit-button-code-embed78">
-              <Script
-                html={`<style>
+            <div>
+              <div className="edit-button-container171">
+                <Script
+                  html={`<style>
   
 /* width */
 #appOverlay::-webkit-scrollbar {
@@ -8181,7 +8260,8 @@ sliderEl.addEventListener("input", (event) => {
 
 
 </style>`}
-              ></Script>
+                ></Script>
+              </div>
             </div>
           </div>
         </div>

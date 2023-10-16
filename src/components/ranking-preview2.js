@@ -203,7 +203,7 @@ const RankingPreview2 = (props) => {
               </div>
               <div className="ranking-preview2-floor1">
                 <span className="ranking-preview2-text-mobile Content16SemiBold">
-                  {props.textMobile}
+                  {props.TextMobile}
                 </span>
                 <span className="ranking-preview2-text38 Content16SemiBold">
                   12645 XRD
@@ -212,7 +212,7 @@ const RankingPreview2 = (props) => {
               <div className="ranking-preview2-change03">
                 <span className="ranking-preview2-text39">{props.text19}</span>
                 <span className="ranking-preview2-change-mobile">
-                  {props.changeMobile}
+                  {props.ChangeMobile}
                 </span>
               </div>
             </div>
@@ -279,7 +279,7 @@ const RankingPreview2 = (props) => {
               <div className="ranking-preview2-change05">
                 <span className="ranking-preview2-text49">{props.text26}</span>
                 <span className="ranking-preview2-change-mobile1">
-                  {props.changeMobile1}
+                  {props.ChangeMobile1}
                 </span>
               </div>
             </div>
@@ -334,7 +334,7 @@ const RankingPreview2 = (props) => {
               </div>
               <div className="ranking-preview2-floor3">
                 <span className="ranking-preview2-text-mobile2 Content16SemiBold">
-                  {props.textMobile2}
+                  {props.TextMobile2}
                 </span>
                 <span className="ranking-preview2-text56 Content16SemiBold">
                   1245 XRD
@@ -343,7 +343,7 @@ const RankingPreview2 = (props) => {
               <div className="ranking-preview2-change07">
                 <span className="ranking-preview2-text57">{props.text33}</span>
                 <span className="ranking-preview2-change-mobile2">
-                  {props.changeMobile2}
+                  {props.ChangeMobile2}
                 </span>
               </div>
             </div>
@@ -398,7 +398,7 @@ const RankingPreview2 = (props) => {
               </div>
               <div className="ranking-preview2-floor4">
                 <span className="ranking-preview2-text-mobile3 Content16SemiBold">
-                  {props.textMobile3}
+                  {props.TextMobile3}
                 </span>
                 <span className="ranking-preview2-text64 Content16SemiBold">
                   1245 XRD
@@ -407,7 +407,7 @@ const RankingPreview2 = (props) => {
               <div className="ranking-preview2-change09">
                 <span className="ranking-preview2-text65">{props.text40}</span>
                 <span className="ranking-preview2-change-mobile3">
-                  {props.changeMobile3}
+                  {props.ChangeMobile3}
                 </span>
               </div>
             </div>
@@ -462,7 +462,7 @@ const RankingPreview2 = (props) => {
               </div>
               <div className="ranking-preview2-floor5">
                 <span className="ranking-preview2-text-mobile4 Content16SemiBold">
-                  {props.textMobile4}
+                  {props.TextMobile4}
                 </span>
                 <span className="ranking-preview2-text72 Content16SemiBold">
                   {props.text46}
@@ -533,7 +533,7 @@ const RankingPreview2 = (props) => {
               <div className="ranking-preview2-change13">
                 <span className="ranking-preview2-text81">{props.text54}</span>
                 <span className="ranking-preview2-change-mobile5">
-                  {props.changeMobile5}
+                  {props.ChangeMobile5}
                 </span>
               </div>
             </div>
@@ -575,16 +575,16 @@ RankingPreview2.defaultProps = {
   text42: '12%',
   text40: '15000',
   text22: 'Scrypto Ninja',
-  changeMobile5: '+31%',
+  ChangeMobile5: '+31%',
   text26: '8888',
   text24: '+31%',
   text9: 'Floor:',
-  changeMobile3: '+31%',
+  ChangeMobile3: '+31%',
   text34: '9478',
   text1: '3',
   text44: '43 K XRD',
   text51: '32 K XRD',
-  changeMobile2: '+31%',
+  ChangeMobile2: '+31%',
   text59: 'Games',
   text53: '1245 XRD',
   text27: '8637',
@@ -603,21 +603,21 @@ RankingPreview2.defaultProps = {
   text8: 'Change',
   text11: 'Sales',
   text58: 'Art',
-  textMobile4: 'Floor:',
+  TextMobile4: 'Floor:',
   text19: '15000',
   text37: '45 K XRD',
   text12: 'Owners',
-  changeMobile1: '+31%',
-  textMobile: 'Floor:',
+  ChangeMobile1: '+31%',
+  TextMobile: 'Floor:',
   text21: '12%',
-  textMobile2: 'Floor:',
+  TextMobile2: 'Floor:',
   text38: '+31%',
   text48: '9478',
-  changeMobile: '+31%',
+  ChangeMobile: '+31%',
   text6: 'Collection',
   text: '1',
   text10: 'Floor',
-  textMobile3: 'Floor:',
+  TextMobile3: 'Floor:',
 }
 
 RankingPreview2.propTypes = {
@@ -631,16 +631,16 @@ RankingPreview2.propTypes = {
   text42: PropTypes.string,
   text40: PropTypes.string,
   text22: PropTypes.string,
-  changeMobile5: PropTypes.string,
+  ChangeMobile5: PropTypes.string,
   text26: PropTypes.string,
   text24: PropTypes.string,
   text9: PropTypes.string,
-  changeMobile3: PropTypes.string,
+  ChangeMobile3: PropTypes.string,
   text34: PropTypes.string,
   text1: PropTypes.string,
   text44: PropTypes.string,
   text51: PropTypes.string,
-  changeMobile2: PropTypes.string,
+  ChangeMobile2: PropTypes.string,
   text59: PropTypes.string,
   text53: PropTypes.string,
   text27: PropTypes.string,
@@ -659,21 +659,21 @@ RankingPreview2.propTypes = {
   text8: PropTypes.string,
   text11: PropTypes.string,
   text58: PropTypes.string,
-  textMobile4: PropTypes.string,
+  TextMobile4: PropTypes.string,
   text19: PropTypes.string,
   text37: PropTypes.string,
   text12: PropTypes.string,
-  changeMobile1: PropTypes.string,
-  textMobile: PropTypes.string,
+  ChangeMobile1: PropTypes.string,
+  TextMobile: PropTypes.string,
   text21: PropTypes.string,
-  textMobile2: PropTypes.string,
+  TextMobile2: PropTypes.string,
   text38: PropTypes.string,
   text48: PropTypes.string,
-  changeMobile: PropTypes.string,
+  ChangeMobile: PropTypes.string,
   text6: PropTypes.string,
   text: PropTypes.string,
   text10: PropTypes.string,
-  textMobile3: PropTypes.string,
+  TextMobile3: PropTypes.string,
 }
 
 export default RankingPreview2

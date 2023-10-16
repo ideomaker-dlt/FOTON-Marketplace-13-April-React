@@ -38,16 +38,16 @@ const CollectionPage = (props) => {
             />
           </div>
           <div className="collection-page-collection-info-box">
-            <div className="collection-page-container1">
+            <div className="collection-page-container01">
               <div className="collection-page-avatar-logo">
                 <img
                   src="/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-200h.png"
                   className="collection-page-image1"
                 />
               </div>
-              <div className="collection-page-container2">
+              <div className="collection-page-container02">
                 <h1 className="collection-page-text">Collection One</h1>
-                <div className="collection-page-container3">
+                <div className="collection-page-container03">
                   <p className="collection-page-text01">
                     <span>By Smooth Collective</span>
                     <br></br>
@@ -59,9 +59,9 @@ const CollectionPage = (props) => {
                 </div>
               </div>
             </div>
-            <div className="collection-page-container4">
+            <div className="collection-page-container04">
               <div className="collection-page-description-collection">
-                <div className="collection-page-container5">
+                <div className="collection-page-container05">
                   <h2 className="collection-page-text07">
                     <span>
                       The crew of pirates gathered around a campfire on a
@@ -73,7 +73,7 @@ const CollectionPage = (props) => {
                     </span>
                     <br></br>
                   </h2>
-                  <div className="collection-page-container6">
+                  <div className="collection-page-container06">
                     <p className="collection-page-text10">
                       <span>
                         10000 items ● Created on 23 Apr 2023 ● Creator royalties
@@ -111,7 +111,7 @@ const CollectionPage = (props) => {
                 <span className="collection-page-text24">Listed</span>
               </div>
             </div>
-            <div className="collection-page-container7">
+            <div className="collection-page-container07">
               <button type="button" className="collection-page-button">
                 <svg
                   viewBox="0 0 1024 1024"
@@ -246,9 +246,10 @@ const CollectionPage = (props) => {
                   placeholder="Search by name..."
                   className="collection-page-textinput Content18 focus-reset input"
                 />
-                <div className="collection-page-div">
-                  <Script
-                    html={`<style>
+                <div>
+                  <div className="collection-page-container09">
+                    <Script
+                      html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color: red;
 opacity: 1; /* Firefox */
@@ -268,7 +269,8 @@ input[type="search"]::-webkit-search-results-decoration {
 -webkit-appearance:none;
 }
 </style>`}
-                  ></Script>
+                    ></Script>
+                  </div>
                 </div>
               </form>
             </div>
@@ -394,7 +396,7 @@ input[type="search"]::-webkit-search-results-decoration {
             </button>
           </div>
         </div>
-        <div className="collection-page-container8">
+        <div className="collection-page-container10">
           <CollectionItemsContainer></CollectionItemsContainer>
         </div>
       </LayoutWithSidebar>

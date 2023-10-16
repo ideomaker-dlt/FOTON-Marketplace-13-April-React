@@ -11,15 +11,15 @@ const SideMenu = (props) => {
       <div className="side-menu-container hide-scroll">
         <div className="side-menu-container01">
           <img
-            src="/Icons Imported/deblur.svg"
             alt="image"
+            src="/Icons Imported/deblur.svg"
             className="side-menu-image"
           />
         </div>
         <div className="side-menu-container02">
           <img
-            src="/Icons Imported/category_300.svg"
             alt="image"
+            src="/Icons Imported/category_300.svg"
             className="side-menu-image01"
           />
         </div>
@@ -47,20 +47,17 @@ const SideMenu = (props) => {
       <div className="side-menu-container09">
         <span className="side-menu-text Content16SemiBold">Creator Studio</span>
         <div className="side-menu-container10">
-          <Link to="/creator-studio-collection" className="side-menu-navlink">
+          <Link to="/creator-studio" className="side-menu-navlink">
             <div className="side-menu-container11">
               <img
                 alt="image"
                 src="/Icons Imported/dashboard_customize1.svg"
                 className="side-menu-image02"
               />
-              <span className="side-menu-text01 Content">Dashboard</span>
+              <span className="side-menu-text01 Content">Projects</span>
             </div>
           </Link>
-          <Link
-            to="/creator-studio-project-teams"
-            className="side-menu-navlink1"
-          >
+          <Link to="/creator-studio-teams" className="side-menu-navlink1">
             <div className="side-menu-container12">
               <img
                 alt="image"
@@ -102,45 +99,55 @@ const SideMenu = (props) => {
             />
             <span className="side-menu-text06 Content">Settings</span>
           </div>
-          <div className="side-menu-container17">
-            <img
-              alt="image"
-              src="/Icons Imported/team_dashboard.svg"
-              className="side-menu-image08"
-            />
-            <span className="side-menu-text07">Home</span>
-          </div>
+          <Link to="/" className="side-menu-navlink2">
+            <div className="side-menu-container17">
+              <img
+                alt="image"
+                src="/Icons Imported/home.svg"
+                className="side-menu-image08"
+              />
+              <span className="side-menu-text07">Home</span>
+            </div>
+          </Link>
           <div className="side-menu-container18">
             <img
               alt="image"
-              src="/Icons Imported/manage_accounts.svg"
+              src="/Icons Imported/team_dashboard.svg"
               className="side-menu-image09"
             />
-            <span className="side-menu-text08 Content">Profile Sett.</span>
+            <span className="side-menu-text08">Dashboard</span>
           </div>
           <div className="side-menu-container19">
             <img
               alt="image"
-              src="/Icons Imported/notifications_active.svg"
+              src="/Icons Imported/manage_accounts.svg"
               className="side-menu-image10"
             />
-            <span className="side-menu-text09 Content">Notifications</span>
+            <span className="side-menu-text09 Content">Profile Sett.</span>
           </div>
           <div className="side-menu-container20">
             <img
               alt="image"
-              src="/Icons Imported/emoji_events.svg"
+              src="/Icons Imported/notifications_active.svg"
               className="side-menu-image11"
             />
-            <span className="side-menu-text10 Content">Events</span>
+            <span className="side-menu-text10 Content">Notifications</span>
           </div>
           <div className="side-menu-container21">
             <img
               alt="image"
-              src="/Icons Imported/help_center.svg"
+              src="/Icons Imported/emoji_events.svg"
               className="side-menu-image12"
             />
-            <span className="side-menu-text11 Content">Support</span>
+            <span className="side-menu-text11 Content">Events</span>
+          </div>
+          <div className="side-menu-container22">
+            <img
+              alt="image"
+              src="/Icons Imported/help_center.svg"
+              className="side-menu-image13"
+            />
+            <span className="side-menu-text12 Content">Support</span>
           </div>
         </div>
       </div>

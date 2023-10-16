@@ -86,9 +86,10 @@ const ContainerLayerModal = (props) => {
               </div>
             </div>
             <div className="container-layer-modal-buttons">
-              <div className="container-layer-modal-code-embed">
-                <Script
-                  html={`<style>
+              <div className="">
+                <div className="container-layer-modal-container4">
+                  <Script
+                    html={`<style>
   
 /* width */
 #appOverlay::-webkit-scrollbar {
@@ -132,8 +133,9 @@ const ContainerLayerModal = (props) => {
 
 
 </style>`}
-                  className=""
-                ></Script>
+                    className=""
+                  ></Script>
+                </div>
               </div>
               <div className="container-layer-modal-field1">
                 <div className="container-layer-modal-bottom-buttons">

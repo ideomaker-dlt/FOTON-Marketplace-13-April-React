@@ -10,8 +10,8 @@ const Footer = (props) => {
       <div className="footer-logo">
         <div className="footer-container">
           <img
-            alt={props.imageAlt}
-            src={props.imageSrc}
+            alt={props.image_alt}
+            src={props.image_src}
             className="footer-image"
           />
         </div>
@@ -77,14 +77,14 @@ const Footer = (props) => {
         </div>
       </div>
       <div className="footer-container3">
-        <span className="footer-copyright">{props.copyright}</span>
+        <span className="footer-copyright">{props.Copyright}</span>
         <div className="footer-terms">
           <span className="footer-privacy-policy">
             <span className="">Privacy Policy</span>
             <br className=""></br>
           </span>
           <span className="footer-terms-of-service">
-            {props.termsOfService}
+            {props.TermsOfService}
           </span>
         </div>
       </div>
@@ -97,13 +97,13 @@ Footer.defaultProps = {
   text: 'Explore All',
   rootClassName: '',
   text19: 'Help Center',
-  imageAlt: 'image',
+  image_alt: 'image',
   text2: 'Art',
   text12: 'For Creators',
   text1: 'Avatars',
-  copyright: 'Copyright 2023 - FOTON, IDEOMAKER SDK',
+  Copyright: 'Copyright 2023 - FOTON, IDEOMAKER SDK',
   text21: 'About',
-  termsOfService: 'Terms of Service',
+  TermsOfService: 'Terms of Service',
   text7: 'Stats',
   text4: 'Memberships',
   text20: 'Developers - SDK',
@@ -111,7 +111,7 @@ Footer.defaultProps = {
   text5: 'Tickets',
   text14: 'Launchpad & Grants',
   text11: 'Tesseract NFT',
-  imageSrc: '/foton%20logo%20white.svg',
+  image_src: '/foton%20logo%20white.svg',
   text3: 'Games',
   text8: 'Drops Portal',
   text17: 'Resources',
@@ -128,13 +128,13 @@ Footer.propTypes = {
   text: PropTypes.string,
   rootClassName: PropTypes.string,
   text19: PropTypes.string,
-  imageAlt: PropTypes.string,
+  image_alt: PropTypes.string,
   text2: PropTypes.string,
   text12: PropTypes.string,
   text1: PropTypes.string,
-  copyright: PropTypes.string,
+  Copyright: PropTypes.string,
   text21: PropTypes.string,
-  termsOfService: PropTypes.string,
+  TermsOfService: PropTypes.string,
   text7: PropTypes.string,
   text4: PropTypes.string,
   text20: PropTypes.string,
@@ -142,7 +142,7 @@ Footer.propTypes = {
   text5: PropTypes.string,
   text14: PropTypes.string,
   text11: PropTypes.string,
-  imageSrc: PropTypes.string,
+  image_src: PropTypes.string,
   text3: PropTypes.string,
   text8: PropTypes.string,
   text17: PropTypes.string,

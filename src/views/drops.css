@@ -2982,7 +2982,7 @@
   .drops-container07 {
     gap: var(--dl-space-space-halfunit);
     height: 100%;
-    padding-top: 4PX;
+    padding-top: 5px;
     padding-left: 16PX;
     border-radius: var(--dl-radius-radius-radius8);
     padding-right: 16PX;
@@ -2997,7 +2997,7 @@
   }
   .drops-container08 {
     height: 100%;
-    padding-top: 4PX;
+    padding-top: 5px;
     padding-left: 16PX;
     border-radius: var(--dl-radius-radius-radius8);
     padding-right: 16PX;

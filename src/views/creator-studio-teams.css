@@ -1,0 +1,4661 @@
+.creator-studio-teams-container {
+  width: 100%;
+  display: flex;
+  overflow: visible;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-header-creator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.3);
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius12);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: url("/vlad__foton.is__radix.stream_launch_of_a_geometric_rocket_with__9ea0ca5f-5111-4b44-aff7-89a4e6d2179e-1500w.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.creator-studio-teams-gray-overlay {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius12);
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgb(47, 47, 47) 37.00%,rgba(44, 62, 80, 0) 100.00%);
+}
+.creator-studio-teams-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.creator-studio-teams-container02 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-self: center;
+}
+.creator-studio-teams-container03 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: column;
+}
+.creator-studio-teams-text {
+  color: var(--dl-color-dark-white);
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text001 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text003 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-buttons {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: 160px;
+  display: none;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+}
+.creator-studio-teams-button {
+  color: var(--dl-color-dark-white);
+  height: 50px;
+  display: flex;
+  font-size: 18px;
+  align-self: flex-end;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  font-style: normal;
+  text-align: center;
+  transition: 0;
+  font-weight: 600;
+  padding-top: 11px;
+  border-color: var(--dl-color-dark-green-200);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-twounits);
+  align-content: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 11px;
+  background-color: var(--dl-color-dark-darkergreenhighlight);
+}
+.creator-studio-teams-button:hover {
+  background-color: var(--dl-color-dark-darkergreen);
+}
+.creator-studio-teams-container04 {
+  gap: var(--dl-space-space-halfunit);
+  top: 32px;
+  right: 32px;
+  display: none;
+  z-index: 200;
+  position: absolute;
+  align-items: center;
+}
+.creator-studio-teams-category {
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle {
+  width: 100%;
+  height: 40px;
+  display: inline-flex;
+  opacity: 0.6;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: 12px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 12px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-dropdown-toggle:hover {
+  opacity: 1;
+}
+.creator-studio-teams-text009 {
+  color: var(--dl-color-dark-white);
+  display: none;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.creator-studio-teams-dropdown-arrow {
+  display: flex;
+  transition: 0.1s;
+}
+.creator-studio-teams-icon {
+  fill: var(--dl-color-dark-white);
+  width: 22px;
+  height: 22px;
+  opacity: 1;
+  padding-top: 2px;
+}
+.creator-studio-teams-icon02 {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.creator-studio-teams-dropdown-list {
+  right: 0%;
+  width: 240px;
+  display: none;
+  z-index: 100000;
+  position: absolute;
+  min-width: 100%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  align-items: stretch;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  list-style-type: none;
+  background-color: var(--dl-color-dark-gray-360);
+  list-style-position: inside;
+}
+.creator-studio-teams-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle01 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle01:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text010 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle02 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle02:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text011 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle03 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle03:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text012 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-tabs-row {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-container05 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-image {
+  width: 24px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+.creator-studio-teams-text013 {
+  color: var(--dl-color-dark-white);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text014 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text015 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-filter-buttons {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.creator-studio-teams-timeframe {
+  height: 100%;
+  display: none;
+  align-items: center;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+}
+.creator-studio-teams-button01 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.creator-studio-teams-button01:hover {
+  border-radius: 6px;
+  background-color: var(--dl-color-dark-gray-360);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.creator-studio-teams-button01:active {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text016 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button02 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-button02:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text019 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button03 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-button03:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text022 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button04 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+}
+.creator-studio-teams-button04:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text025 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-sort-by {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle04 {
+  gap: var(--dl-space-space-halfunit);
+  fill: #595959;
+  width: 100%;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-icon04 {
+  fill: var(--dl-color-dark-white);
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text028 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.creator-studio-teams-dropdown-arrow1 {
+  transition: 0.1s;
+}
+.creator-studio-teams-icon06 {
+  fill: var(--dl-color-dark-white);
+  width: 22px;
+  height: 22px;
+  padding-top: 2px;
+}
+.creator-studio-teams-dropdown-list1 {
+  right: 0%;
+  width: 240px;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  align-items: stretch;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  list-style-type: none;
+  background-color: var(--dl-color-dark-gray-360);
+  list-style-position: inside;
+}
+.creator-studio-teams-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle05 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle05:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text029 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown-toggle06 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle06:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text030 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown-toggle07 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle07:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text031 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown-toggle08 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle08:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text032 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button05 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-button05:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text033 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-roles-container {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  margin: TwoUnits;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit);
+  margin-right: 0px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius12);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-container06 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: grid;
+  align-items: flex-end;
+  justify-content: flex-start;
+  grid-template-columns: 1fr;
+}
+.creator-studio-teams-role {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image01 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container08 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container09 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text036 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-icon10 {
+  width: 18px;
+  height: 18px;
+}
+.creator-studio-teams-badge-info {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container10 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image02 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text037 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text040 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container11 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image03 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text043 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text046 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container12 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon12 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text049 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role1:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image04 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container14 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container15 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text052 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-badge-info1 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container16 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image05 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text053 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text056 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container17 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image06 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text059 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text062 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container18 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink1 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink1:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink1:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon14 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text065 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role2:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image07 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container20 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container21 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text068 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-badge-info2 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container22 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image08 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text069 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text072 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container23 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image09 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text075 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text078 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container24 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink2 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink2:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink2:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon16 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text081 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role3:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image10 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container26 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container27 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text084 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-badge-info3 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container28 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image11 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text085 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text088 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container29 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image12 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text091 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text094 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container30 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink3 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink3:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink3:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon18 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text097 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role4 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role4:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image13 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container32 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container33 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text100 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-badge-info4 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container34 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image14 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text101 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text104 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container35 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image15 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text107 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text110 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container36 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink4 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink4:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink4:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon20 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text113 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-tabs-row1 {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-container37 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-image16 {
+  width: 24px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+.creator-studio-teams-text116 {
+  color: var(--dl-color-dark-white);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text117 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text118 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-filter-buttons1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+}
+.creator-studio-teams-timeframe1 {
+  height: 100%;
+  display: none;
+  align-items: center;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+}
+.creator-studio-teams-button06 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.creator-studio-teams-button06:hover {
+  border-radius: 6px;
+  background-color: var(--dl-color-dark-gray-360);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.creator-studio-teams-button06:active {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text119 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button07 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-button07:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text122 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button08 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-button08:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text125 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button09 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 0px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+}
+.creator-studio-teams-button09:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-text128 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-sort-by1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle09 {
+  gap: var(--dl-space-space-halfunit);
+  fill: #595959;
+  width: 100%;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-icon22 {
+  fill: var(--dl-color-dark-white);
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text131 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.creator-studio-teams-dropdown-arrow2 {
+  transition: 0.1s;
+}
+.creator-studio-teams-icon24 {
+  fill: var(--dl-color-dark-white);
+  width: 22px;
+  height: 22px;
+  padding-top: 2px;
+}
+.creator-studio-teams-dropdown-list2 {
+  right: 0%;
+  width: 240px;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  align-items: stretch;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  list-style-type: none;
+  background-color: var(--dl-color-dark-gray-360);
+  list-style-position: inside;
+}
+.creator-studio-teams-dropdown4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-dropdown-toggle10 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle10:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text132 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown-toggle11 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle11:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text133 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown-toggle12 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle12:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text134 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-dropdown-toggle13 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-dropdown-toggle13:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-text135 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button10 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-button10:hover {
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon26 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text136 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-roles-container1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  margin: TwoUnits;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit);
+  margin-right: 0px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius12);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-container38 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: grid;
+  align-items: flex-end;
+  justify-content: flex-start;
+  grid-template-columns: 1fr;
+}
+.creator-studio-teams-role5 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role5:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image17 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container40 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container41 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text139 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-icon28 {
+  width: 18px;
+  height: 18px;
+}
+.creator-studio-teams-badge-info5 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container42 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image18 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text140 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text143 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container43 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image19 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text146 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text149 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container44 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink5 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink5:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink5:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon30 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text152 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role6 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role6:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image20 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container46 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container47 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text155 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-badge-info6 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container48 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image21 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text156 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text159 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container49 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image22 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text162 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text165 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container50 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink6 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink6:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink6:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon32 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text168 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role7 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role7:hover {
+  border-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image23 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container52 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container53 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.creator-studio-teams-text171 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-badge-info7 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container54 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image24 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text172 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text175 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container55 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image25 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text178 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text181 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container56 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink7 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-365);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-navlink7:hover {
+  border-color: var(--dl-color-dark-gray-365);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink7:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon34 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text184 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-bottom-menu {
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+  display: none;
+  z-index: 100000;
+  position: fixed;
+  align-items: center;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-300);
+  border-top-width: 1px;
+}
+.creator-studio-teams-container-left {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+}
+.creator-studio-teams-text187 {
+  color: var(--dl-color-dark-white);
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text188 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container-right {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-button11 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-button11:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-button11:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon36 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text189 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button12 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-button12:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-button12:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon38 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text192 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button13 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-button13:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-button13:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon40 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text195 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button14 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-button14:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-button14:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon42 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text198 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button15 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-button15:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-button15:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon44 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text201 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-navlink8 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-navlink8:hover {
+  border-color: var(--dl-color-dark-red-200);
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-navlink8:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon46 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-text204 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-button16 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: none;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-darkergreenhighlight);
+}
+.creator-studio-teams-button16:hover {
+  border-color: var(--dl-color-dark-green-200);
+  background-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-image26 {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.creator-studio-teams-text207 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+@media(max-width: 991px) {
+  .creator-studio-teams-container01 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .creator-studio-teams-container02 {
+    gap: var(--dl-space-space-unit);
+    align-self: flex-start;
+  }
+  .creator-studio-teams-container03 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+  }
+  .creator-studio-teams-text {
+    font-size: 22px;
+  }
+  .creator-studio-teams-buttons {
+    gap: var(--dl-space-space-unit);
+    height: auto;
+    padding-top: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-timeframe {
+    display: none;
+  }
+  .creator-studio-teams-text028 {
+    display: none;
+  }
+  .creator-studio-teams-dropdown-list1 {
+    right: 0%;
+  }
+  .creator-studio-teams-dropdown-toggle06 {
+    width: 100%;
+  }
+  .creator-studio-teams-button05 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text033 {
+    display: none;
+  }
+  .creator-studio-teams-container09 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text037 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text040 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text043 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text046 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container12 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text049 {
+    display: none;
+  }
+  .creator-studio-teams-container15 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info1 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text053 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text056 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text059 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text062 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container18 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink1 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text065 {
+    display: none;
+  }
+  .creator-studio-teams-container21 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info2 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text069 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text072 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text075 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text078 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container24 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink2 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text081 {
+    display: none;
+  }
+  .creator-studio-teams-container27 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info3 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text085 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text088 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text091 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text094 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container30 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink3 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text097 {
+    display: none;
+  }
+  .creator-studio-teams-container33 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info4 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text101 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text104 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text107 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text110 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container36 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink4 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text113 {
+    display: none;
+  }
+  .creator-studio-teams-timeframe1 {
+    display: none;
+  }
+  .creator-studio-teams-text131 {
+    display: none;
+  }
+  .creator-studio-teams-dropdown-list2 {
+    right: 0%;
+  }
+  .creator-studio-teams-dropdown-toggle11 {
+    width: 100%;
+  }
+  .creator-studio-teams-button10 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text136 {
+    display: none;
+  }
+  .creator-studio-teams-container41 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info5 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text140 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text143 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text146 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text149 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container44 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink5 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text152 {
+    display: none;
+  }
+  .creator-studio-teams-container47 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info6 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text156 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text159 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text162 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text165 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container50 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink6 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text168 {
+    display: none;
+  }
+  .creator-studio-teams-container53 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info7 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text172 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text175 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text178 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text181 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container56 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink7 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text184 {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .creator-studio-teams-header-creator {
+    margin-top: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-gray-overlay {
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-container01 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .creator-studio-teams-container02 {
+    gap: var(--dl-space-space-halfunit);
+    align-self: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .creator-studio-teams-container03 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text {
+    font-size: 18px;
+  }
+  .creator-studio-teams-text001 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-buttons {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-button {
+    height: 42px;
+    padding-top: 8px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 8px;
+  }
+  .creator-studio-teams-text006 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-container04 {
+    top: var(--dl-space-space-unit);
+    right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-category {
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-dropdown-toggle {
+    height: 38.5px;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-text009 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-list {
+    display: none;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-dropdown-toggle01 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text010 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle02 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text011 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle03 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text012 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-tabs-row {
+    top: 70px;
+  }
+  .creator-studio-teams-container05 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text013 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text014 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text015 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-filter-buttons {
+    gap: var(--dl-space-space-halfunit);
+    align-self: center;
+  }
+  .creator-studio-teams-timeframe {
+    height: auto;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-button01 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text016 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button02 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text019 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button03 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text022 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button04 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text025 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-dropdown-toggle04 {
+    height: 38.5px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-text028 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-list1 {
+    width: 200px;
+    display: none;
+  }
+  .creator-studio-teams-dropdown-toggle05 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text029 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle06 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text030 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle07 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text031 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle08 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text032 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-button05 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text033 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-roles-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container06 {
+    align-items: stretch;
+  }
+  .creator-studio-teams-role {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container08 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container09 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text036 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-icon10 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-badge-info {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image02 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text037 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text040 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image03 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text043 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text046 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text049 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role1 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container14 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container15 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text052 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-badge-info1 {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image05 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text053 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text056 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image06 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text059 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text062 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink1 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text065 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role2 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container20 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container21 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text068 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-badge-info2 {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image08 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text069 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text072 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image09 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text075 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text078 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink2 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text081 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role3 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container26 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container27 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text084 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-badge-info3 {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image11 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text085 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text088 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image12 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text091 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text094 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink3 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text097 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role4 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container32 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container33 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text100 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-badge-info4 {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image14 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text101 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text104 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image15 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text107 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text110 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink4 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text113 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-tabs-row1 {
+    top: 70px;
+  }
+  .creator-studio-teams-container37 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text116 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text117 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text118 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-filter-buttons1 {
+    gap: var(--dl-space-space-halfunit);
+    align-self: center;
+  }
+  .creator-studio-teams-timeframe1 {
+    height: auto;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-button06 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text119 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button07 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text122 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button08 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text125 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button09 {
+    height: auto;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text128 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-dropdown-toggle09 {
+    height: 38.5px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-text131 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-list2 {
+    width: 200px;
+    display: none;
+  }
+  .creator-studio-teams-dropdown-toggle10 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text132 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle11 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text133 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle12 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text134 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-dropdown-toggle13 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-text135 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-button10 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text136 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-roles-container1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container38 {
+    align-items: stretch;
+    grid-template-columns: 1fr;
+  }
+  .creator-studio-teams-role5 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container40 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container41 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text139 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-icon28 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-badge-info5 {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image18 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text140 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text143 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image19 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text146 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text149 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink5 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text152 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role6 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container46 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container47 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text155 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-badge-info6 {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image21 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text156 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text159 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image22 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text162 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text165 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink6 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text168 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role7 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container52 {
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-container53 {
+    align-items: flex-end;
+  }
+  .creator-studio-teams-text171 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-badge-info7 {
+    gap: var(--dl-space-space-unit);
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .creator-studio-teams-image24 {
+    width: 20px;
+    height: 20px;
+  }
+  .creator-studio-teams-text172 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text175 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-image25 {
+    width: 20px;
+    height: 20pxo;
+  }
+  .creator-studio-teams-text178 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .creator-studio-teams-text181 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink7 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text184 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-bottom-menu {
+    height: 80px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text187 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-text188 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-container-right {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-button11 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text189 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button12 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text192 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button13 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text195 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button14 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text198 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button15 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text201 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-navlink8 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text204 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button16 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text207 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+@media(max-width: 479px) {
+  .creator-studio-teams-container05 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text013 {
+    display: none;
+  }
+  .creator-studio-teams-text015 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container37 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text116 {
+    display: none;
+  }
+  .creator-studio-teams-text118 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+}

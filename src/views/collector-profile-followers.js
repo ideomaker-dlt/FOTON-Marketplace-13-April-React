@@ -189,7 +189,7 @@ const CollectorProfileFollowers = (props) => {
         </div>
         <div className="collector-profile-followers-tabs-row">
           <Link
-            to="/collector-profile"
+            to="/collector-hub"
             className="collector-profile-followers-navlink"
           >
             Profile

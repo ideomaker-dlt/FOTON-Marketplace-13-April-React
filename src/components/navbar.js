@@ -32,12 +32,13 @@ const Navbar = (props) => {
               type="text"
               id="mainsearch"
               name="search-field"
-              placeholder={props.textinputPlaceholder}
+              placeholder={props.textinput_placeholder}
               className="navbar-textinput Content18 input"
             />
-            <div className="navbar-div">
-              <Script
-                html={`<style>
+            <div className="">
+              <div className="navbar-container2">
+                <Script
+                  html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color: red;
 opacity: 1; /* Firefox */
@@ -57,8 +58,9 @@ input[type="search"]::-webkit-search-results-decoration {
 -webkit-appearance:none;
 }
 </style>`}
-                className=""
-              ></Script>
+                  className=""
+                ></Script>
+              </div>
             </div>
           </form>
         </div>
@@ -199,7 +201,7 @@ Navbar.defaultProps = {
   rootClassName: '',
   text: 'shopping_cart',
   button1: 'Stats',
-  textinputPlaceholder: 'Search...',
+  textinput_placeholder: 'Search...',
   toggleSidebar: () => {},
   button3: 'More',
   button: 'Drops',
@@ -210,7 +212,7 @@ Navbar.propTypes = {
   rootClassName: PropTypes.string,
   text: PropTypes.string,
   button1: PropTypes.string,
-  textinputPlaceholder: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
   toggleSidebar: PropTypes.func,
   button3: PropTypes.string,
   button: PropTypes.string,

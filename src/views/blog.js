@@ -48,9 +48,10 @@ const Blog = (props) => {
                   placeholder="Search..."
                   className="blog-textinput focus-reset Content18 input"
                 />
-                <div className="blog-div">
-                  <Script
-                    html={`<style>
+                <div>
+                  <div className="blog-container04">
+                    <Script
+                      html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color: red;
 opacity: 1; /* Firefox */
@@ -70,7 +71,8 @@ input[type="search"]::-webkit-search-results-decoration {
 -webkit-appearance:none;
 }
 </style>`}
-                  ></Script>
+                    ></Script>
+                  </div>
                 </div>
               </form>
             </div>
@@ -121,14 +123,14 @@ input[type="search"]::-webkit-search-results-decoration {
                         <span className="blog-text material-symbols-outlined">
                           account_circle
                         </span>
-                        <div className="blog-container03">
+                        <div className="blog-container05">
                           <span className="blog-name">Danoshi Hughemoto</span>
                           <span className="blog-radix-address">
                             rdxdhsj...sdg765sg
                           </span>
                         </div>
                       </div>
-                      <Link to="/collector-profile">
+                      <Link to="/collector-hub">
                         <div
                           data-thq="thq-dropdown-toggle"
                           className="blog-collector-profile"
@@ -226,9 +228,9 @@ input[type="search"]::-webkit-search-results-decoration {
           <div className="blog-main-menu">
             <div className="blog-wrapper-content">
               <div className="blog-wrapper-all">
-                <div className="blog-container04">
+                <div className="blog-container06">
                   <div className="blog-features">
-                    <div className="blog-container05">
+                    <div className="blog-container07">
                       <h2 className="blog-text015">Features</h2>
                       <h2 className="blog-text016">
                         <span>
@@ -237,7 +239,7 @@ input[type="search"]::-webkit-search-results-decoration {
                         </span>
                         <br></br>
                       </h2>
-                      <div className="blog-container06">
+                      <div className="blog-container08">
                         <div className="blog-info-bubble">
                           <span className="blog-text019">
                             UNLIMITED POWER &amp; SCALE
@@ -260,9 +262,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-seasons1">
-                    <div className="blog-container07">
+                    <div className="blog-container09">
                       <h2 className="blog-heading">Seasons</h2>
-                      <div className="blog-container08">
+                      <div className="blog-container10">
                         <div className="blog-info-bubble02">
                           <span className="blog-text022">
                             QUESTS, TESSERACTS, ETERNAL GLORY
@@ -275,7 +277,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-start-here">
-                    <div className="blog-container09">
+                    <div className="blog-container11">
                       <h2 className="blog-text024">
                         <span>Beginners Intro</span>
                         <br></br>
@@ -283,17 +285,17 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-tokens">
-                    <div className="blog-container10">
+                    <div className="blog-container12">
                       <h2 className="blog-text027">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-tesseracts">
-                    <div className="blog-container11">
+                    <div className="blog-container13">
                       <h2 className="blog-text028">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-launchpad">
-                    <div className="blog-container12">
+                    <div className="blog-container14">
                       <h2 className="blog-text029">Launchpad</h2>
                       <div className="blog-info-bubble04">
                         <span className="blog-text030">
@@ -303,9 +305,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-pro-version">
-                    <div className="blog-container13">
+                    <div className="blog-container15">
                       <h2 className="blog-text031">Foton PRO</h2>
-                      <div className="blog-container14">
+                      <div className="blog-container16">
                         <div className="blog-info-bubble05">
                           <span className="blog-text032">
                             CREATE LIKE A MASTER, TRADE LIKE A PRO
@@ -318,7 +320,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-developers-sdk">
-                    <div className="blog-container15">
+                    <div className="blog-container17">
                       <h2 className="blog-text034">Developers SDK</h2>
                       <div className="blog-info-bubble07">
                         <span className="blog-text035">POST BABYLON</span>
@@ -326,7 +328,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-help-center">
-                    <div className="blog-container16">
+                    <div className="blog-container18">
                       <h2 className="blog-text036">
                         <span>Help Center</span>
                         <br></br>
@@ -334,7 +336,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-jobs-portal">
-                    <div className="blog-container17">
+                    <div className="blog-container19">
                       <h2 className="blog-text039">
                         <span>Jobs Portal</span>
                         <br></br>
@@ -342,7 +344,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-announcements">
-                    <div className="blog-container18">
+                    <div className="blog-container20">
                       <h2 className="blog-text042">Announcements</h2>
                       <div className="blog-info-bubble08">
                         <span className="blog-text043">
@@ -352,7 +354,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-press-desk">
-                    <div className="blog-container19">
+                    <div className="blog-container21">
                       <h2 className="blog-text044">
                         <span>Press Info Desk</span>
                         <br></br>
@@ -360,14 +362,14 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-investor-lounge">
-                    <div className="blog-container20">
+                    <div className="blog-container22">
                       <h2 className="blog-text047">Investors Lounge</h2>
                     </div>
                   </div>
                   <div className="blog-community">
-                    <div className="blog-container21">
+                    <div className="blog-container23">
                       <h2 className="blog-text048">Community</h2>
-                      <div className="blog-container22">
+                      <div className="blog-container24">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -402,9 +404,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-ecosystem">
-                    <div className="blog-container23">
+                    <div className="blog-container25">
                       <h2 className="blog-text052">Ecosystem Projects</h2>
-                      <div className="blog-container24">
+                      <div className="blog-container26">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -439,7 +441,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-radix-dlt">
-                    <div className="blog-container25">
+                    <div className="blog-container27">
                       <h2 className="blog-text056">
                         <span>Runs on RADIX</span>
                         <br></br>
@@ -447,7 +449,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-about">
-                    <div className="blog-container26">
+                    <div className="blog-container28">
                       <h2 className="blog-text059">
                         <span>About</span>
                         <br></br>
@@ -455,9 +457,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                 </div>
-                <div className="blog-container27">
+                <div className="blog-container29">
                   <div className="blog-features1">
-                    <div className="blog-container28">
+                    <div className="blog-container30">
                       <h2 className="blog-text062">Features</h2>
                       <h2 className="blog-text063">
                         <span>
@@ -474,9 +476,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-seasons11">
-                    <div className="blog-container29">
+                    <div className="blog-container31">
                       <h2 className="blog-heading1">Seasons</h2>
-                      <div className="blog-container30">
+                      <div className="blog-container32">
                         <div className="blog-info-bubble16">
                           <span className="blog-text067">
                             QUESTS, TESSERACTS, ETERNAL GLORY
@@ -489,9 +491,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-pro-version1">
-                    <div className="blog-container31">
+                    <div className="blog-container33">
                       <h2 className="blog-text069">Foton PRO</h2>
-                      <div className="blog-container32">
+                      <div className="blog-container34">
                         <div className="blog-info-bubble18">
                           <span className="blog-text070">
                             CREATE LIKE A MASTER, TRADE LIKE A PRO
@@ -504,7 +506,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-launchpad1">
-                    <div className="blog-container33">
+                    <div className="blog-container35">
                       <h2 className="blog-text072">Launchpad</h2>
                       <div className="blog-info-bubble20">
                         <span className="blog-text073">
@@ -514,7 +516,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-start-here1">
-                    <div className="blog-container34">
+                    <div className="blog-container36">
                       <h2 className="blog-text074">
                         <span>Beginners Intro</span>
                         <br></br>
@@ -522,17 +524,17 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-tokens1">
-                    <div className="blog-container35">
+                    <div className="blog-container37">
                       <h2 className="blog-text077">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-tesseracts1">
-                    <div className="blog-container36">
+                    <div className="blog-container38">
                       <h2 className="blog-text078">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-help-center1">
-                    <div className="blog-container37">
+                    <div className="blog-container39">
                       <h2 className="blog-text079">
                         <span>Help Center</span>
                         <br></br>
@@ -540,7 +542,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-announcements1">
-                    <div className="blog-container38">
+                    <div className="blog-container40">
                       <h2 className="blog-text082">Announcements</h2>
                       <div className="blog-info-bubble21">
                         <span className="blog-text083">
@@ -550,7 +552,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-jobs-portal1">
-                    <div className="blog-container39">
+                    <div className="blog-container41">
                       <h2 className="blog-text084">
                         <span>Jobs Portal</span>
                         <br></br>
@@ -558,7 +560,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-developers-sdk1">
-                    <div className="blog-container40">
+                    <div className="blog-container42">
                       <h2 className="blog-text087">Developers SDK</h2>
                       <div className="blog-info-bubble22">
                         <span className="blog-text088">POST BABYLON</span>
@@ -566,7 +568,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-press-desk1">
-                    <div className="blog-container41">
+                    <div className="blog-container43">
                       <h2 className="blog-text089">
                         <span>Press Info Desk</span>
                         <br></br>
@@ -574,14 +576,14 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-investor-lounge1">
-                    <div className="blog-container42">
+                    <div className="blog-container44">
                       <h2 className="blog-text092">Investors Lounge</h2>
                     </div>
                   </div>
                   <div className="blog-community1">
-                    <div className="blog-container43">
+                    <div className="blog-container45">
                       <h2 className="blog-text093">Community</h2>
-                      <div className="blog-container44">
+                      <div className="blog-container46">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -616,9 +618,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-ecosystem1">
-                    <div className="blog-container45">
+                    <div className="blog-container47">
                       <h2 className="blog-text097">Ecosystem dApps</h2>
-                      <div className="blog-container46">
+                      <div className="blog-container48">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -653,7 +655,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-radix-dlt1">
-                    <div className="blog-container47">
+                    <div className="blog-container49">
                       <h2 className="blog-text101">
                         <span>Runs on RADIX</span>
                         <br></br>
@@ -661,7 +663,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-about1">
-                    <div className="blog-container48">
+                    <div className="blog-container50">
                       <h2 className="blog-text104">
                         <span>About</span>
                         <br></br>
@@ -671,7 +673,7 @@ input[type="search"]::-webkit-search-results-decoration {
                 </div>
                 <div className="blog-side-nav">
                   <div className="blog-side-anchor-menu">
-                    <div className="blog-container49">
+                    <div className="blog-container51">
                       <h2 className="blog-text107">Read Article</h2>
                       <Link
                         to="/discover"
@@ -680,7 +682,7 @@ input[type="search"]::-webkit-search-results-decoration {
                         &lt; back to Discover
                       </Link>
                     </div>
-                    <div className="blog-container50">
+                    <div className="blog-container52">
                       <span className="blog-text108">All News</span>
                       <span className="blog-text109">
                         <span className="blog-text110">Announcements</span>
@@ -706,7 +708,7 @@ input[type="search"]::-webkit-search-results-decoration {
                   </div>
                   <div className="blog-features-sections">
                     <div className="blog-header-tablet">
-                      <div className="blog-container51">
+                      <div className="blog-container53">
                         <h3 className="blog-text120">
                           <span className="blog-text121">Mint Easily</span>
                           <span>
@@ -720,8 +722,8 @@ input[type="search"]::-webkit-search-results-decoration {
                           be Illustrated Avatars or Generative art.
                         </span>
                       </div>
-                      <div className="blog-container52">
-                        <div className="blog-container53">
+                      <div className="blog-container54">
+                        <div className="blog-container55">
                           <h3 className="blog-text124">News &amp; Insights</h3>
                           <Link to="/discover" className="blog-navlink11">
                             &lt; back to Discover
@@ -730,7 +732,7 @@ input[type="search"]::-webkit-search-results-decoration {
                       </div>
                     </div>
                     <div className="blog-section">
-                      <div className="blog-container54">
+                      <div className="blog-container56">
                         <h3 className="blog-text125">
                           <span className="blog-text126">Mint Easily</span>
                           <span>
@@ -749,19 +751,19 @@ input[type="search"]::-webkit-search-results-decoration {
                           <div className="blog-image-container"></div>
                         </Link>
                       </div>
-                      <div className="blog-container55">
-                        <div className="blog-container56">
+                      <div className="blog-container57">
+                        <div className="blog-container58">
                           <Link to="/blog-post" className="blog-navlink13">
                             <h3 className="blog-text129">
                               Foton Roadmap and Vision
                             </h3>
                           </Link>
-                          <div className="blog-container57">
+                          <div className="blog-container59">
                             <span className="blog-text130">12 July 2023</span>
                             <span className="blog-text131">by Vlad B</span>
                           </div>
                         </div>
-                        <div className="blog-container58">
+                        <div className="blog-container60">
                           <button type="button" className="blog-tag">
                             Announcements
                           </button>
@@ -781,7 +783,7 @@ input[type="search"]::-webkit-search-results-decoration {
                       </div>
                     </div>
                     <div className="blog-section1">
-                      <div className="blog-container59">
+                      <div className="blog-container61">
                         <h3 className="blog-text132">
                           <span className="blog-text133">Mint Easily</span>
                           <span>
@@ -798,17 +800,17 @@ input[type="search"]::-webkit-search-results-decoration {
                       <div className="blog-left-column1">
                         <div className="blog-image-container1"></div>
                       </div>
-                      <div className="blog-container60">
-                        <div className="blog-container61">
+                      <div className="blog-container62">
+                        <div className="blog-container63">
                           <h3 className="blog-text136">
                             The State of Digital Assets in the Radix Ecosystem
                           </h3>
-                          <div className="blog-container62">
+                          <div className="blog-container64">
                             <span className="blog-text137">12 July 2023</span>
                             <span className="blog-text138">by Vlad B</span>
                           </div>
                         </div>
-                        <div className="blog-container63">
+                        <div className="blog-container65">
                           <button type="button" className="blog-button01">
                             Announcements
                           </button>
@@ -825,7 +827,7 @@ input[type="search"]::-webkit-search-results-decoration {
                       </div>
                     </div>
                     <div className="blog-section2">
-                      <div className="blog-container64">
+                      <div className="blog-container66">
                         <h3 className="blog-text139">
                           <span className="blog-text140">Mint Easily</span>
                           <span>
@@ -842,15 +844,15 @@ input[type="search"]::-webkit-search-results-decoration {
                       <div className="blog-left-column2">
                         <div className="blog-image-container2"></div>
                       </div>
-                      <div className="blog-container65">
-                        <div className="blog-container66">
+                      <div className="blog-container67">
+                        <div className="blog-container68">
                           <h3 className="blog-text143">Roadmap and Vision</h3>
-                          <div className="blog-container67">
+                          <div className="blog-container69">
                             <span className="blog-text144">12 July 2023</span>
                             <span className="blog-text145">by Vlad B</span>
                           </div>
                         </div>
-                        <div className="blog-container68">
+                        <div className="blog-container70">
                           <button type="button" className="blog-button05">
                             Announcements
                           </button>
@@ -873,7 +875,7 @@ input[type="search"]::-webkit-search-results-decoration {
                       </div>
                     </div>
                     <div className="blog-section3">
-                      <div className="blog-container69">
+                      <div className="blog-container71">
                         <h3 className="blog-text146">
                           <span className="blog-text147">Mint Easily</span>
                           <span>
@@ -890,17 +892,17 @@ input[type="search"]::-webkit-search-results-decoration {
                       <div className="blog-left-column3">
                         <div className="blog-image-container3"></div>
                       </div>
-                      <div className="blog-container70">
-                        <div className="blog-container71">
+                      <div className="blog-container72">
+                        <div className="blog-container73">
                           <h3 className="blog-text150">
                             Foton Roadmap and Vision
                           </h3>
-                          <div className="blog-container72">
+                          <div className="blog-container74">
                             <span className="blog-text151">12 July 2023</span>
                             <span className="blog-text152">by Vlad B</span>
                           </div>
                         </div>
-                        <div className="blog-container73">
+                        <div className="blog-container75">
                           <button type="button" className="blog-button11">
                             Announcements
                           </button>
@@ -923,7 +925,7 @@ input[type="search"]::-webkit-search-results-decoration {
                       </div>
                     </div>
                     <div className="blog-section4">
-                      <div className="blog-container74">
+                      <div className="blog-container76">
                         <h3 className="blog-text153">
                           <span className="blog-text154">Mint Easily</span>
                           <span>
@@ -940,17 +942,17 @@ input[type="search"]::-webkit-search-results-decoration {
                       <div className="blog-left-column4">
                         <div className="blog-image-container4"></div>
                       </div>
-                      <div className="blog-container75">
-                        <div className="blog-container76">
+                      <div className="blog-container77">
+                        <div className="blog-container78">
                           <h3 className="blog-text157">
                             Foton Roadmap and Vision
                           </h3>
-                          <div className="blog-container77">
+                          <div className="blog-container79">
                             <span className="blog-text158">12 July 2023</span>
                             <span className="blog-text159">by Vlad B</span>
                           </div>
                         </div>
-                        <div className="blog-container78">
+                        <div className="blog-container80">
                           <button type="button" className="blog-button17">
                             Announcements
                           </button>
@@ -976,7 +978,7 @@ input[type="search"]::-webkit-search-results-decoration {
                 </div>
                 <div className="blog-pinned-news">
                   <div className="blog-slot">
-                    <div className="blog-container79">
+                    <div className="blog-container81">
                       <h2 className="blog-heading2">Pinned by team</h2>
                       <img
                         alt="image"
@@ -986,7 +988,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-slot1">
-                    <div className="blog-container80">
+                    <div className="blog-container82">
                       <h2 className="blog-heading3">
                         Foton NFT Minting starts on Radix Babylon
                         <span
@@ -995,7 +997,7 @@ input[type="search"]::-webkit-search-results-decoration {
                           }}
                         />
                       </h2>
-                      <div className="blog-container81">
+                      <div className="blog-container83">
                         <div className="blog-info-bubble29">
                           <span className="blog-text160">
                             Early October 2023

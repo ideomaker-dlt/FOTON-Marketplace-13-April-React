@@ -288,6 +288,15 @@
   border-radius: var(--dl-radius-radius-round);
   background-color: none;
 }
+.icon-row-header {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 .Content16SemiBold {
   font-size: 16px;
   font-family: Poppins;
@@ -431,6 +440,10 @@
   }
   .item-layer {
     border-radius: var(--dl-radius-radius-radius8);
+  }
+  .icon-row-header {
+    width: 30px;
+    height: 30px;
   }
 }
 @media(max-width: 479px) {

@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
+import Searchbar from './searchbar'
+import MobileSearch from './mobile-search'
+import CartDrawer from './cart-drawer'
 import SideMenu from './side-menu'
 import Footer from './footer'
 import './layout-with-sidebar.css'
@@ -23,56 +25,13 @@ const LayoutWithSidebar = (props) => {
           <Link to="/" className="layout-with-sidebar-navlink">
             <div className="layout-with-sidebar-logo-container"></div>
           </Link>
-          <div className="layout-with-sidebar-searchbar">
-            <form className="layout-with-sidebar-form">
-              <button className="layout-with-sidebar-button button">
-                <svg
-                  viewBox="0 0 1024 1024"
-                  className="layout-with-sidebar-icon1"
-                >
-                  <path
-                    d="M684.416 676.523c-1.451 1.109-2.859 2.347-4.224 3.712s-2.56 2.731-3.712 4.224c-53.675 51.755-126.677 83.541-207.147 83.541-82.475 0-157.099-33.365-211.2-87.467s-87.467-128.725-87.467-211.2 33.365-157.099 87.467-211.2 128.725-87.467 211.2-87.467 157.099 33.365 211.2 87.467 87.467 128.725 87.467 211.2c0 80.469-31.787 153.472-83.584 207.189zM926.165 865.835l-156.8-156.8c52.523-65.707 83.968-149.035 83.968-239.701 0-106.027-43.008-202.069-112.469-271.531s-165.504-112.469-271.531-112.469-202.069 43.008-271.531 112.469-112.469 165.504-112.469 271.531 43.008 202.069 112.469 271.531 165.504 112.469 271.531 112.469c90.667 0 173.995-31.445 239.701-83.968l156.8 156.8c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"
-                    className=""
-                  ></path>
-                </svg>
-              </button>
-              <input
-                type="text"
-                id="mainsearch"
-                name="search-field"
-                placeholder="Search..."
-                className="layout-with-sidebar-textinput focus-reset Content18 input"
-              />
-              <div className="layout-with-sidebar-div">
-                <Script
-                  html={`<style>
-input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
-color: red;
-opacity: 1; /* Firefox */
-}
-
-::-ms-input-placeholder { /* Internet Explorer 10-11 */
-color: red;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-color: red;
-}
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
--webkit-appearance:none;
-}
-</style>`}
-                  className=""
-                ></Script>
-              </div>
-            </form>
-          </div>
+          <Searchbar className=""></Searchbar>
           <div className="layout-with-sidebar-wrapper-right">
             <div className="layout-with-sidebar-container-right">
               <div className="layout-with-sidebar-items">
+                <button className="layout-with-sidebar-button Content">
+                  Explore
+                </button>
                 <Link to="/drops" className="layout-with-sidebar-navlink01">
                   Drops
                 </Link>
@@ -83,42 +42,15 @@ input[type="search"]::-webkit-search-results-decoration {
                   Stats
                 </Link>
                 <Link
-                  to="/creator-studio"
-                  className="layout-with-sidebar-navlink03 Content"
-                >
-                  Create
-                </Link>
-                <Link
                   to="/discover"
-                  className="layout-with-sidebar-navlink04 Content"
+                  className="layout-with-sidebar-navlink03 Content"
                 >
                   Discover
                 </Link>
               </div>
             </div>
-            <div className="layout-with-sidebar-mobile-search">
-              <svg
-                viewBox="0 0 1024 1024"
-                className="layout-with-sidebar-icon3"
-              >
-                <path
-                  d="M684.416 676.523c-1.451 1.109-2.859 2.347-4.224 3.712s-2.56 2.731-3.712 4.224c-53.675 51.755-126.677 83.541-207.147 83.541-82.475 0-157.099-33.365-211.2-87.467s-87.467-128.725-87.467-211.2 33.365-157.099 87.467-211.2 128.725-87.467 211.2-87.467 157.099 33.365 211.2 87.467 87.467 128.725 87.467 211.2c0 80.469-31.787 153.472-83.584 207.189zM926.165 865.835l-156.8-156.8c52.523-65.707 83.968-149.035 83.968-239.701 0-106.027-43.008-202.069-112.469-271.531s-165.504-112.469-271.531-112.469-202.069 43.008-271.531 112.469-112.469 165.504-112.469 271.531 43.008 202.069 112.469 271.531 165.504 112.469 271.531 112.469c90.667 0 173.995-31.445 239.701-83.968l156.8 156.8c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331z"
-                  className=""
-                ></path>
-              </svg>
-            </div>
-            <div className="layout-with-sidebar-cart material-symbols-outlined">
-              <svg
-                viewBox="0 0 1024 1024"
-                className="layout-with-sidebar-icon5"
-              >
-                <path
-                  d="M469.333 896c0-23.552-9.6-44.928-25.003-60.331s-36.779-25.003-60.331-25.003-44.928 9.6-60.331 25.003-25.003 36.779-25.003 60.331 9.6 44.928 25.003 60.331 36.779 25.003 60.331 25.003 44.928-9.6 60.331-25.003 25.003-36.779 25.003-60.331zM938.667 896c0-23.552-9.6-44.928-25.003-60.331s-36.779-25.003-60.331-25.003-44.928 9.6-60.331 25.003-25.003 36.779-25.003 60.331 9.6 44.928 25.003 60.331 36.779 25.003 60.331 25.003 44.928-9.6 60.331-25.003 25.003-36.779 25.003-60.331zM308.096 298.667h621.653l-58.496 306.816c-1.963 9.728-7.083 18.133-14.165 24.235-7.68 6.656-17.621 10.496-29.355 10.283h-415.317c-9.899 0.128-19.243-3.029-26.709-8.661-8.107-6.101-14.037-14.976-16.171-25.728zM42.667 85.333h135.68l36.181 180.864c4.608 18.645 21.419 32.469 41.472 32.469h52.096l-17.067-85.333h-35.029c-23.552 0-42.667 19.115-42.667 42.667 0 2.261 0.171 4.48 0.512 6.613 0.171 1.195 0.427 2.432 0.725 3.584l71.296 356.139c6.357 32.043 24.277 59.008 48.64 77.269 22.229 16.725 49.92 26.155 79.104 25.728h414.123c31.915 0.64 62.080-11.136 85.12-31.019 21.077-18.176 36.181-43.221 42.027-71.808l68.352-358.485c4.395-23.168-10.752-45.483-33.92-49.92-2.773-0.555-5.547-0.811-7.979-0.768h-690.347l-35.84-179.029c-4.011-19.712-21.205-34.304-41.813-34.304h-170.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                  className=""
-                ></path>
-              </svg>
-              <span className="layout-with-sidebar-text">shopping_cart</span>
-            </div>
+            <MobileSearch className=""></MobileSearch>
+            <CartDrawer className=""></CartDrawer>
             <div className="layout-with-sidebar-mobile-menu">
               <div
                 data-thq="thq-dropdown"
@@ -130,7 +62,7 @@ input[type="search"]::-webkit-search-results-decoration {
                 >
                   <svg
                     viewBox="0 0 1024 1024"
-                    className="layout-with-sidebar-icon7"
+                    className="layout-with-sidebar-icon1"
                   >
                     <path
                       d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
@@ -150,28 +82,28 @@ input[type="search"]::-webkit-search-results-decoration {
                       data-thq="thq-dropdown-toggle"
                       className="layout-with-sidebar-user-persona"
                     >
-                      <span className="layout-with-sidebar-text01 material-symbols-outlined">
-                        account_circle
-                      </span>
+                      <div className="layout-with-sidebar-avatar"></div>
                       <div className="layout-with-sidebar-container2">
                         <span className="layout-with-sidebar-name">
                           Danoshi Hughemoto
                         </span>
                         <span className="layout-with-sidebar-radix-address">
-                          rdxdhsj...sdg765sg
+                          account...r78d7k
                         </span>
                       </div>
                     </div>
-                    <Link to="/collector-profile" className="">
+                    <Link to="/collector-hub" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-collector-profile"
                       >
-                        <span className="layout-with-sidebar-text02 material-symbols-outlined">
-                          category
-                        </span>
-                        <span className="layout-with-sidebar-text03">
-                          Collector Profile
+                        <img
+                          alt="image"
+                          src="/Icons Imported/category_300.svg"
+                          className="layout-with-sidebar-image"
+                        />
+                        <span className="layout-with-sidebar-text">
+                          Collector Hub
                         </span>
                       </div>
                     </Link>
@@ -180,10 +112,12 @@ input[type="search"]::-webkit-search-results-decoration {
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-creator-studio"
                       >
-                        <span className="layout-with-sidebar-text04 material-symbols-outlined">
-                          deblur
-                        </span>
-                        <span className="layout-with-sidebar-text05">
+                        <img
+                          alt="image"
+                          src="/Icons Imported/deblur.svg"
+                          className="layout-with-sidebar-image01"
+                        />
+                        <span className="layout-with-sidebar-text01">
                           Creator Studio
                         </span>
                       </div>
@@ -191,17 +125,34 @@ input[type="search"]::-webkit-search-results-decoration {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="layout-with-sidebar-user-settings list-item"
+                    className="layout-with-sidebar-higher-menu list-item"
                   >
                     <Link to="/drops" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-dropdown-toggle01"
                       >
-                        <span className="layout-with-sidebar-text06 material-symbols-outlined">
-                          water_drop
+                        <img
+                          alt="image"
+                          src="/Icons Imported/browse.svg"
+                          className="layout-with-sidebar-image02"
+                        />
+                        <span className="layout-with-sidebar-text02">
+                          Explore
                         </span>
-                        <span className="layout-with-sidebar-text07">
+                      </div>
+                    </Link>
+                    <Link to="/drops" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-dropdown-toggle02"
+                      >
+                        <img
+                          alt="image"
+                          src="/Icons Imported/water_drop.svg"
+                          className="layout-with-sidebar-image03"
+                        />
+                        <span className="layout-with-sidebar-text03">
                           Drops
                         </span>
                       </div>
@@ -209,12 +160,14 @@ input[type="search"]::-webkit-search-results-decoration {
                     <Link to="/stats" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="layout-with-sidebar-dropdown-toggle02"
+                        className="layout-with-sidebar-dropdown-toggle03"
                       >
-                        <span className="layout-with-sidebar-text08 material-symbols-outlined">
-                          insights
-                        </span>
-                        <span className="layout-with-sidebar-text09">
+                        <img
+                          alt="image"
+                          src="/Icons Imported/query_stats.svg"
+                          className="layout-with-sidebar-image04"
+                        />
+                        <span className="layout-with-sidebar-text04">
                           Stats
                         </span>
                       </div>
@@ -222,40 +175,48 @@ input[type="search"]::-webkit-search-results-decoration {
                     <Link to="/discover" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="layout-with-sidebar-dropdown-toggle03"
-                      >
-                        <span className="layout-with-sidebar-text10 material-symbols-outlined">
-                          grid_view
-                        </span>
-                        <span className="layout-with-sidebar-text11">More</span>
-                      </div>
-                    </Link>
-                    <Link to="/user-profile-settings" className="">
-                      <div
-                        data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-dropdown-toggle04"
                       >
-                        <span className="layout-with-sidebar-text12 material-symbols-outlined">
-                          manage_accounts
-                        </span>
-                        <span className="layout-with-sidebar-text13">
-                          Profile Settings
+                        <img
+                          alt="image"
+                          src="/Icons Imported/tactic1.svg"
+                          className="layout-with-sidebar-image05"
+                        />
+                        <span className="layout-with-sidebar-text05">
+                          Discover
                         </span>
                       </div>
                     </Link>
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="layout-with-sidebar-log-out list-item"
+                    className="layout-with-sidebar-lower-menu list-item"
                   >
+                    <Link to="/user-profile-settings" className="">
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="layout-with-sidebar-dropdown-toggle05"
+                      >
+                        <img
+                          alt="image"
+                          src="/Icons Imported/manage_accounts.svg"
+                          className="layout-with-sidebar-image06"
+                        />
+                        <span className="layout-with-sidebar-text06">
+                          Profile Settings
+                        </span>
+                      </div>
+                    </Link>
                     <div
                       data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle05"
+                      className="layout-with-sidebar-dropdown-toggle06"
                     >
-                      <span className="layout-with-sidebar-text14 material-symbols-outlined">
-                        logout
-                      </span>
-                      <span className="layout-with-sidebar-text15">
+                      <img
+                        alt="image"
+                        src="/Icons Imported/logout.svg"
+                        className="layout-with-sidebar-image07"
+                      />
+                      <span className="layout-with-sidebar-text07">
                         Log Out
                       </span>
                     </div>
@@ -264,7 +225,7 @@ input[type="search"]::-webkit-search-results-decoration {
               </div>
             </div>
             <div className="layout-with-sidebar-user">
-              <div className="layout-with-sidebar-avatar"></div>
+              <div className="layout-with-sidebar-avatar1"></div>
             </div>
             <div className="layout-with-sidebar-user1">
               <div
@@ -273,9 +234,9 @@ input[type="search"]::-webkit-search-results-decoration {
               >
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="layout-with-sidebar-dropdown-toggle06"
+                  className="layout-with-sidebar-dropdown-toggle07"
                 >
-                  <div className="layout-with-sidebar-avatar1"></div>
+                  <div className="layout-with-sidebar-avatar2"></div>
                 </div>
                 <ul
                   data-thq="thq-dropdown-list"
@@ -289,9 +250,7 @@ input[type="search"]::-webkit-search-results-decoration {
                       data-thq="thq-dropdown-toggle"
                       className="layout-with-sidebar-user-persona1"
                     >
-                      <span className="layout-with-sidebar-text16 material-symbols-outlined">
-                        account_circle
-                      </span>
+                      <div className="layout-with-sidebar-avatar3"></div>
                       <div className="layout-with-sidebar-container3">
                         <span className="layout-with-sidebar-name1">
                           Danoshi Hughemoto
@@ -301,16 +260,18 @@ input[type="search"]::-webkit-search-results-decoration {
                         </span>
                       </div>
                     </div>
-                    <Link to="/collector-profile" className="">
+                    <Link to="/collector-hub" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-collector-profile1"
                       >
-                        <span className="layout-with-sidebar-text17 material-symbols-outlined">
-                          category
-                        </span>
-                        <span className="layout-with-sidebar-text18">
-                          Collector Profile
+                        <img
+                          alt="image"
+                          src="/Icons Imported/category_300.svg"
+                          className="layout-with-sidebar-image08"
+                        />
+                        <span className="layout-with-sidebar-text08">
+                          Collector Hub
                         </span>
                       </div>
                     </Link>
@@ -319,10 +280,12 @@ input[type="search"]::-webkit-search-results-decoration {
                         data-thq="thq-dropdown-toggle"
                         className="layout-with-sidebar-creator-studio1"
                       >
-                        <span className="layout-with-sidebar-text19 material-symbols-outlined">
-                          deblur
-                        </span>
-                        <span className="layout-with-sidebar-text20">
+                        <img
+                          alt="image"
+                          src="/Icons Imported/deblur.svg"
+                          className="layout-with-sidebar-image09"
+                        />
+                        <span className="layout-with-sidebar-text09">
                           Creator Studio
                         </span>
                       </div>
@@ -330,17 +293,19 @@ input[type="search"]::-webkit-search-results-decoration {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="layout-with-sidebar-user-settings1 list-item"
+                    className="layout-with-sidebar-user-settings list-item"
                   >
                     <Link to="/user-profile-settings" className="">
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="layout-with-sidebar-dropdown-toggle07"
+                        className="layout-with-sidebar-dropdown-toggle08"
                       >
-                        <span className="layout-with-sidebar-text21 material-symbols-outlined">
-                          manage_accounts
-                        </span>
-                        <span className="layout-with-sidebar-text22">
+                        <img
+                          alt="image"
+                          src="/Icons Imported/manage_accounts.svg"
+                          className="layout-with-sidebar-image10"
+                        />
+                        <span className="layout-with-sidebar-text10">
                           Profile Settings
                         </span>
                       </div>
@@ -348,16 +313,18 @@ input[type="search"]::-webkit-search-results-decoration {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="layout-with-sidebar-log-out1 list-item"
+                    className="layout-with-sidebar-log-out list-item"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle08"
+                      className="layout-with-sidebar-dropdown-toggle09"
                     >
-                      <span className="layout-with-sidebar-text23 material-symbols-outlined">
-                        logout
-                      </span>
-                      <span className="layout-with-sidebar-text24">
+                      <img
+                        alt="image"
+                        src="/Icons Imported/login.svg"
+                        className="layout-with-sidebar-image11"
+                      />
+                      <span className="layout-with-sidebar-text11">
                         Log Out
                       </span>
                     </div>
@@ -372,15 +339,15 @@ input[type="search"]::-webkit-search-results-decoration {
               >
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="layout-with-sidebar-dropdown-toggle09"
+                  className="layout-with-sidebar-dropdown-toggle10"
                 >
                   <div className="layout-with-sidebar-content">
                     <img
                       alt="image"
                       src="/group%20489.svg"
-                      className="layout-with-sidebar-image"
+                      className="layout-with-sidebar-image12"
                     />
-                    <span className="layout-with-sidebar-text25">Connect</span>
+                    <span className="layout-with-sidebar-text12">Connect</span>
                   </div>
                 </div>
                 <ul
@@ -404,16 +371,16 @@ input[type="search"]::-webkit-search-results-decoration {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="layout-with-sidebar-user-settings2 list-item"
+                    className="layout-with-sidebar-user-settings1 list-item"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
-                      className="layout-with-sidebar-dropdown-toggle10"
+                      className="layout-with-sidebar-dropdown-toggle11"
                     ></div>
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="layout-with-sidebar-log-out2 list-item"
+                    className="layout-with-sidebar-log-out1 list-item"
                   ></li>
                 </ul>
               </div>
@@ -430,8 +397,8 @@ input[type="search"]::-webkit-search-results-decoration {
               text2="Settings"
               text3="Settings"
               text4="Analytics"
-              imageSrc1="/tune.svg"
-              imageSrc2="/chart_data.svg"
+              image_src1="/tune.svg"
+              image_src2="/chart_data.svg"
               rootClassName="side-menu-root-class-name5"
               className=""
             ></SideMenu>

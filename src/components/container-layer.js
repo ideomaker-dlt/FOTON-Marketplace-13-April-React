@@ -75,9 +75,10 @@ const ContainerLayer = (props) => {
                 </div>
               </div>
               <div className="container-layer-container03">
-                <div className="container-layer-code-embed">
-                  <Script
-                    html={`<style>
+                <div className="">
+                  <div className="container-layer-container05">
+                    <Script
+                      html={`<style>
   
 /* width */
 #appOverlay::-webkit-scrollbar {
@@ -121,8 +122,9 @@ const ContainerLayer = (props) => {
 
 
 </style>`}
-                    className=""
-                  ></Script>
+                      className=""
+                    ></Script>
+                  </div>
                 </div>
                 <div className="container-layer-field">
                   <label className="container-layer-text07 padding-4px-left">
@@ -139,7 +141,7 @@ const ContainerLayer = (props) => {
                   <label className="container-layer-text08">
                     Layer Rarity within collection:
                   </label>
-                  <div className="container-layer-container04">
+                  <div className="container-layer-container06">
                     <input
                       type="text"
                       enctype="The Funky Apes Crew..."
@@ -147,9 +149,10 @@ const ContainerLayer = (props) => {
                       className="container-layer-textinput01 focus-reset-forms Content16SemiBold input"
                     />
                     <div className="container-layer-slider">
-                      <div className="container-layer-code-embed02">
-                        <Script
-                          html={`
+                      <div className="">
+                        <div className="container-layer-container08">
+                          <Script
+                            html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -284,27 +287,28 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                          className=""
-                        ></Script>
+                            className=""
+                          ></Script>
+                        </div>
                       </div>
                       <span className="container-layer-percentage-value-start">
-                        {props.rarityPercentage}
+                        {props.RarityPercentage}
                       </span>
                       <input
                         type="range"
                         id="range"
-                        placeholder={props.textinputPlaceholder}
+                        placeholder={props.textinput_placeholder}
                         className="container-layer-textinput02 range range2"
                       />
                       <span className="container-layer-percentage-value-end">
-                        {props.rarityPercentage2}
+                        {props.RarityPercentage2}
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="container-layer-layer-items-treats">
                   <div className="container-layer-tabs-row">
-                    <div className="container-layer-container05">
+                    <div className="container-layer-container09">
                       <span className="container-layer-text09">
                         &lt; go back
                       </span>
@@ -457,19 +461,19 @@ sliderEl.addEventListener("input", (event) => {
                     </div>
                   </div>
                   <div className="container-layer-tabs-row1">
-                    <div className="container-layer-container06">
-                      <div className="container-layer-container07">
+                    <div className="container-layer-container10">
+                      <div className="container-layer-container11">
                         <span className="container-layer-text35 Labels13CAPS">
                           Open
                         </span>
                       </div>
-                      <div className="container-layer-container08">
+                      <div className="container-layer-container12">
                         <span className="container-layer-text36 Labels13CAPS">
                           name
                         </span>
                       </div>
                     </div>
-                    <div className="container-layer-container09">
+                    <div className="container-layer-container13">
                       <span className="container-layer-text37 Labels13CAPS">
                         Rarity
                         <span
@@ -494,9 +498,9 @@ sliderEl.addEventListener("input", (event) => {
                       </div>
                     </div>
                   </div>
-                  <div className="container-layer-container10">
+                  <div className="container-layer-container14">
                     <div className="container-layer-row-image">
-                      <div className="container-layer-container11">
+                      <div className="container-layer-container15">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox"
@@ -509,7 +513,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput03 focus-reset-forms input Content16SemiBold"
                         />
                       </div>
-                      <div className="container-layer-container12">
+                      <div className="container-layer-container16">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -547,9 +551,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end1">
                             100%
                           </span>
-                          <div className="container-layer-code-embed04">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container18">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -684,14 +689,15 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="container-layer-row-image1">
-                      <div className="container-layer-container13">
+                      <div className="container-layer-container19">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox1"
@@ -704,7 +710,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput06 focus-reset-forms Content16SemiBold input"
                         />
                       </div>
-                      <div className="container-layer-container14">
+                      <div className="container-layer-container20">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -742,9 +748,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end2">
                             100%
                           </span>
-                          <div className="container-layer-code-embed06">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container22">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -879,14 +886,15 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="container-layer-row-image2">
-                      <div className="container-layer-container15">
+                      <div className="container-layer-container23">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox2"
@@ -899,7 +907,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput09 focus-reset-forms Content16SemiBold input"
                         />
                       </div>
-                      <div className="container-layer-container16">
+                      <div className="container-layer-container24">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -937,9 +945,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end3">
                             100%
                           </span>
-                          <div className="container-layer-code-embed08">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container26">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1074,14 +1083,15 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="container-layer-row-image3">
-                      <div className="container-layer-container17">
+                      <div className="container-layer-container27">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox3"
@@ -1094,7 +1104,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput12 focus-reset-forms Content16SemiBold input"
                         />
                       </div>
-                      <div className="container-layer-container18">
+                      <div className="container-layer-container28">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1132,9 +1142,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end4">
                             100%
                           </span>
-                          <div className="container-layer-code-embed10">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container30">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1269,14 +1280,15 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="container-layer-row-image4">
-                      <div className="container-layer-container19">
+                      <div className="container-layer-container31">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox4"
@@ -1289,7 +1301,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput15 focus-reset-forms input Content16SemiBold"
                         />
                       </div>
-                      <div className="container-layer-container20">
+                      <div className="container-layer-container32">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1327,9 +1339,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end5">
                             100%
                           </span>
-                          <div className="container-layer-code-embed12">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container34">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1464,14 +1477,15 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="container-layer-row-image5">
-                      <div className="container-layer-container21">
+                      <div className="container-layer-container35">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox5"
@@ -1484,7 +1498,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput18 focus-reset-forms Content16SemiBold input"
                         />
                       </div>
-                      <div className="container-layer-container22">
+                      <div className="container-layer-container36">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1522,9 +1536,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end6">
                             100%
                           </span>
-                          <div className="container-layer-code-embed14">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container38">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1659,14 +1674,15 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="container-layer-row-image6">
-                      <div className="container-layer-container23">
+                      <div className="container-layer-container39">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox6"
@@ -1679,7 +1695,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput21 focus-reset-forms Content16SemiBold input"
                         />
                       </div>
-                      <div className="container-layer-container24">
+                      <div className="container-layer-container40">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1717,9 +1733,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end7">
                             100%
                           </span>
-                          <div className="container-layer-code-embed16">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container42">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -1854,14 +1871,15 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="container-layer-row-image7">
-                      <div className="container-layer-container25">
+                      <div className="container-layer-container43">
                         <input
                           type="checkbox"
                           className="container-layer-checkbox7"
@@ -1874,7 +1892,7 @@ sliderEl.addEventListener("input", (event) => {
                           className="container-layer-textinput24 focus-reset-forms Content16SemiBold input"
                         />
                       </div>
-                      <div className="container-layer-container26">
+                      <div className="container-layer-container44">
                         <input
                           type="text"
                           enctype="The Funky Apes Crew..."
@@ -1912,9 +1930,10 @@ sliderEl.addEventListener("input", (event) => {
                           <span className="container-layer-percentage-value-end8">
                             100%
                           </span>
-                          <div className="container-layer-code-embed18">
-                            <Script
-                              html={`
+                          <div className="">
+                            <div className="container-layer-container46">
+                              <Script
+                                html={`
 <style>
 input[type="range"] {
   /* removing default appearance */
@@ -2049,8 +2068,9 @@ sliderEl.addEventListener("input", (event) => {
 
 // progressScript()
 </script>`}
-                              className=""
-                            ></Script>
+                                className=""
+                              ></Script>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -2068,17 +2088,17 @@ sliderEl.addEventListener("input", (event) => {
 
 ContainerLayer.defaultProps = {
   text: 'Randomize',
-  textinputPlaceholder: 'placeholder',
-  rarityPercentage2: '100%',
-  rarityPercentage: '0%',
+  textinput_placeholder: 'placeholder',
+  RarityPercentage2: '100%',
+  RarityPercentage: '0%',
   rootClassName: '',
 }
 
 ContainerLayer.propTypes = {
   text: PropTypes.string,
-  textinputPlaceholder: PropTypes.string,
-  rarityPercentage2: PropTypes.string,
-  rarityPercentage: PropTypes.string,
+  textinput_placeholder: PropTypes.string,
+  RarityPercentage2: PropTypes.string,
+  RarityPercentage: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 

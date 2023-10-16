@@ -1,6 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom'
 
 import './style.css'
 import Features from './views/features'
@@ -12,8 +17,10 @@ import AddCollection2LayeredGenerate from './views/add-collection2-layered-gener
 import CollectionDropPageTeam from './views/collection-drop-page-team'
 import AddCollection1 from './views/add-collection1'
 import Blog from './views/blog'
+import CreatorStudioTeamsRolePermissions from './views/creator-studio-teams-role-permissions'
 import UserProfileSettings from './views/user-profile-settings'
 import AddCollection2LayeredOrganise from './views/add-collection2-layered-organise'
+import CreatorStudioTeamsRoleBadges from './views/creator-studio-teams-role-badges'
 import AddCollection2Layered from './views/add-collection2-layered'
 import CreatorStudioCollection from './views/creator-studio-collection'
 import ImportCollection from './views/import-collection'
@@ -24,17 +31,18 @@ import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-
 import AddCollectionTemplates from './views/add-collection-templates'
 import CreatorStudio from './views/creator-studio'
 import CollectorProfileFollowers from './views/collector-profile-followers'
+import CreatorStudioTeamsRolePreview from './views/creator-studio-teams-role-preview'
 import AddUnLayeredBatch from './views/add-un-layered-batch'
 import Stats from './views/stats'
 import Discover from './views/discover'
 import AddItemsSets from './views/add-items-sets'
 import PublishCollection from './views/publish-collection'
-import CollectorProfile from './views/collector-profile'
+import CollectorHub from './views/collector-hub'
 import AddProject from './views/add-project'
 import Home from './views/home'
 import BlogPost from './views/blog-post'
 import CreatorStudioProject from './views/creator-studio-project'
-import CreatorStudioProjectTeams from './views/creator-studio-project-teams'
+import CreatorStudioTeams from './views/creator-studio-teams'
 import ItemPage from './views/item-page'
 import CollectionDropPage from './views/collection-drop-page'
 import NotFound from './views/not-found'
@@ -42,7 +50,7 @@ import NotFound from './views/not-found'
 const App = () => {
   return (
     <Router>
-      <div>
+      <Switch>
         <Route component={Features} exact path="/features" />
         <Route
           component={AddItemsTemplates}
@@ -69,6 +77,11 @@ const App = () => {
         <Route component={AddCollection1} exact path="/add-collection1" />
         <Route component={Blog} exact path="/blog" />
         <Route
+          component={CreatorStudioTeamsRolePermissions}
+          exact
+          path="/creator-studio-teams-role-permissions"
+        />
+        <Route
           component={UserProfileSettings}
           exact
           path="/user-profile-settings"
@@ -77,6 +90,11 @@ const App = () => {
           component={AddCollection2LayeredOrganise}
           exact
           path="/add-collection2-layered-organise"
+        />
+        <Route
+          component={CreatorStudioTeamsRoleBadges}
+          exact
+          path="/creator-studio-teams-role-badges"
         />
         <Route
           component={AddCollection2Layered}
@@ -117,6 +135,11 @@ const App = () => {
           path="/collector-profile-followers"
         />
         <Route
+          component={CreatorStudioTeamsRolePreview}
+          exact
+          path="/creator-studio-teams-role-preview"
+        />
+        <Route
           component={AddUnLayeredBatch}
           exact
           path="/add-un-layered-batch"
@@ -125,7 +148,7 @@ const App = () => {
         <Route component={Discover} exact path="/discover" />
         <Route component={AddItemsSets} exact path="/add-items-sets" />
         <Route component={PublishCollection} exact path="/publish-collection" />
-        <Route component={CollectorProfile} exact path="/collector-profile" />
+        <Route component={CollectorHub} exact path="/collector-hub" />
         <Route component={AddProject} exact path="/add-project" />
         <Route component={Home} exact path="/" />
         <Route component={BlogPost} exact path="/blog-post" />
@@ -135,9 +158,9 @@ const App = () => {
           path="/creator-studio-project"
         />
         <Route
-          component={CreatorStudioProjectTeams}
+          component={CreatorStudioTeams}
           exact
-          path="/creator-studio-project-teams"
+          path="/creator-studio-teams"
         />
         <Route component={ItemPage} exact path="/item-page" />
         <Route
@@ -146,7 +169,8 @@ const App = () => {
           path="/collection-drop-page"
         />
         <Route component={NotFound} path="**" />
-      </div>
+        <Redirect to="**" />
+      </Switch>
     </Router>
   )
 }

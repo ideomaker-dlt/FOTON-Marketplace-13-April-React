@@ -49,7 +49,7 @@
   padding-right: 0px;
   flex-direction: column;
 }
-.collection-page-container1 {
+.collection-page-container01 {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-self: flex-start;
@@ -79,7 +79,7 @@
   border-width: 2px;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.collection-page-container2 {
+.collection-page-container02 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: auto;
@@ -100,7 +100,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collection-page-container3 {
+.collection-page-container03 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: flex-start;
@@ -126,7 +126,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collection-page-container4 {
+.collection-page-container04 {
   gap: var(--dl-space-space-twounits);
   width: auto;
   display: flex;
@@ -144,7 +144,7 @@
   border-radius: var(--dl-radius-radius-radius12);
   flex-direction: column;
 }
-.collection-page-container5 {
+.collection-page-container05 {
   gap: 4px;
   width: 100%;
   display: flex;
@@ -168,7 +168,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.collection-page-container6 {
+.collection-page-container06 {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -349,7 +349,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.collection-page-container7 {
+.collection-page-container07 {
   gap: var(--dl-space-space-halfunit);
   top: 0px;
   flex: 0 0 auto;
@@ -928,7 +928,7 @@
   padding-right: var(--dl-space-space-halfunit);
   background-color: transparent;
 }
-.collection-page-div {
+.collection-page-container09 {
   display: contents;
 }
 .collection-page-filter-buttons1 {
@@ -1371,7 +1371,7 @@
   font-style: normal;
   font-weight: 600;
 }
-.collection-page-container8 {
+.collection-page-container10 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -1396,10 +1396,10 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .collection-page-container1 {
+  .collection-page-container01 {
     flex-direction: column;
   }
-  .collection-page-container2 {
+  .collection-page-container02 {
     padding-top: var(--dl-space-space-halfunit);
   }
   .collection-page-text13 {
@@ -1432,7 +1432,7 @@
   .collection-page-text24 {
     color: var(--dl-color-dark-gray-400);
   }
-  .collection-page-container7 {
+  .collection-page-container07 {
     top: 170px;
     margin: auto;
   }
@@ -1458,13 +1458,13 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .collection-page-container1 {
+  .collection-page-container01 {
     gap: var(--dl-space-space-unit);
     align-self: flex-start;
     margin-left: 0px;
     flex-direction: column;
   }
-  .collection-page-container2 {
+  .collection-page-container02 {
     gap: var(--dl-space-space-halfunit);
     height: auto;
     padding-top: var(--dl-space-space-halfunit);
@@ -1472,7 +1472,7 @@
   .collection-page-text {
     font-size: 22px;
   }
-  .collection-page-container4 {
+  .collection-page-container04 {
     gap: var(--dl-space-space-unit);
     align-self: flex-start;
   }
@@ -1481,7 +1481,7 @@
     height: auto;
     padding-top: 0px;
   }
-  .collection-page-container5 {
+  .collection-page-container05 {
     gap: 2px;
   }
   .collection-page-timeframe {
@@ -1534,7 +1534,7 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .collection-page-container1 {
+  .collection-page-container01 {
     gap: var(--dl-space-space-halfunit);
     align-self: flex-start;
     align-items: center;
@@ -1545,7 +1545,7 @@
     height: 100px;
     align-self: flex-start;
   }
-  .collection-page-container2 {
+  .collection-page-container02 {
     gap: var(--dl-space-space-halfunit);
     height: auto;
     padding-top: var(--dl-space-space-halfunit);
@@ -1559,7 +1559,7 @@
   .collection-page-text04 {
     font-size: 13px;
   }
-  .collection-page-container4 {
+  .collection-page-container04 {
     gap: var(--dl-space-space-halfunit);
     align-self: flex-start;
     align-items: center;
@@ -1570,7 +1570,7 @@
     height: auto;
     padding-top: 0px;
   }
-  .collection-page-container5 {
+  .collection-page-container05 {
     gap: 2px;
   }
   .collection-page-text07 {
@@ -1677,7 +1677,7 @@
   .collection-page-text24 {
     font-size: 13px;
   }
-  .collection-page-container7 {
+  .collection-page-container07 {
     top: 80px;
   }
   .collection-page-button {

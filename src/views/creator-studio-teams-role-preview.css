@@ -1,0 +1,1531 @@
+.creator-studio-teams-role-preview-container {
+  width: 100%;
+  display: flex;
+  overflow: visible;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-role-preview-header-creator {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 15px 10px -10px rgba(0, 0, 0, 0.3);
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-twounits);
+  margin-right: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius12);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: b8cd8a96-d49e-4cdc-93a0-8ef672883acf;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.creator-studio-teams-role-preview-gray-overlay {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius12);
+  justify-content: center;
+  background-image: linear-gradient(135deg, rgb(47, 47, 47) 37.00%,rgba(44, 62, 80, 0) 100.00%);
+}
+.creator-studio-teams-role-preview-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.creator-studio-teams-role-preview-container02 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-self: center;
+}
+.creator-studio-teams-role-preview-container03 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: column;
+}
+.creator-studio-teams-role-preview-text {
+  color: var(--dl-color-dark-white);
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-role-preview-text01 {
+  color: var(--dl-color-dark-purplebright);
+  font-size: 18px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-role-preview-text03 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-text05 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-buttons {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: none;
+  align-self: flex-end;
+  align-items: flex-start;
+  padding-top: 0px;
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+}
+.creator-studio-teams-role-preview-button {
+  color: var(--dl-color-dark-white);
+  height: 50px;
+  display: flex;
+  font-size: 18px;
+  align-self: flex-end;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  font-style: normal;
+  text-align: center;
+  transition: 0;
+  font-weight: 600;
+  padding-top: 11px;
+  border-color: var(--dl-color-dark-green-200);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-twounits);
+  align-content: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 11px;
+  background-color: var(--dl-color-dark-darkergreenhighlight);
+}
+.creator-studio-teams-role-preview-button:hover {
+  background-color: var(--dl-color-dark-darkergreen);
+}
+.creator-studio-teams-role-preview-container04 {
+  gap: var(--dl-space-space-halfunit);
+  top: 32px;
+  right: 32px;
+  z-index: 200;
+  position: absolute;
+  align-items: center;
+}
+.creator-studio-teams-role-preview-category {
+  cursor: pointer;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-role-preview-dropdown-toggle {
+  width: 100%;
+  height: 40px;
+  display: inline-flex;
+  opacity: 0.6;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: 12px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 12px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-role-preview-dropdown-toggle:hover {
+  opacity: 1;
+}
+.creator-studio-teams-role-preview-text11 {
+  color: var(--dl-color-dark-white);
+  display: none;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.creator-studio-teams-role-preview-dropdown-arrow {
+  display: flex;
+  transition: 0.1s;
+}
+.creator-studio-teams-role-preview-icon {
+  fill: var(--dl-color-dark-white);
+  width: 22px;
+  height: 22px;
+  opacity: 1;
+  padding-top: 2px;
+}
+.creator-studio-teams-role-preview-icon02 {
+  width: 24px;
+  height: 24px;
+  display: none;
+}
+.creator-studio-teams-role-preview-dropdown-list {
+  right: 0%;
+  width: 240px;
+  display: none;
+  z-index: 100000;
+  position: absolute;
+  min-width: 100%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  align-items: stretch;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  list-style-type: none;
+  background-color: var(--dl-color-dark-gray-360);
+  list-style-position: inside;
+}
+.creator-studio-teams-role-preview-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-role-preview-dropdown-toggle1 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 2px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-role-preview-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-text12 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: 2px;
+}
+.creator-studio-teams-role-preview-dropdown-toggle2 {
+  fill: #595959;
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  display: inline-flex;
+  transition: 0.05s;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-role-preview-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-text13 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-tabs-row {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-role-preview-container05 {
+  gap: var(--dl-space-space-twounits);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-role-preview-navlink {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  transition: 0.05s;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-preview-navlink:hover {
+  color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-role-preview-container06 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+.creator-studio-teams-role-preview-text14 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  transition: 0.05s;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-preview-text14:hover {
+  color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-role-preview-text15 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-preview-text16 {
+  color: var(--dl-color-dark-white);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-green-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-preview-navlink1 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-preview-navlink1:hover {
+  color: var(--dl-color-dark-white);
+  border-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-role-preview-navlink2 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-preview-navlink2:hover {
+  color: var(--dl-color-dark-white);
+  border-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-role-preview-roles-container {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  margin: TwoUnits;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit);
+  margin-right: 0px;
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius12);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-role-preview-container07 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  grid-template-columns: 1fr;
+}
+.creator-studio-teams-role-preview-define-role {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: 20px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role-preview-text17 {
+  color: var(--dl-color-dark-gray-400);
+  width: 100%;
+  display: none;
+  padding-left: var(--dl-space-space-halfunit);
+}
+.creator-studio-teams-role-preview-container08 {
+  gap: var(--dl-space-space-twounits);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.creator-studio-teams-role-preview-badge-preview {
+  gap: 12px;
+  width: 500px;
+  display: flex;
+  align-items: stretch;
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: column;
+  background-color: var(--dl-color-dark-gray-350);
+}
+.creator-studio-teams-role-preview-image-preview {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  align-items: stretch;
+}
+.creator-studio-teams-role-preview-gray-background {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  aspect-ratio: 1/1;
+  border-radius: var(--dl-radius-radius-radius12);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-preview-image-badge {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-radius: var(--dl-radius-radius-radius12);
+  background-size: cover;
+  background-image: url("/art_3.0_ninja__2d__game_character_._cevtore_style__t_pose_00ed9e8d-9bd5-4d11-be76-c73a71e6f04e-1500w.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.creator-studio-teams-role-preview-watermark-container {
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 50%;
+  bottom: 8%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.creator-studio-teams-role-preview-watermark-foton-image {
+  width: 100%;
+  object-fit: cover;
+}
+.creator-studio-teams-role-preview-info-badge {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.creator-studio-teams-role-preview-text18 {
+  color: var(--dl-color-dark-white);
+  font-size: 20px;
+  font-family: Poppins;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-role-preview-text19 {
+  color: var(--dl-color-dark-white);
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.creator-studio-teams-role-preview-container09 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.creator-studio-teams-role-preview-container10 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  flex-direction: row;
+  padding-bottom: 2px;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-role-preview-text20 {
+  color: var(--dl-color-dark-gray-400);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.creator-studio-teams-role-preview-text21 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-container11 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  flex-direction: row;
+  padding-bottom: 2px;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-role-preview-text22 {
+  color: var(--dl-color-dark-gray-400);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.creator-studio-teams-role-preview-text23 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-container12 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  flex-direction: row;
+  padding-bottom: 2px;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-role-preview-text24 {
+  color: var(--dl-color-dark-gray-400);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.creator-studio-teams-role-preview-text25 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-container13 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  flex-direction: row;
+  padding-bottom: 2px;
+  justify-content: space-between;
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-role-preview-text26 {
+  color: var(--dl-color-dark-gray-400);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.creator-studio-teams-role-preview-text27 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-container14 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-bottom: 2px;
+  justify-content: space-between;
+}
+.creator-studio-teams-role-preview-text28 {
+  color: var(--dl-color-dark-gray-400);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.creator-studio-teams-role-preview-text29 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-fields {
+  gap: var(--dl-space-space-twounits);
+  flex: 3;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-preview-header-label {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-upload-image-field {
+  gap: 12px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.creator-studio-teams-role-preview-container15 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.creator-studio-teams-role-preview-text30 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-text33 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-container16 {
+  gap: 0;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-preview-textinput {
+  color: var(--dl-color-dark-white);
+  width: 100%;
+  height: 50px;
+  transition: 0.3s;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-dark-gray-300);
+  border-right-width: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.creator-studio-teams-role-preview-textinput:focus {
+  border-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-button1 {
+  gap: 4px;
+  color: var(--dl-color-dark-white);
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-self: center;
+  transition: 0.1s;
+  align-items: center;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.creator-studio-teams-role-preview-button1:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-icon04 {
+  fill: var(--dl-color-dark-gray-400);
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-role-preview-field {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.creator-studio-teams-role-preview-container17 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.creator-studio-teams-role-preview-text34 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-text37 {
+  color: var(--dl-color-dark-gray-400);
+  display: none;
+}
+.creator-studio-teams-role-preview-textinput1 {
+  color: var(--dl-color-dark-white);
+  height: 50px;
+  display: flex;
+  transition: 0.3s;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role-preview-textinput1:focus {
+  border-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-bottom-buttons {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-preview-button2 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  width: 260px;
+  height: 60px;
+  display: flex;
+  font-size: 18px;
+  align-self: flex-start;
+  font-style: normal;
+  text-align: center;
+  transition: 0;
+  align-items: center;
+  font-weight: 600;
+  padding-top: 13px;
+  border-color: var(--dl-color-dark-darkergreen);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-twounits);
+  align-content: center;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: 13px;
+  justify-content: center;
+  background-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-role-preview-button2:hover {
+  border-color: var(--dl-color-dark-green-200);
+  background-color: var(--dl-color-dark-darkergreen);
+}
+.creator-studio-teams-role-preview-icon06 {
+  fill: var(--dl-color-dark-white);
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.creator-studio-teams-role-preview-text41 {
+  color: var(--dl-color-dark-gray-400);
+  width: 100%;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-unit);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-role-preview-info-text {
+  gap: 6px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-preview-text42 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-text45 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-text48 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-text51 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-bottom-menu {
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+  display: none;
+  z-index: 100000;
+  position: fixed;
+  align-items: center;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-300);
+  border-top-width: 1px;
+}
+.creator-studio-teams-role-preview-container-left {
+  gap: var(--dl-space-space-halfunit);
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+}
+.creator-studio-teams-role-preview-text54 {
+  color: var(--dl-color-dark-white);
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-role-preview-text55 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-role-preview-container-right {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-role-preview-button3 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-button3:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-button3:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-role-preview-text56 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-button4 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-button4:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-button4:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-icon10 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-role-preview-text59 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-button5 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-button5:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-button5:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-icon12 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-role-preview-text62 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-button6 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-button6:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-button6:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-icon14 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-role-preview-text65 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-button7 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-button7:hover {
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-button7:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-icon16 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-role-preview-text68 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-navlink3 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-navlink3:hover {
+  border-color: var(--dl-color-dark-red-200);
+  background-color: var(--dl-color-dark-gray-370);
+}
+.creator-studio-teams-role-preview-navlink3:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-icon18 {
+  width: 24px;
+  height: 24px;
+}
+.creator-studio-teams-role-preview-text71 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.creator-studio-teams-role-preview-button8 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 52px;
+  display: none;
+  font-size: 14px;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 16px;
+  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 14px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-darkergreenhighlight);
+}
+.creator-studio-teams-role-preview-button8:hover {
+  border-color: var(--dl-color-dark-green-200);
+  background-color: var(--dl-color-dark-darkgreenbtn);
+}
+.creator-studio-teams-role-preview-image {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-preview-text74 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+@media(max-width: 1200px) {
+  .creator-studio-teams-role-preview-text15 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-text16 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-navlink1 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-navlink2 {
+    color: var(--dl-color-dark-white);
+  }
+}
+@media(max-width: 991px) {
+  .creator-studio-teams-role-preview-container01 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .creator-studio-teams-role-preview-container02 {
+    gap: var(--dl-space-space-unit);
+    align-self: flex-start;
+  }
+  .creator-studio-teams-role-preview-container03 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+  }
+  .creator-studio-teams-role-preview-text {
+    font-size: 22px;
+  }
+  .creator-studio-teams-role-preview-buttons {
+    gap: var(--dl-space-space-unit);
+    height: auto;
+    padding-top: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-role-preview-badge-preview {
+    width: 400px;
+  }
+  .creator-studio-teams-role-preview-text33 {
+    color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-role-preview-text41 {
+    color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-role-preview-text42 {
+    color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-role-preview-text45 {
+    color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-role-preview-text48 {
+    color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-role-preview-text51 {
+    color: var(--dl-color-dark-gray-400);
+  }
+}
+@media(max-width: 767px) {
+  .creator-studio-teams-role-preview-header-creator {
+    margin-top: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-preview-gray-overlay {
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-role-preview-container01 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .creator-studio-teams-role-preview-container02 {
+    gap: var(--dl-space-space-halfunit);
+    align-self: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .creator-studio-teams-role-preview-container03 {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-preview-text {
+    font-size: 18px;
+  }
+  .creator-studio-teams-role-preview-text01 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-buttons {
+    gap: var(--dl-space-space-halfunit);
+    height: auto;
+    padding-top: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-preview-button {
+    height: 42px;
+    padding-top: 8px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 8px;
+  }
+  .creator-studio-teams-role-preview-text08 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-role-preview-container04 {
+    top: var(--dl-space-space-unit);
+    right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-preview-category {
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-role-preview-dropdown-toggle {
+    height: 38.5px;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-role-preview-text11 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-dropdown-list {
+    display: none;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .creator-studio-teams-role-preview-dropdown-toggle1 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-role-preview-text12 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-dropdown-toggle2 {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 10px;
+  }
+  .creator-studio-teams-role-preview-text13 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-tabs-row {
+    top: 70px;
+  }
+  .creator-studio-teams-role-preview-container05 {
+    gap: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-preview-navlink {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-text14 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-text15 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-text16 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-navlink1 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-navlink2 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-roles-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-container07 {
+    align-items: stretch;
+  }
+  .creator-studio-teams-role-preview-define-role {
+    gap: var(--dl-space-space-unit);
+    height: auto;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-role-preview-container08 {
+    flex-direction: column;
+  }
+  .creator-studio-teams-role-preview-badge-preview {
+    width: 100%;
+  }
+  .creator-studio-teams-role-preview-info-badge {
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-role-preview-text18 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-role-preview-text19 {
+    font-size: 13px;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-preview-text20 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text21 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text22 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text23 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text24 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text25 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text26 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text27 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text28 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-text29 {
+    font-size: 13px;
+  }
+  .creator-studio-teams-role-preview-fields {
+    gap: var(--dl-space-space-unit);
+    width: 100%;
+    padding-top: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-role-preview-text30 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-text31 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-container16 {
+    gap: 0;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-role-preview-text34 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-text35 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-bottom-buttons {
+    gap: var(--dl-space-space-unit);
+    height: auto;
+    margin-top: var(--dl-space-space-twounits);
+    flex-direction: column;
+  }
+  .creator-studio-teams-role-preview-button2 {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+  .creator-studio-teams-role-preview-text38 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-role-preview-bottom-menu {
+    height: 80px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-preview-text54 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-role-preview-text55 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-role-preview-container-right {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-role-preview-button3 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-text56 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-button4 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-text59 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-button5 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-text62 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-button6 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-text65 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-button7 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-text68 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-navlink3 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-text71 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-preview-button8 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-preview-text74 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}

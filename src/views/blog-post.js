@@ -48,9 +48,10 @@ const BlogPost = (props) => {
                   placeholder="Search..."
                   className="blog-post-textinput focus-reset input Content18"
                 />
-                <div className="blog-post-div">
-                  <Script
-                    html={`<style>
+                <div>
+                  <div className="blog-post-container04">
+                    <Script
+                      html={`<style>
 input::placeholder #searchfield { /* Chrome, Firefox, Opera, Safari 10.1+ */
 color: red;
 opacity: 1; /* Firefox */
@@ -70,7 +71,8 @@ input[type="search"]::-webkit-search-results-decoration {
 -webkit-appearance:none;
 }
 </style>`}
-                  ></Script>
+                    ></Script>
+                  </div>
                 </div>
               </form>
             </div>
@@ -121,7 +123,7 @@ input[type="search"]::-webkit-search-results-decoration {
                         <span className="blog-post-text material-symbols-outlined">
                           account_circle
                         </span>
-                        <div className="blog-post-container03">
+                        <div className="blog-post-container05">
                           <span className="blog-post-name">
                             Danoshi Hughemoto
                           </span>
@@ -130,7 +132,7 @@ input[type="search"]::-webkit-search-results-decoration {
                           </span>
                         </div>
                       </div>
-                      <Link to="/collector-profile">
+                      <Link to="/collector-hub">
                         <div
                           data-thq="thq-dropdown-toggle"
                           className="blog-post-collector-profile"
@@ -232,9 +234,9 @@ input[type="search"]::-webkit-search-results-decoration {
           <div className="blog-post-main-menu">
             <div className="blog-post-wrapper-content">
               <div className="blog-post-wrapper-all">
-                <div className="blog-post-container04">
+                <div className="blog-post-container06">
                   <div className="blog-post-features">
-                    <div className="blog-post-container05">
+                    <div className="blog-post-container07">
                       <h2 className="blog-post-text015">Features</h2>
                       <h2 className="blog-post-text016">
                         <span>
@@ -243,7 +245,7 @@ input[type="search"]::-webkit-search-results-decoration {
                         </span>
                         <br></br>
                       </h2>
-                      <div className="blog-post-container06">
+                      <div className="blog-post-container08">
                         <div className="blog-post-info-bubble">
                           <span className="blog-post-text019">
                             UNLIMITED POWER &amp; SCALE
@@ -266,9 +268,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-seasons1">
-                    <div className="blog-post-container07">
+                    <div className="blog-post-container09">
                       <h2 className="blog-post-heading">Seasons</h2>
-                      <div className="blog-post-container08">
+                      <div className="blog-post-container10">
                         <div className="blog-post-info-bubble02">
                           <span className="blog-post-text022">
                             QUESTS, TESSERACTS, ETERNAL GLORY
@@ -283,7 +285,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-start-here">
-                    <div className="blog-post-container09">
+                    <div className="blog-post-container11">
                       <h2 className="blog-post-text024">
                         <span>Beginners Intro</span>
                         <br></br>
@@ -291,17 +293,17 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-tokens">
-                    <div className="blog-post-container10">
+                    <div className="blog-post-container12">
                       <h2 className="blog-post-text027">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-post-tesseracts">
-                    <div className="blog-post-container11">
+                    <div className="blog-post-container13">
                       <h2 className="blog-post-text028">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-post-launchpad">
-                    <div className="blog-post-container12">
+                    <div className="blog-post-container14">
                       <h2 className="blog-post-text029">Launchpad</h2>
                       <div className="blog-post-info-bubble04">
                         <span className="blog-post-text030">
@@ -311,9 +313,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-pro-version">
-                    <div className="blog-post-container13">
+                    <div className="blog-post-container15">
                       <h2 className="blog-post-text031">Foton PRO</h2>
-                      <div className="blog-post-container14">
+                      <div className="blog-post-container16">
                         <div className="blog-post-info-bubble05">
                           <span className="blog-post-text032">
                             CREATE LIKE A MASTER, TRADE LIKE A PRO
@@ -328,7 +330,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-developers-sdk">
-                    <div className="blog-post-container15">
+                    <div className="blog-post-container17">
                       <h2 className="blog-post-text034">Developers SDK</h2>
                       <div className="blog-post-info-bubble07">
                         <span className="blog-post-text035">POST BABYLON</span>
@@ -336,7 +338,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-help-center">
-                    <div className="blog-post-container16">
+                    <div className="blog-post-container18">
                       <h2 className="blog-post-text036">
                         <span>Help Center</span>
                         <br></br>
@@ -344,7 +346,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-jobs-portal">
-                    <div className="blog-post-container17">
+                    <div className="blog-post-container19">
                       <h2 className="blog-post-text039">
                         <span>Jobs Portal</span>
                         <br></br>
@@ -352,7 +354,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-announcements">
-                    <div className="blog-post-container18">
+                    <div className="blog-post-container20">
                       <h2 className="blog-post-text042">Announcements</h2>
                       <div className="blog-post-info-bubble08">
                         <span className="blog-post-text043">
@@ -362,7 +364,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-press-desk">
-                    <div className="blog-post-container19">
+                    <div className="blog-post-container21">
                       <h2 className="blog-post-text044">
                         <span>Press Info Desk</span>
                         <br></br>
@@ -370,14 +372,14 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-investor-lounge">
-                    <div className="blog-post-container20">
+                    <div className="blog-post-container22">
                       <h2 className="blog-post-text047">Investors Lounge</h2>
                     </div>
                   </div>
                   <div className="blog-post-community">
-                    <div className="blog-post-container21">
+                    <div className="blog-post-container23">
                       <h2 className="blog-post-text048">Community</h2>
-                      <div className="blog-post-container22">
+                      <div className="blog-post-container24">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -412,9 +414,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-ecosystem">
-                    <div className="blog-post-container23">
+                    <div className="blog-post-container25">
                       <h2 className="blog-post-text052">Ecosystem Projects</h2>
-                      <div className="blog-post-container24">
+                      <div className="blog-post-container26">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -451,7 +453,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-radix-dlt">
-                    <div className="blog-post-container25">
+                    <div className="blog-post-container27">
                       <h2 className="blog-post-text056">
                         <span>Runs on RADIX</span>
                         <br></br>
@@ -459,7 +461,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-about">
-                    <div className="blog-post-container26">
+                    <div className="blog-post-container28">
                       <h2 className="blog-post-text059">
                         <span>About</span>
                         <br></br>
@@ -467,9 +469,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                 </div>
-                <div className="blog-post-container27">
+                <div className="blog-post-container29">
                   <div className="blog-post-features1">
-                    <div className="blog-post-container28">
+                    <div className="blog-post-container30">
                       <h2 className="blog-post-text062">Features</h2>
                       <h2 className="blog-post-text063">
                         <span>
@@ -486,9 +488,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-seasons11">
-                    <div className="blog-post-container29">
+                    <div className="blog-post-container31">
                       <h2 className="blog-post-heading1">Seasons</h2>
-                      <div className="blog-post-container30">
+                      <div className="blog-post-container32">
                         <div className="blog-post-info-bubble16">
                           <span className="blog-post-text067">
                             QUESTS, TESSERACTS, ETERNAL GLORY
@@ -503,9 +505,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-pro-version1">
-                    <div className="blog-post-container31">
+                    <div className="blog-post-container33">
                       <h2 className="blog-post-text069">Foton PRO</h2>
-                      <div className="blog-post-container32">
+                      <div className="blog-post-container34">
                         <div className="blog-post-info-bubble18">
                           <span className="blog-post-text070">
                             CREATE LIKE A MASTER, TRADE LIKE A PRO
@@ -520,7 +522,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-launchpad1">
-                    <div className="blog-post-container33">
+                    <div className="blog-post-container35">
                       <h2 className="blog-post-text072">Launchpad</h2>
                       <div className="blog-post-info-bubble20">
                         <span className="blog-post-text073">
@@ -530,7 +532,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-start-here1">
-                    <div className="blog-post-container34">
+                    <div className="blog-post-container36">
                       <h2 className="blog-post-text074">
                         <span>Beginners Intro</span>
                         <br></br>
@@ -538,17 +540,17 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-tokens1">
-                    <div className="blog-post-container35">
+                    <div className="blog-post-container37">
                       <h2 className="blog-post-text077">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-post-tesseracts1">
-                    <div className="blog-post-container36">
+                    <div className="blog-post-container38">
                       <h2 className="blog-post-text078">Tesseract</h2>
                     </div>
                   </div>
                   <div className="blog-post-help-center1">
-                    <div className="blog-post-container37">
+                    <div className="blog-post-container39">
                       <h2 className="blog-post-text079">
                         <span>Help Center</span>
                         <br></br>
@@ -556,7 +558,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-announcements1">
-                    <div className="blog-post-container38">
+                    <div className="blog-post-container40">
                       <h2 className="blog-post-text082">Announcements</h2>
                       <div className="blog-post-info-bubble21">
                         <span className="blog-post-text083">
@@ -566,7 +568,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-jobs-portal1">
-                    <div className="blog-post-container39">
+                    <div className="blog-post-container41">
                       <h2 className="blog-post-text084">
                         <span>Jobs Portal</span>
                         <br></br>
@@ -574,7 +576,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-developers-sdk1">
-                    <div className="blog-post-container40">
+                    <div className="blog-post-container42">
                       <h2 className="blog-post-text087">Developers SDK</h2>
                       <div className="blog-post-info-bubble22">
                         <span className="blog-post-text088">POST BABYLON</span>
@@ -582,7 +584,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-press-desk1">
-                    <div className="blog-post-container41">
+                    <div className="blog-post-container43">
                       <h2 className="blog-post-text089">
                         <span>Press Info Desk</span>
                         <br></br>
@@ -590,14 +592,14 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-investor-lounge1">
-                    <div className="blog-post-container42">
+                    <div className="blog-post-container44">
                       <h2 className="blog-post-text092">Investors Lounge</h2>
                     </div>
                   </div>
                   <div className="blog-post-community1">
-                    <div className="blog-post-container43">
+                    <div className="blog-post-container45">
                       <h2 className="blog-post-text093">Community</h2>
-                      <div className="blog-post-container44">
+                      <div className="blog-post-container46">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -632,9 +634,9 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-ecosystem1">
-                    <div className="blog-post-container45">
+                    <div className="blog-post-container47">
                       <h2 className="blog-post-text097">Ecosystem dApps</h2>
-                      <div className="blog-post-container46">
+                      <div className="blog-post-container48">
                         <a
                           href="https://twitter.com/FotonSDK"
                           target="_blank"
@@ -671,7 +673,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-radix-dlt1">
-                    <div className="blog-post-container47">
+                    <div className="blog-post-container49">
                       <h2 className="blog-post-text101">
                         <span>Runs on RADIX</span>
                         <br></br>
@@ -679,7 +681,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-about1">
-                    <div className="blog-post-container48">
+                    <div className="blog-post-container50">
                       <h2 className="blog-post-text104">
                         <span>About</span>
                         <br></br>
@@ -690,7 +692,7 @@ input[type="search"]::-webkit-search-results-decoration {
                 <div className="blog-post-side-nav">
                   <div className="blog-post-side-anchor-menu">
                     <div className="blog-post-container-img">
-                      <div className="blog-post-container49">
+                      <div className="blog-post-container51">
                         <h2 className="blog-post-text107">Read Article</h2>
                         <Link
                           to="/blog"
@@ -700,7 +702,7 @@ input[type="search"]::-webkit-search-results-decoration {
                         </Link>
                       </div>
                     </div>
-                    <div className="blog-post-container50">
+                    <div className="blog-post-container52">
                       <span className="blog-post-text108">Announcements</span>
                       <span className="blog-post-text109">NFT News</span>
                       <span className="blog-post-text110">Insights</span>
@@ -722,7 +724,7 @@ input[type="search"]::-webkit-search-results-decoration {
                   </div>
                   <div className="blog-post-features-sections">
                     <div className="blog-post-header-tablet">
-                      <div className="blog-post-container51">
+                      <div className="blog-post-container53">
                         <h3 className="blog-post-text117">
                           <span className="blog-post-text118">Mint Easily</span>
                           <span>
@@ -736,8 +738,8 @@ input[type="search"]::-webkit-search-results-decoration {
                           be Illustrated Avatars or Generative art.
                         </span>
                       </div>
-                      <div className="blog-post-container52">
-                        <div className="blog-post-container53">
+                      <div className="blog-post-container54">
+                        <div className="blog-post-container55">
                           <h3 className="blog-post-text121">
                             Announcements &amp; Blog
                           </h3>
@@ -749,7 +751,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                     <div className="blog-post-blog-post">
                       <div className="blog-post-header-blog-post">
-                        <div className="blog-post-container54">
+                        <div className="blog-post-container56">
                           <h3 className="blog-post-text122">
                             <span className="blog-post-text123">
                               Mint Easily
@@ -769,11 +771,11 @@ input[type="search"]::-webkit-search-results-decoration {
                           <div className="blog-post-image-container"></div>
                         </div>
                         <div className="blog-post-container-title">
-                          <div className="blog-post-container55">
+                          <div className="blog-post-container57">
                             <h3 className="blog-post-text126">
                               Foton Roadmap and Vision
                             </h3>
-                            <div className="blog-post-container56">
+                            <div className="blog-post-container58">
                               <span className="blog-post-text127">
                                 12 July 2023
                               </span>
@@ -864,7 +866,7 @@ input[type="search"]::-webkit-search-results-decoration {
                 </div>
                 <div className="blog-post-pinned-news">
                   <div className="blog-post-slot">
-                    <div className="blog-post-container57">
+                    <div className="blog-post-container59">
                       <h2 className="blog-post-heading2">Pinned by team</h2>
                       <img
                         alt="image"
@@ -874,7 +876,7 @@ input[type="search"]::-webkit-search-results-decoration {
                     </div>
                   </div>
                   <div className="blog-post-slot1">
-                    <div className="blog-post-container58">
+                    <div className="blog-post-container60">
                       <h2 className="blog-post-heading3">
                         Foton NFT Minting starts on Radix Babylon
                         <span
@@ -883,7 +885,7 @@ input[type="search"]::-webkit-search-results-decoration {
                           }}
                         />
                       </h2>
-                      <div className="blog-post-container59">
+                      <div className="blog-post-container61">
                         <div className="blog-post-info-bubble29">
                           <span className="blog-post-text145">
                             End Of September
