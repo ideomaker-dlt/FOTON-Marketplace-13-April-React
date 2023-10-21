@@ -178,7 +178,7 @@
   flex-direction: row;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("/banner%20home%203-1500w.png");
+  background-image: url("/Foton Images/bubblesheader3-1500w.png");
   background-position: center;
 }
 .home-mask-overlay {
@@ -194,7 +194,7 @@
   position: relative;
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius12);
-  background-image: linear-gradient(90deg, rgba(0, 38, 27, 0.67) 0.00%,rgba(0, 0, 0, 0) 56.00%);
+  background-image: linear-gradient(90deg, rgba(0, 40, 24, 0.9) 0.00%,rgba(44, 80, 62, 0) 54.00%);
 }
 .home-gray-overlay {
   width: 100%;
@@ -227,7 +227,7 @@
 }
 .home-text15 {
   color: var(--dl-color-dark-white);
-  font-size: 28px;
+  font-size: 34px;
   font-style: normal;
   transition: 0.3s;
   font-family: "Poppins";
@@ -263,7 +263,7 @@
   width: auto;
   height: 100%;
   display: flex;
-  transition: 0.3s;
+  transition: 0.1s;
   align-items: center;
   padding-top: 2px;
   padding-left: var(--dl-space-space-twounits);
@@ -272,10 +272,10 @@
   padding-bottom: 0px;
   backdrop-filter: blur(8px);
   justify-content: flex-start;
-  background-color: var(--dl-color-dark-darkgreenbtn2);
+  background-color: var(--dl-color-dark-darkgreenbtn);
 }
 .home-container06:hover {
-  background-color: var(--dl-color-dark-darkgreenbtn);
+  background-color: var(--dl-color-dark-darkergreen);
 }
 .home-dot {
   flex: 0 0 auto;
@@ -302,7 +302,7 @@
   width: auto;
   height: 100%;
   display: flex;
-  transition: 0.3s;
+  transition: 0.1s;
   align-items: center;
   padding-top: 2px;
   padding-left: var(--dl-space-space-twounits);
@@ -532,7 +532,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/banner%20home%203-1500w.png");
+  background-image: url("/Foton Images/bubblesheader3-1500w.png");
   background-repeat: no-repeat;
   background-position: center;
   border-top-left-radius: var(--dl-radius-radius-radius12);
@@ -559,7 +559,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/vlad__foton.is__radix.stream_profile_picture_of_a_funny_ape_wit_24344936-61da-4486-8cea-734b46ac241a-200h.png");
+  background-image: url("/banner%20home%203-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -584,7 +584,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/grid_0%20%5B4%5D-1500w.webp");
+  background-image: url("/vlad_rdx_gundam_robot_portrait_in_the_80s_style_highly_detailed_4b24ba70-751d-45e5-a93c-0e0887f56500-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -609,7 +609,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/vlad__foton.is__radix.stream_destiny_2_futuristic_weapon_weapon_ca187c73-4361-4257-92dd-492fd841d827-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_mechanical_eye_angled_view_game_in_397f6926-7a9f-4b79-ac60-c0695df0c2f6-200h.png");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -634,7 +634,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/vlad__foton.is__radix.stream_landscape_from_a_star_wars_city_on_f4c0cd19-f3b4-41bd-bbf9-b240bdd757c1-200h.png");
+  background-image: url("/vlad__foton.is__radix.stream_samurai_warrior_portret_with_sword_ef86e3e2-36ae-4453-90e2-6dda1ad3bb49-200h.png");
   background-repeat: no-repeat;
   background-position: center;
   border-top-left-radius: 0;

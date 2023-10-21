@@ -30,13 +30,14 @@ import AddCollection2LayeredPreview from './views/add-collection2-layered-previe
 import CreatorStudioCollectionAnalytics from './views/creator-studio-collection-analytics'
 import AddCollectionTemplates from './views/add-collection-templates'
 import CreatorStudio from './views/creator-studio'
-import CollectorProfileFollowers from './views/collector-profile-followers'
+import CollectorHubFollowers from './views/collector-hub-followers'
 import CreatorStudioTeamsRolePreview from './views/creator-studio-teams-role-preview'
 import AddUnLayeredBatch from './views/add-un-layered-batch'
 import Stats from './views/stats'
 import Discover from './views/discover'
 import AddItemsSets from './views/add-items-sets'
 import PublishCollection from './views/publish-collection'
+import CollectorHubCreated from './views/collector-hub-created'
 import CollectorHub from './views/collector-hub'
 import AddProject from './views/add-project'
 import Home from './views/home'
@@ -130,9 +131,9 @@ const App = () => {
         />
         <Route component={CreatorStudio} exact path="/creator-studio" />
         <Route
-          component={CollectorProfileFollowers}
+          component={CollectorHubFollowers}
           exact
-          path="/collector-profile-followers"
+          path="/collector-hub-followers"
         />
         <Route
           component={CreatorStudioTeamsRolePreview}
@@ -148,6 +149,11 @@ const App = () => {
         <Route component={Discover} exact path="/discover" />
         <Route component={AddItemsSets} exact path="/add-items-sets" />
         <Route component={PublishCollection} exact path="/publish-collection" />
+        <Route
+          component={CollectorHubCreated}
+          exact
+          path="/collector-hub-created"
+        />
         <Route component={CollectorHub} exact path="/collector-hub" />
         <Route component={AddProject} exact path="/add-project" />
         <Route component={Home} exact path="/" />

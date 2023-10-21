@@ -41,7 +41,7 @@ const CollectorHub = (props) => {
                 <div className="collector-hub-container05">
                   <h1 className="collector-hub-text">Collector Hub</h1>
                   <h1 className="collector-hub-text001">
-                    <span>Version 0.1</span>
+                    <span>Version 0.1 - Alpha Stage 1</span>
                     <br></br>
                   </h1>
                 </div>
@@ -175,14 +175,11 @@ const CollectorHub = (props) => {
           <span className="collector-hub-text035">Profile</span>
           <span className="collector-hub-text036">Collected</span>
           <span className="collector-hub-text037">Created</span>
-          <Link
-            to="/collector-profile-followers"
-            className="collector-hub-navlink"
-          >
+          <Link to="/collector-hub-followers" className="collector-hub-navlink">
             Followers
           </Link>
           <Link
-            to="/collector-profile-followers"
+            to="/collector-hub-followers"
             className="collector-hub-navlink1"
           >
             Following

@@ -40,7 +40,7 @@ const CreatorStudio = (props) => {
               <div className="creator-studio-container04">
                 <h1 className="creator-studio-text">Creator Studio</h1>
                 <h1 className="creator-studio-text01">
-                  <span>Version 0.1</span>
+                  <span>Version 0.1 - Alpha Stage 1</span>
                   <br></br>
                 </h1>
               </div>
