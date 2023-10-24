@@ -71,7 +71,7 @@ const Home = (props) => {
                 <div className="home-container03">
                   <div className="home-text-header">
                     <h1 className="home-text15">
-                      Web3&apos;s Digital Asset Hub
+                      Web3&apos;s Digital Assets Hub
                     </h1>
                     <h3 className="home-text16">
                       Create and Trade NFTs Easily on Radix

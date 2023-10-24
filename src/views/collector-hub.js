@@ -58,7 +58,7 @@ const CollectorHub = (props) => {
                 <h1 className="collector-hub-text004">Danoshi Hughemoto</h1>
                 <div className="collector-hub-container08">
                   <h1 className="collector-hub-text005">
-                    <span>account...</span>
+                    <span>@danoshi</span>
                     <br></br>
                   </h1>
                   <h1 className="collector-hub-text008">

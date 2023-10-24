@@ -178,7 +178,7 @@
   flex-direction: row;
   background-size: cover;
   justify-content: flex-start;
-  background-image: url("/Foton Images/bubblesheader3-1500w.png");
+  background-image: url("/Foton Images/tesseract_header2-1500w.png");
   background-position: center;
 }
 .home-mask-overlay {
@@ -532,7 +532,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/Foton Images/bubblesheader3-1500w.png");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.1) 3.00%,rgba(0, 0, 0, 0.2) 97.00%),url("/Foton Images/tesseract_header2-1500w.png");
   background-repeat: no-repeat;
   background-position: center;
   border-top-left-radius: var(--dl-radius-radius-radius12);
@@ -559,7 +559,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/banner%20home%203-200h.png");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 3.00%,rgba(0, 0, 0, 0.1) 97.00%),url("/Foton Images/group%20334-200h.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -584,7 +584,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/vlad_rdx_gundam_robot_portrait_in_the_80s_style_highly_detailed_4b24ba70-751d-45e5-a93c-0e0887f56500-200h.png");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 3.00%,rgba(0, 0, 0, 0.1) 97.00%),url("/Foton Images/group%203401-200h.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -609,7 +609,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/vlad__foton.is__radix.stream_mechanical_eye_angled_view_game_in_397f6926-7a9f-4b79-ac60-c0695df0c2f6-200h.png");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 3.00%,rgba(0, 0, 0, 0.1) 97.00%),url("/Foton Images/group%20338-200h.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -634,7 +634,7 @@
   border-radius: 0px;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/vlad__foton.is__radix.stream_samurai_warrior_portret_with_sword_ef86e3e2-36ae-4453-90e2-6dda1ad3bb49-200h.png");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 3.00%,rgba(0, 0, 0, 0.1) 97.00%),url("/Foton Images/group%20337-200h.jpg");
   background-repeat: no-repeat;
   background-position: center;
   border-top-left-radius: 0;

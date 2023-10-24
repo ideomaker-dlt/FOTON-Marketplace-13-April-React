@@ -69,11 +69,11 @@ const UserProfileSettings = (props) => {
                 </div>
                 <div className="user-profile-settings-field1">
                   <label className="user-profile-settings-text03 Content padding-4px-left">
-                    Foton Username:
+                    Foton User Handle:
                   </label>
                   <input
                     type="text"
-                    placeholder="danoshi......"
+                    placeholder="@danoshi......"
                     className="user-profile-settings-textinput1 Content16SemiBold focus-reset-forms input"
                   />
                 </div>
