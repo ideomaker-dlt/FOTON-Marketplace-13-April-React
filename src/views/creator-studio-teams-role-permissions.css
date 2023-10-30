@@ -81,7 +81,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-role-permissions-text01 {
+.creator-studio-teams-role-permissions-text001 {
   color: var(--dl-color-dark-purplebright);
   font-size: 18px;
   font-style: normal;
@@ -91,10 +91,10 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-role-permissions-text03 {
+.creator-studio-teams-role-permissions-text003 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-text05 {
+.creator-studio-teams-role-permissions-text005 {
   color: var(--dl-color-dark-gray-400);
 }
 .creator-studio-teams-role-permissions-buttons {
@@ -166,7 +166,7 @@
 .creator-studio-teams-role-permissions-dropdown-toggle:hover {
   opacity: 1;
 }
-.creator-studio-teams-role-permissions-text11 {
+.creator-studio-teams-role-permissions-text011 {
   color: var(--dl-color-dark-white);
   display: none;
   font-size: 16px;
@@ -237,7 +237,7 @@
   color: #fff;
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-text12 {
+.creator-studio-teams-role-permissions-text012 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -269,7 +269,7 @@
   color: #fff;
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-text13 {
+.creator-studio-teams-role-permissions-text013 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -323,7 +323,7 @@
   display: none;
   align-items: center;
 }
-.creator-studio-teams-role-permissions-text14 {
+.creator-studio-teams-role-permissions-text014 {
   color: var(--dl-color-dark-gray-400);
   height: 100%;
   font-style: normal;
@@ -335,10 +335,10 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
-.creator-studio-teams-role-permissions-text14:hover {
+.creator-studio-teams-role-permissions-text014:hover {
   color: var(--dl-color-dark-green-200);
 }
-.creator-studio-teams-role-permissions-text15 {
+.creator-studio-teams-role-permissions-text015 {
   color: var(--dl-color-dark-gray-400);
   height: 100%;
   font-style: normal;
@@ -361,7 +361,7 @@
   text-decoration: none;
   border-bottom-width: 2px;
 }
-.creator-studio-teams-role-permissions-text16 {
+.creator-studio-teams-role-permissions-text016 {
   color: var(--dl-color-dark-white);
   height: 100%;
   font-style: normal;
@@ -373,7 +373,7 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
-.creator-studio-teams-role-permissions-text16:hover {
+.creator-studio-teams-role-permissions-text016:hover {
   color: var(--dl-color-dark-white);
   border-color: var(--dl-color-dark-green-200);
 }
@@ -437,7 +437,7 @@
   padding-bottom: 100px;
   background-color: var(--dl-color-dark-gray-300);
 }
-.creator-studio-teams-role-permissions-text17 {
+.creator-studio-teams-role-permissions-text017 {
   color: var(--dl-color-dark-gray-400);
   width: 100%;
   display: none;
@@ -517,11 +517,11 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
 }
-.creator-studio-teams-role-permissions-text18 {
+.creator-studio-teams-role-permissions-text018 {
   color: var(--dl-color-dark-white);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.creator-studio-teams-role-permissions-text19 {
+.creator-studio-teams-role-permissions-text019 {
   color: var(--dl-color-dark-white);
   padding-bottom: var(--dl-space-space-twounits);
 }
@@ -543,11 +543,11 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.creator-studio-teams-role-permissions-text20 {
+.creator-studio-teams-role-permissions-text020 {
   color: var(--dl-color-dark-gray-400);
   margin-right: var(--dl-space-space-halfunit);
 }
-.creator-studio-teams-role-permissions-text21 {
+.creator-studio-teams-role-permissions-text021 {
   color: var(--dl-color-dark-white);
 }
 .creator-studio-teams-role-permissions-container11 {
@@ -561,11 +561,11 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.creator-studio-teams-role-permissions-text22 {
+.creator-studio-teams-role-permissions-text022 {
   color: var(--dl-color-dark-gray-400);
   margin-right: var(--dl-space-space-halfunit);
 }
-.creator-studio-teams-role-permissions-text23 {
+.creator-studio-teams-role-permissions-text023 {
   color: var(--dl-color-dark-white);
 }
 .creator-studio-teams-role-permissions-container12 {
@@ -579,11 +579,11 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.creator-studio-teams-role-permissions-text24 {
+.creator-studio-teams-role-permissions-text024 {
   color: var(--dl-color-dark-gray-400);
   margin-right: var(--dl-space-space-halfunit);
 }
-.creator-studio-teams-role-permissions-text25 {
+.creator-studio-teams-role-permissions-text025 {
   color: var(--dl-color-dark-white);
 }
 .creator-studio-teams-role-permissions-container13 {
@@ -597,11 +597,11 @@
   justify-content: space-between;
   border-bottom-width: 1px;
 }
-.creator-studio-teams-role-permissions-text26 {
+.creator-studio-teams-role-permissions-text026 {
   color: var(--dl-color-dark-gray-400);
   margin-right: var(--dl-space-space-halfunit);
 }
-.creator-studio-teams-role-permissions-text27 {
+.creator-studio-teams-role-permissions-text027 {
   color: var(--dl-color-dark-white);
 }
 .creator-studio-teams-role-permissions-container14 {
@@ -612,11 +612,11 @@
   padding-bottom: 2px;
   justify-content: space-between;
 }
-.creator-studio-teams-role-permissions-text28 {
+.creator-studio-teams-role-permissions-text028 {
   color: var(--dl-color-dark-gray-400);
   margin-right: var(--dl-space-space-halfunit);
 }
-.creator-studio-teams-role-permissions-text29 {
+.creator-studio-teams-role-permissions-text029 {
   color: var(--dl-color-dark-white);
 }
 .creator-studio-teams-role-permissions-rows-permissions {
@@ -630,6 +630,23 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.creator-studio-teams-role-permissions-header-permissions {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 0px;
+  align-items: flex-start;
+  border-color: var(--dl-color-dark-gray-360);
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 0px;
+  margin-bottom: 12px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom-width: 1px;
+}
 .creator-studio-teams-role-permissions-header-label {
   gap: 12px;
   flex: 0 0 auto;
@@ -639,17 +656,120 @@
   flex-direction: column;
 }
 .creator-studio-teams-role-permissions-container15 {
+  gap: var(--dl-space-space-unit);
   display: flex;
-  align-items: stretch;
-  flex-direction: column;
+  align-self: flex-start;
+  align-items: center;
+  padding-left: 0px;
+  flex-direction: row;
+  justify-content: flex-start;
 }
-.creator-studio-teams-role-permissions-text30 {
+.creator-studio-teams-role-permissions-text030 {
   color: var(--dl-color-dark-gray-400);
   display: none;
   padding-bottom: var(--dl-space-space-unit);
 }
 .creator-studio-teams-role-permissions-header-label1 {
+  color: var(--dl-color-dark-purplebright);
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-role-permissions-text039 {
   color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-permissions-container16 {
+  gap: var(--dl-space-space-unit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-permissions-navlink3 {
+  color: var(--dl-color-dark-white);
+  height: 100%;
+  font-style: normal;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.creator-studio-teams-role-permissions-navlink3:hover {
+  color: var(--dl-color-dark-white);
+  border-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-role-permissions-text042 {
+  color: var(--dl-color-dark-white);
+  height: 100%;
+  display: none;
+  font-size: 24px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-green-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-permissions-text042:hover {
+  color: var(--dl-color-dark-white);
+  border-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-role-permissions-navlink4 {
+  color: var(--dl-color-dark-white);
+  height: 100%;
+  display: none;
+  font-size: 24px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-role-permissions-navlink4:hover {
+  color: var(--dl-color-dark-white);
+  border-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-role-permissions-container17 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-permissions-header-label2 {
+  gap: 12px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: none;
+  align-items: stretch;
+  flex-direction: column;
+}
+.creator-studio-teams-role-permissions-container18 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-permissions-text043 {
+  color: var(--dl-color-dark-gray-400);
+  display: none;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-role-permissions-header-label3 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-permissions-text052 {
+  color: var(--dl-color-dark-gray-400);
 }
 .creator-studio-teams-role-permissions-permission-item {
   gap: 12px;
@@ -661,28 +781,29 @@
   padding-bottom: var(--dl-space-space-unit);
   border-bottom-width: 1px;
 }
-.creator-studio-teams-role-permissions-container16 {
+.creator-studio-teams-role-permissions-container19 {
   gap: 2px;
   width: 100%;
   display: flex;
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-permissions-text39 {
+.creator-studio-teams-role-permissions-text055 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-permissions-text42 {
+.creator-studio-teams-role-permissions-text058 {
   color: var(--dl-color-dark-gray-400);
 }
 .creator-studio-teams-role-permissions-container-toggle {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: auto;
   height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
 }
-.creator-studio-teams-role-permissions-container17 {
+.creator-studio-teams-role-permissions-container20 {
   flex: 0 0 auto;
   width: 74px;
   height: 36px;
@@ -696,7 +817,7 @@
   padding-right: 2px;
   justify-content: flex-start;
 }
-.creator-studio-teams-role-permissions-container18 {
+.creator-studio-teams-role-permissions-container21 {
   flex: 0 0 auto;
   width: 28px;
   height: 28px;
@@ -720,65 +841,6 @@
   padding-bottom: var(--dl-space-space-unit);
   border-bottom-width: 1px;
 }
-.creator-studio-teams-role-permissions-container19 {
-  gap: 2px;
-  width: 100%;
-  display: flex;
-  align-items: stretch;
-  flex-direction: column;
-}
-.creator-studio-teams-role-permissions-text43 {
-  color: var(--dl-color-dark-white);
-}
-.creator-studio-teams-role-permissions-text46 {
-  color: var(--dl-color-dark-gray-400);
-}
-.creator-studio-teams-role-permissions-container-toggle1 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.creator-studio-teams-role-permissions-container20 {
-  flex: 0 0 auto;
-  width: 74px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  border-color: rgba(120, 120, 120, 0.4);
-  border-style: solid;
-  border-width: 2px;
-  padding-left: 2px;
-  border-radius: 18px;
-  padding-right: 2px;
-  justify-content: flex-end;
-}
-.creator-studio-teams-role-permissions-container21 {
-  flex: 0 0 auto;
-  width: 28px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  border-radius: var(--dl-radius-radius-round);
-  justify-content: center;
-  background-color: var(--dl-color-dark-green-200);
-}
-.creator-studio-teams-role-permissions-image1 {
-  width: 20px;
-  object-fit: cover;
-}
-.creator-studio-teams-role-permissions-permission-item2 {
-  gap: 12px;
-  width: 100%;
-  display: flex;
-  border-color: var(--dl-color-dark-gray-360);
-  border-width: 0px;
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-unit);
-  border-bottom-width: 1px;
-}
 .creator-studio-teams-role-permissions-container22 {
   gap: 2px;
   width: 100%;
@@ -786,25 +848,27 @@
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-permissions-text47 {
+.creator-studio-teams-role-permissions-text059 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-permissions-text50 {
+.creator-studio-teams-role-permissions-text062 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-container-toggle2 {
+.creator-studio-teams-role-permissions-container-toggle1 {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: auto;
   height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
 }
 .creator-studio-teams-role-permissions-container23 {
   flex: 0 0 auto;
   width: 74px;
   height: 36px;
   display: flex;
+  transition: 0s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -813,6 +877,10 @@
   border-radius: 18px;
   padding-right: 2px;
   justify-content: flex-end;
+}
+.creator-studio-teams-role-permissions-container23:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role-permissions-container24 {
   flex: 0 0 auto;
@@ -824,11 +892,53 @@
   justify-content: center;
   background-color: var(--dl-color-dark-green-200);
 }
-.creator-studio-teams-role-permissions-image2 {
+.creator-studio-teams-role-permissions-image01 {
   width: 20px;
   object-fit: cover;
 }
-.creator-studio-teams-role-permissions-permission-item3 {
+.creator-studio-teams-role-permissions-button01 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-button01:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-permissions-button01:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-image02 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-text063 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role-permissions-permission-item2 {
   gap: 12px;
   width: 100%;
   display: flex;
@@ -845,25 +955,27 @@
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-permissions-text51 {
+.creator-studio-teams-role-permissions-text066 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-permissions-text54 {
+.creator-studio-teams-role-permissions-text069 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-container-toggle3 {
+.creator-studio-teams-role-permissions-container-toggle2 {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: auto;
   height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
 }
 .creator-studio-teams-role-permissions-container26 {
   flex: 0 0 auto;
   width: 74px;
   height: 36px;
   display: flex;
+  transition: 0s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -871,7 +983,11 @@
   padding-left: 2px;
   border-radius: 18px;
   padding-right: 2px;
-  justify-content: flex-start;
+  justify-content: flex-end;
+}
+.creator-studio-teams-role-permissions-container26:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role-permissions-container27 {
   flex: 0 0 auto;
@@ -881,13 +997,55 @@
   align-items: center;
   border-radius: var(--dl-radius-radius-round);
   justify-content: center;
-  background-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-green-200);
 }
-.creator-studio-teams-role-permissions-image3 {
+.creator-studio-teams-role-permissions-image03 {
   width: 20px;
   object-fit: cover;
 }
-.creator-studio-teams-role-permissions-permission-item4 {
+.creator-studio-teams-role-permissions-button02 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-button02:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-permissions-button02:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-image04 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-text070 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role-permissions-permission-item3 {
   gap: 12px;
   width: 100%;
   display: flex;
@@ -904,25 +1062,27 @@
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-permissions-text55 {
+.creator-studio-teams-role-permissions-text073 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-permissions-text58 {
+.creator-studio-teams-role-permissions-text076 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-container-toggle4 {
+.creator-studio-teams-role-permissions-container-toggle3 {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: auto;
   height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
 }
 .creator-studio-teams-role-permissions-container29 {
   flex: 0 0 auto;
   width: 74px;
   height: 36px;
   display: flex;
+  transition: 0s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -931,6 +1091,10 @@
   border-radius: 18px;
   padding-right: 2px;
   justify-content: flex-start;
+}
+.creator-studio-teams-role-permissions-container29:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role-permissions-container30 {
   flex: 0 0 auto;
@@ -942,11 +1106,53 @@
   justify-content: center;
   background-color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-image4 {
+.creator-studio-teams-role-permissions-image05 {
   width: 20px;
   object-fit: cover;
 }
-.creator-studio-teams-role-permissions-permission-item5 {
+.creator-studio-teams-role-permissions-button03 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-button03:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-permissions-button03:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-image06 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-text077 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role-permissions-permission-item4 {
   gap: 12px;
   width: 100%;
   display: flex;
@@ -963,25 +1169,27 @@
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-permissions-text59 {
+.creator-studio-teams-role-permissions-text080 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-permissions-text62 {
+.creator-studio-teams-role-permissions-text083 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-container-toggle5 {
+.creator-studio-teams-role-permissions-container-toggle4 {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: auto;
   height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
 }
 .creator-studio-teams-role-permissions-container32 {
   flex: 0 0 auto;
   width: 74px;
   height: 36px;
   display: flex;
+  transition: 0s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -989,7 +1197,11 @@
   padding-left: 2px;
   border-radius: 18px;
   padding-right: 2px;
-  justify-content: flex-start;
+  justify-content: flex-end;
+}
+.creator-studio-teams-role-permissions-container32:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role-permissions-container33 {
   flex: 0 0 auto;
@@ -999,13 +1211,55 @@
   align-items: center;
   border-radius: var(--dl-radius-radius-round);
   justify-content: center;
-  background-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-green-200);
 }
-.creator-studio-teams-role-permissions-image5 {
+.creator-studio-teams-role-permissions-image07 {
   width: 20px;
   object-fit: cover;
 }
-.creator-studio-teams-role-permissions-permission-item6 {
+.creator-studio-teams-role-permissions-button04 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-button04:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-permissions-button04:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-image08 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-text084 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role-permissions-permission-item5 {
   gap: 12px;
   width: 100%;
   display: flex;
@@ -1022,25 +1276,27 @@
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-permissions-text63 {
+.creator-studio-teams-role-permissions-text087 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-permissions-text66 {
+.creator-studio-teams-role-permissions-text090 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-container-toggle6 {
+.creator-studio-teams-role-permissions-container-toggle5 {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: auto;
   height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
 }
 .creator-studio-teams-role-permissions-container35 {
   flex: 0 0 auto;
   width: 74px;
   height: 36px;
   display: flex;
+  transition: 0s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -1049,6 +1305,10 @@
   border-radius: 18px;
   padding-right: 2px;
   justify-content: flex-start;
+}
+.creator-studio-teams-role-permissions-container35:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role-permissions-container36 {
   flex: 0 0 auto;
@@ -1060,11 +1320,53 @@
   justify-content: center;
   background-color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-image6 {
+.creator-studio-teams-role-permissions-image09 {
   width: 20px;
   object-fit: cover;
 }
-.creator-studio-teams-role-permissions-permission-item7 {
+.creator-studio-teams-role-permissions-button05 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-button05:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-permissions-button05:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-image10 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-text091 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role-permissions-permission-item6 {
   gap: 12px;
   width: 100%;
   display: flex;
@@ -1081,25 +1383,27 @@
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-permissions-text67 {
+.creator-studio-teams-role-permissions-text094 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-permissions-text70 {
+.creator-studio-teams-role-permissions-text097 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-container-toggle7 {
+.creator-studio-teams-role-permissions-container-toggle6 {
+  gap: var(--dl-space-space-twounits);
   flex: 0 0 auto;
   width: auto;
   height: 100%;
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
 }
 .creator-studio-teams-role-permissions-container38 {
   flex: 0 0 auto;
   width: 74px;
   height: 36px;
   display: flex;
+  transition: 0s;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: solid;
@@ -1108,6 +1412,10 @@
   border-radius: 18px;
   padding-right: 2px;
   justify-content: flex-start;
+}
+.creator-studio-teams-role-permissions-container38:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role-permissions-container39 {
   flex: 0 0 auto;
@@ -1119,9 +1427,158 @@
   justify-content: center;
   background-color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-permissions-image7 {
+.creator-studio-teams-role-permissions-image11 {
   width: 20px;
   object-fit: cover;
+}
+.creator-studio-teams-role-permissions-button06 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-button06:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-permissions-button06:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-image12 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-text098 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-role-permissions-permission-item7 {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+  border-color: var(--dl-color-dark-gray-360);
+  border-width: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-role-permissions-container40 {
+  gap: 2px;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.creator-studio-teams-role-permissions-text101 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-permissions-text104 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-permissions-container-toggle7 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.creator-studio-teams-role-permissions-container41 {
+  flex: 0 0 auto;
+  width: 74px;
+  height: 36px;
+  display: flex;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-start;
+}
+.creator-studio-teams-role-permissions-container41:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role-permissions-container42 {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-permissions-image13 {
+  width: 20px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-button07 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-button07:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-role-permissions-button07:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-permissions-image14 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-role-permissions-text105 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
 }
 .creator-studio-teams-role-permissions-bottom-buttons {
   gap: var(--dl-space-space-twounits);
@@ -1136,7 +1593,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.creator-studio-teams-role-permissions-button1 {
+.creator-studio-teams-role-permissions-button08 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   width: 260px;
@@ -1160,7 +1617,7 @@
   justify-content: center;
   background-color: var(--dl-color-dark-darkgreenbtn);
 }
-.creator-studio-teams-role-permissions-button1:hover {
+.creator-studio-teams-role-permissions-button08:hover {
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-darkergreen);
 }
@@ -1170,7 +1627,7 @@
   height: 20px;
   display: none;
 }
-.creator-studio-teams-role-permissions-text74 {
+.creator-studio-teams-role-permissions-text111 {
   color: var(--dl-color-dark-gray-400);
 }
 .creator-studio-teams-role-permissions-bottom-menu {
@@ -1200,7 +1657,7 @@
   display: flex;
   align-items: flex-end;
 }
-.creator-studio-teams-role-permissions-text75 {
+.creator-studio-teams-role-permissions-text112 {
   color: var(--dl-color-dark-white);
   font-size: 18px;
   font-family: Poppins;
@@ -1209,7 +1666,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-role-permissions-text76 {
+.creator-studio-teams-role-permissions-text113 {
   color: var(--dl-color-dark-green-200);
   font-size: 18px;
   font-family: Poppins;
@@ -1223,7 +1680,7 @@
   display: flex;
   align-items: center;
 }
-.creator-studio-teams-role-permissions-button2 {
+.creator-studio-teams-role-permissions-button09 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -1247,10 +1704,10 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-role-permissions-button2:hover {
+.creator-studio-teams-role-permissions-button09:hover {
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-button2:active {
+.creator-studio-teams-role-permissions-button09:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1258,12 +1715,12 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-permissions-text77 {
+.creator-studio-teams-role-permissions-text114 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-role-permissions-button3 {
+.creator-studio-teams-role-permissions-button10 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -1287,10 +1744,10 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-role-permissions-button3:hover {
+.creator-studio-teams-role-permissions-button10:hover {
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-button3:active {
+.creator-studio-teams-role-permissions-button10:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1298,12 +1755,12 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-permissions-text80 {
+.creator-studio-teams-role-permissions-text117 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-role-permissions-button4 {
+.creator-studio-teams-role-permissions-button11 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -1327,10 +1784,10 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-role-permissions-button4:hover {
+.creator-studio-teams-role-permissions-button11:hover {
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-button4:active {
+.creator-studio-teams-role-permissions-button11:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1338,12 +1795,12 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-permissions-text83 {
+.creator-studio-teams-role-permissions-text120 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-role-permissions-button5 {
+.creator-studio-teams-role-permissions-button12 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -1367,10 +1824,10 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-role-permissions-button5:hover {
+.creator-studio-teams-role-permissions-button12:hover {
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-button5:active {
+.creator-studio-teams-role-permissions-button12:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1378,12 +1835,12 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-permissions-text86 {
+.creator-studio-teams-role-permissions-text123 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-role-permissions-button6 {
+.creator-studio-teams-role-permissions-button13 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -1407,10 +1864,10 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-role-permissions-button6:hover {
+.creator-studio-teams-role-permissions-button13:hover {
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-button6:active {
+.creator-studio-teams-role-permissions-button13:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1418,12 +1875,12 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-permissions-text89 {
+.creator-studio-teams-role-permissions-text126 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-role-permissions-navlink3 {
+.creator-studio-teams-role-permissions-navlink5 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -1447,11 +1904,11 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-role-permissions-navlink3:hover {
+.creator-studio-teams-role-permissions-navlink5:hover {
   border-color: var(--dl-color-dark-red-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-role-permissions-navlink3:active {
+.creator-studio-teams-role-permissions-navlink5:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -1459,12 +1916,12 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-permissions-text92 {
+.creator-studio-teams-role-permissions-text129 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-role-permissions-button7 {
+.creator-studio-teams-role-permissions-button14 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -1488,28 +1945,28 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-darkergreenhighlight);
 }
-.creator-studio-teams-role-permissions-button7:hover {
+.creator-studio-teams-role-permissions-button14:hover {
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-darkgreenbtn);
 }
-.creator-studio-teams-role-permissions-image8 {
+.creator-studio-teams-role-permissions-image15 {
   width: 24px;
   height: 24px;
   object-fit: cover;
 }
-.creator-studio-teams-role-permissions-text95 {
+.creator-studio-teams-role-permissions-text132 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
 @media(max-width: 1200px) {
-  .creator-studio-teams-role-permissions-text15 {
+  .creator-studio-teams-role-permissions-text015 {
     color: var(--dl-color-dark-white);
   }
   .creator-studio-teams-role-permissions-navlink1 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text16 {
+  .creator-studio-teams-role-permissions-text016 {
     color: var(--dl-color-dark-white);
   }
   .creator-studio-teams-role-permissions-navlink2 {
@@ -1517,6 +1974,36 @@
   }
   .creator-studio-teams-role-permissions-rows-permissions {
     padding-right: 0px;
+  }
+  .creator-studio-teams-role-permissions-text042 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-navlink4 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-text058 {
+    font-size: 14px;
+  }
+  .creator-studio-teams-role-permissions-text062 {
+    font-size: 14px;
+  }
+  .creator-studio-teams-role-permissions-text069 {
+    font-size: 14px;
+  }
+  .creator-studio-teams-role-permissions-text076 {
+    font-size: 14px;
+  }
+  .creator-studio-teams-role-permissions-text083 {
+    font-size: 14px;
+  }
+  .creator-studio-teams-role-permissions-text090 {
+    font-size: 14px;
+  }
+  .creator-studio-teams-role-permissions-text097 {
+    font-size: 14px;
+  }
+  .creator-studio-teams-role-permissions-text104 {
+    font-size: 14px;
   }
 }
 @media(max-width: 991px) {
@@ -1544,7 +2031,52 @@
   .creator-studio-teams-role-permissions-badge-preview {
     width: 400px;
   }
-  .creator-studio-teams-role-permissions-text74 {
+  .creator-studio-teams-role-permissions-container18 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-button01 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-permissions-text063 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-button02 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-permissions-text070 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-button03 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-permissions-text077 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-button04 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-permissions-text084 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-button05 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-permissions-text091 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-button06 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-permissions-text098 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-button07 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-role-permissions-text105 {
+    display: none;
+  }
+  .creator-studio-teams-role-permissions-text111 {
     color: var(--dl-color-dark-gray-400);
   }
 }
@@ -1579,7 +2111,7 @@
   .creator-studio-teams-role-permissions-text {
     font-size: 18px;
   }
-  .creator-studio-teams-role-permissions-text01 {
+  .creator-studio-teams-role-permissions-text001 {
     font-size: 13px;
   }
   .creator-studio-teams-role-permissions-buttons {
@@ -1594,7 +2126,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 8px;
   }
-  .creator-studio-teams-role-permissions-text08 {
+  .creator-studio-teams-role-permissions-text008 {
     font-size: 16px;
   }
   .creator-studio-teams-role-permissions-container04 {
@@ -1608,7 +2140,7 @@
     height: 38.5px;
     border-radius: var(--dl-radius-radius-radius8);
   }
-  .creator-studio-teams-role-permissions-text11 {
+  .creator-studio-teams-role-permissions-text011 {
     font-size: 13px;
   }
   .creator-studio-teams-role-permissions-dropdown-list {
@@ -1621,7 +2153,7 @@
     padding-right: 12px;
     padding-bottom: 10px;
   }
-  .creator-studio-teams-role-permissions-text12 {
+  .creator-studio-teams-role-permissions-text012 {
     font-size: 13px;
   }
   .creator-studio-teams-role-permissions-dropdown-toggle2 {
@@ -1630,7 +2162,7 @@
     padding-right: 12px;
     padding-bottom: 10px;
   }
-  .creator-studio-teams-role-permissions-text13 {
+  .creator-studio-teams-role-permissions-text013 {
     font-size: 13px;
   }
   .creator-studio-teams-role-permissions-tabs-row {
@@ -1643,11 +2175,11 @@
     font-size: 13px;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-text14 {
+  .creator-studio-teams-role-permissions-text014 {
     font-size: 13px;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-text15 {
+  .creator-studio-teams-role-permissions-text015 {
     font-size: 13px;
     font-weight: 600;
   }
@@ -1655,7 +2187,7 @@
     font-size: 13px;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-text16 {
+  .creator-studio-teams-role-permissions-text016 {
     font-size: 13px;
     font-weight: 600;
   }
@@ -1680,7 +2212,7 @@
     flex-direction: column;
     padding-bottom: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-role-permissions-text17 {
+  .creator-studio-teams-role-permissions-text017 {
     display: none;
   }
   .creator-studio-teams-role-permissions-container08 {
@@ -1698,13 +2230,16 @@
     width: 100%;
     padding-top: var(--dl-space-space-halfunit);
   }
+  .creator-studio-teams-role-permissions-header-permissions {
+    padding-left: 0px;
+  }
   .creator-studio-teams-role-permissions-container15 {
     padding-left: 4px;
   }
-  .creator-studio-teams-role-permissions-text30 {
+  .creator-studio-teams-role-permissions-text030 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text31 {
+  .creator-studio-teams-role-permissions-text031 {
     color: var(--dl-color-dark-white);
   }
   .creator-studio-teams-role-permissions-header-label1 {
@@ -1716,41 +2251,63 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-role-permissions-text37 {
+  .creator-studio-teams-role-permissions-text037 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text39 {
+  .creator-studio-teams-role-permissions-text039 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text40 {
+  .creator-studio-teams-role-permissions-text040 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-navlink3 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-text042 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-navlink4 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-container18 {
+    padding-left: 4px;
+  }
+  .creator-studio-teams-role-permissions-text043 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-text044 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-header-label3 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-unit);
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-role-permissions-text050 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-text052 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-text053 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-text055 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-text056 {
     color: var(--dl-color-dark-white);
   }
   .creator-studio-teams-role-permissions-container-toggle {
     width: auto;
-    align-items: flex-start;
-  }
-  .creator-studio-teams-role-permissions-container17 {
-    width: 50px;
-    height: 24px;
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-  .creator-studio-teams-role-permissions-container18 {
-    width: 16px;
-    height: 16px;
-  }
-  .creator-studio-teams-role-permissions-image {
-    width: 12px;
-  }
-  .creator-studio-teams-role-permissions-text43 {
-    color: var(--dl-color-dark-white);
-  }
-  .creator-studio-teams-role-permissions-text44 {
-    color: var(--dl-color-dark-white);
-  }
-  .creator-studio-teams-role-permissions-container-toggle1 {
-    width: auto;
-    align-items: flex-start;
+    align-items: center;
   }
   .creator-studio-teams-role-permissions-container20 {
     width: 50px;
@@ -1762,18 +2319,18 @@
     width: 16px;
     height: 16px;
   }
-  .creator-studio-teams-role-permissions-image1 {
+  .creator-studio-teams-role-permissions-image {
     width: 12px;
   }
-  .creator-studio-teams-role-permissions-text47 {
+  .creator-studio-teams-role-permissions-text059 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text48 {
+  .creator-studio-teams-role-permissions-text060 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-container-toggle2 {
+  .creator-studio-teams-role-permissions-container-toggle1 {
     width: auto;
-    align-items: flex-start;
+    align-items: center;
   }
   .creator-studio-teams-role-permissions-container23 {
     width: 50px;
@@ -1785,18 +2342,32 @@
     width: 16px;
     height: 16px;
   }
-  .creator-studio-teams-role-permissions-image2 {
+  .creator-studio-teams-role-permissions-image01 {
     width: 12px;
   }
-  .creator-studio-teams-role-permissions-text51 {
+  .creator-studio-teams-role-permissions-button01 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-permissions-text063 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-text066 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text52 {
+  .creator-studio-teams-role-permissions-text067 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-container-toggle3 {
+  .creator-studio-teams-role-permissions-container-toggle2 {
     width: auto;
-    align-items: flex-start;
+    align-items: center;
   }
   .creator-studio-teams-role-permissions-container26 {
     width: 50px;
@@ -1808,18 +2379,32 @@
     width: 16px;
     height: 16px;
   }
-  .creator-studio-teams-role-permissions-image3 {
+  .creator-studio-teams-role-permissions-image03 {
     width: 12px;
   }
-  .creator-studio-teams-role-permissions-text55 {
+  .creator-studio-teams-role-permissions-button02 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-permissions-text070 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-text073 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text56 {
+  .creator-studio-teams-role-permissions-text074 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-container-toggle4 {
+  .creator-studio-teams-role-permissions-container-toggle3 {
     width: auto;
-    align-items: flex-start;
+    align-items: center;
   }
   .creator-studio-teams-role-permissions-container29 {
     width: 50px;
@@ -1831,18 +2416,32 @@
     width: 16px;
     height: 16px;
   }
-  .creator-studio-teams-role-permissions-image4 {
+  .creator-studio-teams-role-permissions-image05 {
     width: 12px;
   }
-  .creator-studio-teams-role-permissions-text59 {
+  .creator-studio-teams-role-permissions-button03 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-permissions-text077 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-text080 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text60 {
+  .creator-studio-teams-role-permissions-text081 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-container-toggle5 {
+  .creator-studio-teams-role-permissions-container-toggle4 {
     width: auto;
-    align-items: flex-start;
+    align-items: center;
   }
   .creator-studio-teams-role-permissions-container32 {
     width: 50px;
@@ -1854,18 +2453,32 @@
     width: 16px;
     height: 16px;
   }
-  .creator-studio-teams-role-permissions-image5 {
+  .creator-studio-teams-role-permissions-image07 {
     width: 12px;
   }
-  .creator-studio-teams-role-permissions-text63 {
+  .creator-studio-teams-role-permissions-button04 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-permissions-text084 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-text087 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text64 {
+  .creator-studio-teams-role-permissions-text088 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-container-toggle6 {
+  .creator-studio-teams-role-permissions-container-toggle5 {
     width: auto;
-    align-items: flex-start;
+    align-items: center;
   }
   .creator-studio-teams-role-permissions-container35 {
     width: 50px;
@@ -1877,18 +2490,32 @@
     width: 16px;
     height: 16px;
   }
-  .creator-studio-teams-role-permissions-image6 {
+  .creator-studio-teams-role-permissions-image09 {
     width: 12px;
   }
-  .creator-studio-teams-role-permissions-text67 {
+  .creator-studio-teams-role-permissions-button05 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-permissions-text091 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-text094 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-text68 {
+  .creator-studio-teams-role-permissions-text095 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-permissions-container-toggle7 {
+  .creator-studio-teams-role-permissions-container-toggle6 {
     width: auto;
-    align-items: flex-start;
+    align-items: center;
   }
   .creator-studio-teams-role-permissions-container38 {
     width: 50px;
@@ -1900,8 +2527,59 @@
     width: 16px;
     height: 16px;
   }
-  .creator-studio-teams-role-permissions-image7 {
+  .creator-studio-teams-role-permissions-image11 {
     width: 12px;
+  }
+  .creator-studio-teams-role-permissions-button06 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-permissions-text098 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-role-permissions-text101 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-text102 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-permissions-container-toggle7 {
+    width: auto;
+    align-items: center;
+  }
+  .creator-studio-teams-role-permissions-container41 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-role-permissions-container42 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-role-permissions-image13 {
+    width: 12px;
+  }
+  .creator-studio-teams-role-permissions-button07 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-role-permissions-text105 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
   }
   .creator-studio-teams-role-permissions-bottom-buttons {
     gap: var(--dl-space-space-unit);
@@ -1909,7 +2587,7 @@
     margin-top: var(--dl-space-space-twounits);
     flex-direction: column;
   }
-  .creator-studio-teams-role-permissions-button1 {
+  .creator-studio-teams-role-permissions-button08 {
     width: 100%;
     height: 50px;
     align-items: center;
@@ -1919,7 +2597,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
-  .creator-studio-teams-role-permissions-text71 {
+  .creator-studio-teams-role-permissions-text108 {
     font-size: 16px;
   }
   .creator-studio-teams-role-permissions-bottom-menu {
@@ -1927,16 +2605,16 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-role-permissions-text75 {
+  .creator-studio-teams-role-permissions-text112 {
     font-size: 16px;
   }
-  .creator-studio-teams-role-permissions-text76 {
+  .creator-studio-teams-role-permissions-text113 {
     font-size: 16px;
   }
   .creator-studio-teams-role-permissions-container-right {
     gap: var(--dl-space-space-halfunit);
   }
-  .creator-studio-teams-role-permissions-button2 {
+  .creator-studio-teams-role-permissions-button09 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -1944,13 +2622,13 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-permissions-text77 {
+  .creator-studio-teams-role-permissions-text114 {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-button3 {
+  .creator-studio-teams-role-permissions-button10 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -1958,13 +2636,13 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-permissions-text80 {
+  .creator-studio-teams-role-permissions-text117 {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-button4 {
+  .creator-studio-teams-role-permissions-button11 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -1972,13 +2650,13 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-permissions-text83 {
+  .creator-studio-teams-role-permissions-text120 {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-button5 {
+  .creator-studio-teams-role-permissions-button12 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -1986,13 +2664,13 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-permissions-text86 {
+  .creator-studio-teams-role-permissions-text123 {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-button6 {
+  .creator-studio-teams-role-permissions-button13 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -2000,13 +2678,13 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-permissions-text89 {
+  .creator-studio-teams-role-permissions-text126 {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-navlink3 {
+  .creator-studio-teams-role-permissions-navlink5 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -2014,13 +2692,13 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-permissions-text92 {
+  .creator-studio-teams-role-permissions-text129 {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-role-permissions-button7 {
+  .creator-studio-teams-role-permissions-button14 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -2028,7 +2706,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-permissions-text95 {
+  .creator-studio-teams-role-permissions-text132 {
     display: none;
     font-size: 13px;
     font-style: normal;

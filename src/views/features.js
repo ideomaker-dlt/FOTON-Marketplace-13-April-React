@@ -11,20 +11,24 @@ const Features = (props) => {
     <div className="features-container">
       <Helmet>
         <title>
-          Features - FOTON Marketplace for NFTs and Digital Collectibles on
+          Features - FOTON - Web3's Digital Assets Hub and NFTs Marketplace on
           Radix DLT
         </title>
         <meta
           name="description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
         />
         <meta
           property="og:title"
-          content="Features - FOTON Marketplace for NFTs and Digital Collectibles on Radix DLT"
+          content="Features - FOTON - Web3's Digital Assets Hub and NFTs Marketplace on Radix DLT"
         />
         <meta
           property="og:description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/960fd433-f55d-424c-a4b7-18ebfa3fe35e/73f897ab-0871-4173-9275-412ff9f275f2?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name26">
@@ -503,71 +507,101 @@ const Features = (props) => {
           </div>
           <div className="features-page-content">
             <div className="features-header">
-              <h1 className="features-text105">
-                Tokenised Creativity starts Here
-              </h1>
-              <h2 className="features-text106">
+              <div className="features-container49">
+                <h1 className="features-text105">
+                  <span>Your Creativity</span>
+                  <br></br>
+                  <span>   powered by Communities</span>
+                  <br></br>
+                </h1>
+              </div>
+              <h2 className="features-text110">
+                Build a Bussiness on the new Web3.
+              </h2>
+              <Link
+                to="/add-collection2-layered"
+                className="features-navlink1 button"
+              >
+                <span className="features-text111">
+                  <span>Start Creating</span>
+                  <br></br>
+                </span>
+                <svg viewBox="0 0 1024 1024" className="features-icon">
+                  <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
+                </svg>
+              </Link>
+              <h2 className="features-text114">
                 <span>
-                  Create collectible Digital Assets (NFTs) with Advanced
+                  Create Collectible Digital Assets (NFTs) with Advanced
                   Behaviour and Clear Use Cases. 
                 </span>
                 <br></br>
                 <span>It&apos;s up to you how deep the Rabbit Hole goes!</span>
               </h2>
-              <div className="features-container49">
-                <button type="button" className="features-button">
-                  Create Now
-                </button>
-              </div>
             </div>
             <div className="features-features-sections">
-              <div className="features-section">
+              <div className="features-tabs-row">
                 <div className="features-container50">
-                  <h3 className="features-text110">
-                    <span className="features-text111">Mint Easily</span>
+                  <div className="features-container51">
+                    <span className="features-text118">Role:</span>
+                    <span className="features-text119">Owner</span>
+                  </div>
+                  <span className="features-text120">No Code</span>
+                  <span className="features-text121">Collaborate</span>
+                  <span className="features-text122">Templates</span>
+                  <span className="features-text123">Mediums</span>
+                  <span className="features-text124">Industries</span>
+                  <span className="features-text125">Scalable</span>
+                  <span className="features-text126">Familiar</span>
+                </div>
+              </div>
+              <div className="features-section">
+                <div className="features-container52">
+                  <h3 className="features-text127 gradient-text">
+                    <span>Mint Easily</span>
                     <span> entire Collections without coding knowledge</span>
                   </h3>
-                  <span className="features-text113">
+                  <span className="features-text130">
                     Big collections between 500 and 10000 items with unique
                     attributes work the best. Such collections can be
                     Illustrated Avatars or Generative art.
                   </span>
                 </div>
-                <div className="features-container51">
-                  <div className="features-container52"></div>
+                <div className="features-container53">
+                  <div className="features-container54"></div>
                 </div>
               </div>
               <div className="features-section1">
-                <div className="features-container53">
-                  <h3 className="features-text114">
-                    <span className="features-text115">
-                      Pre-Defined NFT
+                <div className="features-container55">
+                  <div className="features-container56"></div>
+                </div>
+                <div className="features-container57">
+                  <h3 className="features-text131">
+                    <span className="features-text132">
+                      NFT
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
                         }}
                       />
                     </span>
-                    <span className="features-text116">Templates</span>
-                    <span className="features-text117">
+                    <span className="features-text133">Templates</span>
+                    <span className="features-text134">
                       {' '}
                       for Clear Use Cases
                     </span>
-                    <span className="features-text118"> and Applications</span>
+                    <span className="features-text135"> and Applications</span>
                   </h3>
-                  <span className="features-text119">
+                  <span className="features-text136">
                     Big collections between 500 and 10000 items with unique
                     attributes work the best. Such collections can be
                     Illustrated Avatars or Generative art.
                   </span>
-                </div>
-                <div className="features-container54">
-                  <div className="features-container55"></div>
                 </div>
               </div>
               <div className="features-section2">
-                <div className="features-container56">
-                  <h3 className="features-text120">
+                <div className="features-container58">
+                  <h3 className="features-text137">
                     <span>
                       Reach fast Huge Audiences, with very
                       <span
@@ -576,23 +610,23 @@ const Features = (props) => {
                         }}
                       />
                     </span>
-                    <span className="features-text122">
+                    <span className="features-text139">
                       Low Costs and No Bottlenecks
                     </span>
                   </h3>
-                  <span className="features-text123">
+                  <span className="features-text140">
                     Big collections between 500 and 10000 items with unique
                     attributes work the best. Such collections can be
                     Illustrated Avatars or Generative art.
                   </span>
                 </div>
-                <div className="features-container57">
-                  <div className="features-container58"></div>
+                <div className="features-container59">
+                  <div className="features-container60"></div>
                 </div>
               </div>
               <div className="features-section3">
-                <div className="features-container59">
-                  <h3 className="features-text124">
+                <div className="features-container61">
+                  <h3 className="features-text141">
                     <span>
                       Reach fast Huge Audiences, with very
                       <span
@@ -601,23 +635,23 @@ const Features = (props) => {
                         }}
                       />
                     </span>
-                    <span className="features-text126">
+                    <span className="features-text143">
                       Low Costs and Without Bottlenecks
                     </span>
                   </h3>
-                  <span className="features-text127">
+                  <span className="features-text144">
                     Big collections between 500 and 10000 items with unique
                     attributes work the best. Such collections can be
                     Illustrated Avatars or Generative art.
                   </span>
                 </div>
-                <div className="features-container60">
-                  <div className="features-container61"></div>
+                <div className="features-container62">
+                  <div className="features-container63"></div>
                 </div>
               </div>
               <div className="features-section4">
-                <div className="features-container62">
-                  <h3 className="features-text128">
+                <div className="features-container64">
+                  <h3 className="features-text145">
                     <span>
                       Reach fast Huge Audiences, with very
                       <span
@@ -626,23 +660,23 @@ const Features = (props) => {
                         }}
                       />
                     </span>
-                    <span className="features-text130">
+                    <span className="features-text147">
                       Low Costs and Without Bottlenecks
                     </span>
                   </h3>
-                  <span className="features-text131">
+                  <span className="features-text148">
                     Big collections between 500 and 10000 items with unique
                     attributes work the best. Such collections can be
                     Illustrated Avatars or Generative art.
                   </span>
                 </div>
-                <div className="features-container63">
-                  <div className="features-container64"></div>
+                <div className="features-container65">
+                  <div className="features-container66"></div>
                 </div>
               </div>
               <div className="features-section5">
-                <div className="features-container65">
-                  <h3 className="features-text132">
+                <div className="features-container67">
+                  <h3 className="features-text149">
                     <span>
                       Reach fast Huge Audiences, with very
                       <span
@@ -651,18 +685,18 @@ const Features = (props) => {
                         }}
                       />
                     </span>
-                    <span className="features-text134">
+                    <span className="features-text151">
                       Low Costs and Without Bottlenecks
                     </span>
                   </h3>
-                  <span className="features-text135">
+                  <span className="features-text152">
                     Big collections between 500 and 10000 items with unique
                     attributes work the best. Such collections can be
                     Illustrated Avatars or Generative art.
                   </span>
                 </div>
-                <div className="features-container66">
-                  <div className="features-container67"></div>
+                <div className="features-container68">
+                  <div className="features-container69"></div>
                 </div>
               </div>
             </div>

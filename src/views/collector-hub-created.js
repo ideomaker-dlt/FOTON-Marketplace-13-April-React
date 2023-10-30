@@ -11,20 +11,24 @@ const CollectorHubCreated = (props) => {
     <div className="collector-hub-created-container">
       <Helmet>
         <title>
-          Collector-Hub-Created - FOTON Marketplace for NFTs and Digital
-          Collectibles on Radix DLT
+          Collector-Hub-Created - FOTON - Web3's Digital Assets Hub and NFTs
+          Marketplace on Radix DLT
         </title>
         <meta
           name="description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
         />
         <meta
           property="og:title"
-          content="Collector-Hub-Created - FOTON Marketplace for NFTs and Digital Collectibles on Radix DLT"
+          content="Collector-Hub-Created - FOTON - Web3's Digital Assets Hub and NFTs Marketplace on Radix DLT"
         />
         <meta
           property="og:description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/960fd433-f55d-424c-a4b7-18ebfa3fe35e/73f897ab-0871-4173-9275-412ff9f275f2?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name38">

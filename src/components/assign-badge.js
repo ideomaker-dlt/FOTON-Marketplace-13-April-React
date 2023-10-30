@@ -11,11 +11,7 @@ const AssignBadge = (props) => {
         onClick={() => setIsVisible(!isVisible)}
         className="assign-badge-button"
       >
-        <img
-          alt="image"
-          src="/Icons Imported/person_add.svg"
-          className="assign-badge-image"
-        />
+        <img alt="image" src="/person_add.svg" className="assign-badge-image" />
         <span className="assign-badge-text">
           <span>Assign Badge</span>
           <br></br>

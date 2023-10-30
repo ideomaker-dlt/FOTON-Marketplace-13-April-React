@@ -37,7 +37,11 @@
 }
 .app-component-root-class-name {
   background-size: cover;
-  background-image: url("/vlad_rdx_technical_view_of_a_rocket_engine_5c1876f5-8a20-483e-9b12-d88d68593034-200h.png");
+  background-image: url("/Foton Images/gundam.png");
+}
+.app-component-root-class-name1 {
+  background-size: cover;
+  background-image: url("/Foton Images/cat_warrior.png");
 }
 @media(max-width: 767px) {
   .app-component-container {

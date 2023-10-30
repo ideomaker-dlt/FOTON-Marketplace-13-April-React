@@ -20,6 +20,7 @@ module.exports = {
           "Black": "#000000",
           "DarkGreenBTN": "#009c75ff",
           "Blue-150": "#1c8ce4ff",
+          "FluoBlue": "#00ffd4ff",
           "Gray-360": "#2f2f2fff",
           "Gray-365": "#333333ff",
           "DarkerGreenHighlight": "#1b372bff",

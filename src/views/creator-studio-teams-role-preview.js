@@ -11,20 +11,24 @@ const CreatorStudioTeamsRolePreview = (props) => {
     <div className="creator-studio-teams-role-preview-container">
       <Helmet>
         <title>
-          Creator-Studio-Teams-RolePreview - FOTON Marketplace for NFTs and
-          Digital Collectibles on Radix DLT
+          Creator-Studio-Teams-RolePreview - FOTON - Web3's Digital Assets Hub
+          and NFTs Marketplace on Radix DLT
         </title>
         <meta
           name="description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
         />
         <meta
           property="og:title"
-          content="Creator-Studio-Teams-RolePreview - FOTON Marketplace for NFTs and Digital Collectibles on Radix DLT"
+          content="Creator-Studio-Teams-RolePreview - FOTON - Web3's Digital Assets Hub and NFTs Marketplace on Radix DLT"
         />
         <meta
           property="og:description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/960fd433-f55d-424c-a4b7-18ebfa3fe35e/73f897ab-0871-4173-9275-412ff9f275f2?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name35">
@@ -160,7 +164,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
               </span>
             </div>
             <span className="creator-studio-teams-role-preview-text16">
-              Preview
+              Definition
             </span>
             <Link
               to="/creator-studio-teams-role-permissions"
@@ -249,18 +253,36 @@ const CreatorStudioTeamsRolePreview = (props) => {
                   </div>
                 </div>
                 <div className="creator-studio-teams-role-preview-fields">
-                  <h3 className="creator-studio-teams-role-preview-header-label padding-4px-left Content18">
-                    Preview and Customise
+                  <h3 className="creator-studio-teams-role-preview-header-label Content18 padding-4px-left">
+                    Define Role
                   </h3>
-                  <div className="creator-studio-teams-role-preview-upload-image-field">
+                  <div className="creator-studio-teams-role-preview-field">
                     <div className="creator-studio-teams-role-preview-container15">
                       <label className="creator-studio-teams-role-preview-text30 padding-4px-left">
-                        <span className="creator-studio-teams-role-preview-text31">
+                        <span>Name:</span>
+                        <br></br>
+                      </label>
+                      <span className="creator-studio-teams-role-preview-text33 padding-4px-left">
+                        The name and details are generated automatically based
+                        on the Role.
+                      </span>
+                    </div>
+                    <input
+                      type="text"
+                      enctype
+                      placeholder="Admin, Editor, Moderator..."
+                      className="creator-studio-teams-role-preview-textinput focus-reset-forms Content16SemiBold input"
+                    />
+                  </div>
+                  <div className="creator-studio-teams-role-preview-upload-image-field">
+                    <div className="creator-studio-teams-role-preview-container16">
+                      <label className="creator-studio-teams-role-preview-text34 padding-4px-left">
+                        <span className="creator-studio-teams-role-preview-text35">
                           Custom image:
                         </span>
                         <br></br>
                       </label>
-                      <span className="creator-studio-teams-role-preview-text33 padding-4px-left">
+                      <span className="creator-studio-teams-role-preview-text37 padding-4px-left">
                         Replace the default FOTON image of the badge.
                         <span
                           dangerouslySetInnerHTML={{
@@ -269,11 +291,11 @@ const CreatorStudioTeamsRolePreview = (props) => {
                         />
                       </span>
                     </div>
-                    <div className="creator-studio-teams-role-preview-container16">
+                    <div className="creator-studio-teams-role-preview-container17">
                       <input
                         type="text"
                         placeholder="Upload image..."
-                        className="creator-studio-teams-role-preview-textinput Content16SemiBold focus-reset-forms input"
+                        className="creator-studio-teams-role-preview-textinput1 Content16SemiBold focus-reset-forms input"
                       />
                       <button className="creator-studio-teams-role-preview-button1 button Content16SemiBold">
                         <svg
@@ -285,15 +307,15 @@ const CreatorStudioTeamsRolePreview = (props) => {
                       </button>
                     </div>
                   </div>
-                  <div className="creator-studio-teams-role-preview-field">
-                    <div className="creator-studio-teams-role-preview-container17">
-                      <label className="creator-studio-teams-role-preview-text34 padding-4px-left">
-                        <span className="creator-studio-teams-role-preview-text35">
+                  <div className="creator-studio-teams-role-preview-field1">
+                    <div className="creator-studio-teams-role-preview-container18">
+                      <label className="creator-studio-teams-role-preview-text38 padding-4px-left">
+                        <span className="creator-studio-teams-role-preview-text39">
                           Add an optional short Note: 
                         </span>
                         <br></br>
                       </label>
-                      <span className="creator-studio-teams-role-preview-text37 padding-4px-left">
+                      <span className="creator-studio-teams-role-preview-text41 padding-4px-left">
                         The name and details are generated automatically based
                         on the Role.
                       </span>
@@ -302,12 +324,12 @@ const CreatorStudioTeamsRolePreview = (props) => {
                       type="text"
                       enctype
                       placeholder="This gives you superpowers..."
-                      className="creator-studio-teams-role-preview-textinput1 focus-reset-forms Content16SemiBold input"
+                      className="creator-studio-teams-role-preview-textinput2 focus-reset-forms Content16SemiBold input"
                     />
                   </div>
                   <div className="creator-studio-teams-role-preview-bottom-buttons">
                     <button className="creator-studio-teams-role-preview-button2 button">
-                      <span className="creator-studio-teams-role-preview-text38">
+                      <span className="creator-studio-teams-role-preview-text42">
                         <span>Save and Update</span>
                         <br></br>
                       </span>
@@ -318,22 +340,22 @@ const CreatorStudioTeamsRolePreview = (props) => {
                         <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
                       </svg>
                     </button>
-                    <span className="creator-studio-teams-role-preview-text41 padding-4px-left">
+                    <span className="creator-studio-teams-role-preview-text45 padding-4px-left">
                       * Every update to badges involves network fees. 
                     </span>
                     <div className="creator-studio-teams-role-preview-info-text">
-                      <span className="creator-studio-teams-role-preview-text42 padding-4px-left">
+                      <span className="creator-studio-teams-role-preview-text46 padding-4px-left">
                         <span>Info:</span>
                         <br></br>
                       </span>
-                      <span className="creator-studio-teams-role-preview-text45 padding-4px-left">
+                      <span className="creator-studio-teams-role-preview-text49 padding-4px-left">
                         <span>
                           1. Every Role has its own Badge type, which gives
                           access to only 1 Member per Badge.
                         </span>
                         <br></br>
                       </span>
-                      <span className="creator-studio-teams-role-preview-text48 padding-4px-left">
+                      <span className="creator-studio-teams-role-preview-text52 padding-4px-left">
                         <span>
                           2. The name and most of the details are generated
                           automatically based on the Role and Project it belongs
@@ -341,7 +363,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
                         </span>
                         <br></br>
                       </span>
-                      <span className="creator-studio-teams-role-preview-text51 padding-4px-left">
+                      <span className="creator-studio-teams-role-preview-text55 padding-4px-left">
                         <span>
                           3. FOTON will add always the watermark to Role Badges,
                           to eliminate confusion with the regular ones in the
@@ -359,10 +381,10 @@ const CreatorStudioTeamsRolePreview = (props) => {
       </LayoutWithSidebar>
       <div className="creator-studio-teams-role-preview-bottom-menu">
         <div className="creator-studio-teams-role-preview-container-left">
-          <span className="creator-studio-teams-role-preview-text54">
+          <span className="creator-studio-teams-role-preview-text58">
             Selected items:
           </span>
-          <span className="creator-studio-teams-role-preview-text55">3</span>
+          <span className="creator-studio-teams-role-preview-text59">3</span>
         </div>
         <div className="creator-studio-teams-role-preview-container-right">
           <button
@@ -375,7 +397,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
             >
               <path d="M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"></path>
             </svg>
-            <span className="creator-studio-teams-role-preview-text56">
+            <span className="creator-studio-teams-role-preview-text60">
               <span>
                 Edit
                 <span
@@ -397,7 +419,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
             >
               <path d="M566 458l116 54-116 54-54 116-54-116-116-54 116-54 54-116zM726 426l-40-88-88-40 88-40 40-88 40 88 88 40-88 40zM812 426h84v384q0 34-25 60t-59 26h-598q-34 0-60-26t-26-60v-596q0-34 26-60t60-26h384v86h-384v596h598v-384z"></path>
             </svg>
-            <span className="creator-studio-teams-role-preview-text59">
+            <span className="creator-studio-teams-role-preview-text63">
               <span>Mint</span>
               <br></br>
             </span>
@@ -412,7 +434,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
             >
               <path d="M598 598v84h-300v-84h300zM810 810v-468h-596v468h596zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-34 25-60t61-26h42v-86h86v86h340v-86h86v86h42zM726 426v86h-428v-86h428z"></path>
             </svg>
-            <span className="creator-studio-teams-role-preview-text62">
+            <span className="creator-studio-teams-role-preview-text66">
               <span>List</span>
               <br></br>
             </span>
@@ -427,7 +449,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
             >
               <path d="M810 810v-468h-596v468h596zM810 128q34 0 60 26t26 60v596q0 34-26 60t-60 26h-596q-36 0-61-25t-25-61v-596q0-34 25-60t61-26h42v-86h86v86h340v-86h86v86h42zM398 726l-46-46 104-104-104-104 46-46 104 104 104-104 44 46-104 104 104 104-44 46-104-104z"></path>
             </svg>
-            <span className="creator-studio-teams-role-preview-text65">
+            <span className="creator-studio-teams-role-preview-text69">
               <span>Unlist</span>
               <br></br>
             </span>
@@ -442,7 +464,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
             >
               <path d="M726 666l-154-154 154-154-60-60-154 154-154-154-60 60 154 154-154 154 60 60 154-154 154 154zM512 86q176 0 301 125t125 301-125 301-301 125-301-125-125-301 125-301 301-125z"></path>
             </svg>
-            <span className="creator-studio-teams-role-preview-text68">
+            <span className="creator-studio-teams-role-preview-text72">
               <span>Cancel</span>
               <br></br>
             </span>
@@ -457,7 +479,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
             >
               <path d="M662 170h148v86h-596v-86h148l44-42h212zM360 506l92 92-90 90 60 60 90-90 90 90 60-60-90-90 90-92-60-60-90 92-90-92zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"></path>
             </svg>
-            <span className="creator-studio-teams-role-preview-text71">
+            <span className="creator-studio-teams-role-preview-text75">
               <span>Delete</span>
               <br></br>
             </span>
@@ -471,7 +493,7 @@ const CreatorStudioTeamsRolePreview = (props) => {
               src="/mop.svg"
               className="creator-studio-teams-role-preview-image"
             />
-            <span className="creator-studio-teams-role-preview-text74">
+            <span className="creator-studio-teams-role-preview-text78">
               <span>Sweep Floor</span>
               <br></br>
             </span>

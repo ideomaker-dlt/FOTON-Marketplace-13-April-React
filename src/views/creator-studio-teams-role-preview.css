@@ -636,12 +636,10 @@
 .creator-studio-teams-role-preview-header-label {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-preview-upload-image-field {
+.creator-studio-teams-role-preview-field {
   gap: 12px;
-  flex: 0 0 auto;
   width: 100%;
   display: flex;
-  align-items: stretch;
   flex-direction: column;
 }
 .creator-studio-teams-role-preview-container15 {
@@ -654,15 +652,49 @@
 }
 .creator-studio-teams-role-preview-text33 {
   color: var(--dl-color-dark-gray-400);
+  display: none;
+}
+.creator-studio-teams-role-preview-textinput {
+  color: var(--dl-color-dark-white);
+  height: 50px;
+  display: flex;
+  transition: 0.3s;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role-preview-textinput:focus {
+  border-color: var(--dl-color-dark-gray-400);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-role-preview-upload-image-field {
+  gap: 12px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
 }
 .creator-studio-teams-role-preview-container16 {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+.creator-studio-teams-role-preview-text34 {
+  color: var(--dl-color-dark-white);
+}
+.creator-studio-teams-role-preview-text37 {
+  color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-role-preview-container17 {
   gap: 0;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-role-preview-textinput {
+.creator-studio-teams-role-preview-textinput1 {
   color: var(--dl-color-dark-white);
   width: 100%;
   height: 50px;
@@ -675,7 +707,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.creator-studio-teams-role-preview-textinput:focus {
+.creator-studio-teams-role-preview-textinput1:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -705,25 +737,25 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-preview-field {
+.creator-studio-teams-role-preview-field1 {
   gap: 12px;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
-.creator-studio-teams-role-preview-container17 {
+.creator-studio-teams-role-preview-container18 {
   display: flex;
   align-items: stretch;
   flex-direction: column;
 }
-.creator-studio-teams-role-preview-text34 {
+.creator-studio-teams-role-preview-text38 {
   color: var(--dl-color-dark-white);
 }
-.creator-studio-teams-role-preview-text37 {
+.creator-studio-teams-role-preview-text41 {
   color: var(--dl-color-dark-gray-400);
   display: none;
 }
-.creator-studio-teams-role-preview-textinput1 {
+.creator-studio-teams-role-preview-textinput2 {
   color: var(--dl-color-dark-white);
   height: 50px;
   display: flex;
@@ -733,7 +765,7 @@
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-dark-gray-300);
 }
-.creator-studio-teams-role-preview-textinput1:focus {
+.creator-studio-teams-role-preview-textinput2:focus {
   border-color: var(--dl-color-dark-gray-400);
   background-color: var(--dl-color-dark-gray-360);
 }
@@ -784,7 +816,7 @@
   height: 20px;
   display: none;
 }
-.creator-studio-teams-role-preview-text41 {
+.creator-studio-teams-role-preview-text45 {
   color: var(--dl-color-dark-gray-400);
   width: 100%;
   border-color: var(--dl-color-dark-gray-360);
@@ -799,16 +831,16 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.creator-studio-teams-role-preview-text42 {
+.creator-studio-teams-role-preview-text46 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-preview-text45 {
+.creator-studio-teams-role-preview-text49 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-preview-text48 {
+.creator-studio-teams-role-preview-text52 {
   color: var(--dl-color-dark-gray-400);
 }
-.creator-studio-teams-role-preview-text51 {
+.creator-studio-teams-role-preview-text55 {
   color: var(--dl-color-dark-gray-400);
 }
 .creator-studio-teams-role-preview-bottom-menu {
@@ -838,7 +870,7 @@
   display: flex;
   align-items: flex-end;
 }
-.creator-studio-teams-role-preview-text54 {
+.creator-studio-teams-role-preview-text58 {
   color: var(--dl-color-dark-white);
   font-size: 18px;
   font-family: Poppins;
@@ -847,7 +879,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-role-preview-text55 {
+.creator-studio-teams-role-preview-text59 {
   color: var(--dl-color-dark-green-200);
   font-size: 18px;
   font-family: Poppins;
@@ -896,7 +928,7 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-preview-text56 {
+.creator-studio-teams-role-preview-text60 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -936,7 +968,7 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-preview-text59 {
+.creator-studio-teams-role-preview-text63 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -976,7 +1008,7 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-preview-text62 {
+.creator-studio-teams-role-preview-text66 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1016,7 +1048,7 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-preview-text65 {
+.creator-studio-teams-role-preview-text69 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1056,7 +1088,7 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-preview-text68 {
+.creator-studio-teams-role-preview-text72 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1097,7 +1129,7 @@
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-role-preview-text71 {
+.creator-studio-teams-role-preview-text75 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1135,7 +1167,7 @@
   height: 24px;
   object-fit: cover;
 }
-.creator-studio-teams-role-preview-text74 {
+.creator-studio-teams-role-preview-text78 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1179,22 +1211,22 @@
   .creator-studio-teams-role-preview-badge-preview {
     width: 400px;
   }
-  .creator-studio-teams-role-preview-text33 {
-    color: var(--dl-color-dark-gray-400);
-  }
-  .creator-studio-teams-role-preview-text41 {
-    color: var(--dl-color-dark-gray-400);
-  }
-  .creator-studio-teams-role-preview-text42 {
+  .creator-studio-teams-role-preview-text37 {
     color: var(--dl-color-dark-gray-400);
   }
   .creator-studio-teams-role-preview-text45 {
     color: var(--dl-color-dark-gray-400);
   }
-  .creator-studio-teams-role-preview-text48 {
+  .creator-studio-teams-role-preview-text46 {
     color: var(--dl-color-dark-gray-400);
   }
-  .creator-studio-teams-role-preview-text51 {
+  .creator-studio-teams-role-preview-text49 {
+    color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-role-preview-text52 {
+    color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-role-preview-text55 {
     color: var(--dl-color-dark-gray-400);
   }
 }
@@ -1384,17 +1416,20 @@
   .creator-studio-teams-role-preview-text30 {
     color: var(--dl-color-dark-white);
   }
-  .creator-studio-teams-role-preview-text31 {
-    color: var(--dl-color-dark-white);
-  }
-  .creator-studio-teams-role-preview-container16 {
-    gap: 0;
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
   .creator-studio-teams-role-preview-text34 {
     color: var(--dl-color-dark-white);
   }
   .creator-studio-teams-role-preview-text35 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-container17 {
+    gap: 0;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-role-preview-text38 {
+    color: var(--dl-color-dark-white);
+  }
+  .creator-studio-teams-role-preview-text39 {
     color: var(--dl-color-dark-white);
   }
   .creator-studio-teams-role-preview-bottom-buttons {
@@ -1413,7 +1448,7 @@
     padding-bottom: 10px;
     justify-content: center;
   }
-  .creator-studio-teams-role-preview-text38 {
+  .creator-studio-teams-role-preview-text42 {
     font-size: 16px;
   }
   .creator-studio-teams-role-preview-bottom-menu {
@@ -1421,10 +1456,10 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-role-preview-text54 {
+  .creator-studio-teams-role-preview-text58 {
     font-size: 16px;
   }
-  .creator-studio-teams-role-preview-text55 {
+  .creator-studio-teams-role-preview-text59 {
     font-size: 16px;
   }
   .creator-studio-teams-role-preview-container-right {
@@ -1438,7 +1473,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-preview-text56 {
+  .creator-studio-teams-role-preview-text60 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1452,7 +1487,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-preview-text59 {
+  .creator-studio-teams-role-preview-text63 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1466,7 +1501,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-preview-text62 {
+  .creator-studio-teams-role-preview-text66 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1480,7 +1515,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-preview-text65 {
+  .creator-studio-teams-role-preview-text69 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1494,7 +1529,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-preview-text68 {
+  .creator-studio-teams-role-preview-text72 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1508,7 +1543,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-preview-text71 {
+  .creator-studio-teams-role-preview-text75 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -1522,7 +1557,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-role-preview-text74 {
+  .creator-studio-teams-role-preview-text78 {
     display: none;
     font-size: 13px;
     font-style: normal;

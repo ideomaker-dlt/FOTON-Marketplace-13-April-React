@@ -23,6 +23,7 @@
   --dl-color-dark-blue-150: #1c8ce4ff;
   --dl-color-dark-blue-200: #2ba3ffff;
   --dl-color-dark-blue-400: #293f4aff;
+  --dl-color-dark-fluoblue: #00ffd4ff;
   --dl-color-dark-gray-100: #161616ff;
   --dl-color-dark-gray-200: #191919ff;
   --dl-color-dark-gray-250: #1d1d1dff;
@@ -297,6 +298,13 @@
   flex-direction: column;
   justify-content: center;
 }
+.gradient-text {
+  gradient-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(135deg, rgb(0, 255, 252) 0.00%,rgb(184, 255, 0) 47.00%,rgb(0, 255, 148) 21.00%,rgb(255, 255, 255) 18.00%);
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
 .Content16SemiBold {
   font-size: 16px;
   font-family: Poppins;
@@ -320,7 +328,7 @@
 }
 .Labels13CAPS {
   font-size: 13px;
-  font-family: Arial;
+  font-family: "Poppins";
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;

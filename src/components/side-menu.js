@@ -10,16 +10,12 @@ const SideMenu = (props) => {
     <div className={`side-menu-side-menu ${props.rootClassName} `}>
       <div className="side-menu-container hide-scroll">
         <div className="side-menu-container01">
-          <img
-            alt="image"
-            src="/Icons Imported/deblur.svg"
-            className="side-menu-image"
-          />
+          <img alt="image" src="/deblur.svg" className="side-menu-image" />
         </div>
         <div className="side-menu-container02">
           <img
             alt="image"
-            src="/Icons Imported/category_300.svg"
+            src="/category_300.svg"
             className="side-menu-image01"
           />
         </div>
@@ -86,68 +82,76 @@ const SideMenu = (props) => {
           <div className="side-menu-container15">
             <img
               alt="image"
-              src="/Icons Imported/storefront.svg"
+              src="/Icons Imported/account_balance_wallet.svg"
               className="side-menu-image06"
             />
-            <span className="side-menu-text05 Content">Store</span>
+            <span className="side-menu-text05">Payments</span>
           </div>
           <div className="side-menu-container16">
             <img
               alt="image"
-              src="/Icons Imported/settings.svg"
+              src="/Icons Imported/storefront.svg"
               className="side-menu-image07"
             />
-            <span className="side-menu-text06 Content">Settings</span>
+            <span className="side-menu-text06 Content">Store</span>
+          </div>
+          <div className="side-menu-container17">
+            <img
+              alt="image"
+              src="/Icons Imported/settings.svg"
+              className="side-menu-image08"
+            />
+            <span className="side-menu-text07 Content">Settings</span>
           </div>
           <Link to="/" className="side-menu-navlink2">
-            <div className="side-menu-container17">
+            <div className="side-menu-container18">
               <img
                 alt="image"
                 src="/Icons Imported/home.svg"
-                className="side-menu-image08"
+                className="side-menu-image09"
               />
-              <span className="side-menu-text07">Home</span>
+              <span className="side-menu-text08">Home</span>
             </div>
           </Link>
-          <div className="side-menu-container18">
-            <img
-              alt="image"
-              src="/Icons Imported/team_dashboard.svg"
-              className="side-menu-image09"
-            />
-            <span className="side-menu-text08">Dashboard</span>
-          </div>
           <div className="side-menu-container19">
             <img
               alt="image"
-              src="/Icons Imported/manage_accounts.svg"
+              src="/Icons Imported/team_dashboard.svg"
               className="side-menu-image10"
             />
-            <span className="side-menu-text09 Content">Profile Sett.</span>
+            <span className="side-menu-text09">Dashboard</span>
           </div>
           <div className="side-menu-container20">
             <img
               alt="image"
-              src="/Icons Imported/notifications_active.svg"
+              src="/Icons Imported/manage_accounts.svg"
               className="side-menu-image11"
             />
-            <span className="side-menu-text10 Content">Notifications</span>
+            <span className="side-menu-text10 Content">Profile Sett.</span>
           </div>
           <div className="side-menu-container21">
             <img
               alt="image"
-              src="/Icons Imported/emoji_events.svg"
+              src="/Icons Imported/notifications_active.svg"
               className="side-menu-image12"
             />
-            <span className="side-menu-text11 Content">Events</span>
+            <span className="side-menu-text11 Content">Notifications</span>
           </div>
           <div className="side-menu-container22">
             <img
               alt="image"
-              src="/Icons Imported/help_center.svg"
+              src="/Icons Imported/emoji_events.svg"
               className="side-menu-image13"
             />
-            <span className="side-menu-text12 Content">Support</span>
+            <span className="side-menu-text12 Content">Events</span>
+          </div>
+          <div className="side-menu-container23">
+            <img
+              alt="image"
+              src="/Icons Imported/help_center.svg"
+              className="side-menu-image14"
+            />
+            <span className="side-menu-text13 Content">Support</span>
           </div>
         </div>
       </div>

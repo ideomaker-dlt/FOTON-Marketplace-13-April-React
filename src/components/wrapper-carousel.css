@@ -46,6 +46,8 @@
   border-radius: var(--dl-radius-radius-radius12);
   background-size: cover;
   background-image: url("/vlad__foton.is__radix.stream_pirate_crew_member_illustration_352025ba-0bac-4b8e-9a47-9d8da5bb2ceb-1500w.png");
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .wrapper-carousel-text-box {
   gap: var(--dl-space-space-unit);

@@ -307,6 +307,9 @@
   font-style: normal;
   font-weight: 600;
 }
+.creator-studio-teams-master-roles {
+  width: 100%;
+}
 .creator-studio-teams-tabs-row {
   top: 80px;
   flex: 0 0 auto;
@@ -331,11 +334,6 @@
   display: flex;
   align-items: center;
 }
-.creator-studio-teams-image {
-  width: 24px;
-  margin-top: var(--dl-space-space-halfunit);
-  object-fit: cover;
-}
 .creator-studio-teams-text013 {
   color: var(--dl-color-dark-white);
   height: 100%;
@@ -350,6 +348,7 @@
 .creator-studio-teams-text014 {
   color: var(--dl-color-dark-green-200);
   height: 100%;
+  display: none;
   font-style: normal;
   font-weight: 600;
   padding-top: var(--dl-space-space-oneandhalfunits);
@@ -774,9 +773,10 @@
   background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-image01 {
+.creator-studio-teams-image {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -807,7 +807,7 @@
   flex-direction: row;
 }
 .creator-studio-teams-text036 {
-  color: var(--dl-color-dark-white);
+  color: var(--dl-color-dark-purplebright);
   font-size: 16px;
   font-family: Poppins;
   font-weight: 700;
@@ -836,7 +836,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image02 {
+.creator-studio-teams-image01 {
   width: 28px;
   height: auto;
   object-fit: cover;
@@ -872,7 +872,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image03 {
+.creator-studio-teams-image02 {
   width: 28px;
   object-fit: cover;
 }
@@ -919,7 +919,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
@@ -928,19 +928,19 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .creator-studio-teams-navlink:hover {
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-darkergreen);
   background-color: var(--dl-color-dark-gray-365);
 }
 .creator-studio-teams-navlink:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon12 {
-  width: 20px;
-  height: 20px;
+.creator-studio-teams-image03 {
+  width: 22px;
+  object-fit: cover;
 }
 .creator-studio-teams-text049 {
   font-size: 14px;
@@ -965,7 +965,8 @@
   background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role1:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
 .creator-studio-teams-image04 {
   top: 0px;
@@ -998,7 +999,7 @@
   flex-direction: row;
 }
 .creator-studio-teams-text052 {
-  color: var(--dl-color-dark-white);
+  color: var(--dl-color-dark-purplebright);
   font-size: 16px;
   font-family: "Poppins";
   font-weight: 700;
@@ -1092,7 +1093,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.creator-studio-teams-navlink1 {
+.creator-studio-teams-navlink01 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 40px;
@@ -1106,7 +1107,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
@@ -1115,19 +1116,19 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-navlink1:hover {
-  border-color: var(--dl-color-dark-gray-365);
+.creator-studio-teams-navlink01:hover {
+  border-color: var(--dl-color-dark-darkergreen);
   background-color: var(--dl-color-dark-gray-365);
 }
-.creator-studio-teams-navlink1:active {
+.creator-studio-teams-navlink01:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon14 {
-  width: 20px;
-  height: 20px;
+.creator-studio-teams-image07 {
+  width: 22px;
+  object-fit: cover;
 }
 .creator-studio-teams-text065 {
   font-size: 14px;
@@ -1152,9 +1153,10 @@
   background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role2:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-image07 {
+.creator-studio-teams-image08 {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -1185,7 +1187,7 @@
   flex-direction: row;
 }
 .creator-studio-teams-text068 {
-  color: var(--dl-color-dark-white);
+  color: var(--dl-color-dark-purplebright);
   font-size: 16px;
   font-family: "Poppins";
   font-weight: 700;
@@ -1210,7 +1212,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image08 {
+.creator-studio-teams-image09 {
   width: 28px;
   height: auto;
   object-fit: cover;
@@ -1246,7 +1248,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image09 {
+.creator-studio-teams-image10 {
   width: 28px;
   object-fit: cover;
 }
@@ -1279,7 +1281,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.creator-studio-teams-navlink2 {
+.creator-studio-teams-navlink02 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 40px;
@@ -1293,7 +1295,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
@@ -1302,19 +1304,19 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-navlink2:hover {
-  border-color: var(--dl-color-dark-gray-365);
+.creator-studio-teams-navlink02:hover {
+  border-color: var(--dl-color-dark-darkergreen);
   background-color: var(--dl-color-dark-gray-365);
 }
-.creator-studio-teams-navlink2:active {
+.creator-studio-teams-navlink02:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon16 {
-  width: 20px;
-  height: 20px;
+.creator-studio-teams-image11 {
+  width: 22px;
+  object-fit: cover;
 }
 .creator-studio-teams-text081 {
   font-size: 14px;
@@ -1339,9 +1341,10 @@
   background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role3:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-image10 {
+.creator-studio-teams-image12 {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -1372,7 +1375,7 @@
   flex-direction: row;
 }
 .creator-studio-teams-text084 {
-  color: var(--dl-color-dark-white);
+  color: var(--dl-color-dark-purplebright);
   font-size: 16px;
   font-family: "Poppins";
   font-weight: 700;
@@ -1397,7 +1400,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image11 {
+.creator-studio-teams-image13 {
   width: 28px;
   height: auto;
   object-fit: cover;
@@ -1433,7 +1436,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image12 {
+.creator-studio-teams-image14 {
   width: 28px;
   object-fit: cover;
 }
@@ -1466,7 +1469,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.creator-studio-teams-navlink3 {
+.creator-studio-teams-navlink03 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 40px;
@@ -1480,7 +1483,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
@@ -1489,19 +1492,19 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-navlink3:hover {
-  border-color: var(--dl-color-dark-gray-365);
+.creator-studio-teams-navlink03:hover {
+  border-color: var(--dl-color-dark-darkergreen);
   background-color: var(--dl-color-dark-gray-365);
 }
-.creator-studio-teams-navlink3:active {
+.creator-studio-teams-navlink03:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon18 {
-  width: 20px;
-  height: 20px;
+.creator-studio-teams-image15 {
+  width: 22px;
+  object-fit: cover;
 }
 .creator-studio-teams-text097 {
   font-size: 14px;
@@ -1526,9 +1529,10 @@
   background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role4:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-image13 {
+.creator-studio-teams-image16 {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -1559,7 +1563,7 @@
   flex-direction: row;
 }
 .creator-studio-teams-text100 {
-  color: var(--dl-color-dark-white);
+  color: var(--dl-color-dark-purplebright);
   font-size: 16px;
   font-family: "Poppins";
   font-weight: 700;
@@ -1584,7 +1588,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image14 {
+.creator-studio-teams-image17 {
   width: 28px;
   height: auto;
   object-fit: cover;
@@ -1620,7 +1624,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image15 {
+.creator-studio-teams-image18 {
   width: 28px;
   object-fit: cover;
 }
@@ -1653,7 +1657,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.creator-studio-teams-navlink4 {
+.creator-studio-teams-navlink04 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 40px;
@@ -1667,7 +1671,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
@@ -1676,25 +1680,92 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-navlink4:hover {
-  border-color: var(--dl-color-dark-gray-365);
+.creator-studio-teams-navlink04:hover {
+  border-color: var(--dl-color-dark-darkergreen);
   background-color: var(--dl-color-dark-gray-365);
 }
-.creator-studio-teams-navlink4:active {
+.creator-studio-teams-navlink04:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon20 {
-  width: 20px;
-  height: 20px;
+.creator-studio-teams-image19 {
+  width: 22px;
+  object-fit: cover;
 }
 .creator-studio-teams-text113 {
   font-size: 14px;
   font-style: normal;
   margin-top: 1px;
   font-weight: 600;
+}
+.creator-studio-teams-all-teams {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.creator-studio-teams-label-teams {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-container37 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.creator-studio-teams-text116 {
+  color: var(--dl-color-dark-white);
+  height: auto;
+  font-style: normal;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text117 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  display: none;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text118 {
+  color: var(--dl-color-dark-gray-400);
+  height: auto;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-team {
+  width: 100%;
 }
 .creator-studio-teams-tabs-row1 {
   top: 80px;
@@ -1708,35 +1779,24 @@
   border-color: var(--dl-color-dark-gray-300);
   border-width: 0px;
   padding-left: var(--dl-space-space-halfunit);
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: 0px;
   padding-right: var(--dl-space-space-halfunit);
   justify-content: space-between;
   background-color: var(--dl-color-dark-gray-200);
   border-bottom-width: 1px;
 }
-.creator-studio-teams-container37 {
+.creator-studio-teams-container38 {
   gap: var(--dl-space-space-halfunit);
   height: 100%;
   display: flex;
   align-items: center;
 }
-.creator-studio-teams-image16 {
+.creator-studio-teams-image20 {
   width: 24px;
   margin-top: var(--dl-space-space-halfunit);
   object-fit: cover;
 }
-.creator-studio-teams-text116 {
-  color: var(--dl-color-dark-white);
-  height: 100%;
-  font-style: normal;
-  font-weight: 600;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  border-color: var(--dl-color-dark-gray-200);
-  border-width: 0px;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  border-bottom-width: 2px;
-}
-.creator-studio-teams-text117 {
+.creator-studio-teams-text119 {
   color: var(--dl-color-dark-green-200);
   height: 100%;
   font-style: normal;
@@ -1747,12 +1807,138 @@
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   border-bottom-width: 2px;
 }
-.creator-studio-teams-text118 {
+.creator-studio-teams-text120 {
   color: var(--dl-color-dark-gray-400);
   height: 100%;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-custom-roles-activation {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.creator-studio-teams-text121 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-container-toggle {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-container39 {
+  flex: 0 0 auto;
+  width: 74px;
+  height: 36px;
+  display: flex;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-end;
+}
+.creator-studio-teams-container39:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container40 {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-image21 {
+  width: 20px;
+  object-fit: cover;
+}
+.creator-studio-teams-roles-container1 {
+  gap: 0;
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 0px;
+  border-radius: var(--dl-radius-radius-radius12);
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-tabs-row2 {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+}
+.creator-studio-teams-container41 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-text122 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  display: none;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text123 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 0px;
   padding-top: var(--dl-space-space-oneandhalfunits);
   border-color: var(--dl-color-dark-gray-200);
   border-width: 0px;
@@ -1806,7 +1992,7 @@
 .creator-studio-teams-button06:active {
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-text119 {
+.creator-studio-teams-text124 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1835,7 +2021,7 @@
 .creator-studio-teams-button07:hover {
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-text122 {
+.creator-studio-teams-text127 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1864,7 +2050,7 @@
 .creator-studio-teams-button08:hover {
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-text125 {
+.creator-studio-teams-text130 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -1897,14 +2083,14 @@
 .creator-studio-teams-button09:hover {
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-text128 {
+.creator-studio-teams-text133 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
 .creator-studio-teams-sort-by1 {
   cursor: pointer;
-  display: inline-block;
+  display: none;
   position: relative;
   border-radius: 2px;
 }
@@ -1924,12 +2110,12 @@
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-dark-gray-200);
 }
-.creator-studio-teams-icon22 {
+.creator-studio-teams-icon12 {
   fill: var(--dl-color-dark-white);
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text131 {
+.creator-studio-teams-text136 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -1941,7 +2127,7 @@
 .creator-studio-teams-dropdown-arrow2 {
   transition: 0.1s;
 }
-.creator-studio-teams-icon24 {
+.creator-studio-teams-icon14 {
   fill: var(--dl-color-dark-white);
   width: 22px;
   height: 22px;
@@ -1992,7 +2178,7 @@
   color: #fff;
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-text132 {
+.creator-studio-teams-text137 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -2019,7 +2205,7 @@
   color: #fff;
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-text133 {
+.creator-studio-teams-text138 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -2046,7 +2232,7 @@
   color: #fff;
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-text134 {
+.creator-studio-teams-text139 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -2073,7 +2259,7 @@
   color: #fff;
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-text135 {
+.creator-studio-teams-text140 {
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -2108,36 +2294,16 @@
 .creator-studio-teams-button10:hover {
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon26 {
+.creator-studio-teams-icon16 {
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text136 {
+.creator-studio-teams-text141 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-roles-container1 {
-  gap: var(--dl-space-space-twounits);
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  margin: TwoUnits;
-  display: flex;
-  margin-top: 0px;
-  align-items: flex-start;
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit);
-  margin-right: 0px;
-  padding-left: 0px;
-  border-radius: var(--dl-radius-radius-radius12);
-  margin-bottom: var(--dl-space-space-twounits);
-  padding-right: 0px;
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: flex-end;
-}
-.creator-studio-teams-container38 {
+.creator-studio-teams-container42 {
   gap: var(--dl-space-space-halfunit);
   flex: 0 0 auto;
   width: 100%;
@@ -2163,9 +2329,10 @@
   background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role5:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-image17 {
+.creator-studio-teams-image22 {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -2176,7 +2343,7 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius12);
 }
-.creator-studio-teams-container40 {
+.creator-studio-teams-container44 {
   gap: var(--dl-space-space-halfunit);
   flex: 2;
   width: auto;
@@ -2188,14 +2355,21 @@
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
 }
-.creator-studio-teams-container41 {
-  gap: var(--dl-space-space-unit);
+.creator-studio-teams-container45 {
   flex: 1;
+  display: flex;
+  align-items: center;
+  padding-right: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.creator-studio-teams-container46 {
+  gap: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-end;
   flex-direction: row;
 }
-.creator-studio-teams-text139 {
+.creator-studio-teams-text144 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-family: Poppins;
@@ -2205,9 +2379,42 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-icon28 {
+.creator-studio-teams-icon18 {
   width: 18px;
   height: 18px;
+}
+.creator-studio-teams-small-toggle {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 24px;
+  display: none;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-end;
+}
+.creator-studio-teams-small-toggle:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container47 {
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-image23 {
+  width: 12px;
+  object-fit: cover;
 }
 .creator-studio-teams-badge-info5 {
   gap: var(--dl-space-space-unit);
@@ -2217,7 +2424,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-container42 {
+.creator-studio-teams-container48 {
   gap: var(--dl-space-space-halfunit);
   flex: 1;
   display: flex;
@@ -2225,13 +2432,13 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image18 {
+.creator-studio-teams-image24 {
   width: 28px;
   height: auto;
   object-fit: cover;
   margin-bottom: 0px;
 }
-.creator-studio-teams-text140 {
+.creator-studio-teams-text145 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -2242,7 +2449,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-text143 {
+.creator-studio-teams-text148 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
@@ -2253,7 +2460,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-container43 {
+.creator-studio-teams-container49 {
   gap: var(--dl-space-space-halfunit);
   flex: 1;
   display: flex;
@@ -2261,11 +2468,11 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image19 {
+.creator-studio-teams-image25 {
   width: 28px;
   object-fit: cover;
 }
-.creator-studio-teams-text146 {
+.creator-studio-teams-text151 {
   color: var(--dl-color-dark-green-200);
   font-size: 16px;
   font-style: normal;
@@ -2276,7 +2483,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-text149 {
+.creator-studio-teams-text154 {
   color: var(--dl-color-dark-green-200);
   font-size: 16px;
   font-style: normal;
@@ -2287,14 +2494,14 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-container44 {
+.creator-studio-teams-container50 {
   gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.creator-studio-teams-navlink5 {
+.creator-studio-teams-navlink05 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 40px;
@@ -2308,7 +2515,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
@@ -2317,21 +2524,21 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-navlink5:hover {
-  border-color: var(--dl-color-dark-gray-365);
+.creator-studio-teams-navlink05:hover {
+  border-color: var(--dl-color-dark-darkergreen);
   background-color: var(--dl-color-dark-gray-365);
 }
-.creator-studio-teams-navlink5:active {
+.creator-studio-teams-navlink05:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon30 {
-  width: 20px;
-  height: 20px;
+.creator-studio-teams-image26 {
+  width: 22px;
+  object-fit: cover;
 }
-.creator-studio-teams-text152 {
+.creator-studio-teams-text157 {
   font-size: 14px;
   font-style: normal;
   margin-top: 1px;
@@ -2354,196 +2561,10 @@
   background-color: var(--dl-color-dark-gray-300);
 }
 .creator-studio-teams-role6:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
-}
-.creator-studio-teams-image20 {
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  position: absolute;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-radius12);
-}
-.creator-studio-teams-container46 {
-  gap: var(--dl-space-space-halfunit);
-  flex: 2;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius12);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-unit);
-}
-.creator-studio-teams-container47 {
-  gap: var(--dl-space-space-unit);
-  flex: 1;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-}
-.creator-studio-teams-text155 {
-  color: var(--dl-color-dark-white);
-  font-size: 16px;
-  font-family: "Poppins";
-  font-weight: 700;
-  line-height: 1.15;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
-}
-.creator-studio-teams-badge-info6 {
-  gap: var(--dl-space-space-unit);
-  flex: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.creator-studio-teams-container48 {
-  gap: var(--dl-space-space-halfunit);
-  flex: 1;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.creator-studio-teams-image21 {
-  width: 28px;
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 0px;
-}
-.creator-studio-teams-text156 {
-  color: var(--dl-color-dark-white);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: 1.4;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
-}
-.creator-studio-teams-text159 {
-  color: var(--dl-color-dark-white);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
-}
-.creator-studio-teams-container49 {
-  gap: var(--dl-space-space-halfunit);
-  flex: 1;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.creator-studio-teams-image22 {
-  width: 28px;
-  object-fit: cover;
-}
-.creator-studio-teams-text162 {
-  color: var(--dl-color-dark-green-200);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: 1.4;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
-}
-.creator-studio-teams-text165 {
-  color: var(--dl-color-dark-green-200);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
-}
-.creator-studio-teams-container50 {
-  gap: var(--dl-space-space-halfunit);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-.creator-studio-teams-navlink6 {
-  gap: var(--dl-space-space-halfunit);
-  color: var(--dl-color-dark-white);
-  height: 40px;
-  display: flex;
-  font-size: 14px;
-  align-self: center;
-  font-style: normal;
-  transition: 0.05s;
-  align-items: center;
-  font-family: Poppins;
-  font-weight: 500;
-  line-height: 1.15;
-  padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
-  border-width: 2px;
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  padding-bottom: 12px;
-  text-transform: none;
-  justify-content: center;
-  text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
-}
-.creator-studio-teams-navlink6:hover {
-  border-color: var(--dl-color-dark-gray-365);
-  background-color: var(--dl-color-dark-gray-365);
-}
-.creator-studio-teams-navlink6:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon32 {
-  width: 20px;
-  height: 20px;
-}
-.creator-studio-teams-text168 {
-  font-size: 14px;
-  font-style: normal;
-  margin-top: 1px;
-  font-weight: 600;
-}
-.creator-studio-teams-role7 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  flex: 1;
-  height: auto;
-  display: flex;
-  transition: 0.1s;
-  align-items: center;
-  padding-top: 0px;
-  border-color: var(--dl-color-dark-gray-300);
-  border-width: 2px;
-  padding-left: 20px;
-  border-radius: var(--dl-radius-radius-radius8);
-  padding-right: 20px;
-  padding-bottom: 0px;
-  background-color: var(--dl-color-dark-gray-300);
-}
-.creator-studio-teams-role7:hover {
-  border-color: var(--dl-color-dark-darkgreenbtn);
-}
-.creator-studio-teams-image23 {
+.creator-studio-teams-image27 {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -2567,13 +2588,14 @@
   padding-bottom: var(--dl-space-space-unit);
 }
 .creator-studio-teams-container53 {
-  gap: var(--dl-space-space-unit);
   flex: 1;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  padding-right: 0px;
   flex-direction: row;
+  justify-content: space-between;
 }
-.creator-studio-teams-text171 {
+.creator-studio-teams-text160 {
   color: var(--dl-color-dark-white);
   font-size: 16px;
   font-family: "Poppins";
@@ -2583,49 +2605,46 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-badge-info7 {
+.creator-studio-teams-small-toggle1 {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 24px;
+  display: none;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-end;
+}
+.creator-studio-teams-small-toggle1:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container54 {
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-green-200);
+}
+.creator-studio-teams-image28 {
+  width: 12px;
+  object-fit: cover;
+}
+.creator-studio-teams-badge-info6 {
   gap: var(--dl-space-space-unit);
   flex: 1;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-start;
-}
-.creator-studio-teams-container54 {
-  gap: var(--dl-space-space-halfunit);
-  flex: 1;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.creator-studio-teams-image24 {
-  width: 28px;
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 0px;
-}
-.creator-studio-teams-text172 {
-  color: var(--dl-color-dark-white);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: 1.4;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
-}
-.creator-studio-teams-text175 {
-  color: var(--dl-color-dark-white);
-  font-size: 16px;
-  font-style: normal;
-  font-family: "Poppins";
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0px;
-  text-transform: none;
-  text-decoration: none;
 }
 .creator-studio-teams-container55 {
   gap: var(--dl-space-space-halfunit);
@@ -2635,12 +2654,14 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.creator-studio-teams-image25 {
+.creator-studio-teams-image29 {
   width: 28px;
+  height: auto;
   object-fit: cover;
+  margin-bottom: 0px;
 }
-.creator-studio-teams-text178 {
-  color: var(--dl-color-dark-green-200);
+.creator-studio-teams-text161 {
+  color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
   font-family: "Poppins";
@@ -2650,8 +2671,8 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-text181 {
-  color: var(--dl-color-dark-green-200);
+.creator-studio-teams-text164 {
+  color: var(--dl-color-dark-white);
   font-size: 16px;
   font-style: normal;
   font-family: "Poppins";
@@ -2663,12 +2684,46 @@
 }
 .creator-studio-teams-container56 {
   gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image30 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text167 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text170 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container57 {
+  gap: var(--dl-space-space-halfunit);
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: flex-end;
 }
-.creator-studio-teams-navlink7 {
+.creator-studio-teams-navlink06 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 40px;
@@ -2682,7 +2737,7 @@
   font-weight: 500;
   line-height: 1.15;
   padding-top: 12px;
-  border-color: var(--dl-color-dark-gray-365);
+  border-color: var(--dl-color-dark-gray-370);
   border-width: 2px;
   padding-left: var(--dl-space-space-unit);
   border-radius: var(--dl-radius-radius-radius8);
@@ -2691,25 +2746,770 @@
   text-transform: none;
   justify-content: center;
   text-decoration: none;
-  background-color: var(--dl-color-dark-gray-300);
+  background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-navlink7:hover {
-  border-color: var(--dl-color-dark-gray-365);
+.creator-studio-teams-navlink06:hover {
+  border-color: var(--dl-color-dark-darkergreen);
   background-color: var(--dl-color-dark-gray-365);
 }
-.creator-studio-teams-navlink7:active {
+.creator-studio-teams-navlink06:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon34 {
-  width: 20px;
-  height: 20px;
+.creator-studio-teams-image31 {
+  width: 22px;
+  object-fit: cover;
 }
-.creator-studio-teams-text184 {
+.creator-studio-teams-text173 {
   font-size: 14px;
   font-style: normal;
   margin-top: 1px;
   font-weight: 600;
+}
+.creator-studio-teams-role7 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  height: auto;
+  display: flex;
+  transition: 0.1s;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 2px;
+  padding-left: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-role7:hover {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-image32 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius12);
+}
+.creator-studio-teams-container59 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 2;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius12);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.creator-studio-teams-container60 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-right: 0nits;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.creator-studio-teams-text176 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-small-toggle2 {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 24px;
+  display: none;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-start;
+}
+.creator-studio-teams-small-toggle2:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container61 {
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-image33 {
+  width: 12px;
+  object-fit: cover;
+}
+.creator-studio-teams-badge-info7 {
+  gap: var(--dl-space-space-unit);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container62 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image34 {
+  width: 28px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0px;
+}
+.creator-studio-teams-text177 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text180 {
+  color: var(--dl-color-dark-white);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container63 {
+  gap: var(--dl-space-space-halfunit);
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.creator-studio-teams-image35 {
+  width: 28px;
+  object-fit: cover;
+}
+.creator-studio-teams-text183 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-text186 {
+  color: var(--dl-color-dark-green-200);
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0px;
+  text-transform: none;
+  text-decoration: none;
+}
+.creator-studio-teams-container64 {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.creator-studio-teams-navlink07 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: none;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-navlink07:hover {
+  border-color: var(--dl-color-dark-gray-370);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink07:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-icon20 {
+  width: 20px;
+  height: 20px;
+}
+.creator-studio-teams-text189 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-navlink08 {
+  gap: var(--dl-space-space-halfunit);
+  color: var(--dl-color-dark-white);
+  height: 40px;
+  display: flex;
+  font-size: 14px;
+  align-self: center;
+  font-style: normal;
+  transition: 0.05s;
+  align-items: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 1.15;
+  padding-top: 12px;
+  border-color: var(--dl-color-dark-gray-370);
+  border-width: 2px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 12px;
+  text-transform: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-navlink08:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-365);
+}
+.creator-studio-teams-navlink08:active {
+  border-color: var(--dl-color-dark-gray-360);
+  background-color: var(--dl-color-dark-gray-360);
+}
+.creator-studio-teams-image36 {
+  width: 22px;
+  object-fit: cover;
+}
+.creator-studio-teams-text192 {
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 1px;
+  font-weight: 600;
+}
+.creator-studio-teams-team1 {
+  width: 100%;
+}
+.creator-studio-teams-tabs-row3 {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-container65 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-image37 {
+  width: 24px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+.creator-studio-teams-text195 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text198 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-custom-roles-activation1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.creator-studio-teams-text199 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-container-toggle1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-container66 {
+  flex: 0 0 auto;
+  width: 74px;
+  height: 36px;
+  display: flex;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container66:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container67 {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-image38 {
+  width: 20px;
+  object-fit: cover;
+}
+.creator-studio-teams-team2 {
+  width: 100%;
+}
+.creator-studio-teams-tabs-row4 {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-container68 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-image39 {
+  width: 24px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+.creator-studio-teams-text200 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text203 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-custom-roles-activation2 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.creator-studio-teams-text204 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-container-toggle2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-container69 {
+  flex: 0 0 auto;
+  width: 74px;
+  height: 36px;
+  display: flex;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container69:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container70 {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-image40 {
+  width: 20px;
+  object-fit: cover;
+}
+.creator-studio-teams-team3 {
+  width: 100%;
+}
+.creator-studio-teams-tabs-row5 {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-container71 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-image41 {
+  width: 24px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+.creator-studio-teams-text205 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text208 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-custom-roles-activation3 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.creator-studio-teams-text209 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-container-toggle3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-container72 {
+  flex: 0 0 auto;
+  width: 74px;
+  height: 36px;
+  display: flex;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container72:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container73 {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-image42 {
+  width: 20px;
+  object-fit: cover;
+}
+.creator-studio-teams-team4 {
+  width: 100%;
+}
+.creator-studio-teams-tabs-row6 {
+  top: 80px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: flex-end;
+  border-color: var(--dl-color-dark-gray-300);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-dark-gray-200);
+  border-bottom-width: 1px;
+}
+.creator-studio-teams-container74 {
+  gap: var(--dl-space-space-halfunit);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.creator-studio-teams-image43 {
+  width: 24px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+}
+.creator-studio-teams-text210 {
+  color: var(--dl-color-dark-green-200);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-text213 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-custom-roles-activation4 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.creator-studio-teams-text214 {
+  color: var(--dl-color-dark-gray-400);
+  height: 100%;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-dark-gray-200);
+  border-width: 0px;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  border-bottom-width: 2px;
+}
+.creator-studio-teams-container-toggle4 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-end;
+}
+.creator-studio-teams-container75 {
+  flex: 0 0 auto;
+  width: 74px;
+  height: 36px;
+  display: flex;
+  transition: 0s;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: solid;
+  border-width: 2px;
+  padding-left: 2px;
+  border-radius: 18px;
+  padding-right: 2px;
+  justify-content: flex-start;
+}
+.creator-studio-teams-container75:hover {
+  border-color: var(--dl-color-dark-darkergreen);
+  background-color: var(--dl-color-dark-gray-300);
+}
+.creator-studio-teams-container76 {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-dark-gray-400);
+}
+.creator-studio-teams-image44 {
+  width: 20px;
+  object-fit: cover;
 }
 .creator-studio-teams-bottom-menu {
   flex: 0 0 auto;
@@ -2738,7 +3538,7 @@
   display: flex;
   align-items: flex-end;
 }
-.creator-studio-teams-text187 {
+.creator-studio-teams-text215 {
   color: var(--dl-color-dark-white);
   font-size: 18px;
   font-family: Poppins;
@@ -2747,7 +3547,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.creator-studio-teams-text188 {
+.creator-studio-teams-text216 {
   color: var(--dl-color-dark-green-200);
   font-size: 18px;
   font-family: Poppins;
@@ -2792,11 +3592,11 @@
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon36 {
+.creator-studio-teams-icon22 {
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text189 {
+.creator-studio-teams-text217 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2832,11 +3632,11 @@
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon38 {
+.creator-studio-teams-icon24 {
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text192 {
+.creator-studio-teams-text220 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2872,11 +3672,11 @@
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon40 {
+.creator-studio-teams-icon26 {
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text195 {
+.creator-studio-teams-text223 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2912,11 +3712,11 @@
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon42 {
+.creator-studio-teams-icon28 {
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text198 {
+.creator-studio-teams-text226 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2952,16 +3752,16 @@
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon44 {
+.creator-studio-teams-icon30 {
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text201 {
+.creator-studio-teams-text229 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
 }
-.creator-studio-teams-navlink8 {
+.creator-studio-teams-navlink09 {
   gap: var(--dl-space-space-halfunit);
   color: var(--dl-color-dark-white);
   height: 52px;
@@ -2985,19 +3785,19 @@
   text-decoration: none;
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-navlink8:hover {
+.creator-studio-teams-navlink09:hover {
   border-color: var(--dl-color-dark-red-200);
   background-color: var(--dl-color-dark-gray-370);
 }
-.creator-studio-teams-navlink8:active {
+.creator-studio-teams-navlink09:active {
   border-color: var(--dl-color-dark-gray-360);
   background-color: var(--dl-color-dark-gray-360);
 }
-.creator-studio-teams-icon46 {
+.creator-studio-teams-icon32 {
   width: 24px;
   height: 24px;
 }
-.creator-studio-teams-text204 {
+.creator-studio-teams-text232 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -3030,12 +3830,12 @@
   border-color: var(--dl-color-dark-green-200);
   background-color: var(--dl-color-dark-darkgreenbtn);
 }
-.creator-studio-teams-image26 {
+.creator-studio-teams-image45 {
   width: 24px;
   height: 24px;
   object-fit: cover;
 }
-.creator-studio-teams-text207 {
+.creator-studio-teams-text235 {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -3194,7 +3994,7 @@
     flex: 0 0 auto;
     padding-left: var(--dl-space-space-twounits);
   }
-  .creator-studio-teams-navlink1 {
+  .creator-studio-teams-navlink01 {
     padding-right: var(--dl-space-space-unit);
   }
   .creator-studio-teams-text065 {
@@ -3254,7 +4054,7 @@
     flex: 0 0 auto;
     padding-left: var(--dl-space-space-twounits);
   }
-  .creator-studio-teams-navlink2 {
+  .creator-studio-teams-navlink02 {
     padding-right: var(--dl-space-space-unit);
   }
   .creator-studio-teams-text081 {
@@ -3314,7 +4114,7 @@
     flex: 0 0 auto;
     padding-left: var(--dl-space-space-twounits);
   }
-  .creator-studio-teams-navlink3 {
+  .creator-studio-teams-navlink03 {
     padding-right: var(--dl-space-space-unit);
   }
   .creator-studio-teams-text097 {
@@ -3374,7 +4174,7 @@
     flex: 0 0 auto;
     padding-left: var(--dl-space-space-twounits);
   }
-  .creator-studio-teams-navlink4 {
+  .creator-studio-teams-navlink04 {
     padding-right: var(--dl-space-space-unit);
   }
   .creator-studio-teams-text113 {
@@ -3383,7 +4183,7 @@
   .creator-studio-teams-timeframe1 {
     display: none;
   }
-  .creator-studio-teams-text131 {
+  .creator-studio-teams-text136 {
     display: none;
   }
   .creator-studio-teams-dropdown-list2 {
@@ -3395,10 +4195,10 @@
   .creator-studio-teams-button10 {
     padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-text136 {
+  .creator-studio-teams-text141 {
     display: none;
   }
-  .creator-studio-teams-container41 {
+  .creator-studio-teams-container45 {
     flex: 2;
   }
   .creator-studio-teams-badge-info5 {
@@ -3406,7 +4206,7 @@
     align-items: flex-end;
     flex-direction: row;
   }
-  .creator-studio-teams-text140 {
+  .creator-studio-teams-text145 {
     color: var(--dl-color-dark-white);
     display: none;
     font-size: 16px;
@@ -3417,7 +4217,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-text143 {
+  .creator-studio-teams-text148 {
     color: var(--dl-color-dark-white);
     font-size: 16px;
     font-style: normal;
@@ -3427,7 +4227,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-text146 {
+  .creator-studio-teams-text151 {
     color: var(--dl-color-dark-green-200);
     display: none;
     font-size: 16px;
@@ -3438,67 +4238,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-text149 {
-    color: var(--dl-color-dark-green-200);
-    font-size: 16px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 600;
-    line-height: 1.4;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .creator-studio-teams-container44 {
-    flex: 0 0 auto;
-    padding-left: var(--dl-space-space-twounits);
-  }
-  .creator-studio-teams-navlink5 {
-    padding-right: var(--dl-space-space-unit);
-  }
-  .creator-studio-teams-text152 {
-    display: none;
-  }
-  .creator-studio-teams-container47 {
-    flex: 2;
-  }
-  .creator-studio-teams-badge-info6 {
-    gap: 0;
-    align-items: flex-end;
-    flex-direction: row;
-  }
-  .creator-studio-teams-text156 {
-    color: var(--dl-color-dark-white);
-    display: none;
-    font-size: 16px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 600;
-    line-height: 1.4;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .creator-studio-teams-text159 {
-    color: var(--dl-color-dark-white);
-    font-size: 16px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 600;
-    line-height: 1.4;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .creator-studio-teams-text162 {
-    color: var(--dl-color-dark-green-200);
-    display: none;
-    font-size: 16px;
-    font-style: normal;
-    font-family: Poppins;
-    font-weight: 600;
-    line-height: 1.4;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .creator-studio-teams-text165 {
+  .creator-studio-teams-text154 {
     color: var(--dl-color-dark-green-200);
     font-size: 16px;
     font-style: normal;
@@ -3512,13 +4252,73 @@
     flex: 0 0 auto;
     padding-left: var(--dl-space-space-twounits);
   }
-  .creator-studio-teams-navlink6 {
+  .creator-studio-teams-navlink05 {
     padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-text168 {
+  .creator-studio-teams-text157 {
     display: none;
   }
   .creator-studio-teams-container53 {
+    flex: 2;
+  }
+  .creator-studio-teams-badge-info6 {
+    gap: 0;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .creator-studio-teams-text161 {
+    color: var(--dl-color-dark-white);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text164 {
+    color: var(--dl-color-dark-white);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text167 {
+    color: var(--dl-color-dark-green-200);
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-text170 {
+    color: var(--dl-color-dark-green-200);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+    text-decoration: none;
+  }
+  .creator-studio-teams-container57 {
+    flex: 0 0 auto;
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .creator-studio-teams-navlink06 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text173 {
+    display: none;
+  }
+  .creator-studio-teams-container60 {
     flex: 2;
   }
   .creator-studio-teams-badge-info7 {
@@ -3526,7 +4326,7 @@
     align-items: flex-end;
     flex-direction: row;
   }
-  .creator-studio-teams-text172 {
+  .creator-studio-teams-text177 {
     color: var(--dl-color-dark-white);
     display: none;
     font-size: 16px;
@@ -3537,7 +4337,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-text175 {
+  .creator-studio-teams-text180 {
     color: var(--dl-color-dark-white);
     font-size: 16px;
     font-style: normal;
@@ -3547,7 +4347,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-text178 {
+  .creator-studio-teams-text183 {
     color: var(--dl-color-dark-green-200);
     display: none;
     font-size: 16px;
@@ -3558,7 +4358,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-text181 {
+  .creator-studio-teams-text186 {
     color: var(--dl-color-dark-green-200);
     font-size: 16px;
     font-style: normal;
@@ -3568,14 +4368,20 @@
     text-transform: none;
     text-decoration: none;
   }
-  .creator-studio-teams-container56 {
+  .creator-studio-teams-container64 {
     flex: 0 0 auto;
     padding-left: var(--dl-space-space-twounits);
   }
-  .creator-studio-teams-navlink7 {
+  .creator-studio-teams-navlink07 {
     padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-text184 {
+  .creator-studio-teams-text189 {
+    display: none;
+  }
+  .creator-studio-teams-navlink08 {
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text192 {
     display: none;
   }
 }
@@ -3847,7 +4653,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .creator-studio-teams-image02 {
+  .creator-studio-teams-image01 {
     width: 20px;
     height: 20px;
   }
@@ -3861,7 +4667,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-image03 {
+  .creator-studio-teams-image02 {
     width: 20px;
     height: 20pxo;
   }
@@ -3945,7 +4751,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink1 {
+  .creator-studio-teams-navlink01 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -3987,7 +4793,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .creator-studio-teams-image08 {
+  .creator-studio-teams-image09 {
     width: 20px;
     height: 20px;
   }
@@ -4001,7 +4807,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-image09 {
+  .creator-studio-teams-image10 {
     width: 20px;
     height: 20pxo;
   }
@@ -4015,7 +4821,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink2 {
+  .creator-studio-teams-navlink02 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4057,7 +4863,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .creator-studio-teams-image11 {
+  .creator-studio-teams-image13 {
     width: 20px;
     height: 20px;
   }
@@ -4071,7 +4877,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-image12 {
+  .creator-studio-teams-image14 {
     width: 20px;
     height: 20pxo;
   }
@@ -4085,7 +4891,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink3 {
+  .creator-studio-teams-navlink03 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4127,7 +4933,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .creator-studio-teams-image14 {
+  .creator-studio-teams-image17 {
     width: 20px;
     height: 20px;
   }
@@ -4141,7 +4947,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-image15 {
+  .creator-studio-teams-image18 {
     width: 20px;
     height: 20pxo;
   }
@@ -4155,7 +4961,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink4 {
+  .creator-studio-teams-navlink04 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4169,7 +4975,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-tabs-row1 {
+  .creator-studio-teams-label-teams {
     top: 70px;
   }
   .creator-studio-teams-container37 {
@@ -4187,6 +4993,62 @@
     font-size: 13px;
     font-weight: 600;
   }
+  .creator-studio-teams-tabs-row1 {
+    top: 70px;
+  }
+  .creator-studio-teams-container38 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text119 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text120 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text121 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-container-toggle {
+    width: auto;
+    align-items: flex-start;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-container39 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container40 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-image21 {
+    width: 12px;
+  }
+  .creator-studio-teams-roles-container1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-tabs-row2 {
+    top: 70px;
+  }
+  .creator-studio-teams-container41 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text122 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text123 {
+    color: var(--dl-color-dark-gray-400);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
   .creator-studio-teams-filter-buttons1 {
     gap: var(--dl-space-space-halfunit);
     align-self: center;
@@ -4202,7 +5064,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text119 {
+  .creator-studio-teams-text124 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -4214,7 +5076,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text122 {
+  .creator-studio-teams-text127 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -4226,7 +5088,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text125 {
+  .creator-studio-teams-text130 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -4238,7 +5100,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text128 {
+  .creator-studio-teams-text133 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
@@ -4248,7 +5110,7 @@
     padding-left: var(--dl-space-space-halfunit);
     border-radius: var(--dl-radius-radius-radius8);
   }
-  .creator-studio-teams-text131 {
+  .creator-studio-teams-text136 {
     font-size: 13px;
   }
   .creator-studio-teams-dropdown-list2 {
@@ -4261,7 +5123,7 @@
     padding-right: 12px;
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text132 {
+  .creator-studio-teams-text137 {
     font-size: 13px;
   }
   .creator-studio-teams-dropdown-toggle11 {
@@ -4270,7 +5132,7 @@
     padding-right: 12px;
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text133 {
+  .creator-studio-teams-text138 {
     font-size: 13px;
   }
   .creator-studio-teams-dropdown-toggle12 {
@@ -4279,7 +5141,7 @@
     padding-right: 12px;
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text134 {
+  .creator-studio-teams-text139 {
     font-size: 13px;
   }
   .creator-studio-teams-dropdown-toggle13 {
@@ -4288,7 +5150,7 @@
     padding-right: 12px;
     padding-bottom: 10px;
   }
-  .creator-studio-teams-text135 {
+  .creator-studio-teams-text140 {
     font-size: 13px;
   }
   .creator-studio-teams-button10 {
@@ -4299,16 +5161,12 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text136 {
+  .creator-studio-teams-text141 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-roles-container1 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .creator-studio-teams-container38 {
+  .creator-studio-teams-container42 {
     align-items: stretch;
     grid-template-columns: 1fr;
   }
@@ -4321,58 +5179,76 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .creator-studio-teams-container40 {
+  .creator-studio-teams-container44 {
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .creator-studio-teams-container41 {
-    align-items: flex-end;
+  .creator-studio-teams-container45 {
+    align-items: center;
+    padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-text139 {
+  .creator-studio-teams-container46 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text144 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-icon28 {
+  .creator-studio-teams-icon18 {
     width: 16px;
     height: 16px;
   }
+  .creator-studio-teams-small-toggle {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container47 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-image23 {
+    width: 12px;
+  }
   .creator-studio-teams-badge-info5 {
     gap: var(--dl-space-space-unit);
+    flex: 0.8;
     align-items: flex-end;
     flex-direction: row;
     justify-content: center;
   }
-  .creator-studio-teams-image18 {
+  .creator-studio-teams-image24 {
     width: 20px;
     height: 20px;
   }
-  .creator-studio-teams-text140 {
+  .creator-studio-teams-text145 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-text143 {
+  .creator-studio-teams-text148 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-image19 {
+  .creator-studio-teams-image25 {
     width: 20px;
     height: 20pxo;
   }
-  .creator-studio-teams-text146 {
+  .creator-studio-teams-text151 {
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
   }
-  .creator-studio-teams-text149 {
+  .creator-studio-teams-text154 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink5 {
+  .creator-studio-teams-navlink05 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4380,7 +5256,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text152 {
+  .creator-studio-teams-text157 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -4395,54 +5271,69 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .creator-studio-teams-container46 {
+  .creator-studio-teams-container52 {
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .creator-studio-teams-container47 {
-    align-items: flex-end;
+  .creator-studio-teams-container53 {
+    align-items: center;
+    padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-text155 {
+  .creator-studio-teams-text160 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
+  .creator-studio-teams-small-toggle1 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container54 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-image28 {
+    width: 12px;
+  }
   .creator-studio-teams-badge-info6 {
     gap: var(--dl-space-space-unit);
+    flex: 0.8;
     align-items: flex-end;
     flex-direction: row;
     justify-content: center;
   }
-  .creator-studio-teams-image21 {
+  .creator-studio-teams-image29 {
     width: 20px;
     height: 20px;
   }
-  .creator-studio-teams-text156 {
+  .creator-studio-teams-text161 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-text159 {
+  .creator-studio-teams-text164 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-image22 {
+  .creator-studio-teams-image30 {
     width: 20px;
     height: 20pxo;
   }
-  .creator-studio-teams-text162 {
+  .creator-studio-teams-text167 {
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
   }
-  .creator-studio-teams-text165 {
+  .creator-studio-teams-text170 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink6 {
+  .creator-studio-teams-navlink06 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4450,7 +5341,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text168 {
+  .creator-studio-teams-text173 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -4465,82 +5356,70 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .creator-studio-teams-container52 {
+  .creator-studio-teams-container59 {
     height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .creator-studio-teams-container53 {
-    align-items: flex-end;
+  .creator-studio-teams-container60 {
+    align-items: center;
+    padding-right: var(--dl-space-space-unit);
   }
-  .creator-studio-teams-text171 {
+  .creator-studio-teams-text176 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
+  .creator-studio-teams-small-toggle2 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container61 {
+    width: 16px;
+    height: 16px;
+    background-color: var(--dl-color-dark-gray-400);
+  }
+  .creator-studio-teams-image33 {
+    width: 12px;
+  }
   .creator-studio-teams-badge-info7 {
     gap: var(--dl-space-space-unit);
+    flex: 0.8;
     align-items: flex-end;
     flex-direction: row;
     justify-content: center;
   }
-  .creator-studio-teams-image24 {
+  .creator-studio-teams-image34 {
     width: 20px;
     height: 20px;
   }
-  .creator-studio-teams-text172 {
+  .creator-studio-teams-text177 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-text175 {
+  .creator-studio-teams-text180 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-image25 {
+  .creator-studio-teams-image35 {
     width: 20px;
     height: 20pxo;
   }
-  .creator-studio-teams-text178 {
+  .creator-studio-teams-text183 {
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
   }
-  .creator-studio-teams-text181 {
+  .creator-studio-teams-text186 {
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink7 {
-    height: 39px;
-    padding-top: 0px;
-    padding-left: var(--dl-space-space-halfunit);
-    border-radius: var(--dl-radius-radius-radius8);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: 0px;
-  }
-  .creator-studio-teams-text184 {
-    display: none;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-  }
-  .creator-studio-teams-bottom-menu {
-    height: 80px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .creator-studio-teams-text187 {
-    font-size: 16px;
-  }
-  .creator-studio-teams-text188 {
-    font-size: 16px;
-  }
-  .creator-studio-teams-container-right {
-    gap: var(--dl-space-space-halfunit);
-  }
-  .creator-studio-teams-button11 {
+  .creator-studio-teams-navlink07 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4554,7 +5433,7 @@
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-button12 {
+  .creator-studio-teams-navlink08 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4568,6 +5447,208 @@
     font-style: normal;
     font-weight: 600;
   }
+  .creator-studio-teams-tabs-row3 {
+    top: 70px;
+  }
+  .creator-studio-teams-container65 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text195 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text196 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text198 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text199 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-container-toggle1 {
+    width: auto;
+    align-items: flex-start;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-container66 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container67 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-image38 {
+    width: 12px;
+  }
+  .creator-studio-teams-tabs-row4 {
+    top: 70px;
+  }
+  .creator-studio-teams-container68 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text200 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text201 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text203 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text204 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-container-toggle2 {
+    width: auto;
+    align-items: flex-start;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-container69 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container70 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-image40 {
+    width: 12px;
+  }
+  .creator-studio-teams-tabs-row5 {
+    top: 70px;
+  }
+  .creator-studio-teams-container71 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text205 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text206 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text208 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text209 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-container-toggle3 {
+    width: auto;
+    align-items: flex-start;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-container72 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container73 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-image42 {
+    width: 12px;
+  }
+  .creator-studio-teams-tabs-row6 {
+    top: 70px;
+  }
+  .creator-studio-teams-container74 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text210 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text211 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text213 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-text214 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .creator-studio-teams-container-toggle4 {
+    width: auto;
+    align-items: flex-start;
+    padding-bottom: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-container75 {
+    width: 50px;
+    height: 24px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .creator-studio-teams-container76 {
+    width: 16px;
+    height: 16px;
+  }
+  .creator-studio-teams-image44 {
+    width: 12px;
+  }
+  .creator-studio-teams-bottom-menu {
+    height: 80px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .creator-studio-teams-text215 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-text216 {
+    font-size: 16px;
+  }
+  .creator-studio-teams-container-right {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-button11 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text217 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .creator-studio-teams-button12 {
+    height: 39px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-halfunit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .creator-studio-teams-text220 {
+    display: none;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+  }
   .creator-studio-teams-button13 {
     height: 39px;
     padding-top: 0px;
@@ -4576,7 +5657,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text195 {
+  .creator-studio-teams-text223 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -4590,7 +5671,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text198 {
+  .creator-studio-teams-text226 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -4604,13 +5685,13 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text201 {
+  .creator-studio-teams-text229 {
     display: none;
     font-size: 13px;
     font-style: normal;
     font-weight: 600;
   }
-  .creator-studio-teams-navlink8 {
+  .creator-studio-teams-navlink09 {
     height: 39px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-halfunit);
@@ -4618,7 +5699,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text204 {
+  .creator-studio-teams-text232 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -4632,7 +5713,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: 0px;
   }
-  .creator-studio-teams-text207 {
+  .creator-studio-teams-text235 {
     display: none;
     font-size: 13px;
     font-style: normal;
@@ -4656,6 +5737,69 @@
     display: none;
   }
   .creator-studio-teams-text118 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container38 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text120 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text121 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container41 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text123 {
+    color: var(--dl-color-dark-gray-400);
+    font-style: normal;
+    font-weight: 600;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container45 {
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container53 {
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container60 {
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container65 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text198 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text199 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container68 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text203 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text204 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container71 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text208 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text209 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-container74 {
+    gap: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text213 {
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .creator-studio-teams-text214 {
     margin-left: var(--dl-space-space-halfunit);
   }
 }

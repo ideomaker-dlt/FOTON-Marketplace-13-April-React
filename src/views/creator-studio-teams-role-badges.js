@@ -12,20 +12,24 @@ const CreatorStudioTeamsRoleBadges = (props) => {
     <div className="creator-studio-teams-role-badges-container">
       <Helmet>
         <title>
-          Creator-Studio-Teams-RoleBadges - FOTON Marketplace for NFTs and
-          Digital Collectibles on Radix DLT
+          Creator-Studio-Teams-RoleBadges - FOTON - Web3's Digital Assets Hub
+          and NFTs Marketplace on Radix DLT
         </title>
         <meta
           name="description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
         />
         <meta
           property="og:title"
-          content="Creator-Studio-Teams-RoleBadges - FOTON Marketplace for NFTs and Digital Collectibles on Radix DLT"
+          content="Creator-Studio-Teams-RoleBadges - FOTON - Web3's Digital Assets Hub and NFTs Marketplace on Radix DLT"
         />
         <meta
           property="og:description"
-          content="Collect , Trade or Mint NFTs and find your Communities"
+          content="Foton solves the pain of Creators to launch NFTs easily and offers a 1 Stop Shop for their Communities to Trade, Engage and Grow without leaving the platform."
+        />
+        <meta
+          property="og:image"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/960fd433-f55d-424c-a4b7-18ebfa3fe35e/73f897ab-0871-4173-9275-412ff9f275f2?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <LayoutWithSidebar rootClassName="layout-with-sidebar-root-class-name36">
@@ -164,7 +168,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
               to="/creator-studio-teams-role-preview"
               className="creator-studio-teams-role-badges-navlink1"
             >
-              Preview
+              Definition
             </Link>
             <Link
               to="/creator-studio-teams-role-permissions"
@@ -498,7 +502,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                     <div className="creator-studio-teams-role-badges-container34">
                       <img
                         alt="image"
-                        src="/Icons Imported/brightness_1.svg"
+                        src="/brightness_1.svg"
                         className="creator-studio-teams-role-badges-image03"
                       />
                       <label className="creator-studio-teams-role-badges-text073">
@@ -567,7 +571,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                     <div className="creator-studio-teams-role-badges-container42">
                       <img
                         alt="image"
-                        src="/Icons Imported/brightness_1.svg"
+                        src="/brightness_1.svg"
                         className="creator-studio-teams-role-badges-image06"
                       />
                       <label className="creator-studio-teams-role-badges-text083">
@@ -595,7 +599,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                   >
                     <img
                       alt="image"
-                      src="/Icons Imported/person_add.svg"
+                      src="/person_add.svg"
                       className="creator-studio-teams-role-badges-image08"
                     />
                     <span className="creator-studio-teams-role-badges-text089">
@@ -649,7 +653,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                     <div className="creator-studio-teams-role-badges-container50">
                       <img
                         alt="image"
-                        src="/Icons Imported/brightness_1.svg"
+                        src="/brightness_1.svg"
                         className="creator-studio-teams-role-badges-image10"
                       />
                       <label className="creator-studio-teams-role-badges-text096">
@@ -677,7 +681,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                   >
                     <img
                       alt="image"
-                      src="/Icons Imported/person_add.svg"
+                      src="/person_add.svg"
                       className="creator-studio-teams-role-badges-image12"
                     />
                     <span className="creator-studio-teams-role-badges-text102">
@@ -720,7 +724,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                     <div className="creator-studio-teams-role-badges-container57">
                       <img
                         alt="image"
-                        src="/Icons Imported/brightness_1.svg"
+                        src="/brightness_1.svg"
                         className="creator-studio-teams-role-badges-image15"
                       />
                       <label className="creator-studio-teams-role-badges-text109">
@@ -748,7 +752,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                   >
                     <img
                       alt="image"
-                      src="/Icons Imported/person_add.svg"
+                      src="/person_add.svg"
                       className="creator-studio-teams-role-badges-image17"
                     />
                     <span className="creator-studio-teams-role-badges-text115">
@@ -790,7 +794,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                   <div className="creator-studio-teams-role-badges-container63">
                     <img
                       alt="image"
-                      src="/Icons Imported/brightness_1.svg"
+                      src="/brightness_1.svg"
                       className="creator-studio-teams-role-badges-image20"
                     />
                     <label className="creator-studio-teams-role-badges-text122">
@@ -817,7 +821,7 @@ const CreatorStudioTeamsRoleBadges = (props) => {
                   >
                     <img
                       alt="image"
-                      src="/Icons Imported/person_add.svg"
+                      src="/person_add.svg"
                       className="creator-studio-teams-role-badges-image22"
                     />
                     <span className="creator-studio-teams-role-badges-text128">

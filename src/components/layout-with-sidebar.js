@@ -99,7 +99,7 @@ const LayoutWithSidebar = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/Icons Imported/category_300.svg"
+                          src="/category_300.svg"
                           className="layout-with-sidebar-image"
                         />
                         <span className="layout-with-sidebar-text">
@@ -114,7 +114,7 @@ const LayoutWithSidebar = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/Icons Imported/deblur.svg"
+                          src="/deblur.svg"
                           className="layout-with-sidebar-image01"
                         />
                         <span className="layout-with-sidebar-text01">
@@ -267,7 +267,7 @@ const LayoutWithSidebar = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/Icons Imported/category_300.svg"
+                          src="/category_300.svg"
                           className="layout-with-sidebar-image08"
                         />
                         <span className="layout-with-sidebar-text08">
@@ -282,7 +282,7 @@ const LayoutWithSidebar = (props) => {
                       >
                         <img
                           alt="image"
-                          src="/Icons Imported/deblur.svg"
+                          src="/deblur.svg"
                           className="layout-with-sidebar-image09"
                         />
                         <span className="layout-with-sidebar-text09">
