@@ -9,7 +9,7 @@
     "react-router-dom": "^5.2.0",
     "react-helmet": "^6.1.0",
     "dangerous-html": "0.1.13",
-    "prop-types": "15.7.2"
+    "prop-types": "15.8.1"
   },
   "scripts": {
     "start": "craco start",
